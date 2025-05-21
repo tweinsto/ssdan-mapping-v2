@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>South Dakota Population Overview</title>
+  <style>
+    body {
+      margin: 2rem;
+      font-family: sans-serif;
+    }
+    #wrapper {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+    iframe {
+      border: none;
+    }
+    .map-column {
+      width: 60%;
+    }
+    .chart-column {
+      width: 40%;
+    }
+  </style>
+</head>
+<body>
+  <h1>South Dakota – County Map and Population Growth 2000-2023</h1>
+
+  <div id="wrapper">
+    <div class="map-column">
+      <iframe
+        src="../maps/46_county_map.html"
+        title="County Map"
+        style="width: 100%; height: 500px;">
+      </iframe>
+    </div>
+
+    <div class="chart-column">
+      <iframe
+        src="../pop-charts/46_chart.html"
+        title="Population Chart"
+        style="width: 100%; height: 300px;">
+      </iframe>
+
+      <div style="padding-top: 1rem;">
+        <h3>State Notes</h3>
+        <p>Most of present-day North and South Dakota was acquired as part of the Louisiana Purchase of 1803, and was included in Louisiana (soon renamed Missouri) Territory.  The part generally west of the Missouri River remained in Missouri Territory until becoming part of Nebraska Territory, formed in 1854.  The portion east of the Missouri because successively  part of Michigan Territory (1834), Wisconsin Territory (1836), Iowa Territory (1838), and Minnesota Territory (1849).  After Minnesota became a State in 1858, this area remained unorganized until Dakota Territory was established in 1861, including all of the present-day Dakotas as well as most of Montana and the northern half of Wyoming.  After 1868 Dakota Territory corresponded to the present two States, plus an area transferred to Nebraska in 1882.  South Dakota (like North Dakota) was admitted as a State on November 2, 1889 with essentially its present boundaries.</p>
+      </div>
+
+      <div style="padding-top: 1rem;">
+        <h3>Population Rankings by County</h3>
+        <iframe
+          src="../county_rankings/46_counties.html"
+          title="County Table"
+          style="width: 100%; height: 300px;">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

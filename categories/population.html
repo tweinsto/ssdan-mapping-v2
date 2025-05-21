@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Population Growth</title>
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      color: #4576a7;
+    }
+    h3 {
+      font-size: 1rem;
+      margin-bottom: 2rem;
+      margin-top: -3rem;
+      color: #4576a7;
+    }
+
+    .main-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .map-rankings-container {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .map-frame {
+      width: 60%;
+      height: 500px;
+       border: 2px solid #cccccc; /* Add this */
+  border-radius: 8px;         /* Optional: rounded corners */
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+  margin-right: 1rem;
+
+    }
+
+   .right-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* was 2rem */
+  width: 40%;
+}
+
+    .link-list {
+      display: flex;
+      
+      flex-direction: column;
+      gap: 0.75rem;
+      background-color: #ffffff;
+      padding: 1rem;
+      border-radius: 15px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .link-list a {
+      text-decoration: none;
+      color: #0066cc;
+      font-size: 1rem;
+    }
+
+    .link-list a:hover {
+      text-decoration: underline;
+    }
+
+    .rankings-section {
+      display: flex;
+  
+    }
+
+    .rankings-section iframe {
+      height: 300px;
+      width: 80%;
+      border: none;
+      margin-top: -3rem;
+      
+    }
+  </style>
+</head>
+<body>
+  <h1>Population Growth in the United States (2000–2023)</h1>
+  <h2>Click a state to explore further!</h2>
+
+  <div class="main-wrapper">
+    <div class="map-rankings-container">
+      <!-- Map -->
+      <iframe
+        class="map-frame"
+        src="population_map.html"
+        title="Population Map">
+      </iframe>
+
+      <!-- Right Panel with Menu and Rankings -->
+      <div class="right-panel">
+        <!-- Menu -->
+        <div class="link-list">
+          <h4>Explore Age-Based Population Data for 2023:</h4>
+          <a href="median-age.html">• Median Age</a>
+          <a href="seventy-plus.html">• Elderly (Age 65+)</a>
+          <a href="male+female-18-24.html">• Pop 18–24</a>
+        </div>
+
+        <!-- Rankings -->
+         <h3 style="margin-top: 2rem; margin-left: 6rem; color: #333;">
+  Population & Growth Rankings by State
+</h3>
+
+        <div class="rankings-section">
+          <iframe src="pop-ranks.html" title="Population Rankings"></iframe>
+          <iframe src="growth-rates.html" title="Growth Rankings"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

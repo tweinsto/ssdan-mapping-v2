@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Wyoming Population Overview</title>
+  <style>
+    body {
+      margin: 2rem;
+      font-family: sans-serif;
+    }
+    #wrapper {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+    iframe {
+      border: none;
+    }
+    .map-column {
+      width: 60%;
+    }
+    .chart-column {
+      width: 40%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Wyoming – County Map and Population Growth 2000-2023</h1>
+
+  <div id="wrapper">
+    <div class="map-column">
+      <iframe
+        src="../maps/56_county_map.html"
+        title="County Map"
+        style="width: 100%; height: 500px;">
+      </iframe>
+    </div>
+
+    <div class="chart-column">
+      <iframe
+        src="../pop-charts/56_chart.html"
+        title="Population Chart"
+        style="width: 100%; height: 300px;">
+      </iframe>
+
+      <div style="padding-top: 1rem;">
+        <h3>State Notes</h3>
+        <p>Although most of Wyoming was acquired as early as the Louisiana Purchase of 1803, organized government began with the establishment of Oregon, Nebraska, and Utah Territories (1848-54).  Later the area was included in Idaho, Dakota, and Utah Territories until Wyoming Territory was established in 1868 with the present State boundaries.  Wyoming was admitted as a State on July 10, 1890.</p>
+      </div>
+
+      <div style="padding-top: 1rem;">
+        <h3>Population Rankings by County</h3>
+        <iframe
+          src="../county_rankings/56_counties.html"
+          title="County Table"
+          style="width: 100%; height: 300px;">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

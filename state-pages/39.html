@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ohio Population Overview</title>
+  <style>
+    body {
+      margin: 2rem;
+      font-family: sans-serif;
+    }
+    #wrapper {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+    iframe {
+      border: none;
+    }
+    .map-column {
+      width: 60%;
+    }
+    .chart-column {
+      width: 40%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ohio – County Map and Population Growth 2000-2023</h1>
+
+  <div id="wrapper">
+    <div class="map-column">
+      <iframe
+        src="../maps/39_county_map.html"
+        title="County Map"
+        style="width: 100%; height: 500px;">
+      </iframe>
+    </div>
+
+    <div class="chart-column">
+      <iframe
+        src="../pop-charts/39_chart.html"
+        title="Population Chart"
+        style="width: 100%; height: 300px;">
+      </iframe>
+
+      <div style="padding-top: 1rem;">
+        <h3>State Notes</h3>
+        <p>Ohio was part of the Territory Northwest of the River Ohio, established in 1787 and commonly known as the Northwest Territory.  Besides present-day Ohio it included what are now Indiana, Illinois, Michigan, Wisconsin, and northeastern Minnesota.  In 1800, with the creation of Indiana Territory, the Northwest Territory was reduced essentially to present-day Ohio, a small portion of southeastern Indiana, and the eastern half of lower Michigan.  Ohio became a separate territory in 1802 and was admitted as a State on March 1, 1803, with its present boundaries except for a much-disputed strip along the northwestern border. This strip was governed by Michigan Territory until finally ceded to Ohio in 1836.</p>
+      </div>
+
+      <div style="padding-top: 1rem;">
+        <h3>Population Rankings by County</h3>
+        <iframe
+          src="../county_rankings/39_counties.html"
+          title="County Table"
+          style="width: 100%; height: 300px;">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

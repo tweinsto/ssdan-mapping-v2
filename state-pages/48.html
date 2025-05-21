@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Texas Population Overview</title>
+  <style>
+    body {
+      margin: 2rem;
+      font-family: sans-serif;
+    }
+    #wrapper {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+    iframe {
+      border: none;
+    }
+    .map-column {
+      width: 60%;
+    }
+    .chart-column {
+      width: 40%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Texas – County Map and Population Growth 2000-2023</h1>
+
+  <div id="wrapper">
+    <div class="map-column">
+      <iframe
+        src="../maps/48_county_map.html"
+        title="County Map"
+        style="width: 100%; height: 500px;">
+      </iframe>
+    </div>
+
+    <div class="chart-column">
+      <iframe
+        src="../pop-charts/48_chart.html"
+        title="Population Chart"
+        style="width: 100%; height: 300px;">
+      </iframe>
+
+      <div style="padding-top: 1rem;">
+        <h3>State Notes</h3>
+        <p>Texas was part of Mexico until its revolution in 1835-36 made it an independent republic, with a territory somewhat larger than the present State.  It became part of the United States and was admitted as a State on December 29, 1845.  It reached essentially its present boundaries in 1850, after the sale to the United States of an extensive northwestern area.  In 1896 a long-standing dispute over what is now Greer County, Oklahoma was decided against Texas by the U.S. Supreme Court.  In 1930 a Supreme Court decision transferred from Oklahoma to Texas a narrow strip on the eastern side of the Texas Panhandle.  Beginning in 1905, international treaties and conventions have exchanged small tracts along the Rio Grande with Mexico, notably in and adjacent to the city of El Paso.</p>
+      </div>
+
+      <div style="padding-top: 1rem;">
+        <h3>Population Rankings by County</h3>
+        <iframe
+          src="../county_rankings/48_counties.html"
+          title="County Table"
+          style="width: 100%; height: 300px;">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

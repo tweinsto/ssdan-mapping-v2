@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Maryland Population Overview</title>
+  <style>
+    body {
+      margin: 2rem;
+      font-family: sans-serif;
+    }
+    #wrapper {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+    iframe {
+      border: none;
+    }
+    .map-column {
+      width: 60%;
+    }
+    .chart-column {
+      width: 40%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Maryland – County Map and Population Growth 2000-2023</h1>
+
+  <div id="wrapper">
+    <div class="map-column">
+      <iframe
+        src="../maps/24_county_map.html"
+        title="County Map"
+        style="width: 100%; height: 500px;">
+      </iframe>
+    </div>
+
+    <div class="chart-column">
+      <iframe
+        src="../pop-charts/24_chart.html"
+        title="Population Chart"
+        style="width: 100%; height: 300px;">
+      </iframe>
+
+      <div style="padding-top: 1rem;">
+        <h3>State Notes</h3>
+        <p>Maryland was one of the 13 original States.  It helped form the District of Columbia in 1791; its boundaries have been substantially unchanged since then, although the Maryland-West Virginia boundary was in dispute as late as 1910.</p>
+      </div>
+
+      <div style="padding-top: 1rem;">
+        <h3>Population Rankings by County</h3>
+        <iframe
+          src="../county_rankings/24_counties.html"
+          title="County Table"
+          style="width: 100%; height: 300px;">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SSDAN Mapping Tool</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: sans-serif;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: #f2f2f2;
+    }
+
+    header {
+      background-color: #3e49a8;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .menu {
+      display: flex;
+      justify-content: center;
+      background-color: #453c3c;
+      padding: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .menu button {
+      margin: 0 0.3rem;
+      padding: 0.3rem 0.7rem;
+      font-size: 0.8rem;
+      background-color: white;
+      font-weight: bold;
+      border-radius: 4px;
+      border: none;
+    }
+
+    .menu button.active {
+      background-color: #3e49a8;
+      color: white;
+    }
+
+    #content {
+      flex: 1;
+      padding: 1rem;
+      background-color: white;
+      overflow-y: auto;
+    }
+
+    footer {
+      background-color: #453c3c;
+      color: white;
+      text-align: center;
+      padding: 0.6rem;
+      font-size: 0.85rem;
+    }
+
+    footer a {
+      color: white;
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Explore Social & Economic Change in the United States
+  </header>
+
+  <div class="menu">
+    <button class="category-btn active" data-page="population.html">Population</button>
+    <button class="category-btn" data-page="race.html">Race & Ethnicity</button>
+    <button class="category-btn" data-page="poverty.html">Poverty</button>
+    <button class="category-btn" data-page="earnings.html">Earnings</button>
+  </div>
+
+  <div id="content">
+    <!-- 👉 INSERT your real content here (charts, map iframes, dropdowns, etc.) -->
+
+    <h2>Welcome to the SSDAN Mapping Tool</h2>
+    <iframe src="your-map.html" style="width:100%; height:500px; border:none;"></iframe>
+    <img src="your-chart.png" style="width:100%; margin-top: 1rem;">
+    
+    <!-- Add more content here -->
+  </div>
+
+  <footer>
+    <a href="index.html">Home</a>
+    <a href="#">About</a>
+    <a href="#">Help</a>
+    <a href="#">Contact</a>
+    <a href="#">Use</a>
+    <a href="#">Policy</a>
+    <a href="#">Source</a>
+  </footer>
+
+  <script>
+    function loadPage(page) {
+      fetch('categories/' + page)
+        .then(res => res.text())
+        .then(html => {
+          document.getElementById("content").innerHTML = html;
+        });
+    }
+
+    window.onload = () => {
+      loadPage('population.html');
+    };
+
+    document.querySelectorAll(".category-btn").forEach(btn => {
+      btn.addEventListener("click", function () {
+        document.querySelectorAll(".category-btn").forEach(b => b.classList.remove("active"));
+        this.classList.add("active");
+        loadPage(this.getAttribute("data-page"));
+      });
+    });
+  </script>
+
+</body>
+</html>
