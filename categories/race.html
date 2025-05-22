@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Race & Ethnicity</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    .top-menu {
+      background-color: #4a142e;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    .top-menu a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      background-color: #000000;
+    }
+
+    .top-menu a.active {
+      background-color: #ffffff;
+      color: #3e49a8;
+    }
+
+    iframe {
+      width: 100%;
+      height: calc(100vh - 80px);
+      border: none;
+    }
+  </style>
+</head>
+<script>
+  const links = document.querySelectorAll(".menu-link");
+  const frame = document.getElementById("raceFrame");
+
+  // Set up click behavior
+  links.forEach(link => {
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+      const src = this.dataset.src;
+
+      // Update iframe
+      frame.src = src;
+
+      // Push to browser history
+      history.pushState({ iframeSrc: src }, "", "#" + src);
+
+      // Update menu highlighting
+      links.forEach(l => l.classList.remove("active"));
+      this.classList.add("active");
+    });
+  });
+
+  // On page load: check if a hash is present
+  window.addEventListener("load", () => {
+    const hashSrc = window.location.hash.replace("#", "");
+    if (hashSrc) {
+      frame.src = hashSrc;
+      links.forEach(l => {
+        if (l.dataset.src === hashSrc) {
+          l.classList.add("active");
+        } else {
+          l.classList.remove("active");
+        }
+      });
+    }
+  });
+
+  // Handle back/forward buttons
+  window.addEventListener("popstate", event => {
+    if (event.state && event.state.iframeSrc) {
+      frame.src = event.state.iframeSrc;
+      links.forEach(l => {
+        if (l.dataset.src === event.state.iframeSrc) {
+          l.classList.add("active");
+        } else {
+          l.classList.remove("active");
+        }
+      });
+    }
+  });
+</script>
+<body>
+
+  <div class="top-menu">
+  <a href="#" class="menu-link active" data-src="raceeth-2023/race-2023.html">2023</a>
+  <a href="#" class="menu-link" data-src="raceeth-2023/race-2018-2023.html">2018–2023</a>
+  <a href="#" class="menu-link" data-src="raceeth-2023/race-2000-2023.html">2000–2023</a>
+</div>
+
+<iframe id="raceFrame" src="raceeth-2023/race-2023.html"></iframe>
+</body>
+</html>

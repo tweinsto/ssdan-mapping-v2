@@ -84,8 +84,8 @@
   <div class="menu">
     <button class="category-btn active" data-page="population.html">Population</button>
     <button class="category-btn" data-page="race.html">Race & Ethnicity</button>
-    <button class="category-btn" data-page="poverty.html">Poverty</button>
-    <button class="category-btn" data-page="earnings.html">Earnings</button>
+    <button class="category-btn" data-page="earnings_poverty.html">Earnings/Poverty</button>
+    <button class="category-btn" data-page="misc.html">Misc</button>
   </div>
 
   <div id="content">
@@ -109,26 +109,35 @@
   </footer>
 
   <script>
-    function loadPage(page) {
-      fetch('categories/' + page)
-        .then(res => res.text())
-        .then(html => {
-          document.getElementById("content").innerHTML = html;
-        });
-    }
-
-    window.onload = () => {
-      loadPage('population.html');
-    };
-
-    document.querySelectorAll(".category-btn").forEach(btn => {
-      btn.addEventListener("click", function () {
-        document.querySelectorAll(".category-btn").forEach(b => b.classList.remove("active"));
-        this.classList.add("active");
-        loadPage(this.getAttribute("data-page"));
+  function loadPage(page) {
+    fetch('categories/' + page)
+      .then(res => res.text())
+      .then(html => {
+        document.getElementById("content").innerHTML = html;
       });
+  }
+
+  window.onload = () => {
+    const initialPage = window.location.hash.slice(1) || 'population.html';
+    loadPage(initialPage);
+  };
+
+  document.querySelectorAll(".category-btn").forEach(btn => {
+    btn.addEventListener("click", function () {
+      document.querySelectorAll(".category-btn").forEach(b => b.classList.remove("active"));
+      this.classList.add("active");
+      const page = this.getAttribute("data-page");
+      loadPage(page);
+      history.pushState({ page }, "", "#" + page);
     });
-  </script>
+  });
+
+  window.addEventListener("popstate", function(event) {
+    if (event.state && event.state.page) {
+      loadPage(event.state.page);
+    }
+  });
+</script>
 
 </body>
 </html>
