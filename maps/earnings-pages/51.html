@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Median Earnings and Education – State 51</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 2rem;
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .container {
+      display: flex;
+      gap: 2rem;
+    }
+    .map {
+      flex: 2;
+    }
+    .table-box {
+      flex: 1.2;
+      background-color: white;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      overflow-x: auto;
+    }
+    iframe {
+      width: 100%;
+      height: 550px;
+      border: none;
+    }
+    table {
+      font-size: 0.95rem;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      padding: 6px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>County-Level Median Earnings – State 51 (2023)</h1>
+
+  <div class="container">
+    <div class="map">
+      <iframe src="../earnings-maps/51.html" title="Median Earnings Map – State 51"></iframe>
+    </div>
+    <div class="table-box">
+      <div><strong>Statistics by County Table</strong></div>
+      <table class="table table-striped table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> County </th>
+   <th style="text-align:right;"> Median Earnings ($) </th>
+   <th style="text-align:right;"> % Bachelor's+ </th>
+   <th style="text-align:right;"> % Full-Time </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Accomack County, Virginia </td>
+   <td style="text-align:right;"> 33213 </td>
+   <td style="text-align:right;"> 21.8 </td>
+   <td style="text-align:right;"> 57.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Albemarle County, Virginia </td>
+   <td style="text-align:right;"> 57490 </td>
+   <td style="text-align:right;"> 60.6 </td>
+   <td style="text-align:right;"> 57.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Alleghany County, Virginia </td>
+   <td style="text-align:right;"> 30925 </td>
+   <td style="text-align:right;"> 15.6 </td>
+   <td style="text-align:right;"> 54.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Amelia County, Virginia </td>
+   <td style="text-align:right;"> 33626 </td>
+   <td style="text-align:right;"> 16.8 </td>
+   <td style="text-align:right;"> 55.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Amherst County, Virginia </td>
+   <td style="text-align:right;"> 36275 </td>
+   <td style="text-align:right;"> 23.0 </td>
+   <td style="text-align:right;"> 57.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Appomattox County, Virginia </td>
+   <td style="text-align:right;"> 33468 </td>
+   <td style="text-align:right;"> 20.5 </td>
+   <td style="text-align:right;"> 57.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Arlington County, Virginia </td>
+   <td style="text-align:right;"> 88024 </td>
+   <td style="text-align:right;"> 77.1 </td>
+   <td style="text-align:right;"> 72.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Augusta County, Virginia </td>
+   <td style="text-align:right;"> 37781 </td>
+   <td style="text-align:right;"> 23.3 </td>
+   <td style="text-align:right;"> 61.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Bath County, Virginia </td>
+   <td style="text-align:right;"> 36110 </td>
+   <td style="text-align:right;"> 15.6 </td>
+   <td style="text-align:right;"> 54.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Bedford County, Virginia </td>
+   <td style="text-align:right;"> 42095 </td>
+   <td style="text-align:right;"> 33.6 </td>
+   <td style="text-align:right;"> 55.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Bland County, Virginia </td>
+   <td style="text-align:right;"> 29128 </td>
+   <td style="text-align:right;"> 15.4 </td>
+   <td style="text-align:right;"> 46.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Botetourt County, Virginia </td>
+   <td style="text-align:right;"> 41322 </td>
+   <td style="text-align:right;"> 27.5 </td>
+   <td style="text-align:right;"> 58.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Brunswick County, Virginia </td>
+   <td style="text-align:right;"> 29171 </td>
+   <td style="text-align:right;"> 15.6 </td>
+   <td style="text-align:right;"> 49.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Buchanan County, Virginia </td>
+   <td style="text-align:right;"> 26203 </td>
+   <td style="text-align:right;"> 10.8 </td>
+   <td style="text-align:right;"> 36.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Buckingham County, Virginia </td>
+   <td style="text-align:right;"> 28353 </td>
+   <td style="text-align:right;"> 13.5 </td>
+   <td style="text-align:right;"> 45.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Campbell County, Virginia </td>
+   <td style="text-align:right;"> 33847 </td>
+   <td style="text-align:right;"> 25.7 </td>
+   <td style="text-align:right;"> 56.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Caroline County, Virginia </td>
+   <td style="text-align:right;"> 38847 </td>
+   <td style="text-align:right;"> 23.2 </td>
+   <td style="text-align:right;"> 63.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Carroll County, Virginia </td>
+   <td style="text-align:right;"> 29946 </td>
+   <td style="text-align:right;"> 16.7 </td>
+   <td style="text-align:right;"> 54.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Charles City County, Virginia </td>
+   <td style="text-align:right;"> 41266 </td>
+   <td style="text-align:right;"> 16.0 </td>
+   <td style="text-align:right;"> 59.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Charlotte County, Virginia </td>
+   <td style="text-align:right;"> 28682 </td>
+   <td style="text-align:right;"> 18.7 </td>
+   <td style="text-align:right;"> 49.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Chesterfield County, Virginia </td>
+   <td style="text-align:right;"> 46772 </td>
+   <td style="text-align:right;"> 42.7 </td>
+   <td style="text-align:right;"> 62.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Clarke County, Virginia </td>
+   <td style="text-align:right;"> 54763 </td>
+   <td style="text-align:right;"> 37.3 </td>
+   <td style="text-align:right;"> 58.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Craig County, Virginia </td>
+   <td style="text-align:right;"> 34122 </td>
+   <td style="text-align:right;"> 17.3 </td>
+   <td style="text-align:right;"> 58.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Culpeper County, Virginia </td>
+   <td style="text-align:right;"> 40304 </td>
+   <td style="text-align:right;"> 26.4 </td>
+   <td style="text-align:right;"> 59.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Cumberland County, Virginia </td>
+   <td style="text-align:right;"> 36142 </td>
+   <td style="text-align:right;"> 18.2 </td>
+   <td style="text-align:right;"> 61.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Dickenson County, Virginia </td>
+   <td style="text-align:right;"> 26070 </td>
+   <td style="text-align:right;"> 10.7 </td>
+   <td style="text-align:right;"> 45.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Dinwiddie County, Virginia </td>
+   <td style="text-align:right;"> 37955 </td>
+   <td style="text-align:right;"> 20.5 </td>
+   <td style="text-align:right;"> 60.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Essex County, Virginia </td>
+   <td style="text-align:right;"> 32839 </td>
+   <td style="text-align:right;"> 17.5 </td>
+   <td style="text-align:right;"> 45.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Fairfax County, Virginia </td>
+   <td style="text-align:right;"> 69971 </td>
+   <td style="text-align:right;"> 64.3 </td>
+   <td style="text-align:right;"> 63.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Fauquier County, Virginia </td>
+   <td style="text-align:right;"> 55864 </td>
+   <td style="text-align:right;"> 39.7 </td>
+   <td style="text-align:right;"> 62.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Floyd County, Virginia </td>
+   <td style="text-align:right;"> 36681 </td>
+   <td style="text-align:right;"> 23.0 </td>
+   <td style="text-align:right;"> 58.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Fluvanna County, Virginia </td>
+   <td style="text-align:right;"> 42987 </td>
+   <td style="text-align:right;"> 35.6 </td>
+   <td style="text-align:right;"> 59.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Franklin County, Virginia </td>
+   <td style="text-align:right;"> 38202 </td>
+   <td style="text-align:right;"> 24.3 </td>
+   <td style="text-align:right;"> 55.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Frederick County, Virginia </td>
+   <td style="text-align:right;"> 45248 </td>
+   <td style="text-align:right;"> 30.3 </td>
+   <td style="text-align:right;"> 61.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Giles County, Virginia </td>
+   <td style="text-align:right;"> 33792 </td>
+   <td style="text-align:right;"> 18.0 </td>
+   <td style="text-align:right;"> 57.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Gloucester County, Virginia </td>
+   <td style="text-align:right;"> 40924 </td>
+   <td style="text-align:right;"> 25.9 </td>
+   <td style="text-align:right;"> 57.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Goochland County, Virginia </td>
+   <td style="text-align:right;"> 68258 </td>
+   <td style="text-align:right;"> 47.0 </td>
+   <td style="text-align:right;"> 56.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Grayson County, Virginia </td>
+   <td style="text-align:right;"> 27087 </td>
+   <td style="text-align:right;"> 13.9 </td>
+   <td style="text-align:right;"> 47.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Greene County, Virginia </td>
+   <td style="text-align:right;"> 41541 </td>
+   <td style="text-align:right;"> 28.5 </td>
+   <td style="text-align:right;"> 65.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Greensville County, Virginia </td>
+   <td style="text-align:right;"> 23125 </td>
+   <td style="text-align:right;"> 13.8 </td>
+   <td style="text-align:right;"> 36.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Halifax County, Virginia </td>
+   <td style="text-align:right;"> 27115 </td>
+   <td style="text-align:right;"> 18.2 </td>
+   <td style="text-align:right;"> 49.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Hanover County, Virginia </td>
+   <td style="text-align:right;"> 51509 </td>
+   <td style="text-align:right;"> 42.4 </td>
+   <td style="text-align:right;"> 61.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Henrico County, Virginia </td>
+   <td style="text-align:right;"> 50277 </td>
+   <td style="text-align:right;"> 45.7 </td>
+   <td style="text-align:right;"> 63.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Henry County, Virginia </td>
+   <td style="text-align:right;"> 28644 </td>
+   <td style="text-align:right;"> 15.7 </td>
+   <td style="text-align:right;"> 54.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Highland County, Virginia </td>
+   <td style="text-align:right;"> 35262 </td>
+   <td style="text-align:right;"> 35.5 </td>
+   <td style="text-align:right;"> 48.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Isle of Wight County, Virginia </td>
+   <td style="text-align:right;"> 47674 </td>
+   <td style="text-align:right;"> 29.9 </td>
+   <td style="text-align:right;"> 62.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> James City County, Virginia </td>
+   <td style="text-align:right;"> 53887 </td>
+   <td style="text-align:right;"> 50.2 </td>
+   <td style="text-align:right;"> 58.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> King and Queen County, Virginia </td>
+   <td style="text-align:right;"> 39622 </td>
+   <td style="text-align:right;"> 19.5 </td>
+   <td style="text-align:right;"> 56.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> King George County, Virginia </td>
+   <td style="text-align:right;"> 47046 </td>
+   <td style="text-align:right;"> 35.8 </td>
+   <td style="text-align:right;"> 64.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> King William County, Virginia </td>
+   <td style="text-align:right;"> 38965 </td>
+   <td style="text-align:right;"> 24.3 </td>
+   <td style="text-align:right;"> 67.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Lancaster County, Virginia </td>
+   <td style="text-align:right;"> 49384 </td>
+   <td style="text-align:right;"> 37.4 </td>
+   <td style="text-align:right;"> 54.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Lee County, Virginia </td>
+   <td style="text-align:right;"> 25439 </td>
+   <td style="text-align:right;"> 12.7 </td>
+   <td style="text-align:right;"> 37.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Loudoun County, Virginia </td>
+   <td style="text-align:right;"> 70133 </td>
+   <td style="text-align:right;"> 64.0 </td>
+   <td style="text-align:right;"> 65.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Louisa County, Virginia </td>
+   <td style="text-align:right;"> 42793 </td>
+   <td style="text-align:right;"> 27.7 </td>
+   <td style="text-align:right;"> 59.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Lunenburg County, Virginia </td>
+   <td style="text-align:right;"> 26539 </td>
+   <td style="text-align:right;"> 11.2 </td>
+   <td style="text-align:right;"> 43.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Madison County, Virginia </td>
+   <td style="text-align:right;"> 40022 </td>
+   <td style="text-align:right;"> 27.6 </td>
+   <td style="text-align:right;"> 58.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Mathews County, Virginia </td>
+   <td style="text-align:right;"> 45767 </td>
+   <td style="text-align:right;"> 30.1 </td>
+   <td style="text-align:right;"> 46.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Mecklenburg County, Virginia </td>
+   <td style="text-align:right;"> 33014 </td>
+   <td style="text-align:right;"> 21.2 </td>
+   <td style="text-align:right;"> 54.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Middlesex County, Virginia </td>
+   <td style="text-align:right;"> 40661 </td>
+   <td style="text-align:right;"> 31.6 </td>
+   <td style="text-align:right;"> 53.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Montgomery County, Virginia </td>
+   <td style="text-align:right;"> 36009 </td>
+   <td style="text-align:right;"> 48.4 </td>
+   <td style="text-align:right;"> 43.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Nelson County, Virginia </td>
+   <td style="text-align:right;"> 45251 </td>
+   <td style="text-align:right;"> 33.7 </td>
+   <td style="text-align:right;"> 52.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> New Kent County, Virginia </td>
+   <td style="text-align:right;"> 51609 </td>
+   <td style="text-align:right;"> 35.5 </td>
+   <td style="text-align:right;"> 63.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Northampton County, Virginia </td>
+   <td style="text-align:right;"> 38934 </td>
+   <td style="text-align:right;"> 32.5 </td>
+   <td style="text-align:right;"> 54.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Northumberland County, Virginia </td>
+   <td style="text-align:right;"> 47191 </td>
+   <td style="text-align:right;"> 33.9 </td>
+   <td style="text-align:right;"> 51.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Nottoway County, Virginia </td>
+   <td style="text-align:right;"> 25832 </td>
+   <td style="text-align:right;"> 16.8 </td>
+   <td style="text-align:right;"> 47.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Orange County, Virginia </td>
+   <td style="text-align:right;"> 45021 </td>
+   <td style="text-align:right;"> 29.4 </td>
+   <td style="text-align:right;"> 60.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Page County, Virginia </td>
+   <td style="text-align:right;"> 31006 </td>
+   <td style="text-align:right;"> 15.2 </td>
+   <td style="text-align:right;"> 58.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Patrick County, Virginia </td>
+   <td style="text-align:right;"> 32864 </td>
+   <td style="text-align:right;"> 15.2 </td>
+   <td style="text-align:right;"> 56.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Pittsylvania County, Virginia </td>
+   <td style="text-align:right;"> 30209 </td>
+   <td style="text-align:right;"> 15.4 </td>
+   <td style="text-align:right;"> 52.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Powhatan County, Virginia </td>
+   <td style="text-align:right;"> 48796 </td>
+   <td style="text-align:right;"> 34.2 </td>
+   <td style="text-align:right;"> 58.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Prince Edward County, Virginia </td>
+   <td style="text-align:right;"> 25782 </td>
+   <td style="text-align:right;"> 24.2 </td>
+   <td style="text-align:right;"> 38.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Prince George County, Virginia </td>
+   <td style="text-align:right;"> 33937 </td>
+   <td style="text-align:right;"> 24.0 </td>
+   <td style="text-align:right;"> 54.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Prince William County, Virginia </td>
+   <td style="text-align:right;"> 50883 </td>
+   <td style="text-align:right;"> 44.5 </td>
+   <td style="text-align:right;"> 62.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Pulaski County, Virginia </td>
+   <td style="text-align:right;"> 35650 </td>
+   <td style="text-align:right;"> 21.4 </td>
+   <td style="text-align:right;"> 54.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Rappahannock County, Virginia </td>
+   <td style="text-align:right;"> 57136 </td>
+   <td style="text-align:right;"> 35.6 </td>
+   <td style="text-align:right;"> 57.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Richmond County, Virginia </td>
+   <td style="text-align:right;"> 27687 </td>
+   <td style="text-align:right;"> 17.4 </td>
+   <td style="text-align:right;"> 47.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Roanoke County, Virginia </td>
+   <td style="text-align:right;"> 44817 </td>
+   <td style="text-align:right;"> 37.4 </td>
+   <td style="text-align:right;"> 59.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Rockbridge County, Virginia </td>
+   <td style="text-align:right;"> 37739 </td>
+   <td style="text-align:right;"> 31.5 </td>
+   <td style="text-align:right;"> 58.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Rockingham County, Virginia </td>
+   <td style="text-align:right;"> 39011 </td>
+   <td style="text-align:right;"> 28.4 </td>
+   <td style="text-align:right;"> 60.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Russell County, Virginia </td>
+   <td style="text-align:right;"> 28484 </td>
+   <td style="text-align:right;"> 14.1 </td>
+   <td style="text-align:right;"> 44.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Scott County, Virginia </td>
+   <td style="text-align:right;"> 28009 </td>
+   <td style="text-align:right;"> 14.2 </td>
+   <td style="text-align:right;"> 49.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Shenandoah County, Virginia </td>
+   <td style="text-align:right;"> 35360 </td>
+   <td style="text-align:right;"> 21.4 </td>
+   <td style="text-align:right;"> 60.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Smyth County, Virginia </td>
+   <td style="text-align:right;"> 29369 </td>
+   <td style="text-align:right;"> 18.1 </td>
+   <td style="text-align:right;"> 52.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Southampton County, Virginia </td>
+   <td style="text-align:right;"> 32981 </td>
+   <td style="text-align:right;"> 18.6 </td>
+   <td style="text-align:right;"> 54.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Spotsylvania County, Virginia </td>
+   <td style="text-align:right;"> 46837 </td>
+   <td style="text-align:right;"> 33.8 </td>
+   <td style="text-align:right;"> 61.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Stafford County, Virginia </td>
+   <td style="text-align:right;"> 51999 </td>
+   <td style="text-align:right;"> 43.3 </td>
+   <td style="text-align:right;"> 61.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Surry County, Virginia </td>
+   <td style="text-align:right;"> 38105 </td>
+   <td style="text-align:right;"> 25.4 </td>
+   <td style="text-align:right;"> 55.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Sussex County, Virginia </td>
+   <td style="text-align:right;"> 30457 </td>
+   <td style="text-align:right;"> 15.8 </td>
+   <td style="text-align:right;"> 47.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Tazewell County, Virginia </td>
+   <td style="text-align:right;"> 28604 </td>
+   <td style="text-align:right;"> 16.4 </td>
+   <td style="text-align:right;"> 44.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Warren County, Virginia </td>
+   <td style="text-align:right;"> 39834 </td>
+   <td style="text-align:right;"> 24.5 </td>
+   <td style="text-align:right;"> 57.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Washington County, Virginia </td>
+   <td style="text-align:right;"> 38582 </td>
+   <td style="text-align:right;"> 26.5 </td>
+   <td style="text-align:right;"> 53.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Westmoreland County, Virginia </td>
+   <td style="text-align:right;"> 37305 </td>
+   <td style="text-align:right;"> 19.7 </td>
+   <td style="text-align:right;"> 51.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Wise County, Virginia </td>
+   <td style="text-align:right;"> 24622 </td>
+   <td style="text-align:right;"> 15.6 </td>
+   <td style="text-align:right;"> 42.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Wythe County, Virginia </td>
+   <td style="text-align:right;"> 33564 </td>
+   <td style="text-align:right;"> 19.7 </td>
+   <td style="text-align:right;"> 53.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> York County, Virginia </td>
+   <td style="text-align:right;"> 51183 </td>
+   <td style="text-align:right;"> 50.0 </td>
+   <td style="text-align:right;"> 64.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Alexandria city, Virginia </td>
+   <td style="text-align:right;"> 77935 </td>
+   <td style="text-align:right;"> 65.8 </td>
+   <td style="text-align:right;"> 72.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Bristol city, Virginia </td>
+   <td style="text-align:right;"> 29646 </td>
+   <td style="text-align:right;"> 23.9 </td>
+   <td style="text-align:right;"> 57.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Buena Vista city, Virginia </td>
+   <td style="text-align:right;"> 33175 </td>
+   <td style="text-align:right;"> 24.7 </td>
+   <td style="text-align:right;"> 46.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Charlottesville city, Virginia </td>
+   <td style="text-align:right;"> 48395 </td>
+   <td style="text-align:right;"> 60.6 </td>
+   <td style="text-align:right;"> 51.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Chesapeake city, Virginia </td>
+   <td style="text-align:right;"> 43819 </td>
+   <td style="text-align:right;"> 36.4 </td>
+   <td style="text-align:right;"> 59.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Colonial Heights city, Virginia </td>
+   <td style="text-align:right;"> 38272 </td>
+   <td style="text-align:right;"> 29.5 </td>
+   <td style="text-align:right;"> 59.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Covington city, Virginia </td>
+   <td style="text-align:right;"> 24067 </td>
+   <td style="text-align:right;"> 9.6 </td>
+   <td style="text-align:right;"> 43.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Danville city, Virginia </td>
+   <td style="text-align:right;"> 27537 </td>
+   <td style="text-align:right;"> 18.3 </td>
+   <td style="text-align:right;"> 48.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Emporia city, Virginia </td>
+   <td style="text-align:right;"> 25570 </td>
+   <td style="text-align:right;"> 15.2 </td>
+   <td style="text-align:right;"> 47.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Fairfax city, Virginia </td>
+   <td style="text-align:right;"> 62800 </td>
+   <td style="text-align:right;"> 62.3 </td>
+   <td style="text-align:right;"> 62.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Falls Church city, Virginia </td>
+   <td style="text-align:right;"> 85077 </td>
+   <td style="text-align:right;"> 79.7 </td>
+   <td style="text-align:right;"> 64.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Franklin city, Virginia </td>
+   <td style="text-align:right;"> 31838 </td>
+   <td style="text-align:right;"> 26.4 </td>
+   <td style="text-align:right;"> 55.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Fredericksburg city, Virginia </td>
+   <td style="text-align:right;"> 46503 </td>
+   <td style="text-align:right;"> 46.8 </td>
+   <td style="text-align:right;"> 56.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Galax city, Virginia </td>
+   <td style="text-align:right;"> 31429 </td>
+   <td style="text-align:right;"> 18.3 </td>
+   <td style="text-align:right;"> 51.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Hampton city, Virginia </td>
+   <td style="text-align:right;"> 36787 </td>
+   <td style="text-align:right;"> 27.5 </td>
+   <td style="text-align:right;"> 58.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Harrisonburg city, Virginia </td>
+   <td style="text-align:right;"> 27957 </td>
+   <td style="text-align:right;"> 36.7 </td>
+   <td style="text-align:right;"> 42.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Hopewell city, Virginia </td>
+   <td style="text-align:right;"> 26626 </td>
+   <td style="text-align:right;"> 12.5 </td>
+   <td style="text-align:right;"> 52.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Lexington city, Virginia </td>
+   <td style="text-align:right;"> 30839 </td>
+   <td style="text-align:right;"> 57.3 </td>
+   <td style="text-align:right;"> 29.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Lynchburg city, Virginia </td>
+   <td style="text-align:right;"> 30004 </td>
+   <td style="text-align:right;"> 38.5 </td>
+   <td style="text-align:right;"> 47.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Manassas city, Virginia </td>
+   <td style="text-align:right;"> 44939 </td>
+   <td style="text-align:right;"> 33.2 </td>
+   <td style="text-align:right;"> 63.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Manassas Park city, Virginia </td>
+   <td style="text-align:right;"> 43662 </td>
+   <td style="text-align:right;"> 25.5 </td>
+   <td style="text-align:right;"> 67.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Martinsville city, Virginia </td>
+   <td style="text-align:right;"> 28834 </td>
+   <td style="text-align:right;"> 21.2 </td>
+   <td style="text-align:right;"> 51.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Newport News city, Virginia </td>
+   <td style="text-align:right;"> 37475 </td>
+   <td style="text-align:right;"> 29.1 </td>
+   <td style="text-align:right;"> 61.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Norfolk city, Virginia </td>
+   <td style="text-align:right;"> 37433 </td>
+   <td style="text-align:right;"> 32.7 </td>
+   <td style="text-align:right;"> 60.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Norton city, Virginia </td>
+   <td style="text-align:right;"> 27033 </td>
+   <td style="text-align:right;"> 16.6 </td>
+   <td style="text-align:right;"> 50.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Petersburg city, Virginia </td>
+   <td style="text-align:right;"> 29590 </td>
+   <td style="text-align:right;"> 25.0 </td>
+   <td style="text-align:right;"> 54.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Poquoson city, Virginia </td>
+   <td style="text-align:right;"> 49935 </td>
+   <td style="text-align:right;"> 40.1 </td>
+   <td style="text-align:right;"> 66.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Portsmouth city, Virginia </td>
+   <td style="text-align:right;"> 32915 </td>
+   <td style="text-align:right;"> 23.2 </td>
+   <td style="text-align:right;"> 55.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Radford city, Virginia </td>
+   <td style="text-align:right;"> 25220 </td>
+   <td style="text-align:right;"> 39.8 </td>
+   <td style="text-align:right;"> 35.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Richmond city, Virginia </td>
+   <td style="text-align:right;"> 44249 </td>
+   <td style="text-align:right;"> 44.1 </td>
+   <td style="text-align:right;"> 58.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Roanoke city, Virginia </td>
+   <td style="text-align:right;"> 34792 </td>
+   <td style="text-align:right;"> 28.9 </td>
+   <td style="text-align:right;"> 59.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Salem city, Virginia </td>
+   <td style="text-align:right;"> 38127 </td>
+   <td style="text-align:right;"> 31.1 </td>
+   <td style="text-align:right;"> 56.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Staunton city, Virginia </td>
+   <td style="text-align:right;"> 35941 </td>
+   <td style="text-align:right;"> 35.1 </td>
+   <td style="text-align:right;"> 55.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Suffolk city, Virginia </td>
+   <td style="text-align:right;"> 45135 </td>
+   <td style="text-align:right;"> 32.4 </td>
+   <td style="text-align:right;"> 59.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Virginia Beach city, Virginia </td>
+   <td style="text-align:right;"> 47372 </td>
+   <td style="text-align:right;"> 40.4 </td>
+   <td style="text-align:right;"> 62.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Waynesboro city, Virginia </td>
+   <td style="text-align:right;"> 32036 </td>
+   <td style="text-align:right;"> 26.3 </td>
+   <td style="text-align:right;"> 61.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Williamsburg city, Virginia </td>
+   <td style="text-align:right;"> 35732 </td>
+   <td style="text-align:right;"> 48.5 </td>
+   <td style="text-align:right;"> 34.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Winchester city, Virginia </td>
+   <td style="text-align:right;"> 36073 </td>
+   <td style="text-align:right;"> 31.6 </td>
+   <td style="text-align:right;"> 55.4 </td>
+  </tr>
+</tbody>
+</table>
+    </div>
+  </div>
+
+</body>
+</html>

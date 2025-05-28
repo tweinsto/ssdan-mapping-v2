@@ -1,0 +1,1927 @@
+# EARNINGS
+```{r}
+
+library(tidycensus)
+library(dplyr)
+library(sf)
+library(stringr)
+library(leaflet)
+library(RColorBrewer)
+library(htmlwidgets)
+library(tigris)
+
+
+# GET DATA 
+earnings_data <- get_acs(
+  geography = "county",
+  variables = "B19301_001",  
+  year = 2023,
+  survey = "acs5",
+  cache_table = TRUE,
+  geometry = TRUE,
+  cb = TRUE
+) %>%
+  rename(earnings = estimate) %>%
+  mutate(state_fips = str_sub(GEOID, 1, 2)) %>%
+  st_transform(4326)  # ✅ fix NAD83 warning
+
+
+
+
+state_geom <- states(cb = TRUE, year = 2023) %>%
+  filter(!STATEFP %in% c("72", "78")) %>%
+  select(state_fips = STATEFP, geometry) %>%
+  mutate(link = paste0("earnings-pages/", state_fips, ".html"))
+
+# -------------------- STEP 2: SHIFT FUNCTION --------------------
+
+shift_geometry <- function(sf_obj) {
+  alaska <- sf_obj %>% filter(state_fips == "02") %>% st_transform(2163)
+  hawaii <- sf_obj %>% filter(state_fips == "15") %>% st_transform(2163)
+  mainland <- sf_obj %>% filter(!state_fips %in% c("02", "15")) %>% st_transform(4326)
+
+  alaska_geom <- st_geometry(alaska) * 0.3 + c(-380000, -3000000)
+  hawaii_geom <- st_geometry(hawaii) * 1.2 + c(4500000, -900000)
+
+  st_crs(alaska_geom) <- 2163
+  st_crs(hawaii_geom) <- 2163
+
+  alaska <- st_set_geometry(alaska, alaska_geom) %>% st_transform(4326)
+  hawaii <- st_set_geometry(hawaii, hawaii_geom) %>% st_transform(4326)
+
+  bind_rows(mainland, alaska, hawaii) %>% st_as_sf()
+}
+
+# -------------------- STEP 3: Apply Shift --------------------
+
+state_geom <- shift_geometry(state_geom)
+earnings_data_shifted <- shift_geometry(earnings_data)
+# -------------------- STEP 4: Create White Mask Outside U.S. --------------------
+
+# Expand world view
+world_box <- st_as_sfc(st_bbox(c(
+  xmin = -180,
+  ymin = -90,
+  xmax = 180,
+  ymax = 90
+)), crs = 4326)
+
+# Make a US bounding box — EXPAND it slightly beyond visible states
+us_box <- st_as_sfc(st_bbox(c(
+  xmin = -130,
+  ymin = 15,
+  xmax = -60,
+  ymax = 55
+)), crs = 4326)
+
+# Use st_make_valid on both to avoid invalid GEOMETRYCOLLECTIONs
+world_box <- st_make_valid(world_box)
+us_box <- st_make_valid(us_box)
+
+# Create white mask as world minus US
+mask_diff <- st_difference(world_box, us_box)
+
+# Extract only polygons — avoid GEOMETRYCOLLECTION issue
+mask_polygon <- st_collection_extract(mask_diff, "POLYGON")
+st_crs(mask_polygon) <- 4326
+
+# Just to be 100% sure it's clean before plotting
+mask_polygon <- st_make_valid(mask_polygon)
+mask_polygon <- st_transform(mask_polygon, 4326)
+
+# -------------------- STEP 5: Color Palette --------------------
+
+valid_earnings <- earnings_data$earnings[!is.na(earnings_data$earnings) & earnings_data$earnings > 0]
+breaks <- pretty(valid_earnings, n = 10)
+num_bins <- length(breaks) - 1
+colors <- colorRampPalette(brewer.pal(9, "BuGn"))(num_bins)
+pal <- colorBin(palette = colors, domain = valid_earnings, bins = breaks)
+
+# -------------------- STEP 6: Build Leaflet Map --------------------
+
+earnings_map <- leaflet(options = leafletOptions(
+  minZoom = 4,
+  maxZoom = 4,
+  zoomControl = FALSE,
+  dragging = FALSE,
+  scrollWheelZoom = FALSE,
+  doubleClickZoom = FALSE
+)) %>%
+  addProviderTiles("CartoDB.PositronNoLabels", options = providerTileOptions(noWrap = TRUE)) %>%
+
+  # White mask
+  addPolygons(
+    data = mask_polygon,
+    fillColor = "white",
+    color = "white",
+    weight = 0,
+    fillOpacity = 1
+  ) %>%
+
+  # County earnings
+  addPolygons(
+    data = earnings_data_shifted,
+    fillColor = ~pal(earnings),
+    color = "white",
+    weight = 0.3,
+    fillOpacity = 0.9,
+    label = ~paste0(NAME, ": $", formatC(earnings, format = "f", digits = 0, big.mark = ",")),
+    highlightOptions = highlightOptions(weight = 1, color = "black", bringToFront = TRUE)
+  ) %>%
+
+  # State outlines (clickable)
+  addPolygons(
+    data = state_geom,
+    fillOpacity = 0,
+    color = "black",
+    weight = 1,
+    layerId = ~link,
+    highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+  ) %>%
+
+  # Clean legend labels (no .0000)
+  addLegend(
+    position = "bottomright",
+    colors = colors,
+    labels = paste0("$", formatC(breaks[-length(breaks)], format = "d", big.mark = ",")),
+    title = "Per Capita Earnings",
+    opacity = 1
+  ) %>%
+
+  # Fit to view
+  fitBounds(-130, 15, -60, 55)
+
+# -------------------- STEP 7: Click Behavior --------------------
+
+earnings_map <- onRender(earnings_map, "
+  function(el, x) {
+    var map = this;
+    var hash = window.location.hash;
+    map.eachLayer(function(layer) {
+      if (layer.options && layer.options.layerId) {
+        layer.on('click', function(e) {
+          window.top.location.href = layer.options.layerId + hash;
+        });
+      }
+    });
+  }
+")
+
+
+# -------------------- STEP 8: Save Map --------------------
+
+saveWidget(
+  widget = earnings_map,
+  file = '/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/earnings.html',
+  selfcontained = FALSE
+)
+
+
+
+
+
+
+# CREATE STATE MAPS
+
+
+unique_states <- unique(earnings_data$state_fips)
+
+# Loop through each state
+walk(unique_states, function(fips) {
+  state_data <- earnings_data %>%
+    filter(state_fips == fips)
+
+  if (nrow(state_data) == 0 || all(is.na(state_data$geometry))) return(NULL)
+
+  # Step 1: Determine data range for this state
+  range_vals <- range(state_data$earnings, na.rm = TRUE)
+
+  # Step 2: Generate "nice" breaks dynamically
+  breaks <- quantile(state_data$earnings, probs = seq(0, 1, length.out = 6), na.rm = TRUE)
+  breaks <- unique(breaks)
+
+  # Step 3: Generate matching color palette
+
+  # Step 5: Build leaflet map
+  leaflet_map <- leaflet(state_data, options = leafletOptions(minZoom = 4, maxZoom = 8)) %>%
+    addProviderTiles("CartoDB.PositronNoLabels") %>%
+    addPolygons(
+      fillColor = ~pal(earnings),
+      fillOpacity = 0.9,
+      color = "white",
+      weight = 1,
+      label = ~paste0(NAME, ": $", round(earnings, 1)),
+      highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+    ) %>%
+    addLegend(
+      position = "topright",
+      pal = pal,
+      values = state_data$earnings,
+      title = "Median Earnings (Past 12 Months)",
+      opacity = 1
+    )
+
+  # Step 6: Save map
+  saveWidget(
+    widget = leaflet_map,
+    file = paste0(
+      "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/earnings-maps/",
+      fips, ".html"
+    ),
+    selfcontained = FALSE
+  )
+})
+
+
+library(fs)
+library(glue)
+library(readr)
+library(stringr)
+library(fs)
+library(glue)
+library(readr)
+library(stringr)
+
+input_map_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/earnings-maps"
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/earnings-pages/"
+input_table_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/facts-tables"
+
+# List HTML files
+fips_list <- dir_ls(input_map_dir, regexp = "\\.html$") %>% path_file() %>% path_ext_remove()
+
+walk(fips_list, function(fips_code) {
+  table_path <- file.path(input_table_dir, paste0(fips_code, ".html"))
+  map_src <- glue("../earnings-maps/{fips_code}.html")
+
+  # Read just the <table> from the existing HTML file
+  table_html <- read_file(table_path) %>%
+    str_extract("(?s)<table.*?</table>")
+
+  html_content <- glue('
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Median Earnings and Education – State {fips_code}</title>
+  <style>
+    body {{
+      margin: 0;
+      padding: 2rem;
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+    }}
+    h1 {{
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+    }}
+    .container {{
+      display: flex;
+      gap: 2rem;
+    }}
+    .map {{
+      flex: 2;
+    }}
+    .table-box {{
+      flex: 1.2;
+      background-color: white;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      overflow-x: auto;
+    }}
+    iframe {{
+      width: 100%;
+      height: 550px;
+      border: none;
+    }}
+    table {{
+      font-size: 0.95rem;
+      border-collapse: collapse;
+      width: 100%;
+    }}
+    th, td {{
+      padding: 6px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }}
+    th {{
+      background-color: #f0f0f0;
+    }}
+  </style>
+</head>
+<body>
+
+  <h1>County-Level Median Earnings – State {fips_code} (2023)</h1>
+
+  <div class="container">
+    <div class="map">
+      <iframe src="{map_src}" title="Median Earnings Map – State {fips_code}"></iframe>
+    </div>
+    <div class="table-box">
+      <div><strong>Statistics by County Table</strong></div>
+      {table_html}
+    </div>
+  </div>
+
+</body>
+</html>
+')
+
+  write_file(html_content, path(output_dir, paste0(fips_code, ".html")))
+})
+
+```
+# POVERTY
+```{r}
+
+
+poverty_data <- get_acs(
+  geography = "county",
+  variables = c(poverty = "B17001_002", total = "B17001_001"),
+  year = 2023,
+  survey = "acs5",
+  geometry = TRUE,
+  cache_table = TRUE,
+  cb = TRUE
+) %>%
+  select(GEOID, NAME, variable, estimate, geometry) %>%
+  pivot_wider(names_from = variable, values_from = estimate) %>%
+  mutate(
+    percent_poverty = 100 * poverty / total,
+    state_fips = str_sub(GEOID, 1, 2)
+  ) %>%
+  st_transform(4326)
+
+# -------------------- STEP 2: STATE GEOMETRY + SHIFT FUNCTION --------------------
+state_geom <- states(cb = TRUE, year = 2023) %>%
+  filter(!STATEFP %in% c("72", "78")) %>%
+  select(state_fips = STATEFP, geometry) %>%
+  mutate(link = paste0("poverty-pages/", state_fips, ".html"))
+
+shift_geometry <- function(sf_obj) {
+  alaska <- sf_obj %>% filter(state_fips == "02") %>% st_transform(2163)
+  hawaii <- sf_obj %>% filter(state_fips == "15") %>% st_transform(2163)
+  mainland <- sf_obj %>% filter(!state_fips %in% c("02", "15")) %>% st_transform(4326)
+  alaska_geom <- st_geometry(alaska) * 0.3 + c(-380000, -3000000)
+  hawaii_geom <- st_geometry(hawaii) * 1.2 + c(4500000, -900000)
+  st_crs(alaska_geom) <- 2163; st_crs(hawaii_geom) <- 2163
+  alaska <- st_set_geometry(alaska, alaska_geom) %>% st_transform(4326)
+  hawaii <- st_set_geometry(hawaii, hawaii_geom) %>% st_transform(4326)
+  bind_rows(mainland, alaska, hawaii) %>% st_as_sf()
+}
+
+state_geom <- shift_geometry(state_geom)
+poverty_shifted <- shift_geometry(poverty_data)
+
+# -------------------- STEP 3: WHITE MASK --------------------
+world_box <- st_as_sfc(st_bbox(c(xmin = -180, ymin = -90, xmax = 180, ymax = 90)), crs = 4326)
+us_box <- st_as_sfc(st_bbox(c(xmin = -130, ymin = 15, xmax = -60, ymax = 55)), crs = 4326)
+world_box <- st_make_valid(world_box)
+us_box <- st_make_valid(us_box)
+mask_diff <- st_difference(world_box, us_box)
+mask_polygon <- st_collection_extract(mask_diff, "POLYGON")
+st_crs(mask_polygon) <- 4326
+mask_polygon <- st_make_valid(mask_polygon)
+mask_polygon <- st_transform(mask_polygon, 4326)
+
+# -------------------- STEP 4: COLOR PALETTE --------------------
+valid_vals <- poverty_data$percent_poverty[!is.na(poverty_data$percent_poverty) & poverty_data$percent_poverty > 0]
+breaks <- pretty(valid_vals, n = 6)
+colors <- colorRampPalette(brewer.pal(9, "Reds"))(length(breaks) - 1)
+pal <- colorBin(palette = colors, domain = valid_vals, bins = breaks)
+
+# -------------------- STEP 5: LEAFLET MAP --------------------
+poverty_map <- leaflet(options = leafletOptions(
+  minZoom = 4, maxZoom = 4,
+  zoomControl = FALSE,
+  dragging = FALSE,
+  scrollWheelZoom = FALSE,
+  doubleClickZoom = FALSE
+)) %>%
+
+  # Blank tile layer (no basemap)
+  addTiles(urlTemplate = "") %>%
+
+  # Add white rectangle covering the entire map
+  addRectangles(
+    lng1 = -180, lat1 = -90,
+    lng2 = 180, lat2 = 90,
+    fillColor = "white",
+    fillOpacity = 1,
+    stroke = FALSE
+  ) %>%
+
+  # Add US mask (if you want cleaner edges)
+  addPolygons(data = mask_polygon, fillColor = "white", color = "white", weight = 0, fillOpacity = 1) %>%
+
+  # County fill
+  addPolygons(
+    data = poverty_shifted,
+    fillColor = ~pal(percent_poverty),
+    color = "white", weight = 0.3, fillOpacity = 0.9,
+    label = ~paste0(NAME, ": ", round(percent_poverty, 1), "%"),
+    highlightOptions = highlightOptions(weight = 1, color = "black", bringToFront = TRUE)
+  ) %>%
+
+  # State click outlines
+  addPolygons(
+    data = state_geom,
+    fillOpacity = 0,
+    color = "black",
+    weight = 1,
+    layerId = ~link,
+    highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+  ) %>%
+
+  # Legend
+  addLegend(
+    position = "topright",
+    colors = colors,
+    labels = paste0(formatC(breaks[-length(breaks)], format = "d"), "%"),
+    title = "% in Poverty",
+    opacity = 1
+  ) %>%
+
+  setView(lng = -98.5, lat = 39.8, zoom = 8)
+
+# -------------------- STEP 6: CLICK BEHAVIOR --------------------
+poverty_map <- onRender(poverty_map, "
+  function(el, x) {
+    var map = this;
+    var hash = window.location.hash;
+    map.eachLayer(function(layer) {
+      if (layer.options && layer.options.layerId) {
+        layer.on('click', function(e) {
+          window.top.location.href = layer.options.layerId + hash;
+        });
+      }
+    });
+  }
+")
+
+library(htmltools)
+
+# Wrap the title + map together
+
+
+
+
+# -------------------- STEP 7: SAVE --------------------
+saveWidget(
+  widget = poverty_map,
+  file = '/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/poverty.html',
+  selfcontained = FALSE
+) 
+
+
+
+
+
+
+
+
+
+
+# STATE MAPS 
+
+unique_states <- unique(poverty_data$state_fips)
+
+# Loop through each state
+walk(unique_states, function(fips) {
+  state_data <- poverty_data %>%
+    filter(state_fips == fips)
+
+  if (nrow(state_data) == 0 || all(is.na(state_data$geometry))) return(NULL)
+
+  # Step 1: Determine data range for this state
+  range_vals <- range(state_data$percent_poverty, na.rm = TRUE)
+
+  # Step 2: Generate "nice" breaks dynamically
+  breaks <- quantile(state_data$percent_poverty, probs = seq(0, 1, length.out = 6), na.rm = TRUE)
+  breaks <- unique(breaks)
+
+  # Step 3: Generate matching color palette
+
+  # Step 5: Build leaflet map
+  leaflet_map <- leaflet(state_data, options = leafletOptions(minZoom = 4, maxZoom = 8)) %>%
+    addProviderTiles("CartoDB.PositronNoLabels") %>%
+    addPolygons(
+      fillColor = ~pal(percent_poverty),
+      fillOpacity = 0.9,
+      color = "white",
+      weight = 1,
+      label = ~paste0(NAME, ": ", round(percent_poverty, 1), '%'),
+      highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+    ) %>%
+    addLegend(
+      position = "topright",
+      pal = pal,
+      values = state_data$percent_poverty,
+      title = "% of Population in Poverty",
+      opacity = 1
+    )
+
+  
+  # Step 6: Save map
+  saveWidget(
+    widget = leaflet_map,
+    file = paste0(
+      "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/pov-maps/",
+      fips, ".html"
+    ),
+    selfcontained = FALSE
+  )
+})
+
+
+
+
+# STATE PAGES 
+
+library(fs)
+library(glue)
+library(readr)
+library(stringr)
+library(fs)
+library(glue)
+library(readr)
+library(stringr)
+
+input_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/pov-maps"
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/poverty-pages"
+
+# List HTML files
+html_files <- dir_ls(input_dir, regexp = "\\.html$")
+
+walk(html_files, function(file_path) {
+  fips_code <- path_file(file_path) %>% path_ext_remove()
+
+  html_content <- glue('
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>% Poverty Map – State {fips_code}</title>
+  <style>
+    body {{
+      margin: 0;
+      padding: 1.5rem;
+      font-family: sans-serif;
+      background-color: #f2f2f2;
+    }}
+    h1 {{
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }}
+    .container {{
+      display: flex;
+      gap: 2rem;
+    }}
+    .map-column {{
+      flex: 1;
+    }}
+    .sidebar {{
+      flex: 1;
+    }}
+    iframe {{
+      width: 100%;
+      height: 600px;
+      border: none;
+    }}
+    a#back-link {{
+      display: inline-block;
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+      color: #003366;
+      text-decoration: none;
+      font-weight: bold;
+    }}
+  </style>
+</head>
+<body>
+  
+  <h1>Poverty by County – State {fips_code}</h1>
+  <div class="container">
+    <div class="map-column">
+      <iframe src="../pov-maps/{fips_code}.html" title="Map of State {fips_code}"></iframe>
+    </div>
+    <div class="sidebar">
+      <!-- You can add text, links, charts, etc. here later -->
+    </div>
+  </div>
+</body>
+</html>
+')
+
+  write_file(html_content, path(output_dir, paste0(fips_code, ".html")))
+})
+
+
+```
+
+# INCOME INEQUALITY
+```{r}
+library(tidycensus)
+library(dplyr)
+library(tidyr)
+library(stringr)
+library(sf)
+library(leaflet)
+library(RColorBrewer)
+library(htmlwidgets)
+library(htmltools)
+library(tigris)
+ 
+
+
+
+
+
+
+# INEQUALITY MAP
+
+ineq_data <- get_acs(
+  geography = "county",
+  variables = c(
+    bottom20 = "B19081_002",  # 1st quintile mean income
+    top20 = "B19081_006"      # 5th quintile mean income
+  ),
+  year = 2023,
+  survey = "acs5",
+  geometry = TRUE,
+  cb = TRUE,
+  cache_table = TRUE
+) %>%
+  select(GEOID, NAME, variable, estimate, geometry) %>%
+  pivot_wider(names_from = variable, values_from = estimate) %>%
+  mutate(
+    inequality_ratio = top20 / bottom20,
+
+    state_fips = str_sub(GEOID, 1, 2)
+  ) %>%
+  filter(!is.na(inequality_ratio), bottom20 > 0, is.finite(inequality_ratio)) %>%
+  st_transform(4326)
+
+# -------------------- STEP 2: GET STATE GEOMETRY + SHIFT FUNCTION --------------------
+state_geom <- states(cb = TRUE, year = 2023) %>%
+  filter(!STATEFP %in% c("72", "78")) %>%
+  select(state_fips = STATEFP, geometry) %>%
+  mutate(link = paste0("ratio-pages/", state_fips, ".html"))
+
+shift_geometry <- function(sf_obj) {
+  alaska <- sf_obj %>% filter(state_fips == "02") %>% st_transform(2163)
+  hawaii <- sf_obj %>% filter(state_fips == "15") %>% st_transform(2163)
+  mainland <- sf_obj %>% filter(!state_fips %in% c("02", "15")) %>% st_transform(4326)
+  alaska_geom <- st_geometry(alaska) * 0.3 + c(-380000, -3000000)
+  hawaii_geom <- st_geometry(hawaii) * 1.2 + c(4500000, -900000)
+  st_crs(alaska_geom) <- 2163; st_crs(hawaii_geom) <- 2163
+  alaska <- st_set_geometry(alaska, alaska_geom) %>% st_transform(4326)
+  hawaii <- st_set_geometry(hawaii, hawaii_geom) %>% st_transform(4326)
+  bind_rows(mainland, alaska, hawaii) %>% st_as_sf()
+}
+
+state_geom <- shift_geometry(state_geom)
+ineq_shifted <- shift_geometry(ineq_data)
+
+# -------------------- STEP 3: WHITE MASK --------------------
+world_box <- st_as_sfc(st_bbox(c(xmin = -180, ymin = -90, xmax = 180, ymax = 90)), crs = 4326)
+us_box <- st_as_sfc(st_bbox(c(xmin = -130, ymin = 15, xmax = -60, ymax = 55)), crs = 4326)
+mask_polygon <- st_difference(st_make_valid(world_box), st_make_valid(us_box))
+mask_polygon <- st_collection_extract(mask_polygon, "POLYGON")
+st_crs(mask_polygon) <- 4326
+mask_polygon <- st_transform(mask_polygon, 4326)
+
+# -------------------- STEP 4: COLOR PALETTE --------------------
+valid_vals <- ineq_shifted$inequality_ratio[!is.na(ineq_shifted$inequality_ratio) & is.finite(ineq_shifted$inequality_ratio) & ineq_shifted$inequality_ratio > 0]
+breaks <- pretty(valid_vals, n = 6)
+colors <- colorRampPalette(brewer.pal(9, "Reds"))(length(breaks) - 1)
+pal <- colorBin(palette = colors, domain = valid_vals, bins = breaks)
+
+# -------------------- STEP 5: LEAFLET MAP --------------------
+ratio_map <- leaflet(options = leafletOptions(
+  minZoom = 4, maxZoom = 4,
+  zoomControl = FALSE,
+  dragging = FALSE,
+  scrollWheelZoom = FALSE,
+  doubleClickZoom = FALSE
+)) %>%
+  addTiles(urlTemplate = "") %>%
+  addRectangles(
+    lng1 = -180, lat1 = -90,
+    lng2 = 180, lat2 = 90,
+    fillColor = "white",
+    fillOpacity = 1,
+    stroke = FALSE
+  ) %>%
+  addPolygons(data = mask_polygon, fillColor = "white", color = "white", weight = 0, fillOpacity = 1) %>%
+  addPolygons(
+    data = ineq_shifted,
+    fillColor = ~pal(inequality_ratio),
+    color = "white", weight = 0.3, fillOpacity = 0.9,
+    label = ~paste0(NAME, ": ", round(inequality_ratio, 2), "x"),
+    highlightOptions = highlightOptions(weight = 1, color = "black", bringToFront = TRUE)
+  ) %>%
+  addPolygons(
+    data = state_geom,
+    fillOpacity = 0,
+    color = "black",
+    weight = 1,
+    layerId = ~link,
+    highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+  ) %>%
+  addLegend(
+    position = "topright",
+    colors = colors,
+    labels = paste0(round(breaks[-length(breaks)], 1), "x"),
+    title = "Income Inequality Ratio",
+    opacity = 1
+  ) %>%
+  setView(lng = -98.5, lat = 39.8, zoom = 8)
+
+# -------------------- STEP 6: CLICK BEHAVIOR --------------------
+ratio_map <- onRender(ratio_map, "
+  function(el, x) {
+    var map = this;
+    var hash = window.location.hash;
+    map.eachLayer(function(layer) {
+      if (layer.options && layer.options.layerId) {
+        layer.on('click', function(e) {
+          window.top.location.href = layer.options.layerId + hash;
+        });
+      }
+    });
+  }
+")
+
+# -------------------- STEP 7: SAVE MAP --------------------
+saveWidget(
+  widget = ratio_map,
+  file = '/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/ratio.html',
+  selfcontained = FALSE
+)
+
+
+
+
+
+
+
+# TOP 20 STATE MAPS 
+
+unique_states <- unique(top20_data$state_fips)
+
+# Loop through each state
+walk(unique(top20_data$state_fips), function(fips) {
+  state_data <- top20_data %>%
+    filter(state_fips == fips)
+
+  if (nrow(state_data) == 0 || all(is.na(state_data$geometry))) return(NULL)
+
+  # Step 1: Get valid top20 values
+  vals <- state_data$top20
+  vals <- vals[is.finite(vals) & vals > 0]
+
+  if (length(unique(vals)) < 2) return(NULL)  # Skip states with flat values
+
+  # Step 2: Use pretty breaks rounded to clean numbers
+  breaks <- pretty(vals, n = 6)
+  breaks <- unique(breaks)
+
+  # Step 3: Build color palette
+  colors <- colorRampPalette(brewer.pal(9, "Blues"))(length(breaks) - 1)
+  pal <- colorBin(palette = colors, domain = vals, bins = breaks)
+
+  # Step 4: Build map
+  leaflet_map <- leaflet(state_data, options = leafletOptions(minZoom = 5, maxZoom = 8)) %>%
+    addProviderTiles("CartoDB.PositronNoLabels") %>%
+    addPolygons(
+      fillColor = ~pal(top20),
+      fillOpacity = 0.9,
+      color = "white",
+      weight = 1,
+      label = ~paste0(NAME, ": $", formatC(top20, format = "d", big.mark = ",")),
+      highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+    ) %>%
+    addLegend(
+      position = "topright",
+      colors = colors,
+      labels = paste0("$", formatC(breaks[-length(breaks)], format = "d", big.mark = ",")),
+      title = "Top 20% Mean Income",
+      opacity = 1
+    )
+
+  # Step 5: Save the map
+  saveWidget(
+    widget = leaflet_map,
+    file = paste0(
+      "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/top20-maps/",
+      fips, ".html"
+    ),
+    selfcontained = FALSE
+  )
+})
+
+
+# STATE PAGES 
+
+library(fs)
+library(glue)
+library(readr)
+library(stringr)
+library(fs)
+library(glue)
+library(readr)
+library(stringr)
+
+input_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/top20-maps"
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/top20-pages"
+
+# List HTML files
+html_files <- dir_ls(input_dir, regexp = "\\.html$")
+
+walk(html_files, function(file_path) {
+  fips_code <- path_file(file_path) %>% path_ext_remove()
+
+  html_content <- glue('
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Top 20% Mean Income – State {fips_code}</title>
+  <style>
+    body {{
+      margin: 0;
+      padding: 1.5rem;
+      font-family: sans-serif;
+      background-color: #f2f2f2;
+    }}
+    h1 {{
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }}
+    .container {{
+      display: flex;
+      gap: 2rem;
+    }}
+    .map-column {{
+      flex: 1;
+    }}
+    .sidebar {{
+      flex: 1;
+    }}
+    iframe {{
+      width: 100%;
+      height: 600px;
+      border: none;
+    }}
+    a#back-link {{
+      display: inline-block;
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+      color: #003366;
+      text-decoration: none;
+      font-weight: bold;
+    }}
+  </style>
+</head>
+<body>
+  
+  <h1>Top 20% Mean Income by County – State {fips_code}</h1>
+  <div class="container">
+    <div class="map-column">
+      <iframe src="../top20-maps/{fips_code}.html" title="Map of State {fips_code}"></iframe>
+    </div>
+    <div class="sidebar">
+      <!-- You can add text, links, charts, etc. here later -->
+    </div>
+  </div>
+</body>
+</html>
+')
+
+  write_file(html_content, path(output_dir, paste0(fips_code, ".html")))
+})
+
+
+
+# RATIO STATE MAPS
+
+unique_states <- unique(ineq_data$inequality_ratio)
+
+# Loop through each state
+walk(unique(ineq_data$state_fips), function(fips) {
+  state_data <- ineq_data %>%
+    filter(state_fips == fips)
+
+  if (nrow(state_data) == 0 || all(is.na(state_data$geometry))) return(NULL)
+
+  # Step 1: Get valid top20 values
+  vals <- state_data$inequality_ratio
+  vals <- vals[is.finite(vals) & vals > 0]
+
+  if (length(unique(vals)) < 2) return(NULL)  # Skip states with flat values
+
+  # Step 2: Use pretty breaks rounded to clean numbers
+  breaks <- pretty(vals, n = 6)
+  breaks <- unique(breaks)
+
+  # Step 3: Build color palette
+  colors <- colorRampPalette(brewer.pal(9, "OrRd"))(length(breaks) - 1)
+  pal <- colorBin(palette = colors, domain = vals, bins = breaks)
+
+  # Step 4: Build map
+  leaflet_map <- leaflet(state_data, options = leafletOptions(minZoom = 5, maxZoom = 8)) %>%
+    addProviderTiles("CartoDB.PositronNoLabels") %>%
+    addPolygons(
+      fillColor = ~pal(inequality_ratio),
+      fillOpacity = 0.9,
+      color = "white",
+      weight = 1,
+      label = ~paste0(NAME, ": ", formatC(inequality_ratio, format = "d", big.mark = ","), 'x'),
+      highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+    ) %>%
+    addLegend(
+      position = "topright",
+      colors = colors,
+      labels = paste0(formatC(breaks[-length(breaks)], format = "d", big.mark = ","), 'x'),
+      title = "Income Inequality Ratio",
+      opacity = 1
+    )
+
+  # Step 5: Save the map
+  saveWidget(
+    widget = leaflet_map,
+    file = paste0(
+      "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/ratio-maps/",
+      fips, ".html"
+    ),
+    selfcontained = FALSE
+  )
+})
+
+
+library(fs)
+library(glue)
+library(readr)
+library(stringr)
+
+input_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/ratio-maps"
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/ratio-pages"
+image_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/ineq-widgets/"
+
+# List HTML files
+html_files <- dir_ls(input_dir, regexp = "\\.html$")
+
+walk(html_files, function(file_path) {
+  fips_code <- path_file(file_path) %>% path_ext_remove()
+
+  html_content <- glue('
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Income Inequality Ratio – State {fips_code}</title>
+  <style>
+    body {{
+      margin: 0;
+      padding: 1.5rem;
+      font-family: sans-serif;
+      background-color: #f2f2f2;
+    }}
+    h1 {{
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }}
+    .container {{
+      display: flex;
+      gap: 2rem;
+    }}
+    .map-column {{
+      flex: 1;
+    }}
+    .sidebar {{
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }}
+    iframe {{
+      width: 100%;
+      height: 600px;
+      border: none;
+    }}
+    img {{
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+      background: white;
+      padding: 10px;
+    }}
+    a#back-link {{
+      display: inline-block;
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+      color: #003366;
+      text-decoration: none;
+      font-weight: bold;
+    }}
+  </style>
+</head>
+<body>
+  
+  <h1>Income Inequality Ratio by County – State {fips_code}</h1>
+  <div class="container">
+    <div class="map-column">
+      <iframe src="../ratio-maps/{fips_code}.html" title="Map of State {fips_code}"></iframe>
+    </div>
+    <div class="sidebar">
+      <img src="../ineq-widgets/{fips_code}_ineq_bar.png" alt="Income Share Bar Chart for State {fips_code}" style="height: 400px;">
+    </div>
+  </div>
+</body>
+</html>
+')
+
+  write_file(html_content, path(output_dir, paste0(fips_code, ".html")))
+})
+
+
+
+```
+
+
+# avg earnings by occ widget
+```{r}
+
+library(tidycensus)
+library(dplyr)
+library(tidyr)
+library(stringr)
+library(jsonlite)
+library(readr)
+library(fs)
+
+industry_vars <- c(
+  "Agriculture" = "C24030_004",
+  "Construction" = "C24030_005",
+  "Manufacturing" = "C24030_006",
+  "Retail" = "C24030_008",
+  "Information" = "C24030_010",
+  "Finance" = "C24030_011",
+  "Education" = "C24030_013",
+  "Public Admin" = "C24030_016"
+)
+
+# Pull from ACS
+industry_workers <- get_acs(
+  geography = "state",
+  variables = industry_vars,
+  year = 2023,
+  survey = "acs5"
+) 
+industry_workers <- industry_workers %>% select(GEOID, state = NAME, variable, workers = estimate)
+
+industry_pct <- industry_workers %>%
+  group_by(state) %>%
+  mutate(pct = round(100 * workers / sum(workers), 1)) %>%
+  ungroup()
+
+library(plotly)
+industry_levels <- industry_pct %>%
+  filter(state == "Alabama") %>%
+  arrange(desc(pct)) %>%
+  pull(variable)
+
+industry_pct <- industry_pct %>%
+  mutate(industry = factor(variable, levels = industry_levels))
+
+# Color palette
+industry_colors <- RColorBrewer::brewer.pal(n = length(industry_levels), name = "Set2")
+names(industry_colors) <- industry_levels
+
+# 3. Build traces by state
+states <- unique(industry_pct$state)
+
+traces <- lapply(states, function(st) {
+  df <- industry_pct %>% filter(state == st)
+  
+  list(
+    x = df$industry,
+    y = df$pct,
+    type = "bar",
+    name = st,
+    marker = list(color = industry_colors[as.character(df$industry)]),
+    
+    hoverinfo = "text",
+    visible = ifelse(st == "Alabama", TRUE, FALSE)
+  )
+})
+
+# 4. Dropdown buttons
+buttons <- lapply(seq_along(states), function(i) {
+  list(
+    method = "update",
+    label = states[i],
+    args = list(
+      list(visible = seq_along(states) == i),
+      list(title = paste("Industry Distribution in", states[i]))
+    )
+  )
+})
+
+# 5. Build plot
+fig <- plot_ly()
+for (t in traces) {
+  fig <- fig %>%
+    add_trace(
+      x = t$x,
+      y = t$y,
+      type = t$type,
+      name = t$name,
+      marker = t$marker,
+      text = t$text,
+      hoverinfo = t$hoverinfo,
+      visible = t$visible
+    )
+}
+
+# 6. Layout and dropdown positioning
+fig <- fig %>%
+  layout(
+    title = list(
+      text = "Industry Distribution in Alabama",
+      y = 0.95  # Lower title just a bit to avoid clash
+    ),
+    margin = list(t = 80),  # Enough space for menu above plot
+    xaxis = list(title = "Industry", tickangle = -45),
+    yaxis = list(title = "Percent of Workforce"),
+    showlegend = FALSE,
+    updatemenus = list(list(
+      buttons = buttons,
+      direction = "down",
+      showactive = TRUE,
+      x = 0.3,
+      y = 1.5,  # Move menu above the chart + below title
+      xanchor = "center",
+      yanchor = "top",
+      xref = "paper",
+      yref = "paper"
+    ))
+  ) %>%
+  config(
+    displayModeBar = FALSE,
+  scrollZoom = FALSE,
+  doubleClick = "reset",  # prevents zooming on double-click
+  staticPlot = TRUE
+  )
+
+
+# 8. Save widget (no modebar, selfcontained = FALSE for faster load)
+saveWidget(
+  fig,
+  "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/industry-widget.html",
+  selfcontained = FALSE
+)
+
+
+```
+
+
+
+# rent stress map 
+```{r}
+
+year <- 2023
+vars <- c(
+  rent = "B25064_001",                    # Median gross rent
+  renters = "B25070_001",                 # Total renters
+  over_30pct = "B25070_007",              # Renters spending >30% income
+  vacancy_rate = "DP04_0043PE"            # Rental vacancy rate (percent)
+)
+
+# Get data by county
+rent_data <- get_acs(
+  geography = "county",
+  variables = vars,
+  year = 2023,
+  survey = "acs5",
+  output = "wide",
+  cache_table = TRUE
+)
+
+# Clean and calculate components
+rent_stress_df <- rent_data %>%
+  transmute(
+    GEOID,
+    NAME,
+    median_rent = rentE,
+    pct_rent_burdened = 100 * over_30pctE / rentersE,
+    vacancy_rate = vacancy_rate  # Already a percentage
+  ) %>%
+  mutate(
+    z_rent = scale(median_rent),
+    z_burdened = scale(pct_rent_burdened),
+    z_vacancy = scale(100 - vacancy_rate),  # invert so tighter markets = higher stress
+    rent_stress_index = (z_rent + z_burdened + z_vacancy) / 3
+  )
+
+
+# View top 10 most stressed counties
+head(rent_stress_df %>% arrange(desc(rent_stress_index)), 10)
+
+
+
+
+# usa stress map 
+
+county_geom <- get_acs(
+  geography = "county",
+  variables = "B25064_001",  # dummy variable to get geometry
+  year = 2023,
+  geometry = TRUE,
+  cb = TRUE
+) %>%
+  select(GEOID, geometry)
+
+rent_map_data <- rent_stress_df %>%
+  left_join(county_geom, by = "GEOID") %>%
+  filter(!is.na(rent_stress_index), is.finite(rent_stress_index)) %>%
+  mutate(state_fips = substr(GEOID, 1, 2)) %>%
+  st_as_sf()
+
+# 2. Shift counties and states
+rent_county_shifted <- shift_geometry(rent_map_data)
+
+state_geom <- states(cb = TRUE, year = 2023) %>%
+  filter(!STATEFP %in% c("72", "78")) %>%
+  select(state_fips = STATEFP, geometry) %>%
+  mutate(link = paste0("stress-pages/", state_fips, ".html"))
+
+state_geom <- shift_geometry(state_geom)
+
+vals <- rent_county_shifted$rent_stress_index
+rent_county_shifted$clamped_stress <- pmax(pmin(rent_county_shifted$rent_stress_index, 5), -3)
+
+# STEP 2: Define bins and palette
+breaks <- c(-3, -2, -1, 0, 1, 2, 3, 4, 5)
+colors <- c(
+  "#ffffb2", "#fecc5c", "#fd8d3c", "#f03b20",  # yellow to red
+  "#bd0026", "#800026", "#4d0018", "#2b000f"   # darkening into burgundy
+)
+
+pal <- colorBin(
+  palette = colors,
+  domain = rent_county_shifted$clamped_stress,
+  bins = breaks,
+  right = FALSE
+)
+
+stress_map <- leaflet(options = leafletOptions(
+  minZoom = 4, maxZoom = 4,
+  zoomControl = FALSE, dragging = FALSE,
+  scrollWheelZoom = FALSE, doubleClickZoom = FALSE
+)) %>%
+  addTiles(urlTemplate = "") %>%
+  addRectangles(-180, -90, 180, 90, fillColor = "white", fillOpacity = 1, stroke = FALSE) %>%
+  addPolygons(data = mask_polygon, fillColor = "white", color = "white", weight = 0, fillOpacity = 1) %>%
+  addPolygons(
+  data = rent_county_shifted,
+  fillColor = ~pal(clamped_stress),
+  color = "white", weight = 0.3, fillOpacity = 0.9,
+  label = ~paste0(NAME, ": ", round(rent_stress_index, 2)),
+  highlightOptions = highlightOptions(weight = 1, color = "black", bringToFront = TRUE)
+) %>%
+  addPolygons(
+    data = state_geom,
+    fillOpacity = 0,
+    color = "black", weight = 1,
+    layerId = ~link,
+    highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+  ) %>%
+  addLegend(
+    position = "topright",
+    colors = colors,
+    labels = round(breaks[-length(breaks)], 2),
+    title = "Rent Stress Index",
+    opacity = 1
+  ) %>%
+  setView(lng = -98.5, lat = 39.8, zoom = 8)
+
+# Click behavior
+stress_map <- onRender(stress_map, "
+  function(el, x) {
+    var map = this;
+    var hash = window.location.hash;
+    map.eachLayer(function(layer) {
+      if (layer.options && layer.options.layerId) {
+        layer.on('click', function(e) {
+          window.top.location.href = layer.options.layerId + hash;
+        });
+      }
+    });
+  }
+")
+
+# Save it
+saveWidget(
+  widget = stress_map,
+  file = '/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/stress.html',
+  selfcontained = FALSE
+)
+
+
+# stress state maps with clamped values and improved contrast
+
+walk(unique(rent_county_shifted$state_fips), function(fips) {
+  state_data <- rent_county_shifted %>%
+    filter(state_fips == fips) %>%
+    mutate(clamped_stress = pmax(pmin(rent_stress_index, 5), -3))
+
+  if (nrow(state_data) == 0 || all(is.na(state_data$geometry))) return(NULL)
+
+  vals <- state_data$clamped_stress
+  vals <- vals[is.finite(vals)]
+
+  if (length(unique(vals)) < 2) return(NULL)
+
+  # Define custom breaks and color palette
+  breaks <- c(-3, -2, -1, 0, 1, 2, 3, 4, 5)
+  colors <- c(
+    "#ffffb2", "#fecc5c", "#fd8d3c", "#f03b20",  # yellow to red
+    "#bd0026", "#800026", "#4d0018", "#2b000f"   # deeper reds
+  )
+
+  pal <- colorBin(
+    palette = colors,
+    domain = vals,
+    bins = breaks,
+    right = FALSE
+  )
+
+  leaflet_map <- leaflet(state_data, options = leafletOptions(minZoom = 5, maxZoom = 8)) %>%
+    addProviderTiles("CartoDB.PositronNoLabels") %>%
+    addPolygons(
+      fillColor = ~pal(clamped_stress),
+      fillOpacity = 0.9,
+      color = "white",
+      weight = 1,
+      label = ~paste0(NAME, ": ", round(rent_stress_index, 2)),
+      highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+    ) %>%
+    addLegend(
+      position = "topright",
+      colors = colors,
+      labels = paste0(breaks[-length(breaks)]),
+      title = "Rent Stress Index (Clamped)",
+      opacity = 1
+    )
+
+  saveWidget(
+    widget = leaflet_map,
+    file = paste0(
+      "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/stress-maps/",
+      fips, ".html"
+    ),
+    selfcontained = FALSE
+  )
+})
+
+
+
+# avg rent by state maps 
+
+rent_geom_data <- get_acs(
+  geography = "county",
+  variables = c(rent = "B25064_001"),
+  year = 2023,
+  survey = "acs5",
+  geometry = TRUE,
+  cb = TRUE,
+  cache_table = TRUE
+) %>%
+  select(GEOID, NAME, rent = estimate, geometry) %>%
+  mutate(
+    state_fips = str_sub(GEOID, 1, 2)
+  )
+
+walk(unique(rent_geom_data$state_fips), function(fips) {
+  state_data <- rent_geom_data %>% filter(state_fips == fips)
+
+  if (nrow(state_data) == 0 || all(is.na(state_data$geometry))) return(NULL)
+
+  vals <- state_data$rent
+  vals <- vals[is.finite(vals) & vals > 0]
+
+  if (length(unique(vals)) < 2) return(NULL)
+
+  breaks <- pretty(vals, n = 6)
+  breaks <- unique(breaks)
+
+  colors <- colorRampPalette(brewer.pal(9, "Purples"))(length(breaks) - 1)
+  pal <- colorBin(palette = colors, domain = vals, bins = breaks)
+
+  leaflet_map <- leaflet(state_data, options = leafletOptions(minZoom = 5, maxZoom = 8)) %>%
+    addProviderTiles("CartoDB.PositronNoLabels") %>%
+    addPolygons(
+      fillColor = ~pal(rent),
+      fillOpacity = 0.9,
+      color = "white",
+      weight = 1,
+      label = ~paste0(NAME, ": $", formatC(rent, format = "d", big.mark = ",")),
+      highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+    ) %>%
+    addLegend(
+      position = "topright",
+      colors = colors,
+      labels = paste0("$", formatC(breaks[-length(breaks)], format = "d", big.mark = ",")),
+      title = "Median Gross Rent",
+      opacity = 1
+    )
+
+  saveWidget(
+    widget = leaflet_map,
+    file = paste0(
+      "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/rent-maps/",
+      fips, ".html"
+    ),
+    selfcontained = FALSE
+  )
+})
+
+rent_stress_df <- rent_stress_df %>% mutate(state_fips = substr(GEOID, 1, 2))
+
+# create rent state pages 
+library(fs)
+library(glue)
+library(readr)
+library(stringr)
+library(dplyr)
+library(knitr)
+library(kableExtra)
+
+
+# Set output directory
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/stress-pages/"
+
+walk(unique(rent_stress_df$state_fips), function(fips_code) {
+  state_table <- rent_stress_df %>%
+    filter(state_fips == fips_code) %>%
+    select(
+      County = NAME,
+      `Median Rent ($)` = median_rent,
+      `% Rent-Burdened` = pct_rent_burdened,
+      `Vacancy Rate (%)` = vacancy_rate,
+      `Rent Stress Index` = rent_stress_index
+    ) %>%
+    mutate(across(where(is.numeric), ~ round(., 2)))
+
+  html_table <- state_table %>%
+    kable("html", escape = FALSE, align = "lrrrr") %>%
+    kable_styling(full_width = TRUE, bootstrap_options = c("striped", "hover", "condensed"))
+
+  html_content <- glue('
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rent Stress, Median Rent & Stats – State {fips_code} (2023)</title>
+  <style>
+    body {{
+      margin: 0;
+      padding: 1.5rem;
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+    }}
+    h1 {{
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+    }}
+    .row {{
+      display: flex;
+      gap: 2rem;
+      align-items: flex-start;
+    }}
+    .col-large {{
+      flex: 2;
+    }}
+    .col-small {{
+      flex: 1;
+    }}
+    .map-title {{
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }}
+    .map-box {{
+      border: 2px solid #ccc;
+      padding: 0.5rem;
+      background-color: white;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    }}
+    iframe {{
+      width: 100%;
+      height: 550px;
+      border: none;
+      margin-bottom: 1.5rem;
+    }}
+    .table-title {{
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin: 2rem 0 0.5rem 0;
+    }}
+    table {{
+      font-size: 0.95rem;
+    }}
+    .description-box {{
+      margin-top: 2rem;
+      padding: 1rem;
+      background-color: #eef0f4;
+      border-left: 4px solid #4a142e;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }}
+  </style>
+</head>
+<body>
+
+  <h1>Rent Stress Index, Median Rent, and County Statistics – State {fips_code}</h1>
+
+  <div class="row">
+    <div class="col-large">
+      <div class="map-title">Rent Stress Index by County</div>
+      <iframe src="../stress-maps/{fips_code}.html" title="Rent Stress Map"></iframe>
+
+      <div class="table-title">County-Level Inputs to Rent Stress Index</div>
+      {html_table}
+    </div>
+
+    <div class="col-small">
+      <div class="map-box">
+        <div class="map-title">Median Gross Rent by County</div>
+        <iframe src="../rent-maps/{fips_code}.html" title="Median Rent Map"></iframe>
+      </div>
+
+      <div class="description-box">
+        <strong>What is the Rent Stress Index?</strong><br>
+        The Rent Stress Index is a custom metric created to reflect renter vulnerability in each county. It combines:
+        <ul style="margin-top: 0.5rem;">
+          <li>Median gross rent (higher rent = more stress)</li>
+          <li>Percent of renters spending over 30% of income on rent</li>
+          <li>Rental vacancy rate (lower vacancy = more stress)</li>
+        </ul>
+        Each of these is standardized (z-scored), and the Rent Stress Index is the average of the three. Higher values indicate more stress on renters.
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+')
+
+  write_file(html_content, path(output_dir, paste0(fips_code, ".html")))
+})
+
+
+```
+
+
+# county stats tables 
+
+```{r}
+
+
+year <- 2023
+states <- unique(fips_codes$state)[1:51]  # Lower 50 + DC
+
+# ---------------------------
+# 1. Median Earnings (B20004_001)
+earnings_all <- map_dfr(states, ~{
+  get_acs(
+    geography = "county",
+    variables = "B19301_001",
+    state = .x,
+    year = year,
+    survey = "acs5"
+  )
+})
+
+
+# ---------------------------
+# 2. Education (% Bachelor's+)
+edu_vars <- c(
+  total = "B15003_001",
+  bachelors = "B15003_022",
+  masters = "B15003_023",
+  prof = "B15003_024",
+  doctorate = "B15003_025"
+)
+
+education_all <- map_dfr(states, ~{
+  get_acs(
+    geography = "county",
+    variables = edu_vars,
+    state = .x,
+    year = year,
+    survey = "acs5"
+  )
+})
+
+# ---------------------------
+# 3. Employment (% Full-Time)
+emp_vars <- c(
+  total = "B23022_001",     # Total with earnings
+  male_full = "B23022_005", # Males full-time, year-round
+  fem_full = "B23022_028"   # Females full-time, year-round
+)
+
+employment_all <- map_dfr(states, ~{
+  get_acs(
+    geography = "county",
+    variables = emp_vars,
+    state = .x,
+    year = 2023,
+    survey = "acs5"
+  )
+})
+
+employment_clean <- employment_all %>% select(-moe) %>%
+  pivot_wider(names_from = variable, values_from = estimate) %>% transmute(
+    GEOID,
+    NAME,
+    pct_full_time = 100 * (male_full + fem_full) / total
+  )
+
+
+
+state_fips_codes <- fips_codes %>%
+  distinct(state, state_code) %>%
+  filter(state %in% states) %>%
+  arrange(state) %>%
+  pull(state_code)
+
+
+# create tables and place in folder
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/facts-tables/"
+dir_create(output_dir)
+walk2(states, state_fips_codes, function(state_abbr, state_fips) {
+  message("Processing: ", state_abbr)
+
+  earnings <- earnings_all %>%
+    filter(str_sub(GEOID, 1, 2) == state_fips) %>%
+    select(GEOID, NAME, median_earnings = estimate)
+
+  education <- education_all %>%
+    filter(str_sub(GEOID, 1, 2) == state_fips) %>%
+    group_by(GEOID, NAME) %>%
+    summarize(
+      pct_bachelor_plus = 100 * sum(estimate[variable != "total"]) /
+        estimate[variable == "total"],
+      .groups = "drop"
+    )
+
+  employment <- employment_clean %>%
+    filter(str_sub(GEOID, 1, 2) == state_fips) %>%
+    group_by(GEOID, NAME) %>%
+    summarize(
+      pct_full_time = pct_full_time
+    )
+
+  table_data <- earnings %>%
+    left_join(education, by = c("GEOID", "NAME")) %>%
+    left_join(employment, by = c("GEOID", "NAME")) %>%
+    mutate(across(where(is.numeric), ~ round(., 1))) %>%
+    select(
+      County = NAME,
+      `Median Earnings ($)` = median_earnings,
+      `% Bachelor's+` = pct_bachelor_plus,
+      `% Full-Time` = pct_full_time
+    )
+
+  html_table <- table_data %>%
+    kable("html", escape = FALSE) %>%
+    kable_styling(full_width = TRUE, bootstrap_options = c("striped", "hover", "condensed"))
+
+  html_page <- glue('
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>County-Level Earnings Table – {state_abbr} (2023)</title>
+  <style>
+    body {{ font-family: sans-serif; padding: 2rem; background-color: #f9f9f9; }}
+    h1 {{ font-size: 1.5rem; margin-bottom: 1rem; }}
+    table {{ font-size: 0.95rem; }}
+  </style>
+</head>
+<body>
+  <h1>County-Level Earnings and Employment Statistics – {state_abbr} (2023)</h1>
+  {html_table}
+</body>
+</html>
+')
+
+  write_file(html_page, path(output_dir, paste0(state_fips, ".html")))
+})
+
+
+```
+
+
+# income inequality widgets 
+```{r}
+
+
+library(tidycensus)
+library(tidyverse)
+library(plotly)
+library(htmlwidgets)
+library(glue)
+
+# 1. Get income by quintile for each county
+income_quintiles <- get_acs(
+  geography = "county",
+  variables = c(
+    total = "B19081_001",
+    q1 = "B19081_002",
+    q2 = "B19081_003",
+    q3 = "B19081_004",
+    q4 = "B19081_005",
+    q5 = "B19081_006"
+  ),
+  year = 2023,
+  survey = "acs5",
+  geometry = FALSE
+)
+
+# 2. Aggregate to state-level average shares
+state_summary <- income_quintiles %>%
+  mutate(state_fips = substr(GEOID, 1, 2)) %>%
+  group_by(state_fips, variable) %>%
+  summarise(estimate = mean(estimate, na.rm = TRUE), .groups = "drop") %>%
+  group_by(state_fips) %>%
+  mutate(total = sum(estimate), share = estimate / total * 100) %>%
+  ungroup() %>%
+  mutate(
+    quintile = recode(variable,
+                      q1 = "Bottom 20%",
+                      q2 = "Second 20%",
+                      q3 = "Middle 20%",
+                      q4 = "Fourth 20%",
+                      q5 = "Top 20%"),
+    quintile = factor(quintile, levels = c("Bottom 20%", "Second 20%", "Middle 20%", "Fourth 20%", "Top 20%"))
+  )
+
+
+fips_to_state <- c(
+  "01" = "Alabama", "02" = "Alaska", "04" = "Arizona", "05" = "Arkansas",
+  "06" = "California", "08" = "Colorado", "09" = "Connecticut", "10" = "Delaware",
+  "11" = "District of Columbia", "12" = "Florida", "13" = "Georgia", "15" = "Hawaii",
+  "16" = "Idaho", "17" = "Illinois", "18" = "Indiana", "19" = "Iowa",
+  "20" = "Kansas", "21" = "Kentucky", "22" = "Louisiana", "23" = "Maine",
+  "24" = "Maryland", "25" = "Massachusetts", "26" = "Michigan", "27" = "Minnesota",
+  "28" = "Mississippi", "29" = "Missouri", "30" = "Montana", "31" = "Nebraska",
+  "32" = "Nevada", "33" = "New Hampshire", "34" = "New Jersey", "35" = "New Mexico",
+  "36" = "New York", "37" = "North Carolina", "38" = "North Dakota", "39" = "Ohio",
+  "40" = "Oklahoma", "41" = "Oregon", "42" = "Pennsylvania", "44" = "Rhode Island",
+  "45" = "South Carolina", "46" = "South Dakota", "47" = "Tennessee", "48" = "Texas",
+  "49" = "Utah", "50" = "Vermont", "51" = "Virginia", "53" = "Washington",
+  "54" = "West Virginia", "55" = "Wisconsin", "56" = "Wyoming"
+)
+
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/ineq-widgets"
+
+# 4. Create bar charts per state
+walk(unique(state_summary$state_fips), function(fips) {
+  df <- state_summary %>%
+    filter(state_fips == fips & !is.na(quintile))
+
+  state_name <- fips_to_state[[fips]]
+
+  p <- ggplot(df, aes(x = share, y = quintile, fill = quintile)) +
+    geom_col(width = 0.7) +
+    scale_x_continuous(
+      limits = c(0, max(df$share, na.rm = TRUE) * 1.15),
+      labels = label_percent(scale = 1)
+    ) +
+    scale_fill_brewer(palette = "Blues", direction = 1) +
+    labs(
+      title = paste("Income Share by Quintile –", state_name),
+      x = "Share of Total Income (%)",
+      y = NULL
+    ) +
+    theme_minimal() +
+    theme(
+      plot.title = element_text(hjust = 0.5, size = 16),
+      legend.position = "none",
+      axis.text.y = element_text(size = 11)
+    )
+
+  ggsave(
+    filename = file.path(output_dir, paste0(fips, "_ineq_bar.png")),
+    plot = p,
+    width = 8, height = 6, dpi = 300
+  )
+})
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# rewrite state name from fips code 
+```{r}
+
+
+# Folder containing the HTML files
+html_folder <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/ratio-pages"
+
+# FIPS to state name mapping
+fips_to_state <- c(
+  "01" = "Alabama", "02" = "Alaska", "04" = "Arizona", "05" = "Arkansas",
+  "06" = "California", "08" = "Colorado", "09" = "Connecticut", "10" = "Delaware",
+  "11" = "District of Columbia", "12" = "Florida", "13" = "Georgia", "15" = "Hawaii",
+  "16" = "Idaho", "17" = "Illinois", "18" = "Indiana", "19" = "Iowa",
+  "20" = "Kansas", "21" = "Kentucky", "22" = "Louisiana", "23" = "Maine",
+  "24" = "Maryland", "25" = "Massachusetts", "26" = "Michigan", "27" = "Minnesota",
+  "28" = "Mississippi", "29" = "Missouri", "30" = "Montana", "31" = "Nebraska",
+  "32" = "Nevada", "33" = "New Hampshire", "34" = "New Jersey", "35" = "New Mexico",
+  "36" = "New York", "37" = "North Carolina", "38" = "North Dakota", "39" = "Ohio",
+  "40" = "Oklahoma", "41" = "Oregon", "42" = "Pennsylvania", "44" = "Rhode Island",
+  "45" = "South Carolina", "46" = "South Dakota", "47" = "Tennessee", "48" = "Texas",
+  "49" = "Utah", "50" = "Vermont", "51" = "Virginia", "53" = "Washington",
+  "54" = "West Virginia", "55" = "Wisconsin", "56" = "Wyoming"
+)
+
+# Get all .html files in folder
+html_files <- dir_ls(html_folder, regexp = "\\.html$")
+
+for (file_path in html_files) {
+  fips <- str_extract(path_file(file_path), "^\\d{2}")  # e.g., "01" from "01.html"
+  if (is.na(fips) || !(fips %in% names(fips_to_state))) next
+
+  state <- fips_to_state[[fips]]
+
+  # Read file
+  lines <- readLines(file_path)
+
+  # Replace all occurrences of "State XX" (e.g., "State 01") with state name
+  lines <- str_replace_all(lines, paste0("State ", fips), state)
+
+  # Also update iframe src="../seventy-county-maps/01.html" → same filename
+  lines <- str_replace_all(lines, paste0("/", fips, ".html"), paste0("/", fips, ".html"))  # leave filename unchanged
+
+  # Optionally, remove any lingering "State XX" patterns not already matched
+  lines <- str_replace_all(lines, paste0("State ", fips), state)
+
+  # Write back
+  writeLines(lines, file_path)
+}
+
+page_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/ratio-pages"
+
+# Description to inject
+description_block <- '
+  <div style="margin-top: 2rem; margin-left: 70rem;font-size: 0.95rem; line-height: 1.5;">
+    <strong>About This Chart:</strong><br>
+    This chart breaks down how total household income is distributed across income quintiles in the state.
+    Each quintile represents 20% of households, ordered from lowest to highest income.
+    The wider a bar, the more income that group collectively earns.
+    <br><br>
+    In a perfectly equal distribution, each group would hold about 20% of the income.
+    However, most states show an unequal pattern, where the top 20% of households hold a disproportionate share.
+  </div>
+'
+
+# Find all .html files in the directory
+html_files <- dir_ls(page_dir, regexp = "\\.html$")
+
+# Edit each file
+walk(html_files, function(file_path) {
+  html <- read_file(file_path)
+
+  # Insert before closing </body>
+  new_html <- str_replace(html, "</body>", paste0(description_block, "\n</body>"))
+
+  write_file(new_html, file_path)
+})
+
+
+  
+```
+
+
+

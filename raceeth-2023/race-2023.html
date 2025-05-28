@@ -48,35 +48,82 @@
 <body>
 
   <div class="sidebar">
-    <a href="#" class="race-link active" data-map="hispanic-state.html">Hispanic</a>
-    <a href="#" class="race-link" data-map="white-state.html">White (non-Hispanic)</a>
-    <a href="#" class="race-link" data-map="black-state.html">Black or African American</a>
-    <a href="#" class="race-link" data-map="asian-state.html">Asian</a>
-    <a href="#" class="race-link" data-map="native-state.html">American Indian / Alaska Native</a>
-    <a href="#" class="race-link" data-map="pacific-state.html">Pacific Islander</a>
-    <a href="#" class="race-link" data-map="multirace-state.html">Two or More Races</a>
+    <a href="#hispanic-state.html" class="race-link" data-map="hispanic-state.html">Hispanic</a>
+    <a href="#white-state.html" class="race-link" data-map="white-state.html">White (non-Hispanic)</a>
+    <a href="#black-state.html" class="race-link" data-map="black-state.html">Black or African American</a>
+    <a href="#asian-state.html" class="race-link" data-map="asian-state.html">Asian</a>
+    <a href="#native-state.html" class="race-link" data-map="native-state.html">American Indian / Alaska Native</a>
+    <a href="#pacific-state.html" class="race-link" data-map="pacific-state.html">Pacific Islander</a>
+    <a href="#multirace-state.html" class="race-link" data-map="multirace-state.html">Two or More Races</a>
   </div>
 
   <div class="main-content">
-    <iframe id="mapFrame" src="hispanic-state.html"></iframe>
+    <iframe id="mapFrame"></iframe>
   </div>
 
   <script>
     const links = document.querySelectorAll('.race-link');
     const frame = document.getElementById('mapFrame');
 
+    function setActiveLink(mapSrc) {
+      links.forEach(link => {
+        if (link.dataset.map === mapSrc) {
+          link.classList.add("active");
+        } else {
+          link.classList.remove("active");
+        }
+      });
+    }
+
+    function loadMapFromHash() {
+      const hash = window.location.hash;
+      const mapSrc = hash ? hash.substring(1) : "hispanic-state.html";
+      frame.src = mapSrc;
+      setActiveLink(mapSrc);
+    }
+
+    // Handle initial load
+    window.addEventListener("load", loadMapFromHash);
+
+    // Handle browser back/forward
+    window.addEventListener("hashchange", loadMapFromHash);
+
+    // Handle menu clicks
     links.forEach(link => {
-      link.addEventListener('click', function(e) {
+      link.addEventListener("click", function(e) {
         e.preventDefault();
-        // remove active from all
-        links.forEach(l => l.classList.remove('active'));
-        // add active to clicked one
-        this.classList.add('active');
-        // update map iframe
-        frame.src = this.dataset.map;
+        const newMap = this.dataset.map;
+        window.location.hash = newMap; // Triggers hashchange
       });
     });
   </script>
+<!-- GROWTH WIDGET CONTAINER -->
+<div id="growthWidget" style="
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: white;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 280px;
+  max-height: 350px;
+  overflow-y: auto;
+  font-family: sans-serif;
+  font-size: 14px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+"></div>
+
+<!-- WIDGET SCRIPT LOADER -->
+<script type="module">
+  import { initGrowthWidget } from "./growth-widget.js";
+
+  initGrowthWidget({
+    stateDataUrl: "./data/state_growth.json",
+    countyDataUrl: "./data/county_growth.json",
+    containerSelector: "#growthWidget"
+  });
+</script>
 
 </body>
 </html>

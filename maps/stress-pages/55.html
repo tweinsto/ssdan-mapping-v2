@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rent Stress, Median Rent & Stats – Wisconsin (2023)</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 1.5rem;
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .row {
+      display: flex;
+      gap: 2rem;
+      align-items: flex-start;
+    }
+    .col-large {
+      flex: 2;
+    }
+    .col-small {
+      flex: 1;
+    }
+    .map-title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+    .map-box {
+      border: 2px solid #ccc;
+      padding: 0.5rem;
+      background-color: white;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    }
+    iframe {
+      width: 100%;
+      height: 550px;
+      border: none;
+      margin-bottom: 1.5rem;
+    }
+    .table-title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin: 2rem 0 0.5rem 0;
+    }
+    table {
+      font-size: 0.95rem;
+    }
+    .description-box {
+      margin-top: 2rem;
+      padding: 1rem;
+      background-color: #eef0f4;
+      border-left: 4px solid #4a142e;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Rent Stress Index, Median Rent, and County Statistics – Wisconsin</h1>
+
+  <div class="row">
+    <div class="col-large">
+      <div class="map-title">Rent Stress Index by County</div>
+      <iframe src="../stress-maps/55.html" title="Rent Stress Map"></iframe>
+
+      <div class="table-title">County-Level Inputs to Rent Stress Index</div>
+      <table class="table table-striped table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> County </th>
+   <th style="text-align:right;"> Median Rent ($) </th>
+   <th style="text-align:right;"> % Rent-Burdened </th>
+   <th style="text-align:right;"> Vacancy Rate (%) </th>
+   <th style="text-align:right;"> Rent Stress Index </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Adams County, Wisconsin </td>
+   <td style="text-align:right;"> 789 </td>
+   <td style="text-align:right;"> 8.81 </td>
+   <td style="text-align:right;"> 9.7 </td>
+   <td style="text-align:right;"> 0.42 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Ashland County, Wisconsin </td>
+   <td style="text-align:right;"> 665 </td>
+   <td style="text-align:right;"> 7.40 </td>
+   <td style="text-align:right;"> 14.4 </td>
+   <td style="text-align:right;"> -0.17 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Barron County, Wisconsin </td>
+   <td style="text-align:right;"> 859 </td>
+   <td style="text-align:right;"> 12.21 </td>
+   <td style="text-align:right;"> 16.3 </td>
+   <td style="text-align:right;"> 0.38 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Bayfield County, Wisconsin </td>
+   <td style="text-align:right;"> 789 </td>
+   <td style="text-align:right;"> 9.02 </td>
+   <td style="text-align:right;"> 12.2 </td>
+   <td style="text-align:right;"> 0.27 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Brown County, Wisconsin </td>
+   <td style="text-align:right;"> 973 </td>
+   <td style="text-align:right;"> 8.64 </td>
+   <td style="text-align:right;"> 16.8 </td>
+   <td style="text-align:right;"> 0.12 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Buffalo County, Wisconsin </td>
+   <td style="text-align:right;"> 822 </td>
+   <td style="text-align:right;"> 4.38 </td>
+   <td style="text-align:right;"> 18.7 </td>
+   <td style="text-align:right;"> -0.58 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Burnett County, Wisconsin </td>
+   <td style="text-align:right;"> 758 </td>
+   <td style="text-align:right;"> 9.02 </td>
+   <td style="text-align:right;"> 11.4 </td>
+   <td style="text-align:right;"> 0.29 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Calumet County, Wisconsin </td>
+   <td style="text-align:right;"> 1002 </td>
+   <td style="text-align:right;"> 7.50 </td>
+   <td style="text-align:right;"> 20.7 </td>
+   <td style="text-align:right;"> -0.22 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Chippewa County, Wisconsin </td>
+   <td style="text-align:right;"> 963 </td>
+   <td style="text-align:right;"> 7.50 </td>
+   <td style="text-align:right;"> 19.0 </td>
+   <td style="text-align:right;"> -0.15 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Clark County, Wisconsin </td>
+   <td style="text-align:right;"> 786 </td>
+   <td style="text-align:right;"> 6.85 </td>
+   <td style="text-align:right;"> 18.8 </td>
+   <td style="text-align:right;"> -0.39 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Columbia County, Wisconsin </td>
+   <td style="text-align:right;"> 926 </td>
+   <td style="text-align:right;"> 4.34 </td>
+   <td style="text-align:right;"> 19.2 </td>
+   <td style="text-align:right;"> -0.50 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Crawford County, Wisconsin </td>
+   <td style="text-align:right;"> 809 </td>
+   <td style="text-align:right;"> 5.59 </td>
+   <td style="text-align:right;"> 13.9 </td>
+   <td style="text-align:right;"> -0.15 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Dane County, Wisconsin </td>
+   <td style="text-align:right;"> 1345 </td>
+   <td style="text-align:right;"> 8.26 </td>
+   <td style="text-align:right;"> 17.1 </td>
+   <td style="text-align:right;"> 0.47 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Dodge County, Wisconsin </td>
+   <td style="text-align:right;"> 963 </td>
+   <td style="text-align:right;"> 6.65 </td>
+   <td style="text-align:right;"> 16.1 </td>
+   <td style="text-align:right;"> -0.03 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Door County, Wisconsin </td>
+   <td style="text-align:right;"> 995 </td>
+   <td style="text-align:right;"> 12.86 </td>
+   <td style="text-align:right;"> 13.9 </td>
+   <td style="text-align:right;"> 0.75 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Douglas County, Wisconsin </td>
+   <td style="text-align:right;"> 903 </td>
+   <td style="text-align:right;"> 7.14 </td>
+   <td style="text-align:right;"> 11.7 </td>
+   <td style="text-align:right;"> 0.25 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Dunn County, Wisconsin </td>
+   <td style="text-align:right;"> 942 </td>
+   <td style="text-align:right;"> 6.78 </td>
+   <td style="text-align:right;"> 17.5 </td>
+   <td style="text-align:right;"> -0.14 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Eau Claire County, Wisconsin </td>
+   <td style="text-align:right;"> 977 </td>
+   <td style="text-align:right;"> 7.20 </td>
+   <td style="text-align:right;"> 18.8 </td>
+   <td style="text-align:right;"> -0.15 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Florence County, Wisconsin </td>
+   <td style="text-align:right;"> 871 </td>
+   <td style="text-align:right;"> 4.25 </td>
+   <td style="text-align:right;"> 10.4 </td>
+   <td style="text-align:right;"> 0.02 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Fond du Lac County, Wisconsin </td>
+   <td style="text-align:right;"> 926 </td>
+   <td style="text-align:right;"> 7.66 </td>
+   <td style="text-align:right;"> 17.4 </td>
+   <td style="text-align:right;"> -0.06 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Forest County, Wisconsin </td>
+   <td style="text-align:right;"> 585 </td>
+   <td style="text-align:right;"> 4.59 </td>
+   <td style="text-align:right;"> 11.7 </td>
+   <td style="text-align:right;"> -0.34 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Grant County, Wisconsin </td>
+   <td style="text-align:right;"> 812 </td>
+   <td style="text-align:right;"> 7.59 </td>
+   <td style="text-align:right;"> 17.6 </td>
+   <td style="text-align:right;"> -0.21 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Green County, Wisconsin </td>
+   <td style="text-align:right;"> 851 </td>
+   <td style="text-align:right;"> 6.49 </td>
+   <td style="text-align:right;"> 18.7 </td>
+   <td style="text-align:right;"> -0.35 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Green Lake County, Wisconsin </td>
+   <td style="text-align:right;"> 806 </td>
+   <td style="text-align:right;"> 7.91 </td>
+   <td style="text-align:right;"> 17.6 </td>
+   <td style="text-align:right;"> -0.18 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Iowa County, Wisconsin </td>
+   <td style="text-align:right;"> 941 </td>
+   <td style="text-align:right;"> 12.14 </td>
+   <td style="text-align:right;"> 17.5 </td>
+   <td style="text-align:right;"> 0.38 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Iron County, Wisconsin </td>
+   <td style="text-align:right;"> 640 </td>
+   <td style="text-align:right;"> 7.77 </td>
+   <td style="text-align:right;"> 11.1 </td>
+   <td style="text-align:right;"> 0.06 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Jackson County, Wisconsin </td>
+   <td style="text-align:right;"> 789 </td>
+   <td style="text-align:right;"> 2.87 </td>
+   <td style="text-align:right;"> 15.5 </td>
+   <td style="text-align:right;"> -0.54 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Jefferson County, Wisconsin </td>
+   <td style="text-align:right;"> 1012 </td>
+   <td style="text-align:right;"> 8.43 </td>
+   <td style="text-align:right;"> 17.1 </td>
+   <td style="text-align:right;"> 0.13 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Juneau County, Wisconsin </td>
+   <td style="text-align:right;"> 847 </td>
+   <td style="text-align:right;"> 8.19 </td>
+   <td style="text-align:right;"> 13.1 </td>
+   <td style="text-align:right;"> 0.19 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Kenosha County, Wisconsin </td>
+   <td style="text-align:right;"> 1175 </td>
+   <td style="text-align:right;"> 6.67 </td>
+   <td style="text-align:right;"> 14.8 </td>
+   <td style="text-align:right;"> 0.29 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Kewaunee County, Wisconsin </td>
+   <td style="text-align:right;"> 839 </td>
+   <td style="text-align:right;"> 9.93 </td>
+   <td style="text-align:right;"> 19.6 </td>
+   <td style="text-align:right;"> -0.09 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> La Crosse County, Wisconsin </td>
+   <td style="text-align:right;"> 1023 </td>
+   <td style="text-align:right;"> 7.32 </td>
+   <td style="text-align:right;"> 18.2 </td>
+   <td style="text-align:right;"> -0.04 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Lafayette County, Wisconsin </td>
+   <td style="text-align:right;"> 835 </td>
+   <td style="text-align:right;"> 5.42 </td>
+   <td style="text-align:right;"> 18.3 </td>
+   <td style="text-align:right;"> -0.44 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Langlade County, Wisconsin </td>
+   <td style="text-align:right;"> 737 </td>
+   <td style="text-align:right;"> 5.75 </td>
+   <td style="text-align:right;"> 13.8 </td>
+   <td style="text-align:right;"> -0.21 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Lincoln County, Wisconsin </td>
+   <td style="text-align:right;"> 768 </td>
+   <td style="text-align:right;"> 9.98 </td>
+   <td style="text-align:right;"> 12.9 </td>
+   <td style="text-align:right;"> 0.29 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Manitowoc County, Wisconsin </td>
+   <td style="text-align:right;"> 777 </td>
+   <td style="text-align:right;"> 6.36 </td>
+   <td style="text-align:right;"> 15.7 </td>
+   <td style="text-align:right;"> -0.24 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Marathon County, Wisconsin </td>
+   <td style="text-align:right;"> 950 </td>
+   <td style="text-align:right;"> 9.60 </td>
+   <td style="text-align:right;"> 18.9 </td>
+   <td style="text-align:right;"> 0.05 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Marinette County, Wisconsin </td>
+   <td style="text-align:right;"> 749 </td>
+   <td style="text-align:right;"> 5.69 </td>
+   <td style="text-align:right;"> 11.1 </td>
+   <td style="text-align:right;"> -0.02 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Marquette County, Wisconsin </td>
+   <td style="text-align:right;"> 800 </td>
+   <td style="text-align:right;"> 9.04 </td>
+   <td style="text-align:right;"> 12.7 </td>
+   <td style="text-align:right;"> 0.25 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Menominee County, Wisconsin </td>
+   <td style="text-align:right;"> 624 </td>
+   <td style="text-align:right;"> 5.08 </td>
+   <td style="text-align:right;"> 20.2 </td>
+   <td style="text-align:right;"> -0.83 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Milwaukee County, Wisconsin </td>
+   <td style="text-align:right;"> 1069 </td>
+   <td style="text-align:right;"> 7.57 </td>
+   <td style="text-align:right;"> 11.0 </td>
+   <td style="text-align:right;"> 0.52 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Monroe County, Wisconsin </td>
+   <td style="text-align:right;"> 920 </td>
+   <td style="text-align:right;"> 7.77 </td>
+   <td style="text-align:right;"> 15.4 </td>
+   <td style="text-align:right;"> 0.08 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Oconto County, Wisconsin </td>
+   <td style="text-align:right;"> 796 </td>
+   <td style="text-align:right;"> 9.53 </td>
+   <td style="text-align:right;"> 13.9 </td>
+   <td style="text-align:right;"> 0.21 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Oneida County, Wisconsin </td>
+   <td style="text-align:right;"> 868 </td>
+   <td style="text-align:right;"> 7.53 </td>
+   <td style="text-align:right;"> 11.8 </td>
+   <td style="text-align:right;"> 0.24 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Outagamie County, Wisconsin </td>
+   <td style="text-align:right;"> 998 </td>
+   <td style="text-align:right;"> 8.45 </td>
+   <td style="text-align:right;"> 17.7 </td>
+   <td style="text-align:right;"> 0.07 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Ozaukee County, Wisconsin </td>
+   <td style="text-align:right;"> 1112 </td>
+   <td style="text-align:right;"> 5.85 </td>
+   <td style="text-align:right;"> 22.0 </td>
+   <td style="text-align:right;"> -0.35 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Pepin County, Wisconsin </td>
+   <td style="text-align:right;"> 860 </td>
+   <td style="text-align:right;"> 3.39 </td>
+   <td style="text-align:right;"> 18.7 </td>
+   <td style="text-align:right;"> -0.63 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Pierce County, Wisconsin </td>
+   <td style="text-align:right;"> 1025 </td>
+   <td style="text-align:right;"> 9.35 </td>
+   <td style="text-align:right;"> 20.7 </td>
+   <td style="text-align:right;"> -0.02 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Polk County, Wisconsin </td>
+   <td style="text-align:right;"> 958 </td>
+   <td style="text-align:right;"> 5.92 </td>
+   <td style="text-align:right;"> 15.3 </td>
+   <td style="text-align:right;"> -0.05 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Portage County, Wisconsin </td>
+   <td style="text-align:right;"> 903 </td>
+   <td style="text-align:right;"> 5.89 </td>
+   <td style="text-align:right;"> 17.8 </td>
+   <td style="text-align:right;"> -0.29 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Price County, Wisconsin </td>
+   <td style="text-align:right;"> 801 </td>
+   <td style="text-align:right;"> 6.84 </td>
+   <td style="text-align:right;"> 11.9 </td>
+   <td style="text-align:right;"> 0.09 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Racine County, Wisconsin </td>
+   <td style="text-align:right;"> 1017 </td>
+   <td style="text-align:right;"> 7.43 </td>
+   <td style="text-align:right;"> 15.4 </td>
+   <td style="text-align:right;"> 0.15 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Richland County, Wisconsin </td>
+   <td style="text-align:right;"> 786 </td>
+   <td style="text-align:right;"> 11.42 </td>
+   <td style="text-align:right;"> 16.3 </td>
+   <td style="text-align:right;"> 0.22 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Rock County, Wisconsin </td>
+   <td style="text-align:right;"> 1019 </td>
+   <td style="text-align:right;"> 8.89 </td>
+   <td style="text-align:right;"> 13.9 </td>
+   <td style="text-align:right;"> 0.39 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Rusk County, Wisconsin </td>
+   <td style="text-align:right;"> 816 </td>
+   <td style="text-align:right;"> 7.18 </td>
+   <td style="text-align:right;"> 13.9 </td>
+   <td style="text-align:right;"> 0.01 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> St. Croix County, Wisconsin </td>
+   <td style="text-align:right;"> 1238 </td>
+   <td style="text-align:right;"> 5.07 </td>
+   <td style="text-align:right;"> 27.8 </td>
+   <td style="text-align:right;"> -0.68 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Sauk County, Wisconsin </td>
+   <td style="text-align:right;"> 970 </td>
+   <td style="text-align:right;"> 7.48 </td>
+   <td style="text-align:right;"> 17.1 </td>
+   <td style="text-align:right;"> -0.01 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Sawyer County, Wisconsin </td>
+   <td style="text-align:right;"> 683 </td>
+   <td style="text-align:right;"> 7.98 </td>
+   <td style="text-align:right;"> 12.7 </td>
+   <td style="text-align:right;"> 0.02 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Shawano County, Wisconsin </td>
+   <td style="text-align:right;"> 777 </td>
+   <td style="text-align:right;"> 9.55 </td>
+   <td style="text-align:right;"> 14.5 </td>
+   <td style="text-align:right;"> 0.15 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Sheboygan County, Wisconsin </td>
+   <td style="text-align:right;"> 889 </td>
+   <td style="text-align:right;"> 6.82 </td>
+   <td style="text-align:right;"> 14.9 </td>
+   <td style="text-align:right;"> -0.01 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Taylor County, Wisconsin </td>
+   <td style="text-align:right;"> 786 </td>
+   <td style="text-align:right;"> 7.19 </td>
+   <td style="text-align:right;"> 17.2 </td>
+   <td style="text-align:right;"> -0.25 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Trempealeau County, Wisconsin </td>
+   <td style="text-align:right;"> 887 </td>
+   <td style="text-align:right;"> 7.94 </td>
+   <td style="text-align:right;"> 19.9 </td>
+   <td style="text-align:right;"> -0.25 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Vernon County, Wisconsin </td>
+   <td style="text-align:right;"> 826 </td>
+   <td style="text-align:right;"> 7.68 </td>
+   <td style="text-align:right;"> 15.9 </td>
+   <td style="text-align:right;"> -0.07 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Vilas County, Wisconsin </td>
+   <td style="text-align:right;"> 810 </td>
+   <td style="text-align:right;"> 4.40 </td>
+   <td style="text-align:right;"> 11.9 </td>
+   <td style="text-align:right;"> -0.13 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Walworth County, Wisconsin </td>
+   <td style="text-align:right;"> 1090 </td>
+   <td style="text-align:right;"> 6.74 </td>
+   <td style="text-align:right;"> 17.3 </td>
+   <td style="text-align:right;"> 0.03 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Washburn County, Wisconsin </td>
+   <td style="text-align:right;"> 815 </td>
+   <td style="text-align:right;"> 14.59 </td>
+   <td style="text-align:right;"> 13.0 </td>
+   <td style="text-align:right;"> 0.78 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Washington County, Wisconsin </td>
+   <td style="text-align:right;"> 1126 </td>
+   <td style="text-align:right;"> 10.64 </td>
+   <td style="text-align:right;"> 19.2 </td>
+   <td style="text-align:right;"> 0.32 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Waukesha County, Wisconsin </td>
+   <td style="text-align:right;"> 1300 </td>
+   <td style="text-align:right;"> 8.28 </td>
+   <td style="text-align:right;"> 22.0 </td>
+   <td style="text-align:right;"> 0.09 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Waupaca County, Wisconsin </td>
+   <td style="text-align:right;"> 834 </td>
+   <td style="text-align:right;"> 8.22 </td>
+   <td style="text-align:right;"> 15.1 </td>
+   <td style="text-align:right;"> 0.05 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Waushara County, Wisconsin </td>
+   <td style="text-align:right;"> 789 </td>
+   <td style="text-align:right;"> 5.53 </td>
+   <td style="text-align:right;"> 14.3 </td>
+   <td style="text-align:right;"> -0.21 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Winnebago County, Wisconsin </td>
+   <td style="text-align:right;"> 924 </td>
+   <td style="text-align:right;"> 8.78 </td>
+   <td style="text-align:right;"> 15.5 </td>
+   <td style="text-align:right;"> 0.17 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Wood County, Wisconsin </td>
+   <td style="text-align:right;"> 831 </td>
+   <td style="text-align:right;"> 7.43 </td>
+   <td style="text-align:right;"> 16.4 </td>
+   <td style="text-align:right;"> -0.12 </td>
+  </tr>
+</tbody>
+</table>
+    </div>
+
+    <div class="col-small">
+      <div class="map-box">
+        <div class="map-title">Median Gross Rent by County</div>
+        <iframe src="../rent-maps/55.html" title="Median Rent Map"></iframe>
+      </div>
+
+      <div class="description-box">
+        <strong>What is the Rent Stress Index?</strong><br>
+        The Rent Stress Index is a custom metric created to reflect renter vulnerability in each county. It combines:
+        <ul style="margin-top: 0.5rem;">
+          <li>Median gross rent (higher rent = more stress)</li>
+          <li>Percent of renters spending over 30% of income on rent</li>
+          <li>Rental vacancy rate (lower vacancy = more stress)</li>
+        </ul>
+        Each of these is standardized (z-scored), and the Rent Stress Index is the average of the three. Higher values indicate more stress on renters.
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Median Earnings and Education – State 18</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 2rem;
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .container {
+      display: flex;
+      gap: 2rem;
+    }
+    .map {
+      flex: 2;
+    }
+    .table-box {
+      flex: 1.2;
+      background-color: white;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      overflow-x: auto;
+    }
+    iframe {
+      width: 100%;
+      height: 550px;
+      border: none;
+    }
+    table {
+      font-size: 0.95rem;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      padding: 6px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>County-Level Median Earnings – State 18 (2023)</h1>
+
+  <div class="container">
+    <div class="map">
+      <iframe src="../earnings-maps/18.html" title="Median Earnings Map – State 18"></iframe>
+    </div>
+    <div class="table-box">
+      <div><strong>Statistics by County Table</strong></div>
+      <table class="table table-striped table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> County </th>
+   <th style="text-align:right;"> Median Earnings ($) </th>
+   <th style="text-align:right;"> % Bachelor's+ </th>
+   <th style="text-align:right;"> % Full-Time </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Adams County, Indiana </td>
+   <td style="text-align:right;"> 27765 </td>
+   <td style="text-align:right;"> 15.2 </td>
+   <td style="text-align:right;"> 57.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Allen County, Indiana </td>
+   <td style="text-align:right;"> 36432 </td>
+   <td style="text-align:right;"> 31.1 </td>
+   <td style="text-align:right;"> 58.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Bartholomew County, Indiana </td>
+   <td style="text-align:right;"> 41174 </td>
+   <td style="text-align:right;"> 35.4 </td>
+   <td style="text-align:right;"> 59.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Benton County, Indiana </td>
+   <td style="text-align:right;"> 33363 </td>
+   <td style="text-align:right;"> 18.8 </td>
+   <td style="text-align:right;"> 55.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Blackford County, Indiana </td>
+   <td style="text-align:right;"> 28774 </td>
+   <td style="text-align:right;"> 13.5 </td>
+   <td style="text-align:right;"> 52.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Boone County, Indiana </td>
+   <td style="text-align:right;"> 58340 </td>
+   <td style="text-align:right;"> 50.5 </td>
+   <td style="text-align:right;"> 62.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Brown County, Indiana </td>
+   <td style="text-align:right;"> 42450 </td>
+   <td style="text-align:right;"> 26.0 </td>
+   <td style="text-align:right;"> 55.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Carroll County, Indiana </td>
+   <td style="text-align:right;"> 34366 </td>
+   <td style="text-align:right;"> 15.5 </td>
+   <td style="text-align:right;"> 59.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Cass County, Indiana </td>
+   <td style="text-align:right;"> 29370 </td>
+   <td style="text-align:right;"> 15.6 </td>
+   <td style="text-align:right;"> 56.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Clark County, Indiana </td>
+   <td style="text-align:right;"> 36386 </td>
+   <td style="text-align:right;"> 25.5 </td>
+   <td style="text-align:right;"> 61.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Clay County, Indiana </td>
+   <td style="text-align:right;"> 36588 </td>
+   <td style="text-align:right;"> 17.0 </td>
+   <td style="text-align:right;"> 57.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Clinton County, Indiana </td>
+   <td style="text-align:right;"> 30108 </td>
+   <td style="text-align:right;"> 16.7 </td>
+   <td style="text-align:right;"> 59.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Crawford County, Indiana </td>
+   <td style="text-align:right;"> 28760 </td>
+   <td style="text-align:right;"> 11.1 </td>
+   <td style="text-align:right;"> 51.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Daviess County, Indiana </td>
+   <td style="text-align:right;"> 29952 </td>
+   <td style="text-align:right;"> 15.1 </td>
+   <td style="text-align:right;"> 58.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Dearborn County, Indiana </td>
+   <td style="text-align:right;"> 38711 </td>
+   <td style="text-align:right;"> 26.0 </td>
+   <td style="text-align:right;"> 61.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Decatur County, Indiana </td>
+   <td style="text-align:right;"> 36726 </td>
+   <td style="text-align:right;"> 20.1 </td>
+   <td style="text-align:right;"> 65.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> DeKalb County, Indiana </td>
+   <td style="text-align:right;"> 34026 </td>
+   <td style="text-align:right;"> 20.1 </td>
+   <td style="text-align:right;"> 60.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Delaware County, Indiana </td>
+   <td style="text-align:right;"> 30037 </td>
+   <td style="text-align:right;"> 25.7 </td>
+   <td style="text-align:right;"> 47.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Dubois County, Indiana </td>
+   <td style="text-align:right;"> 37126 </td>
+   <td style="text-align:right;"> 24.3 </td>
+   <td style="text-align:right;"> 68.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Elkhart County, Indiana </td>
+   <td style="text-align:right;"> 31850 </td>
+   <td style="text-align:right;"> 19.7 </td>
+   <td style="text-align:right;"> 56.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Fayette County, Indiana </td>
+   <td style="text-align:right;"> 29274 </td>
+   <td style="text-align:right;"> 16.4 </td>
+   <td style="text-align:right;"> 50.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Floyd County, Indiana </td>
+   <td style="text-align:right;"> 40196 </td>
+   <td style="text-align:right;"> 31.3 </td>
+   <td style="text-align:right;"> 57.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Fountain County, Indiana </td>
+   <td style="text-align:right;"> 31232 </td>
+   <td style="text-align:right;"> 13.7 </td>
+   <td style="text-align:right;"> 58.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Franklin County, Indiana </td>
+   <td style="text-align:right;"> 38014 </td>
+   <td style="text-align:right;"> 19.5 </td>
+   <td style="text-align:right;"> 60.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Fulton County, Indiana </td>
+   <td style="text-align:right;"> 32867 </td>
+   <td style="text-align:right;"> 16.2 </td>
+   <td style="text-align:right;"> 61.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Gibson County, Indiana </td>
+   <td style="text-align:right;"> 33358 </td>
+   <td style="text-align:right;"> 19.0 </td>
+   <td style="text-align:right;"> 59.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Grant County, Indiana </td>
+   <td style="text-align:right;"> 29023 </td>
+   <td style="text-align:right;"> 20.4 </td>
+   <td style="text-align:right;"> 49.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Greene County, Indiana </td>
+   <td style="text-align:right;"> 32807 </td>
+   <td style="text-align:right;"> 14.6 </td>
+   <td style="text-align:right;"> 53.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Hamilton County, Indiana </td>
+   <td style="text-align:right;"> 58929 </td>
+   <td style="text-align:right;"> 61.8 </td>
+   <td style="text-align:right;"> 63.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Hancock County, Indiana </td>
+   <td style="text-align:right;"> 45781 </td>
+   <td style="text-align:right;"> 34.2 </td>
+   <td style="text-align:right;"> 63.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Harrison County, Indiana </td>
+   <td style="text-align:right;"> 35333 </td>
+   <td style="text-align:right;"> 22.0 </td>
+   <td style="text-align:right;"> 58.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Hendricks County, Indiana </td>
+   <td style="text-align:right;"> 44903 </td>
+   <td style="text-align:right;"> 39.6 </td>
+   <td style="text-align:right;"> 63.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Henry County, Indiana </td>
+   <td style="text-align:right;"> 31084 </td>
+   <td style="text-align:right;"> 16.7 </td>
+   <td style="text-align:right;"> 51.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Howard County, Indiana </td>
+   <td style="text-align:right;"> 34785 </td>
+   <td style="text-align:right;"> 20.0 </td>
+   <td style="text-align:right;"> 55.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Huntington County, Indiana </td>
+   <td style="text-align:right;"> 34479 </td>
+   <td style="text-align:right;"> 23.1 </td>
+   <td style="text-align:right;"> 58.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Jackson County, Indiana </td>
+   <td style="text-align:right;"> 33127 </td>
+   <td style="text-align:right;"> 20.3 </td>
+   <td style="text-align:right;"> 61.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Jasper County, Indiana </td>
+   <td style="text-align:right;"> 36426 </td>
+   <td style="text-align:right;"> 18.1 </td>
+   <td style="text-align:right;"> 55.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Jay County, Indiana </td>
+   <td style="text-align:right;"> 27105 </td>
+   <td style="text-align:right;"> 12.7 </td>
+   <td style="text-align:right;"> 55.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Jefferson County, Indiana </td>
+   <td style="text-align:right;"> 32420 </td>
+   <td style="text-align:right;"> 18.1 </td>
+   <td style="text-align:right;"> 53.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Jennings County, Indiana </td>
+   <td style="text-align:right;"> 31077 </td>
+   <td style="text-align:right;"> 13.6 </td>
+   <td style="text-align:right;"> 58.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Johnson County, Indiana </td>
+   <td style="text-align:right;"> 42884 </td>
+   <td style="text-align:right;"> 33.3 </td>
+   <td style="text-align:right;"> 62.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Knox County, Indiana </td>
+   <td style="text-align:right;"> 33762 </td>
+   <td style="text-align:right;"> 17.8 </td>
+   <td style="text-align:right;"> 58.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Kosciusko County, Indiana </td>
+   <td style="text-align:right;"> 36316 </td>
+   <td style="text-align:right;"> 24.6 </td>
+   <td style="text-align:right;"> 59.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LaGrange County, Indiana </td>
+   <td style="text-align:right;"> 32928 </td>
+   <td style="text-align:right;"> 11.1 </td>
+   <td style="text-align:right;"> 47.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Lake County, Indiana </td>
+   <td style="text-align:right;"> 35973 </td>
+   <td style="text-align:right;"> 24.9 </td>
+   <td style="text-align:right;"> 53.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> LaPorte County, Indiana </td>
+   <td style="text-align:right;"> 34650 </td>
+   <td style="text-align:right;"> 21.7 </td>
+   <td style="text-align:right;"> 51.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Lawrence County, Indiana </td>
+   <td style="text-align:right;"> 33401 </td>
+   <td style="text-align:right;"> 20.5 </td>
+   <td style="text-align:right;"> 58.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Madison County, Indiana </td>
+   <td style="text-align:right;"> 33425 </td>
+   <td style="text-align:right;"> 20.1 </td>
+   <td style="text-align:right;"> 53.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Marion County, Indiana </td>
+   <td style="text-align:right;"> 36355 </td>
+   <td style="text-align:right;"> 34.1 </td>
+   <td style="text-align:right;"> 58.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Marshall County, Indiana </td>
+   <td style="text-align:right;"> 33134 </td>
+   <td style="text-align:right;"> 20.4 </td>
+   <td style="text-align:right;"> 58.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Martin County, Indiana </td>
+   <td style="text-align:right;"> 32250 </td>
+   <td style="text-align:right;"> 13.2 </td>
+   <td style="text-align:right;"> 59.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Miami County, Indiana </td>
+   <td style="text-align:right;"> 29185 </td>
+   <td style="text-align:right;"> 16.1 </td>
+   <td style="text-align:right;"> 50.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Monroe County, Indiana </td>
+   <td style="text-align:right;"> 36836 </td>
+   <td style="text-align:right;"> 49.1 </td>
+   <td style="text-align:right;"> 45.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Montgomery County, Indiana </td>
+   <td style="text-align:right;"> 34462 </td>
+   <td style="text-align:right;"> 19.5 </td>
+   <td style="text-align:right;"> 57.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Morgan County, Indiana </td>
+   <td style="text-align:right;"> 39777 </td>
+   <td style="text-align:right;"> 20.6 </td>
+   <td style="text-align:right;"> 58.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Newton County, Indiana </td>
+   <td style="text-align:right;"> 32318 </td>
+   <td style="text-align:right;"> 13.7 </td>
+   <td style="text-align:right;"> 51.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Noble County, Indiana </td>
+   <td style="text-align:right;"> 33516 </td>
+   <td style="text-align:right;"> 17.8 </td>
+   <td style="text-align:right;"> 56.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Ohio County, Indiana </td>
+   <td style="text-align:right;"> 36210 </td>
+   <td style="text-align:right;"> 19.0 </td>
+   <td style="text-align:right;"> 61.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Orange County, Indiana </td>
+   <td style="text-align:right;"> 33475 </td>
+   <td style="text-align:right;"> 15.2 </td>
+   <td style="text-align:right;"> 59.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Owen County, Indiana </td>
+   <td style="text-align:right;"> 33451 </td>
+   <td style="text-align:right;"> 17.0 </td>
+   <td style="text-align:right;"> 55.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Parke County, Indiana </td>
+   <td style="text-align:right;"> 31264 </td>
+   <td style="text-align:right;"> 14.2 </td>
+   <td style="text-align:right;"> 51.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Perry County, Indiana </td>
+   <td style="text-align:right;"> 30366 </td>
+   <td style="text-align:right;"> 16.5 </td>
+   <td style="text-align:right;"> 53.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Pike County, Indiana </td>
+   <td style="text-align:right;"> 33085 </td>
+   <td style="text-align:right;"> 15.7 </td>
+   <td style="text-align:right;"> 58.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Porter County, Indiana </td>
+   <td style="text-align:right;"> 42814 </td>
+   <td style="text-align:right;"> 30.1 </td>
+   <td style="text-align:right;"> 55.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Posey County, Indiana </td>
+   <td style="text-align:right;"> 38398 </td>
+   <td style="text-align:right;"> 25.3 </td>
+   <td style="text-align:right;"> 62.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Pulaski County, Indiana </td>
+   <td style="text-align:right;"> 31336 </td>
+   <td style="text-align:right;"> 13.7 </td>
+   <td style="text-align:right;"> 52.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Putnam County, Indiana </td>
+   <td style="text-align:right;"> 34050 </td>
+   <td style="text-align:right;"> 19.9 </td>
+   <td style="text-align:right;"> 53.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Randolph County, Indiana </td>
+   <td style="text-align:right;"> 31036 </td>
+   <td style="text-align:right;"> 14.4 </td>
+   <td style="text-align:right;"> 55.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Ripley County, Indiana </td>
+   <td style="text-align:right;"> 34364 </td>
+   <td style="text-align:right;"> 19.4 </td>
+   <td style="text-align:right;"> 61.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Rush County, Indiana </td>
+   <td style="text-align:right;"> 30233 </td>
+   <td style="text-align:right;"> 16.8 </td>
+   <td style="text-align:right;"> 58.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> St. Joseph County, Indiana </td>
+   <td style="text-align:right;"> 35714 </td>
+   <td style="text-align:right;"> 32.6 </td>
+   <td style="text-align:right;"> 54.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Scott County, Indiana </td>
+   <td style="text-align:right;"> 29123 </td>
+   <td style="text-align:right;"> 12.4 </td>
+   <td style="text-align:right;"> 56.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Shelby County, Indiana </td>
+   <td style="text-align:right;"> 35637 </td>
+   <td style="text-align:right;"> 19.4 </td>
+   <td style="text-align:right;"> 58.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Spencer County, Indiana </td>
+   <td style="text-align:right;"> 36718 </td>
+   <td style="text-align:right;"> 21.2 </td>
+   <td style="text-align:right;"> 63.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Starke County, Indiana </td>
+   <td style="text-align:right;"> 28895 </td>
+   <td style="text-align:right;"> 12.6 </td>
+   <td style="text-align:right;"> 48.5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Steuben County, Indiana </td>
+   <td style="text-align:right;"> 37126 </td>
+   <td style="text-align:right;"> 24.7 </td>
+   <td style="text-align:right;"> 54.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Sullivan County, Indiana </td>
+   <td style="text-align:right;"> 29424 </td>
+   <td style="text-align:right;"> 14.3 </td>
+   <td style="text-align:right;"> 50.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Switzerland County, Indiana </td>
+   <td style="text-align:right;"> 31238 </td>
+   <td style="text-align:right;"> 10.0 </td>
+   <td style="text-align:right;"> 56.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Tippecanoe County, Indiana </td>
+   <td style="text-align:right;"> 32271 </td>
+   <td style="text-align:right;"> 40.1 </td>
+   <td style="text-align:right;"> 49.4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Tipton County, Indiana </td>
+   <td style="text-align:right;"> 37924 </td>
+   <td style="text-align:right;"> 24.9 </td>
+   <td style="text-align:right;"> 62.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Union County, Indiana </td>
+   <td style="text-align:right;"> 37356 </td>
+   <td style="text-align:right;"> 20.6 </td>
+   <td style="text-align:right;"> 67.7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Vanderburgh County, Indiana </td>
+   <td style="text-align:right;"> 35369 </td>
+   <td style="text-align:right;"> 27.1 </td>
+   <td style="text-align:right;"> 56.6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Vermillion County, Indiana </td>
+   <td style="text-align:right;"> 30418 </td>
+   <td style="text-align:right;"> 17.2 </td>
+   <td style="text-align:right;"> 54.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Vigo County, Indiana </td>
+   <td style="text-align:right;"> 30829 </td>
+   <td style="text-align:right;"> 25.9 </td>
+   <td style="text-align:right;"> 49.0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Wabash County, Indiana </td>
+   <td style="text-align:right;"> 33907 </td>
+   <td style="text-align:right;"> 21.6 </td>
+   <td style="text-align:right;"> 58.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Warren County, Indiana </td>
+   <td style="text-align:right;"> 36746 </td>
+   <td style="text-align:right;"> 17.2 </td>
+   <td style="text-align:right;"> 63.2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Warrick County, Indiana </td>
+   <td style="text-align:right;"> 47232 </td>
+   <td style="text-align:right;"> 35.5 </td>
+   <td style="text-align:right;"> 61.3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Washington County, Indiana </td>
+   <td style="text-align:right;"> 29451 </td>
+   <td style="text-align:right;"> 13.8 </td>
+   <td style="text-align:right;"> 57.1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Wayne County, Indiana </td>
+   <td style="text-align:right;"> 31990 </td>
+   <td style="text-align:right;"> 20.2 </td>
+   <td style="text-align:right;"> 52.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Wells County, Indiana </td>
+   <td style="text-align:right;"> 35280 </td>
+   <td style="text-align:right;"> 18.9 </td>
+   <td style="text-align:right;"> 61.9 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> White County, Indiana </td>
+   <td style="text-align:right;"> 33178 </td>
+   <td style="text-align:right;"> 18.3 </td>
+   <td style="text-align:right;"> 59.8 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Whitley County, Indiana </td>
+   <td style="text-align:right;"> 37540 </td>
+   <td style="text-align:right;"> 22.8 </td>
+   <td style="text-align:right;"> 61.1 </td>
+  </tr>
+</tbody>
+</table>
+    </div>
+  </div>
+
+</body>
+</html>

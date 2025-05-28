@@ -2,70 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>SSDAN Mapping Tool</title>
+  <title>Mapview</title>
   <style>
     html, body {
       margin: 0;
       padding: 0;
       height: 100%;
       font-family: sans-serif;
+      background-color: #f2f2f2;
     }
 
     body {
       display: flex;
       flex-direction: column;
       min-height: 100vh;
-      background-color: #f2f2f2;
     }
 
     header {
-      background-color: #3e49a8;
-      color: white;
-      padding: 1.5rem;
-      text-align: center;
-      font-size: 2rem;
+      padding: 1rem 1.5rem 0.5rem;
+      font-size: 3rem;
+      font-weight: bold;
+      color: #0f1db8;
+      font-style: italic;
+      
     }
 
     .menu {
       display: flex;
-      justify-content: center;
-      background-color: #453c3c;
-      padding: 0.5rem;
-      flex-wrap: wrap;
+      gap: 1rem;
+      padding: 0 1.5rem 1rem;
+      font-size: 0.95rem;
+      border-bottom: 4px solid #ccc;
+      
     }
 
-    .menu button {
-      margin: 0 0.3rem;
-      padding: 0.3rem 0.7rem;
-      font-size: 0.8rem;
-      background-color: white;
+    .menu a {
+      text-decoration: none;
+      color: #003366;
       font-weight: bold;
-      border-radius: 4px;
-      border: none;
+      cursor: pointer;
     }
 
-    .menu button.active {
-      background-color: #3e49a8;
-      color: white;
+    .menu a.active {
+      text-decoration: underline;
     }
 
     #content {
       flex: 1;
-      padding: 1rem;
+      padding: 1rem 1.5rem;
       background-color: white;
       overflow-y: auto;
     }
 
     footer {
-      background-color: #453c3c;
-      color: white;
+      background-color: #eee;
+      color: #333;
       text-align: center;
       padding: 0.6rem;
       font-size: 0.85rem;
     }
 
     footer a {
-      color: white;
+      color: #003366;
       margin: 0 0.5rem;
       text-decoration: none;
     }
@@ -77,25 +75,20 @@
 </head>
 <body>
 
-  <header>
-    Explore Social & Economic Change in the United States
-  </header>
+  <header>Mapview</header>
 
-  <div class="menu">
-    <button class="category-btn active" data-page="population.html">Population</button>
-    <button class="category-btn" data-page="race.html">Race & Ethnicity</button>
-    <button class="category-btn" data-page="earnings_poverty.html">Earnings/Poverty</button>
-    <button class="category-btn" data-page="misc.html">Misc</button>
-  </div>
+  <nav class="menu">
+    <a class="category-link active" data-page="population.html">Population</a>
+    <a class="category-link" data-page="race.html">Race & Ethnicity</a>
+    <a class="category-link" data-page="earnings_poverty.html">Income & Opportunity</a>
+    <a class="category-link" data-page="misc.html">Misc</a>
+  </nav>
 
   <div id="content">
-    <!-- 👉 INSERT your real content here (charts, map iframes, dropdowns, etc.) -->
-
-    <h2>Welcome to the SSDAN Mapping Tool</h2>
+    <!-- Default welcome content before dynamic load -->
+    
     <iframe src="your-map.html" style="width:100%; height:500px; border:none;"></iframe>
     <img src="your-chart.png" style="width:100%; margin-top: 1rem;">
-    
-    <!-- Add more content here -->
   </div>
 
   <footer>
@@ -109,35 +102,75 @@
   </footer>
 
   <script>
-  function loadPage(page) {
-    fetch('categories/' + page)
-      .then(res => res.text())
-      .then(html => {
-        document.getElementById("content").innerHTML = html;
-      });
-  }
+    function loadPage(page, subview = null) {
+      fetch('categories/' + page)
+        .then(res => res.text())
+        .then(html => {
+          const content = document.getElementById("content");
+          content.innerHTML = html;
 
-  window.onload = () => {
-    const initialPage = window.location.hash.slice(1) || 'population.html';
-    loadPage(initialPage);
-  };
+          // Run any scripts inside the new content
+          const scripts = content.querySelectorAll("script");
+          scripts.forEach(oldScript => {
+            const newScript = document.createElement("script");
+            newScript.textContent = oldScript.textContent;
+            document.body.appendChild(newScript);
+          });
 
-  document.querySelectorAll(".category-btn").forEach(btn => {
-    btn.addEventListener("click", function () {
-      document.querySelectorAll(".category-btn").forEach(b => b.classList.remove("active"));
-      this.classList.add("active");
-      const page = this.getAttribute("data-page");
-      loadPage(page);
-      history.pushState({ page }, "", "#" + page);
-    });
-  });
+          if (window.initWidgetIfPresent) window.initWidgetIfPresent();
 
-  window.addEventListener("popstate", function(event) {
-    if (event.state && event.state.page) {
-      loadPage(event.state.page);
+          // Update active link
+          document.querySelectorAll(".category-link").forEach(link => {
+            if (link.getAttribute("data-page") === page) {
+              link.classList.add("active");
+            } else {
+              link.classList.remove("active");
+            }
+          });
+
+          // Handle race subview
+          if (subview && page === "race.html") {
+            const iframe = content.querySelector("#race-map-frame");
+            if (iframe) iframe.src = `raceeth-2023/${subview}`;
+            const select = content.querySelector("#race-select");
+            if (select) {
+              const raceValue = subview.replace("-state.html", "");
+              select.value = raceValue;
+            }
+          }
+        });
     }
-  });
-</script>
 
+    window.onload = () => {
+      const fullHash = window.location.hash.slice(1);
+      const [page, subview] = fullHash.split("#");
+      loadPage(page || "population.html", subview);
+    };
+
+    document.querySelectorAll(".category-link").forEach(link => {
+      link.addEventListener("click", function () {
+        document.querySelectorAll(".category-link").forEach(l => l.classList.remove("active"));
+        this.classList.add("active");
+        const page = this.getAttribute("data-page");
+        loadPage(page);
+        history.pushState({ page }, "", "#" + page);
+      });
+    });
+  </script>
+
+  <script type="module">
+    import { initGrowthWidget } from "./raceeth-2023/growth-widget.js";
+
+    window.initWidgetIfPresent = () => {
+      const el = document.querySelector("#growthWidget");
+      if (el) {
+        initGrowthWidget({
+          stateDataUrl: "./raceeth-2023/data/state_growth.json",
+          countyDataUrl: "./raceeth-2023/data/county_growth.json",
+          containerSelector: "#growthWidget"
+        });
+      }
+    };
+  </script>
 </body>
 </html>

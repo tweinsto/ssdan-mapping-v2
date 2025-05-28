@@ -14,7 +14,7 @@
 
     h1 {
       font-size: 1.5rem;
-      margin-bottom: 1rem;
+      margin-bottom: 0rem;
     }
 
     h2 {
@@ -22,12 +22,13 @@
       margin-bottom: 1rem;
       color: #4576a7;
     }
-    h3 {
+
+    h4 {
       font-size: 1rem;
-      margin-bottom: 2rem;
-      margin-top: -3rem;
-      color: #4576a7;
+      margin-top: -.1rem;
+  
     }
+    
 
     .main-wrapper {
       display: flex;
@@ -40,31 +41,30 @@
     }
 
     .map-frame {
-      width: 60%;
+      width: 55%;
       height: 500px;
-       border: 2px solid #cccccc; /* Add this */
-  border-radius: 8px;         /* Optional: rounded corners */
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
-  margin-right: 1rem;
-
+      border: 2px solid #cccccc;
+      border-radius: 8px;
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+      margin-right: 1rem;
     }
 
-   .right-panel {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem; /* was 2rem */
-  width: 40%;
-}
+    .right-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 40%;
+    }
 
     .link-list {
       display: flex;
-      
       flex-direction: column;
-      gap: 0.75rem;
+      gap: 0rem;
       background-color: #ffffff;
-      padding: 1rem;
-      border-radius: 15px;
+      padding: .5rem;
+      border-radius: 10px;
       box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+      margin-top: 4rem;
     }
 
     .link-list a {
@@ -78,16 +78,38 @@
     }
 
     .rankings-section {
-      display: flex;
-  
+      margin-top: -2rem;
+      text-align: center;
     }
 
-    .rankings-section iframe {
+    .ranking-toggle {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .ranking-toggle button {
+      padding: 0.4rem 0.8rem;
+      font-size: 0.9rem;
+      border: 1px solid #ccc;
+      background-color: #eee;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+
+    .ranking-toggle button.active {
+      background-color: #3e49a8;
+      color: white;
+      font-weight: bold;
+    }
+
+    #rankingFrame {
       height: 300px;
       width: 80%;
       border: none;
-      margin-top: -3rem;
-      
+      margin-bottom: 1rem;
     }
   </style>
 </head>
@@ -98,15 +120,14 @@
   <div class="main-wrapper">
     <div class="map-rankings-container">
       <!-- Map -->
-      <iframe
-        class="map-frame"
-        src="population_map.html"
-        title="Population Map">
-      </iframe>
+      <iframe class="map-frame" src="population_map.html" title="Population Map"></iframe>
 
       <!-- Right Panel with Menu and Rankings -->
       <div class="right-panel">
-        <!-- Menu -->
+        <p style="font-size: 14px; color: #555; margin-top: -6.2rem; margin-left: 2rem; margin-bottom: -2rem; font-weight: bold;">
+          This site is an easy-to-use tool for exploring social and demographic change in the United States, brought to you by the Social Science Data Analysis Network (SSDAN) at the University of Michigan. With interactive maps and clear visualizations, it covers topics like population growth, age, race and ethnicity, earnings, and poverty. Designed for educators, students, and curious minds alike, the site makes complex data accessible and engaging.
+        </p>
+
         <div class="link-list">
           <h4>Explore Age-Based Population Data for 2023:</h4>
           <a href="median-age.html">• Median Age</a>
@@ -114,17 +135,38 @@
           <a href="male+female-18-24.html">• Pop 18–24</a>
         </div>
 
-        <!-- Rankings -->
-         <h3 style="margin-top: 2rem; margin-left: 6rem; color: #333;">
-  Population & Growth Rankings by State
-</h3>
+    
+        <div class="ranking-toggle">
+          <button id="btnPop" class="active">Population Rankings 2023</button>
+          <button id="btnGrowth">Growth Rankings 2000-2023</button>
+        </div>
 
         <div class="rankings-section">
-          <iframe src="pop-ranks.html" title="Population Rankings"></iframe>
-          <iframe src="growth-rates.html" title="Growth Rankings"></iframe>
+          <iframe id="rankingFrame" src="pop-ranks.html" title="Population Rankings"></iframe>
         </div>
       </div>
     </div>
   </div>
+
+
+  <script>
+    const btnPop = document.getElementById('btnPop');
+    const btnGrowth = document.getElementById('btnGrowth');
+    const rankingFrame = document.getElementById('rankingFrame');
+
+    btnPop.addEventListener('click', () => {
+      btnPop.classList.add('active');
+      btnGrowth.classList.remove('active');
+      rankingFrame.src = "pop-ranks.html";
+      rankingFrame.title = "Population Rankings";
+    });
+
+    btnGrowth.addEventListener('click', () => {
+      btnGrowth.classList.add('active');
+      btnPop.classList.remove('active');
+      rankingFrame.src = "growth-rates.html";
+      rankingFrame.title = "Growth Rankings";
+    });
+  </script>
 </body>
 </html>

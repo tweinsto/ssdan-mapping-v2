@@ -2,102 +2,136 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Race & Ethnicity</title>
+  <title>Race & Ethnicity Composition (2023)</title>
   <style>
     body {
       margin: 0;
       font-family: sans-serif;
-      background-color: #f9f9f9;
+      background-color: #f2f2f2;
     }
 
-    .top-menu {
-      background-color: #4a142e;
-      padding: 1rem;
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      color: #4576a7;
+    }
+
+  #bottom-left-label {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-size: 15px;
+    color: #444;
+    background-color: rgba(255, 255, 255, 0.8);
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #999; /* ← this adds the border */
+  }
+
+    .main-wrapper {
       display: flex;
-      justify-content: center;
-      gap: 2rem;
+      flex-direction: column;
     }
 
-    .top-menu a {
-      color: white;
+    .map-rankings-container {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .map-frame {
+      width: 65%;
+      height: 550px;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+      margin-right: 1rem;
+    }
+
+    .right-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 30%;
+      margin-left: 1.5rem;
+    }
+
+    .link-list {
+      background-color: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .link-list a {
+      display: block;
       text-decoration: none;
-      font-weight: bold;
-      padding: 0.5rem 1rem;
-      border-radius: 5px;
-      background-color: #000000;
+      font-size: 1rem;
+      color: #003366;
+      margin-bottom: 0.5rem;
     }
 
-    .top-menu a.active {
-      background-color: #ffffff;
-      color: #3e49a8;
-    }
-
-    iframe {
-      width: 100%;
-      height: calc(100vh - 80px);
-      border: none;
+    .link-list a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
-<script>
-  const links = document.querySelectorAll(".menu-link");
-  const frame = document.getElementById("raceFrame");
+<body>
+  <h1>Race & Ethnicity in the United States (2023)</h1>
+  <h2>Click a State to Explore Further</h2>
+  <div class="main-wrapper">
+    <div class="map-rankings-container">
+      <iframe
+        class="map-frame"
+        src="raceeth-2023/hispanic-state.html"
+        title="Race & Ethnicity Map">
+      </iframe>
 
-  // Set up click behavior
-  links.forEach(link => {
-    link.addEventListener("click", function (e) {
-      e.preventDefault();
-      const src = this.dataset.src;
+      <div class="right-panel">
+        <div class="link-list">
+          <h3>Select a different Race Group:</h3>
+          <a href="raceeth-2023/white-state.html">• White (non-Hispanic)</a>
+          <a href="raceeth-2023/black-state.html">• Black or African American</a>
+          <a href="raceeth-2023/asian-state.html">• Asian</a>
+          <a href="raceeth-2023/native-state.html">• American Indian / Alaska Native</a>
+          <a href="raceeth-2023/pacific-state.html">• Pacific Islander</a>
+          <a href="raceeth-2023/multirace-state.html">• Two or More Races</a>
 
-      // Update iframe
-      frame.src = src;
+          <!-- GROWTH WIDGET CONTAINER (inside sidebar) -->
+          <div id="growthWidget" style="
+            margin-top: 5rem;
+            background: white;
+            padding: 1rem;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            width: 90%;
+            font-size: 14px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+          "></div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <div id="bottom-left-label">
+    Source: ACS 2023
+  
 
-      // Push to browser history
-      history.pushState({ iframeSrc: src }, "", "#" + src);
+  </div>
 
-      // Update menu highlighting
-      links.forEach(l => l.classList.remove("active"));
-      this.classList.add("active");
-    });
-  });
+  <!-- WIDGET SCRIPT LOADER -->
+ <script type="module">
+  import { initGrowthWidget } from "../raceeth-2023/growth-widget.js";
 
-  // On page load: check if a hash is present
-  window.addEventListener("load", () => {
-    const hashSrc = window.location.hash.replace("#", "");
-    if (hashSrc) {
-      frame.src = hashSrc;
-      links.forEach(l => {
-        if (l.dataset.src === hashSrc) {
-          l.classList.add("active");
-        } else {
-          l.classList.remove("active");
-        }
-      });
-    }
-  });
+  console.log("✅ growth-widget.js is loading");
 
-  // Handle back/forward buttons
-  window.addEventListener("popstate", event => {
-    if (event.state && event.state.iframeSrc) {
-      frame.src = event.state.iframeSrc;
-      links.forEach(l => {
-        if (l.dataset.src === event.state.iframeSrc) {
-          l.classList.add("active");
-        } else {
-          l.classList.remove("active");
-        }
-      });
-    }
+  initGrowthWidget({
+    stateDataUrl: "../raceeth-2023/data/state_growth.json",
+    countyDataUrl: "../raceeth-2023/data/county_growth.json",
+    containerSelector: "#growthWidget"
   });
 </script>
-<body>
-
-  <div class="top-menu">
-  <a href="#" class="menu-link active" data-src="raceeth-2023/race-2023.html">2023</a>
-  <a href="#" class="menu-link" data-src="raceeth-2023/race-2018-2023.html">2018–2023</a>
-  <a href="#" class="menu-link" data-src="raceeth-2023/race-2000-2023.html">2000–2023</a>
-</div>
-
-<iframe id="raceFrame" src="raceeth-2023/race-2023.html"></iframe>
 </body>
 </html>

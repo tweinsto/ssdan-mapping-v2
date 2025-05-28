@@ -3,35 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <title>Black in State 22</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: sans-serif;
-      display: flex;
-      height: 100vh;
-    }
-    .map {
-      flex: 1;
-      border-right: 1px solid #ccc;
-    }
-    .widget {
-      width: 400px;
-      padding: 1rem;
-    }
-    iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-  </style>
+  
+    
+    <style>
+      body {
+        margin: 0;
+        font-family: sans-serif;
+      }
+      .container {
+        display: flex;
+        width: 100%;
+        max-height: 600px;
+      }
+      .map, .chart {
+        flex: 1;
+      }
+      .chart-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+      .chart-wrapper iframe {
+        width: 80%;
+        height: 65%;
+        border: none;
+      }
+      .map iframe {
+        width: 100%;
+        height: 600px;
+        border: none;
+      }
+    </style>
 </head>
-<body>
+<body><div class="container">
   <div class="map">
     <iframe src="../state-maps-black/22.html"></iframe>
   </div>
-  <div class="widget">
-    <h2>Black Breakdown in State 22</h2>
-    <p>(Chart or widget goes here)</p>
+  <div class="chart">
+    <div class="chart-wrapper">
+      <iframe src="../black-housing-charts/22.html"></iframe>
+    </div>
   </div>
-</body>
+</div></body>
 </html>

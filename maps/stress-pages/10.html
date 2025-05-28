@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rent Stress, Median Rent & Stats – Delaware (2023)</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 1.5rem;
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .row {
+      display: flex;
+      gap: 2rem;
+      align-items: flex-start;
+    }
+    .col-large {
+      flex: 2;
+    }
+    .col-small {
+      flex: 1;
+    }
+    .map-title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+    .map-box {
+      border: 2px solid #ccc;
+      padding: 0.5rem;
+      background-color: white;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    }
+    iframe {
+      width: 100%;
+      height: 550px;
+      border: none;
+      margin-bottom: 1.5rem;
+    }
+    .table-title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin: 2rem 0 0.5rem 0;
+    }
+    table {
+      font-size: 0.95rem;
+    }
+    .description-box {
+      margin-top: 2rem;
+      padding: 1rem;
+      background-color: #eef0f4;
+      border-left: 4px solid #4a142e;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Rent Stress Index, Median Rent, and County Statistics – Delaware</h1>
+
+  <div class="row">
+    <div class="col-large">
+      <div class="map-title">Rent Stress Index by County</div>
+      <iframe src="../stress-maps/10.html" title="Rent Stress Map"></iframe>
+
+      <div class="table-title">County-Level Inputs to Rent Stress Index</div>
+      <table class="table table-striped table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> County </th>
+   <th style="text-align:right;"> Median Rent ($) </th>
+   <th style="text-align:right;"> % Rent-Burdened </th>
+   <th style="text-align:right;"> Vacancy Rate (%) </th>
+   <th style="text-align:right;"> Rent Stress Index </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Kent County, Delaware </td>
+   <td style="text-align:right;"> 1285 </td>
+   <td style="text-align:right;"> 9.33 </td>
+   <td style="text-align:right;"> 21.2 </td>
+   <td style="text-align:right;"> 0.23 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> New Castle County, Delaware </td>
+   <td style="text-align:right;"> 1379 </td>
+   <td style="text-align:right;"> 8.45 </td>
+   <td style="text-align:right;"> 24.0 </td>
+   <td style="text-align:right;"> 0.06 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Sussex County, Delaware </td>
+   <td style="text-align:right;"> 1221 </td>
+   <td style="text-align:right;"> 8.80 </td>
+   <td style="text-align:right;"> 19.9 </td>
+   <td style="text-align:right;"> 0.20 </td>
+  </tr>
+</tbody>
+</table>
+    </div>
+
+    <div class="col-small">
+      <div class="map-box">
+        <div class="map-title">Median Gross Rent by County</div>
+        <iframe src="../rent-maps/10.html" title="Median Rent Map"></iframe>
+      </div>
+
+      <div class="description-box">
+        <strong>What is the Rent Stress Index?</strong><br>
+        The Rent Stress Index is a custom metric created to reflect renter vulnerability in each county. It combines:
+        <ul style="margin-top: 0.5rem;">
+          <li>Median gross rent (higher rent = more stress)</li>
+          <li>Percent of renters spending over 30% of income on rent</li>
+          <li>Rental vacancy rate (lower vacancy = more stress)</li>
+        </ul>
+        Each of these is standardized (z-scored), and the Rent Stress Index is the average of the three. Higher values indicate more stress on renters.
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
