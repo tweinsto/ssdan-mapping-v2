@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Households Without Internet Access Map – Maine</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 1.5rem;
+      font-family: sans-serif;
+      background-color: #f2f2f2;
+    }
+    h1 {
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }
+    .container {
+      display: flex;
+      gap: 2rem;
+    }
+    .map-column {
+      flex: 1;
+    }
+    .sidebar {
+      flex: 1;
+    }
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+    }
+    img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+    .caption {
+      font-size: 0.9rem;
+      line-height: 1.4;
+      color: #444;
+    }
+    a#back-link {
+      display: inline-block;
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+      color: #003366;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  
+  <h1>Households Without Internet by County – Maine</h1>
+  <div class="container">
+    <div class="map-column">
+      <iframe src="../internet-maps/23.html" title="Map of Maine"></iframe>
+    </div>
+    <div class="sidebar">
+      <img src="../internet-charts/maine_rucc_internet.png" alt="Internet Access Chart for Maine">
+      <div class="caption">
+        <strong>Classification Note:</strong><br>
+        Counties are classified as “Metro” or “Nonmetro” using the <em>2023 Rural-Urban Continuum Codes (RUCC)</em> published by the USDA Economic Research Service. These codes distinguish metropolitan counties (RUCC codes 1–3) from nonmetropolitan counties (RUCC codes 4–9) based on population size and proximity to urban centers.<br><br>
+        Metro counties are part of metropolitan areas with populations ranging from fewer than 250,000 to more than 1 million. Nonmetro counties include smaller towns and rural areas, both adjacent to and distant from metro regions. This classification helps highlight disparities in internet access between urban and rural parts of the state.
+      </div>
+    </div>
+  </div>
+</body>
+</html>

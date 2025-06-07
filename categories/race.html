@@ -12,7 +12,7 @@
 
     h1 {
       font-size: 1.5rem;
-      margin-bottom: 1rem;
+      margin-bottom: 3rem;
     }
     h2 {
       font-size: 1rem;
@@ -20,17 +20,15 @@
       color: #4576a7;
     }
 
-  #bottom-left-label {
-    position: absolute;
-    bottom: 10px;
-    left: 20px;
-    font-size: 15px;
-    color: #444;
-    background-color: rgba(255, 255, 255, 0.8);
-  padding: 4px 8px;
-  border-radius: 4px;
-  border: 1px solid #999; /* ← this adds the border */
-  }
+ #bottom-left-label {
+      position: absolute;
+      bottom: 10px;
+      left: 20px;
+      font-size: 15px;
+      color: #444;
+      padding: 2px 3px;
+      
+    }
 
     .main-wrapper {
       display: flex;
@@ -44,7 +42,7 @@
 
     .map-frame {
       width: 65%;
-      height: 550px;
+      height: 610px;
       border: 2px solid #ccc;
       border-radius: 8px;
       box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
@@ -60,28 +58,46 @@
     }
 
     .link-list {
-      background-color: white;
-      padding: 1rem;
-      border-radius: 10px;
-      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-    }
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  border: 2px solid #3e49a8;
+  margin-top: 0rem;
+  transition: box-shadow 0.3s ease;
+}
 
-    .link-list a {
-      display: block;
-      text-decoration: none;
-      font-size: 1rem;
-      color: #003366;
-      margin-bottom: 0.5rem;
-    }
+.link-list:hover {
+  box-shadow: 0 0 16px rgba(62, 73, 168, 0.3);
+}
 
-    .link-list a:hover {
-      text-decoration: underline;
-    }
+.link-list h3 {
+  color: #3e49a8;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.3rem;
+}
+
+.link-list a {
+  display: block;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #003366;
+  margin: 0.3rem 0;
+  padding: 0.2rem 0;
+}
+
+.link-list a:hover {
+  text-decoration: underline;
+  color: #1a2d7c;
+}
   </style>
 </head>
 <body>
   <h1>Race & Ethnicity in the United States (2023)</h1>
-  <h2>Click a State to Explore Further</h2>
+
   <div class="main-wrapper">
     <div class="map-rankings-container">
       <iframe
@@ -101,8 +117,10 @@
           <a href="raceeth-2023/multirace-state.html">• Two or More Races</a>
 
           <!-- GROWTH WIDGET CONTAINER (inside sidebar) -->
-          <div id="growthWidget" style="
-            margin-top: 5rem;
+          
+        </div>
+        <div id="growthWidget" style="
+            margin-top: 2.5rem;
             background: white;
             padding: 1rem;
             border: 2px solid #ccc;
@@ -111,15 +129,15 @@
             font-size: 14px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
           "></div>
-        </div>
       </div>
     </div>
   </div>
    <div id="bottom-left-label">
-    Source: ACS 2023
-  
-
-  </div>
+  <strong>Source:</strong>
+  <a href="https://www.census.gov/programs-surveys/acs" target="_blank" style="color: #003366; text-decoration: underline;">
+    ACS 2023
+  </a>
+</div>
 
   <!-- WIDGET SCRIPT LOADER -->
  <script type="module">

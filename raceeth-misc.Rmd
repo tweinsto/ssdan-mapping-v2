@@ -99,85 +99,6 @@ pal <- colorBin(palette = colors, domain = valid_earnings, bins = breaks)
 
 # -------------------- STEP 6: Build Leaflet Map --------------------
 
-earnings_map <- leaflet(options = leafletOptions(
-  minZoom = 4,
-  maxZoom = 4,
-  zoomControl = FALSE,
-  dragging = FALSE,
-  scrollWheelZoom = FALSE,
-  doubleClickZoom = FALSE
-)) %>%
-  addProviderTiles("CartoDB.PositronNoLabels", options = providerTileOptions(noWrap = TRUE)) %>%
-
-  # White mask
-  addPolygons(
-    data = mask_polygon,
-    fillColor = "white",
-    color = "white",
-    weight = 0,
-    fillOpacity = 1
-  ) %>%
-
-  # County earnings
-  addPolygons(
-    data = earnings_data_shifted,
-    fillColor = ~pal(earnings),
-    color = "white",
-    weight = 0.3,
-    fillOpacity = 0.9,
-    label = ~paste0(NAME, ": $", formatC(earnings, format = "f", digits = 0, big.mark = ",")),
-    highlightOptions = highlightOptions(weight = 1, color = "black", bringToFront = TRUE)
-  ) %>%
-
-  # State outlines (clickable)
-  addPolygons(
-    data = state_geom,
-    fillOpacity = 0,
-    color = "black",
-    weight = 1,
-    layerId = ~link,
-    highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
-  ) %>%
-
-  # Clean legend labels (no .0000)
-  addLegend(
-    position = "bottomright",
-    colors = colors,
-    labels = paste0("$", formatC(breaks[-length(breaks)], format = "d", big.mark = ",")),
-    title = "Per Capita Earnings",
-    opacity = 1
-  ) %>%
-
-  # Fit to view
-  fitBounds(-130, 15, -60, 55)
-
-# -------------------- STEP 7: Click Behavior --------------------
-
-earnings_map <- onRender(earnings_map, "
-  function(el, x) {
-    var map = this;
-    var hash = window.location.hash;
-    map.eachLayer(function(layer) {
-      if (layer.options && layer.options.layerId) {
-        layer.on('click', function(e) {
-          window.top.location.href = layer.options.layerId + hash;
-        });
-      }
-    });
-  }
-")
-
-
-# -------------------- STEP 8: Save Map --------------------
-
-saveWidget(
-  widget = earnings_map,
-  file = '/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/earnings.html',
-  selfcontained = FALSE
-)
-
-
-
 
 
 
@@ -833,76 +754,6 @@ library(glue)
 library(readr)
 library(stringr)
 
-input_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/top20-maps"
-output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/top20-pages"
-
-# List HTML files
-html_files <- dir_ls(input_dir, regexp = "\\.html$")
-
-walk(html_files, function(file_path) {
-  fips_code <- path_file(file_path) %>% path_ext_remove()
-
-  html_content <- glue('
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Top 20% Mean Income – State {fips_code}</title>
-  <style>
-    body {{
-      margin: 0;
-      padding: 1.5rem;
-      font-family: sans-serif;
-      background-color: #f2f2f2;
-    }}
-    h1 {{
-      font-size: 1.3rem;
-      margin-bottom: 1rem;
-    }}
-    .container {{
-      display: flex;
-      gap: 2rem;
-    }}
-    .map-column {{
-      flex: 1;
-    }}
-    .sidebar {{
-      flex: 1;
-    }}
-    iframe {{
-      width: 100%;
-      height: 600px;
-      border: none;
-    }}
-    a#back-link {{
-      display: inline-block;
-      margin-bottom: 1rem;
-      font-size: 0.95rem;
-      color: #003366;
-      text-decoration: none;
-      font-weight: bold;
-    }}
-  </style>
-</head>
-<body>
-  
-  <h1>Top 20% Mean Income by County – State {fips_code}</h1>
-  <div class="container">
-    <div class="map-column">
-      <iframe src="../top20-maps/{fips_code}.html" title="Map of State {fips_code}"></iframe>
-    </div>
-    <div class="sidebar">
-      <!-- You can add text, links, charts, etc. here later -->
-    </div>
-  </div>
-</body>
-</html>
-')
-
-  write_file(html_content, path(output_dir, paste0(fips_code, ".html")))
-})
-
-
 
 # RATIO STATE MAPS
 
@@ -1185,7 +1036,6 @@ saveWidget(
 
 
 ```
-
 
 
 # rent stress map 
@@ -1799,9 +1649,15 @@ walk(unique(state_summary$state_fips), function(fips) {
 
   p <- ggplot(df, aes(x = share, y = quintile, fill = quintile)) +
     geom_col(width = 0.7) +
+    geom_text(
+      aes(label = paste0(round(share, 1), "%")),
+      hjust = -0.1,
+      color = "black",
+      size = 3.5
+    ) +
     scale_x_continuous(
-      limits = c(0, max(df$share, na.rm = TRUE) * 1.15),
-      labels = label_percent(scale = 1)
+      limits = c(0, max(df$share, na.rm = TRUE) * 1.25),
+      labels = scales::label_percent(scale = 1)
     ) +
     scale_fill_brewer(palette = "Blues", direction = 1) +
     labs(
@@ -1823,15 +1679,7 @@ walk(unique(state_summary$state_fips), function(fips) {
   )
 })
 
-
 ```
-
-
-
-
-
-
-
 
 
 
@@ -1847,7 +1695,7 @@ walk(unique(state_summary$state_fips), function(fips) {
 
 
 # Folder containing the HTML files
-html_folder <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/ratio-pages"
+html_folder <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/over65-pages"
 
 # FIPS to state name mapping
 fips_to_state <- c(
@@ -1891,11 +1739,24 @@ for (file_path in html_files) {
   writeLines(lines, file_path)
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 page_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/ratio-pages"
 
 # Description to inject
 description_block <- '
-  <div style="margin-top: 2rem; margin-left: 70rem;font-size: 0.95rem; line-height: 1.5;">
+  <div style="margin-top: 2rem; margin-right: -20rem; font-size: 0.95rem; line-height: 1.5;">
     <strong>About This Chart:</strong><br>
     This chart breaks down how total household income is distributed across income quintiles in the state.
     Each quintile represents 20% of households, ordered from lowest to highest income.
@@ -1910,18 +1771,3720 @@ description_block <- '
 html_files <- dir_ls(page_dir, regexp = "\\.html$")
 
 # Edit each file
+library(glue)
+library(fs)
+library(purrr)
+library(readr)
+
+
+input_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/ratio-maps"
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/ratio-pages/"
+image_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/maps/ineq-widgets"  
+
+fips_to_state <- c(
+  "01" = "Alabama", "02" = "Alaska", "04" = "Arizona", "05" = "Arkansas",
+  "06" = "California", "08" = "Colorado", "09" = "Connecticut", "10" = "Delaware",
+  "11" = "District of Columbia", "12" = "Florida", "13" = "Georgia", "15" = "Hawaii",
+  "16" = "Idaho", "17" = "Illinois", "18" = "Indiana", "19" = "Iowa",
+  "20" = "Kansas", "21" = "Kentucky", "22" = "Louisiana", "23" = "Maine",
+  "24" = "Maryland", "25" = "Massachusetts", "26" = "Michigan", "27" = "Minnesota",
+  "28" = "Mississippi", "29" = "Missouri", "30" = "Montana", "31" = "Nebraska",
+  "32" = "Nevada", "33" = "New Hampshire", "34" = "New Jersey", "35" = "New Mexico",
+  "36" = "New York", "37" = "North Carolina", "38" = "North Dakota", "39" = "Ohio",
+  "40" = "Oklahoma", "41" = "Oregon", "42" = "Pennsylvania", "44" = "Rhode Island",
+  "45" = "South Carolina", "46" = "South Dakota", "47" = "Tennessee", "48" = "Texas",
+  "49" = "Utah", "50" = "Vermont", "51" = "Virginia", "53" = "Washington",
+  "54" = "West Virginia", "55" = "Wisconsin", "56" = "Wyoming"
+)
+
+html_files <- dir_ls(input_dir, regexp = "\\.html$")
+
 walk(html_files, function(file_path) {
-  html <- read_file(file_path)
+  fips_code <- path_file(file_path) %>% path_ext_remove()
+  state_name <- fips_to_state[[fips_code]]
 
-  # Insert before closing </body>
-  new_html <- str_replace(html, "</body>", paste0(description_block, "\n</body>"))
+  html_content <- glue('
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Income Inequality Ratio – {state_name}</title>
+  <style>
+    body {{
+      margin: 0;
+      padding: 1.5rem;
+      font-family: sans-serif;
+      background-color: #f2f2f2;
+    }}
+    h1 {{
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }}
+    .container {{
+      display: flex;
+      gap: 2rem;
+      align-items: flex-start;
+    }}
+    .map-column {{
+      flex: 1;
+    }}
+    .sidebar {{
+      flex: 1;
+    }}
+    iframe {{
+      width: 100%;
+      height: 600px;
+      border: none;
+    }}
+    img {{
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+      background: white;
+      padding: 10px;
+    }}
+    .description {{
+      margin-top: 1rem;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }}
+  </style>
+</head>
+<body>
+  <h1>Income Inequality Ratio by County – {state_name}</h1>
+  <div class="container">
+    <div class="map-column">
+      <iframe src="../ratio-maps/{fips_code}.html" title="Map of {state_name}"></iframe>
+    </div>
+    <div class="sidebar">
+      <img src="../ineq-widgets/{fips_code}_ineq_bar.png" alt="Income Share Bar Chart for {state_name}">
+      <div class="description">
+        <strong>About This Chart:</strong><br>
+        This chart breaks down how total household income is distributed across income quintiles in the state.
+        Each quintile represents 20% of households, ordered from lowest to highest income.
+        The wider a bar, the more income that group collectively earns.
+        <br><br>
+        In a perfectly equal distribution, each group would hold about 20% of the income.
+        However, most states show an unequal pattern, where the top 20% of households hold a disproportionate share.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+')
 
-  write_file(new_html, file_path)
+  write_file(html_content, path(output_dir, paste0(fips_code, ".html")))
 })
-
-
   
 ```
 
+
+# more front page rank tables 
+```{r}
+
+library(tidycensus)
+library(tidyverse)
+library(sf)
+library(DT)
+library(htmlwidgets)
+library(scales)
+options(tigris_use_cache = TRUE)
+
+# Define states
+states <- state.abb
+
+# Get 2018 and 2021 and 2023 population data
+pop_2018 <- map_dfr(states, ~{
+  Sys.sleep(0.5)
+  get_acs(
+    geography = "state",
+    variables = "B01003_001",
+    year = 2018,
+    state = .x,
+    geometry = TRUE
+  )
+})
+
+pop_2021 <- map_dfr(states, ~{
+  Sys.sleep(0.5)
+  get_acs(
+    geography = "state",
+    variables = "B01003_001",
+    year = 2021,
+    state = .x,
+    geometry = TRUE
+  )
+})
+
+pop_2023 <- map_dfr(states, ~{
+  Sys.sleep(0.5)
+  get_acs(
+    geography = "state",
+    variables = "B01003_001",
+    year = 2023,
+    state = .x,
+    geometry = TRUE
+  )
+})
+
+# Clean 2023
+pop_2023_clean <- pop_2023 %>%
+  st_drop_geometry() %>%
+  select(GEOID, pop_2023 = estimate)
+
+# Clean and join for 2018–2023
+pop_change_2018 <- pop_2018 %>%
+  select(GEOID, NAME, pop_2018 = estimate, geometry) %>%
+  left_join(pop_2023_clean, by = "GEOID") %>%
+  mutate(
+    state_fips = substr(GEOID, 1, 2),
+    pct_change = 100 * (pop_2023 - pop_2018) / pop_2018
+  )
+
+# Clean and join for 2021–2023
+pop_change_2021 <- pop_2021 %>%
+  select(GEOID, NAME, pop_2021 = estimate, geometry) %>%
+  left_join(pop_2023_clean, by = "GEOID") %>%
+  mutate(
+    state_fips = substr(GEOID, 1, 2),
+    pct_change = 100 * (pop_2023 - pop_2021) / pop_2021
+  )
+
+# Aggregate to state level
+get_state_growth <- function(df, base_col, year_range) {
+  df %>%
+    group_by(state_fips) %>%
+    summarize(
+      base_pop = sum(.data[[base_col]], na.rm = TRUE),
+      pop_2023 = sum(pop_2023, na.rm = TRUE),
+      geometry = st_union(geometry)
+    ) %>%
+    mutate(
+      pct_change = round(100 * (pop_2023 - base_pop) / base_pop, 2),
+      year_range = year_range
+    )
+}
+
+pop_state_2018 <- get_state_growth(pop_change_2018, "pop_2018", "2018–2023")
+pop_state_2021 <- get_state_growth(pop_change_2021, "pop_2021", "2021–2023")
+
+# Get rankings
+rank_pop_2023 <- pop_state_2023 <- pop_state_2023 <- pop_2023 %>%
+  mutate(state_fips = substr(GEOID, 1, 2)) %>%
+  group_by(state_fips) %>%
+  summarize(pop_2023 = sum(estimate, na.rm = TRUE)) %>%
+  arrange(desc(pop_2023)) %>%
+  mutate(pop_rank = row_number()) %>%
+  select(state_fips, pop_2023, pop_rank)
+
+rank_growth_2018 <- pop_state_2018 %>%
+  st_drop_geometry() %>%
+  arrange(desc(pct_change)) %>%
+  mutate(growth_rank = row_number()) %>%
+  select(state_fips, pct_change, growth_rank)
+
+rank_growth_2021 <- pop_state_2021 %>%
+  st_drop_geometry() %>%
+  arrange(desc(pct_change)) %>%
+  mutate(growth_rank = row_number()) %>%
+  select(state_fips, pct_change, growth_rank)
+
+# State name mapping
+state_names <- tidycensus::fips_codes %>%
+  distinct(state_fips = state_code, state = state_name)
+
+# Final tables
+pop_table <- rank_pop_2023 %>%
+  left_join(state_names, by = "state_fips") %>%
+  arrange(pop_rank) %>%
+  mutate(pop_2023 = comma(pop_2023)) %>%
+  select(State = state, `2023 Population` = pop_2023)
+
+growth_table_2018 <- rank_growth_2018 %>%
+  left_join(state_names, by = "state_fips") %>%
+  arrange(growth_rank) %>%
+  mutate(pct_change = paste0(pct_change, "%")) %>%
+  select(State = state, `Growth 2018–2023` = pct_change)
+
+growth_table_2021 <- rank_growth_2021 %>%
+  left_join(state_names, by = "state_fips") %>%
+  arrange(growth_rank) %>%
+  mutate(pct_change = paste0(pct_change, "%")) %>%
+  select(State = state, `Growth 2021–2023` = pct_change)
+
+
+
+saveWidget(
+  datatable(growth_table_2018, options = list(pageLength = 50)),
+  file = "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/growth-2018-2023.html",
+  selfcontained = TRUE
+)
+
+saveWidget(
+  datatable(growth_table_2021, options = list(pageLength = 50)),
+  file = "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/growth-2021-2023.html",
+  selfcontained = TRUE
+)
+
+
+```
+
+
+```{r}
+
+library(fs)
+library(stringr)
+library(readr)
+
+# Folder with all the broken state pages
+html_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/raceeth-2023/state-page-white"
+state_lookup <- tibble::tibble(
+  state_code = sprintf("%02d", c(
+    1, 2, 4, 5, 6,
+    8, 9, 10, 12, 13,
+    15, 16, 17, 18, 19,
+    20, 21, 22, 23, 24,
+    25, 26, 27, 28, 29,
+    30, 31, 32, 33, 34,
+    35, 36, 37, 38, 39,
+    40, 41, 42, 44, 45,
+    46, 47, 48, 49, 50,
+    51, 53, 54, 55, 56
+  )),
+  state_name = c(
+    "Alabama", "Alaska", "Arizona", "Arkansas", "California",
+    "Colorado", "Connecticut", "Delaware", "Florida", "Georgia",
+    "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa",
+    "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland",
+    "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri",
+    "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey",
+    "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio",
+    "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina",
+    "South Dakota", "Tennessee", "Texas", "Utah", "Vermont",
+    "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"
+  )
+)
+
+
+# All HTML files like 06.html, 12.html, etc.
+html_files <- dir_ls(html_dir, regexp = "\\d{2}\\.html$")
+
+for (file in html_files) {
+  filename <- path_file(file)
+  state_fips <- str_extract(filename, "\\d{2}")
+  state_name <- state_lookup$state_name[state_lookup$state_code == state_fips]
+
+  lines <- read_lines(file)
+
+  # Remove any incorrect <h2> or population headers
+  cleaned <- lines[!str_detect(lines, "Population.*\\(\\%\\)")]
+
+  # Insert properly spaced heading and a margin div
+  new_heading <- paste0("<h2 style='margin-bottom: 1.5rem; margin-left: .5rem; margin-top: 1rem;'>White Population (%) in ", state_name, "</h2>")
+  spacer <- "<div style='margin-top: 1rem'></div>"
+
+  write_lines(c(new_heading, spacer, cleaned), file)
+}
+
+
+
+```
+
+
+
+
+# ----------------------------------------------------------------------------MISC--------------------------------------
+
+
+
+# living alone 
+```{r}
+under65_vars <- c(
+  married_family = "B09021_003",
+  other_family = "B09021_004",
+  nonfamily = "B09021_005",
+  living_alone = "B09021_006",
+  group_quarters = "B09021_007"
+)
+
+# Get all B09021 values
+under65_all <- get_acs(
+  geography = "county",
+  variables = under65_vars,
+  year = year,
+  survey = "acs5",
+  geometry = TRUE,
+  cb = TRUE
+) %>%
+  select(GEOID, NAME, variable, estimate, geometry) %>%
+  pivot_wider(names_from = variable, values_from = estimate) %>%
+  mutate(
+    total_under65 = married_family + other_family + nonfamily + living_alone + group_quarters,
+    pct_under65_alone = living_alone / total_under65,
+    state_fips = str_sub(GEOID, 1, 2)
+  ) %>%
+  filter(total_under65 > 0, !is.na(pct_under65_alone)) %>%
+  st_transform(4326)
+
+lonely_data <- under65_all
+
+county_geom <- counties(cb = TRUE, year = 2023) %>%
+  filter(!STATEFP %in% c("72", "78")) %>%
+  select(GEOID, NAME, STATEFP, geometry) %>%
+  rename(state_fips = STATEFP)  # ← this is critical
+
+# State geometry with link
+state_geom_under65 <- states(cb = TRUE, year = 2023) %>%
+  filter(!STATEFP %in% c("72", "78")) %>%
+  select(state_fips = STATEFP, geometry) %>%
+  mutate(link = paste0("under65-pages/", state_fips, ".html"))
+
+# Join under65_percent data by county
+lonely_data <- county_geom %>%
+  left_join(under65_percent, by = "GEOID")
+
+
+# -------------------- SHIFT GEOMETRY FUNCTION --------------------
+shift_geometry <- function(sf_obj) {
+  alaska <- sf_obj %>% filter(state_fips == "02") %>% st_transform(2163)
+  hawaii <- sf_obj %>% filter(state_fips == "15") %>% st_transform(2163)
+  mainland <- sf_obj %>% filter(!state_fips %in% c("02", "15")) %>% st_transform(4326)
+  alaska_geom <- st_geometry(alaska) * 0.3 + c(-380000, -3000000)
+  hawaii_geom <- st_geometry(hawaii) * 1.2 + c(4500000, -900000)
+  st_crs(alaska_geom) <- 2163; st_crs(hawaii_geom) <- 2163
+  alaska <- st_set_geometry(alaska, alaska_geom) %>% st_transform(4326)
+  hawaii <- st_set_geometry(hawaii, hawaii_geom) %>% st_transform(4326)
+  bind_rows(mainland, alaska, hawaii) %>% st_as_sf()
+}
+
+# Shift geometries
+state_geom_under65 <- shift_geometry(state_geom_under65)
+lonely_shifted <- shift_geometry(lonely_data)
+
+# -------------------- CREATE WHITE MASK --------------------
+world_box <- st_as_sfc(st_bbox(c(xmin = -180, ymin = -90, xmax = 180, ymax = 90)), crs = 4326)
+us_box <- st_as_sfc(st_bbox(c(xmin = -130, ymin = 15, xmax = -60, ymax = 55)), crs = 4326)
+mask_polygon <- st_difference(st_make_valid(world_box), st_make_valid(us_box))
+mask_polygon <- st_collection_extract(mask_polygon, "POLYGON")
+st_crs(mask_polygon) <- 4326
+mask_polygon <- st_transform(mask_polygon, 4326)
+
+# -------------------- UNDER 65 MAP --------------------
+vals_under65 <- lonely_shifted$`Living Alone`
+breaks_u65 <- quantile(vals_under65, probs = seq(0, 1, length.out = 10), na.rm = TRUE)
+breaks_u65 <- unique(round(breaks_u65, 4))
+colors_u65 <- colorRampPalette(brewer.pal(9, "Blues"))(length(breaks_u65) - 1)
+pal_u65 <- colorBin(colors_u65, domain = vals_under65, bins = breaks_u65)
+
+under65_map <- leaflet(options = leafletOptions(
+  minZoom = 4, maxZoom = 4,
+  zoomControl = FALSE, dragging = FALSE,
+  scrollWheelZoom = FALSE, doubleClickZoom = FALSE
+)) %>%
+  addTiles(urlTemplate = "") %>%
+  addRectangles(lng1 = -180, lat1 = -90, lng2 = 180, lat2 = 90,
+                fillColor = "white", fillOpacity = 1, stroke = FALSE) %>%
+  addPolygons(data = mask_polygon, fillColor = "white", color = "white",
+              weight = 0, fillOpacity = 1) %>%
+  addPolygons(
+    data = lonely_shifted,
+    fillColor = ~pal_u65(`Living Alone`),
+    color = "white", weight = 0.3, fillOpacity = 0.9,
+    label = ~paste0(NAME, ": ", round(`Living Alone`, 1), "%"),
+    highlightOptions = highlightOptions(weight = 1, color = "black", bringToFront = TRUE)
+  ) %>%
+  addPolygons(
+    data = state_geom_under65,
+    fillOpacity = 0, color = "black", weight = 1,
+    layerId = ~link,
+    highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+  ) %>%
+  addLegend(
+    position = "topright", colors = colors_u65,
+    labels = paste0(round(breaks_u65[-length(breaks_u65)]), "%"),
+    title = "Under 65 Living Alone", opacity = 1
+  ) %>%
+  setView(lng = -98.5, lat = 39.8, zoom = 8)
+
+under65_map <- htmlwidgets::onRender(under65_map, "
+  function(el, x) {
+    var map = this;
+    var hash = window.location.hash;
+    map.eachLayer(function(layer) {
+      if (layer.options && layer.options.layerId) {
+        layer.on('click', function(e) {
+          window.top.location.href = layer.options.layerId + hash;
+        });
+      }
+    });
+  }
+")
+
+saveWidget(
+  widget = under65_map,
+  file = '/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/lonely-under65.html',
+  selfcontained = FALSE
+)
+
+
+
+
+# 65 PLUS 
+
+states <- unique(tidycensus::fips_codes$state)[1:51]
+year <- 2023
+
+# Define variables from B09020
+vars_65plus <- c(
+  total_65plus = "B09020_001",
+  living_alone = "B09020_013",
+  group_quarters = "B09020_021"
+)
+
+get_living_65plus <- function(state_abbr) {
+  message("Processing ", state_abbr)
+  data <- get_acs(
+    geography = "county",
+    state = state_abbr,
+    variables = vars_65plus,
+    year = year,
+    survey = "acs5"
+  ) %>%
+    select(GEOID, NAME, variable, estimate) %>%
+    pivot_wider(names_from = variable, values_from = estimate) %>%
+    mutate(
+      STATE = state_abbr,
+      County = NAME,
+      `Living Alone (%)` = round(100 * living_alone / total_65plus, 1),
+      `Group Quarters (%)` = round(100 * group_quarters / total_65plus, 1)
+    )
+  return(data)
+}
+
+living_65plus <- map_dfr(states, get_living_65plus)
+
+# View the first few rows
+head(living_65plus)
+
+
+# --- 2. Shift geometry ---
+shift_geometry <- function(sf_obj) {
+  alaska <- sf_obj %>% filter(state_fips == "02") %>% st_transform(2163)
+  hawaii <- sf_obj %>% filter(state_fips == "15") %>% st_transform(2163)
+  mainland <- sf_obj %>% filter(!state_fips %in% c("02", "15")) %>% st_transform(4326)
+  alaska_geom <- st_geometry(alaska) * 0.3 + c(-380000, -3000000)
+  hawaii_geom <- st_geometry(hawaii) * 1.2 + c(4500000, -900000)
+  st_crs(alaska_geom) <- 2163; st_crs(hawaii_geom) <- 2163
+  alaska <- st_set_geometry(alaska, alaska_geom) %>% st_transform(4326)
+  hawaii <- st_set_geometry(hawaii, hawaii_geom) %>% st_transform(4326)
+  bind_rows(mainland, alaska, hawaii) %>% st_as_sf()
+}
+
+lonely_shifted <- shift_geometry(lonely_65plus_data)
+
+# --- 3. Prepare map polygons and mask ---
+state_geom_over65 <- states(cb = TRUE, year = year) %>%
+  filter(!STATEFP %in% c("72", "78")) %>%
+  select(state_fips = STATEFP, geometry) %>%
+  mutate(link = paste0("over65-pages/", state_fips, ".html")) %>%
+  shift_geometry()
+
+world_box <- st_as_sfc(st_bbox(c(xmin = -180, ymin = -90, xmax = 180, ymax = 90)), crs = 4326)
+us_box <- st_as_sfc(st_bbox(c(xmin = -130, ymin = 15, xmax = -60, ymax = 55)), crs = 4326)
+
+mask_polygon <- st_difference(st_make_valid(world_box), st_make_valid(us_box)) %>%
+  st_collection_extract("POLYGON")
+
+# ✅ Explicitly set the CRS again
+st_crs(mask_polygon) <- 4326
+
+
+# --- 4. Binning and color scale ---
+vals_65plus <- lonely_shifted$pct_65plus_alone
+breaks_65 <- quantile(vals_65plus, probs = seq(0, 1, length.out = 11), na.rm = TRUE)
+breaks_65 <- unique(round(breaks_65, 4))
+colors_65 <- colorRampPalette(brewer.pal(9, "Blues"))(length(breaks_65) - 1)
+pal_65 <- colorBin(colors_65, domain = vals_65plus, bins = breaks_65)
+
+# --- 5. Draw Map ---
+over65_map <- leaflet(options = leafletOptions(
+  minZoom = 4, maxZoom = 4,
+  zoomControl = FALSE, dragging = FALSE, scrollWheelZoom = FALSE, doubleClickZoom = FALSE
+)) %>%
+  addTiles(urlTemplate = "") %>%
+  addRectangles(lng1 = -180, lat1 = -90, lng2 = 180, lat2 = 90,
+                fillColor = "white", fillOpacity = 1, stroke = FALSE) %>%
+  addPolygons(data = mask_polygon, fillColor = "white", color = "white", weight = 0, fillOpacity = 1) %>%
+  addPolygons(
+    data = lonely_shifted,
+    fillColor = ~pal_65(pct_65plus_alone),
+    color = "white", weight = 0.3, fillOpacity = 0.9,
+    label = ~paste0(NAME, ": ", round(pct_65plus_alone * 100, 1), "%"),
+    highlightOptions = highlightOptions(weight = 1, color = "black", bringToFront = TRUE)
+  ) %>%
+  addPolygons(
+    data = state_geom_over65,
+    fillOpacity = 0, color = "black", weight = 1,
+    layerId = ~link,
+    highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+  ) %>%
+  addLegend(
+    position = "topright", colors = colors_65,
+    labels = paste0(round(breaks_65[-length(breaks_65)] * 100), "%"),
+    title = "65+ Living Alone", opacity = 1
+  ) %>%
+  setView(lng = -98.5, lat = 39.8, zoom = 8)
+
+over65_map <- htmlwidgets::onRender(over65_map, "
+  function(el, x) {
+    var map = this;
+    var hash = window.location.hash;
+    map.eachLayer(function(layer) {
+      if (layer.options && layer.options.layerId) {
+        layer.on('click', function(e) {
+          window.top.location.href = layer.options.layerId + hash;
+        });
+      }
+    });
+  }
+")
+
+saveWidget(
+  widget = over65_map,
+  file = '/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/lonely-65plus.html',
+  selfcontained = FALSE
+)
+
+
+
+
+
+
+# --- 7. State Maps ---
+
+library(tidycensus)
+library(dplyr)
+library(tidyr)
+library(stringr)
+library(sf)
+library(leaflet)
+library(RColorBrewer)
+library(htmlwidgets)
+library(DT)
+library(purrr)
+
+year <- 2023
+options(tigris_use_cache = TRUE)
+states <- unique(tidycensus::fips_codes$state)[1:51]
+
+# Accurate B09021 codes for 65+ living arrangements
+vars_65plus <- c(
+  married_family = "B09021_009",
+  other_family = "B09021_010",
+  nonfamily = "B09021_011",
+  living_alone = "B09021_012",
+  group_quarters = "B09021_013"
+)
+
+get_living_65plus <- function(state_abbr) {
+  message("Processing ", state_abbr)
+  get_acs(
+    geography = "county",
+    state = state_abbr,
+    variables = vars_65plus,
+    year = year,
+    survey = "acs5",
+    geometry = TRUE,
+    cb = TRUE
+  ) %>%
+    select(GEOID, NAME, variable, estimate, geometry) %>%
+    pivot_wider(names_from = variable, values_from = estimate) %>%
+    mutate(
+      total_65plus = married_family + other_family + nonfamily + living_alone + group_quarters,
+      pct_65plus_alone = living_alone / total_65plus,
+      state_fips = str_sub(GEOID, 1, 2),
+      County = NAME
+    ) %>%
+    filter(total_65plus > 0, !is.na(pct_65plus_alone)) %>%
+    st_transform(4326)
+}
+
+# Run full dataset for all states
+lonely_65plus_data <- map_dfr(states, get_living_65plus)
+living_65plus <- living_65plus %>%
+  mutate(state_fips = str_sub(GEOID, 1, 2))
+library(sf)
+geo_65plus <- get_acs(
+  geography = "county",
+  variables = "B09021_012",  # dummy variable just to get geometry
+  year = 2023,
+  survey = "acs5",
+  geometry = TRUE,
+  cb = TRUE
+) %>%
+  select(GEOID, geometry) %>%
+  st_transform(4326)
+# Assuming living_65plus is just a tibble right now
+living_65plus <- left_join(living_65plus, geo_65plus, by = "GEOID") %>%
+  st_as_sf()
+
+# Loop through each state and create a leaflet map
+walk(unique(living_65plus$state_fips), function(fips) {
+  state_data <- living_65plus %>%
+    filter(state_fips == fips)
+
+  # Ensure it is an sf object with geometry
+  if (!inherits(state_data, "sf")) {
+    message("Skipping FIPS ", fips, ": Not an sf object")
+    return(NULL)
+  }
+
+  vals <- state_data$`Living Alone (%)`
+  vals <- vals[is.finite(vals) & vals > 0]
+  if (length(unique(vals)) < 2) return(NULL)
+
+  breaks <- pretty(vals)
+  colors <- colorRampPalette(brewer.pal(9, "Blues"))(length(breaks) - 1)
+  pal <- colorBin(palette = colors, domain = vals, bins = breaks)
+
+  leaflet_map <- leaflet(state_data) %>%
+    addProviderTiles("CartoDB.PositronNoLabels") %>%
+    addPolygons(
+      fillColor = ~pal(`Living Alone (%)`),
+      fillOpacity = 0.9,
+      color = "white",
+      weight = 1,
+      label = ~paste0(County, ": ", `Living Alone (%)`, "%"),
+      highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+    ) %>%
+    addLegend(
+      position = "topright",
+      colors = colors,
+      labels = paste0(round(breaks[-length(breaks)], 1), "%"),
+      title = "65+ Living Alone",
+      opacity = 1
+    )
+
+  saveWidget(
+    widget = leaflet_map,
+    file = file.path(
+      "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/over65-maps/",
+      paste0(fips, ".html")
+    ),
+    selfcontained = FALSE
+  )
+})
+
+
+
+county_geom <- counties(cb = TRUE, year = 2023) %>%
+  filter(!STATEFP %in% c("72", "78")) %>%
+  select(GEOID, NAME, STATEFP, geometry) %>%
+  rename(state_fips = STATEFP)
+
+# Join with under65_percent data
+lonely_data <- county_geom %>%
+  left_join(under65_percent, by = "GEOID")
+
+# Save individual state maps
+walk(unique(lonely_data$state_fips), function(fips) {
+  state_data <- lonely_data %>%
+    filter(state_fips == fips)
+
+  vals <- state_data$`Living Alone`
+  vals <- vals[is.finite(vals) & vals > 0]
+
+  if (length(unique(vals)) < 2) return(NULL)
+
+  # Create color scale
+  breaks <- pretty(vals)
+  colors <- colorRampPalette(brewer.pal(9, "Blues"))(length(breaks) - 1)
+  pal <- colorBin(palette = colors, domain = vals, bins = breaks)
+
+  # Create leaflet map
+  leaflet_map <- leaflet(state_data, options = leafletOptions(minZoom = 5, maxZoom = 8)) %>%
+    addProviderTiles("CartoDB.PositronNoLabels") %>%
+    addPolygons(
+      fillColor = ~pal(`Living Alone`),
+      fillOpacity = 0.9,
+      color = "white",
+      weight = 1,
+      label = ~paste0(NAME, ": ", round(`Living Alone`, 1), "%"),
+      highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+    ) %>%
+    addLegend(
+      position = "topright",
+      colors = colors,
+      labels = paste0(round(breaks[-length(breaks)], 1), "%"),
+      title = "Under 65 Living Alone",
+      opacity = 1
+    )
+
+  # Save map widget
+  saveWidget(
+    widget = leaflet_map,
+    file = paste0(
+      "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/under65-maps/",
+      fips, ".html"
+    ),
+    selfcontained = FALSE
+  )
+})
+
+
+# STATE PAGES LONELINESS UNDER 65 
+
+library(fs)
+library(glue)
+library(readr)
+library(stringr)
+library(fs)
+library(glue)
+library(readr)
+library(stringr)
+
+input_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/under65-maps"
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/under65-pages/"
+
+# List HTML files
+html_files <- dir_ls(input_dir, regexp = "\\.html$")
+
+walk(html_files, function(file_path) {
+  fips_code <- path_file(file_path) %>% path_ext_remove()
+
+  html_content <- glue('
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Under 65 Living Alone Map – State {fips_code}</title>
+  <style>
+    body {{
+      margin: 0;
+      padding: 1.5rem;
+      font-family: sans-serif;
+      background-color: #f2f2f2;
+    }}
+    h1 {{
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }}
+    .container {{
+      display: flex;
+      gap: 2rem;
+    }}
+    .map-column {{
+      flex: 1;
+    }}
+    .sidebar {{
+      flex: 1;
+    }}
+    iframe {{
+      width: 100%;
+      height: 600px;
+      border: none;
+    }}
+    a#back-link {{
+      display: inline-block;
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+      color: #003366;
+      text-decoration: none;
+      font-weight: bold;
+    }}
+  </style>
+</head>
+<body>
+  
+  <h1>Under 65 Living Alonr by County – State {fips_code}</h1>
+  <div class="container">
+    <div class="map-column">
+      <iframe src="../under65-maps/{fips_code}.html" title="Map of State {fips_code}"></iframe>
+    </div>
+    <div class="sidebar">
+      <!-- You can add text, links, charts, etc. here later -->
+    </div>
+  </div>
+</body>
+</html>
+')
+
+  write_file(html_content, path(output_dir, paste0(fips_code, ".html")))
+})
+
+
+
+
+# STATE PAGES LONELINESS OVER 65 
+
+library(fs)
+library(glue)
+library(readr)
+library(stringr)
+library(fs)
+library(glue)
+library(readr)
+library(stringr)
+
+input_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/over65-maps"
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/over65-pages/"
+
+# List HTML files
+html_files <- dir_ls(input_dir, regexp = "\\.html$")
+
+walk(html_files, function(file_path) {
+  fips_code <- path_file(file_path) %>% path_ext_remove()
+
+  html_content <- glue('
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>65+ Living Alone Map – State {fips_code}</title>
+  <style>
+    body {{
+      margin: 0;
+      padding: 1.5rem;
+      font-family: sans-serif;
+      background-color: #f2f2f2;
+    }}
+    h1 {{
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }}
+    .container {{
+      display: flex;
+      gap: 2rem;
+    }}
+    .map-column {{
+      flex: 1;
+    }}
+    .sidebar {{
+      flex: 1;
+    }}
+    iframe {{
+      width: 100%;
+      height: 600px;
+      border: none;
+    }}
+    a#back-link {{
+      display: inline-block;
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+      color: #003366;
+      text-decoration: none;
+      font-weight: bold;
+    }}
+  </style>
+</head>
+<body>
+  
+  <h1>65+ Living Alone by County – State {fips_code}</h1>
+  <div class="container">
+    <div class="map-column">
+      <iframe src="../over65-maps/{fips_code}.html" title="Map of State {fips_code}"></iframe>
+    </div>
+    <div class="sidebar">
+      <!-- You can add text, links, charts, etc. here later -->
+    </div>
+  </div>
+</body>
+</html>
+')
+
+  write_file(html_content, path(output_dir, paste0(fips_code, ".html")))
+})
+
+
+
+
+library(tidycensus)
+
+pop_data <- get_acs(
+  geography = "county",
+  variables = "B01003_001",  # total population
+  year = 2023,
+  survey = "acs5"
+)
+
+
+counties_under_500 <- pop_data %>% filter(estimate < 500)    # counties under 200
+
+
+```
+
+# living alone living arrangement charts 
+```{r}
+library(tidycensus)
+library(dplyr)
+library(tidyr)
+library(purrr)
+library(DT)
+library(htmlwidgets)
+library(fs)
+library(stringr)
+states <- unique(tidycensus::fips_codes$state)[1:51]
+year <- 2023
+
+# 1. Total under-65 population using B01001 (male 3–20, female 27–44)
+under65_age_vars <- c(
+  paste0("B01001_", sprintf("%03d", 3:20)),    # Males under 65
+  paste0("B01001_", sprintf("%03d", 27:44))    # Females under 65
+)
+
+total_under65 <- map_dfr(states, function(state_abbr) {
+  get_acs(
+    geography = "county",
+    state = state_abbr,
+    variables = under65_age_vars,
+    year = year,
+    survey = "acs5"
+  ) %>%
+    group_by(GEOID) %>%
+    summarize(total_under65 = sum(estimate, na.rm = TRUE), .groups = "drop")
+})
+
+# 2. Living arrangement breakdown from B09021
+under65_vars <- c(
+  married_family = "B09021_003",
+  other_family = "B09021_004",
+  nonfamily = "B09021_005",
+  living_alone = "B09021_006",
+  group_quarters = "B09021_007"
+)
+
+get_under65_living_data <- function(state_abbr) {
+  message("Processing ", state_abbr)
+  get_acs(
+    geography = "county",
+    state = state_abbr,
+    variables = under65_vars,
+    year = year,
+    survey = "acs5"
+  ) %>%
+    select(GEOID, NAME, variable, estimate) %>%
+    pivot_wider(names_from = variable, values_from = estimate) %>%
+    mutate(STATE = state_abbr, County = NAME)
+}
+
+all_under65_living <- map_dfr(states, get_under65_living_data)
+
+# 3. Merge in total under-65 pop
+all_under65_living <- left_join(all_under65_living, total_under65, by = "GEOID") %>%
+  filter(!is.na(total_under65) & total_under65 > 0)
+
+# 4. Calculate accurate, exclusive categories
+under65_percent <- all_under65_living %>%
+  mutate(
+    nonfamily_shared = pmax(nonfamily - living_alone, 0),
+total_reported = married_family + other_family + nonfamily_shared + living_alone + group_quarters,
+`Married-Couple`        = round(100 * married_family / total_reported, 1),
+`Other Family`          = round(100 * other_family / total_reported, 1),
+`Nonfamily Household`   = round(100 * nonfamily_shared / total_reported, 1),
+`Living Alone`          = round(100 * living_alone / total_reported, 1),
+`Group Quarters`        = round(100 * group_quarters / total_reported, 1)
+
+  ) %>%
+  select(
+    STATE, GEOID, County,
+    `Married-Couple`, `Other Family`, `Nonfamily Household`, `Living Alone`, `Group Quarters`
+  )
+
+# 5. Save state-level widget tables
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/living-under65-tables"
+dir_create(output_dir)
+
+state_fips_list <- unique(substr(under65_percent$GEOID, 1, 2))
+
+walk(state_fips_list, function(fips_code) {
+  state_table <- under65_percent %>%
+    filter(substr(GEOID, 1, 2) == fips_code) %>%
+    select(County, `Married-Couple`, `Other Family`, `Nonfamily Household`, `Living Alone`, `Group Quarters`) %>%
+    mutate(across(where(is.numeric), ~ paste0(.x, "%")))
+
+  if (nrow(state_table) == 0) return()
+
+  widget <- datatable(
+    state_table,
+    rownames = FALSE,
+    options = list(
+      pageLength = 25,
+      autoWidth = TRUE,
+      dom = 'tip',
+      columnDefs = list(list(className = 'dt-center', targets = 1:5))
+    )
+  )
+
+  saveWidget(
+    widget,
+    file = file.path(output_dir, paste0(fips_code, ".html")),
+    selfcontained = TRUE
+  )
+})
+
+
+# write to state pages 
+
+library(fs)
+library(stringr)
+library(glue)
+library(readr)
+
+input_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/under65-maps"
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/under65-pages"
+widget_dir <- "../living-under65-tables"
+
+dir_create(output_dir)
+
+# List state HTML files by FIPS
+html_files <- dir_ls(input_dir, regexp = "\\.html$")
+
+walk(html_files, function(file_path) {
+  fips_code <- path_file(file_path) %>% path_ext_remove()
+
+  html_content <- glue('
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Living Alone Under 65 – State {fips_code}</title>
+  <style>
+    body {{
+      margin: 0;
+      padding: 1.5rem;
+      font-family: sans-serif;
+      background-color: #f2f2f2;
+    }}
+    h1 {{
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }}
+    .container {{
+      display: flex;
+      gap: 2rem;
+    }}
+    .map-column {{
+      flex: 1;
+    }}
+    .sidebar {{
+      flex: 1;
+    }}
+    iframe {{
+      width: 100%;
+      height: 600px;
+      border: none;
+    }}
+    a#back-link {{
+      display: inline-block;
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+      color: #003366;
+      text-decoration: none;
+      font-weight: bold;
+    }}
+  </style>
+</head>
+<body>
+  <h1>Living Alone (Under Age 65) by County – State {fips_code}</h1>
+  <div class="container">
+    <div class="map-column">
+      <iframe src="../under65-maps/{fips_code}.html" title="Map of State {fips_code}"></iframe>
+    </div>
+    <div class="sidebar">
+      <h2 style="font-size: 1rem; color: #3e49a8; margin-top: 0;">Living Arrangements of People Under 65</h2>
+      <iframe src="{widget_dir}/{fips_code}.html" title="Living Arrangements Table by County (Under 65)" width="100%" height="600px" style="border:none;"></iframe>
+    </div>
+  </div>
+</body>
+</html>
+')
+
+  write_file(html_content, path(output_dir, paste0(fips_code, ".html")))
+})
+
+
+
+
+# 65+ state tables 
+library(tidycensus)
+library(dplyr)
+library(tidyr)
+library(purrr)
+library(stringr)
+
+year <- 2023
+states <- unique(fips_codes$state)[1:51]  # 50 states + DC
+
+# Define correct variables from B09021
+year <- 2023
+states <- unique(fips_codes$state)[1:51]
+
+
+over65_age_vars <- c(
+  paste0("B01001_", sprintf("%03d", 21:25)),   # Males 65+
+  paste0("B01001_", sprintf("%03d", 45:49))    # Females 65+
+)
+
+total_over65 <- map_dfr(states, function(state_abbr) {
+  get_acs(
+    geography = "county",
+    state = state_abbr,
+    variables = over65_age_vars,
+    year = year,
+    survey = "acs5"
+  ) %>%
+    group_by(GEOID) %>%
+    summarize(total_over65 = sum(estimate, na.rm = TRUE), .groups = "drop")
+})
+
+# 2. Living arrangement breakdown for 65+ from B09021
+vars <- c(
+  total         = "B09021_001",
+  married       = "B09021_009",
+  living_alone  = "B09021_012"
+)
+
+get_living_65plus_simple <- function(state_abbr) {
+  message("Processing ", state_abbr)
+
+  get_acs(
+    geography = "county",
+    state = state_abbr,
+    variables = vars,
+    year = year,
+    survey = "acs5"
+  ) %>%
+    select(GEOID, NAME, variable, estimate) %>%
+    pivot_wider(names_from = variable, values_from = estimate) %>%
+    mutate(
+      STATE = state_abbr,
+      County = NAME,
+      other = pmax(`B09021_001` - `B09021_009` - `B09021_012`, 0),
+      `Married-Couple (%)` = round(100 * `B09021_009` / `B09021_001`, 1),
+      `Living Alone (%)`   = round(100 * `B09021_012` / `B09021_001`, 1),
+      `Other (%)`          = round(100 * other / `B09021_001`, 1)
+    ) %>%
+    select(STATE, GEOID, County, `Married-Couple (%)`, `Living Alone (%)`, `Other (%)`) %>%
+    filter(`B09021_001` > 0)
+}
+
+# Apply to all states
+living_65plus_3cat <- map_dfr(states, get_living_65plus_simple)
+
+
+
+
+# --- Save per-state tables ---
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/living-over65-tables"
+dir_create(output_dir)
+
+walk(unique(living_65plus$state_fips), function(fips_code) {
+  state_table <- living_65plus %>%
+    filter(state_fips == fips_code) %>%
+    select(
+      County,
+      `Married-Couple (%)`,
+      `Other Family (%)`,
+      `Nonfamily Household (%)`,
+      `Living Alone (%)`,
+      `Group Quarters (%)`
+    ) %>%
+    mutate(across(where(is.numeric), ~ paste0(.x, "%")))
+
+  if (nrow(state_table) == 0) return()
+
+  widget <- datatable(
+    state_table,
+    rownames = FALSE,
+    options = list(
+      pageLength = 25,
+      autoWidth = TRUE,
+      dom = 'tip',
+      columnDefs = list(list(className = 'dt-center', targets = 1:5))
+    )
+  )
+
+  saveWidget(
+    widget,
+    file = file.path(output_dir, paste0(fips_code, ".html")),
+    selfcontained = TRUE
+  )
+})
+
+# write to pages 
+
+
+input_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/over65-maps"
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/over65-pages"
+widget_dir <- "../living-over65-tables"
+
+dir_create(output_dir)
+
+# List state HTML files by FIPS
+html_files <- dir_ls(input_dir, regexp = "\\.html$")
+
+walk(html_files, function(file_path) {
+  fips_code <- path_file(file_path) %>% path_ext_remove()
+
+  html_content <- glue('
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Living Alone 65+ – State {fips_code}</title>
+  <style>
+    body {{
+      margin: 0;
+      padding: 1.5rem;
+      font-family: sans-serif;
+      background-color: #f2f2f2;
+    }}
+    h1 {{
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }}
+    .container {{
+      display: flex;
+      gap: 2rem;
+    }}
+    .map-column {{
+      flex: 1;
+    }}
+    .sidebar {{
+      flex: 1;
+    }}
+    iframe {{
+      width: 100%;
+      height: 600px;
+      border: none;
+    }}
+    a#back-link {{
+      display: inline-block;
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+      color: #003366;
+      text-decoration: none;
+      font-weight: bold;
+    }}
+  </style>
+</head>
+<body>
+  <h1>Living Alone (Over Age 65) by County – State {fips_code}</h1>
+  <div class="container">
+    <div class="map-column">
+      <iframe src="../over65-maps/{fips_code}.html" title="Map of State {fips_code}"></iframe>
+    </div>
+    <div class="sidebar">
+      <h2 style="font-size: 1rem; color: #3e49a8; margin-top: 0;">Living Arrangements of People Under 65</h2>
+      <iframe src="{widget_dir}/{fips_code}.html" title="Living Arrangements Table by County (Over 65)" width="100%" height="600px" style="border:none;"></iframe>
+    </div>
+  </div>
+</body>
+</html>
+')
+
+  write_file(html_content, path(output_dir, paste0(fips_code, ".html")))
+})
+
+
+
+year <- 2023
+states <- unique(fips_codes$state)[1:51]
+
+# Income variables for 65+ householders
+income_vars <- paste0("B19037_", sprintf("%03d", 49:61))
+bracket_labels <- c(
+  "<$10k", "$10–14k", "$15–19k", "$20–24k", "$25–29k", "$30–34k",
+  "$35–39k", "$40–44k", "$45–49k", "$50–59k", "$60–74k", "$75–99k", "$100k+"
+)
+bracket_df <- tibble(variable = income_vars, bracket = factor(bracket_labels, levels = bracket_labels))
+
+# Get ACS data
+income_65plus <- map_dfr(states, function(st) {
+  get_acs(
+    geography = "state",
+    variables = income_vars,
+    state = st,
+    year = year,
+    survey = "acs5"
+  )
+})
+
+# Join labels and clean
+income_clean <- income_65plus %>%
+  left_join(bracket_df, by = "variable") %>%
+  mutate(
+    STATE = str_remove(NAME, " \\(.*\\)"),  # Remove "(State)"
+    STATE_FILE = gsub(" ", "_", STATE)
+  ) %>%
+  select(STATE, STATE_FILE, bracket, estimate) %>%
+  group_by(STATE, STATE_FILE) %>%
+  mutate(pct = estimate / sum(estimate)) %>%
+  ungroup()
+
+# Output path
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/income-65plus-charts"
+dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
+
+# Generate one chart per state
+walk(unique(income_clean$STATE), function(state_name) {
+  df <- income_clean %>% filter(STATE == state_name)
+  state_file <- unique(df$STATE_FILE)
+
+  p <- ggplot(df, aes(x = bracket, y = pct, fill = bracket)) +
+  geom_col() +
+  geom_text(
+    aes(label = ifelse(pct < 0.005, "<1%", paste0(round(pct * 100), "%"))),
+    vjust = -0.5,
+    size = 3.5
+  ) +
+  scale_y_continuous(
+  labels = percent_format(accuracy = 1),
+  expand = expansion(mult = c(0, 0.15))  # 15% headroom at top
+) + 
+  scale_fill_brewer(palette = "Blues") +
+  labs(
+    title = paste("Income Distribution Among 65+ Households –", state_name),
+    x = "Household Income Bracket",
+    y = "Percent of 65+ Households"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.position = "none"
+  )
+
+  ggsave(
+    filename = file.path(output_dir, paste0(state_file, "_65plus_income.png")),
+    plot = p, width = 10, height = 6
+  )
+})
+
+
+fips_lookup <- tidycensus::fips_codes %>%
+  group_by(state_code) %>%
+  slice(1) %>%
+  ungroup() %>%
+  mutate(
+    state_fips = state_code,
+    state_name = gsub(" ", "_", state_name)
+  ) %>%
+  select(state_fips, state_name)
+
+input_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/over65-maps"
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/over65-pages"
+chart_dir <- "../income-65plus-charts"
+
+dir_create(output_dir)
+
+# FIPS to state name lookup
+fips_lookup <- tidycensus::fips_codes %>%
+  group_by(state_code) %>%
+  slice(1) %>%
+  ungroup() %>%
+  mutate(
+    state_fips = str_pad(state_code, 2, pad = "0"),
+    state_file = gsub(" ", "_", state_name),
+    state_label = state_name
+  ) %>%
+  select(state_fips, state_file, state_label)
+
+# List state HTML files by FIPS
+html_files <- dir_ls(input_dir, regexp = "\\.html$")
+
+walk(html_files, function(file_path) {
+  fips_code <- path_file(file_path) %>% path_ext_remove()
+
+  # Lookup state name from FIPS
+  state_row <- fips_lookup %>% filter(state_fips == fips_code)
+  if (nrow(state_row) == 0) return(NULL)
+
+  state_name <- state_row$state_name[[1]]
+  state_label <- gsub("_", " ", state_row$state_label[[1]])
+
+  html_content <- glue('
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Living Alone 65+ – {state_label}</title>
+  ...
+  <img src="{chart_dir}/{state_name}_65plus_income.png" alt="Income Distribution (Age 65+) – {state_label}" />
+  ...
+</html>
+')
+
+  write_file(html_content, path(output_dir, paste0(fips_code, ".html")))
+})
+
+```
+
+
+
+
+# internet access
+
+```{r}
+
+
+v <- load_variables(2023, "acs5", cache = TRUE)
+
+# Get internet access data
+internet_data <- get_acs(
+  geography = "county",
+  variables = c(
+    total = "B28002_001",
+    no_internet = "B28002_013"
+  ),
+  year = 2023,
+  survey = "acs5",
+  geometry = TRUE
+)
+
+# Reshape and calculate % without internet
+internet_clean <- internet_data %>%
+  select(GEOID, NAME, variable, estimate, geometry) %>%
+  pivot_wider(names_from = variable, values_from = estimate) %>%
+  mutate(
+    pct_no_internet = no_internet / total,
+    state_fips = substr(GEOID, 1, 2)
+  )
+
+# -------------------- 2. SHIFT GEOMETRY --------------------
+shift_geometry <- function(sf_obj) {
+  alaska <- sf_obj %>% filter(state_fips == "02") %>% st_transform(2163)
+  hawaii <- sf_obj %>% filter(state_fips == "15") %>% st_transform(2163)
+  mainland <- sf_obj %>% filter(!state_fips %in% c("02", "15")) %>% st_transform(4326)
+  alaska_geom <- st_geometry(alaska) * 0.3 + c(-380000, -3000000)
+  hawaii_geom <- st_geometry(hawaii) * 1.2 + c(4500000, -900000)
+  st_crs(alaska_geom) <- 2163; st_crs(hawaii_geom) <- 2163
+  alaska <- st_set_geometry(alaska, alaska_geom) %>% st_transform(4326)
+  hawaii <- st_set_geometry(hawaii, hawaii_geom) %>% st_transform(4326)
+  bind_rows(mainland, alaska, hawaii) %>% st_as_sf()
+}
+
+internet_shifted <- shift_geometry(internet_clean)
+
+# -------------------- 3. STATE GEOMETRY --------------------
+state_geom_internet <- states(cb = TRUE, year = 2023) %>%
+  filter(!STATEFP %in% c("72", "78")) %>%
+  select(state_fips = STATEFP, geometry) %>%
+  mutate(link = paste0("internet-pages/", state_fips, ".html"))
+
+state_geom_internet <- shift_geometry(state_geom_internet)
+
+# -------------------- 4. WHITE MASK --------------------
+world_box <- st_as_sfc(st_bbox(c(xmin = -180, ymin = -90, xmax = 180, ymax = 90)), crs = 4326)
+us_box <- st_as_sfc(st_bbox(c(xmin = -130, ymin = 15, xmax = -60, ymax = 55)), crs = 4326)
+mask_polygon <- st_difference(st_make_valid(world_box), st_make_valid(us_box)) %>%
+  st_collection_extract("POLYGON") %>%
+  st_set_crs(4326)
+
+# -------------------- 5. MAP SETUP --------------------
+vals <- internet_shifted$pct_no_internet
+max_val <- max(vals, na.rm = TRUE)
+
+# Create 10 equal-width bins between 0 and max
+breaks <- seq(0, ceiling(max_val * 100) / 100, length.out = 11)  # 10 breaks = 11 endpoints
+
+colors <- colorRampPalette(brewer.pal(9, "OrRd"))(length(breaks) - 1)
+
+pal <- colorBin(colors, domain = vals, bins = breaks)
+
+internet_map <- leaflet(options = leafletOptions(
+  minZoom = 4, maxZoom = 4,
+  zoomControl = FALSE, dragging = FALSE,
+  scrollWheelZoom = FALSE, doubleClickZoom = FALSE
+)) %>%
+  addTiles(urlTemplate = "") %>%
+  addRectangles(lng1 = -180, lat1 = -90, lng2 = 180, lat2 = 90,
+                fillColor = "white", fillOpacity = 1, stroke = FALSE) %>%
+  addPolygons(data = mask_polygon, fillColor = "white", color = "white", weight = 0, fillOpacity = 1) %>%
+  addPolygons(
+    data = internet_shifted,
+    fillColor = ~pal(pct_no_internet),
+    color = "white", weight = 0.3, fillOpacity = 0.9,
+    label = ~paste0(NAME, ": ", round(pct_no_internet * 100, 1), "%"),
+    highlightOptions = highlightOptions(weight = 1, color = "black", bringToFront = TRUE)
+  ) %>%
+  addPolygons(
+    data = state_geom_internet,
+    fillOpacity = 0, color = "black", weight = 1,
+    layerId = ~link,
+    highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+  ) %>%
+  addLegend(
+    position = "topright", colors = colors,
+
+labels = paste0(round(breaks[-length(breaks)] * 100), "%"),   
+title = "Households Without Internet Access (2023)", opacity = 1
+  ) %>%
+  setView(lng = -98.5, lat = 39.8, zoom = 8)
+
+# -------------------- 6. JS CLICK HANDLER --------------------
+internet_map <- onRender(internet_map, "
+  function(el, x) {
+    var map = this;
+    var hash = window.location.hash;
+    map.eachLayer(function(layer) {
+      if (layer.options && layer.options.layerId) {
+        layer.on('click', function(e) {
+          window.top.location.href = layer.options.layerId + hash;
+        });
+      }
+    });
+  }
+")
+
+# -------------------- 7. SAVE --------------------
+saveWidget(
+  widget = internet_map,
+  file = "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/internet-map.html",
+  selfcontained = FALSE
+)
+
+
+
+
+walk(unique(internet_clean$state_fips), function(fips) {
+  state_data <- internet_clean %>%
+    filter(state_fips == fips)
+
+  vals <- state_data$pct_no_internet
+  vals <- vals[is.finite(vals) & vals > 0]
+
+  if (length(unique(vals)) < 2) return(NULL)
+
+  breaks <- pretty(vals) 
+  colors <- colorRampPalette(brewer.pal(9, "YlOrRd"))(length(breaks) - 1)
+  pal <- colorBin(palette = colors, domain = vals, bins = breaks)
+
+  leaflet_map <- leaflet(state_data, options = leafletOptions(minZoom = 5, maxZoom = 8)) %>%
+    addProviderTiles("CartoDB.PositronNoLabels") %>%
+    addPolygons(
+      fillColor = ~pal(pct_no_internet),
+      fillOpacity = 0.9,
+      color = "white",
+      weight = 1,
+      label = ~paste0(NAME, ": ", round(pct_no_internet * 100, 1), "%"),
+      highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+    ) %>%
+    addLegend(
+      position = "topright",
+      colors = colors,
+      labels = paste0(round(breaks[-length(breaks)] * 100, 1), "%"),
+      title = "Households Without Internet Access (2023)",
+      opacity = 1
+    )
+
+  saveWidget(
+    widget = leaflet_map,
+    file = paste0(
+      "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/internet-maps/",
+      fips, ".html"
+    ),
+    selfcontained = FALSE
+  )
+})
+
+
+
+
+# STATE PAGES INTERNET
+
+library(fs)
+library(glue)
+library(readr)
+library(stringr)
+library(fs)
+library(glue)
+library(readr)
+library(stringr)
+
+input_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/internet-maps"
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/internet-pages/"
+
+# List HTML files
+html_files <- dir_ls(input_dir, regexp = "\\.html$")
+
+walk(html_files, function(file_path) {
+  fips_code <- path_file(file_path) %>% path_ext_remove()
+
+  html_content <- glue('
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Households Without Internet Access Map – State {fips_code}</title>
+  <style>
+    body {{
+      margin: 0;
+      padding: 1.5rem;
+      font-family: sans-serif;
+      background-color: #f2f2f2;
+    }}
+    h1 {{
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }}
+    .container {{
+      display: flex;
+      gap: 2rem;
+    }}
+    .map-column {{
+      flex: 1;
+    }}
+    .sidebar {{
+      flex: 1;
+    }}
+    iframe {{
+      width: 100%;
+      height: 600px;
+      border: none;
+    }}
+    a#back-link {{
+      display: inline-block;
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+      color: #003366;
+      text-decoration: none;
+      font-weight: bold;
+    }}
+  </style>
+</head>
+<body>
+  
+  <h1>Households Without Internet by County – State {fips_code}</h1>
+  <div class="container">
+    <div class="map-column">
+      <iframe src="../internet-maps/{fips_code}.html" title="Map of State {fips_code}"></iframe>
+    </div>
+    <div class="sidebar">
+      <!-- You can add text, links, charts, etc. here later -->
+    </div>
+  </div>
+</body>
+</html>
+')
+
+  write_file(html_content, path(output_dir, paste0(fips_code, ".html")))
+})
+
+
+
+
+
+```
+
+# internet acces CHARTS
+```{r}
+
+library(readr)
+library(dplyr)
+library(tidycensus)
+library(ggplot2)
+
+# Adjust path if needed
+rucc_data <- read_csv("Ruralurbancontinuumcodes2023.csv")  # if it's in your working dir
+# Make sure FIPS codes are padded
+rucc_wide <- rucc_data %>%
+  pivot_wider(names_from = Attribute, values_from = Value) %>%
+  mutate(
+    GEOID = FIPS,
+    RUCC_2023 = as.numeric(RUCC_2023)
+  ) %>%
+  select(GEOID, RUCC_2023)
+
+# 2. Create output folder
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/internet-charts"
+
+# 3. Loop through all 50 states
+states <- state.name
+years <- 2023
+
+walk(states, function(state) {
+  cat("Processing", state, "...\n")
+  
+  # Try-catch block to skip failed states
+  tryCatch({
+    # 3a. Get ACS internet data for the state
+    internet_data <- get_acs(
+      geography = "county",
+      variables = c(total = "B28002_001", no_internet = "B28002_013"),
+      state = state,
+      year = years,
+      survey = "acs5",
+      cache_table = TRUE
+    ) %>%
+      select(GEOID, NAME, variable, estimate) %>%
+      pivot_wider(names_from = variable, values_from = estimate) %>%
+      mutate(percent_no_internet = 100 * no_internet / total)
+    
+    # 3b. Merge with RUCC
+    internet_rucc <- internet_data %>%
+      left_join(rucc_wide, by = "GEOID") %>%
+      mutate(
+        rucc_label = case_when(
+          RUCC_2023 <= 3 ~ "Metro",
+          RUCC_2023 > 3 ~ "Nonmetro",
+          TRUE ~ NA_character_
+        )
+      )
+    
+    # Skip if no valid data
+    if (nrow(internet_rucc) == 0 || all(is.na(internet_rucc$rucc_label))) return(NULL)
+
+    # 3c. Summarize
+    summary_df <- internet_rucc %>%
+      group_by(rucc_label) %>%
+      summarize(
+        avg_no_internet = mean(percent_no_internet, na.rm = TRUE),
+        n = n()
+      )
+    
+    # 3d. Plot
+    p <- ggplot(summary_df, aes(x = rucc_label, y = avg_no_internet, fill = rucc_label)) +
+      geom_col(width = 0.6, show.legend = FALSE) +
+      scale_y_continuous(labels = scales::percent_format(scale = 1)) +
+      labs(
+        title = paste("Avg % Without Internet Access by Metro Status –", state),
+        x = "",
+        y = "% Without Internet Access"
+      ) +
+      theme_minimal(base_size = 14)
+
+    # 3e. Save chart
+    filename <- file.path(output_dir, paste0(tolower(gsub(" ", "_", state)), "_rucc_internet.png"))
+    ggsave(filename, plot = p, width = 8, height = 5)
+    
+  }, error = function(e) {
+    message("Failed for ", state, ": ", e$message)
+  })
+})
+
+
+
+input_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/internet-maps"
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/internet-pages/"
+chart_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/internet-charts"  # relative to output HTML
+
+# FIPS to state name lookup
+fips_df <- tidycensus::fips_codes %>%
+  distinct(state_code, state_name) %>%
+  mutate(fips = sprintf("%02d", as.numeric(state_code)))
+
+# List HTML map files
+html_files <- dir_ls(input_dir, regexp = "\\.html$")
+
+walk(html_files, function(file_path) {
+  fips_code <- path_file(file_path) %>% path_ext_remove()
+
+  # Get matching state name from FIPS
+  state_name <- fips_df %>%
+    filter(fips == fips_code) %>%
+    pull(state_name) %>%
+    tolower() %>%
+    toTitleCase()
+
+  state_slug <- tolower(gsub(" ", "_", state_name))
+  chart_filename <- glue("{state_slug}_rucc_internet.png")
+
+  html_content <- glue('
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Households Without Internet Access Map – {state_name}</title>
+  <style>
+    body {{
+      margin: 0;
+      padding: 1.5rem;
+      font-family: sans-serif;
+      background-color: #f2f2f2;
+    }}
+    h1 {{
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }}
+    .container {{
+      display: flex;
+      gap: 2rem;
+    }}
+    .map-column {{
+      flex: 1;
+    }}
+    .sidebar {{
+      flex: 1;
+    }}
+    iframe {{
+      width: 100%;
+      height: 600px;
+      border: none;
+    }}
+    img {{
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 1rem;
+    }}
+    .caption {{
+      font-size: 0.9rem;
+      line-height: 1.4;
+      color: #444;
+    }}
+    a#back-link {{
+      display: inline-block;
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+      color: #003366;
+      text-decoration: none;
+      font-weight: bold;
+    }}
+  </style>
+</head>
+<body>
+  
+  <h1>Households Without Internet by County – {state_name}</h1>
+  <div class="container">
+    <div class="map-column">
+      <iframe src="../internet-maps/{fips_code}.html" title="Map of {state_name}"></iframe>
+    </div>
+    <div class="sidebar">
+      <img src="../internet-charts/{chart_filename}" alt="Internet Access Chart for {state_name}">
+      <div class="caption">
+        <strong>Classification Note:</strong><br>
+        Counties are classified as “Metro” or “Nonmetro” using the <em>2023 Rural-Urban Continuum Codes (RUCC)</em> published by the USDA Economic Research Service. These codes distinguish metropolitan counties (RUCC codes 1–3) from nonmetropolitan counties (RUCC codes 4–9) based on population size and proximity to urban centers.<br><br>
+        Metro counties are part of metropolitan areas with populations ranging from fewer than 250,000 to more than 1 million. Nonmetro counties include smaller towns and rural areas, both adjacent to and distant from metro regions. This classification helps highlight disparities in internet access between urban and rural parts of the state.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+')
+
+  write_file(html_content, path(output_dir, paste0(fips_code, ".html")))
+})
+
+```
+
+
+
+
+# plumbing
+```{r}
+
+
+ 
+v <- load_variables(2023, "acs5", cache = TRUE)
+
+
+
+plumbing_data <- get_acs(
+  geography = "county",
+  variables = c(
+    total = "B25047_001",
+    no_plumbing = "B25047_003"
+  ),
+  year = 2023,
+  survey = "acs5",
+  geometry = TRUE
+)
+
+plumbing_clean <- plumbing_data %>%
+  select(GEOID, NAME, variable, estimate, geometry) %>%
+  pivot_wider(names_from = variable, values_from = estimate) %>%
+  mutate(
+    pct_no_plumbing = no_plumbing / total,
+    state_fips = substr(GEOID, 1, 2)
+  )
+
+# -------------------- 2. SHIFT GEOMETRY --------------------
+shift_geometry <- function(sf_obj) {
+  alaska <- sf_obj %>% filter(state_fips == "02") %>% st_transform(2163)
+  hawaii <- sf_obj %>% filter(state_fips == "15") %>% st_transform(2163)
+  mainland <- sf_obj %>% filter(!state_fips %in% c("02", "15")) %>% st_transform(4326)
+  alaska_geom <- st_geometry(alaska) * 0.3 + c(-380000, -3000000)
+  hawaii_geom <- st_geometry(hawaii) * 1.2 + c(4500000, -900000)
+  st_crs(alaska_geom) <- 2163; st_crs(hawaii_geom) <- 2163
+  alaska <- st_set_geometry(alaska, alaska_geom) %>% st_transform(4326)
+  hawaii <- st_set_geometry(hawaii, hawaii_geom) %>% st_transform(4326)
+  bind_rows(mainland, alaska, hawaii) %>% st_as_sf()
+}
+
+plumbing_shifted <- shift_geometry(plumbing_clean)
+
+# -------------------- 3. STATE GEOMETRY --------------------
+state_geom_plumbing <- states(cb = TRUE, year = 2023) %>%
+  filter(!STATEFP %in% c("72", "78")) %>%
+  select(state_fips = STATEFP, geometry) %>%
+  mutate(link = paste0("plumbing-pages/", state_fips, ".html"))
+
+state_geom_plumbing <- shift_geometry(state_geom_plumbing)
+
+# -------------------- 4. WHITE MASK --------------------
+world_box <- st_as_sfc(st_bbox(c(xmin = -180, ymin = -90, xmax = 180, ymax = 90)), crs = 4326)
+us_box <- st_as_sfc(st_bbox(c(xmin = -130, ymin = 15, xmax = -60, ymax = 55)), crs = 4326)
+mask_polygon <- st_difference(st_make_valid(world_box), st_make_valid(us_box)) %>%
+  st_collection_extract("POLYGON") %>%
+  st_set_crs(4326)
+vals <- plumbing_shifted$pct_no_plumbing
+max_val <- max(vals, na.rm = TRUE)
+
+# Create 10 equal-width bins between 0 and max
+breaks <- seq(0, ceiling(max_val * 100) / 100, length.out = 11)  # 10 breaks = 11 endpoints
+
+colors <- colorRampPalette(brewer.pal(9, "OrRd"))(length(breaks) - 1)
+
+pal <- colorBin(colors, domain = vals, bins = breaks)
+
+plumbing_map <- leaflet(options = leafletOptions(
+  minZoom = 4, maxZoom = 4,
+  zoomControl = FALSE, dragging = FALSE,
+  scrollWheelZoom = FALSE, doubleClickZoom = FALSE
+)) %>%
+  addTiles(urlTemplate = "") %>%
+  addRectangles(lng1 = -180, lat1 = -90, lng2 = 180, lat2 = 90,
+                fillColor = "white", fillOpacity = 1, stroke = FALSE) %>%
+  addPolygons(data = mask_polygon, fillColor = "white", color = "white", weight = 0, fillOpacity = 1) %>%
+  addPolygons(
+    data = plumbing_shifted,
+    fillColor = ~pal(pct_no_plumbing),
+    color = "white", weight = 0.3, fillOpacity = 0.9,
+    label = ~paste0(NAME, ": ", round(pct_no_plumbing * 100, 2), "%"),
+    highlightOptions = highlightOptions(weight = 1, color = "black", bringToFront = TRUE)
+  ) %>%
+  addPolygons(
+    data = state_geom_plumbing,
+    fillOpacity = 0, color = "black", weight = 1,
+    layerId = ~link,
+    highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+  ) %>%
+  addLegend(
+    position = "topright", colors = colors,
+
+labels = paste0(round(breaks[-length(breaks)] * 100), "%"),
+title = "No Complete Plumbing (2023)", opacity = 1
+  ) %>%
+  setView(lng = -98.5, lat = 39.8, zoom = 8)
+
+# -------------------- 6. JS CLICK HANDLER --------------------
+plumbing_map <- onRender(plumbing_map, "
+  function(el, x) {
+    var map = this;
+    var hash = window.location.hash;
+    map.eachLayer(function(layer) {
+      if (layer.options && layer.options.layerId) {
+        layer.on('click', function(e) {
+          window.top.location.href = layer.options.layerId + hash;
+        });
+      }
+    });
+  }
+")
+
+# -------------------- 7. SAVE --------------------
+saveWidget(
+  widget = plumbing_map,
+  file = "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/plumbing-map.html",
+  selfcontained = FALSE
+)
+
+
+# STATE MAPS
+
+walk(unique(plumbing_clean$state_fips), function(fips) {
+  state_data <- plumbing_clean %>%
+    filter(state_fips == fips)
+
+  vals <- state_data$pct_no_plumbing
+  vals <- vals[is.finite(vals) & vals > 0]
+
+  if (length(unique(vals)) < 2) return(NULL)
+
+  breaks <- pretty(vals) 
+  colors <- colorRampPalette(brewer.pal(9, "YlOrRd"))(length(breaks) - 1)
+  pal <- colorBin(palette = colors, domain = vals, bins = breaks)
+
+  leaflet_map <- leaflet(state_data, options = leafletOptions(minZoom = 5, maxZoom = 8)) %>%
+    addProviderTiles("CartoDB.PositronNoLabels") %>%
+    addPolygons(
+      fillColor = ~pal(pct_no_plumbing),
+      fillOpacity = 0.9,
+      color = "white",
+      weight = 1,
+      label = ~paste0(NAME, ": ", round(pct_no_plumbing * 100, 1), "%"),
+      highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+    ) %>%
+    addLegend(
+      position = "topright",
+      colors = colors,
+      labels = paste0(round(breaks[-length(breaks)] * 100, 1), "%"),
+      title = "Households Without Complete Plumbing (2023)",
+      opacity = 1
+    )
+
+  saveWidget(
+    widget = leaflet_map,
+    file = paste0(
+      "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/plumbing-maps/",
+      fips, ".html"
+    ),
+    selfcontained = FALSE
+  )
+})
+
+
+
+
+# STATE PAGES PLUMBING
+
+library(fs)
+library(glue)
+library(readr)
+library(stringr)
+library(fs)
+library(glue)
+library(readr)
+library(stringr)
+
+input_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/plumbing-maps"
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/plumbing-pages/"
+
+# List HTML files
+html_files <- dir_ls(input_dir, regexp = "\\.html$")
+
+walk(html_files, function(file_path) {
+  fips_code <- path_file(file_path) %>% path_ext_remove()
+
+  html_content <- glue('
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Households Without Complete Plumbing Map – State {fips_code}</title>
+  <style>
+    body {{
+      margin: 0;
+      padding: 1.5rem;
+      font-family: sans-serif;
+      background-color: #f2f2f2;
+    }}
+    h1 {{
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }}
+    .container {{
+      display: flex;
+      gap: 2rem;
+    }}
+    .map-column {{
+      flex: 1;
+    }}
+    .sidebar {{
+      flex: 1;
+    }}
+    iframe {{
+      width: 100%;
+      height: 600px;
+      border: none;
+    }}
+    a#back-link {{
+      display: inline-block;
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+      color: #003366;
+      text-decoration: none;
+      font-weight: bold;
+    }}
+  </style>
+</head>
+<body>
+  
+  <h1>Households Without Complete Plumbing by County – State {fips_code}</h1>
+  <div class="container">
+    <div class="map-column">
+      <iframe src="../plumbing-maps/{fips_code}.html" title="Map of State {fips_code}"></iframe>
+    </div>
+    <div class="sidebar">
+      <!-- You can add text, links, charts, etc. here later -->
+    </div>
+  </div>
+</body>
+</html>
+')
+
+  write_file(html_content, path(output_dir, paste0(fips_code, ".html")))
+})
+
+
+
+
+```
+
+# new houses rankings (plumbing)
+
+```{r}
+
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/newhouses-tables/"
+
+
+year <- 2023
+states <- state.name
+
+walk(states, function(state) {
+  cat("Processing", state, "...\n")
+  
+  tryCatch({
+    # 1. Get total and recent housing data
+    housing_data <- get_acs(
+      geography = "county",
+      state = state,
+      year = year,
+      survey = "acs5",
+      variables = c(
+        total_units = "B25034_001",
+        built_2014_or_later = "B25034_002",
+        built_2010_2013 = "B25034_003"
+      ),
+      cache_table = TRUE
+    )
+
+    # 2. Pivot and compute %
+    rankings <- housing_data %>%
+      select(NAME, variable, estimate) %>%
+      pivot_wider(names_from = variable, values_from = estimate) %>%
+      mutate(
+        built_since_2010 = built_2014_or_later + built_2010_2013,
+        pct_built_since_2010 = 100 * built_since_2010 / total_units
+      ) %>%
+      arrange(desc(pct_built_since_2010))
+
+    # 3. Generate HTML list of all counties
+    list_items <- paste0(
+      "<li><strong>", rankings$NAME, ":</strong> ",
+      sprintf("%.1f", rankings$pct_built_since_2010), "%</li>"
+    )
+
+    widget_html <- glue('
+<div class="ranking-widget">
+  <h3>Percent of Housing Units Built Since 2010 by County</h3>
+  <ul>
+    {paste(list_items, collapse = "\n    ")}
+  </ul>
+</div>
+')
+
+    # 4. Save to file
+    state_slug <- tolower(gsub(" ", "_", state))
+    output_file <- file.path(output_dir, paste0(state_slug, "_2010_build_rankings.html"))
+    write_file(widget_html, output_file)
+
+  }, error = function(e) {
+    message("Failed for ", state, ": ", e$message)
+  })
+})
+
+
+
+
+input_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/plumbing-maps"
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/plumbing-pages/"
+ranking_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/newhouses-tables"  
+# FIPS to state name lookup
+fips_df <- fips_codes %>%
+  distinct(state_code, state_name) %>%
+  mutate(fips = sprintf("%02d", as.numeric(state_code)))
+
+# List .html files in the plumbing maps folder
+html_files <- dir_ls(input_dir, regexp = "\\.html$")
+
+walk(html_files, function(file_path) {
+  fips_code <- path_file(file_path) %>% path_ext_remove()
+
+  # Match FIPS to state name
+  state_name <- fips_df %>%
+    filter(fips == fips_code) %>%
+    pull(state_name) %>%
+    tolower() %>%
+    toTitleCase()
+
+  state_slug <- tolower(gsub(" ", "_", state_name))
+  ranking_filename <- glue("{ranking_dir}/{state_slug}_2010_build_rankings.html")
+  
+  # Try to read the ranking HTML widget
+  ranking_html <- if (file_exists(ranking_filename)) {
+    read_file(ranking_filename)
+  } else {
+    "<p>No recent housing data available for this state.</p>"
+  }
+
+  # Build the full HTML page
+  html_content <- glue('
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Households Without Complete Plumbing Map – {state_name}</title>
+  <style>
+    body {{
+      margin: 0;
+      padding: 1.5rem;
+      font-family: sans-serif;
+      background-color: #f2f2f2;
+    }}
+    h1 {{
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }}
+    .container {{
+      display: flex;
+      gap: 2rem;
+    }}
+    .map-column {{
+      flex: 1;
+    }}
+    .sidebar {{
+      flex: 1;
+    }}
+    iframe {{
+      width: 100%;
+      height: 600px;
+      border: none;
+    }}
+    ul {{
+      padding-left: 1.2rem;
+    }}
+    .ranking-widget {{
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 1rem;
+      border-radius: 6px;
+    }}
+    a#back-link {{
+      display: inline-block;
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+      color: #003366;
+      text-decoration: none;
+      font-weight: bold;
+    }}
+  </style>
+</head>
+<body>
+  
+  <h1>Households Without Complete Plumbing by County – {state_name}</h1>
+  <div class="container">
+    <div class="map-column">
+      <iframe src="../plumbing-maps/{fips_code}.html" title="Map of {state_name}"></iframe>
+    </div>
+    <div class="sidebar">
+      {ranking_html}
+    </div>
+  </div>
+</body>
+</html>
+')
+
+  write_file(html_content, path(output_dir, paste0(fips_code, ".html")))
+})
+
+
+get_acs(
+  geography = "county",
+  state = "OH",
+  county = "Delaware",
+  year = 2023,
+  survey = "acs5",
+  table = "B25034"
+)
+
+```
+
+
+
+
+# departure time 
+```{r}
+
+depart_vars <- c(
+  "B08132_002", "B08132_003", "B08132_004", "B08132_005",
+  "B08132_006", "B08132_007", "B08132_008", "B08132_009",
+  "B08132_010", "B08132_011", "B08132_012", "B08132_013"
+)
+
+depart_data <- get_acs(
+  geography = "county",
+  variables = depart_vars,
+  year = 2023,
+  survey = "acs5",
+  geometry = TRUE
+)
+
+# -------------------- 3. CLEAN --------------------
+depart_clean <- depart_data %>%
+  mutate(time = case_when(
+    variable == "B08132_002" ~ "Before 6:00 AM",
+    variable == "B08132_003" ~ "6:00–6:29 AM",
+    variable == "B08132_004" ~ "6:30–6:59 AM",
+    variable == "B08132_005" ~ "7:00–7:29 AM",
+    variable == "B08132_006" ~ "7:30–7:59 AM",
+    variable == "B08132_007" ~ "8:00–8:29 AM",
+    variable == "B08132_008" ~ "8:30–8:59 AM",
+    variable == "B08132_009" ~ "9:00–9:59 AM",
+    variable == "B08132_010" ~ "10:00–10:59 AM",
+    variable == "B08132_011" ~ "11:00–11:59 AM",
+    variable == "B08132_012" ~ "12:00 PM or later",
+    variable == "B08132_013" ~ "Worked from home"
+  )) %>%
+  select(GEOID, NAME, estimate, time, geometry)
+
+time_midpoints <- c(
+  "Before 6:00 AM" = 500,       # 5:30 AM
+  "6:00–6:29 AM" = 615,         # 6:15 AM
+  "6:30–6:59 AM" = 645,
+  "7:00–7:29 AM" = 705,
+  "7:30–7:59 AM" = 735,
+  "8:00–8:29 AM" = 825,
+  "8:30–8:59 AM" = 855,
+  "9:00–9:59 AM" = 930,
+  "10:00–10:59 AM" = 1050,
+  "11:00–11:59 AM" = 1110,
+  "12:00 PM or later" = 1200,
+  "Worked from home" = NA       # Optional: exclude from avg
+)
+
+# Step 2: Compute weighted average
+depart_avg <- depart_clean %>%
+  filter(time != "Worked from home") %>%
+  mutate(
+    minutes = time_midpoints[time],
+    weighted = estimate * minutes
+  ) %>%
+  group_by(GEOID, NAME) %>%
+  summarize(
+    avg_departure = sum(weighted, na.rm = TRUE) / sum(estimate, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+geoms <- depart_clean %>%
+  select(GEOID, geometry) %>%
+  distinct(GEOID, .keep_all = TRUE) %>%
+  st_drop_geometry()
+
+# Step 2: Join with computed averages and re-add geometry
+depart_avg_geom <- right_join(geoms, depart_avg, by = "GEOID") %>%
+  st_as_sf() %>%
+  mutate(state_fips = substr(GEOID, 1, 2))
+
+# -------------------- 4. SHIFT GEOMETRY --------------------
+shift_geometry <- function(sf_obj) {
+  alaska <- sf_obj %>% filter(state_fips == "02") %>% st_transform(2163)
+  hawaii <- sf_obj %>% filter(state_fips == "15") %>% st_transform(2163)
+  mainland <- sf_obj %>% filter(!state_fips %in% c("02", "15")) %>% st_transform(4326)
+  alaska_geom <- st_geometry(alaska) * 0.3 + c(-380000, -3000000)
+  hawaii_geom <- st_geometry(hawaii) * 1.2 + c(4500000, -900000)
+  st_crs(alaska_geom) <- 2163; st_crs(hawaii_geom) <- 2163
+  alaska <- st_set_geometry(alaska, alaska_geom) %>% st_transform(4326)
+  hawaii <- st_set_geometry(hawaii, hawaii_geom) %>% st_transform(4326)
+  bind_rows(mainland, alaska, hawaii) %>% st_as_sf()
+}
+
+depart_shifted <- shift_geometry(depart_avg_geom)
+
+# -------------------- 5. STATE POLYGONS --------------------
+state_geom <- states(cb = TRUE, year = 2023) %>%
+  filter(!STATEFP %in% c("72", "78")) %>%
+  select(state_fips = STATEFP, geometry) %>%
+  mutate(link = paste0("departure-pages/", state_fips, ".html"))
+
+state_geom <- shift_geometry(state_geom)
+
+# -------------------- 6. COLOR --------------------
+# These breaks must **start below 661** and end above 1036
+time_breaks <- c(600, 630, 660, 690, 720, 810, 840, 900, 1020, 1080)  # covers all possible values
+time_labels <- c(
+  "Before 6:00 AM", "6:00 AM", "6:30 AM", "7:00 AM", "7:30 AM",
+  "8:00 AM", "8:30 AM", "9:00 AM", "10:00 AM", "After 11:00 AM"
+)
+
+# Recode and set time_group as properly ordered factor
+depart_shifted <- depart_shifted %>%
+  mutate(
+    time_group = case_when(
+      avg_departure < 600 ~ "Before 6:00 AM",
+      avg_departure < 630 ~ "6:00 AM",
+      avg_departure < 660 ~ "6:30 AM",
+      avg_departure < 690 ~ "7:00 AM",
+      avg_departure < 720 ~ "7:30 AM",
+      avg_departure < 810 ~ "8:00 AM",
+      avg_departure < 840 ~ "8:30 AM",
+      avg_departure < 900 ~ "9:00 AM",
+      avg_departure < 1020 ~ "10:00 AM",
+      TRUE ~ "After 11:00 AM"
+    ),
+    time_group = factor(time_group, levels = time_labels)
+  )
+
+# Set up color palette using that factor
+pal <- colorFactor(
+  palette = "YlGnBu",
+  domain = factor(time_labels, levels = time_labels),  # force it
+  ordered = TRUE
+)
+# -------------------- 7. MASK --------------------
+world_box <- st_as_sfc(st_bbox(c(xmin = -180, ymin = -90, xmax = 180, ymax = 90)), crs = 4326)
+us_box <- st_as_sfc(st_bbox(c(xmin = -130, ymin = 15, xmax = -60, ymax = 55)), crs = 4326)
+mask_polygon <- st_difference(st_make_valid(world_box), st_make_valid(us_box)) %>%
+  st_collection_extract("POLYGON") %>%
+  st_set_crs(4326)
+
+# -------------------- 8. MAP --------------------
+departure_map <- leaflet(options = leafletOptions(
+  minZoom = 4, maxZoom = 4, zoomControl = FALSE,
+  dragging = FALSE, scrollWheelZoom = FALSE, doubleClickZoom = FALSE
+)) %>%
+  addTiles(urlTemplate = "") %>%
+  addRectangles(lng1 = -180, lat1 = -90, lng2 = 180, lat2 = 90,
+                fillColor = "white", fillOpacity = 1, stroke = FALSE) %>%
+  addPolygons(data = mask_polygon, fillColor = "white", color = "white", weight = 0, fillOpacity = 1) %>%
+  addPolygons(
+    data = depart_shifted,
+    fillColor = ~pal(time_group),
+    color = "white", weight = 0.3, fillOpacity = 0.9,
+    label = ~paste0(NAME, ": ", time_group),
+    highlightOptions = highlightOptions(weight = 1, color = "black", bringToFront = TRUE)
+  ) %>%
+  addPolygons(
+    data = state_geom,
+    fillOpacity = 0, color = "black", weight = 1,
+    layerId = ~link,
+    highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+  ) %>%
+  addLegend(
+  position = "topright",
+  pal = pal,
+  values = factor(time_labels, levels = time_labels),
+  title = "Avg. Work Departure Time (2023)",
+  opacity = 1
+) %>%
+  setView(lng = -98.5, lat = 39.8, zoom = 8)
+
+# -------------------- 9. CLICK HANDLER --------------------
+departure_map <- htmlwidgets::onRender(departure_map, "
+  function(el, x) {
+    var map = this;
+    var hash = window.location.hash;
+    map.eachLayer(function(layer) {
+      if (layer.options && layer.options.layerId) {
+        layer.on('click', function(e) {
+          window.top.location.href = layer.options.layerId + hash;
+        });
+      }
+    });
+  }
+")
+
+# -------------------- 10. SAVE --------------------
+saveWidget(
+  widget = departure_map,
+  file = '/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/departure-map.html',
+  selfcontained = FALSE
+)
+
+
+
+
+
+
+# DEPARTURE STATE MAPS
+
+
+# Define consistent label order and palette
+time_labels <- c(
+  "Before 6:00 AM", "6:00 AM", "6:30 AM", "7:00 AM", "7:30 AM",
+  "8:00 AM", "8:30 AM", "9:00 AM", "10:00 AM", "After 11:00 AM"
+)
+
+pal <- colorFactor("YlGnBu", domain = factor(time_labels, levels = time_labels), ordered = TRUE)
+
+# Generate a map for each state
+walk(unique(depart_shifted$state_fips), function(fips) {
+  state_data <- depart_shifted %>%
+    filter(state_fips == fips)
+
+  if (nrow(state_data) == 0 || all(is.na(state_data$time_group))) return(NULL)
+
+  # Re-factor just in case
+  state_data$time_group <- factor(state_data$time_group, levels = time_labels)
+
+  leaflet_map <- leaflet(state_data, options = leafletOptions(minZoom = 5, maxZoom = 8)) %>%
+    addProviderTiles("CartoDB.PositronNoLabels") %>%
+    addPolygons(
+      fillColor = ~pal(time_group),
+      fillOpacity = 0.9,
+      color = "white",
+      weight = 1,
+      label = ~paste0(NAME, ": ", time_group),
+      highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+    ) %>%
+    addLegend(
+      position = "topright",
+      pal = pal,
+      values = factor(time_labels, levels = time_labels),
+      title = "Avg. Work Departure Time (2023)",
+      opacity = 1
+    )
+
+  saveWidget(
+    widget = leaflet_map,
+    file = paste0(
+      "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/departure-maps/",
+      fips, ".html"
+    ),
+    selfcontained = FALSE
+  )
+})
+
+
+# STATE PAGEs DEPARTURE  
+
+library(fs)
+library(glue)
+library(readr)
+library(stringr)
+library(fs)
+library(glue)
+library(readr)
+library(stringr)
+
+input_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/departure-maps"
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/departure-pages/"
+
+# List HTML files
+html_files <- dir_ls(input_dir, regexp = "\\.html$")
+
+walk(html_files, function(file_path) {
+  fips_code <- path_file(file_path) %>% path_ext_remove()
+
+  html_content <- glue('
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Avg. Work Departure Time Map – State {fips_code} (2023) </title>
+  <style>
+    body {{
+      margin: 0;
+      padding: 1.5rem;
+      font-family: sans-serif;
+      background-color: #f2f2f2;
+    }}
+    h1 {{
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }}
+    .container {{
+      display: flex;
+      gap: 2rem;
+    }}
+    .map-column {{
+      flex: 1;
+    }}
+    .sidebar {{
+      flex: 1;
+    }}
+    iframe {{
+      width: 100%;
+      height: 600px;
+      border: none;
+    }}
+    a#back-link {{
+      display: inline-block;
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+      color: #003366;
+      text-decoration: none;
+      font-weight: bold;
+    }}
+  </style>
+</head>
+<body>
+  
+  <h1> Avg. Work Departure Time Map – State {fips_code} (2023)</h1>
+  <div class="container">
+    <div class="map-column">
+      <iframe src="../departure-maps/{fips_code}.html" title="Map of State {fips_code}"></iframe>
+    </div>
+    <div class="sidebar">
+      <!-- You can add text, links, charts, etc. here later -->
+    </div>
+  </div>
+</body>
+</html>
+')
+
+  write_file(html_content, path(output_dir, paste0(fips_code, ".html")))
+})
+
+
+
+```
+
+
+# departure state page mode tables
+
+```{r}
+year <- 2023
+states <- state.name
+output_dir <- '/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/departure-mode-tables/'
+
+walk(states, function(state) {
+  cat("Processing", state, "...\n")
+
+  tryCatch({
+    commute_data <- get_acs(
+      geography = "county",
+      state = state,
+      year = year,
+      survey = "acs5",
+      table = "B08301",
+      cache_table = TRUE
+    )
+
+    commute_wide <- commute_data %>%
+      select(NAME, variable, estimate) %>%
+      pivot_wider(names_from = variable, values_from = estimate)
+
+    rankings <- commute_wide %>%
+      mutate(
+        `Drive Alone`     = 100 * B08301_003 / B08301_001,
+        Carpool           = 100 * B08301_004 / B08301_001,
+        Transit           = 100 * B08301_010 / B08301_001,
+        Walk              = 100 * B08301_018 / B08301_001,
+        Bike              = 100 * B08301_019 / B08301_001,
+        `Work from Home`  = 100 * B08301_021 / B08301_001
+      ) %>%
+      mutate(across(
+  c(`Drive Alone`, Carpool, Transit, Walk, Bike, `Work from Home`),
+  ~ paste0(round(.x, 1), "%")
+)) %>%
+      select(County = NAME, `Drive Alone`, Carpool, Transit, Walk, Bike, `Work from Home`)
+
+    # Save as interactive table
+    table_widget <- datatable(
+      rankings,
+      options = list(pageLength = 50),
+      rownames = FALSE
+    )
+
+    state_slug <- tolower(gsub(" ", "_", state))
+    output_file <- file.path(output_dir, paste0(state_slug, "_commute_modes.html"))
+    saveWidget(table_widget, file = output_file, selfcontained = TRUE)
+
+  }, error = function(e) {
+    message("Failed for ", state, ": ", e$message)
+  })
+})
+
+
+library(fs)
+library(glue)
+library(readr)
+library(stringr)
+
+input_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/departure-maps"
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/departure-pages/"
+widget_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/departure-mode-tables"
+
+# Load state FIPS to name mapping
+fips_lookup <- tidycensus::fips_codes %>%
+  filter(state_code %in% sprintf("%02d", 1:56)) %>%
+  distinct(state_code, state_name) %>%
+  group_by(state_code) %>%
+  slice(1) %>%
+  ungroup() %>%
+  mutate(
+    fips = state_code,
+    state_slug = tolower(gsub(" ", "_", state_name))
+  )
+
+# List HTML files
+html_files <- dir_ls(input_dir, regexp = "\\.html$")
+
+walk(html_files, function(file_path) {
+  fips_code <- path_file(file_path) %>% path_ext_remove()
+
+  # Lookup state slug
+  state_slug <- fips_lookup %>%
+    filter(fips == fips_code) %>%
+    pull(state_slug)
+
+  # Path to commute mode widget iframe source
+  iframe_src <- paste0("../departure-pages/", state_slug, "_commute_modes.html")
+
+  # Build HTML
+  html_content <- glue('
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Avg. Work Departure Time Map – State {fips_code} (2023)</title>
+  <style>
+    body {{
+      margin: 0;
+      padding: 1.5rem;
+      font-family: sans-serif;
+      background-color: #f2f2f2;
+    }}
+    h1 {{
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }}
+    .container {{
+      display: flex;
+      gap: 2rem;
+    }}
+    .map-column {{
+      flex: 1;
+    }}
+    .sidebar {{
+      flex: 1;
+      background-color: #fff;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }}
+    iframe {{
+      width: 100%;
+      height: 600px;
+      border: none;
+    }}
+    .sidebar h2 {{
+      font-size: 1.1rem;
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }}
+  </style>
+</head>
+<body>
+  <h1>Avg. Work Departure Time Map – State {fips_code} (2023)</h1>
+  <div class="container">
+    <div class="map-column">
+      <iframe src="../departure-maps/{fips_code}.html" title="Map of State {fips_code}"></iframe>
+    </div>
+    <div class="sidebar">
+      <h2>Commute Mode Breakdown by County</h2>
+      <iframe src="{iframe_src}" title="Commute Mode Table for {state_slug}"></iframe>
+    </div>
+  </div>
+</body>
+</html>
+')
+
+  # Save page
+  write_file(html_content, path(output_dir, paste0(fips_code, ".html")))
+})
+```
+
+
+
+# immigrant influx 
+```{r}
+vars <- c(total = "B05001_001", foreign = "B05001_006")
+
+foreign_2020 <- get_acs(
+  geography = "county",
+  variables = vars,
+  year = 2020,
+  survey = "acs5",
+  geometry = TRUE
+)
+
+foreign_2023 <- get_acs(
+  geography = "county",
+  variables = vars,
+  year = 2023,
+  survey = "acs5",
+  geometry = TRUE
+)
+
+# -------------------- 2. CLEAN FUNCTION (USING 'total', 'foreign') --------------------
+clean_foreign <- function(df, year) {
+  df %>%
+    st_drop_geometry() %>%
+    select(GEOID, variable, estimate) %>%
+    pivot_wider(names_from = variable, values_from = estimate) %>%
+    mutate(year = year, share = foreign / total)
+}
+
+f20 <- clean_foreign(foreign_2020, 2020)
+f23 <- clean_foreign(foreign_2023, 2023)
+
+# -------------------- 3. CALCULATE CHANGE --------------------
+foreign_change <- left_join(f23, f20, by = "GEOID", suffix = c("_2023", "_2020")) %>%
+  mutate(change = share_2023 - share_2020) %>%
+  distinct(GEOID, .keep_all = TRUE)
+
+# -------------------- 4. JOIN GEOMETRY BACK --------------------
+foreign_map <- foreign_2023 %>%
+  filter(variable == "total") %>%
+  select(GEOID, NAME, geometry) %>%
+  left_join(foreign_change, by = "GEOID") %>%
+  mutate(state_fips = substr(GEOID, 1, 2))
+
+# -------------------- 5. SHIFT GEOMETRY FUNCTION --------------------
+shift_geometry <- function(sf_obj) {
+  alaska <- sf_obj %>% filter(state_fips == "02") %>% st_transform(2163)
+  hawaii <- sf_obj %>% filter(state_fips == "15") %>% st_transform(2163)
+  mainland <- sf_obj %>% filter(!state_fips %in% c("02", "15")) %>% st_transform(4326)
+  alaska_geom <- st_geometry(alaska) * 0.3 + c(-380000, -3000000)
+  hawaii_geom <- st_geometry(hawaii) * 1.2 + c(4500000, -900000)
+  st_crs(alaska_geom) <- 2163; st_crs(hawaii_geom) <- 2163
+  alaska <- st_set_geometry(alaska, alaska_geom) %>% st_transform(4326)
+  hawaii <- st_set_geometry(hawaii, hawaii_geom) %>% st_transform(4326)
+  bind_rows(mainland, alaska, hawaii) %>% st_as_sf()
+}
+
+foreign_shifted <- shift_geometry(foreign_map)
+
+# -------------------- 6. STATE GEOMETRY (for clickable layer) --------------------
+state_geom <- states(cb = TRUE, year = 2023) %>%
+  filter(!STATEFP %in% c("72", "78")) %>%
+  select(state_fips = STATEFP, geometry) %>%
+  mutate(link = paste0("immigrant-pages/", state_fips, ".html"))
+
+state_geom_shifted <- shift_geometry(state_geom)
+
+# -------------------- 7. WHITE MASK --------------------
+world_box <- st_as_sfc(st_bbox(c(xmin = -180, ymin = -90, xmax = 180, ymax = 90)), crs = 4326)
+us_box <- st_as_sfc(st_bbox(c(xmin = -130, ymin = 15, xmax = -60, ymax = 55)), crs = 4326)
+mask_polygon <- st_difference(st_make_valid(world_box), st_make_valid(us_box)) %>%
+  st_collection_extract("POLYGON") %>%
+  st_set_crs(4326)
+
+# -------------------- 8. COLOR SCALE --------------------
+vals <- foreign_shifted$change
+breaks <- seq(-0.2, 0.15, by = 0.02)
+colors <- colorRampPalette(brewer.pal(11, "PuOr"))(length(breaks) - 1)
+pal <- colorBin(colors, domain = vals, bins = breaks)
+
+# -------------------- 9. MAP --------------------
+immigrant_map <- leaflet(options = leafletOptions(
+  minZoom = 4, maxZoom = 4, zoomControl = FALSE,
+  dragging = FALSE, scrollWheelZoom = FALSE, doubleClickZoom = FALSE
+)) %>%
+  addTiles(urlTemplate = "") %>%
+  addRectangles(lng1 = -180, lat1 = -90, lng2 = 180, lat2 = 90,
+                fillColor = "white", fillOpacity = 1, stroke = FALSE) %>%
+  addPolygons(data = mask_polygon, fillColor = "white", color = "white", weight = 0, fillOpacity = 1) %>%
+  addPolygons(
+    data = foreign_shifted,
+    fillColor = ~pal(change),
+    color = "white", weight = 0.3, fillOpacity = 0.9,
+    label = ~paste0(NAME, ": ", round(change * 100, 2), " percentage points"),
+    highlightOptions = highlightOptions(weight = 1, color = "black", bringToFront = TRUE)
+  ) %>%
+  addPolygons(
+    data = state_geom_shifted,
+    fillOpacity = 0, color = "black", weight = 1,
+    layerId = ~link,
+    highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+  ) %>%
+  addLegend(
+    position = "topright",
+    pal = pal,
+    values = vals,
+    title = "Change in Foreign-Born Share (2020–2023)",
+    labFormat = labelFormat(suffix = "%", transform = function(x) round(x * 100)),
+    opacity = 1
+  ) %>%
+  setView(lng = -98.5, lat = 39.8, zoom = 8)
+
+# -------------------- 10. JS CLICK HANDLER --------------------
+immigrant_map <- onRender(immigrant_map, "
+  function(el, x) {
+    var map = this;
+    map.eachLayer(function(layer) {
+      if (layer.options && layer.options.layerId) {
+        layer.on('click', function(e) {
+          window.top.location.href = layer.options.layerId;
+        });
+      }
+    });
+  }
+")
+
+# -------------------- 11. SAVE --------------------
+saveWidget(
+  widget = immigrant_map,
+  file = '/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/immigrant-change-map.html',
+  selfcontained = FALSE
+)
+
+
+
+
+```
+
+# misc front page language widget
+
+```{r}
+year <- 2023
+survey <- "acs5"
+
+variables_b16001 <- load_variables(year, survey, cache = TRUE) %>%
+  filter(str_detect(name, "B16001"))
+
+state_language <- get_acs(
+  geography = "state",
+  table = "B16001",
+  year = 2023,
+  survey = "acs5",
+  cache_table = TRUE
+)
+
+county_language<- get_acs(
+  geography = "county",
+  table = "B16002",
+  year = 2023,
+  survey = "acs5",
+  cache_table = TRUE
+)
+
+
+# Load variable labels for B16001
+b16001_labels <- load_variables(2023, "acs5", cache = TRUE) %>%
+  filter(str_detect(name, "B16001_")) %>%
+  select(variable = name, label)
+
+grouped_labels <- b16001_labels %>%
+  filter(variable != "B16001_001") %>%  # still exclude only the total
+  mutate(group = case_when(
+    variable == "B16001_002" ~ "English only",
+    str_detect(label, "Spanish") ~ "Spanish",
+    str_detect(label, "French|Haitian|Cajun") ~ "French, Haitian, Cajun",
+    str_detect(label, "German") ~ "German",
+    str_detect(label, "Scandinavian") ~ "Scandinavian",
+    str_detect(label, "Greek") ~ "Greek",
+    str_detect(label, "Russian|Polish|Slavic") ~ "Russian, Polish, Slavic",
+    str_detect(label, "Armenian") ~ "Armenian",
+    str_detect(label, "Persian|Iranian") ~ "Persian",
+    str_detect(label, "Hindi|Urdu") ~ "Hindi, Urdu",
+    str_detect(label, "Other Indic") ~ "Other Indic",
+    str_detect(label, "Other Indo-European") ~ "Other Indo-European",
+    str_detect(label, "Chinese") ~ "Chinese",
+    str_detect(label, "Japanese") ~ "Japanese",
+    str_detect(label, "Korean") ~ "Korean",
+    str_detect(label, "Vietnamese") ~ "Vietnamese",
+    str_detect(label, "Tagalog") ~ "Tagalog",
+    str_detect(label, "Thai|Laotian") ~ "Thai, Laotian",
+    str_detect(label, "Other Asian") ~ "Other Asian",
+    str_detect(label, "Arabic") ~ "Arabic",
+    str_detect(label, "Hebrew") ~ "Hebrew",
+    str_detect(label, "African") ~ "African languages",
+    str_detect(label, "Other and unspecified") ~ "Other and unspecified",
+    TRUE ~ "Other"
+  ))
+state_grouped <- state_language %>%
+  left_join(grouped_labels, by = "variable") %>%
+  filter(!is.na(group)) %>%
+  group_by(NAME, group) %>%
+  summarise(estimate = sum(estimate, na.rm = TRUE), .groups = "drop") %>%
+  group_by(NAME) %>%
+  mutate(total = sum(estimate), pct = round(100 * estimate / total, 2)) %>%
+  ungroup()
+
+
+b16002_labels <- load_variables(2023, "acs5", cache = TRUE) %>%
+  filter(str_detect(name, "B16002_")) %>%
+  select(variable = name, label)
+
+grouped_b16002 <- b16002_labels %>%
+  filter(variable != "B16002_001") %>%  # exclude total
+  mutate(group = case_when(
+    variable == "B16002_002" ~ "English only",
+    variable %in% c("B16002_003", "B16002_004", "B16002_005") ~ "Spanish",
+    variable %in% c("B16002_006", "B16002_007", "B16002_008") ~ "French, Haitian, Cajun",
+    variable %in% c("B16002_009", "B16002_010", "B16002_011") ~ "German or West Germanic",
+    variable %in% c("B16002_012", "B16002_013", "B16002_014") ~ "Russian, Polish, Slavic",
+    variable %in% c("B16002_015", "B16002_016", "B16002_017") ~ "Other Indo-European",
+    variable %in% c("B16002_018", "B16002_019", "B16002_020") ~ "Korean",
+    variable %in% c("B16002_021", "B16002_022", "B16002_023") ~ "Chinese",
+    variable %in% c("B16002_024", "B16002_025", "B16002_026") ~ "Vietnamese",
+    variable %in% c("B16002_027", "B16002_028", "B16002_029") ~ "Tagalog",
+    variable %in% c("B16002_030", "B16002_031", "B16002_032") ~ "Other Asian/Pacific",
+    variable %in% c("B16002_033", "B16002_034", "B16002_035") ~ "Arabic",
+    variable %in% c("B16002_036", "B16002_037", "B16002_038") ~ "Other/Unspecified",
+    TRUE ~ "Other"
+  ))
+
+county_grouped <- county_language %>%
+  left_join(grouped_b16002, by = "variable") %>%
+  filter(!is.na(group)) %>%
+  group_by(NAME, group) %>%
+  summarise(estimate = sum(estimate, na.rm = TRUE), .groups = "drop") %>%
+  group_by(NAME) %>%
+  mutate(total = sum(estimate), pct = round(100 * estimate / total, 2)) %>%
+  ungroup()
+
+write_json(county_grouped, "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/county_language_grouped.json", pretty = TRUE)
+write_json(state_grouped, "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/state_language_grouped.json", pretty = TRUE)
+
+```
+
+
+
+# crowding
+```{r}
+
+
+
+# 1. Load ACS overcrowding data
+crowding_data <- get_acs(
+  geography = "county",
+  variables = c(
+    total_units = "B25014_001",
+    persons_1 = "B25014_002", persons_2 = "B25014_003",
+    persons_3 = "B25014_004", persons_4 = "B25014_005",
+    persons_5 = "B25014_006", persons_6 = "B25014_007",
+    persons_7 = "B25014_008"
+  ),
+  year = 2023,
+  survey = "acs5",
+  geometry = TRUE
+)
+
+# 2. Clean and calculate average persons per room
+crowding_clean <- crowding_data %>%
+  select(GEOID, NAME, variable, estimate, geometry) %>%
+  pivot_wider(names_from = variable, values_from = estimate) %>%
+  mutate(
+    state_fips = substr(GEOID, 1, 2),
+    weighted_score = persons_1 * 0.25 + persons_2 * 0.75 + persons_3 * 1.25 +
+                     persons_4 * 1.51 + persons_5 * 1.75 + persons_6 * 2.25 + persons_7 * 3,
+    avg_ppr = weighted_score / total_units
+  )
+
+# 3. Create state polygons with links
+state_geom <- tigris::states(cb = TRUE, year = 2023) %>%
+  filter(!STATEFP %in% c("72", "78")) %>%
+  select(state_fips = STATEFP, geometry) %>%
+  mutate(link = paste0("crowding-pages/", state_fips, ".html"))
+
+# 4. Shift Alaska and Hawaii
+shift_geometry <- function(sf_obj) {
+  alaska <- sf_obj %>% filter(state_fips == "02") %>% st_transform(2163)
+  hawaii <- sf_obj %>% filter(state_fips == "15") %>% st_transform(2163)
+  mainland <- sf_obj %>% filter(!state_fips %in% c("02", "15")) %>% st_transform(2163)
+
+  alaska_geom <- st_geometry(alaska) * 0.3 + c(-380000, -3000000)
+  hawaii_geom <- st_geometry(hawaii) * 1.2 + c(4500000, -900000)
+
+  st_crs(alaska_geom) <- 2163
+  st_crs(hawaii_geom) <- 2163
+
+  alaska <- st_set_geometry(alaska, alaska_geom) %>% st_transform(4326)
+  hawaii <- st_set_geometry(hawaii, hawaii_geom) %>% st_transform(4326)
+  mainland <- st_transform(mainland, 4326)
+
+  bind_rows(mainland, alaska, hawaii) %>% st_as_sf()
+}
+
+crowding_shifted <- shift_geometry(crowding_clean)
+state_geom <- shift_geometry(state_geom)
+
+# 5. World mask
+world_box <- st_as_sfc(st_bbox(c(xmin = -180, ymin = -90, xmax = 180, ymax = 90)), crs = 4326)
+us_box <- st_as_sfc(st_bbox(c(xmin = -130, ymin = 15, xmax = -60, ymax = 55)), crs = 4326)
+mask_polygon <- st_difference(st_make_valid(world_box), st_make_valid(us_box)) %>%
+  st_collection_extract("POLYGON") %>%
+  st_set_crs(4326)
+
+# 6. Color palette
+vals <- crowding_shifted$avg_ppr
+vals <- vals[is.finite(vals)]
+breaks <- pretty(vals)
+colors <- colorRampPalette(brewer.pal(9, "Oranges"))(length(breaks) - 1)
+pal <- colorBin(colors, domain = vals, bins = breaks)
+
+# 7. Build leaflet map
+crowding_map <- leaflet(options = leafletOptions(
+  minZoom = 4, maxZoom = 4,
+  zoomControl = FALSE, dragging = FALSE, scrollWheelZoom = FALSE, doubleClickZoom = FALSE
+)) %>%
+  addTiles(urlTemplate = "") %>%
+  addRectangles(lng1 = -180, lat1 = -90, lng2 = 180, lat2 = 90,
+                fillColor = "white", fillOpacity = 1, stroke = FALSE) %>%
+  addPolygons(data = mask_polygon, fillColor = "white", color = "white", weight = 0, fillOpacity = 1) %>%
+  addPolygons(
+    data = crowding_shifted,
+    fillColor = ~pal(avg_ppr),
+    color = "white", weight = 0.3, fillOpacity = 0.9,
+    label = ~paste0(NAME, ": ", round(avg_ppr, 2), " people per room"),
+    highlightOptions = highlightOptions(weight = 1, color = "black", bringToFront = TRUE)
+  ) %>%
+  addPolygons(
+    data = state_geom,
+    fillOpacity = 0, color = "black", weight = 1,
+    layerId = ~link,
+    highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+  ) %>%
+  addLegend(
+    position = "topright", colors = colors,
+    labels = round(breaks[-length(breaks)], 2),
+    title = "Avg. Persons per Room", opacity = 1
+  ) %>%
+  setView(lng = -98.5, lat = 39.8, zoom = 8)
+
+# 8. Add click-to-link behavior
+crowding_map <- onRender(crowding_map, "
+  function(el, x) {
+    var map = this;
+    map.eachLayer(function(layer) {
+      if (layer.options && layer.options.layerId) {
+        layer.on('click', function(e) {
+          window.top.location.href = layer.options.layerId;
+        });
+      }
+    });
+  }
+")
+
+# 9. Save
+saveWidget(
+  widget = crowding_map,
+  file = '/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/crowding-map.html',
+  selfcontained = FALSE
+)
+
+
+# state maps 
+
+walk(unique(crowding_clean$state_fips), function(fips) {
+  state_data <- crowding_clean %>%
+    filter(state_fips == fips)
+
+  vals <- state_data$pct_no_internet
+  vals <- vals[is.finite(vals) & vals > 0]
+
+  if (length(unique(vals)) < 2) return(NULL)
+
+  breaks <- pretty(vals) 
+  colors <- colorRampPalette(brewer.pal(9, "YlOrRd"))(length(breaks) - 1)
+  pal <- colorBin(palette = colors, domain = vals, bins = breaks)
+
+  leaflet_map <- leaflet(state_data, options = leafletOptions(minZoom = 5, maxZoom = 8)) %>%
+    addProviderTiles("CartoDB.PositronNoLabels") %>%
+    addPolygons(
+      fillColor = ~pal(pct_no_internet),
+      fillOpacity = 0.9,
+      color = "white",
+      weight = 1,
+      label = ~paste0(NAME, ": ", round(pct_no_internet * 100, 1), "%"),
+      highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+    ) %>%
+    addLegend(
+      position = "topright",
+      colors = colors,
+      labels = paste0(round(breaks[-length(breaks)] * 100, 1), "%"),
+      title = "Households Without Internet (2023)",
+      opacity = 1
+    )
+
+  saveWidget(
+    widget = leaflet_map,
+    file = paste0(
+      "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/internet-maps/",
+      fips, ".html"
+    ),
+    selfcontained = FALSE
+  )
+})
+
+
+```
+
+# movers 
+```{r}
+
+
+# 1. Download recent mover data
+movers_data <- get_acs(
+  geography = "county",
+  variables = c(
+    total = "B07003_001",
+    moved_recent = "B07003_017"
+  ),
+  year = 2023,
+  survey = "acs5",
+  geometry = TRUE
+)
+
+# 2. Prepare data and compute % recent movers
+movers_clean <- movers_data %>%
+  select(GEOID, NAME, variable, estimate, geometry) %>%
+  pivot_wider(names_from = variable, values_from = estimate) %>%
+  mutate(
+    pct_moved = moved_recent / total,
+    state_fips = substr(GEOID, 1, 2)
+  )
+
+# 3. Shift AK & HI
+shift_geometry <- function(sf_obj) {
+  alaska <- sf_obj %>% filter(state_fips == "02") %>% st_transform(2163)
+  hawaii <- sf_obj %>% filter(state_fips == "15") %>% st_transform(2163)
+  mainland <- sf_obj %>% filter(!state_fips %in% c("02", "15")) %>% st_transform(2163)
+
+  alaska_geom <- st_geometry(alaska) * 0.3 + c(-380000, -3000000)
+  hawaii_geom <- st_geometry(hawaii) * 1.2 + c(4500000, -900000)
+
+  st_crs(alaska_geom) <- 2163
+  st_crs(hawaii_geom) <- 2163
+
+  alaska <- st_set_geometry(alaska, alaska_geom) %>% st_transform(4326)
+  hawaii <- st_set_geometry(hawaii, hawaii_geom) %>% st_transform(4326)
+  mainland <- st_transform(mainland, 4326)
+
+  bind_rows(mainland, alaska, hawaii) %>% st_as_sf()
+}
+
+movers_shifted <- shift_geometry(movers_clean)
+
+# 4. Create state-level clickable outlines
+state_geom <- states(cb = TRUE, year = 2023) %>%
+  filter(!STATEFP %in% c("72", "78")) %>%
+  select(state_fips = STATEFP, geometry) %>%
+  mutate(link = paste0("movers-pages/", state_fips, ".html")) %>%
+  shift_geometry()
+
+# 5. Mask outside US
+world_box <- st_as_sfc(st_bbox(c(xmin = -180, ymin = -90, xmax = 180, ymax = 90)), crs = 4326)
+us_box <- st_as_sfc(st_bbox(c(xmin = -130, ymin = 15, xmax = -60, ymax = 55)), crs = 4326)
+mask_polygon <- st_difference(st_make_valid(world_box), st_make_valid(us_box)) %>%
+  st_collection_extract("POLYGON") %>%
+  st_set_crs(4326)
+
+# 6. Color scale
+vals <- movers_shifted$pct_moved
+vals <- vals[is.finite(vals)]
+breaks <- pretty(vals)
+colors <- colorRampPalette(brewer.pal(9, "YlGnBu"))(length(breaks) - 1)
+pal <- colorBin(colors, domain = vals, bins = breaks)
+
+# 7. Build leaflet map
+movers_map <- leaflet(options = leafletOptions(
+  minZoom = 4, maxZoom = 4,
+  zoomControl = FALSE, dragging = FALSE,
+  scrollWheelZoom = FALSE, doubleClickZoom = FALSE
+)) %>%
+  addTiles(urlTemplate = "") %>%
+  addRectangles(lng1 = -180, lat1 = -90, lng2 = 180, lat2 = 90,
+                fillColor = "white", fillOpacity = 1, stroke = FALSE) %>%
+  addPolygons(data = mask_polygon, fillColor = "white", color = "white", weight = 0, fillOpacity = 1) %>%
+  addPolygons(
+    data = movers_shifted,
+    fillColor = ~pal(pct_moved),
+    fillOpacity = 0.9, color = "white", weight = 0.3,
+    label = ~paste0(NAME, ": ", round(pct_moved * 100, 1), "% moved in past year"),
+    highlightOptions = highlightOptions(weight = 1, color = "black", bringToFront = TRUE)
+  ) %>%
+  addPolygons(
+    data = state_geom,
+    fillOpacity = 0, color = "black", weight = 1,
+    layerId = ~link,
+    highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+  ) %>%
+  addLegend(
+    position = "topright", colors = colors,
+    labels = paste0(round(breaks[-length(breaks)] * 100, 1), "%"),
+    title = "Moved In Last Year (2023)", opacity = 1
+  ) %>%
+  setView(lng = -98.5, lat = 39.8, zoom = 8)
+
+# 8. Make states clickable
+movers_map <- onRender(movers_map, "
+  function(el, x) {
+    var map = this;
+    map.eachLayer(function(layer) {
+      if (layer.options && layer.options.layerId) {
+        layer.on('click', function(e) {
+          window.top.location.href = layer.options.layerId;
+        });
+      }
+    });
+  }
+")
+
+# 9. Save
+saveWidget(
+  widget = movers_map,
+  file = "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/movers-map.html",
+  selfcontained = FALSE
+)
+
+
+
+```
+# vehicle access 
+
+
+
+
+```{r}
+
+
+vehicle_data <- get_acs(
+  geography = "county",
+  variables = c(
+    total = "B25044_001",
+    no_vehicle = "B25044_003"
+  ),
+  year = 2023,
+  survey = "acs5",
+  geometry = TRUE
+)
+
+vehicle_clean <- vehicle_data %>%
+  select(GEOID, NAME, variable, estimate, geometry) %>%
+  pivot_wider(names_from = variable, values_from = estimate) %>%
+  mutate(
+    pct_no_vehicle = no_vehicle / total,
+    state_fips = substr(GEOID, 1, 2)
+  )
+
+# 2. Shift Alaska and Hawaii
+shift_geometry <- function(sf_obj) {
+  alaska <- sf_obj %>% filter(state_fips == "02") %>% st_transform(2163)
+  hawaii <- sf_obj %>% filter(state_fips == "15") %>% st_transform(2163)
+  mainland <- sf_obj %>% filter(!state_fips %in% c("02", "15")) %>% st_transform(2163)
+
+  alaska_geom <- st_geometry(alaska) * 0.3 + c(-380000, -3000000)
+  hawaii_geom <- st_geometry(hawaii) * 1.2 + c(4500000, -900000)
+
+  st_crs(alaska_geom) <- 2163
+  st_crs(hawaii_geom) <- 2163
+
+  alaska <- st_set_geometry(alaska, alaska_geom) %>% st_transform(4326)
+  hawaii <- st_set_geometry(hawaii, hawaii_geom) %>% st_transform(4326)
+  mainland <- st_transform(mainland, 4326)
+
+  bind_rows(mainland, alaska, hawaii) %>% st_as_sf()
+}
+
+vehicle_shifted <- shift_geometry(vehicle_clean)
+
+# 3. State outlines with clickable links
+state_geom <- states(cb = TRUE, year = 2023) %>%
+  filter(!STATEFP %in% c("72", "78")) %>%
+  select(state_fips = STATEFP, geometry) %>%
+  mutate(link = paste0("vehicle-pages/", state_fips, ".html")) %>%
+  shift_geometry()
+
+# 4. White mask background
+world_box <- st_as_sfc(st_bbox(c(xmin = -180, ymin = -90, xmax = 180, ymax = 90)), crs = 4326)
+us_box <- st_as_sfc(st_bbox(c(xmin = -130, ymin = 15, xmax = -60, ymax = 55)), crs = 4326)
+
+mask_polygon <- st_difference(st_make_valid(world_box), st_make_valid(us_box)) %>%
+  st_collection_extract("POLYGON") %>%
+  st_set_crs(4326)
+
+# 5. Color scale setup
+vals <- vehicle_shifted$pct_no_vehicle
+vals <- vals[is.finite(vals)]
+breaks <- pretty(vals)
+colors <- colorRampPalette(brewer.pal(9, "Reds"))(length(breaks) - 1)
+pal <- colorBin(colors, domain = vals, bins = breaks)
+
+# 6. Build the leaflet map
+vehicle_map <- leaflet(options = leafletOptions(
+  minZoom = 4, maxZoom = 4,
+  zoomControl = FALSE, dragging = FALSE,
+  scrollWheelZoom = FALSE, doubleClickZoom = FALSE
+)) %>%
+  addTiles(urlTemplate = "") %>%
+  addRectangles(lng1 = -180, lat1 = -90, lng2 = 180, lat2 = 90,
+                fillColor = "white", fillOpacity = 1, stroke = FALSE) %>%
+  addPolygons(data = mask_polygon, fillColor = "white", color = "white", weight = 0, fillOpacity = 1) %>%
+  addPolygons(
+    data = vehicle_shifted,
+    fillColor = ~pal(pct_no_vehicle),
+    color = "white", weight = 0.3, fillOpacity = 0.9,
+    label = ~paste0(NAME, ": ", round(pct_no_vehicle * 100, 1), "%"),
+    highlightOptions = highlightOptions(weight = 1, color = "black", bringToFront = TRUE)
+  ) %>%
+  addPolygons(
+    data = state_geom,
+    fillOpacity = 0, color = "black", weight = 1,
+    layerId = ~link,
+    highlightOptions = highlightOptions(weight = 2, color = "black", bringToFront = TRUE)
+  ) %>%
+  addLegend(
+    position = "topright", colors = colors,
+    labels = paste0(round(breaks[-length(breaks)] * 100, 1), "%"),
+    title = "Households Without Vehicle (2023)", opacity = 1
+  ) %>%
+  setView(lng = -98.5, lat = 39.8, zoom = 8)
+
+# 7. Add clickable state redirect
+vehicle_map <- onRender(vehicle_map, "
+  function(el, x) {
+    var map = this;
+    map.eachLayer(function(layer) {
+      if (layer.options && layer.options.layerId) {
+        layer.on('click', function(e) {
+          window.top.location.href = layer.options.layerId;
+        });
+      }
+    });
+  }
+")
+
+# 8. Save to file
+saveWidget(
+  widget = vehicle_map,
+  file = '/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/misc/vehicle-map.html',
+  selfcontained = FALSE
+)
+
+```
+
+
+
+
+# dive deeper 
+
+```{r}
+
+
+
+
+# USA MAP 
+
+library(tigris)
+library(sf)
+library(dplyr)
+library(leaflet)
+library(htmlwidgets)
+library(glue)
+
+options(tigris_use_cache = TRUE)
+
+# -------------------- SHIFT FUNCTION --------------------
+shift_geometry <- function(sf_obj) {
+  alaska <- sf_obj %>% filter(state_fips == "02") %>% st_transform(2163)
+  hawaii <- sf_obj %>% filter(state_fips == "15") %>% st_transform(2163)
+  mainland <- sf_obj %>% filter(!state_fips %in% c("02", "15")) %>% st_transform(4326)
+
+  alaska_geom <- st_geometry(alaska) * 0.3 + c(-380000, -3000000)
+  hawaii_geom <- st_geometry(hawaii) * 1.2 + c(4500000, -900000)
+
+  st_crs(alaska_geom) <- 2163
+  st_crs(hawaii_geom) <- 2163
+
+  alaska <- st_set_geometry(alaska, alaska_geom) %>% st_transform(4326)
+  hawaii <- st_set_geometry(hawaii, hawaii_geom) %>% st_transform(4326)
+
+  bind_rows(mainland, alaska, hawaii) %>% st_as_sf()
+}
+
+# -------------------- STEP 1: Load & Shift State Geometries --------------------
+state_geom <- states(cb = TRUE, year = 2023) %>%
+  filter(!STATEFP %in% c("72", "78")) %>%
+  select(state_fips = STATEFP, STUSPS, NAME, geometry) %>%
+  mutate(link = glue("school-district-widgets/districts_{tolower(STUSPS)}.html"))
+
+state_geom <- shift_geometry(state_geom)
+
+# -------------------- STEP 2: Build White Background Mask --------------------
+mask_box <- st_as_sfc(st_bbox(c(xmin = -180, ymin = -90, xmax = 180, ymax = 90)), crs = 4326)
+us_box <- st_as_sfc(st_bbox(c(xmin = -130, ymin = 15, xmax = -60, ymax = 55)), crs = 4326)
+
+mask_diff <- st_difference(mask_box, us_box)
+mask_polygon <- st_make_valid(mask_diff)
+st_crs(mask_polygon) <- st_crs(us_box)
+
+# -------------------- STEP 3: Build Leaflet Map --------------------
+explore_map <- leaflet(options = leafletOptions(
+  minZoom = 4, maxZoom = 4,
+  zoomControl = FALSE, dragging = FALSE,
+  scrollWheelZoom = FALSE, doubleClickZoom = FALSE,
+  boxZoom = FALSE, touchZoom = FALSE
+)) %>%
+  # Pure white background (covers the world)
+  addRectangles(-180, -90, 180, 90, fillColor = "white", fillOpacity = 1, stroke = FALSE) %>%
+
+  # Mask everything outside the U.S. box
+  addPolygons(data = mask_polygon, fillColor = "white", color = "white", weight = 0, fillOpacity = 1) %>%
+
+  # Add clickable state polygons
+  addPolygons(
+    data = state_geom,
+    fillColor = "lightgray",
+    fillOpacity = 0.65,
+    color = "#333", weight = 1.2,
+    label = ~NAME,
+    layerId = ~link,
+    highlightOptions = highlightOptions(weight = 2.5, color = "#000", bringToFront = TRUE)
+  ) %>%
+  setView(lng = -98.5, lat = 39.8, zoom = 4)
+
+# -------------------- STEP 4: Add Click-to-Link JS Behavior --------------------
+explore_map <- onRender(explore_map, "
+  function(el, x) {
+    var map = this;
+    map.eachLayer(function(layer) {
+      if (layer.options && layer.options.layerId) {
+        layer.on('click', function(e) {
+          window.location.href = layer.options.layerId;
+        });
+      }
+    });
+  }
+")
+
+library(htmltools)
+
+explore_map <- tagList(
+  tags$h2("Explore by School District", style = "text-align: center; font-family: sans-serif; margin-top: 20px;"),
+  explore_map
+)
+
+# -------------------- STEP 5: Save HTML --------------------
+saveWidget(
+  widget = explore_map,
+  file = '/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/explore/explore-usa.html',
+  selfcontained = FALSE
+)
+
+
+# district data 
+library(tidycensus)
+library(tidyverse)
+library(jsonlite)
+library(stringr)
+
+# Correct set of ACS variables
+vars <- c(
+  population = "B01003_001",
+  median_age = "B01002_001",
+  income = "B19301_001",
+  white = "B02001_002",
+  black = "B02001_003",
+  asian = "B02001_005",
+  hispanic = "B03003_003",
+  poverty = "B17001_002",
+  poverty_total = "B17001_001",
+  pct_bachelors_higher = "S1501_C02_015",  # <- precomputed
+  median_rent = "B25064_001",
+  median_home_value = "B25077_001"
+)
+
+# Get state list
+state_list <- unique(fips_codes$state)[!fips_codes$state %in% c("72", "78")]
+
+# Output dir
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/explore/school-district-jsons"
+dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
+
+walk(state_list, function(state_abbr) {
+  message("Processing: ", state_abbr)
+
+  data <- tryCatch({
+    get_acs(
+      geography = "school district (unified)",
+      state = state_abbr,
+      variables = vars,
+      year = 2023,
+      survey = "acs5",
+      output = "wide",
+      geometry = FALSE
+    )
+  }, error = function(e) {
+    message("Skipping: ", state_abbr)
+    return(NULL)
+  })
+
+  if (is.null(data)) return(NULL)
+
+  cleaned <- data %>%
+    transmute(
+      GEOID,
+      NAME = str_remove(NAME, " School District.*"),
+      population = populationE,
+      median_age = median_ageE,
+      income = incomeE,
+      median_rent = median_rentE,
+      median_home_value = median_home_valueE,
+      pct_white = 100 * whiteE / populationE,
+      pct_black = 100 * blackE / populationE,
+      pct_asian = 100 * asianE / populationE,
+      pct_hispanic = 100 * hispanicE / populationE,
+      pct_poverty = 100 * povertyE / poverty_totalE,
+      pct_bachelors_higher = pct_bachelors_higherE
+    )
+
+  # Save as JSON
+  write_json(
+    cleaned,
+    path = file.path(output_dir, paste0("districts_", tolower(state_abbr), ".json")),
+    pretty = TRUE,
+    na = "null",
+    auto_unbox = TRUE
+  )
+})
+
+# WIDGETS 
+
+
+json_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/explore/school-district-jsons"
+output_dir <- "/Users/theoweinstock/University of Michigan Dropbox/Theo Weinstock/SSDAN/ssdan-mapping/explore/school-district-widgets"
+dir_create(output_dir)
+
+# List JSON files
+json_files <- dir_ls(json_dir, regexp = "districts_.*\\.json$")
+
+walk(json_files, function(file_path) {
+  state_abbr <- str_match(basename(file_path), "districts_(.*)\\.json")[,2]
+
+  data <- fromJSON(file_path) %>%
+    transmute(
+      District = NAME,
+      Population = population,
+      `Median Age` = median_age,
+      `Per Capita Income` = income,
+      `Median Rent` = median_rent,
+      `Median Home Value` = median_home_value,
+      `% White` = round(pct_white, 1),
+      `% Black` = round(pct_black, 1),
+      `% Asian` = round(pct_asian, 1),
+      `% Hispanic` = round(pct_hispanic, 1),
+      `% in Poverty` = round(pct_poverty, 1),
+      `% with College Education` = round(pct_bachelors_higher, 1)
+    )
+
+  widget <- datatable(
+    data,
+    rownames = FALSE,
+    filter = "top",
+    options = list(
+      pageLength = 15,
+      scrollX = TRUE,
+      order = list(list(1, "desc")),
+      columnDefs = list(list(className = "dt-center", targets = "_all"))
+    )
+  )
+
+  saveWidget(
+    widget,
+    file = file.path(output_dir, glue("districts_{state_abbr}.html")),
+    selfcontained = FALSE
+  )
+})
+
+
+
+
+
+```
 
 

@@ -11,16 +11,28 @@
       font-family: sans-serif;
       background-color: #f2f2f2;
     }
-
+#bottom-left-label {
+      position: absolute;
+      bottom: 10px;
+      left: 20px;
+      font-size: 15px;
+      color: #444;
+      padding: 2px 3px;
+      
+    }
     h1 {
       font-size: 1.5rem;
       margin-bottom: 0rem;
+      margin-left: 0.1rem;
+
     }
 
     h2 {
       font-size: 1rem;
       margin-bottom: 1rem;
       color: #4576a7;
+            margin-left: 0.1rem;
+
     }
 
     h4 {
@@ -65,6 +77,8 @@
       border-radius: 10px;
       box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
       margin-top: 4rem;
+            margin-left: .5rem;
+
     }
 
     .link-list a {
@@ -80,6 +94,13 @@
     .rankings-section {
       margin-top: -2rem;
       text-align: center;
+      background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #cccccc;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
     }
 
     .ranking-toggle {
@@ -114,8 +135,9 @@
   </style>
 </head>
 <body>
-  <h1>Population Growth in the United States (2000–2023)</h1>
+  <h1>Population Growth in the United States 2000–2023</h1>
   <h2>Click a state to explore further!</h2>
+  
 
   <div class="main-wrapper">
     <div class="map-rankings-container">
@@ -124,7 +146,9 @@
 
       <!-- Right Panel with Menu and Rankings -->
       <div class="right-panel">
-        <p style="font-size: 14px; color: #555; margin-top: -6.2rem; margin-left: 2rem; margin-bottom: -2rem; font-weight: bold;">
+        <p style="font-size: 14px; color: #555; margin-top: -6.2rem; margin-left: 2rem; margin-bottom: -2rem; font-weight: bold; border: 1px solid #ccc;
+      background-color: #eee;
+      border-radius: 4px; padding: .5rem; margin-right: 2rem;">
           This site is an easy-to-use tool for exploring social and demographic change in the United States, brought to you by the Social Science Data Analysis Network (SSDAN) at the University of Michigan. With interactive maps and clear visualizations, it covers topics like population growth, age, race and ethnicity, earnings, and poverty. Designed for educators, students, and curious minds alike, the site makes complex data accessible and engaging.
         </p>
 
@@ -137,9 +161,12 @@
 
     
         <div class="ranking-toggle">
-          <button id="btnPop" class="active">Population Rankings 2023</button>
-          <button id="btnGrowth">Growth Rankings 2000-2023</button>
-        </div>
+  <button id="btnPop" class="active">Population Rankings 2023</button>
+  <button id="btnGrowth2000">Growth Rankings 2000–2023</button>
+  <button id="btnGrowth2018">Growth Rankings 2018–2023</button>
+  <button id="btnGrowth2021">Growth Rankings 2021–2023</button>
+</div>
+
 
         <div class="rankings-section">
           <iframe id="rankingFrame" src="pop-ranks.html" title="Population Rankings"></iframe>
@@ -148,25 +175,31 @@
     </div>
   </div>
 
+  <div id="bottom-left-label">
+  <strong>Source:</strong>
+  <a href="https://www.census.gov/programs-surveys/acs" target="_blank" style="color: #003366; text-decoration: underline;">
+    ACS 2023
+  </a>
+</div>
 
   <script>
-    const btnPop = document.getElementById('btnPop');
-    const btnGrowth = document.getElementById('btnGrowth');
-    const rankingFrame = document.getElementById('rankingFrame');
+  const btnPop = document.getElementById('btnPop');
+  const btnGrowth2000 = document.getElementById('btnGrowth2000');
+  const btnGrowth2018 = document.getElementById('btnGrowth2018');
+  const btnGrowth2021 = document.getElementById('btnGrowth2021');
+  const rankingFrame = document.getElementById('rankingFrame');
 
-    btnPop.addEventListener('click', () => {
-      btnPop.classList.add('active');
-      btnGrowth.classList.remove('active');
-      rankingFrame.src = "pop-ranks.html";
-      rankingFrame.title = "Population Rankings";
-    });
+  function activateButton(activeBtn, src, title) {
+    [btnPop, btnGrowth2000, btnGrowth2018, btnGrowth2021].forEach(btn => btn.classList.remove('active'));
+    activeBtn.classList.add('active');
+    rankingFrame.src = src;
+    rankingFrame.title = title;
+  }
 
-    btnGrowth.addEventListener('click', () => {
-      btnGrowth.classList.add('active');
-      btnPop.classList.remove('active');
-      rankingFrame.src = "growth-rates.html";
-      rankingFrame.title = "Growth Rankings";
-    });
-  </script>
+  btnPop.addEventListener('click', () => activateButton(btnPop, "pop-ranks.html", "Population Rankings"));
+  btnGrowth2000.addEventListener('click', () => activateButton(btnGrowth2000, "growth-rates.html", "Growth Rankings 2000–2023"));
+  btnGrowth2018.addEventListener('click', () => activateButton(btnGrowth2018, "growth-2018-2023.html", "Growth Rankings 2018–2023"));
+  btnGrowth2021.addEventListener('click', () => activateButton(btnGrowth2021, "growth-2021-2023.html", "Growth Rankings 2021–2023"));
+</script>
 </body>
 </html>

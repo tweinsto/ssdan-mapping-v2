@@ -1,0 +1,7282 @@
+[
+  {
+    "NAME": "Alabama",
+    "group": "Arabic",
+    "estimate": 11868,
+    "total": 5039355,
+    "pct": 0.24
+  },
+  {
+    "NAME": "Alabama",
+    "group": "Armenian",
+    "estimate": 26,
+    "total": 5039355,
+    "pct": 0
+  },
+  {
+    "NAME": "Alabama",
+    "group": "Chinese",
+    "estimate": 21862,
+    "total": 5039355,
+    "pct": 0.43
+  },
+  {
+    "NAME": "Alabama",
+    "group": "English only",
+    "estimate": 4480317,
+    "total": 5039355,
+    "pct": 88.91
+  },
+  {
+    "NAME": "Alabama",
+    "group": "French, Haitian, Cajun",
+    "estimate": 11858,
+    "total": 5039355,
+    "pct": 0.24
+  },
+  {
+    "NAME": "Alabama",
+    "group": "German",
+    "estimate": 20722,
+    "total": 5039355,
+    "pct": 0.41
+  },
+  {
+    "NAME": "Alabama",
+    "group": "Greek",
+    "estimate": 1622,
+    "total": 5039355,
+    "pct": 0.03
+  },
+  {
+    "NAME": "Alabama",
+    "group": "Hebrew",
+    "estimate": 468,
+    "total": 5039355,
+    "pct": 0.01
+  },
+  {
+    "NAME": "Alabama",
+    "group": "Hindi, Urdu",
+    "estimate": 9378,
+    "total": 5039355,
+    "pct": 0.19
+  },
+  {
+    "NAME": "Alabama",
+    "group": "Japanese",
+    "estimate": 4912,
+    "total": 5039355,
+    "pct": 0.1
+  },
+  {
+    "NAME": "Alabama",
+    "group": "Korean",
+    "estimate": 21696,
+    "total": 5039355,
+    "pct": 0.43
+  },
+  {
+    "NAME": "Alabama",
+    "group": "Other",
+    "estimate": 42468,
+    "total": 5039355,
+    "pct": 0.84
+  },
+  {
+    "NAME": "Alabama",
+    "group": "Other Indo-European",
+    "estimate": 3708,
+    "total": 5039355,
+    "pct": 0.07
+  },
+  {
+    "NAME": "Alabama",
+    "group": "Other and unspecified",
+    "estimate": 4012,
+    "total": 5039355,
+    "pct": 0.08
+  },
+  {
+    "NAME": "Alabama",
+    "group": "Persian",
+    "estimate": 2194,
+    "total": 5039355,
+    "pct": 0.04
+  },
+  {
+    "NAME": "Alabama",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 6712,
+    "total": 5039355,
+    "pct": 0.13
+  },
+  {
+    "NAME": "Alabama",
+    "group": "Spanish",
+    "estimate": 367548,
+    "total": 5039355,
+    "pct": 7.29
+  },
+  {
+    "NAME": "Alabama",
+    "group": "Tagalog",
+    "estimate": 8786,
+    "total": 5039355,
+    "pct": 0.17
+  },
+  {
+    "NAME": "Alabama",
+    "group": "Thai, Laotian",
+    "estimate": 3680,
+    "total": 5039355,
+    "pct": 0.07
+  },
+  {
+    "NAME": "Alabama",
+    "group": "Vietnamese",
+    "estimate": 15518,
+    "total": 5039355,
+    "pct": 0.31
+  },
+  {
+    "NAME": "Alaska",
+    "group": "Arabic",
+    "estimate": 3608,
+    "total": 793330,
+    "pct": 0.45
+  },
+  {
+    "NAME": "Alaska",
+    "group": "Armenian",
+    "estimate": 0,
+    "total": 793330,
+    "pct": 0
+  },
+  {
+    "NAME": "Alaska",
+    "group": "Chinese",
+    "estimate": 3546,
+    "total": 793330,
+    "pct": 0.45
+  },
+  {
+    "NAME": "Alaska",
+    "group": "English only",
+    "estimate": 578962,
+    "total": 793330,
+    "pct": 72.98
+  },
+  {
+    "NAME": "Alaska",
+    "group": "French, Haitian, Cajun",
+    "estimate": 4872,
+    "total": 793330,
+    "pct": 0.61
+  },
+  {
+    "NAME": "Alaska",
+    "group": "German",
+    "estimate": 5684,
+    "total": 793330,
+    "pct": 0.72
+  },
+  {
+    "NAME": "Alaska",
+    "group": "Greek",
+    "estimate": 62,
+    "total": 793330,
+    "pct": 0.01
+  },
+  {
+    "NAME": "Alaska",
+    "group": "Hebrew",
+    "estimate": 174,
+    "total": 793330,
+    "pct": 0.02
+  },
+  {
+    "NAME": "Alaska",
+    "group": "Hindi, Urdu",
+    "estimate": 724,
+    "total": 793330,
+    "pct": 0.09
+  },
+  {
+    "NAME": "Alaska",
+    "group": "Japanese",
+    "estimate": 3694,
+    "total": 793330,
+    "pct": 0.47
+  },
+  {
+    "NAME": "Alaska",
+    "group": "Korean",
+    "estimate": 7592,
+    "total": 793330,
+    "pct": 0.96
+  },
+  {
+    "NAME": "Alaska",
+    "group": "Other",
+    "estimate": 81170,
+    "total": 793330,
+    "pct": 10.23
+  },
+  {
+    "NAME": "Alaska",
+    "group": "Other Indo-European",
+    "estimate": 3030,
+    "total": 793330,
+    "pct": 0.38
+  },
+  {
+    "NAME": "Alaska",
+    "group": "Other and unspecified",
+    "estimate": 636,
+    "total": 793330,
+    "pct": 0.08
+  },
+  {
+    "NAME": "Alaska",
+    "group": "Persian",
+    "estimate": 290,
+    "total": 793330,
+    "pct": 0.04
+  },
+  {
+    "NAME": "Alaska",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 10092,
+    "total": 793330,
+    "pct": 1.27
+  },
+  {
+    "NAME": "Alaska",
+    "group": "Spanish",
+    "estimate": 47330,
+    "total": 793330,
+    "pct": 5.97
+  },
+  {
+    "NAME": "Alaska",
+    "group": "Tagalog",
+    "estimate": 37508,
+    "total": 793330,
+    "pct": 4.73
+  },
+  {
+    "NAME": "Alaska",
+    "group": "Thai, Laotian",
+    "estimate": 2698,
+    "total": 793330,
+    "pct": 0.34
+  },
+  {
+    "NAME": "Alaska",
+    "group": "Vietnamese",
+    "estimate": 1658,
+    "total": 793330,
+    "pct": 0.21
+  },
+  {
+    "NAME": "Arizona",
+    "group": "Arabic",
+    "estimate": 46748,
+    "total": 8632869,
+    "pct": 0.54
+  },
+  {
+    "NAME": "Arizona",
+    "group": "Armenian",
+    "estimate": 3230,
+    "total": 8632869,
+    "pct": 0.04
+  },
+  {
+    "NAME": "Arizona",
+    "group": "Chinese",
+    "estimate": 64436,
+    "total": 8632869,
+    "pct": 0.75
+  },
+  {
+    "NAME": "Arizona",
+    "group": "English only",
+    "estimate": 5104483,
+    "total": 8632869,
+    "pct": 59.13
+  },
+  {
+    "NAME": "Arizona",
+    "group": "French, Haitian, Cajun",
+    "estimate": 39008,
+    "total": 8632869,
+    "pct": 0.45
+  },
+  {
+    "NAME": "Arizona",
+    "group": "German",
+    "estimate": 39548,
+    "total": 8632869,
+    "pct": 0.46
+  },
+  {
+    "NAME": "Arizona",
+    "group": "Greek",
+    "estimate": 4994,
+    "total": 8632869,
+    "pct": 0.06
+  },
+  {
+    "NAME": "Arizona",
+    "group": "Hebrew",
+    "estimate": 5516,
+    "total": 8632869,
+    "pct": 0.06
+  },
+  {
+    "NAME": "Arizona",
+    "group": "Hindi, Urdu",
+    "estimate": 35868,
+    "total": 8632869,
+    "pct": 0.42
+  },
+  {
+    "NAME": "Arizona",
+    "group": "Japanese",
+    "estimate": 14638,
+    "total": 8632869,
+    "pct": 0.17
+  },
+  {
+    "NAME": "Arizona",
+    "group": "Korean",
+    "estimate": 23850,
+    "total": 8632869,
+    "pct": 0.28
+  },
+  {
+    "NAME": "Arizona",
+    "group": "Other",
+    "estimate": 410880,
+    "total": 8632869,
+    "pct": 4.76
+  },
+  {
+    "NAME": "Arizona",
+    "group": "Other Indo-European",
+    "estimate": 24998,
+    "total": 8632869,
+    "pct": 0.29
+  },
+  {
+    "NAME": "Arizona",
+    "group": "Other and unspecified",
+    "estimate": 7606,
+    "total": 8632869,
+    "pct": 0.09
+  },
+  {
+    "NAME": "Arizona",
+    "group": "Persian",
+    "estimate": 15484,
+    "total": 8632869,
+    "pct": 0.18
+  },
+  {
+    "NAME": "Arizona",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 37860,
+    "total": 8632869,
+    "pct": 0.44
+  },
+  {
+    "NAME": "Arizona",
+    "group": "Spanish",
+    "estimate": 2644222,
+    "total": 8632869,
+    "pct": 30.63
+  },
+  {
+    "NAME": "Arizona",
+    "group": "Tagalog",
+    "estimate": 53844,
+    "total": 8632869,
+    "pct": 0.62
+  },
+  {
+    "NAME": "Arizona",
+    "group": "Thai, Laotian",
+    "estimate": 10410,
+    "total": 8632869,
+    "pct": 0.12
+  },
+  {
+    "NAME": "Arizona",
+    "group": "Vietnamese",
+    "estimate": 45246,
+    "total": 8632869,
+    "pct": 0.52
+  },
+  {
+    "NAME": "Arkansas",
+    "group": "Arabic",
+    "estimate": 3828,
+    "total": 3080727,
+    "pct": 0.12
+  },
+  {
+    "NAME": "Arkansas",
+    "group": "Armenian",
+    "estimate": 56,
+    "total": 3080727,
+    "pct": 0
+  },
+  {
+    "NAME": "Arkansas",
+    "group": "Chinese",
+    "estimate": 8624,
+    "total": 3080727,
+    "pct": 0.28
+  },
+  {
+    "NAME": "Arkansas",
+    "group": "English only",
+    "estimate": 2619699,
+    "total": 3080727,
+    "pct": 85.04
+  },
+  {
+    "NAME": "Arkansas",
+    "group": "French, Haitian, Cajun",
+    "estimate": 7184,
+    "total": 3080727,
+    "pct": 0.23
+  },
+  {
+    "NAME": "Arkansas",
+    "group": "German",
+    "estimate": 11598,
+    "total": 3080727,
+    "pct": 0.38
+  },
+  {
+    "NAME": "Arkansas",
+    "group": "Greek",
+    "estimate": 326,
+    "total": 3080727,
+    "pct": 0.01
+  },
+  {
+    "NAME": "Arkansas",
+    "group": "Hebrew",
+    "estimate": 434,
+    "total": 3080727,
+    "pct": 0.01
+  },
+  {
+    "NAME": "Arkansas",
+    "group": "Hindi, Urdu",
+    "estimate": 6654,
+    "total": 3080727,
+    "pct": 0.22
+  },
+  {
+    "NAME": "Arkansas",
+    "group": "Japanese",
+    "estimate": 1882,
+    "total": 3080727,
+    "pct": 0.06
+  },
+  {
+    "NAME": "Arkansas",
+    "group": "Korean",
+    "estimate": 3998,
+    "total": 3080727,
+    "pct": 0.13
+  },
+  {
+    "NAME": "Arkansas",
+    "group": "Other",
+    "estimate": 44290,
+    "total": 3080727,
+    "pct": 1.44
+  },
+  {
+    "NAME": "Arkansas",
+    "group": "Other Indo-European",
+    "estimate": 2662,
+    "total": 3080727,
+    "pct": 0.09
+  },
+  {
+    "NAME": "Arkansas",
+    "group": "Other and unspecified",
+    "estimate": 806,
+    "total": 3080727,
+    "pct": 0.03
+  },
+  {
+    "NAME": "Arkansas",
+    "group": "Persian",
+    "estimate": 476,
+    "total": 3080727,
+    "pct": 0.02
+  },
+  {
+    "NAME": "Arkansas",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 3806,
+    "total": 3080727,
+    "pct": 0.12
+  },
+  {
+    "NAME": "Arkansas",
+    "group": "Spanish",
+    "estimate": 339980,
+    "total": 3080727,
+    "pct": 11.04
+  },
+  {
+    "NAME": "Arkansas",
+    "group": "Tagalog",
+    "estimate": 6476,
+    "total": 3080727,
+    "pct": 0.21
+  },
+  {
+    "NAME": "Arkansas",
+    "group": "Thai, Laotian",
+    "estimate": 8580,
+    "total": 3080727,
+    "pct": 0.28
+  },
+  {
+    "NAME": "Arkansas",
+    "group": "Vietnamese",
+    "estimate": 9368,
+    "total": 3080727,
+    "pct": 0.3
+  },
+  {
+    "NAME": "California",
+    "group": "Arabic",
+    "estimate": 423600,
+    "total": 53343997,
+    "pct": 0.79
+  },
+  {
+    "NAME": "California",
+    "group": "Armenian",
+    "estimate": 403046,
+    "total": 53343997,
+    "pct": 0.76
+  },
+  {
+    "NAME": "California",
+    "group": "Chinese",
+    "estimate": 2548172,
+    "total": 53343997,
+    "pct": 4.78
+  },
+  {
+    "NAME": "California",
+    "group": "English only",
+    "estimate": 20713291,
+    "total": 53343997,
+    "pct": 38.83
+  },
+  {
+    "NAME": "California",
+    "group": "French, Haitian, Cajun",
+    "estimate": 272826,
+    "total": 53343997,
+    "pct": 0.51
+  },
+  {
+    "NAME": "California",
+    "group": "German",
+    "estimate": 237770,
+    "total": 53343997,
+    "pct": 0.45
+  },
+  {
+    "NAME": "California",
+    "group": "Greek",
+    "estimate": 41498,
+    "total": 53343997,
+    "pct": 0.08
+  },
+  {
+    "NAME": "California",
+    "group": "Hebrew",
+    "estimate": 90872,
+    "total": 53343997,
+    "pct": 0.17
+  },
+  {
+    "NAME": "California",
+    "group": "Hindi, Urdu",
+    "estimate": 528318,
+    "total": 53343997,
+    "pct": 0.99
+  },
+  {
+    "NAME": "California",
+    "group": "Japanese",
+    "estimate": 265748,
+    "total": 53343997,
+    "pct": 0.5
+  },
+  {
+    "NAME": "California",
+    "group": "Korean",
+    "estimate": 710988,
+    "total": 53343997,
+    "pct": 1.33
+  },
+  {
+    "NAME": "California",
+    "group": "Other",
+    "estimate": 2228066,
+    "total": 53343997,
+    "pct": 4.18
+  },
+  {
+    "NAME": "California",
+    "group": "Other Indo-European",
+    "estimate": 152772,
+    "total": 53343997,
+    "pct": 0.29
+  },
+  {
+    "NAME": "California",
+    "group": "Other and unspecified",
+    "estimate": 74666,
+    "total": 53343997,
+    "pct": 0.14
+  },
+  {
+    "NAME": "California",
+    "group": "Persian",
+    "estimate": 450420,
+    "total": 53343997,
+    "pct": 0.84
+  },
+  {
+    "NAME": "California",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 491058,
+    "total": 53343997,
+    "pct": 0.92
+  },
+  {
+    "NAME": "California",
+    "group": "Spanish",
+    "estimate": 20892554,
+    "total": 53343997,
+    "pct": 39.17
+  },
+  {
+    "NAME": "California",
+    "group": "Tagalog",
+    "estimate": 1538960,
+    "total": 53343997,
+    "pct": 2.88
+  },
+  {
+    "NAME": "California",
+    "group": "Thai, Laotian",
+    "estimate": 153970,
+    "total": 53343997,
+    "pct": 0.29
+  },
+  {
+    "NAME": "California",
+    "group": "Vietnamese",
+    "estimate": 1125402,
+    "total": 53343997,
+    "pct": 2.11
+  },
+  {
+    "NAME": "Colorado",
+    "group": "Arabic",
+    "estimate": 28104,
+    "total": 6381926,
+    "pct": 0.44
+  },
+  {
+    "NAME": "Colorado",
+    "group": "Armenian",
+    "estimate": 1278,
+    "total": 6381926,
+    "pct": 0.02
+  },
+  {
+    "NAME": "Colorado",
+    "group": "Chinese",
+    "estimate": 47498,
+    "total": 6381926,
+    "pct": 0.74
+  },
+  {
+    "NAME": "Colorado",
+    "group": "English only",
+    "estimate": 4608682,
+    "total": 6381926,
+    "pct": 72.21
+  },
+  {
+    "NAME": "Colorado",
+    "group": "French, Haitian, Cajun",
+    "estimate": 43074,
+    "total": 6381926,
+    "pct": 0.67
+  },
+  {
+    "NAME": "Colorado",
+    "group": "German",
+    "estimate": 48602,
+    "total": 6381926,
+    "pct": 0.76
+  },
+  {
+    "NAME": "Colorado",
+    "group": "Greek",
+    "estimate": 4126,
+    "total": 6381926,
+    "pct": 0.06
+  },
+  {
+    "NAME": "Colorado",
+    "group": "Hebrew",
+    "estimate": 4492,
+    "total": 6381926,
+    "pct": 0.07
+  },
+  {
+    "NAME": "Colorado",
+    "group": "Hindi, Urdu",
+    "estimate": 19150,
+    "total": 6381926,
+    "pct": 0.3
+  },
+  {
+    "NAME": "Colorado",
+    "group": "Japanese",
+    "estimate": 12836,
+    "total": 6381926,
+    "pct": 0.2
+  },
+  {
+    "NAME": "Colorado",
+    "group": "Korean",
+    "estimate": 26378,
+    "total": 6381926,
+    "pct": 0.41
+  },
+  {
+    "NAME": "Colorado",
+    "group": "Other",
+    "estimate": 168840,
+    "total": 6381926,
+    "pct": 2.65
+  },
+  {
+    "NAME": "Colorado",
+    "group": "Other Indo-European",
+    "estimate": 14832,
+    "total": 6381926,
+    "pct": 0.23
+  },
+  {
+    "NAME": "Colorado",
+    "group": "Other and unspecified",
+    "estimate": 8996,
+    "total": 6381926,
+    "pct": 0.14
+  },
+  {
+    "NAME": "Colorado",
+    "group": "Persian",
+    "estimate": 10168,
+    "total": 6381926,
+    "pct": 0.16
+  },
+  {
+    "NAME": "Colorado",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 54340,
+    "total": 6381926,
+    "pct": 0.85
+  },
+  {
+    "NAME": "Colorado",
+    "group": "Spanish",
+    "estimate": 1213608,
+    "total": 6381926,
+    "pct": 19.02
+  },
+  {
+    "NAME": "Colorado",
+    "group": "Tagalog",
+    "estimate": 18476,
+    "total": 6381926,
+    "pct": 0.29
+  },
+  {
+    "NAME": "Colorado",
+    "group": "Thai, Laotian",
+    "estimate": 7570,
+    "total": 6381926,
+    "pct": 0.12
+  },
+  {
+    "NAME": "Colorado",
+    "group": "Vietnamese",
+    "estimate": 40876,
+    "total": 6381926,
+    "pct": 0.64
+  },
+  {
+    "NAME": "Connecticut",
+    "group": "Arabic",
+    "estimate": 23574,
+    "total": 4203452,
+    "pct": 0.56
+  },
+  {
+    "NAME": "Connecticut",
+    "group": "Armenian",
+    "estimate": 1204,
+    "total": 4203452,
+    "pct": 0.03
+  },
+  {
+    "NAME": "Connecticut",
+    "group": "Chinese",
+    "estimate": 62016,
+    "total": 4203452,
+    "pct": 1.48
+  },
+  {
+    "NAME": "Connecticut",
+    "group": "English only",
+    "estimate": 2630764,
+    "total": 4203452,
+    "pct": 62.59
+  },
+  {
+    "NAME": "Connecticut",
+    "group": "French, Haitian, Cajun",
+    "estimate": 77838,
+    "total": 4203452,
+    "pct": 1.85
+  },
+  {
+    "NAME": "Connecticut",
+    "group": "German",
+    "estimate": 20206,
+    "total": 4203452,
+    "pct": 0.48
+  },
+  {
+    "NAME": "Connecticut",
+    "group": "Greek",
+    "estimate": 16532,
+    "total": 4203452,
+    "pct": 0.39
+  },
+  {
+    "NAME": "Connecticut",
+    "group": "Hebrew",
+    "estimate": 4678,
+    "total": 4203452,
+    "pct": 0.11
+  },
+  {
+    "NAME": "Connecticut",
+    "group": "Hindi, Urdu",
+    "estimate": 36968,
+    "total": 4203452,
+    "pct": 0.88
+  },
+  {
+    "NAME": "Connecticut",
+    "group": "Japanese",
+    "estimate": 6292,
+    "total": 4203452,
+    "pct": 0.15
+  },
+  {
+    "NAME": "Connecticut",
+    "group": "Korean",
+    "estimate": 13034,
+    "total": 4203452,
+    "pct": 0.31
+  },
+  {
+    "NAME": "Connecticut",
+    "group": "Other",
+    "estimate": 262416,
+    "total": 4203452,
+    "pct": 6.24
+  },
+  {
+    "NAME": "Connecticut",
+    "group": "Other Indo-European",
+    "estimate": 34786,
+    "total": 4203452,
+    "pct": 0.83
+  },
+  {
+    "NAME": "Connecticut",
+    "group": "Other and unspecified",
+    "estimate": 17324,
+    "total": 4203452,
+    "pct": 0.41
+  },
+  {
+    "NAME": "Connecticut",
+    "group": "Persian",
+    "estimate": 5582,
+    "total": 4203452,
+    "pct": 0.13
+  },
+  {
+    "NAME": "Connecticut",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 90146,
+    "total": 4203452,
+    "pct": 2.14
+  },
+  {
+    "NAME": "Connecticut",
+    "group": "Spanish",
+    "estimate": 857876,
+    "total": 4203452,
+    "pct": 20.41
+  },
+  {
+    "NAME": "Connecticut",
+    "group": "Tagalog",
+    "estimate": 17570,
+    "total": 4203452,
+    "pct": 0.42
+  },
+  {
+    "NAME": "Connecticut",
+    "group": "Thai, Laotian",
+    "estimate": 8516,
+    "total": 4203452,
+    "pct": 0.2
+  },
+  {
+    "NAME": "Connecticut",
+    "group": "Vietnamese",
+    "estimate": 16130,
+    "total": 4203452,
+    "pct": 0.38
+  },
+  {
+    "NAME": "Delaware",
+    "group": "Arabic",
+    "estimate": 6556,
+    "total": 1091720,
+    "pct": 0.6
+  },
+  {
+    "NAME": "Delaware",
+    "group": "Armenian",
+    "estimate": 14,
+    "total": 1091720,
+    "pct": 0
+  },
+  {
+    "NAME": "Delaware",
+    "group": "Chinese",
+    "estimate": 14880,
+    "total": 1091720,
+    "pct": 1.36
+  },
+  {
+    "NAME": "Delaware",
+    "group": "English only",
+    "estimate": 810934,
+    "total": 1091720,
+    "pct": 74.28
+  },
+  {
+    "NAME": "Delaware",
+    "group": "French, Haitian, Cajun",
+    "estimate": 19434,
+    "total": 1091720,
+    "pct": 1.78
+  },
+  {
+    "NAME": "Delaware",
+    "group": "German",
+    "estimate": 8860,
+    "total": 1091720,
+    "pct": 0.81
+  },
+  {
+    "NAME": "Delaware",
+    "group": "Greek",
+    "estimate": 2160,
+    "total": 1091720,
+    "pct": 0.2
+  },
+  {
+    "NAME": "Delaware",
+    "group": "Hebrew",
+    "estimate": 262,
+    "total": 1091720,
+    "pct": 0.02
+  },
+  {
+    "NAME": "Delaware",
+    "group": "Hindi, Urdu",
+    "estimate": 11042,
+    "total": 1091720,
+    "pct": 1.01
+  },
+  {
+    "NAME": "Delaware",
+    "group": "Japanese",
+    "estimate": 1528,
+    "total": 1091720,
+    "pct": 0.14
+  },
+  {
+    "NAME": "Delaware",
+    "group": "Korean",
+    "estimate": 3566,
+    "total": 1091720,
+    "pct": 0.33
+  },
+  {
+    "NAME": "Delaware",
+    "group": "Other",
+    "estimate": 43014,
+    "total": 1091720,
+    "pct": 3.94
+  },
+  {
+    "NAME": "Delaware",
+    "group": "Other Indo-European",
+    "estimate": 1200,
+    "total": 1091720,
+    "pct": 0.11
+  },
+  {
+    "NAME": "Delaware",
+    "group": "Other and unspecified",
+    "estimate": 3778,
+    "total": 1091720,
+    "pct": 0.35
+  },
+  {
+    "NAME": "Delaware",
+    "group": "Persian",
+    "estimate": 868,
+    "total": 1091720,
+    "pct": 0.08
+  },
+  {
+    "NAME": "Delaware",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 6114,
+    "total": 1091720,
+    "pct": 0.56
+  },
+  {
+    "NAME": "Delaware",
+    "group": "Spanish",
+    "estimate": 147702,
+    "total": 1091720,
+    "pct": 13.53
+  },
+  {
+    "NAME": "Delaware",
+    "group": "Tagalog",
+    "estimate": 6140,
+    "total": 1091720,
+    "pct": 0.56
+  },
+  {
+    "NAME": "Delaware",
+    "group": "Thai, Laotian",
+    "estimate": 516,
+    "total": 1091720,
+    "pct": 0.05
+  },
+  {
+    "NAME": "Delaware",
+    "group": "Vietnamese",
+    "estimate": 3152,
+    "total": 1091720,
+    "pct": 0.29
+  },
+  {
+    "NAME": "District of Columbia",
+    "group": "Arabic",
+    "estimate": 4348,
+    "total": 744697,
+    "pct": 0.58
+  },
+  {
+    "NAME": "District of Columbia",
+    "group": "Armenian",
+    "estimate": 434,
+    "total": 744697,
+    "pct": 0.06
+  },
+  {
+    "NAME": "District of Columbia",
+    "group": "Chinese",
+    "estimate": 10298,
+    "total": 744697,
+    "pct": 1.38
+  },
+  {
+    "NAME": "District of Columbia",
+    "group": "English only",
+    "estimate": 517629,
+    "total": 744697,
+    "pct": 69.51
+  },
+  {
+    "NAME": "District of Columbia",
+    "group": "French, Haitian, Cajun",
+    "estimate": 19844,
+    "total": 744697,
+    "pct": 2.66
+  },
+  {
+    "NAME": "District of Columbia",
+    "group": "German",
+    "estimate": 5166,
+    "total": 744697,
+    "pct": 0.69
+  },
+  {
+    "NAME": "District of Columbia",
+    "group": "Greek",
+    "estimate": 1548,
+    "total": 744697,
+    "pct": 0.21
+  },
+  {
+    "NAME": "District of Columbia",
+    "group": "Hebrew",
+    "estimate": 1424,
+    "total": 744697,
+    "pct": 0.19
+  },
+  {
+    "NAME": "District of Columbia",
+    "group": "Hindi, Urdu",
+    "estimate": 4694,
+    "total": 744697,
+    "pct": 0.63
+  },
+  {
+    "NAME": "District of Columbia",
+    "group": "Japanese",
+    "estimate": 1756,
+    "total": 744697,
+    "pct": 0.24
+  },
+  {
+    "NAME": "District of Columbia",
+    "group": "Korean",
+    "estimate": 4248,
+    "total": 744697,
+    "pct": 0.57
+  },
+  {
+    "NAME": "District of Columbia",
+    "group": "Other",
+    "estimate": 36732,
+    "total": 744697,
+    "pct": 4.93
+  },
+  {
+    "NAME": "District of Columbia",
+    "group": "Other Indo-European",
+    "estimate": 3272,
+    "total": 744697,
+    "pct": 0.44
+  },
+  {
+    "NAME": "District of Columbia",
+    "group": "Other and unspecified",
+    "estimate": 2202,
+    "total": 744697,
+    "pct": 0.3
+  },
+  {
+    "NAME": "District of Columbia",
+    "group": "Persian",
+    "estimate": 2672,
+    "total": 744697,
+    "pct": 0.36
+  },
+  {
+    "NAME": "District of Columbia",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 6354,
+    "total": 744697,
+    "pct": 0.85
+  },
+  {
+    "NAME": "District of Columbia",
+    "group": "Spanish",
+    "estimate": 116630,
+    "total": 744697,
+    "pct": 15.66
+  },
+  {
+    "NAME": "District of Columbia",
+    "group": "Tagalog",
+    "estimate": 2752,
+    "total": 744697,
+    "pct": 0.37
+  },
+  {
+    "NAME": "District of Columbia",
+    "group": "Thai, Laotian",
+    "estimate": 442,
+    "total": 744697,
+    "pct": 0.06
+  },
+  {
+    "NAME": "District of Columbia",
+    "group": "Vietnamese",
+    "estimate": 2252,
+    "total": 744697,
+    "pct": 0.3
+  },
+  {
+    "NAME": "Florida",
+    "group": "Arabic",
+    "estimate": 147158,
+    "total": 27080375,
+    "pct": 0.54
+  },
+  {
+    "NAME": "Florida",
+    "group": "Armenian",
+    "estimate": 4440,
+    "total": 27080375,
+    "pct": 0.02
+  },
+  {
+    "NAME": "Florida",
+    "group": "Chinese",
+    "estimate": 148434,
+    "total": 27080375,
+    "pct": 0.55
+  },
+  {
+    "NAME": "Florida",
+    "group": "English only",
+    "estimate": 14548731,
+    "total": 27080375,
+    "pct": 53.72
+  },
+  {
+    "NAME": "Florida",
+    "group": "French, Haitian, Cajun",
+    "estimate": 1105440,
+    "total": 27080375,
+    "pct": 4.08
+  },
+  {
+    "NAME": "Florida",
+    "group": "German",
+    "estimate": 157002,
+    "total": 27080375,
+    "pct": 0.58
+  },
+  {
+    "NAME": "Florida",
+    "group": "Greek",
+    "estimate": 33666,
+    "total": 27080375,
+    "pct": 0.12
+  },
+  {
+    "NAME": "Florida",
+    "group": "Hebrew",
+    "estimate": 47164,
+    "total": 27080375,
+    "pct": 0.17
+  },
+  {
+    "NAME": "Florida",
+    "group": "Hindi, Urdu",
+    "estimate": 97172,
+    "total": 27080375,
+    "pct": 0.36
+  },
+  {
+    "NAME": "Florida",
+    "group": "Japanese",
+    "estimate": 23942,
+    "total": 27080375,
+    "pct": 0.09
+  },
+  {
+    "NAME": "Florida",
+    "group": "Korean",
+    "estimate": 33326,
+    "total": 27080375,
+    "pct": 0.12
+  },
+  {
+    "NAME": "Florida",
+    "group": "Other",
+    "estimate": 762250,
+    "total": 27080375,
+    "pct": 2.81
+  },
+  {
+    "NAME": "Florida",
+    "group": "Other Indo-European",
+    "estimate": 86982,
+    "total": 27080375,
+    "pct": 0.32
+  },
+  {
+    "NAME": "Florida",
+    "group": "Other and unspecified",
+    "estimate": 75434,
+    "total": 27080375,
+    "pct": 0.28
+  },
+  {
+    "NAME": "Florida",
+    "group": "Persian",
+    "estimate": 21882,
+    "total": 27080375,
+    "pct": 0.08
+  },
+  {
+    "NAME": "Florida",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 238648,
+    "total": 27080375,
+    "pct": 0.88
+  },
+  {
+    "NAME": "Florida",
+    "group": "Spanish",
+    "estimate": 9236084,
+    "total": 27080375,
+    "pct": 34.11
+  },
+  {
+    "NAME": "Florida",
+    "group": "Tagalog",
+    "estimate": 143536,
+    "total": 27080375,
+    "pct": 0.53
+  },
+  {
+    "NAME": "Florida",
+    "group": "Thai, Laotian",
+    "estimate": 30286,
+    "total": 27080375,
+    "pct": 0.11
+  },
+  {
+    "NAME": "Florida",
+    "group": "Vietnamese",
+    "estimate": 138798,
+    "total": 27080375,
+    "pct": 0.51
+  },
+  {
+    "NAME": "Georgia",
+    "group": "Arabic",
+    "estimate": 41494,
+    "total": 11715960,
+    "pct": 0.35
+  },
+  {
+    "NAME": "Georgia",
+    "group": "Armenian",
+    "estimate": 834,
+    "total": 11715960,
+    "pct": 0.01
+  },
+  {
+    "NAME": "Georgia",
+    "group": "Chinese",
+    "estimate": 114898,
+    "total": 11715960,
+    "pct": 0.98
+  },
+  {
+    "NAME": "Georgia",
+    "group": "English only",
+    "estimate": 8650998,
+    "total": 11715960,
+    "pct": 73.84
+  },
+  {
+    "NAME": "Georgia",
+    "group": "French, Haitian, Cajun",
+    "estimate": 119676,
+    "total": 11715960,
+    "pct": 1.02
+  },
+  {
+    "NAME": "Georgia",
+    "group": "German",
+    "estimate": 59246,
+    "total": 11715960,
+    "pct": 0.51
+  },
+  {
+    "NAME": "Georgia",
+    "group": "Greek",
+    "estimate": 4748,
+    "total": 11715960,
+    "pct": 0.04
+  },
+  {
+    "NAME": "Georgia",
+    "group": "Hebrew",
+    "estimate": 8364,
+    "total": 11715960,
+    "pct": 0.07
+  },
+  {
+    "NAME": "Georgia",
+    "group": "Hindi, Urdu",
+    "estimate": 95626,
+    "total": 11715960,
+    "pct": 0.82
+  },
+  {
+    "NAME": "Georgia",
+    "group": "Japanese",
+    "estimate": 20720,
+    "total": 11715960,
+    "pct": 0.18
+  },
+  {
+    "NAME": "Georgia",
+    "group": "Korean",
+    "estimate": 100048,
+    "total": 11715960,
+    "pct": 0.85
+  },
+  {
+    "NAME": "Georgia",
+    "group": "Other",
+    "estimate": 500618,
+    "total": 11715960,
+    "pct": 4.27
+  },
+  {
+    "NAME": "Georgia",
+    "group": "Other Indo-European",
+    "estimate": 28518,
+    "total": 11715960,
+    "pct": 0.24
+  },
+  {
+    "NAME": "Georgia",
+    "group": "Other and unspecified",
+    "estimate": 24828,
+    "total": 11715960,
+    "pct": 0.21
+  },
+  {
+    "NAME": "Georgia",
+    "group": "Persian",
+    "estimate": 19514,
+    "total": 11715960,
+    "pct": 0.17
+  },
+  {
+    "NAME": "Georgia",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 47668,
+    "total": 11715960,
+    "pct": 0.41
+  },
+  {
+    "NAME": "Georgia",
+    "group": "Spanish",
+    "estimate": 1717544,
+    "total": 11715960,
+    "pct": 14.66
+  },
+  {
+    "NAME": "Georgia",
+    "group": "Tagalog",
+    "estimate": 29536,
+    "total": 11715960,
+    "pct": 0.25
+  },
+  {
+    "NAME": "Georgia",
+    "group": "Thai, Laotian",
+    "estimate": 14328,
+    "total": 11715960,
+    "pct": 0.12
+  },
+  {
+    "NAME": "Georgia",
+    "group": "Vietnamese",
+    "estimate": 116754,
+    "total": 11715960,
+    "pct": 1
+  },
+  {
+    "NAME": "Hawaii",
+    "group": "Arabic",
+    "estimate": 872,
+    "total": 1706010,
+    "pct": 0.05
+  },
+  {
+    "NAME": "Hawaii",
+    "group": "Armenian",
+    "estimate": 242,
+    "total": 1706010,
+    "pct": 0.01
+  },
+  {
+    "NAME": "Hawaii",
+    "group": "Chinese",
+    "estimate": 67514,
+    "total": 1706010,
+    "pct": 3.96
+  },
+  {
+    "NAME": "Hawaii",
+    "group": "English only",
+    "estimate": 1021218,
+    "total": 1706010,
+    "pct": 59.86
+  },
+  {
+    "NAME": "Hawaii",
+    "group": "French, Haitian, Cajun",
+    "estimate": 7050,
+    "total": 1706010,
+    "pct": 0.41
+  },
+  {
+    "NAME": "Hawaii",
+    "group": "German",
+    "estimate": 8548,
+    "total": 1706010,
+    "pct": 0.5
+  },
+  {
+    "NAME": "Hawaii",
+    "group": "Greek",
+    "estimate": 590,
+    "total": 1706010,
+    "pct": 0.03
+  },
+  {
+    "NAME": "Hawaii",
+    "group": "Hebrew",
+    "estimate": 772,
+    "total": 1706010,
+    "pct": 0.05
+  },
+  {
+    "NAME": "Hawaii",
+    "group": "Hindi, Urdu",
+    "estimate": 1292,
+    "total": 1706010,
+    "pct": 0.08
+  },
+  {
+    "NAME": "Hawaii",
+    "group": "Japanese",
+    "estimate": 74082,
+    "total": 1706010,
+    "pct": 4.34
+  },
+  {
+    "NAME": "Hawaii",
+    "group": "Korean",
+    "estimate": 29624,
+    "total": 1706010,
+    "pct": 1.74
+  },
+  {
+    "NAME": "Hawaii",
+    "group": "Other",
+    "estimate": 257688,
+    "total": 1706010,
+    "pct": 15.1
+  },
+  {
+    "NAME": "Hawaii",
+    "group": "Other Indo-European",
+    "estimate": 1966,
+    "total": 1706010,
+    "pct": 0.12
+  },
+  {
+    "NAME": "Hawaii",
+    "group": "Other and unspecified",
+    "estimate": 26124,
+    "total": 1706010,
+    "pct": 1.53
+  },
+  {
+    "NAME": "Hawaii",
+    "group": "Persian",
+    "estimate": 1146,
+    "total": 1706010,
+    "pct": 0.07
+  },
+  {
+    "NAME": "Hawaii",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 6152,
+    "total": 1706010,
+    "pct": 0.36
+  },
+  {
+    "NAME": "Hawaii",
+    "group": "Spanish",
+    "estimate": 53990,
+    "total": 1706010,
+    "pct": 3.16
+  },
+  {
+    "NAME": "Hawaii",
+    "group": "Tagalog",
+    "estimate": 118658,
+    "total": 1706010,
+    "pct": 6.96
+  },
+  {
+    "NAME": "Hawaii",
+    "group": "Thai, Laotian",
+    "estimate": 8636,
+    "total": 1706010,
+    "pct": 0.51
+  },
+  {
+    "NAME": "Hawaii",
+    "group": "Vietnamese",
+    "estimate": 19846,
+    "total": 1706010,
+    "pct": 1.16
+  },
+  {
+    "NAME": "Idaho",
+    "group": "Arabic",
+    "estimate": 5404,
+    "total": 1970805,
+    "pct": 0.27
+  },
+  {
+    "NAME": "Idaho",
+    "group": "Armenian",
+    "estimate": 176,
+    "total": 1970805,
+    "pct": 0.01
+  },
+  {
+    "NAME": "Idaho",
+    "group": "Chinese",
+    "estimate": 8072,
+    "total": 1970805,
+    "pct": 0.41
+  },
+  {
+    "NAME": "Idaho",
+    "group": "English only",
+    "estimate": 1589255,
+    "total": 1970805,
+    "pct": 80.64
+  },
+  {
+    "NAME": "Idaho",
+    "group": "French, Haitian, Cajun",
+    "estimate": 6410,
+    "total": 1970805,
+    "pct": 0.33
+  },
+  {
+    "NAME": "Idaho",
+    "group": "German",
+    "estimate": 11312,
+    "total": 1970805,
+    "pct": 0.57
+  },
+  {
+    "NAME": "Idaho",
+    "group": "Greek",
+    "estimate": 590,
+    "total": 1970805,
+    "pct": 0.03
+  },
+  {
+    "NAME": "Idaho",
+    "group": "Hebrew",
+    "estimate": 662,
+    "total": 1970805,
+    "pct": 0.03
+  },
+  {
+    "NAME": "Idaho",
+    "group": "Hindi, Urdu",
+    "estimate": 1928,
+    "total": 1970805,
+    "pct": 0.1
+  },
+  {
+    "NAME": "Idaho",
+    "group": "Japanese",
+    "estimate": 3236,
+    "total": 1970805,
+    "pct": 0.16
+  },
+  {
+    "NAME": "Idaho",
+    "group": "Korean",
+    "estimate": 3240,
+    "total": 1970805,
+    "pct": 0.16
+  },
+  {
+    "NAME": "Idaho",
+    "group": "Other",
+    "estimate": 27336,
+    "total": 1970805,
+    "pct": 1.39
+  },
+  {
+    "NAME": "Idaho",
+    "group": "Other Indo-European",
+    "estimate": 3474,
+    "total": 1970805,
+    "pct": 0.18
+  },
+  {
+    "NAME": "Idaho",
+    "group": "Other and unspecified",
+    "estimate": 1756,
+    "total": 1970805,
+    "pct": 0.09
+  },
+  {
+    "NAME": "Idaho",
+    "group": "Persian",
+    "estimate": 1918,
+    "total": 1970805,
+    "pct": 0.1
+  },
+  {
+    "NAME": "Idaho",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 12030,
+    "total": 1970805,
+    "pct": 0.61
+  },
+  {
+    "NAME": "Idaho",
+    "group": "Spanish",
+    "estimate": 284202,
+    "total": 1970805,
+    "pct": 14.42
+  },
+  {
+    "NAME": "Idaho",
+    "group": "Tagalog",
+    "estimate": 3672,
+    "total": 1970805,
+    "pct": 0.19
+  },
+  {
+    "NAME": "Idaho",
+    "group": "Thai, Laotian",
+    "estimate": 3224,
+    "total": 1970805,
+    "pct": 0.16
+  },
+  {
+    "NAME": "Idaho",
+    "group": "Vietnamese",
+    "estimate": 2908,
+    "total": 1970805,
+    "pct": 0.15
+  },
+  {
+    "NAME": "Illinois",
+    "group": "Arabic",
+    "estimate": 142852,
+    "total": 14836457,
+    "pct": 0.96
+  },
+  {
+    "NAME": "Illinois",
+    "group": "Armenian",
+    "estimate": 5060,
+    "total": 14836457,
+    "pct": 0.03
+  },
+  {
+    "NAME": "Illinois",
+    "group": "Chinese",
+    "estimate": 214286,
+    "total": 14836457,
+    "pct": 1.44
+  },
+  {
+    "NAME": "Illinois",
+    "group": "English only",
+    "estimate": 9131589,
+    "total": 14836457,
+    "pct": 61.55
+  },
+  {
+    "NAME": "Illinois",
+    "group": "French, Haitian, Cajun",
+    "estimate": 84240,
+    "total": 14836457,
+    "pct": 0.57
+  },
+  {
+    "NAME": "Illinois",
+    "group": "German",
+    "estimate": 76190,
+    "total": 14836457,
+    "pct": 0.51
+  },
+  {
+    "NAME": "Illinois",
+    "group": "Greek",
+    "estimate": 49566,
+    "total": 14836457,
+    "pct": 0.33
+  },
+  {
+    "NAME": "Illinois",
+    "group": "Hebrew",
+    "estimate": 11018,
+    "total": 14836457,
+    "pct": 0.07
+  },
+  {
+    "NAME": "Illinois",
+    "group": "Hindi, Urdu",
+    "estimate": 204272,
+    "total": 14836457,
+    "pct": 1.38
+  },
+  {
+    "NAME": "Illinois",
+    "group": "Japanese",
+    "estimate": 26376,
+    "total": 14836457,
+    "pct": 0.18
+  },
+  {
+    "NAME": "Illinois",
+    "group": "Korean",
+    "estimate": 78462,
+    "total": 14836457,
+    "pct": 0.53
+  },
+  {
+    "NAME": "Illinois",
+    "group": "Other",
+    "estimate": 584738,
+    "total": 14836457,
+    "pct": 3.94
+  },
+  {
+    "NAME": "Illinois",
+    "group": "Other Indo-European",
+    "estimate": 102042,
+    "total": 14836457,
+    "pct": 0.69
+  },
+  {
+    "NAME": "Illinois",
+    "group": "Other and unspecified",
+    "estimate": 11590,
+    "total": 14836457,
+    "pct": 0.08
+  },
+  {
+    "NAME": "Illinois",
+    "group": "Persian",
+    "estimate": 17254,
+    "total": 14836457,
+    "pct": 0.12
+  },
+  {
+    "NAME": "Illinois",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 522608,
+    "total": 14836457,
+    "pct": 3.52
+  },
+  {
+    "NAME": "Illinois",
+    "group": "Spanish",
+    "estimate": 3339810,
+    "total": 14836457,
+    "pct": 22.51
+  },
+  {
+    "NAME": "Illinois",
+    "group": "Tagalog",
+    "estimate": 167206,
+    "total": 14836457,
+    "pct": 1.13
+  },
+  {
+    "NAME": "Illinois",
+    "group": "Thai, Laotian",
+    "estimate": 22862,
+    "total": 14836457,
+    "pct": 0.15
+  },
+  {
+    "NAME": "Illinois",
+    "group": "Vietnamese",
+    "estimate": 44436,
+    "total": 14836457,
+    "pct": 0.3
+  },
+  {
+    "NAME": "Indiana",
+    "group": "Arabic",
+    "estimate": 26902,
+    "total": 7029766,
+    "pct": 0.38
+  },
+  {
+    "NAME": "Indiana",
+    "group": "Armenian",
+    "estimate": 440,
+    "total": 7029766,
+    "pct": 0.01
+  },
+  {
+    "NAME": "Indiana",
+    "group": "Chinese",
+    "estimate": 47316,
+    "total": 7029766,
+    "pct": 0.67
+  },
+  {
+    "NAME": "Indiana",
+    "group": "English only",
+    "estimate": 5770092,
+    "total": 7029766,
+    "pct": 82.08
+  },
+  {
+    "NAME": "Indiana",
+    "group": "French, Haitian, Cajun",
+    "estimate": 42944,
+    "total": 7029766,
+    "pct": 0.61
+  },
+  {
+    "NAME": "Indiana",
+    "group": "German",
+    "estimate": 136364,
+    "total": 7029766,
+    "pct": 1.94
+  },
+  {
+    "NAME": "Indiana",
+    "group": "Greek",
+    "estimate": 5434,
+    "total": 7029766,
+    "pct": 0.08
+  },
+  {
+    "NAME": "Indiana",
+    "group": "Hebrew",
+    "estimate": 878,
+    "total": 7029766,
+    "pct": 0.01
+  },
+  {
+    "NAME": "Indiana",
+    "group": "Hindi, Urdu",
+    "estimate": 25876,
+    "total": 7029766,
+    "pct": 0.37
+  },
+  {
+    "NAME": "Indiana",
+    "group": "Japanese",
+    "estimate": 10774,
+    "total": 7029766,
+    "pct": 0.15
+  },
+  {
+    "NAME": "Indiana",
+    "group": "Korean",
+    "estimate": 15844,
+    "total": 7029766,
+    "pct": 0.23
+  },
+  {
+    "NAME": "Indiana",
+    "group": "Other",
+    "estimate": 189188,
+    "total": 7029766,
+    "pct": 2.69
+  },
+  {
+    "NAME": "Indiana",
+    "group": "Other Indo-European",
+    "estimate": 9142,
+    "total": 7029766,
+    "pct": 0.13
+  },
+  {
+    "NAME": "Indiana",
+    "group": "Other and unspecified",
+    "estimate": 5264,
+    "total": 7029766,
+    "pct": 0.07
+  },
+  {
+    "NAME": "Indiana",
+    "group": "Persian",
+    "estimate": 4136,
+    "total": 7029766,
+    "pct": 0.06
+  },
+  {
+    "NAME": "Indiana",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 27682,
+    "total": 7029766,
+    "pct": 0.39
+  },
+  {
+    "NAME": "Indiana",
+    "group": "Spanish",
+    "estimate": 670410,
+    "total": 7029766,
+    "pct": 9.54
+  },
+  {
+    "NAME": "Indiana",
+    "group": "Tagalog",
+    "estimate": 20240,
+    "total": 7029766,
+    "pct": 0.29
+  },
+  {
+    "NAME": "Indiana",
+    "group": "Thai, Laotian",
+    "estimate": 5656,
+    "total": 7029766,
+    "pct": 0.08
+  },
+  {
+    "NAME": "Indiana",
+    "group": "Vietnamese",
+    "estimate": 15184,
+    "total": 7029766,
+    "pct": 0.22
+  },
+  {
+    "NAME": "Iowa",
+    "group": "Arabic",
+    "estimate": 19566,
+    "total": 3275540,
+    "pct": 0.6
+  },
+  {
+    "NAME": "Iowa",
+    "group": "Armenian",
+    "estimate": 150,
+    "total": 3275540,
+    "pct": 0
+  },
+  {
+    "NAME": "Iowa",
+    "group": "Chinese",
+    "estimate": 18436,
+    "total": 3275540,
+    "pct": 0.56
+  },
+  {
+    "NAME": "Iowa",
+    "group": "English only",
+    "estimate": 2739174,
+    "total": 3275540,
+    "pct": 83.63
+  },
+  {
+    "NAME": "Iowa",
+    "group": "French, Haitian, Cajun",
+    "estimate": 17798,
+    "total": 3275540,
+    "pct": 0.54
+  },
+  {
+    "NAME": "Iowa",
+    "group": "German",
+    "estimate": 33472,
+    "total": 3275540,
+    "pct": 1.02
+  },
+  {
+    "NAME": "Iowa",
+    "group": "Greek",
+    "estimate": 734,
+    "total": 3275540,
+    "pct": 0.02
+  },
+  {
+    "NAME": "Iowa",
+    "group": "Hebrew",
+    "estimate": 478,
+    "total": 3275540,
+    "pct": 0.01
+  },
+  {
+    "NAME": "Iowa",
+    "group": "Hindi, Urdu",
+    "estimate": 6990,
+    "total": 3275540,
+    "pct": 0.21
+  },
+  {
+    "NAME": "Iowa",
+    "group": "Japanese",
+    "estimate": 2374,
+    "total": 3275540,
+    "pct": 0.07
+  },
+  {
+    "NAME": "Iowa",
+    "group": "Korean",
+    "estimate": 6610,
+    "total": 3275540,
+    "pct": 0.2
+  },
+  {
+    "NAME": "Iowa",
+    "group": "Other",
+    "estimate": 104010,
+    "total": 3275540,
+    "pct": 3.18
+  },
+  {
+    "NAME": "Iowa",
+    "group": "Other Indo-European",
+    "estimate": 4582,
+    "total": 3275540,
+    "pct": 0.14
+  },
+  {
+    "NAME": "Iowa",
+    "group": "Other and unspecified",
+    "estimate": 1946,
+    "total": 3275540,
+    "pct": 0.06
+  },
+  {
+    "NAME": "Iowa",
+    "group": "Persian",
+    "estimate": 1592,
+    "total": 3275540,
+    "pct": 0.05
+  },
+  {
+    "NAME": "Iowa",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 8664,
+    "total": 3275540,
+    "pct": 0.26
+  },
+  {
+    "NAME": "Iowa",
+    "group": "Spanish",
+    "estimate": 273810,
+    "total": 3275540,
+    "pct": 8.36
+  },
+  {
+    "NAME": "Iowa",
+    "group": "Tagalog",
+    "estimate": 7200,
+    "total": 3275540,
+    "pct": 0.22
+  },
+  {
+    "NAME": "Iowa",
+    "group": "Thai, Laotian",
+    "estimate": 11628,
+    "total": 3275540,
+    "pct": 0.35
+  },
+  {
+    "NAME": "Iowa",
+    "group": "Vietnamese",
+    "estimate": 16326,
+    "total": 3275540,
+    "pct": 0.5
+  },
+  {
+    "NAME": "Kansas",
+    "group": "Arabic",
+    "estimate": 12450,
+    "total": 3091334,
+    "pct": 0.4
+  },
+  {
+    "NAME": "Kansas",
+    "group": "Armenian",
+    "estimate": 54,
+    "total": 3091334,
+    "pct": 0
+  },
+  {
+    "NAME": "Kansas",
+    "group": "Chinese",
+    "estimate": 22556,
+    "total": 3091334,
+    "pct": 0.73
+  },
+  {
+    "NAME": "Kansas",
+    "group": "English only",
+    "estimate": 2424884,
+    "total": 3091334,
+    "pct": 78.44
+  },
+  {
+    "NAME": "Kansas",
+    "group": "French, Haitian, Cajun",
+    "estimate": 10356,
+    "total": 3091334,
+    "pct": 0.34
+  },
+  {
+    "NAME": "Kansas",
+    "group": "German",
+    "estimate": 23764,
+    "total": 3091334,
+    "pct": 0.77
+  },
+  {
+    "NAME": "Kansas",
+    "group": "Greek",
+    "estimate": 318,
+    "total": 3091334,
+    "pct": 0.01
+  },
+  {
+    "NAME": "Kansas",
+    "group": "Hebrew",
+    "estimate": 448,
+    "total": 3091334,
+    "pct": 0.01
+  },
+  {
+    "NAME": "Kansas",
+    "group": "Hindi, Urdu",
+    "estimate": 9256,
+    "total": 3091334,
+    "pct": 0.3
+  },
+  {
+    "NAME": "Kansas",
+    "group": "Japanese",
+    "estimate": 3868,
+    "total": 3091334,
+    "pct": 0.13
+  },
+  {
+    "NAME": "Kansas",
+    "group": "Korean",
+    "estimate": 5928,
+    "total": 3091334,
+    "pct": 0.19
+  },
+  {
+    "NAME": "Kansas",
+    "group": "Other",
+    "estimate": 75154,
+    "total": 3091334,
+    "pct": 2.43
+  },
+  {
+    "NAME": "Kansas",
+    "group": "Other Indo-European",
+    "estimate": 2932,
+    "total": 3091334,
+    "pct": 0.09
+  },
+  {
+    "NAME": "Kansas",
+    "group": "Other and unspecified",
+    "estimate": 2216,
+    "total": 3091334,
+    "pct": 0.07
+  },
+  {
+    "NAME": "Kansas",
+    "group": "Persian",
+    "estimate": 3574,
+    "total": 3091334,
+    "pct": 0.12
+  },
+  {
+    "NAME": "Kansas",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 7196,
+    "total": 3091334,
+    "pct": 0.23
+  },
+  {
+    "NAME": "Kansas",
+    "group": "Spanish",
+    "estimate": 443976,
+    "total": 3091334,
+    "pct": 14.36
+  },
+  {
+    "NAME": "Kansas",
+    "group": "Tagalog",
+    "estimate": 8090,
+    "total": 3091334,
+    "pct": 0.26
+  },
+  {
+    "NAME": "Kansas",
+    "group": "Thai, Laotian",
+    "estimate": 9230,
+    "total": 3091334,
+    "pct": 0.3
+  },
+  {
+    "NAME": "Kansas",
+    "group": "Vietnamese",
+    "estimate": 25084,
+    "total": 3091334,
+    "pct": 0.81
+  },
+  {
+    "NAME": "Kentucky",
+    "group": "Arabic",
+    "estimate": 19274,
+    "total": 4516877,
+    "pct": 0.43
+  },
+  {
+    "NAME": "Kentucky",
+    "group": "Armenian",
+    "estimate": 156,
+    "total": 4516877,
+    "pct": 0
+  },
+  {
+    "NAME": "Kentucky",
+    "group": "Chinese",
+    "estimate": 15378,
+    "total": 4516877,
+    "pct": 0.34
+  },
+  {
+    "NAME": "Kentucky",
+    "group": "English only",
+    "estimate": 3969847,
+    "total": 4516877,
+    "pct": 87.89
+  },
+  {
+    "NAME": "Kentucky",
+    "group": "French, Haitian, Cajun",
+    "estimate": 24084,
+    "total": 4516877,
+    "pct": 0.53
+  },
+  {
+    "NAME": "Kentucky",
+    "group": "German",
+    "estimate": 42960,
+    "total": 4516877,
+    "pct": 0.95
+  },
+  {
+    "NAME": "Kentucky",
+    "group": "Greek",
+    "estimate": 896,
+    "total": 4516877,
+    "pct": 0.02
+  },
+  {
+    "NAME": "Kentucky",
+    "group": "Hebrew",
+    "estimate": 502,
+    "total": 4516877,
+    "pct": 0.01
+  },
+  {
+    "NAME": "Kentucky",
+    "group": "Hindi, Urdu",
+    "estimate": 9936,
+    "total": 4516877,
+    "pct": 0.22
+  },
+  {
+    "NAME": "Kentucky",
+    "group": "Japanese",
+    "estimate": 7280,
+    "total": 4516877,
+    "pct": 0.16
+  },
+  {
+    "NAME": "Kentucky",
+    "group": "Korean",
+    "estimate": 7064,
+    "total": 4516877,
+    "pct": 0.16
+  },
+  {
+    "NAME": "Kentucky",
+    "group": "Other",
+    "estimate": 97574,
+    "total": 4516877,
+    "pct": 2.16
+  },
+  {
+    "NAME": "Kentucky",
+    "group": "Other Indo-European",
+    "estimate": 4824,
+    "total": 4516877,
+    "pct": 0.11
+  },
+  {
+    "NAME": "Kentucky",
+    "group": "Other and unspecified",
+    "estimate": 4074,
+    "total": 4516877,
+    "pct": 0.09
+  },
+  {
+    "NAME": "Kentucky",
+    "group": "Persian",
+    "estimate": 3082,
+    "total": 4516877,
+    "pct": 0.07
+  },
+  {
+    "NAME": "Kentucky",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 12218,
+    "total": 4516877,
+    "pct": 0.27
+  },
+  {
+    "NAME": "Kentucky",
+    "group": "Spanish",
+    "estimate": 276566,
+    "total": 4516877,
+    "pct": 6.12
+  },
+  {
+    "NAME": "Kentucky",
+    "group": "Tagalog",
+    "estimate": 10040,
+    "total": 4516877,
+    "pct": 0.22
+  },
+  {
+    "NAME": "Kentucky",
+    "group": "Thai, Laotian",
+    "estimate": 2756,
+    "total": 4516877,
+    "pct": 0.06
+  },
+  {
+    "NAME": "Kentucky",
+    "group": "Vietnamese",
+    "estimate": 8366,
+    "total": 4516877,
+    "pct": 0.19
+  },
+  {
+    "NAME": "Louisiana",
+    "group": "Arabic",
+    "estimate": 25924,
+    "total": 4692376,
+    "pct": 0.55
+  },
+  {
+    "NAME": "Louisiana",
+    "group": "Armenian",
+    "estimate": 358,
+    "total": 4692376,
+    "pct": 0.01
+  },
+  {
+    "NAME": "Louisiana",
+    "group": "Chinese",
+    "estimate": 18924,
+    "total": 4692376,
+    "pct": 0.4
+  },
+  {
+    "NAME": "Louisiana",
+    "group": "English only",
+    "estimate": 3971532,
+    "total": 4692376,
+    "pct": 84.64
+  },
+  {
+    "NAME": "Louisiana",
+    "group": "French, Haitian, Cajun",
+    "estimate": 131872,
+    "total": 4692376,
+    "pct": 2.81
+  },
+  {
+    "NAME": "Louisiana",
+    "group": "German",
+    "estimate": 9492,
+    "total": 4692376,
+    "pct": 0.2
+  },
+  {
+    "NAME": "Louisiana",
+    "group": "Greek",
+    "estimate": 1092,
+    "total": 4692376,
+    "pct": 0.02
+  },
+  {
+    "NAME": "Louisiana",
+    "group": "Hebrew",
+    "estimate": 1122,
+    "total": 4692376,
+    "pct": 0.02
+  },
+  {
+    "NAME": "Louisiana",
+    "group": "Hindi, Urdu",
+    "estimate": 11292,
+    "total": 4692376,
+    "pct": 0.24
+  },
+  {
+    "NAME": "Louisiana",
+    "group": "Japanese",
+    "estimate": 3336,
+    "total": 4692376,
+    "pct": 0.07
+  },
+  {
+    "NAME": "Louisiana",
+    "group": "Korean",
+    "estimate": 4760,
+    "total": 4692376,
+    "pct": 0.1
+  },
+  {
+    "NAME": "Louisiana",
+    "group": "Other",
+    "estimate": 45106,
+    "total": 4692376,
+    "pct": 0.96
+  },
+  {
+    "NAME": "Louisiana",
+    "group": "Other Indo-European",
+    "estimate": 4124,
+    "total": 4692376,
+    "pct": 0.09
+  },
+  {
+    "NAME": "Louisiana",
+    "group": "Other and unspecified",
+    "estimate": 2898,
+    "total": 4692376,
+    "pct": 0.06
+  },
+  {
+    "NAME": "Louisiana",
+    "group": "Persian",
+    "estimate": 3302,
+    "total": 4692376,
+    "pct": 0.07
+  },
+  {
+    "NAME": "Louisiana",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 6046,
+    "total": 4692376,
+    "pct": 0.13
+  },
+  {
+    "NAME": "Louisiana",
+    "group": "Spanish",
+    "estimate": 390442,
+    "total": 4692376,
+    "pct": 8.32
+  },
+  {
+    "NAME": "Louisiana",
+    "group": "Tagalog",
+    "estimate": 10802,
+    "total": 4692376,
+    "pct": 0.23
+  },
+  {
+    "NAME": "Louisiana",
+    "group": "Thai, Laotian",
+    "estimate": 4844,
+    "total": 4692376,
+    "pct": 0.1
+  },
+  {
+    "NAME": "Louisiana",
+    "group": "Vietnamese",
+    "estimate": 45108,
+    "total": 4692376,
+    "pct": 0.96
+  },
+  {
+    "NAME": "Maine",
+    "group": "Arabic",
+    "estimate": 4308,
+    "total": 1392961,
+    "pct": 0.31
+  },
+  {
+    "NAME": "Maine",
+    "group": "Armenian",
+    "estimate": 340,
+    "total": 1392961,
+    "pct": 0.02
+  },
+  {
+    "NAME": "Maine",
+    "group": "Chinese",
+    "estimate": 5100,
+    "total": 1392961,
+    "pct": 0.37
+  },
+  {
+    "NAME": "Maine",
+    "group": "English only",
+    "estimate": 1236009,
+    "total": 1392961,
+    "pct": 88.73
+  },
+  {
+    "NAME": "Maine",
+    "group": "French, Haitian, Cajun",
+    "estimate": 63610,
+    "total": 1392961,
+    "pct": 4.57
+  },
+  {
+    "NAME": "Maine",
+    "group": "German",
+    "estimate": 9446,
+    "total": 1392961,
+    "pct": 0.68
+  },
+  {
+    "NAME": "Maine",
+    "group": "Greek",
+    "estimate": 1234,
+    "total": 1392961,
+    "pct": 0.09
+  },
+  {
+    "NAME": "Maine",
+    "group": "Hebrew",
+    "estimate": 388,
+    "total": 1392961,
+    "pct": 0.03
+  },
+  {
+    "NAME": "Maine",
+    "group": "Hindi, Urdu",
+    "estimate": 1136,
+    "total": 1392961,
+    "pct": 0.08
+  },
+  {
+    "NAME": "Maine",
+    "group": "Japanese",
+    "estimate": 1384,
+    "total": 1392961,
+    "pct": 0.1
+  },
+  {
+    "NAME": "Maine",
+    "group": "Korean",
+    "estimate": 1286,
+    "total": 1392961,
+    "pct": 0.09
+  },
+  {
+    "NAME": "Maine",
+    "group": "Other",
+    "estimate": 25628,
+    "total": 1392961,
+    "pct": 1.84
+  },
+  {
+    "NAME": "Maine",
+    "group": "Other Indo-European",
+    "estimate": 2860,
+    "total": 1392961,
+    "pct": 0.21
+  },
+  {
+    "NAME": "Maine",
+    "group": "Other and unspecified",
+    "estimate": 2164,
+    "total": 1392961,
+    "pct": 0.16
+  },
+  {
+    "NAME": "Maine",
+    "group": "Persian",
+    "estimate": 1690,
+    "total": 1392961,
+    "pct": 0.12
+  },
+  {
+    "NAME": "Maine",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 5342,
+    "total": 1392961,
+    "pct": 0.38
+  },
+  {
+    "NAME": "Maine",
+    "group": "Spanish",
+    "estimate": 24358,
+    "total": 1392961,
+    "pct": 1.75
+  },
+  {
+    "NAME": "Maine",
+    "group": "Tagalog",
+    "estimate": 2762,
+    "total": 1392961,
+    "pct": 0.2
+  },
+  {
+    "NAME": "Maine",
+    "group": "Thai, Laotian",
+    "estimate": 1604,
+    "total": 1392961,
+    "pct": 0.12
+  },
+  {
+    "NAME": "Maine",
+    "group": "Vietnamese",
+    "estimate": 2312,
+    "total": 1392961,
+    "pct": 0.17
+  },
+  {
+    "NAME": "Maryland",
+    "group": "Arabic",
+    "estimate": 43712,
+    "total": 7009633,
+    "pct": 0.62
+  },
+  {
+    "NAME": "Maryland",
+    "group": "Armenian",
+    "estimate": 3502,
+    "total": 7009633,
+    "pct": 0.05
+  },
+  {
+    "NAME": "Maryland",
+    "group": "Chinese",
+    "estimate": 140238,
+    "total": 7009633,
+    "pct": 2
+  },
+  {
+    "NAME": "Maryland",
+    "group": "English only",
+    "estimate": 4613163,
+    "total": 7009633,
+    "pct": 65.81
+  },
+  {
+    "NAME": "Maryland",
+    "group": "French, Haitian, Cajun",
+    "estimate": 148106,
+    "total": 7009633,
+    "pct": 2.11
+  },
+  {
+    "NAME": "Maryland",
+    "group": "German",
+    "estimate": 38844,
+    "total": 7009633,
+    "pct": 0.55
+  },
+  {
+    "NAME": "Maryland",
+    "group": "Greek",
+    "estimate": 13750,
+    "total": 7009633,
+    "pct": 0.2
+  },
+  {
+    "NAME": "Maryland",
+    "group": "Hebrew",
+    "estimate": 13200,
+    "total": 7009633,
+    "pct": 0.19
+  },
+  {
+    "NAME": "Maryland",
+    "group": "Hindi, Urdu",
+    "estimate": 84338,
+    "total": 7009633,
+    "pct": 1.2
+  },
+  {
+    "NAME": "Maryland",
+    "group": "Japanese",
+    "estimate": 15748,
+    "total": 7009633,
+    "pct": 0.22
+  },
+  {
+    "NAME": "Maryland",
+    "group": "Korean",
+    "estimate": 71152,
+    "total": 7009633,
+    "pct": 1.02
+  },
+  {
+    "NAME": "Maryland",
+    "group": "Other",
+    "estimate": 468344,
+    "total": 7009633,
+    "pct": 6.68
+  },
+  {
+    "NAME": "Maryland",
+    "group": "Other Indo-European",
+    "estimate": 20328,
+    "total": 7009633,
+    "pct": 0.29
+  },
+  {
+    "NAME": "Maryland",
+    "group": "Other and unspecified",
+    "estimate": 25722,
+    "total": 7009633,
+    "pct": 0.37
+  },
+  {
+    "NAME": "Maryland",
+    "group": "Persian",
+    "estimate": 32740,
+    "total": 7009633,
+    "pct": 0.47
+  },
+  {
+    "NAME": "Maryland",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 65160,
+    "total": 7009633,
+    "pct": 0.93
+  },
+  {
+    "NAME": "Maryland",
+    "group": "Spanish",
+    "estimate": 1096824,
+    "total": 7009633,
+    "pct": 15.65
+  },
+  {
+    "NAME": "Maryland",
+    "group": "Tagalog",
+    "estimate": 64824,
+    "total": 7009633,
+    "pct": 0.92
+  },
+  {
+    "NAME": "Maryland",
+    "group": "Thai, Laotian",
+    "estimate": 10068,
+    "total": 7009633,
+    "pct": 0.14
+  },
+  {
+    "NAME": "Maryland",
+    "group": "Vietnamese",
+    "estimate": 39870,
+    "total": 7009633,
+    "pct": 0.57
+  },
+  {
+    "NAME": "Massachusetts",
+    "group": "Arabic",
+    "estimate": 81452,
+    "total": 8286632,
+    "pct": 0.98
+  },
+  {
+    "NAME": "Massachusetts",
+    "group": "Armenian",
+    "estimate": 11596,
+    "total": 8286632,
+    "pct": 0.14
+  },
+  {
+    "NAME": "Massachusetts",
+    "group": "Chinese",
+    "estimate": 285280,
+    "total": 8286632,
+    "pct": 3.44
+  },
+  {
+    "NAME": "Massachusetts",
+    "group": "English only",
+    "estimate": 4997488,
+    "total": 8286632,
+    "pct": 60.31
+  },
+  {
+    "NAME": "Massachusetts",
+    "group": "French, Haitian, Cajun",
+    "estimate": 259774,
+    "total": 8286632,
+    "pct": 3.13
+  },
+  {
+    "NAME": "Massachusetts",
+    "group": "German",
+    "estimate": 40880,
+    "total": 8286632,
+    "pct": 0.49
+  },
+  {
+    "NAME": "Massachusetts",
+    "group": "Greek",
+    "estimate": 40002,
+    "total": 8286632,
+    "pct": 0.48
+  },
+  {
+    "NAME": "Massachusetts",
+    "group": "Hebrew",
+    "estimate": 16976,
+    "total": 8286632,
+    "pct": 0.2
+  },
+  {
+    "NAME": "Massachusetts",
+    "group": "Hindi, Urdu",
+    "estimate": 78220,
+    "total": 8286632,
+    "pct": 0.94
+  },
+  {
+    "NAME": "Massachusetts",
+    "group": "Japanese",
+    "estimate": 18518,
+    "total": 8286632,
+    "pct": 0.22
+  },
+  {
+    "NAME": "Massachusetts",
+    "group": "Korean",
+    "estimate": 35948,
+    "total": 8286632,
+    "pct": 0.43
+  },
+  {
+    "NAME": "Massachusetts",
+    "group": "Other",
+    "estimate": 816358,
+    "total": 8286632,
+    "pct": 9.85
+  },
+  {
+    "NAME": "Massachusetts",
+    "group": "Other Indo-European",
+    "estimate": 59140,
+    "total": 8286632,
+    "pct": 0.71
+  },
+  {
+    "NAME": "Massachusetts",
+    "group": "Other and unspecified",
+    "estimate": 18500,
+    "total": 8286632,
+    "pct": 0.22
+  },
+  {
+    "NAME": "Massachusetts",
+    "group": "Persian",
+    "estimate": 16530,
+    "total": 8286632,
+    "pct": 0.2
+  },
+  {
+    "NAME": "Massachusetts",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 122214,
+    "total": 8286632,
+    "pct": 1.47
+  },
+  {
+    "NAME": "Massachusetts",
+    "group": "Spanish",
+    "estimate": 1270736,
+    "total": 8286632,
+    "pct": 15.33
+  },
+  {
+    "NAME": "Massachusetts",
+    "group": "Tagalog",
+    "estimate": 16184,
+    "total": 8286632,
+    "pct": 0.2
+  },
+  {
+    "NAME": "Massachusetts",
+    "group": "Thai, Laotian",
+    "estimate": 13234,
+    "total": 8286632,
+    "pct": 0.16
+  },
+  {
+    "NAME": "Massachusetts",
+    "group": "Vietnamese",
+    "estimate": 87602,
+    "total": 8286632,
+    "pct": 1.06
+  },
+  {
+    "NAME": "Michigan",
+    "group": "Arabic",
+    "estimate": 334876,
+    "total": 10466617,
+    "pct": 3.2
+  },
+  {
+    "NAME": "Michigan",
+    "group": "Armenian",
+    "estimate": 3586,
+    "total": 10466617,
+    "pct": 0.03
+  },
+  {
+    "NAME": "Michigan",
+    "group": "Chinese",
+    "estimate": 91948,
+    "total": 10466617,
+    "pct": 0.88
+  },
+  {
+    "NAME": "Michigan",
+    "group": "English only",
+    "estimate": 8537491,
+    "total": 10466617,
+    "pct": 81.57
+  },
+  {
+    "NAME": "Michigan",
+    "group": "French, Haitian, Cajun",
+    "estimate": 45260,
+    "total": 10466617,
+    "pct": 0.43
+  },
+  {
+    "NAME": "Michigan",
+    "group": "German",
+    "estimate": 92564,
+    "total": 10466617,
+    "pct": 0.88
+  },
+  {
+    "NAME": "Michigan",
+    "group": "Greek",
+    "estimate": 15228,
+    "total": 10466617,
+    "pct": 0.15
+  },
+  {
+    "NAME": "Michigan",
+    "group": "Hebrew",
+    "estimate": 5606,
+    "total": 10466617,
+    "pct": 0.05
+  },
+  {
+    "NAME": "Michigan",
+    "group": "Hindi, Urdu",
+    "estimate": 70704,
+    "total": 10466617,
+    "pct": 0.68
+  },
+  {
+    "NAME": "Michigan",
+    "group": "Japanese",
+    "estimate": 25576,
+    "total": 10466617,
+    "pct": 0.24
+  },
+  {
+    "NAME": "Michigan",
+    "group": "Korean",
+    "estimate": 33908,
+    "total": 10466617,
+    "pct": 0.32
+  },
+  {
+    "NAME": "Michigan",
+    "group": "Other",
+    "estimate": 382952,
+    "total": 10466617,
+    "pct": 3.66
+  },
+  {
+    "NAME": "Michigan",
+    "group": "Other Indo-European",
+    "estimate": 76674,
+    "total": 10466617,
+    "pct": 0.73
+  },
+  {
+    "NAME": "Michigan",
+    "group": "Other and unspecified",
+    "estimate": 9464,
+    "total": 10466617,
+    "pct": 0.09
+  },
+  {
+    "NAME": "Michigan",
+    "group": "Persian",
+    "estimate": 9620,
+    "total": 10466617,
+    "pct": 0.09
+  },
+  {
+    "NAME": "Michigan",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 87654,
+    "total": 10466617,
+    "pct": 0.84
+  },
+  {
+    "NAME": "Michigan",
+    "group": "Spanish",
+    "estimate": 574862,
+    "total": 10466617,
+    "pct": 5.49
+  },
+  {
+    "NAME": "Michigan",
+    "group": "Tagalog",
+    "estimate": 30074,
+    "total": 10466617,
+    "pct": 0.29
+  },
+  {
+    "NAME": "Michigan",
+    "group": "Thai, Laotian",
+    "estimate": 7518,
+    "total": 10466617,
+    "pct": 0.07
+  },
+  {
+    "NAME": "Michigan",
+    "group": "Vietnamese",
+    "estimate": 31052,
+    "total": 10466617,
+    "pct": 0.3
+  },
+  {
+    "NAME": "Minnesota",
+    "group": "Arabic",
+    "estimate": 29584,
+    "total": 6032655,
+    "pct": 0.49
+  },
+  {
+    "NAME": "Minnesota",
+    "group": "Armenian",
+    "estimate": 62,
+    "total": 6032655,
+    "pct": 0
+  },
+  {
+    "NAME": "Minnesota",
+    "group": "Chinese",
+    "estimate": 46318,
+    "total": 6032655,
+    "pct": 0.77
+  },
+  {
+    "NAME": "Minnesota",
+    "group": "English only",
+    "estimate": 4716567,
+    "total": 6032655,
+    "pct": 78.18
+  },
+  {
+    "NAME": "Minnesota",
+    "group": "French, Haitian, Cajun",
+    "estimate": 35782,
+    "total": 6032655,
+    "pct": 0.59
+  },
+  {
+    "NAME": "Minnesota",
+    "group": "German",
+    "estimate": 40858,
+    "total": 6032655,
+    "pct": 0.68
+  },
+  {
+    "NAME": "Minnesota",
+    "group": "Greek",
+    "estimate": 1916,
+    "total": 6032655,
+    "pct": 0.03
+  },
+  {
+    "NAME": "Minnesota",
+    "group": "Hebrew",
+    "estimate": 1904,
+    "total": 6032655,
+    "pct": 0.03
+  },
+  {
+    "NAME": "Minnesota",
+    "group": "Hindi, Urdu",
+    "estimate": 21546,
+    "total": 6032655,
+    "pct": 0.36
+  },
+  {
+    "NAME": "Minnesota",
+    "group": "Japanese",
+    "estimate": 8844,
+    "total": 6032655,
+    "pct": 0.15
+  },
+  {
+    "NAME": "Minnesota",
+    "group": "Korean",
+    "estimate": 8258,
+    "total": 6032655,
+    "pct": 0.14
+  },
+  {
+    "NAME": "Minnesota",
+    "group": "Other",
+    "estimate": 525262,
+    "total": 6032655,
+    "pct": 8.71
+  },
+  {
+    "NAME": "Minnesota",
+    "group": "Other Indo-European",
+    "estimate": 14808,
+    "total": 6032655,
+    "pct": 0.25
+  },
+  {
+    "NAME": "Minnesota",
+    "group": "Other and unspecified",
+    "estimate": 10560,
+    "total": 6032655,
+    "pct": 0.18
+  },
+  {
+    "NAME": "Minnesota",
+    "group": "Persian",
+    "estimate": 5834,
+    "total": 6032655,
+    "pct": 0.1
+  },
+  {
+    "NAME": "Minnesota",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 42246,
+    "total": 6032655,
+    "pct": 0.7
+  },
+  {
+    "NAME": "Minnesota",
+    "group": "Spanish",
+    "estimate": 443600,
+    "total": 6032655,
+    "pct": 7.35
+  },
+  {
+    "NAME": "Minnesota",
+    "group": "Tagalog",
+    "estimate": 16276,
+    "total": 6032655,
+    "pct": 0.27
+  },
+  {
+    "NAME": "Minnesota",
+    "group": "Thai, Laotian",
+    "estimate": 17520,
+    "total": 6032655,
+    "pct": 0.29
+  },
+  {
+    "NAME": "Minnesota",
+    "group": "Vietnamese",
+    "estimate": 44910,
+    "total": 6032655,
+    "pct": 0.74
+  },
+  {
+    "NAME": "Mississippi",
+    "group": "Arabic",
+    "estimate": 6860,
+    "total": 2890828,
+    "pct": 0.24
+  },
+  {
+    "NAME": "Mississippi",
+    "group": "Armenian",
+    "estimate": 0,
+    "total": 2890828,
+    "pct": 0
+  },
+  {
+    "NAME": "Mississippi",
+    "group": "Chinese",
+    "estimate": 8766,
+    "total": 2890828,
+    "pct": 0.3
+  },
+  {
+    "NAME": "Mississippi",
+    "group": "English only",
+    "estimate": 2657758,
+    "total": 2890828,
+    "pct": 91.94
+  },
+  {
+    "NAME": "Mississippi",
+    "group": "French, Haitian, Cajun",
+    "estimate": 8494,
+    "total": 2890828,
+    "pct": 0.29
+  },
+  {
+    "NAME": "Mississippi",
+    "group": "German",
+    "estimate": 6588,
+    "total": 2890828,
+    "pct": 0.23
+  },
+  {
+    "NAME": "Mississippi",
+    "group": "Greek",
+    "estimate": 688,
+    "total": 2890828,
+    "pct": 0.02
+  },
+  {
+    "NAME": "Mississippi",
+    "group": "Hebrew",
+    "estimate": 350,
+    "total": 2890828,
+    "pct": 0.01
+  },
+  {
+    "NAME": "Mississippi",
+    "group": "Hindi, Urdu",
+    "estimate": 3840,
+    "total": 2890828,
+    "pct": 0.13
+  },
+  {
+    "NAME": "Mississippi",
+    "group": "Japanese",
+    "estimate": 1412,
+    "total": 2890828,
+    "pct": 0.05
+  },
+  {
+    "NAME": "Mississippi",
+    "group": "Korean",
+    "estimate": 2380,
+    "total": 2890828,
+    "pct": 0.08
+  },
+  {
+    "NAME": "Mississippi",
+    "group": "Other",
+    "estimate": 27602,
+    "total": 2890828,
+    "pct": 0.95
+  },
+  {
+    "NAME": "Mississippi",
+    "group": "Other Indo-European",
+    "estimate": 1012,
+    "total": 2890828,
+    "pct": 0.04
+  },
+  {
+    "NAME": "Mississippi",
+    "group": "Other and unspecified",
+    "estimate": 2264,
+    "total": 2890828,
+    "pct": 0.08
+  },
+  {
+    "NAME": "Mississippi",
+    "group": "Persian",
+    "estimate": 676,
+    "total": 2890828,
+    "pct": 0.02
+  },
+  {
+    "NAME": "Mississippi",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 1918,
+    "total": 2890828,
+    "pct": 0.07
+  },
+  {
+    "NAME": "Mississippi",
+    "group": "Spanish",
+    "estimate": 142590,
+    "total": 2890828,
+    "pct": 4.93
+  },
+  {
+    "NAME": "Mississippi",
+    "group": "Tagalog",
+    "estimate": 4966,
+    "total": 2890828,
+    "pct": 0.17
+  },
+  {
+    "NAME": "Mississippi",
+    "group": "Thai, Laotian",
+    "estimate": 902,
+    "total": 2890828,
+    "pct": 0.03
+  },
+  {
+    "NAME": "Mississippi",
+    "group": "Vietnamese",
+    "estimate": 11762,
+    "total": 2890828,
+    "pct": 0.41
+  },
+  {
+    "NAME": "Missouri",
+    "group": "Arabic",
+    "estimate": 24986,
+    "total": 6189315,
+    "pct": 0.4
+  },
+  {
+    "NAME": "Missouri",
+    "group": "Armenian",
+    "estimate": 284,
+    "total": 6189315,
+    "pct": 0
+  },
+  {
+    "NAME": "Missouri",
+    "group": "Chinese",
+    "estimate": 41514,
+    "total": 6189315,
+    "pct": 0.67
+  },
+  {
+    "NAME": "Missouri",
+    "group": "English only",
+    "estimate": 5427217,
+    "total": 6189315,
+    "pct": 87.69
+  },
+  {
+    "NAME": "Missouri",
+    "group": "French, Haitian, Cajun",
+    "estimate": 27460,
+    "total": 6189315,
+    "pct": 0.44
+  },
+  {
+    "NAME": "Missouri",
+    "group": "German",
+    "estimate": 56884,
+    "total": 6189315,
+    "pct": 0.92
+  },
+  {
+    "NAME": "Missouri",
+    "group": "Greek",
+    "estimate": 2392,
+    "total": 6189315,
+    "pct": 0.04
+  },
+  {
+    "NAME": "Missouri",
+    "group": "Hebrew",
+    "estimate": 2236,
+    "total": 6189315,
+    "pct": 0.04
+  },
+  {
+    "NAME": "Missouri",
+    "group": "Hindi, Urdu",
+    "estimate": 21560,
+    "total": 6189315,
+    "pct": 0.35
+  },
+  {
+    "NAME": "Missouri",
+    "group": "Japanese",
+    "estimate": 7306,
+    "total": 6189315,
+    "pct": 0.12
+  },
+  {
+    "NAME": "Missouri",
+    "group": "Korean",
+    "estimate": 13576,
+    "total": 6189315,
+    "pct": 0.22
+  },
+  {
+    "NAME": "Missouri",
+    "group": "Other",
+    "estimate": 140196,
+    "total": 6189315,
+    "pct": 2.27
+  },
+  {
+    "NAME": "Missouri",
+    "group": "Other Indo-European",
+    "estimate": 12384,
+    "total": 6189315,
+    "pct": 0.2
+  },
+  {
+    "NAME": "Missouri",
+    "group": "Other and unspecified",
+    "estimate": 3416,
+    "total": 6189315,
+    "pct": 0.06
+  },
+  {
+    "NAME": "Missouri",
+    "group": "Persian",
+    "estimate": 4568,
+    "total": 6189315,
+    "pct": 0.07
+  },
+  {
+    "NAME": "Missouri",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 23790,
+    "total": 6189315,
+    "pct": 0.38
+  },
+  {
+    "NAME": "Missouri",
+    "group": "Spanish",
+    "estimate": 331680,
+    "total": 6189315,
+    "pct": 5.36
+  },
+  {
+    "NAME": "Missouri",
+    "group": "Tagalog",
+    "estimate": 17496,
+    "total": 6189315,
+    "pct": 0.28
+  },
+  {
+    "NAME": "Missouri",
+    "group": "Thai, Laotian",
+    "estimate": 5186,
+    "total": 6189315,
+    "pct": 0.08
+  },
+  {
+    "NAME": "Missouri",
+    "group": "Vietnamese",
+    "estimate": 25184,
+    "total": 6189315,
+    "pct": 0.41
+  },
+  {
+    "NAME": "Montana",
+    "group": "Arabic",
+    "estimate": 842,
+    "total": 1089727,
+    "pct": 0.08
+  },
+  {
+    "NAME": "Montana",
+    "group": "Armenian",
+    "estimate": 0,
+    "total": 1089727,
+    "pct": 0
+  },
+  {
+    "NAME": "Montana",
+    "group": "Chinese",
+    "estimate": 3414,
+    "total": 1089727,
+    "pct": 0.31
+  },
+  {
+    "NAME": "Montana",
+    "group": "English only",
+    "estimate": 1002753,
+    "total": 1089727,
+    "pct": 92.02
+  },
+  {
+    "NAME": "Montana",
+    "group": "French, Haitian, Cajun",
+    "estimate": 3898,
+    "total": 1089727,
+    "pct": 0.36
+  },
+  {
+    "NAME": "Montana",
+    "group": "German",
+    "estimate": 15628,
+    "total": 1089727,
+    "pct": 1.43
+  },
+  {
+    "NAME": "Montana",
+    "group": "Greek",
+    "estimate": 434,
+    "total": 1089727,
+    "pct": 0.04
+  },
+  {
+    "NAME": "Montana",
+    "group": "Hebrew",
+    "estimate": 202,
+    "total": 1089727,
+    "pct": 0.02
+  },
+  {
+    "NAME": "Montana",
+    "group": "Hindi, Urdu",
+    "estimate": 256,
+    "total": 1089727,
+    "pct": 0.02
+  },
+  {
+    "NAME": "Montana",
+    "group": "Japanese",
+    "estimate": 840,
+    "total": 1089727,
+    "pct": 0.08
+  },
+  {
+    "NAME": "Montana",
+    "group": "Korean",
+    "estimate": 1168,
+    "total": 1089727,
+    "pct": 0.11
+  },
+  {
+    "NAME": "Montana",
+    "group": "Other",
+    "estimate": 18580,
+    "total": 1089727,
+    "pct": 1.71
+  },
+  {
+    "NAME": "Montana",
+    "group": "Other Indo-European",
+    "estimate": 1990,
+    "total": 1089727,
+    "pct": 0.18
+  },
+  {
+    "NAME": "Montana",
+    "group": "Other and unspecified",
+    "estimate": 1102,
+    "total": 1089727,
+    "pct": 0.1
+  },
+  {
+    "NAME": "Montana",
+    "group": "Persian",
+    "estimate": 244,
+    "total": 1089727,
+    "pct": 0.02
+  },
+  {
+    "NAME": "Montana",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 4202,
+    "total": 1089727,
+    "pct": 0.39
+  },
+  {
+    "NAME": "Montana",
+    "group": "Spanish",
+    "estimate": 30056,
+    "total": 1089727,
+    "pct": 2.76
+  },
+  {
+    "NAME": "Montana",
+    "group": "Tagalog",
+    "estimate": 2614,
+    "total": 1089727,
+    "pct": 0.24
+  },
+  {
+    "NAME": "Montana",
+    "group": "Thai, Laotian",
+    "estimate": 430,
+    "total": 1089727,
+    "pct": 0.04
+  },
+  {
+    "NAME": "Montana",
+    "group": "Vietnamese",
+    "estimate": 1074,
+    "total": 1089727,
+    "pct": 0.1
+  },
+  {
+    "NAME": "Nebraska",
+    "group": "Arabic",
+    "estimate": 12812,
+    "total": 2065108,
+    "pct": 0.62
+  },
+  {
+    "NAME": "Nebraska",
+    "group": "Armenian",
+    "estimate": 74,
+    "total": 2065108,
+    "pct": 0
+  },
+  {
+    "NAME": "Nebraska",
+    "group": "Chinese",
+    "estimate": 9822,
+    "total": 2065108,
+    "pct": 0.48
+  },
+  {
+    "NAME": "Nebraska",
+    "group": "English only",
+    "estimate": 1612734,
+    "total": 2065108,
+    "pct": 78.09
+  },
+  {
+    "NAME": "Nebraska",
+    "group": "French, Haitian, Cajun",
+    "estimate": 12052,
+    "total": 2065108,
+    "pct": 0.58
+  },
+  {
+    "NAME": "Nebraska",
+    "group": "German",
+    "estimate": 9404,
+    "total": 2065108,
+    "pct": 0.46
+  },
+  {
+    "NAME": "Nebraska",
+    "group": "Greek",
+    "estimate": 658,
+    "total": 2065108,
+    "pct": 0.03
+  },
+  {
+    "NAME": "Nebraska",
+    "group": "Hebrew",
+    "estimate": 298,
+    "total": 2065108,
+    "pct": 0.01
+  },
+  {
+    "NAME": "Nebraska",
+    "group": "Hindi, Urdu",
+    "estimate": 4194,
+    "total": 2065108,
+    "pct": 0.2
+  },
+  {
+    "NAME": "Nebraska",
+    "group": "Japanese",
+    "estimate": 2702,
+    "total": 2065108,
+    "pct": 0.13
+  },
+  {
+    "NAME": "Nebraska",
+    "group": "Korean",
+    "estimate": 2592,
+    "total": 2065108,
+    "pct": 0.13
+  },
+  {
+    "NAME": "Nebraska",
+    "group": "Other",
+    "estimate": 55200,
+    "total": 2065108,
+    "pct": 2.67
+  },
+  {
+    "NAME": "Nebraska",
+    "group": "Other Indo-European",
+    "estimate": 6174,
+    "total": 2065108,
+    "pct": 0.3
+  },
+  {
+    "NAME": "Nebraska",
+    "group": "Other and unspecified",
+    "estimate": 1952,
+    "total": 2065108,
+    "pct": 0.09
+  },
+  {
+    "NAME": "Nebraska",
+    "group": "Persian",
+    "estimate": 3878,
+    "total": 2065108,
+    "pct": 0.19
+  },
+  {
+    "NAME": "Nebraska",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 9212,
+    "total": 2065108,
+    "pct": 0.45
+  },
+  {
+    "NAME": "Nebraska",
+    "group": "Spanish",
+    "estimate": 298066,
+    "total": 2065108,
+    "pct": 14.43
+  },
+  {
+    "NAME": "Nebraska",
+    "group": "Tagalog",
+    "estimate": 4908,
+    "total": 2065108,
+    "pct": 0.24
+  },
+  {
+    "NAME": "Nebraska",
+    "group": "Thai, Laotian",
+    "estimate": 2220,
+    "total": 2065108,
+    "pct": 0.11
+  },
+  {
+    "NAME": "Nebraska",
+    "group": "Vietnamese",
+    "estimate": 16156,
+    "total": 2065108,
+    "pct": 0.78
+  },
+  {
+    "NAME": "Nevada",
+    "group": "Arabic",
+    "estimate": 14860,
+    "total": 3832159,
+    "pct": 0.39
+  },
+  {
+    "NAME": "Nevada",
+    "group": "Armenian",
+    "estimate": 6868,
+    "total": 3832159,
+    "pct": 0.18
+  },
+  {
+    "NAME": "Nevada",
+    "group": "Chinese",
+    "estimate": 70470,
+    "total": 3832159,
+    "pct": 1.84
+  },
+  {
+    "NAME": "Nevada",
+    "group": "English only",
+    "estimate": 2095927,
+    "total": 3832159,
+    "pct": 54.69
+  },
+  {
+    "NAME": "Nevada",
+    "group": "French, Haitian, Cajun",
+    "estimate": 18898,
+    "total": 3832159,
+    "pct": 0.49
+  },
+  {
+    "NAME": "Nevada",
+    "group": "German",
+    "estimate": 17436,
+    "total": 3832159,
+    "pct": 0.45
+  },
+  {
+    "NAME": "Nevada",
+    "group": "Greek",
+    "estimate": 2554,
+    "total": 3832159,
+    "pct": 0.07
+  },
+  {
+    "NAME": "Nevada",
+    "group": "Hebrew",
+    "estimate": 6136,
+    "total": 3832159,
+    "pct": 0.16
+  },
+  {
+    "NAME": "Nevada",
+    "group": "Hindi, Urdu",
+    "estimate": 10882,
+    "total": 3832159,
+    "pct": 0.28
+  },
+  {
+    "NAME": "Nevada",
+    "group": "Japanese",
+    "estimate": 13626,
+    "total": 3832159,
+    "pct": 0.36
+  },
+  {
+    "NAME": "Nevada",
+    "group": "Korean",
+    "estimate": 23430,
+    "total": 3832159,
+    "pct": 0.61
+  },
+  {
+    "NAME": "Nevada",
+    "group": "Other",
+    "estimate": 112462,
+    "total": 3832159,
+    "pct": 2.93
+  },
+  {
+    "NAME": "Nevada",
+    "group": "Other Indo-European",
+    "estimate": 10954,
+    "total": 3832159,
+    "pct": 0.29
+  },
+  {
+    "NAME": "Nevada",
+    "group": "Other and unspecified",
+    "estimate": 6404,
+    "total": 3832159,
+    "pct": 0.17
+  },
+  {
+    "NAME": "Nevada",
+    "group": "Persian",
+    "estimate": 12230,
+    "total": 3832159,
+    "pct": 0.32
+  },
+  {
+    "NAME": "Nevada",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 22556,
+    "total": 3832159,
+    "pct": 0.59
+  },
+  {
+    "NAME": "Nevada",
+    "group": "Spanish",
+    "estimate": 1179630,
+    "total": 3832159,
+    "pct": 30.78
+  },
+  {
+    "NAME": "Nevada",
+    "group": "Tagalog",
+    "estimate": 171794,
+    "total": 3832159,
+    "pct": 4.48
+  },
+  {
+    "NAME": "Nevada",
+    "group": "Thai, Laotian",
+    "estimate": 13272,
+    "total": 3832159,
+    "pct": 0.35
+  },
+  {
+    "NAME": "Nevada",
+    "group": "Vietnamese",
+    "estimate": 21770,
+    "total": 3832159,
+    "pct": 0.57
+  },
+  {
+    "NAME": "New Hampshire",
+    "group": "Arabic",
+    "estimate": 5130,
+    "total": 1431198,
+    "pct": 0.36
+  },
+  {
+    "NAME": "New Hampshire",
+    "group": "Armenian",
+    "estimate": 436,
+    "total": 1431198,
+    "pct": 0.03
+  },
+  {
+    "NAME": "New Hampshire",
+    "group": "Chinese",
+    "estimate": 9998,
+    "total": 1431198,
+    "pct": 0.7
+  },
+  {
+    "NAME": "New Hampshire",
+    "group": "English only",
+    "estimate": 1218060,
+    "total": 1431198,
+    "pct": 85.11
+  },
+  {
+    "NAME": "New Hampshire",
+    "group": "French, Haitian, Cajun",
+    "estimate": 32398,
+    "total": 1431198,
+    "pct": 2.26
+  },
+  {
+    "NAME": "New Hampshire",
+    "group": "German",
+    "estimate": 8642,
+    "total": 1431198,
+    "pct": 0.6
+  },
+  {
+    "NAME": "New Hampshire",
+    "group": "Greek",
+    "estimate": 4892,
+    "total": 1431198,
+    "pct": 0.34
+  },
+  {
+    "NAME": "New Hampshire",
+    "group": "Hebrew",
+    "estimate": 804,
+    "total": 1431198,
+    "pct": 0.06
+  },
+  {
+    "NAME": "New Hampshire",
+    "group": "Hindi, Urdu",
+    "estimate": 4210,
+    "total": 1431198,
+    "pct": 0.29
+  },
+  {
+    "NAME": "New Hampshire",
+    "group": "Japanese",
+    "estimate": 2014,
+    "total": 1431198,
+    "pct": 0.14
+  },
+  {
+    "NAME": "New Hampshire",
+    "group": "Korean",
+    "estimate": 3364,
+    "total": 1431198,
+    "pct": 0.24
+  },
+  {
+    "NAME": "New Hampshire",
+    "group": "Other",
+    "estimate": 45566,
+    "total": 1431198,
+    "pct": 3.18
+  },
+  {
+    "NAME": "New Hampshire",
+    "group": "Other Indo-European",
+    "estimate": 4370,
+    "total": 1431198,
+    "pct": 0.31
+  },
+  {
+    "NAME": "New Hampshire",
+    "group": "Other and unspecified",
+    "estimate": 1772,
+    "total": 1431198,
+    "pct": 0.12
+  },
+  {
+    "NAME": "New Hampshire",
+    "group": "Persian",
+    "estimate": 812,
+    "total": 1431198,
+    "pct": 0.06
+  },
+  {
+    "NAME": "New Hampshire",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 8944,
+    "total": 1431198,
+    "pct": 0.62
+  },
+  {
+    "NAME": "New Hampshire",
+    "group": "Spanish",
+    "estimate": 70478,
+    "total": 1431198,
+    "pct": 4.92
+  },
+  {
+    "NAME": "New Hampshire",
+    "group": "Tagalog",
+    "estimate": 4276,
+    "total": 1431198,
+    "pct": 0.3
+  },
+  {
+    "NAME": "New Hampshire",
+    "group": "Thai, Laotian",
+    "estimate": 1512,
+    "total": 1431198,
+    "pct": 0.11
+  },
+  {
+    "NAME": "New Hampshire",
+    "group": "Vietnamese",
+    "estimate": 3520,
+    "total": 1431198,
+    "pct": 0.25
+  },
+  {
+    "NAME": "New Jersey",
+    "group": "Arabic",
+    "estimate": 162714,
+    "total": 11595728,
+    "pct": 1.4
+  },
+  {
+    "NAME": "New Jersey",
+    "group": "Armenian",
+    "estimate": 9040,
+    "total": 11595728,
+    "pct": 0.08
+  },
+  {
+    "NAME": "New Jersey",
+    "group": "Chinese",
+    "estimate": 252120,
+    "total": 11595728,
+    "pct": 2.17
+  },
+  {
+    "NAME": "New Jersey",
+    "group": "English only",
+    "estimate": 5885500,
+    "total": 11595728,
+    "pct": 50.76
+  },
+  {
+    "NAME": "New Jersey",
+    "group": "French, Haitian, Cajun",
+    "estimate": 188214,
+    "total": 11595728,
+    "pct": 1.62
+  },
+  {
+    "NAME": "New Jersey",
+    "group": "German",
+    "estimate": 62994,
+    "total": 11595728,
+    "pct": 0.54
+  },
+  {
+    "NAME": "New Jersey",
+    "group": "Greek",
+    "estimate": 35326,
+    "total": 11595728,
+    "pct": 0.3
+  },
+  {
+    "NAME": "New Jersey",
+    "group": "Hebrew",
+    "estimate": 44122,
+    "total": 11595728,
+    "pct": 0.38
+  },
+  {
+    "NAME": "New Jersey",
+    "group": "Hindi, Urdu",
+    "estimate": 253020,
+    "total": 11595728,
+    "pct": 2.18
+  },
+  {
+    "NAME": "New Jersey",
+    "group": "Japanese",
+    "estimate": 25510,
+    "total": 11595728,
+    "pct": 0.22
+  },
+  {
+    "NAME": "New Jersey",
+    "group": "Korean",
+    "estimate": 155126,
+    "total": 11595728,
+    "pct": 1.34
+  },
+  {
+    "NAME": "New Jersey",
+    "group": "Other",
+    "estimate": 981404,
+    "total": 11595728,
+    "pct": 8.46
+  },
+  {
+    "NAME": "New Jersey",
+    "group": "Other Indo-European",
+    "estimate": 48076,
+    "total": 11595728,
+    "pct": 0.41
+  },
+  {
+    "NAME": "New Jersey",
+    "group": "Other and unspecified",
+    "estimate": 38266,
+    "total": 11595728,
+    "pct": 0.33
+  },
+  {
+    "NAME": "New Jersey",
+    "group": "Persian",
+    "estimate": 12956,
+    "total": 11595728,
+    "pct": 0.11
+  },
+  {
+    "NAME": "New Jersey",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 276730,
+    "total": 11595728,
+    "pct": 2.39
+  },
+  {
+    "NAME": "New Jersey",
+    "group": "Spanish",
+    "estimate": 2964246,
+    "total": 11595728,
+    "pct": 25.56
+  },
+  {
+    "NAME": "New Jersey",
+    "group": "Tagalog",
+    "estimate": 158582,
+    "total": 11595728,
+    "pct": 1.37
+  },
+  {
+    "NAME": "New Jersey",
+    "group": "Thai, Laotian",
+    "estimate": 6402,
+    "total": 11595728,
+    "pct": 0.06
+  },
+  {
+    "NAME": "New Jersey",
+    "group": "Vietnamese",
+    "estimate": 35380,
+    "total": 11595728,
+    "pct": 0.31
+  },
+  {
+    "NAME": "New Mexico",
+    "group": "Arabic",
+    "estimate": 5272,
+    "total": 2634801,
+    "pct": 0.2
+  },
+  {
+    "NAME": "New Mexico",
+    "group": "Armenian",
+    "estimate": 48,
+    "total": 2634801,
+    "pct": 0
+  },
+  {
+    "NAME": "New Mexico",
+    "group": "Chinese",
+    "estimate": 9094,
+    "total": 2634801,
+    "pct": 0.35
+  },
+  {
+    "NAME": "New Mexico",
+    "group": "English only",
+    "estimate": 1368837,
+    "total": 2634801,
+    "pct": 51.95
+  },
+  {
+    "NAME": "New Mexico",
+    "group": "French, Haitian, Cajun",
+    "estimate": 7508,
+    "total": 2634801,
+    "pct": 0.28
+  },
+  {
+    "NAME": "New Mexico",
+    "group": "German",
+    "estimate": 12234,
+    "total": 2634801,
+    "pct": 0.46
+  },
+  {
+    "NAME": "New Mexico",
+    "group": "Greek",
+    "estimate": 1522,
+    "total": 2634801,
+    "pct": 0.06
+  },
+  {
+    "NAME": "New Mexico",
+    "group": "Hebrew",
+    "estimate": 574,
+    "total": 2634801,
+    "pct": 0.02
+  },
+  {
+    "NAME": "New Mexico",
+    "group": "Hindi, Urdu",
+    "estimate": 3746,
+    "total": 2634801,
+    "pct": 0.14
+  },
+  {
+    "NAME": "New Mexico",
+    "group": "Japanese",
+    "estimate": 2882,
+    "total": 2634801,
+    "pct": 0.11
+  },
+  {
+    "NAME": "New Mexico",
+    "group": "Korean",
+    "estimate": 4180,
+    "total": 2634801,
+    "pct": 0.16
+  },
+  {
+    "NAME": "New Mexico",
+    "group": "Other",
+    "estimate": 203246,
+    "total": 2634801,
+    "pct": 7.71
+  },
+  {
+    "NAME": "New Mexico",
+    "group": "Other Indo-European",
+    "estimate": 1756,
+    "total": 2634801,
+    "pct": 0.07
+  },
+  {
+    "NAME": "New Mexico",
+    "group": "Other and unspecified",
+    "estimate": 1324,
+    "total": 2634801,
+    "pct": 0.05
+  },
+  {
+    "NAME": "New Mexico",
+    "group": "Persian",
+    "estimate": 2760,
+    "total": 2634801,
+    "pct": 0.1
+  },
+  {
+    "NAME": "New Mexico",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 4666,
+    "total": 2634801,
+    "pct": 0.18
+  },
+  {
+    "NAME": "New Mexico",
+    "group": "Spanish",
+    "estimate": 982550,
+    "total": 2634801,
+    "pct": 37.29
+  },
+  {
+    "NAME": "New Mexico",
+    "group": "Tagalog",
+    "estimate": 11416,
+    "total": 2634801,
+    "pct": 0.43
+  },
+  {
+    "NAME": "New Mexico",
+    "group": "Thai, Laotian",
+    "estimate": 1234,
+    "total": 2634801,
+    "pct": 0.05
+  },
+  {
+    "NAME": "New Mexico",
+    "group": "Vietnamese",
+    "estimate": 9952,
+    "total": 2634801,
+    "pct": 0.38
+  },
+  {
+    "NAME": "New York",
+    "group": "Arabic",
+    "estimate": 243438,
+    "total": 24521236,
+    "pct": 0.99
+  },
+  {
+    "NAME": "New York",
+    "group": "Armenian",
+    "estimate": 12854,
+    "total": 24521236,
+    "pct": 0.05
+  },
+  {
+    "NAME": "New York",
+    "group": "Chinese",
+    "estimate": 1186150,
+    "total": 24521236,
+    "pct": 4.84
+  },
+  {
+    "NAME": "New York",
+    "group": "English only",
+    "estimate": 13017480,
+    "total": 24521236,
+    "pct": 53.09
+  },
+  {
+    "NAME": "New York",
+    "group": "French, Haitian, Cajun",
+    "estimate": 561228,
+    "total": 24521236,
+    "pct": 2.29
+  },
+  {
+    "NAME": "New York",
+    "group": "German",
+    "estimate": 531946,
+    "total": 24521236,
+    "pct": 2.17
+  },
+  {
+    "NAME": "New York",
+    "group": "Greek",
+    "estimate": 120166,
+    "total": 24521236,
+    "pct": 0.49
+  },
+  {
+    "NAME": "New York",
+    "group": "Hebrew",
+    "estimate": 112908,
+    "total": 24521236,
+    "pct": 0.46
+  },
+  {
+    "NAME": "New York",
+    "group": "Hindi, Urdu",
+    "estimate": 265378,
+    "total": 24521236,
+    "pct": 1.08
+  },
+  {
+    "NAME": "New York",
+    "group": "Japanese",
+    "estimate": 66606,
+    "total": 24521236,
+    "pct": 0.27
+  },
+  {
+    "NAME": "New York",
+    "group": "Korean",
+    "estimate": 180418,
+    "total": 24521236,
+    "pct": 0.74
+  },
+  {
+    "NAME": "New York",
+    "group": "Other",
+    "estimate": 1436920,
+    "total": 24521236,
+    "pct": 5.86
+  },
+  {
+    "NAME": "New York",
+    "group": "Other Indo-European",
+    "estimate": 182266,
+    "total": 24521236,
+    "pct": 0.74
+  },
+  {
+    "NAME": "New York",
+    "group": "Other and unspecified",
+    "estimate": 85116,
+    "total": 24521236,
+    "pct": 0.35
+  },
+  {
+    "NAME": "New York",
+    "group": "Persian",
+    "estimate": 59910,
+    "total": 24521236,
+    "pct": 0.24
+  },
+  {
+    "NAME": "New York",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 709838,
+    "total": 24521236,
+    "pct": 2.89
+  },
+  {
+    "NAME": "New York",
+    "group": "Spanish",
+    "estimate": 5525328,
+    "total": 24521236,
+    "pct": 22.53
+  },
+  {
+    "NAME": "New York",
+    "group": "Tagalog",
+    "estimate": 154450,
+    "total": 24521236,
+    "pct": 0.63
+  },
+  {
+    "NAME": "New York",
+    "group": "Thai, Laotian",
+    "estimate": 23216,
+    "total": 24521236,
+    "pct": 0.09
+  },
+  {
+    "NAME": "New York",
+    "group": "Vietnamese",
+    "estimate": 45620,
+    "total": 24521236,
+    "pct": 0.19
+  },
+  {
+    "NAME": "North Carolina",
+    "group": "Arabic",
+    "estimate": 62296,
+    "total": 11286208,
+    "pct": 0.55
+  },
+  {
+    "NAME": "North Carolina",
+    "group": "Armenian",
+    "estimate": 524,
+    "total": 11286208,
+    "pct": 0
+  },
+  {
+    "NAME": "North Carolina",
+    "group": "Chinese",
+    "estimate": 79054,
+    "total": 11286208,
+    "pct": 0.7
+  },
+  {
+    "NAME": "North Carolina",
+    "group": "English only",
+    "estimate": 8685846,
+    "total": 11286208,
+    "pct": 76.96
+  },
+  {
+    "NAME": "North Carolina",
+    "group": "French, Haitian, Cajun",
+    "estimate": 77420,
+    "total": 11286208,
+    "pct": 0.69
+  },
+  {
+    "NAME": "North Carolina",
+    "group": "German",
+    "estimate": 53580,
+    "total": 11286208,
+    "pct": 0.47
+  },
+  {
+    "NAME": "North Carolina",
+    "group": "Greek",
+    "estimate": 11302,
+    "total": 11286208,
+    "pct": 0.1
+  },
+  {
+    "NAME": "North Carolina",
+    "group": "Hebrew",
+    "estimate": 3598,
+    "total": 11286208,
+    "pct": 0.03
+  },
+  {
+    "NAME": "North Carolina",
+    "group": "Hindi, Urdu",
+    "estimate": 60902,
+    "total": 11286208,
+    "pct": 0.54
+  },
+  {
+    "NAME": "North Carolina",
+    "group": "Japanese",
+    "estimate": 16264,
+    "total": 11286208,
+    "pct": 0.14
+  },
+  {
+    "NAME": "North Carolina",
+    "group": "Korean",
+    "estimate": 31474,
+    "total": 11286208,
+    "pct": 0.28
+  },
+  {
+    "NAME": "North Carolina",
+    "group": "Other",
+    "estimate": 326890,
+    "total": 11286208,
+    "pct": 2.9
+  },
+  {
+    "NAME": "North Carolina",
+    "group": "Other Indo-European",
+    "estimate": 21410,
+    "total": 11286208,
+    "pct": 0.19
+  },
+  {
+    "NAME": "North Carolina",
+    "group": "Other and unspecified",
+    "estimate": 12766,
+    "total": 11286208,
+    "pct": 0.11
+  },
+  {
+    "NAME": "North Carolina",
+    "group": "Persian",
+    "estimate": 10808,
+    "total": 11286208,
+    "pct": 0.1
+  },
+  {
+    "NAME": "North Carolina",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 51672,
+    "total": 11286208,
+    "pct": 0.46
+  },
+  {
+    "NAME": "North Carolina",
+    "group": "Spanish",
+    "estimate": 1682694,
+    "total": 11286208,
+    "pct": 14.91
+  },
+  {
+    "NAME": "North Carolina",
+    "group": "Tagalog",
+    "estimate": 33680,
+    "total": 11286208,
+    "pct": 0.3
+  },
+  {
+    "NAME": "North Carolina",
+    "group": "Thai, Laotian",
+    "estimate": 12898,
+    "total": 11286208,
+    "pct": 0.11
+  },
+  {
+    "NAME": "North Carolina",
+    "group": "Vietnamese",
+    "estimate": 51130,
+    "total": 11286208,
+    "pct": 0.45
+  },
+  {
+    "NAME": "North Dakota",
+    "group": "Arabic",
+    "estimate": 3020,
+    "total": 774267,
+    "pct": 0.39
+  },
+  {
+    "NAME": "North Dakota",
+    "group": "Armenian",
+    "estimate": 0,
+    "total": 774267,
+    "pct": 0
+  },
+  {
+    "NAME": "North Dakota",
+    "group": "Chinese",
+    "estimate": 2400,
+    "total": 774267,
+    "pct": 0.31
+  },
+  {
+    "NAME": "North Dakota",
+    "group": "English only",
+    "estimate": 681711,
+    "total": 774267,
+    "pct": 88.05
+  },
+  {
+    "NAME": "North Dakota",
+    "group": "French, Haitian, Cajun",
+    "estimate": 4330,
+    "total": 774267,
+    "pct": 0.56
+  },
+  {
+    "NAME": "North Dakota",
+    "group": "German",
+    "estimate": 10622,
+    "total": 774267,
+    "pct": 1.37
+  },
+  {
+    "NAME": "North Dakota",
+    "group": "Greek",
+    "estimate": 26,
+    "total": 774267,
+    "pct": 0
+  },
+  {
+    "NAME": "North Dakota",
+    "group": "Hebrew",
+    "estimate": 4,
+    "total": 774267,
+    "pct": 0
+  },
+  {
+    "NAME": "North Dakota",
+    "group": "Hindi, Urdu",
+    "estimate": 882,
+    "total": 774267,
+    "pct": 0.11
+  },
+  {
+    "NAME": "North Dakota",
+    "group": "Japanese",
+    "estimate": 976,
+    "total": 774267,
+    "pct": 0.13
+  },
+  {
+    "NAME": "North Dakota",
+    "group": "Korean",
+    "estimate": 1986,
+    "total": 774267,
+    "pct": 0.26
+  },
+  {
+    "NAME": "North Dakota",
+    "group": "Other",
+    "estimate": 26438,
+    "total": 774267,
+    "pct": 3.41
+  },
+  {
+    "NAME": "North Dakota",
+    "group": "Other Indo-European",
+    "estimate": 2508,
+    "total": 774267,
+    "pct": 0.32
+  },
+  {
+    "NAME": "North Dakota",
+    "group": "Other and unspecified",
+    "estimate": 1042,
+    "total": 774267,
+    "pct": 0.13
+  },
+  {
+    "NAME": "North Dakota",
+    "group": "Persian",
+    "estimate": 590,
+    "total": 774267,
+    "pct": 0.08
+  },
+  {
+    "NAME": "North Dakota",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 2252,
+    "total": 774267,
+    "pct": 0.29
+  },
+  {
+    "NAME": "North Dakota",
+    "group": "Spanish",
+    "estimate": 29224,
+    "total": 774267,
+    "pct": 3.77
+  },
+  {
+    "NAME": "North Dakota",
+    "group": "Tagalog",
+    "estimate": 4314,
+    "total": 774267,
+    "pct": 0.56
+  },
+  {
+    "NAME": "North Dakota",
+    "group": "Thai, Laotian",
+    "estimate": 608,
+    "total": 774267,
+    "pct": 0.08
+  },
+  {
+    "NAME": "North Dakota",
+    "group": "Vietnamese",
+    "estimate": 1334,
+    "total": 774267,
+    "pct": 0.17
+  },
+  {
+    "NAME": "Ohio",
+    "group": "Arabic",
+    "estimate": 90426,
+    "total": 11963887,
+    "pct": 0.76
+  },
+  {
+    "NAME": "Ohio",
+    "group": "Armenian",
+    "estimate": 1142,
+    "total": 11963887,
+    "pct": 0.01
+  },
+  {
+    "NAME": "Ohio",
+    "group": "Chinese",
+    "estimate": 92328,
+    "total": 11963887,
+    "pct": 0.77
+  },
+  {
+    "NAME": "Ohio",
+    "group": "English only",
+    "estimate": 10244973,
+    "total": 11963887,
+    "pct": 85.63
+  },
+  {
+    "NAME": "Ohio",
+    "group": "French, Haitian, Cajun",
+    "estimate": 68540,
+    "total": 11963887,
+    "pct": 0.57
+  },
+  {
+    "NAME": "Ohio",
+    "group": "German",
+    "estimate": 200288,
+    "total": 11963887,
+    "pct": 1.67
+  },
+  {
+    "NAME": "Ohio",
+    "group": "Greek",
+    "estimate": 16248,
+    "total": 11963887,
+    "pct": 0.14
+  },
+  {
+    "NAME": "Ohio",
+    "group": "Hebrew",
+    "estimate": 5436,
+    "total": 11963887,
+    "pct": 0.05
+  },
+  {
+    "NAME": "Ohio",
+    "group": "Hindi, Urdu",
+    "estimate": 55834,
+    "total": 11963887,
+    "pct": 0.47
+  },
+  {
+    "NAME": "Ohio",
+    "group": "Japanese",
+    "estimate": 20010,
+    "total": 11963887,
+    "pct": 0.17
+  },
+  {
+    "NAME": "Ohio",
+    "group": "Korean",
+    "estimate": 18350,
+    "total": 11963887,
+    "pct": 0.15
+  },
+  {
+    "NAME": "Ohio",
+    "group": "Other",
+    "estimate": 387416,
+    "total": 11963887,
+    "pct": 3.24
+  },
+  {
+    "NAME": "Ohio",
+    "group": "Other Indo-European",
+    "estimate": 29920,
+    "total": 11963887,
+    "pct": 0.25
+  },
+  {
+    "NAME": "Ohio",
+    "group": "Other and unspecified",
+    "estimate": 16140,
+    "total": 11963887,
+    "pct": 0.13
+  },
+  {
+    "NAME": "Ohio",
+    "group": "Persian",
+    "estimate": 9362,
+    "total": 11963887,
+    "pct": 0.08
+  },
+  {
+    "NAME": "Ohio",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 75870,
+    "total": 11963887,
+    "pct": 0.63
+  },
+  {
+    "NAME": "Ohio",
+    "group": "Spanish",
+    "estimate": 566246,
+    "total": 11963887,
+    "pct": 4.73
+  },
+  {
+    "NAME": "Ohio",
+    "group": "Tagalog",
+    "estimate": 29752,
+    "total": 11963887,
+    "pct": 0.25
+  },
+  {
+    "NAME": "Ohio",
+    "group": "Thai, Laotian",
+    "estimate": 9300,
+    "total": 11963887,
+    "pct": 0.08
+  },
+  {
+    "NAME": "Ohio",
+    "group": "Vietnamese",
+    "estimate": 26306,
+    "total": 11963887,
+    "pct": 0.22
+  },
+  {
+    "NAME": "Oklahoma",
+    "group": "Arabic",
+    "estimate": 11466,
+    "total": 4170091,
+    "pct": 0.27
+  },
+  {
+    "NAME": "Oklahoma",
+    "group": "Armenian",
+    "estimate": 136,
+    "total": 4170091,
+    "pct": 0
+  },
+  {
+    "NAME": "Oklahoma",
+    "group": "Chinese",
+    "estimate": 20074,
+    "total": 4170091,
+    "pct": 0.48
+  },
+  {
+    "NAME": "Oklahoma",
+    "group": "English only",
+    "estimate": 3325137,
+    "total": 4170091,
+    "pct": 79.74
+  },
+  {
+    "NAME": "Oklahoma",
+    "group": "French, Haitian, Cajun",
+    "estimate": 10984,
+    "total": 4170091,
+    "pct": 0.26
+  },
+  {
+    "NAME": "Oklahoma",
+    "group": "German",
+    "estimate": 21058,
+    "total": 4170091,
+    "pct": 0.5
+  },
+  {
+    "NAME": "Oklahoma",
+    "group": "Greek",
+    "estimate": 678,
+    "total": 4170091,
+    "pct": 0.02
+  },
+  {
+    "NAME": "Oklahoma",
+    "group": "Hebrew",
+    "estimate": 1270,
+    "total": 4170091,
+    "pct": 0.03
+  },
+  {
+    "NAME": "Oklahoma",
+    "group": "Hindi, Urdu",
+    "estimate": 9584,
+    "total": 4170091,
+    "pct": 0.23
+  },
+  {
+    "NAME": "Oklahoma",
+    "group": "Japanese",
+    "estimate": 3914,
+    "total": 4170091,
+    "pct": 0.09
+  },
+  {
+    "NAME": "Oklahoma",
+    "group": "Korean",
+    "estimate": 6156,
+    "total": 4170091,
+    "pct": 0.15
+  },
+  {
+    "NAME": "Oklahoma",
+    "group": "Other",
+    "estimate": 95800,
+    "total": 4170091,
+    "pct": 2.3
+  },
+  {
+    "NAME": "Oklahoma",
+    "group": "Other Indo-European",
+    "estimate": 3634,
+    "total": 4170091,
+    "pct": 0.09
+  },
+  {
+    "NAME": "Oklahoma",
+    "group": "Other and unspecified",
+    "estimate": 2916,
+    "total": 4170091,
+    "pct": 0.07
+  },
+  {
+    "NAME": "Oklahoma",
+    "group": "Persian",
+    "estimate": 4250,
+    "total": 4170091,
+    "pct": 0.1
+  },
+  {
+    "NAME": "Oklahoma",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 9000,
+    "total": 4170091,
+    "pct": 0.22
+  },
+  {
+    "NAME": "Oklahoma",
+    "group": "Spanish",
+    "estimate": 595342,
+    "total": 4170091,
+    "pct": 14.28
+  },
+  {
+    "NAME": "Oklahoma",
+    "group": "Tagalog",
+    "estimate": 9636,
+    "total": 4170091,
+    "pct": 0.23
+  },
+  {
+    "NAME": "Oklahoma",
+    "group": "Thai, Laotian",
+    "estimate": 5150,
+    "total": 4170091,
+    "pct": 0.12
+  },
+  {
+    "NAME": "Oklahoma",
+    "group": "Vietnamese",
+    "estimate": 33906,
+    "total": 4170091,
+    "pct": 0.81
+  },
+  {
+    "NAME": "Oregon",
+    "group": "Arabic",
+    "estimate": 17964,
+    "total": 4635500,
+    "pct": 0.39
+  },
+  {
+    "NAME": "Oregon",
+    "group": "Armenian",
+    "estimate": 1542,
+    "total": 4635500,
+    "pct": 0.03
+  },
+  {
+    "NAME": "Oregon",
+    "group": "Chinese",
+    "estimate": 63112,
+    "total": 4635500,
+    "pct": 1.36
+  },
+  {
+    "NAME": "Oregon",
+    "group": "English only",
+    "estimate": 3416958,
+    "total": 4635500,
+    "pct": 73.71
+  },
+  {
+    "NAME": "Oregon",
+    "group": "French, Haitian, Cajun",
+    "estimate": 25242,
+    "total": 4635500,
+    "pct": 0.54
+  },
+  {
+    "NAME": "Oregon",
+    "group": "German",
+    "estimate": 31866,
+    "total": 4635500,
+    "pct": 0.69
+  },
+  {
+    "NAME": "Oregon",
+    "group": "Greek",
+    "estimate": 2608,
+    "total": 4635500,
+    "pct": 0.06
+  },
+  {
+    "NAME": "Oregon",
+    "group": "Hebrew",
+    "estimate": 3986,
+    "total": 4635500,
+    "pct": 0.09
+  },
+  {
+    "NAME": "Oregon",
+    "group": "Hindi, Urdu",
+    "estimate": 13804,
+    "total": 4635500,
+    "pct": 0.3
+  },
+  {
+    "NAME": "Oregon",
+    "group": "Japanese",
+    "estimate": 21300,
+    "total": 4635500,
+    "pct": 0.46
+  },
+  {
+    "NAME": "Oregon",
+    "group": "Korean",
+    "estimate": 20560,
+    "total": 4635500,
+    "pct": 0.44
+  },
+  {
+    "NAME": "Oregon",
+    "group": "Other",
+    "estimate": 113760,
+    "total": 4635500,
+    "pct": 2.45
+  },
+  {
+    "NAME": "Oregon",
+    "group": "Other Indo-European",
+    "estimate": 18592,
+    "total": 4635500,
+    "pct": 0.4
+  },
+  {
+    "NAME": "Oregon",
+    "group": "Other and unspecified",
+    "estimate": 8832,
+    "total": 4635500,
+    "pct": 0.19
+  },
+  {
+    "NAME": "Oregon",
+    "group": "Persian",
+    "estimate": 10366,
+    "total": 4635500,
+    "pct": 0.22
+  },
+  {
+    "NAME": "Oregon",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 59554,
+    "total": 4635500,
+    "pct": 1.28
+  },
+  {
+    "NAME": "Oregon",
+    "group": "Spanish",
+    "estimate": 721014,
+    "total": 4635500,
+    "pct": 15.55
+  },
+  {
+    "NAME": "Oregon",
+    "group": "Tagalog",
+    "estimate": 23536,
+    "total": 4635500,
+    "pct": 0.51
+  },
+  {
+    "NAME": "Oregon",
+    "group": "Thai, Laotian",
+    "estimate": 9772,
+    "total": 4635500,
+    "pct": 0.21
+  },
+  {
+    "NAME": "Oregon",
+    "group": "Vietnamese",
+    "estimate": 51132,
+    "total": 4635500,
+    "pct": 1.1
+  },
+  {
+    "NAME": "Pennsylvania",
+    "group": "Arabic",
+    "estimate": 85764,
+    "total": 13783212,
+    "pct": 0.62
+  },
+  {
+    "NAME": "Pennsylvania",
+    "group": "Armenian",
+    "estimate": 4606,
+    "total": 13783212,
+    "pct": 0.03
+  },
+  {
+    "NAME": "Pennsylvania",
+    "group": "Chinese",
+    "estimate": 192474,
+    "total": 13783212,
+    "pct": 1.4
+  },
+  {
+    "NAME": "Pennsylvania",
+    "group": "English only",
+    "estimate": 10819066,
+    "total": 13783212,
+    "pct": 78.49
+  },
+  {
+    "NAME": "Pennsylvania",
+    "group": "French, Haitian, Cajun",
+    "estimate": 110506,
+    "total": 13783212,
+    "pct": 0.8
+  },
+  {
+    "NAME": "Pennsylvania",
+    "group": "German",
+    "estimate": 219602,
+    "total": 13783212,
+    "pct": 1.59
+  },
+  {
+    "NAME": "Pennsylvania",
+    "group": "Greek",
+    "estimate": 23334,
+    "total": 13783212,
+    "pct": 0.17
+  },
+  {
+    "NAME": "Pennsylvania",
+    "group": "Hebrew",
+    "estimate": 9354,
+    "total": 13783212,
+    "pct": 0.07
+  },
+  {
+    "NAME": "Pennsylvania",
+    "group": "Hindi, Urdu",
+    "estimate": 83196,
+    "total": 13783212,
+    "pct": 0.6
+  },
+  {
+    "NAME": "Pennsylvania",
+    "group": "Japanese",
+    "estimate": 13764,
+    "total": 13783212,
+    "pct": 0.1
+  },
+  {
+    "NAME": "Pennsylvania",
+    "group": "Korean",
+    "estimate": 52920,
+    "total": 13783212,
+    "pct": 0.38
+  },
+  {
+    "NAME": "Pennsylvania",
+    "group": "Other",
+    "estimate": 483946,
+    "total": 13783212,
+    "pct": 3.51
+  },
+  {
+    "NAME": "Pennsylvania",
+    "group": "Other Indo-European",
+    "estimate": 37468,
+    "total": 13783212,
+    "pct": 0.27
+  },
+  {
+    "NAME": "Pennsylvania",
+    "group": "Other and unspecified",
+    "estimate": 24272,
+    "total": 13783212,
+    "pct": 0.18
+  },
+  {
+    "NAME": "Pennsylvania",
+    "group": "Persian",
+    "estimate": 11148,
+    "total": 13783212,
+    "pct": 0.08
+  },
+  {
+    "NAME": "Pennsylvania",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 166906,
+    "total": 13783212,
+    "pct": 1.21
+  },
+  {
+    "NAME": "Pennsylvania",
+    "group": "Spanish",
+    "estimate": 1329338,
+    "total": 13783212,
+    "pct": 9.64
+  },
+  {
+    "NAME": "Pennsylvania",
+    "group": "Tagalog",
+    "estimate": 35704,
+    "total": 13783212,
+    "pct": 0.26
+  },
+  {
+    "NAME": "Pennsylvania",
+    "group": "Thai, Laotian",
+    "estimate": 10772,
+    "total": 13783212,
+    "pct": 0.08
+  },
+  {
+    "NAME": "Pennsylvania",
+    "group": "Vietnamese",
+    "estimate": 69072,
+    "total": 13783212,
+    "pct": 0.5
+  },
+  {
+    "NAME": "Puerto Rico",
+    "group": "Arabic",
+    "estimate": 1070,
+    "total": 6141586,
+    "pct": 0.02
+  },
+  {
+    "NAME": "Puerto Rico",
+    "group": "Armenian",
+    "estimate": 0,
+    "total": 6141586,
+    "pct": 0
+  },
+  {
+    "NAME": "Puerto Rico",
+    "group": "Chinese",
+    "estimate": 2344,
+    "total": 6141586,
+    "pct": 0.04
+  },
+  {
+    "NAME": "Puerto Rico",
+    "group": "English only",
+    "estimate": 154074,
+    "total": 6141586,
+    "pct": 2.51
+  },
+  {
+    "NAME": "Puerto Rico",
+    "group": "French, Haitian, Cajun",
+    "estimate": 2642,
+    "total": 6141586,
+    "pct": 0.04
+  },
+  {
+    "NAME": "Puerto Rico",
+    "group": "German",
+    "estimate": 936,
+    "total": 6141586,
+    "pct": 0.02
+  },
+  {
+    "NAME": "Puerto Rico",
+    "group": "Greek",
+    "estimate": 0,
+    "total": 6141586,
+    "pct": 0
+  },
+  {
+    "NAME": "Puerto Rico",
+    "group": "Hebrew",
+    "estimate": 92,
+    "total": 6141586,
+    "pct": 0
+  },
+  {
+    "NAME": "Puerto Rico",
+    "group": "Hindi, Urdu",
+    "estimate": 326,
+    "total": 6141586,
+    "pct": 0.01
+  },
+  {
+    "NAME": "Puerto Rico",
+    "group": "Japanese",
+    "estimate": 34,
+    "total": 6141586,
+    "pct": 0
+  },
+  {
+    "NAME": "Puerto Rico",
+    "group": "Korean",
+    "estimate": 174,
+    "total": 6141586,
+    "pct": 0
+  },
+  {
+    "NAME": "Puerto Rico",
+    "group": "Other",
+    "estimate": 2206,
+    "total": 6141586,
+    "pct": 0.04
+  },
+  {
+    "NAME": "Puerto Rico",
+    "group": "Other Indo-European",
+    "estimate": 112,
+    "total": 6141586,
+    "pct": 0
+  },
+  {
+    "NAME": "Puerto Rico",
+    "group": "Other and unspecified",
+    "estimate": 172,
+    "total": 6141586,
+    "pct": 0
+  },
+  {
+    "NAME": "Puerto Rico",
+    "group": "Persian",
+    "estimate": 0,
+    "total": 6141586,
+    "pct": 0
+  },
+  {
+    "NAME": "Puerto Rico",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 150,
+    "total": 6141586,
+    "pct": 0
+  },
+  {
+    "NAME": "Puerto Rico",
+    "group": "Spanish",
+    "estimate": 5977118,
+    "total": 6141586,
+    "pct": 97.32
+  },
+  {
+    "NAME": "Puerto Rico",
+    "group": "Tagalog",
+    "estimate": 74,
+    "total": 6141586,
+    "pct": 0
+  },
+  {
+    "NAME": "Puerto Rico",
+    "group": "Thai, Laotian",
+    "estimate": 0,
+    "total": 6141586,
+    "pct": 0
+  },
+  {
+    "NAME": "Puerto Rico",
+    "group": "Vietnamese",
+    "estimate": 62,
+    "total": 6141586,
+    "pct": 0
+  },
+  {
+    "NAME": "Rhode Island",
+    "group": "Arabic",
+    "estimate": 5348,
+    "total": 1277898,
+    "pct": 0.42
+  },
+  {
+    "NAME": "Rhode Island",
+    "group": "Armenian",
+    "estimate": 1746,
+    "total": 1277898,
+    "pct": 0.14
+  },
+  {
+    "NAME": "Rhode Island",
+    "group": "Chinese",
+    "estimate": 14436,
+    "total": 1277898,
+    "pct": 1.13
+  },
+  {
+    "NAME": "Rhode Island",
+    "group": "English only",
+    "estimate": 805218,
+    "total": 1277898,
+    "pct": 63.01
+  },
+  {
+    "NAME": "Rhode Island",
+    "group": "French, Haitian, Cajun",
+    "estimate": 35222,
+    "total": 1277898,
+    "pct": 2.76
+  },
+  {
+    "NAME": "Rhode Island",
+    "group": "German",
+    "estimate": 3718,
+    "total": 1277898,
+    "pct": 0.29
+  },
+  {
+    "NAME": "Rhode Island",
+    "group": "Greek",
+    "estimate": 2020,
+    "total": 1277898,
+    "pct": 0.16
+  },
+  {
+    "NAME": "Rhode Island",
+    "group": "Hebrew",
+    "estimate": 558,
+    "total": 1277898,
+    "pct": 0.04
+  },
+  {
+    "NAME": "Rhode Island",
+    "group": "Hindi, Urdu",
+    "estimate": 5854,
+    "total": 1277898,
+    "pct": 0.46
+  },
+  {
+    "NAME": "Rhode Island",
+    "group": "Japanese",
+    "estimate": 1286,
+    "total": 1277898,
+    "pct": 0.1
+  },
+  {
+    "NAME": "Rhode Island",
+    "group": "Korean",
+    "estimate": 2340,
+    "total": 1277898,
+    "pct": 0.18
+  },
+  {
+    "NAME": "Rhode Island",
+    "group": "Other",
+    "estimate": 100028,
+    "total": 1277898,
+    "pct": 7.83
+  },
+  {
+    "NAME": "Rhode Island",
+    "group": "Other Indo-European",
+    "estimate": 2844,
+    "total": 1277898,
+    "pct": 0.22
+  },
+  {
+    "NAME": "Rhode Island",
+    "group": "Other and unspecified",
+    "estimate": 3570,
+    "total": 1277898,
+    "pct": 0.28
+  },
+  {
+    "NAME": "Rhode Island",
+    "group": "Persian",
+    "estimate": 526,
+    "total": 1277898,
+    "pct": 0.04
+  },
+  {
+    "NAME": "Rhode Island",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 10972,
+    "total": 1277898,
+    "pct": 0.86
+  },
+  {
+    "NAME": "Rhode Island",
+    "group": "Spanish",
+    "estimate": 271772,
+    "total": 1277898,
+    "pct": 21.27
+  },
+  {
+    "NAME": "Rhode Island",
+    "group": "Tagalog",
+    "estimate": 3992,
+    "total": 1277898,
+    "pct": 0.31
+  },
+  {
+    "NAME": "Rhode Island",
+    "group": "Thai, Laotian",
+    "estimate": 4842,
+    "total": 1277898,
+    "pct": 0.38
+  },
+  {
+    "NAME": "Rhode Island",
+    "group": "Vietnamese",
+    "estimate": 1606,
+    "total": 1277898,
+    "pct": 0.13
+  },
+  {
+    "NAME": "South Carolina",
+    "group": "Arabic",
+    "estimate": 9912,
+    "total": 5327081,
+    "pct": 0.19
+  },
+  {
+    "NAME": "South Carolina",
+    "group": "Armenian",
+    "estimate": 486,
+    "total": 5327081,
+    "pct": 0.01
+  },
+  {
+    "NAME": "South Carolina",
+    "group": "Chinese",
+    "estimate": 21196,
+    "total": 5327081,
+    "pct": 0.4
+  },
+  {
+    "NAME": "South Carolina",
+    "group": "English only",
+    "estimate": 4522731,
+    "total": 5327081,
+    "pct": 84.9
+  },
+  {
+    "NAME": "South Carolina",
+    "group": "French, Haitian, Cajun",
+    "estimate": 23912,
+    "total": 5327081,
+    "pct": 0.45
+  },
+  {
+    "NAME": "South Carolina",
+    "group": "German",
+    "estimate": 28746,
+    "total": 5327081,
+    "pct": 0.54
+  },
+  {
+    "NAME": "South Carolina",
+    "group": "Greek",
+    "estimate": 4290,
+    "total": 5327081,
+    "pct": 0.08
+  },
+  {
+    "NAME": "South Carolina",
+    "group": "Hebrew",
+    "estimate": 1788,
+    "total": 5327081,
+    "pct": 0.03
+  },
+  {
+    "NAME": "South Carolina",
+    "group": "Hindi, Urdu",
+    "estimate": 11686,
+    "total": 5327081,
+    "pct": 0.22
+  },
+  {
+    "NAME": "South Carolina",
+    "group": "Japanese",
+    "estimate": 5728,
+    "total": 5327081,
+    "pct": 0.11
+  },
+  {
+    "NAME": "South Carolina",
+    "group": "Korean",
+    "estimate": 9358,
+    "total": 5327081,
+    "pct": 0.18
+  },
+  {
+    "NAME": "South Carolina",
+    "group": "Other",
+    "estimate": 86536,
+    "total": 5327081,
+    "pct": 1.62
+  },
+  {
+    "NAME": "South Carolina",
+    "group": "Other Indo-European",
+    "estimate": 9096,
+    "total": 5327081,
+    "pct": 0.17
+  },
+  {
+    "NAME": "South Carolina",
+    "group": "Other and unspecified",
+    "estimate": 6808,
+    "total": 5327081,
+    "pct": 0.13
+  },
+  {
+    "NAME": "South Carolina",
+    "group": "Persian",
+    "estimate": 2536,
+    "total": 5327081,
+    "pct": 0.05
+  },
+  {
+    "NAME": "South Carolina",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 34252,
+    "total": 5327081,
+    "pct": 0.64
+  },
+  {
+    "NAME": "South Carolina",
+    "group": "Spanish",
+    "estimate": 509998,
+    "total": 5327081,
+    "pct": 9.57
+  },
+  {
+    "NAME": "South Carolina",
+    "group": "Tagalog",
+    "estimate": 17902,
+    "total": 5327081,
+    "pct": 0.34
+  },
+  {
+    "NAME": "South Carolina",
+    "group": "Thai, Laotian",
+    "estimate": 4464,
+    "total": 5327081,
+    "pct": 0.08
+  },
+  {
+    "NAME": "South Carolina",
+    "group": "Vietnamese",
+    "estimate": 15656,
+    "total": 5327081,
+    "pct": 0.29
+  },
+  {
+    "NAME": "South Dakota",
+    "group": "Arabic",
+    "estimate": 1676,
+    "total": 897198,
+    "pct": 0.19
+  },
+  {
+    "NAME": "South Dakota",
+    "group": "Armenian",
+    "estimate": 28,
+    "total": 897198,
+    "pct": 0
+  },
+  {
+    "NAME": "South Dakota",
+    "group": "Chinese",
+    "estimate": 1602,
+    "total": 897198,
+    "pct": 0.18
+  },
+  {
+    "NAME": "South Dakota",
+    "group": "English only",
+    "estimate": 784948,
+    "total": 897198,
+    "pct": 87.49
+  },
+  {
+    "NAME": "South Dakota",
+    "group": "French, Haitian, Cajun",
+    "estimate": 2172,
+    "total": 897198,
+    "pct": 0.24
+  },
+  {
+    "NAME": "South Dakota",
+    "group": "German",
+    "estimate": 11596,
+    "total": 897198,
+    "pct": 1.29
+  },
+  {
+    "NAME": "South Dakota",
+    "group": "Greek",
+    "estimate": 84,
+    "total": 897198,
+    "pct": 0.01
+  },
+  {
+    "NAME": "South Dakota",
+    "group": "Hebrew",
+    "estimate": 180,
+    "total": 897198,
+    "pct": 0.02
+  },
+  {
+    "NAME": "South Dakota",
+    "group": "Hindi, Urdu",
+    "estimate": 1196,
+    "total": 897198,
+    "pct": 0.13
+  },
+  {
+    "NAME": "South Dakota",
+    "group": "Japanese",
+    "estimate": 520,
+    "total": 897198,
+    "pct": 0.06
+  },
+  {
+    "NAME": "South Dakota",
+    "group": "Korean",
+    "estimate": 1084,
+    "total": 897198,
+    "pct": 0.12
+  },
+  {
+    "NAME": "South Dakota",
+    "group": "Other",
+    "estimate": 38606,
+    "total": 897198,
+    "pct": 4.3
+  },
+  {
+    "NAME": "South Dakota",
+    "group": "Other Indo-European",
+    "estimate": 606,
+    "total": 897198,
+    "pct": 0.07
+  },
+  {
+    "NAME": "South Dakota",
+    "group": "Other and unspecified",
+    "estimate": 946,
+    "total": 897198,
+    "pct": 0.11
+  },
+  {
+    "NAME": "South Dakota",
+    "group": "Persian",
+    "estimate": 438,
+    "total": 897198,
+    "pct": 0.05
+  },
+  {
+    "NAME": "South Dakota",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 4738,
+    "total": 897198,
+    "pct": 0.53
+  },
+  {
+    "NAME": "South Dakota",
+    "group": "Spanish",
+    "estimate": 40984,
+    "total": 897198,
+    "pct": 4.57
+  },
+  {
+    "NAME": "South Dakota",
+    "group": "Tagalog",
+    "estimate": 2820,
+    "total": 897198,
+    "pct": 0.31
+  },
+  {
+    "NAME": "South Dakota",
+    "group": "Thai, Laotian",
+    "estimate": 1050,
+    "total": 897198,
+    "pct": 0.12
+  },
+  {
+    "NAME": "South Dakota",
+    "group": "Vietnamese",
+    "estimate": 1924,
+    "total": 897198,
+    "pct": 0.21
+  },
+  {
+    "NAME": "Tennessee",
+    "group": "Arabic",
+    "estimate": 64618,
+    "total": 7123348,
+    "pct": 0.91
+  },
+  {
+    "NAME": "Tennessee",
+    "group": "Armenian",
+    "estimate": 248,
+    "total": 7123348,
+    "pct": 0
+  },
+  {
+    "NAME": "Tennessee",
+    "group": "Chinese",
+    "estimate": 29394,
+    "total": 7123348,
+    "pct": 0.41
+  },
+  {
+    "NAME": "Tennessee",
+    "group": "English only",
+    "estimate": 6029466,
+    "total": 7123348,
+    "pct": 84.64
+  },
+  {
+    "NAME": "Tennessee",
+    "group": "French, Haitian, Cajun",
+    "estimate": 27658,
+    "total": 7123348,
+    "pct": 0.39
+  },
+  {
+    "NAME": "Tennessee",
+    "group": "German",
+    "estimate": 33842,
+    "total": 7123348,
+    "pct": 0.48
+  },
+  {
+    "NAME": "Tennessee",
+    "group": "Greek",
+    "estimate": 2378,
+    "total": 7123348,
+    "pct": 0.03
+  },
+  {
+    "NAME": "Tennessee",
+    "group": "Hebrew",
+    "estimate": 1504,
+    "total": 7123348,
+    "pct": 0.02
+  },
+  {
+    "NAME": "Tennessee",
+    "group": "Hindi, Urdu",
+    "estimate": 19394,
+    "total": 7123348,
+    "pct": 0.27
+  },
+  {
+    "NAME": "Tennessee",
+    "group": "Japanese",
+    "estimate": 8390,
+    "total": 7123348,
+    "pct": 0.12
+  },
+  {
+    "NAME": "Tennessee",
+    "group": "Korean",
+    "estimate": 14490,
+    "total": 7123348,
+    "pct": 0.2
+  },
+  {
+    "NAME": "Tennessee",
+    "group": "Other",
+    "estimate": 128042,
+    "total": 7123348,
+    "pct": 1.8
+  },
+  {
+    "NAME": "Tennessee",
+    "group": "Other Indo-European",
+    "estimate": 16326,
+    "total": 7123348,
+    "pct": 0.23
+  },
+  {
+    "NAME": "Tennessee",
+    "group": "Other and unspecified",
+    "estimate": 4852,
+    "total": 7123348,
+    "pct": 0.07
+  },
+  {
+    "NAME": "Tennessee",
+    "group": "Persian",
+    "estimate": 6976,
+    "total": 7123348,
+    "pct": 0.1
+  },
+  {
+    "NAME": "Tennessee",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 18664,
+    "total": 7123348,
+    "pct": 0.26
+  },
+  {
+    "NAME": "Tennessee",
+    "group": "Spanish",
+    "estimate": 665686,
+    "total": 7123348,
+    "pct": 9.35
+  },
+  {
+    "NAME": "Tennessee",
+    "group": "Tagalog",
+    "estimate": 16580,
+    "total": 7123348,
+    "pct": 0.23
+  },
+  {
+    "NAME": "Tennessee",
+    "group": "Thai, Laotian",
+    "estimate": 14740,
+    "total": 7123348,
+    "pct": 0.21
+  },
+  {
+    "NAME": "Tennessee",
+    "group": "Vietnamese",
+    "estimate": 20100,
+    "total": 7123348,
+    "pct": 0.28
+  },
+  {
+    "NAME": "Texas",
+    "group": "Arabic",
+    "estimate": 229410,
+    "total": 37372462,
+    "pct": 0.61
+  },
+  {
+    "NAME": "Texas",
+    "group": "Armenian",
+    "estimate": 3336,
+    "total": 37372462,
+    "pct": 0.01
+  },
+  {
+    "NAME": "Texas",
+    "group": "Chinese",
+    "estimate": 377350,
+    "total": 37372462,
+    "pct": 1.01
+  },
+  {
+    "NAME": "Texas",
+    "group": "English only",
+    "estimate": 18051740,
+    "total": 37372462,
+    "pct": 48.3
+  },
+  {
+    "NAME": "Texas",
+    "group": "French, Haitian, Cajun",
+    "estimate": 181724,
+    "total": 37372462,
+    "pct": 0.49
+  },
+  {
+    "NAME": "Texas",
+    "group": "German",
+    "estimate": 153060,
+    "total": 37372462,
+    "pct": 0.41
+  },
+  {
+    "NAME": "Texas",
+    "group": "Greek",
+    "estimate": 15902,
+    "total": 37372462,
+    "pct": 0.04
+  },
+  {
+    "NAME": "Texas",
+    "group": "Hebrew",
+    "estimate": 16034,
+    "total": 37372462,
+    "pct": 0.04
+  },
+  {
+    "NAME": "Texas",
+    "group": "Hindi, Urdu",
+    "estimate": 369868,
+    "total": 37372462,
+    "pct": 0.99
+  },
+  {
+    "NAME": "Texas",
+    "group": "Japanese",
+    "estimate": 45568,
+    "total": 37372462,
+    "pct": 0.12
+  },
+  {
+    "NAME": "Texas",
+    "group": "Korean",
+    "estimate": 134304,
+    "total": 37372462,
+    "pct": 0.36
+  },
+  {
+    "NAME": "Texas",
+    "group": "Other",
+    "estimate": 1240042,
+    "total": 37372462,
+    "pct": 3.32
+  },
+  {
+    "NAME": "Texas",
+    "group": "Other Indo-European",
+    "estimate": 63004,
+    "total": 37372462,
+    "pct": 0.17
+  },
+  {
+    "NAME": "Texas",
+    "group": "Other and unspecified",
+    "estimate": 23622,
+    "total": 37372462,
+    "pct": 0.06
+  },
+  {
+    "NAME": "Texas",
+    "group": "Persian",
+    "estimate": 84780,
+    "total": 37372462,
+    "pct": 0.23
+  },
+  {
+    "NAME": "Texas",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 111734,
+    "total": 37372462,
+    "pct": 0.3
+  },
+  {
+    "NAME": "Texas",
+    "group": "Spanish",
+    "estimate": 15565604,
+    "total": 37372462,
+    "pct": 41.65
+  },
+  {
+    "NAME": "Texas",
+    "group": "Tagalog",
+    "estimate": 184550,
+    "total": 37372462,
+    "pct": 0.49
+  },
+  {
+    "NAME": "Texas",
+    "group": "Thai, Laotian",
+    "estimate": 42996,
+    "total": 37372462,
+    "pct": 0.12
+  },
+  {
+    "NAME": "Texas",
+    "group": "Vietnamese",
+    "estimate": 477834,
+    "total": 37372462,
+    "pct": 1.28
+  },
+  {
+    "NAME": "Utah",
+    "group": "Arabic",
+    "estimate": 9792,
+    "total": 3577647,
+    "pct": 0.27
+  },
+  {
+    "NAME": "Utah",
+    "group": "Armenian",
+    "estimate": 1160,
+    "total": 3577647,
+    "pct": 0.03
+  },
+  {
+    "NAME": "Utah",
+    "group": "Chinese",
+    "estimate": 33906,
+    "total": 3577647,
+    "pct": 0.95
+  },
+  {
+    "NAME": "Utah",
+    "group": "English only",
+    "estimate": 2608435,
+    "total": 3577647,
+    "pct": 72.91
+  },
+  {
+    "NAME": "Utah",
+    "group": "French, Haitian, Cajun",
+    "estimate": 18214,
+    "total": 3577647,
+    "pct": 0.51
+  },
+  {
+    "NAME": "Utah",
+    "group": "German",
+    "estimate": 20836,
+    "total": 3577647,
+    "pct": 0.58
+  },
+  {
+    "NAME": "Utah",
+    "group": "Greek",
+    "estimate": 2264,
+    "total": 3577647,
+    "pct": 0.06
+  },
+  {
+    "NAME": "Utah",
+    "group": "Hebrew",
+    "estimate": 532,
+    "total": 3577647,
+    "pct": 0.01
+  },
+  {
+    "NAME": "Utah",
+    "group": "Hindi, Urdu",
+    "estimate": 7848,
+    "total": 3577647,
+    "pct": 0.22
+  },
+  {
+    "NAME": "Utah",
+    "group": "Japanese",
+    "estimate": 11438,
+    "total": 3577647,
+    "pct": 0.32
+  },
+  {
+    "NAME": "Utah",
+    "group": "Korean",
+    "estimate": 9160,
+    "total": 3577647,
+    "pct": 0.26
+  },
+  {
+    "NAME": "Utah",
+    "group": "Other",
+    "estimate": 127982,
+    "total": 3577647,
+    "pct": 3.58
+  },
+  {
+    "NAME": "Utah",
+    "group": "Other Indo-European",
+    "estimate": 8774,
+    "total": 3577647,
+    "pct": 0.25
+  },
+  {
+    "NAME": "Utah",
+    "group": "Other and unspecified",
+    "estimate": 3108,
+    "total": 3577647,
+    "pct": 0.09
+  },
+  {
+    "NAME": "Utah",
+    "group": "Persian",
+    "estimate": 5648,
+    "total": 3577647,
+    "pct": 0.16
+  },
+  {
+    "NAME": "Utah",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 13084,
+    "total": 3577647,
+    "pct": 0.37
+  },
+  {
+    "NAME": "Utah",
+    "group": "Spanish",
+    "estimate": 659608,
+    "total": 3577647,
+    "pct": 18.44
+  },
+  {
+    "NAME": "Utah",
+    "group": "Tagalog",
+    "estimate": 14530,
+    "total": 3577647,
+    "pct": 0.41
+  },
+  {
+    "NAME": "Utah",
+    "group": "Thai, Laotian",
+    "estimate": 5670,
+    "total": 3577647,
+    "pct": 0.16
+  },
+  {
+    "NAME": "Utah",
+    "group": "Vietnamese",
+    "estimate": 15658,
+    "total": 3577647,
+    "pct": 0.44
+  },
+  {
+    "NAME": "Vermont",
+    "group": "Arabic",
+    "estimate": 838,
+    "total": 651125,
+    "pct": 0.13
+  },
+  {
+    "NAME": "Vermont",
+    "group": "Armenian",
+    "estimate": 54,
+    "total": 651125,
+    "pct": 0.01
+  },
+  {
+    "NAME": "Vermont",
+    "group": "Chinese",
+    "estimate": 2990,
+    "total": 651125,
+    "pct": 0.46
+  },
+  {
+    "NAME": "Vermont",
+    "group": "English only",
+    "estimate": 583277,
+    "total": 651125,
+    "pct": 89.58
+  },
+  {
+    "NAME": "Vermont",
+    "group": "French, Haitian, Cajun",
+    "estimate": 16480,
+    "total": 651125,
+    "pct": 2.53
+  },
+  {
+    "NAME": "Vermont",
+    "group": "German",
+    "estimate": 3878,
+    "total": 651125,
+    "pct": 0.6
+  },
+  {
+    "NAME": "Vermont",
+    "group": "Greek",
+    "estimate": 402,
+    "total": 651125,
+    "pct": 0.06
+  },
+  {
+    "NAME": "Vermont",
+    "group": "Hebrew",
+    "estimate": 352,
+    "total": 651125,
+    "pct": 0.05
+  },
+  {
+    "NAME": "Vermont",
+    "group": "Hindi, Urdu",
+    "estimate": 1084,
+    "total": 651125,
+    "pct": 0.17
+  },
+  {
+    "NAME": "Vermont",
+    "group": "Japanese",
+    "estimate": 792,
+    "total": 651125,
+    "pct": 0.12
+  },
+  {
+    "NAME": "Vermont",
+    "group": "Korean",
+    "estimate": 704,
+    "total": 651125,
+    "pct": 0.11
+  },
+  {
+    "NAME": "Vermont",
+    "group": "Other",
+    "estimate": 14546,
+    "total": 651125,
+    "pct": 2.23
+  },
+  {
+    "NAME": "Vermont",
+    "group": "Other Indo-European",
+    "estimate": 1734,
+    "total": 651125,
+    "pct": 0.27
+  },
+  {
+    "NAME": "Vermont",
+    "group": "Other and unspecified",
+    "estimate": 834,
+    "total": 651125,
+    "pct": 0.13
+  },
+  {
+    "NAME": "Vermont",
+    "group": "Persian",
+    "estimate": 566,
+    "total": 651125,
+    "pct": 0.09
+  },
+  {
+    "NAME": "Vermont",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 3490,
+    "total": 651125,
+    "pct": 0.54
+  },
+  {
+    "NAME": "Vermont",
+    "group": "Spanish",
+    "estimate": 15658,
+    "total": 651125,
+    "pct": 2.4
+  },
+  {
+    "NAME": "Vermont",
+    "group": "Tagalog",
+    "estimate": 1296,
+    "total": 651125,
+    "pct": 0.2
+  },
+  {
+    "NAME": "Vermont",
+    "group": "Thai, Laotian",
+    "estimate": 1206,
+    "total": 651125,
+    "pct": 0.19
+  },
+  {
+    "NAME": "Vermont",
+    "group": "Vietnamese",
+    "estimate": 944,
+    "total": 651125,
+    "pct": 0.14
+  },
+  {
+    "NAME": "Virginia",
+    "group": "Arabic",
+    "estimate": 121068,
+    "total": 9563845,
+    "pct": 1.27
+  },
+  {
+    "NAME": "Virginia",
+    "group": "Armenian",
+    "estimate": 4494,
+    "total": 9563845,
+    "pct": 0.05
+  },
+  {
+    "NAME": "Virginia",
+    "group": "Chinese",
+    "estimate": 117600,
+    "total": 9563845,
+    "pct": 1.23
+  },
+  {
+    "NAME": "Virginia",
+    "group": "English only",
+    "estimate": 6760591,
+    "total": 9563845,
+    "pct": 70.69
+  },
+  {
+    "NAME": "Virginia",
+    "group": "French, Haitian, Cajun",
+    "estimate": 80364,
+    "total": 9563845,
+    "pct": 0.84
+  },
+  {
+    "NAME": "Virginia",
+    "group": "German",
+    "estimate": 57716,
+    "total": 9563845,
+    "pct": 0.6
+  },
+  {
+    "NAME": "Virginia",
+    "group": "Greek",
+    "estimate": 12602,
+    "total": 9563845,
+    "pct": 0.13
+  },
+  {
+    "NAME": "Virginia",
+    "group": "Hebrew",
+    "estimate": 3796,
+    "total": 9563845,
+    "pct": 0.04
+  },
+  {
+    "NAME": "Virginia",
+    "group": "Hindi, Urdu",
+    "estimate": 133450,
+    "total": 9563845,
+    "pct": 1.4
+  },
+  {
+    "NAME": "Virginia",
+    "group": "Japanese",
+    "estimate": 20776,
+    "total": 9563845,
+    "pct": 0.22
+  },
+  {
+    "NAME": "Virginia",
+    "group": "Korean",
+    "estimate": 113310,
+    "total": 9563845,
+    "pct": 1.18
+  },
+  {
+    "NAME": "Virginia",
+    "group": "Other",
+    "estimate": 460932,
+    "total": 9563845,
+    "pct": 4.82
+  },
+  {
+    "NAME": "Virginia",
+    "group": "Other Indo-European",
+    "estimate": 40056,
+    "total": 9563845,
+    "pct": 0.42
+  },
+  {
+    "NAME": "Virginia",
+    "group": "Other and unspecified",
+    "estimate": 15724,
+    "total": 9563845,
+    "pct": 0.16
+  },
+  {
+    "NAME": "Virginia",
+    "group": "Persian",
+    "estimate": 69674,
+    "total": 9563845,
+    "pct": 0.73
+  },
+  {
+    "NAME": "Virginia",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 54316,
+    "total": 9563845,
+    "pct": 0.57
+  },
+  {
+    "NAME": "Virginia",
+    "group": "Spanish",
+    "estimate": 1284216,
+    "total": 9563845,
+    "pct": 13.43
+  },
+  {
+    "NAME": "Virginia",
+    "group": "Tagalog",
+    "estimate": 92764,
+    "total": 9563845,
+    "pct": 0.97
+  },
+  {
+    "NAME": "Virginia",
+    "group": "Thai, Laotian",
+    "estimate": 18868,
+    "total": 9563845,
+    "pct": 0.2
+  },
+  {
+    "NAME": "Virginia",
+    "group": "Vietnamese",
+    "estimate": 101528,
+    "total": 9563845,
+    "pct": 1.06
+  },
+  {
+    "NAME": "Washington",
+    "group": "Arabic",
+    "estimate": 49050,
+    "total": 8836967,
+    "pct": 0.56
+  },
+  {
+    "NAME": "Washington",
+    "group": "Armenian",
+    "estimate": 3698,
+    "total": 8836967,
+    "pct": 0.04
+  },
+  {
+    "NAME": "Washington",
+    "group": "Chinese",
+    "estimate": 268120,
+    "total": 8836967,
+    "pct": 3.03
+  },
+  {
+    "NAME": "Washington",
+    "group": "English only",
+    "estimate": 5770135,
+    "total": 8836967,
+    "pct": 65.3
+  },
+  {
+    "NAME": "Washington",
+    "group": "French, Haitian, Cajun",
+    "estimate": 55160,
+    "total": 8836967,
+    "pct": 0.62
+  },
+  {
+    "NAME": "Washington",
+    "group": "German",
+    "estimate": 59614,
+    "total": 8836967,
+    "pct": 0.67
+  },
+  {
+    "NAME": "Washington",
+    "group": "Greek",
+    "estimate": 4020,
+    "total": 8836967,
+    "pct": 0.05
+  },
+  {
+    "NAME": "Washington",
+    "group": "Hebrew",
+    "estimate": 8402,
+    "total": 8836967,
+    "pct": 0.1
+  },
+  {
+    "NAME": "Washington",
+    "group": "Hindi, Urdu",
+    "estimate": 92250,
+    "total": 8836967,
+    "pct": 1.04
+  },
+  {
+    "NAME": "Washington",
+    "group": "Japanese",
+    "estimate": 53006,
+    "total": 8836967,
+    "pct": 0.6
+  },
+  {
+    "NAME": "Washington",
+    "group": "Korean",
+    "estimate": 105166,
+    "total": 8836967,
+    "pct": 1.19
+  },
+  {
+    "NAME": "Washington",
+    "group": "Other",
+    "estimate": 466962,
+    "total": 8836967,
+    "pct": 5.28
+  },
+  {
+    "NAME": "Washington",
+    "group": "Other Indo-European",
+    "estimate": 46488,
+    "total": 8836967,
+    "pct": 0.53
+  },
+  {
+    "NAME": "Washington",
+    "group": "Other and unspecified",
+    "estimate": 13630,
+    "total": 8836967,
+    "pct": 0.15
+  },
+  {
+    "NAME": "Washington",
+    "group": "Persian",
+    "estimate": 30496,
+    "total": 8836967,
+    "pct": 0.35
+  },
+  {
+    "NAME": "Washington",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 207190,
+    "total": 8836967,
+    "pct": 2.34
+  },
+  {
+    "NAME": "Washington",
+    "group": "Spanish",
+    "estimate": 1315512,
+    "total": 8836967,
+    "pct": 14.89
+  },
+  {
+    "NAME": "Washington",
+    "group": "Tagalog",
+    "estimate": 124622,
+    "total": 8836967,
+    "pct": 1.41
+  },
+  {
+    "NAME": "Washington",
+    "group": "Thai, Laotian",
+    "estimate": 25966,
+    "total": 8836967,
+    "pct": 0.29
+  },
+  {
+    "NAME": "Washington",
+    "group": "Vietnamese",
+    "estimate": 137480,
+    "total": 8836967,
+    "pct": 1.56
+  },
+  {
+    "NAME": "West Virginia",
+    "group": "Arabic",
+    "estimate": 4756,
+    "total": 1737819,
+    "pct": 0.27
+  },
+  {
+    "NAME": "West Virginia",
+    "group": "Armenian",
+    "estimate": 32,
+    "total": 1737819,
+    "pct": 0
+  },
+  {
+    "NAME": "West Virginia",
+    "group": "Chinese",
+    "estimate": 4192,
+    "total": 1737819,
+    "pct": 0.24
+  },
+  {
+    "NAME": "West Virginia",
+    "group": "English only",
+    "estimate": 1652489,
+    "total": 1737819,
+    "pct": 95.09
+  },
+  {
+    "NAME": "West Virginia",
+    "group": "French, Haitian, Cajun",
+    "estimate": 3840,
+    "total": 1737819,
+    "pct": 0.22
+  },
+  {
+    "NAME": "West Virginia",
+    "group": "German",
+    "estimate": 6018,
+    "total": 1737819,
+    "pct": 0.35
+  },
+  {
+    "NAME": "West Virginia",
+    "group": "Greek",
+    "estimate": 938,
+    "total": 1737819,
+    "pct": 0.05
+  },
+  {
+    "NAME": "West Virginia",
+    "group": "Hebrew",
+    "estimate": 0,
+    "total": 1737819,
+    "pct": 0
+  },
+  {
+    "NAME": "West Virginia",
+    "group": "Hindi, Urdu",
+    "estimate": 2742,
+    "total": 1737819,
+    "pct": 0.16
+  },
+  {
+    "NAME": "West Virginia",
+    "group": "Japanese",
+    "estimate": 1872,
+    "total": 1737819,
+    "pct": 0.11
+  },
+  {
+    "NAME": "West Virginia",
+    "group": "Korean",
+    "estimate": 1368,
+    "total": 1737819,
+    "pct": 0.08
+  },
+  {
+    "NAME": "West Virginia",
+    "group": "Other",
+    "estimate": 12420,
+    "total": 1737819,
+    "pct": 0.71
+  },
+  {
+    "NAME": "West Virginia",
+    "group": "Other Indo-European",
+    "estimate": 854,
+    "total": 1737819,
+    "pct": 0.05
+  },
+  {
+    "NAME": "West Virginia",
+    "group": "Other and unspecified",
+    "estimate": 1286,
+    "total": 1737819,
+    "pct": 0.07
+  },
+  {
+    "NAME": "West Virginia",
+    "group": "Persian",
+    "estimate": 224,
+    "total": 1737819,
+    "pct": 0.01
+  },
+  {
+    "NAME": "West Virginia",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 2132,
+    "total": 1737819,
+    "pct": 0.12
+  },
+  {
+    "NAME": "West Virginia",
+    "group": "Spanish",
+    "estimate": 37878,
+    "total": 1737819,
+    "pct": 2.18
+  },
+  {
+    "NAME": "West Virginia",
+    "group": "Tagalog",
+    "estimate": 2368,
+    "total": 1737819,
+    "pct": 0.14
+  },
+  {
+    "NAME": "West Virginia",
+    "group": "Thai, Laotian",
+    "estimate": 524,
+    "total": 1737819,
+    "pct": 0.03
+  },
+  {
+    "NAME": "West Virginia",
+    "group": "Vietnamese",
+    "estimate": 1886,
+    "total": 1737819,
+    "pct": 0.11
+  },
+  {
+    "NAME": "Wisconsin",
+    "group": "Arabic",
+    "estimate": 16312,
+    "total": 6063632,
+    "pct": 0.27
+  },
+  {
+    "NAME": "Wisconsin",
+    "group": "Armenian",
+    "estimate": 506,
+    "total": 6063632,
+    "pct": 0.01
+  },
+  {
+    "NAME": "Wisconsin",
+    "group": "Chinese",
+    "estimate": 33774,
+    "total": 6063632,
+    "pct": 0.56
+  },
+  {
+    "NAME": "Wisconsin",
+    "group": "English only",
+    "estimate": 5079512,
+    "total": 6063632,
+    "pct": 83.77
+  },
+  {
+    "NAME": "Wisconsin",
+    "group": "French, Haitian, Cajun",
+    "estimate": 17404,
+    "total": 6063632,
+    "pct": 0.29
+  },
+  {
+    "NAME": "Wisconsin",
+    "group": "German",
+    "estimate": 80014,
+    "total": 6063632,
+    "pct": 1.32
+  },
+  {
+    "NAME": "Wisconsin",
+    "group": "Greek",
+    "estimate": 4048,
+    "total": 6063632,
+    "pct": 0.07
+  },
+  {
+    "NAME": "Wisconsin",
+    "group": "Hebrew",
+    "estimate": 1902,
+    "total": 6063632,
+    "pct": 0.03
+  },
+  {
+    "NAME": "Wisconsin",
+    "group": "Hindi, Urdu",
+    "estimate": 18436,
+    "total": 6063632,
+    "pct": 0.3
+  },
+  {
+    "NAME": "Wisconsin",
+    "group": "Japanese",
+    "estimate": 5098,
+    "total": 6063632,
+    "pct": 0.08
+  },
+  {
+    "NAME": "Wisconsin",
+    "group": "Korean",
+    "estimate": 6768,
+    "total": 6063632,
+    "pct": 0.11
+  },
+  {
+    "NAME": "Wisconsin",
+    "group": "Other",
+    "estimate": 179058,
+    "total": 6063632,
+    "pct": 2.95
+  },
+  {
+    "NAME": "Wisconsin",
+    "group": "Other Indo-European",
+    "estimate": 16768,
+    "total": 6063632,
+    "pct": 0.28
+  },
+  {
+    "NAME": "Wisconsin",
+    "group": "Other and unspecified",
+    "estimate": 3218,
+    "total": 6063632,
+    "pct": 0.05
+  },
+  {
+    "NAME": "Wisconsin",
+    "group": "Persian",
+    "estimate": 3328,
+    "total": 6063632,
+    "pct": 0.05
+  },
+  {
+    "NAME": "Wisconsin",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 29228,
+    "total": 6063632,
+    "pct": 0.48
+  },
+  {
+    "NAME": "Wisconsin",
+    "group": "Spanish",
+    "estimate": 538040,
+    "total": 6063632,
+    "pct": 8.87
+  },
+  {
+    "NAME": "Wisconsin",
+    "group": "Tagalog",
+    "estimate": 14298,
+    "total": 6063632,
+    "pct": 0.24
+  },
+  {
+    "NAME": "Wisconsin",
+    "group": "Thai, Laotian",
+    "estimate": 6888,
+    "total": 6063632,
+    "pct": 0.11
+  },
+  {
+    "NAME": "Wisconsin",
+    "group": "Vietnamese",
+    "estimate": 9032,
+    "total": 6063632,
+    "pct": 0.15
+  },
+  {
+    "NAME": "Wyoming",
+    "group": "Arabic",
+    "estimate": 230,
+    "total": 585148,
+    "pct": 0.04
+  },
+  {
+    "NAME": "Wyoming",
+    "group": "Armenian",
+    "estimate": 0,
+    "total": 585148,
+    "pct": 0
+  },
+  {
+    "NAME": "Wyoming",
+    "group": "Chinese",
+    "estimate": 1672,
+    "total": 585148,
+    "pct": 0.29
+  },
+  {
+    "NAME": "Wyoming",
+    "group": "English only",
+    "estimate": 510478,
+    "total": 585148,
+    "pct": 87.24
+  },
+  {
+    "NAME": "Wyoming",
+    "group": "French, Haitian, Cajun",
+    "estimate": 2342,
+    "total": 585148,
+    "pct": 0.4
+  },
+  {
+    "NAME": "Wyoming",
+    "group": "German",
+    "estimate": 4092,
+    "total": 585148,
+    "pct": 0.7
+  },
+  {
+    "NAME": "Wyoming",
+    "group": "Greek",
+    "estimate": 148,
+    "total": 585148,
+    "pct": 0.03
+  },
+  {
+    "NAME": "Wyoming",
+    "group": "Hebrew",
+    "estimate": 92,
+    "total": 585148,
+    "pct": 0.02
+  },
+  {
+    "NAME": "Wyoming",
+    "group": "Hindi, Urdu",
+    "estimate": 186,
+    "total": 585148,
+    "pct": 0.03
+  },
+  {
+    "NAME": "Wyoming",
+    "group": "Japanese",
+    "estimate": 738,
+    "total": 585148,
+    "pct": 0.13
+  },
+  {
+    "NAME": "Wyoming",
+    "group": "Korean",
+    "estimate": 400,
+    "total": 585148,
+    "pct": 0.07
+  },
+  {
+    "NAME": "Wyoming",
+    "group": "Other",
+    "estimate": 6826,
+    "total": 585148,
+    "pct": 1.17
+  },
+  {
+    "NAME": "Wyoming",
+    "group": "Other Indo-European",
+    "estimate": 790,
+    "total": 585148,
+    "pct": 0.14
+  },
+  {
+    "NAME": "Wyoming",
+    "group": "Other and unspecified",
+    "estimate": 364,
+    "total": 585148,
+    "pct": 0.06
+  },
+  {
+    "NAME": "Wyoming",
+    "group": "Persian",
+    "estimate": 56,
+    "total": 585148,
+    "pct": 0.01
+  },
+  {
+    "NAME": "Wyoming",
+    "group": "Russian, Polish, Slavic",
+    "estimate": 2230,
+    "total": 585148,
+    "pct": 0.38
+  },
+  {
+    "NAME": "Wyoming",
+    "group": "Spanish",
+    "estimate": 51804,
+    "total": 585148,
+    "pct": 8.85
+  },
+  {
+    "NAME": "Wyoming",
+    "group": "Tagalog",
+    "estimate": 1408,
+    "total": 585148,
+    "pct": 0.24
+  },
+  {
+    "NAME": "Wyoming",
+    "group": "Thai, Laotian",
+    "estimate": 524,
+    "total": 585148,
+    "pct": 0.09
+  },
+  {
+    "NAME": "Wyoming",
+    "group": "Vietnamese",
+    "estimate": 768,
+    "total": 585148,
+    "pct": 0.13
+  }
+]
