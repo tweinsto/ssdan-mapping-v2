@@ -1,0 +1,1028 @@
+{
+  "state": "Aleutians East Borough",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 99068
+        },
+        {
+          "label": "Asian",
+          "value": 46476
+        },
+        {
+          "label": "Black or African American",
+          "value": 21801
+        },
+        {
+          "label": "Hispanic",
+          "value": 52473
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11163
+        },
+        {
+          "label": "Two or More Races",
+          "value": 70387
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 428104
+        }
+      ]
+    },
+    "Aleutians East Borough, Alaska": {
+      "label": "Aleutians East Borough, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1231
+        },
+        {
+          "label": "Asian",
+          "value": 727
+        },
+        {
+          "label": "Black or African American",
+          "value": 201
+        },
+        {
+          "label": "Hispanic",
+          "value": 360
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 32
+        },
+        {
+          "label": "Two or More Races",
+          "value": 325
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 528
+        }
+      ]
+    },
+    "Aleutians West Census Area, Alaska": {
+      "label": "Aleutians West Census Area, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 399
+        },
+        {
+          "label": "Asian",
+          "value": 2107
+        },
+        {
+          "label": "Black or African American",
+          "value": 273
+        },
+        {
+          "label": "Hispanic",
+          "value": 715
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 98
+        },
+        {
+          "label": "Two or More Races",
+          "value": 357
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1229
+        }
+      ]
+    },
+    "Anchorage Municipality, Alaska": {
+      "label": "Anchorage Municipality, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20248
+        },
+        {
+          "label": "Asian",
+          "value": 27950
+        },
+        {
+          "label": "Black or African American",
+          "value": 14649
+        },
+        {
+          "label": "Hispanic",
+          "value": 26953
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8841
+        },
+        {
+          "label": "Two or More Races",
+          "value": 28911
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 159262
+        }
+      ]
+    },
+    "Bethel Census Area, Alaska": {
+      "label": "Bethel Census Area, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15448
+        },
+        {
+          "label": "Asian",
+          "value": 259
+        },
+        {
+          "label": "Black or African American",
+          "value": 212
+        },
+        {
+          "label": "Hispanic",
+          "value": 257
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 38
+        },
+        {
+          "label": "Two or More Races",
+          "value": 656
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1617
+        }
+      ]
+    },
+    "Bristol Bay Borough, Alaska": {
+      "label": "Bristol Bay Borough, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 204
+        },
+        {
+          "label": "Asian",
+          "value": 61
+        },
+        {
+          "label": "Black or African American",
+          "value": 5
+        },
+        {
+          "label": "Hispanic",
+          "value": 73
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 87
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 421
+        }
+      ]
+    },
+    "Chugach Census Area, Alaska": {
+      "label": "Chugach Census Area, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 321
+        },
+        {
+          "label": "Asian",
+          "value": 412
+        },
+        {
+          "label": "Black or African American",
+          "value": 96
+        },
+        {
+          "label": "Hispanic",
+          "value": 359
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 68
+        },
+        {
+          "label": "Two or More Races",
+          "value": 639
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5012
+        }
+      ]
+    },
+    "Copper River Census Area, Alaska": {
+      "label": "Copper River Census Area, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 922
+        },
+        {
+          "label": "Asian",
+          "value": 14
+        },
+        {
+          "label": "Black or African American",
+          "value": 3
+        },
+        {
+          "label": "Hispanic",
+          "value": 102
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 187
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1398
+        }
+      ]
+    },
+    "Denali Borough, Alaska": {
+      "label": "Denali Borough, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 57
+        },
+        {
+          "label": "Asian",
+          "value": 69
+        },
+        {
+          "label": "Black or African American",
+          "value": 21
+        },
+        {
+          "label": "Hispanic",
+          "value": 131
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 168
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1556
+        }
+      ]
+    },
+    "Dillingham Census Area, Alaska": {
+      "label": "Dillingham Census Area, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3382
+        },
+        {
+          "label": "Asian",
+          "value": 81
+        },
+        {
+          "label": "Black or African American",
+          "value": 30
+        },
+        {
+          "label": "Hispanic",
+          "value": 164
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 437
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 684
+        }
+      ]
+    },
+    "Fairbanks North Star Borough, Alaska": {
+      "label": "Fairbanks North Star Borough, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6060
+        },
+        {
+          "label": "Asian",
+          "value": 2768
+        },
+        {
+          "label": "Black or African American",
+          "value": 3494
+        },
+        {
+          "label": "Hispanic",
+          "value": 7825
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 578
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9720
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 64461
+        }
+      ]
+    },
+    "Haines Borough, Alaska": {
+      "label": "Haines Borough, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 93
+        },
+        {
+          "label": "Asian",
+          "value": 78
+        },
+        {
+          "label": "Black or African American",
+          "value": 5
+        },
+        {
+          "label": "Hispanic",
+          "value": 83
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 195
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1607
+        }
+      ]
+    },
+    "Hoonah-Angoon Census Area, Alaska": {
+      "label": "Hoonah-Angoon Census Area, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 576
+        },
+        {
+          "label": "Asian",
+          "value": 36
+        },
+        {
+          "label": "Black or African American",
+          "value": 9
+        },
+        {
+          "label": "Hispanic",
+          "value": 250
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 300
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1138
+        }
+      ]
+    },
+    "Juneau City and Borough, Alaska": {
+      "label": "Juneau City and Borough, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2659
+        },
+        {
+          "label": "Asian",
+          "value": 2210
+        },
+        {
+          "label": "Black or African American",
+          "value": 224
+        },
+        {
+          "label": "Hispanic",
+          "value": 2234
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 443
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4346
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19748
+        }
+      ]
+    },
+    "Kenai Peninsula Borough, Alaska": {
+      "label": "Kenai Peninsula Borough, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3802
+        },
+        {
+          "label": "Asian",
+          "value": 1092
+        },
+        {
+          "label": "Black or African American",
+          "value": 325
+        },
+        {
+          "label": "Hispanic",
+          "value": 2547
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 193
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4880
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 46602
+        }
+      ]
+    },
+    "Ketchikan Gateway Borough, Alaska": {
+      "label": "Ketchikan Gateway Borough, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1733
+        },
+        {
+          "label": "Asian",
+          "value": 1242
+        },
+        {
+          "label": "Black or African American",
+          "value": 58
+        },
+        {
+          "label": "Hispanic",
+          "value": 730
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 28
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1520
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8522
+        }
+      ]
+    },
+    "Kodiak Island Borough, Alaska": {
+      "label": "Kodiak Island Borough, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1461
+        },
+        {
+          "label": "Asian",
+          "value": 2851
+        },
+        {
+          "label": "Black or African American",
+          "value": 76
+        },
+        {
+          "label": "Hispanic",
+          "value": 1051
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1414
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5928
+        }
+      ]
+    },
+    "Kusilvak Census Area, Alaska": {
+      "label": "Kusilvak Census Area, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7154
+        },
+        {
+          "label": "Asian",
+          "value": 24
+        },
+        {
+          "label": "Black or African American",
+          "value": 73
+        },
+        {
+          "label": "Hispanic",
+          "value": 136
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 624
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 254
+        }
+      ]
+    },
+    "Lake and Peninsula Borough, Alaska": {
+      "label": "Lake and Peninsula Borough, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 533
+        },
+        {
+          "label": "Asian",
+          "value": 24
+        },
+        {
+          "label": "Black or African American",
+          "value": 23
+        },
+        {
+          "label": "Hispanic",
+          "value": 11
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 247
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 165
+        }
+      ]
+    },
+    "Matanuska-Susitna Borough, Alaska": {
+      "label": "Matanuska-Susitna Borough, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6195
+        },
+        {
+          "label": "Asian",
+          "value": 1901
+        },
+        {
+          "label": "Black or African American",
+          "value": 1416
+        },
+        {
+          "label": "Hispanic",
+          "value": 5748
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 407
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9771
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 84590
+        }
+      ]
+    },
+    "Nome Census Area, Alaska": {
+      "label": "Nome Census Area, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7405
+        },
+        {
+          "label": "Asian",
+          "value": 165
+        },
+        {
+          "label": "Black or African American",
+          "value": 103
+        },
+        {
+          "label": "Hispanic",
+          "value": 207
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 672
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1373
+        }
+      ]
+    },
+    "North Slope Borough, Alaska": {
+      "label": "North Slope Borough, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5158
+        },
+        {
+          "label": "Asian",
+          "value": 555
+        },
+        {
+          "label": "Black or African American",
+          "value": 175
+        },
+        {
+          "label": "Hispanic",
+          "value": 578
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 209
+        },
+        {
+          "label": "Two or More Races",
+          "value": 809
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3395
+        }
+      ]
+    },
+    "Northwest Arctic Borough, Alaska": {
+      "label": "Northwest Arctic Borough, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6097
+        },
+        {
+          "label": "Asian",
+          "value": 191
+        },
+        {
+          "label": "Black or African American",
+          "value": 42
+        },
+        {
+          "label": "Hispanic",
+          "value": 159
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 375
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 735
+        }
+      ]
+    },
+    "Petersburg Borough, Alaska": {
+      "label": "Petersburg Borough, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 194
+        },
+        {
+          "label": "Asian",
+          "value": 446
+        },
+        {
+          "label": "Black or African American",
+          "value": 50
+        },
+        {
+          "label": "Hispanic",
+          "value": 303
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 23
+        },
+        {
+          "label": "Two or More Races",
+          "value": 353
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2007
+        }
+      ]
+    },
+    "Prince of Wales-Hyder Census Area, Alaska": {
+      "label": "Prince of Wales-Hyder Census Area, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2098
+        },
+        {
+          "label": "Asian",
+          "value": 106
+        },
+        {
+          "label": "Black or African American",
+          "value": 21
+        },
+        {
+          "label": "Hispanic",
+          "value": 207
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 39
+        },
+        {
+          "label": "Two or More Races",
+          "value": 731
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2510
+        }
+      ]
+    },
+    "Sitka City and Borough, Alaska": {
+      "label": "Sitka City and Borough, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 723
+        },
+        {
+          "label": "Asian",
+          "value": 607
+        },
+        {
+          "label": "Black or African American",
+          "value": 31
+        },
+        {
+          "label": "Hispanic",
+          "value": 575
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 74
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1251
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5022
+        }
+      ]
+    },
+    "Skagway Municipality, Alaska": {
+      "label": "Skagway Municipality, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 57
+        },
+        {
+          "label": "Asian",
+          "value": 103
+        },
+        {
+          "label": "Black or African American",
+          "value": 29
+        },
+        {
+          "label": "Hispanic",
+          "value": 64
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 154
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 901
+        }
+      ]
+    },
+    "Southeast Fairbanks Census Area, Alaska": {
+      "label": "Southeast Fairbanks Census Area, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 837
+        },
+        {
+          "label": "Asian",
+          "value": 137
+        },
+        {
+          "label": "Black or African American",
+          "value": 61
+        },
+        {
+          "label": "Hispanic",
+          "value": 402
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 462
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5026
+        }
+      ]
+    },
+    "Wrangell City and Borough, Alaska": {
+      "label": "Wrangell City and Borough, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 420
+        },
+        {
+          "label": "Asian",
+          "value": 86
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 116
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 26
+        },
+        {
+          "label": "Two or More Races",
+          "value": 315
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1141
+        }
+      ]
+    },
+    "Yakutat City and Borough, Alaska": {
+      "label": "Yakutat City and Borough, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 127
+        },
+        {
+          "label": "Asian",
+          "value": 100
+        },
+        {
+          "label": "Black or African American",
+          "value": 28
+        },
+        {
+          "label": "Hispanic",
+          "value": 24
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 93
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 125
+        }
+      ]
+    },
+    "Yukon-Koyukuk Census Area, Alaska": {
+      "label": "Yukon-Koyukuk Census Area, Alaska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3474
+        },
+        {
+          "label": "Asian",
+          "value": 74
+        },
+        {
+          "label": "Black or African American",
+          "value": 66
+        },
+        {
+          "label": "Hispanic",
+          "value": 109
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 388
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1147
+        }
+      ]
+    }
+  }
+}

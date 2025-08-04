@@ -1,0 +1,3305 @@
+{
+  "state": "Adair County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5517
+        },
+        {
+          "label": "Asian",
+          "value": 77490
+        },
+        {
+          "label": "Black or African American",
+          "value": 120196
+        },
+        {
+          "label": "Hispanic",
+          "value": 223471
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4248
+        },
+        {
+          "label": "Two or More Races",
+          "value": 102413
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2654679
+        }
+      ]
+    },
+    "Adair County, Iowa": {
+      "label": "Adair County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 27
+        },
+        {
+          "label": "Black or African American",
+          "value": 101
+        },
+        {
+          "label": "Hispanic",
+          "value": 214
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 91
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6980
+        }
+      ]
+    },
+    "Adams County, Iowa": {
+      "label": "Adams County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 13
+        },
+        {
+          "label": "Hispanic",
+          "value": 27
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 125
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3453
+        }
+      ]
+    },
+    "Allamakee County, Iowa": {
+      "label": "Allamakee County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 76
+        },
+        {
+          "label": "Black or African American",
+          "value": 246
+        },
+        {
+          "label": "Hispanic",
+          "value": 1225
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 199
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12269
+        }
+      ]
+    },
+    "Appanoose County, Iowa": {
+      "label": "Appanoose County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 53
+        },
+        {
+          "label": "Black or African American",
+          "value": 121
+        },
+        {
+          "label": "Hispanic",
+          "value": 212
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 319
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11530
+        }
+      ]
+    },
+    "Audubon County, Iowa": {
+      "label": "Audubon County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 2
+        },
+        {
+          "label": "Black or African American",
+          "value": 15
+        },
+        {
+          "label": "Hispanic",
+          "value": 115
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 125
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5328
+        }
+      ]
+    },
+    "Benton County, Iowa": {
+      "label": "Benton County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 51
+        },
+        {
+          "label": "Black or African American",
+          "value": 91
+        },
+        {
+          "label": "Hispanic",
+          "value": 479
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 654
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24346
+        }
+      ]
+    },
+    "Black Hawk County, Iowa": {
+      "label": "Black Hawk County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 113
+        },
+        {
+          "label": "Asian",
+          "value": 3180
+        },
+        {
+          "label": "Black or African American",
+          "value": 12370
+        },
+        {
+          "label": "Hispanic",
+          "value": 6579
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 706
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4627
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 102976
+        }
+      ]
+    },
+    "Boone County, Iowa": {
+      "label": "Boone County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 46
+        },
+        {
+          "label": "Black or African American",
+          "value": 340
+        },
+        {
+          "label": "Hispanic",
+          "value": 754
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 634
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24883
+        }
+      ]
+    },
+    "Bremer County, Iowa": {
+      "label": "Bremer County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 255
+        },
+        {
+          "label": "Black or African American",
+          "value": 272
+        },
+        {
+          "label": "Hispanic",
+          "value": 502
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 587
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23298
+        }
+      ]
+    },
+    "Buchanan County, Iowa": {
+      "label": "Buchanan County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 46
+        },
+        {
+          "label": "Black or African American",
+          "value": 154
+        },
+        {
+          "label": "Hispanic",
+          "value": 372
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 16
+        },
+        {
+          "label": "Two or More Races",
+          "value": 375
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19662
+        }
+      ]
+    },
+    "Buena Vista County, Iowa": {
+      "label": "Buena Vista County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 2073
+        },
+        {
+          "label": "Black or African American",
+          "value": 637
+        },
+        {
+          "label": "Hispanic",
+          "value": 5924
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 519
+        },
+        {
+          "label": "Two or More Races",
+          "value": 398
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11058
+        }
+      ]
+    },
+    "Butler County, Iowa": {
+      "label": "Butler County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 168
+        },
+        {
+          "label": "Black or African American",
+          "value": 24
+        },
+        {
+          "label": "Hispanic",
+          "value": 231
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 199
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13575
+        }
+      ]
+    },
+    "Calhoun County, Iowa": {
+      "label": "Calhoun County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 22
+        },
+        {
+          "label": "Black or African American",
+          "value": 149
+        },
+        {
+          "label": "Hispanic",
+          "value": 251
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 357
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9028
+        }
+      ]
+    },
+    "Carroll County, Iowa": {
+      "label": "Carroll County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 120
+        },
+        {
+          "label": "Black or African American",
+          "value": 142
+        },
+        {
+          "label": "Hispanic",
+          "value": 660
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 485
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19199
+        }
+      ]
+    },
+    "Cass County, Iowa": {
+      "label": "Cass County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 45
+        },
+        {
+          "label": "Black or African American",
+          "value": 112
+        },
+        {
+          "label": "Hispanic",
+          "value": 341
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 44
+        },
+        {
+          "label": "Two or More Races",
+          "value": 178
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12354
+        }
+      ]
+    },
+    "Cedar County, Iowa": {
+      "label": "Cedar County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 99
+        },
+        {
+          "label": "Black or African American",
+          "value": 85
+        },
+        {
+          "label": "Hispanic",
+          "value": 474
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 415
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17286
+        }
+      ]
+    },
+    "Cerro Gordo County, Iowa": {
+      "label": "Cerro Gordo County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 67
+        },
+        {
+          "label": "Asian",
+          "value": 518
+        },
+        {
+          "label": "Black or African American",
+          "value": 832
+        },
+        {
+          "label": "Hispanic",
+          "value": 2331
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 168
+        },
+        {
+          "label": "Two or More Races",
+          "value": 820
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 38032
+        }
+      ]
+    },
+    "Cherokee County, Iowa": {
+      "label": "Cherokee County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 67
+        },
+        {
+          "label": "Black or African American",
+          "value": 107
+        },
+        {
+          "label": "Hispanic",
+          "value": 551
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 448
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10395
+        }
+      ]
+    },
+    "Chickasaw County, Iowa": {
+      "label": "Chickasaw County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 37
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 88
+        },
+        {
+          "label": "Hispanic",
+          "value": 470
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 163
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11087
+        }
+      ]
+    },
+    "Clarke County, Iowa": {
+      "label": "Clarke County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 56
+        },
+        {
+          "label": "Black or African American",
+          "value": 4
+        },
+        {
+          "label": "Hispanic",
+          "value": 1579
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 473
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7557
+        }
+      ]
+    },
+    "Clay County, Iowa": {
+      "label": "Clay County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 71
+        },
+        {
+          "label": "Asian",
+          "value": 54
+        },
+        {
+          "label": "Black or African American",
+          "value": 90
+        },
+        {
+          "label": "Hispanic",
+          "value": 743
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 386
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15085
+        }
+      ]
+    },
+    "Clayton County, Iowa": {
+      "label": "Clayton County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 53
+        },
+        {
+          "label": "Black or African American",
+          "value": 110
+        },
+        {
+          "label": "Hispanic",
+          "value": 381
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 262
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16245
+        }
+      ]
+    },
+    "Clinton County, Iowa": {
+      "label": "Clinton County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 350
+        },
+        {
+          "label": "Black or African American",
+          "value": 1332
+        },
+        {
+          "label": "Hispanic",
+          "value": 1622
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1493
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 41505
+        }
+      ]
+    },
+    "Crawford County, Iowa": {
+      "label": "Crawford County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 351
+        },
+        {
+          "label": "Black or African American",
+          "value": 293
+        },
+        {
+          "label": "Hispanic",
+          "value": 4895
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 508
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10228
+        }
+      ]
+    },
+    "Dallas County, Iowa": {
+      "label": "Dallas County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 27
+        },
+        {
+          "label": "Asian",
+          "value": 4836
+        },
+        {
+          "label": "Black or African American",
+          "value": 2566
+        },
+        {
+          "label": "Hispanic",
+          "value": 6954
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4142
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 85128
+        }
+      ]
+    },
+    "Davis County, Iowa": {
+      "label": "Davis County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 181
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 185
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8677
+        }
+      ]
+    },
+    "Decatur County, Iowa": {
+      "label": "Decatur County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 22
+        },
+        {
+          "label": "Asian",
+          "value": 40
+        },
+        {
+          "label": "Black or African American",
+          "value": 125
+        },
+        {
+          "label": "Hispanic",
+          "value": 250
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 220
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6974
+        }
+      ]
+    },
+    "Delaware County, Iowa": {
+      "label": "Delaware County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 14
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 284
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 486
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16687
+        }
+      ]
+    },
+    "Des Moines County, Iowa": {
+      "label": "Des Moines County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 36
+        },
+        {
+          "label": "Asian",
+          "value": 439
+        },
+        {
+          "label": "Black or African American",
+          "value": 1610
+        },
+        {
+          "label": "Hispanic",
+          "value": 1351
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2247
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32877
+        }
+      ]
+    },
+    "Dickinson County, Iowa": {
+      "label": "Dickinson County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 132
+        },
+        {
+          "label": "Black or African American",
+          "value": 10
+        },
+        {
+          "label": "Hispanic",
+          "value": 478
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 476
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16744
+        }
+      ]
+    },
+    "Dubuque County, Iowa": {
+      "label": "Dubuque County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 97
+        },
+        {
+          "label": "Asian",
+          "value": 1191
+        },
+        {
+          "label": "Black or African American",
+          "value": 2859
+        },
+        {
+          "label": "Hispanic",
+          "value": 3049
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 748
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2924
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 87977
+        }
+      ]
+    },
+    "Emmet County, Iowa": {
+      "label": "Emmet County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 20
+        },
+        {
+          "label": "Black or African American",
+          "value": 182
+        },
+        {
+          "label": "Hispanic",
+          "value": 918
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 179
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7974
+        }
+      ]
+    },
+    "Fayette County, Iowa": {
+      "label": "Fayette County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 94
+        },
+        {
+          "label": "Asian",
+          "value": 134
+        },
+        {
+          "label": "Black or African American",
+          "value": 162
+        },
+        {
+          "label": "Hispanic",
+          "value": 566
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 728
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17693
+        }
+      ]
+    },
+    "Floyd County, Iowa": {
+      "label": "Floyd County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 245
+        },
+        {
+          "label": "Black or African American",
+          "value": 183
+        },
+        {
+          "label": "Hispanic",
+          "value": 579
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 710
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13769
+        }
+      ]
+    },
+    "Franklin County, Iowa": {
+      "label": "Franklin County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 19
+        },
+        {
+          "label": "Black or African American",
+          "value": 59
+        },
+        {
+          "label": "Hispanic",
+          "value": 1609
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 194
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8065
+        }
+      ]
+    },
+    "Fremont County, Iowa": {
+      "label": "Fremont County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 31
+        },
+        {
+          "label": "Hispanic",
+          "value": 213
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 217
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6093
+        }
+      ]
+    },
+    "Greene County, Iowa": {
+      "label": "Greene County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 51
+        },
+        {
+          "label": "Black or African American",
+          "value": 12
+        },
+        {
+          "label": "Hispanic",
+          "value": 284
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 262
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8087
+        }
+      ]
+    },
+    "Grundy County, Iowa": {
+      "label": "Grundy County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 57
+        },
+        {
+          "label": "Black or African American",
+          "value": 86
+        },
+        {
+          "label": "Hispanic",
+          "value": 189
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 111
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11806
+        }
+      ]
+    },
+    "Guthrie County, Iowa": {
+      "label": "Guthrie County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 40
+        },
+        {
+          "label": "Black or African American",
+          "value": 50
+        },
+        {
+          "label": "Hispanic",
+          "value": 310
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 252
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9936
+        }
+      ]
+    },
+    "Hamilton County, Iowa": {
+      "label": "Hamilton County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 285
+        },
+        {
+          "label": "Black or African American",
+          "value": 181
+        },
+        {
+          "label": "Hispanic",
+          "value": 1438
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 27
+        },
+        {
+          "label": "Two or More Races",
+          "value": 367
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12539
+        }
+      ]
+    },
+    "Hancock County, Iowa": {
+      "label": "Hancock County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 66
+        },
+        {
+          "label": "Black or African American",
+          "value": 94
+        },
+        {
+          "label": "Hispanic",
+          "value": 620
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 173
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9698
+        }
+      ]
+    },
+    "Hardin County, Iowa": {
+      "label": "Hardin County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 44
+        },
+        {
+          "label": "Asian",
+          "value": 153
+        },
+        {
+          "label": "Black or African American",
+          "value": 168
+        },
+        {
+          "label": "Hispanic",
+          "value": 848
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 311
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15169
+        }
+      ]
+    },
+    "Harrison County, Iowa": {
+      "label": "Harrison County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 45
+        },
+        {
+          "label": "Black or African American",
+          "value": 11
+        },
+        {
+          "label": "Hispanic",
+          "value": 305
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 367
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13906
+        }
+      ]
+    },
+    "Henry County, Iowa": {
+      "label": "Henry County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 34
+        },
+        {
+          "label": "Asian",
+          "value": 202
+        },
+        {
+          "label": "Black or African American",
+          "value": 530
+        },
+        {
+          "label": "Hispanic",
+          "value": 1092
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 805
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17511
+        }
+      ]
+    },
+    "Howard County, Iowa": {
+      "label": "Howard County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 24
+        },
+        {
+          "label": "Asian",
+          "value": 35
+        },
+        {
+          "label": "Black or African American",
+          "value": 5
+        },
+        {
+          "label": "Hispanic",
+          "value": 288
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 244
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8851
+        }
+      ]
+    },
+    "Humboldt County, Iowa": {
+      "label": "Humboldt County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 73
+        },
+        {
+          "label": "Black or African American",
+          "value": 32
+        },
+        {
+          "label": "Hispanic",
+          "value": 492
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 75
+        },
+        {
+          "label": "Two or More Races",
+          "value": 157
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8719
+        }
+      ]
+    },
+    "Ida County, Iowa": {
+      "label": "Ida County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 28
+        },
+        {
+          "label": "Black or African American",
+          "value": 59
+        },
+        {
+          "label": "Hispanic",
+          "value": 271
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 159
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6404
+        }
+      ]
+    },
+    "Iowa County, Iowa": {
+      "label": "Iowa County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 36
+        },
+        {
+          "label": "Black or African American",
+          "value": 73
+        },
+        {
+          "label": "Hispanic",
+          "value": 552
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 407
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15447
+        }
+      ]
+    },
+    "Jackson County, Iowa": {
+      "label": "Jackson County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 38
+        },
+        {
+          "label": "Asian",
+          "value": 83
+        },
+        {
+          "label": "Black or African American",
+          "value": 149
+        },
+        {
+          "label": "Hispanic",
+          "value": 288
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 38
+        },
+        {
+          "label": "Two or More Races",
+          "value": 379
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18380
+        }
+      ]
+    },
+    "Jasper County, Iowa": {
+      "label": "Jasper County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 25
+        },
+        {
+          "label": "Asian",
+          "value": 209
+        },
+        {
+          "label": "Black or African American",
+          "value": 589
+        },
+        {
+          "label": "Hispanic",
+          "value": 1110
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 60
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1053
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 34781
+        }
+      ]
+    },
+    "Jefferson County, Iowa": {
+      "label": "Jefferson County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 723
+        },
+        {
+          "label": "Black or African American",
+          "value": 900
+        },
+        {
+          "label": "Hispanic",
+          "value": 632
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 380
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12961
+        }
+      ]
+    },
+    "Johnson County, Iowa": {
+      "label": "Johnson County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 121
+        },
+        {
+          "label": "Asian",
+          "value": 8954
+        },
+        {
+          "label": "Black or African American",
+          "value": 11552
+        },
+        {
+          "label": "Hispanic",
+          "value": 10312
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 49
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6253
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 116962
+        }
+      ]
+    },
+    "Jones County, Iowa": {
+      "label": "Jones County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 126
+        },
+        {
+          "label": "Black or African American",
+          "value": 420
+        },
+        {
+          "label": "Hispanic",
+          "value": 516
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 595
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19110
+        }
+      ]
+    },
+    "Keokuk County, Iowa": {
+      "label": "Keokuk County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 65
+        },
+        {
+          "label": "Hispanic",
+          "value": 221
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 175
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9480
+        }
+      ]
+    },
+    "Kossuth County, Iowa": {
+      "label": "Kossuth County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 63
+        },
+        {
+          "label": "Black or African American",
+          "value": 80
+        },
+        {
+          "label": "Hispanic",
+          "value": 612
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 348
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13467
+        }
+      ]
+    },
+    "Lee County, Iowa": {
+      "label": "Lee County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 22
+        },
+        {
+          "label": "Asian",
+          "value": 145
+        },
+        {
+          "label": "Black or African American",
+          "value": 902
+        },
+        {
+          "label": "Hispanic",
+          "value": 1134
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 919
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30029
+        }
+      ]
+    },
+    "Linn County, Iowa": {
+      "label": "Linn County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 210
+        },
+        {
+          "label": "Asian",
+          "value": 5185
+        },
+        {
+          "label": "Black or African American",
+          "value": 12979
+        },
+        {
+          "label": "Hispanic",
+          "value": 9120
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 45
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10362
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 190404
+        }
+      ]
+    },
+    "Louisa County, Iowa": {
+      "label": "Louisa County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 202
+        },
+        {
+          "label": "Black or African American",
+          "value": 47
+        },
+        {
+          "label": "Hispanic",
+          "value": 1730
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 424
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8307
+        }
+      ]
+    },
+    "Lucas County, Iowa": {
+      "label": "Lucas County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 70
+        },
+        {
+          "label": "Black or African American",
+          "value": 17
+        },
+        {
+          "label": "Hispanic",
+          "value": 239
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 147
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8211
+        }
+      ]
+    },
+    "Lyon County, Iowa": {
+      "label": "Lyon County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 54
+        },
+        {
+          "label": "Black or African American",
+          "value": 36
+        },
+        {
+          "label": "Hispanic",
+          "value": 421
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 197
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11361
+        }
+      ]
+    },
+    "Madison County, Iowa": {
+      "label": "Madison County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 58
+        },
+        {
+          "label": "Black or African American",
+          "value": 132
+        },
+        {
+          "label": "Hispanic",
+          "value": 367
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 368
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15813
+        }
+      ]
+    },
+    "Mahaska County, Iowa": {
+      "label": "Mahaska County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 258
+        },
+        {
+          "label": "Black or African American",
+          "value": 325
+        },
+        {
+          "label": "Hispanic",
+          "value": 528
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 578
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20334
+        }
+      ]
+    },
+    "Marion County, Iowa": {
+      "label": "Marion County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 27
+        },
+        {
+          "label": "Asian",
+          "value": 434
+        },
+        {
+          "label": "Black or African American",
+          "value": 170
+        },
+        {
+          "label": "Hispanic",
+          "value": 748
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 716
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 31407
+        }
+      ]
+    },
+    "Marshall County, Iowa": {
+      "label": "Marshall County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 85
+        },
+        {
+          "label": "Asian",
+          "value": 1710
+        },
+        {
+          "label": "Black or African American",
+          "value": 600
+        },
+        {
+          "label": "Hispanic",
+          "value": 9518
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 989
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26950
+        }
+      ]
+    },
+    "Mills County, Iowa": {
+      "label": "Mills County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 62
+        },
+        {
+          "label": "Black or African American",
+          "value": 56
+        },
+        {
+          "label": "Hispanic",
+          "value": 525
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 309
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13582
+        }
+      ]
+    },
+    "Mitchell County, Iowa": {
+      "label": "Mitchell County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 64
+        },
+        {
+          "label": "Black or African American",
+          "value": 36
+        },
+        {
+          "label": "Hispanic",
+          "value": 216
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 111
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10098
+        }
+      ]
+    },
+    "Monona County, Iowa": {
+      "label": "Monona County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 55
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 13
+        },
+        {
+          "label": "Hispanic",
+          "value": 217
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 287
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8041
+        }
+      ]
+    },
+    "Monroe County, Iowa": {
+      "label": "Monroe County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 62
+        },
+        {
+          "label": "Black or African American",
+          "value": 16
+        },
+        {
+          "label": "Hispanic",
+          "value": 58
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 205
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7176
+        }
+      ]
+    },
+    "Montgomery County, Iowa": {
+      "label": "Montgomery County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 32
+        },
+        {
+          "label": "Asian",
+          "value": 57
+        },
+        {
+          "label": "Black or African American",
+          "value": 59
+        },
+        {
+          "label": "Hispanic",
+          "value": 177
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 54
+        },
+        {
+          "label": "Two or More Races",
+          "value": 313
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9485
+        }
+      ]
+    },
+    "Muscatine County, Iowa": {
+      "label": "Muscatine County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 274
+        },
+        {
+          "label": "Black or African American",
+          "value": 1216
+        },
+        {
+          "label": "Hispanic",
+          "value": 7878
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1057
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32174
+        }
+      ]
+    },
+    "O'Brien County, Iowa": {
+      "label": "O'Brien County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 24
+        },
+        {
+          "label": "Asian",
+          "value": 86
+        },
+        {
+          "label": "Black or African American",
+          "value": 186
+        },
+        {
+          "label": "Hispanic",
+          "value": 1009
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 42
+        },
+        {
+          "label": "Two or More Races",
+          "value": 253
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12487
+        }
+      ]
+    },
+    "Osceola County, Iowa": {
+      "label": "Osceola County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 30
+        },
+        {
+          "label": "Asian",
+          "value": 58
+        },
+        {
+          "label": "Black or African American",
+          "value": 46
+        },
+        {
+          "label": "Hispanic",
+          "value": 618
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 151
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5200
+        }
+      ]
+    },
+    "Page County, Iowa": {
+      "label": "Page County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 99
+        },
+        {
+          "label": "Black or African American",
+          "value": 279
+        },
+        {
+          "label": "Hispanic",
+          "value": 498
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 490
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13729
+        }
+      ]
+    },
+    "Palo Alto County, Iowa": {
+      "label": "Palo Alto County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 56
+        },
+        {
+          "label": "Black or African American",
+          "value": 155
+        },
+        {
+          "label": "Hispanic",
+          "value": 293
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 237
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8153
+        }
+      ]
+    },
+    "Plymouth County, Iowa": {
+      "label": "Plymouth County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 57
+        },
+        {
+          "label": "Asian",
+          "value": 135
+        },
+        {
+          "label": "Black or African American",
+          "value": 607
+        },
+        {
+          "label": "Hispanic",
+          "value": 1578
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 13
+        },
+        {
+          "label": "Two or More Races",
+          "value": 488
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22809
+        }
+      ]
+    },
+    "Pocahontas County, Iowa": {
+      "label": "Pocahontas County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 43
+        },
+        {
+          "label": "Hispanic",
+          "value": 383
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 70
+        },
+        {
+          "label": "Two or More Races",
+          "value": 204
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6336
+        }
+      ]
+    },
+    "Polk County, Iowa": {
+      "label": "Polk County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 400
+        },
+        {
+          "label": "Asian",
+          "value": 24354
+        },
+        {
+          "label": "Black or African American",
+          "value": 36708
+        },
+        {
+          "label": "Hispanic",
+          "value": 49816
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 33
+        },
+        {
+          "label": "Two or More Races",
+          "value": 16485
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 368617
+        }
+      ]
+    },
+    "Pottawattamie County, Iowa": {
+      "label": "Pottawattamie County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 144
+        },
+        {
+          "label": "Asian",
+          "value": 863
+        },
+        {
+          "label": "Black or African American",
+          "value": 1624
+        },
+        {
+          "label": "Hispanic",
+          "value": 8127
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 115
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2582
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 79725
+        }
+      ]
+    },
+    "Poweshiek County, Iowa": {
+      "label": "Poweshiek County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 42
+        },
+        {
+          "label": "Asian",
+          "value": 389
+        },
+        {
+          "label": "Black or African American",
+          "value": 209
+        },
+        {
+          "label": "Hispanic",
+          "value": 615
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 470
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16856
+        }
+      ]
+    },
+    "Ringgold County, Iowa": {
+      "label": "Ringgold County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 9
+        },
+        {
+          "label": "Hispanic",
+          "value": 93
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 130
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4432
+        }
+      ]
+    },
+    "Sac County, Iowa": {
+      "label": "Sac County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 65
+        },
+        {
+          "label": "Black or African American",
+          "value": 50
+        },
+        {
+          "label": "Hispanic",
+          "value": 398
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 44
+        },
+        {
+          "label": "Two or More Races",
+          "value": 76
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9082
+        }
+      ]
+    },
+    "Scott County, Iowa": {
+      "label": "Scott County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 200
+        },
+        {
+          "label": "Asian",
+          "value": 5098
+        },
+        {
+          "label": "Black or African American",
+          "value": 12177
+        },
+        {
+          "label": "Hispanic",
+          "value": 12512
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 80
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8189
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 135337
+        }
+      ]
+    },
+    "Shelby County, Iowa": {
+      "label": "Shelby County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 55
+        },
+        {
+          "label": "Hispanic",
+          "value": 440
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 379
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10829
+        }
+      ]
+    },
+    "Sioux County, Iowa": {
+      "label": "Sioux County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 215
+        },
+        {
+          "label": "Black or African American",
+          "value": 212
+        },
+        {
+          "label": "Hispanic",
+          "value": 4970
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 373
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30087
+        }
+      ]
+    },
+    "Story County, Iowa": {
+      "label": "Story County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 144
+        },
+        {
+          "label": "Asian",
+          "value": 6664
+        },
+        {
+          "label": "Black or African American",
+          "value": 2606
+        },
+        {
+          "label": "Hispanic",
+          "value": 4943
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 64
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3727
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 80243
+        }
+      ]
+    },
+    "Tama County, Iowa": {
+      "label": "Tama County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 982
+        },
+        {
+          "label": "Asian",
+          "value": 107
+        },
+        {
+          "label": "Black or African American",
+          "value": 173
+        },
+        {
+          "label": "Hispanic",
+          "value": 1919
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 390
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13393
+        }
+      ]
+    },
+    "Taylor County, Iowa": {
+      "label": "Taylor County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 7
+        },
+        {
+          "label": "Hispanic",
+          "value": 461
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 122
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5266
+        }
+      ]
+    },
+    "Union County, Iowa": {
+      "label": "Union County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 55
+        },
+        {
+          "label": "Hispanic",
+          "value": 420
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 392
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11143
+        }
+      ]
+    },
+    "Van Buren County, Iowa": {
+      "label": "Van Buren County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 12
+        },
+        {
+          "label": "Black or African American",
+          "value": 15
+        },
+        {
+          "label": "Hispanic",
+          "value": 124
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 176
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6845
+        }
+      ]
+    },
+    "Wapello County, Iowa": {
+      "label": "Wapello County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 476
+        },
+        {
+          "label": "Black or African American",
+          "value": 1108
+        },
+        {
+          "label": "Hispanic",
+          "value": 4457
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 690
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1253
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27265
+        }
+      ]
+    },
+    "Warren County, Iowa": {
+      "label": "Warren County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 375
+        },
+        {
+          "label": "Black or African American",
+          "value": 345
+        },
+        {
+          "label": "Hispanic",
+          "value": 1854
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1339
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 49496
+        }
+      ]
+    },
+    "Washington County, Iowa": {
+      "label": "Washington County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 112
+        },
+        {
+          "label": "Black or African American",
+          "value": 143
+        },
+        {
+          "label": "Hispanic",
+          "value": 1668
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 464
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20105
+        }
+      ]
+    },
+    "Wayne County, Iowa": {
+      "label": "Wayne County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 28
+        },
+        {
+          "label": "Black or African American",
+          "value": 24
+        },
+        {
+          "label": "Hispanic",
+          "value": 84
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 246
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6136
+        }
+      ]
+    },
+    "Webster County, Iowa": {
+      "label": "Webster County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 71
+        },
+        {
+          "label": "Asian",
+          "value": 427
+        },
+        {
+          "label": "Black or African American",
+          "value": 1163
+        },
+        {
+          "label": "Hispanic",
+          "value": 2217
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1651
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 31190
+        }
+      ]
+    },
+    "Winnebago County, Iowa": {
+      "label": "Winnebago County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 340
+        },
+        {
+          "label": "Black or African American",
+          "value": 62
+        },
+        {
+          "label": "Hispanic",
+          "value": 616
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 87
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9515
+        }
+      ]
+    },
+    "Winneshiek County, Iowa": {
+      "label": "Winneshiek County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 50
+        },
+        {
+          "label": "Asian",
+          "value": 116
+        },
+        {
+          "label": "Black or African American",
+          "value": 136
+        },
+        {
+          "label": "Hispanic",
+          "value": 600
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 308
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18726
+        }
+      ]
+    },
+    "Woodbury County, Iowa": {
+      "label": "Woodbury County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1414
+        },
+        {
+          "label": "Asian",
+          "value": 2636
+        },
+        {
+          "label": "Black or African American",
+          "value": 4735
+        },
+        {
+          "label": "Hispanic",
+          "value": 19487
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 422
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4555
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 72293
+        }
+      ]
+    },
+    "Worth County, Iowa": {
+      "label": "Worth County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 34
+        },
+        {
+          "label": "Black or African American",
+          "value": 64
+        },
+        {
+          "label": "Hispanic",
+          "value": 249
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 119
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6909
+        }
+      ]
+    },
+    "Wright County, Iowa": {
+      "label": "Wright County, Iowa",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 80
+        },
+        {
+          "label": "Black or African American",
+          "value": 23
+        },
+        {
+          "label": "Hispanic",
+          "value": 2402
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 268
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9872
+        }
+      ]
+    }
+  }
+}

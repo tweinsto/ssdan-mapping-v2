@@ -1,0 +1,2513 @@
+{
+  "state": "Arkansas County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10800
+        },
+        {
+          "label": "Asian",
+          "value": 46492
+        },
+        {
+          "label": "Black or African American",
+          "value": 449926
+        },
+        {
+          "label": "Hispanic",
+          "value": 265833
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11906
+        },
+        {
+          "label": "Two or More Races",
+          "value": 166694
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2073216
+        }
+      ]
+    },
+    "Arkansas County, Arkansas": {
+      "label": "Arkansas County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 14
+        },
+        {
+          "label": "Black or African American",
+          "value": 4319
+        },
+        {
+          "label": "Hispanic",
+          "value": 661
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 425
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11338
+        }
+      ]
+    },
+    "Ashley County, Arkansas": {
+      "label": "Ashley County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 4606
+        },
+        {
+          "label": "Hispanic",
+          "value": 1157
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 50
+        },
+        {
+          "label": "Two or More Races",
+          "value": 240
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12646
+        }
+      ]
+    },
+    "Baxter County, Arkansas": {
+      "label": "Baxter County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 147
+        },
+        {
+          "label": "Asian",
+          "value": 273
+        },
+        {
+          "label": "Black or African American",
+          "value": 159
+        },
+        {
+          "label": "Hispanic",
+          "value": 1157
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 19
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1763
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 38626
+        }
+      ]
+    },
+    "Benton County, Arkansas": {
+      "label": "Benton County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1903
+        },
+        {
+          "label": "Asian",
+          "value": 12673
+        },
+        {
+          "label": "Black or African American",
+          "value": 5238
+        },
+        {
+          "label": "Hispanic",
+          "value": 53388
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2030
+        },
+        {
+          "label": "Two or More Races",
+          "value": 37938
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 179996
+        }
+      ]
+    },
+    "Boone County, Arkansas": {
+      "label": "Boone County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 128
+        },
+        {
+          "label": "Asian",
+          "value": 98
+        },
+        {
+          "label": "Black or African American",
+          "value": 103
+        },
+        {
+          "label": "Hispanic",
+          "value": 1120
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 38
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1180
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 35186
+        }
+      ]
+    },
+    "Bradley County, Arkansas": {
+      "label": "Bradley County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 7
+        },
+        {
+          "label": "Black or African American",
+          "value": 2735
+        },
+        {
+          "label": "Hispanic",
+          "value": 1618
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 31
+        },
+        {
+          "label": "Two or More Races",
+          "value": 324
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5639
+        }
+      ]
+    },
+    "Calhoun County, Arkansas": {
+      "label": "Calhoun County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 575
+        },
+        {
+          "label": "Hispanic",
+          "value": 544
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 159
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3419
+        }
+      ]
+    },
+    "Carroll County, Arkansas": {
+      "label": "Carroll County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 272
+        },
+        {
+          "label": "Asian",
+          "value": 448
+        },
+        {
+          "label": "Black or African American",
+          "value": 54
+        },
+        {
+          "label": "Hispanic",
+          "value": 4423
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 354
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2818
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20113
+        }
+      ]
+    },
+    "Chicot County, Arkansas": {
+      "label": "Chicot County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 26
+        },
+        {
+          "label": "Black or African American",
+          "value": 5338
+        },
+        {
+          "label": "Hispanic",
+          "value": 628
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 158
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3839
+        }
+      ]
+    },
+    "Clark County, Arkansas": {
+      "label": "Clark County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 95
+        },
+        {
+          "label": "Black or African American",
+          "value": 5052
+        },
+        {
+          "label": "Hispanic",
+          "value": 1146
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 41
+        },
+        {
+          "label": "Two or More Races",
+          "value": 551
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14466
+        }
+      ]
+    },
+    "Clay County, Arkansas": {
+      "label": "Clay County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 47
+        },
+        {
+          "label": "Asian",
+          "value": 5
+        },
+        {
+          "label": "Black or African American",
+          "value": 13
+        },
+        {
+          "label": "Hispanic",
+          "value": 120
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 705
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13508
+        }
+      ]
+    },
+    "Cleburne County, Arkansas": {
+      "label": "Cleburne County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 141
+        },
+        {
+          "label": "Asian",
+          "value": 51
+        },
+        {
+          "label": "Black or African American",
+          "value": 90
+        },
+        {
+          "label": "Hispanic",
+          "value": 713
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 851
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23085
+        }
+      ]
+    },
+    "Cleveland County, Arkansas": {
+      "label": "Cleveland County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 16
+        },
+        {
+          "label": "Black or African American",
+          "value": 984
+        },
+        {
+          "label": "Hispanic",
+          "value": 23
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 195
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6273
+        }
+      ]
+    },
+    "Columbia County, Arkansas": {
+      "label": "Columbia County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 51
+        },
+        {
+          "label": "Asian",
+          "value": 82
+        },
+        {
+          "label": "Black or African American",
+          "value": 7873
+        },
+        {
+          "label": "Hispanic",
+          "value": 757
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 560
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13179
+        }
+      ]
+    },
+    "Conway County, Arkansas": {
+      "label": "Conway County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 94
+        },
+        {
+          "label": "Asian",
+          "value": 157
+        },
+        {
+          "label": "Black or African American",
+          "value": 2297
+        },
+        {
+          "label": "Hispanic",
+          "value": 950
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 653
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16648
+        }
+      ]
+    },
+    "Craighead County, Arkansas": {
+      "label": "Craighead County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 239
+        },
+        {
+          "label": "Asian",
+          "value": 1291
+        },
+        {
+          "label": "Black or African American",
+          "value": 18660
+        },
+        {
+          "label": "Hispanic",
+          "value": 6899
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 38
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4410
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 80425
+        }
+      ]
+    },
+    "Crawford County, Arkansas": {
+      "label": "Crawford County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 639
+        },
+        {
+          "label": "Asian",
+          "value": 709
+        },
+        {
+          "label": "Black or African American",
+          "value": 706
+        },
+        {
+          "label": "Hispanic",
+          "value": 4950
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4497
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 48747
+        }
+      ]
+    },
+    "Crittenden County, Arkansas": {
+      "label": "Crittenden County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 56
+        },
+        {
+          "label": "Asian",
+          "value": 332
+        },
+        {
+          "label": "Black or African American",
+          "value": 24009
+        },
+        {
+          "label": "Hispanic",
+          "value": 1476
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2982
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18734
+        }
+      ]
+    },
+    "Cross County, Arkansas": {
+      "label": "Cross County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 45
+        },
+        {
+          "label": "Asian",
+          "value": 10
+        },
+        {
+          "label": "Black or African American",
+          "value": 3071
+        },
+        {
+          "label": "Hispanic",
+          "value": 367
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1206
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11982
+        }
+      ]
+    },
+    "Dallas County, Arkansas": {
+      "label": "Dallas County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 5
+        },
+        {
+          "label": "Black or African American",
+          "value": 2779
+        },
+        {
+          "label": "Hispanic",
+          "value": 92
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 155
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3320
+        }
+      ]
+    },
+    "Desha County, Arkansas": {
+      "label": "Desha County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 5371
+        },
+        {
+          "label": "Hispanic",
+          "value": 765
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 149
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4726
+        }
+      ]
+    },
+    "Drew County, Arkansas": {
+      "label": "Drew County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 121
+        },
+        {
+          "label": "Black or African American",
+          "value": 4574
+        },
+        {
+          "label": "Hispanic",
+          "value": 706
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 618
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11124
+        }
+      ]
+    },
+    "Faulkner County, Arkansas": {
+      "label": "Faulkner County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 282
+        },
+        {
+          "label": "Asian",
+          "value": 1319
+        },
+        {
+          "label": "Black or African American",
+          "value": 14782
+        },
+        {
+          "label": "Hispanic",
+          "value": 6949
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 40
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4413
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 97864
+        }
+      ]
+    },
+    "Franklin County, Arkansas": {
+      "label": "Franklin County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 151
+        },
+        {
+          "label": "Asian",
+          "value": 162
+        },
+        {
+          "label": "Black or African American",
+          "value": 43
+        },
+        {
+          "label": "Hispanic",
+          "value": 548
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1556
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14732
+        }
+      ]
+    },
+    "Fulton County, Arkansas": {
+      "label": "Fulton County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 27
+        },
+        {
+          "label": "Hispanic",
+          "value": 208
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 649
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11351
+        }
+      ]
+    },
+    "Garland County, Arkansas": {
+      "label": "Garland County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 386
+        },
+        {
+          "label": "Asian",
+          "value": 766
+        },
+        {
+          "label": "Black or African American",
+          "value": 7787
+        },
+        {
+          "label": "Hispanic",
+          "value": 7179
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 120
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3939
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 79816
+        }
+      ]
+    },
+    "Grant County, Arkansas": {
+      "label": "Grant County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 66
+        },
+        {
+          "label": "Black or African American",
+          "value": 469
+        },
+        {
+          "label": "Hispanic",
+          "value": 490
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 34
+        },
+        {
+          "label": "Two or More Races",
+          "value": 387
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16558
+        }
+      ]
+    },
+    "Greene County, Arkansas": {
+      "label": "Greene County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 43
+        },
+        {
+          "label": "Asian",
+          "value": 170
+        },
+        {
+          "label": "Black or African American",
+          "value": 1026
+        },
+        {
+          "label": "Hispanic",
+          "value": 1678
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 214
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1583
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 41140
+        }
+      ]
+    },
+    "Hempstead County, Arkansas": {
+      "label": "Hempstead County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 62
+        },
+        {
+          "label": "Asian",
+          "value": 105
+        },
+        {
+          "label": "Black or African American",
+          "value": 5878
+        },
+        {
+          "label": "Hispanic",
+          "value": 2955
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 486
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10269
+        }
+      ]
+    },
+    "Hot Spring County, Arkansas": {
+      "label": "Hot Spring County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 80
+        },
+        {
+          "label": "Asian",
+          "value": 10
+        },
+        {
+          "label": "Black or African American",
+          "value": 3797
+        },
+        {
+          "label": "Hispanic",
+          "value": 1323
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1025
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26892
+        }
+      ]
+    },
+    "Howard County, Arkansas": {
+      "label": "Howard County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 34
+        },
+        {
+          "label": "Asian",
+          "value": 75
+        },
+        {
+          "label": "Black or African American",
+          "value": 2636
+        },
+        {
+          "label": "Hispanic",
+          "value": 1559
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 412
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7985
+        }
+      ]
+    },
+    "Independence County, Arkansas": {
+      "label": "Independence County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 39
+        },
+        {
+          "label": "Asian",
+          "value": 354
+        },
+        {
+          "label": "Black or African American",
+          "value": 591
+        },
+        {
+          "label": "Hispanic",
+          "value": 3313
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 216
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1836
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 31607
+        }
+      ]
+    },
+    "Izard County, Arkansas": {
+      "label": "Izard County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 88
+        },
+        {
+          "label": "Asian",
+          "value": 64
+        },
+        {
+          "label": "Black or African American",
+          "value": 228
+        },
+        {
+          "label": "Hispanic",
+          "value": 388
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 970
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12080
+        }
+      ]
+    },
+    "Jackson County, Arkansas": {
+      "label": "Jackson County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 86
+        },
+        {
+          "label": "Asian",
+          "value": 54
+        },
+        {
+          "label": "Black or African American",
+          "value": 2468
+        },
+        {
+          "label": "Hispanic",
+          "value": 515
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 965
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12687
+        }
+      ]
+    },
+    "Jefferson County, Arkansas": {
+      "label": "Jefferson County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 42
+        },
+        {
+          "label": "Asian",
+          "value": 484
+        },
+        {
+          "label": "Black or African American",
+          "value": 36920
+        },
+        {
+          "label": "Hispanic",
+          "value": 1631
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 284
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1757
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24473
+        }
+      ]
+    },
+    "Johnson County, Arkansas": {
+      "label": "Johnson County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 45
+        },
+        {
+          "label": "Asian",
+          "value": 811
+        },
+        {
+          "label": "Black or African American",
+          "value": 380
+        },
+        {
+          "label": "Hispanic",
+          "value": 3539
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 36
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1009
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20077
+        }
+      ]
+    },
+    "Lafayette County, Arkansas": {
+      "label": "Lafayette County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 69
+        },
+        {
+          "label": "Black or African American",
+          "value": 2226
+        },
+        {
+          "label": "Hispanic",
+          "value": 49
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 268
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3583
+        }
+      ]
+    },
+    "Lawrence County, Arkansas": {
+      "label": "Lawrence County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 15
+        },
+        {
+          "label": "Black or African American",
+          "value": 160
+        },
+        {
+          "label": "Hispanic",
+          "value": 348
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 14
+        },
+        {
+          "label": "Two or More Races",
+          "value": 700
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14990
+        }
+      ]
+    },
+    "Lee County, Arkansas": {
+      "label": "Lee County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 4645
+        },
+        {
+          "label": "Hispanic",
+          "value": 249
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 337
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3271
+        }
+      ]
+    },
+    "Lincoln County, Arkansas": {
+      "label": "Lincoln County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 36
+        },
+        {
+          "label": "Asian",
+          "value": 47
+        },
+        {
+          "label": "Black or African American",
+          "value": 3684
+        },
+        {
+          "label": "Hispanic",
+          "value": 639
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 520
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8019
+        }
+      ]
+    },
+    "Little River County, Arkansas": {
+      "label": "Little River County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 120
+        },
+        {
+          "label": "Asian",
+          "value": 19
+        },
+        {
+          "label": "Black or African American",
+          "value": 2340
+        },
+        {
+          "label": "Hispanic",
+          "value": 445
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 429
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8596
+        }
+      ]
+    },
+    "Logan County, Arkansas": {
+      "label": "Logan County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 42
+        },
+        {
+          "label": "Asian",
+          "value": 284
+        },
+        {
+          "label": "Black or African American",
+          "value": 363
+        },
+        {
+          "label": "Hispanic",
+          "value": 707
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1046
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18780
+        }
+      ]
+    },
+    "Lonoke County, Arkansas": {
+      "label": "Lonoke County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 61
+        },
+        {
+          "label": "Asian",
+          "value": 816
+        },
+        {
+          "label": "Black or African American",
+          "value": 4109
+        },
+        {
+          "label": "Hispanic",
+          "value": 3871
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 118
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3160
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 62492
+        }
+      ]
+    },
+    "Madison County, Arkansas": {
+      "label": "Madison County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 50
+        },
+        {
+          "label": "Asian",
+          "value": 42
+        },
+        {
+          "label": "Black or African American",
+          "value": 33
+        },
+        {
+          "label": "Hispanic",
+          "value": 1036
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 145
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3366
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12336
+        }
+      ]
+    },
+    "Marion County, Arkansas": {
+      "label": "Marion County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 66
+        },
+        {
+          "label": "Asian",
+          "value": 121
+        },
+        {
+          "label": "Black or African American",
+          "value": 32
+        },
+        {
+          "label": "Hispanic",
+          "value": 446
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 633
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15744
+        }
+      ]
+    },
+    "Miller County, Arkansas": {
+      "label": "Miller County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 316
+        },
+        {
+          "label": "Asian",
+          "value": 300
+        },
+        {
+          "label": "Black or African American",
+          "value": 10853
+        },
+        {
+          "label": "Hispanic",
+          "value": 1683
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1106
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28251
+        }
+      ]
+    },
+    "Mississippi County, Arkansas": {
+      "label": "Mississippi County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 168
+        },
+        {
+          "label": "Black or African American",
+          "value": 13817
+        },
+        {
+          "label": "Hispanic",
+          "value": 1861
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1392
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22402
+        }
+      ]
+    },
+    "Monroe County, Arkansas": {
+      "label": "Monroe County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 66
+        },
+        {
+          "label": "Black or African American",
+          "value": 2686
+        },
+        {
+          "label": "Hispanic",
+          "value": 189
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 170
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3564
+        }
+      ]
+    },
+    "Montgomery County, Arkansas": {
+      "label": "Montgomery County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 108
+        },
+        {
+          "label": "Asian",
+          "value": 82
+        },
+        {
+          "label": "Black or African American",
+          "value": 72
+        },
+        {
+          "label": "Hispanic",
+          "value": 410
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 204
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7689
+        }
+      ]
+    },
+    "Nevada County, Arkansas": {
+      "label": "Nevada County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 2543
+        },
+        {
+          "label": "Hispanic",
+          "value": 379
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 129
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5158
+        }
+      ]
+    },
+    "Newton County, Arkansas": {
+      "label": "Newton County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 67
+        },
+        {
+          "label": "Asian",
+          "value": 6
+        },
+        {
+          "label": "Black or African American",
+          "value": 11
+        },
+        {
+          "label": "Hispanic",
+          "value": 123
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 302
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6642
+        }
+      ]
+    },
+    "Ouachita County, Arkansas": {
+      "label": "Ouachita County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 53
+        },
+        {
+          "label": "Black or African American",
+          "value": 9146
+        },
+        {
+          "label": "Hispanic",
+          "value": 562
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 411
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12104
+        }
+      ]
+    },
+    "Perry County, Arkansas": {
+      "label": "Perry County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 41
+        },
+        {
+          "label": "Black or African American",
+          "value": 179
+        },
+        {
+          "label": "Hispanic",
+          "value": 332
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 426
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9075
+        }
+      ]
+    },
+    "Phillips County, Arkansas": {
+      "label": "Phillips County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 149
+        },
+        {
+          "label": "Black or African American",
+          "value": 9753
+        },
+        {
+          "label": "Hispanic",
+          "value": 305
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 382
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5287
+        }
+      ]
+    },
+    "Pike County, Arkansas": {
+      "label": "Pike County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 18
+        },
+        {
+          "label": "Black or African American",
+          "value": 392
+        },
+        {
+          "label": "Hispanic",
+          "value": 801
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 412
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8553
+        }
+      ]
+    },
+    "Poinsett County, Arkansas": {
+      "label": "Poinsett County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 139
+        },
+        {
+          "label": "Asian",
+          "value": 5
+        },
+        {
+          "label": "Black or African American",
+          "value": 1331
+        },
+        {
+          "label": "Hispanic",
+          "value": 840
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1164
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19241
+        }
+      ]
+    },
+    "Polk County, Arkansas": {
+      "label": "Polk County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 242
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 18
+        },
+        {
+          "label": "Hispanic",
+          "value": 1325
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 43
+        },
+        {
+          "label": "Two or More Races",
+          "value": 864
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16784
+        }
+      ]
+    },
+    "Pope County, Arkansas": {
+      "label": "Pope County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 135
+        },
+        {
+          "label": "Asian",
+          "value": 614
+        },
+        {
+          "label": "Black or African American",
+          "value": 1419
+        },
+        {
+          "label": "Hispanic",
+          "value": 6783
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 38
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2811
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 51884
+        }
+      ]
+    },
+    "Prairie County, Arkansas": {
+      "label": "Prairie County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 857
+        },
+        {
+          "label": "Hispanic",
+          "value": 179
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 264
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6846
+        }
+      ]
+    },
+    "Pulaski County, Arkansas": {
+      "label": "Pulaski County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 853
+        },
+        {
+          "label": "Asian",
+          "value": 8515
+        },
+        {
+          "label": "Black or African American",
+          "value": 146488
+        },
+        {
+          "label": "Hispanic",
+          "value": 32722
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 148
+        },
+        {
+          "label": "Two or More Races",
+          "value": 14736
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 194286
+        }
+      ]
+    },
+    "Randolph County, Arkansas": {
+      "label": "Randolph County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 38
+        },
+        {
+          "label": "Asian",
+          "value": 74
+        },
+        {
+          "label": "Black or African American",
+          "value": 212
+        },
+        {
+          "label": "Hispanic",
+          "value": 461
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 466
+        },
+        {
+          "label": "Two or More Races",
+          "value": 702
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16760
+        }
+      ]
+    },
+    "Saline County, Arkansas": {
+      "label": "Saline County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 234
+        },
+        {
+          "label": "Asian",
+          "value": 1293
+        },
+        {
+          "label": "Black or African American",
+          "value": 10373
+        },
+        {
+          "label": "Hispanic",
+          "value": 8776
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4653
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 99778
+        }
+      ]
+    },
+    "Scott County, Arkansas": {
+      "label": "Scott County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 135
+        },
+        {
+          "label": "Black or African American",
+          "value": 148
+        },
+        {
+          "label": "Hispanic",
+          "value": 768
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 533
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8227
+        }
+      ]
+    },
+    "Searcy County, Arkansas": {
+      "label": "Searcy County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 93
+        },
+        {
+          "label": "Asian",
+          "value": 17
+        },
+        {
+          "label": "Black or African American",
+          "value": 6
+        },
+        {
+          "label": "Hispanic",
+          "value": 172
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 641
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6932
+        }
+      ]
+    },
+    "Sebastian County, Arkansas": {
+      "label": "Sebastian County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 883
+        },
+        {
+          "label": "Asian",
+          "value": 5383
+        },
+        {
+          "label": "Black or African American",
+          "value": 7353
+        },
+        {
+          "label": "Hispanic",
+          "value": 20023
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 157
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8624
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 85809
+        }
+      ]
+    },
+    "Sevier County, Arkansas": {
+      "label": "Sevier County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 259
+        },
+        {
+          "label": "Asian",
+          "value": 45
+        },
+        {
+          "label": "Black or African American",
+          "value": 737
+        },
+        {
+          "label": "Hispanic",
+          "value": 5538
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 205
+        },
+        {
+          "label": "Two or More Races",
+          "value": 455
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8471
+        }
+      ]
+    },
+    "Sharp County, Arkansas": {
+      "label": "Sharp County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 21
+        },
+        {
+          "label": "Asian",
+          "value": 99
+        },
+        {
+          "label": "Black or African American",
+          "value": 107
+        },
+        {
+          "label": "Hispanic",
+          "value": 409
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 894
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16064
+        }
+      ]
+    },
+    "St. Francis County, Arkansas": {
+      "label": "St. Francis County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 56
+        },
+        {
+          "label": "Asian",
+          "value": 19
+        },
+        {
+          "label": "Black or African American",
+          "value": 12466
+        },
+        {
+          "label": "Hispanic",
+          "value": 760
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 66
+        },
+        {
+          "label": "Two or More Races",
+          "value": 355
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8984
+        }
+      ]
+    },
+    "Stone County, Arkansas": {
+      "label": "Stone County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 95
+        },
+        {
+          "label": "Asian",
+          "value": 44
+        },
+        {
+          "label": "Black or African American",
+          "value": 13
+        },
+        {
+          "label": "Hispanic",
+          "value": 266
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 794
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11262
+        }
+      ]
+    },
+    "Union County, Arkansas": {
+      "label": "Union County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 319
+        },
+        {
+          "label": "Black or African American",
+          "value": 12362
+        },
+        {
+          "label": "Hispanic",
+          "value": 1751
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1001
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22887
+        }
+      ]
+    },
+    "Van Buren County, Arkansas": {
+      "label": "Van Buren County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 122
+        },
+        {
+          "label": "Asian",
+          "value": 63
+        },
+        {
+          "label": "Black or African American",
+          "value": 101
+        },
+        {
+          "label": "Hispanic",
+          "value": 533
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 457
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14650
+        }
+      ]
+    },
+    "Washington County, Arkansas": {
+      "label": "Washington County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1276
+        },
+        {
+          "label": "Asian",
+          "value": 5906
+        },
+        {
+          "label": "Black or African American",
+          "value": 7911
+        },
+        {
+          "label": "Hispanic",
+          "value": 46214
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6834
+        },
+        {
+          "label": "Two or More Races",
+          "value": 24814
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 157981
+        }
+      ]
+    },
+    "White County, Arkansas": {
+      "label": "White County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 66
+        },
+        {
+          "label": "Asian",
+          "value": 526
+        },
+        {
+          "label": "Black or African American",
+          "value": 3323
+        },
+        {
+          "label": "Hispanic",
+          "value": 3693
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3476
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 66100
+        }
+      ]
+    },
+    "Woodruff County, Arkansas": {
+      "label": "Woodruff County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 1670
+        },
+        {
+          "label": "Hispanic",
+          "value": 36
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 149
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4279
+        }
+      ]
+    },
+    "Yell County, Arkansas": {
+      "label": "Yell County, Arkansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 58
+        },
+        {
+          "label": "Asian",
+          "value": 261
+        },
+        {
+          "label": "Black or African American",
+          "value": 349
+        },
+        {
+          "label": "Hispanic",
+          "value": 4214
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 390
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14905
+        }
+      ]
+    }
+  }
+}

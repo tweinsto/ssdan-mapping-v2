@@ -1,0 +1,368 @@
+{
+  "state": "Belknap County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1078
+        },
+        {
+          "label": "Asian",
+          "value": 35730
+        },
+        {
+          "label": "Black or African American",
+          "value": 19214
+        },
+        {
+          "label": "Hispanic",
+          "value": 62758
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 254
+        },
+        {
+          "label": "Two or More Races",
+          "value": 48840
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1214784
+        }
+      ]
+    },
+    "Belknap County, New Hampshire": {
+      "label": "Belknap County, New Hampshire",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 769
+        },
+        {
+          "label": "Black or African American",
+          "value": 315
+        },
+        {
+          "label": "Hispanic",
+          "value": 1387
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 13
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1552
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 59921
+        }
+      ]
+    },
+    "Carroll County, New Hampshire": {
+      "label": "Carroll County, New Hampshire",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 105
+        },
+        {
+          "label": "Asian",
+          "value": 431
+        },
+        {
+          "label": "Black or African American",
+          "value": 271
+        },
+        {
+          "label": "Hispanic",
+          "value": 866
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1171
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 48353
+        }
+      ]
+    },
+    "Cheshire County, New Hampshire": {
+      "label": "Cheshire County, New Hampshire",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 77
+        },
+        {
+          "label": "Asian",
+          "value": 532
+        },
+        {
+          "label": "Black or African American",
+          "value": 568
+        },
+        {
+          "label": "Hispanic",
+          "value": 1904
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2998
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 70705
+        }
+      ]
+    },
+    "Coos County, New Hampshire": {
+      "label": "Coos County, New Hampshire",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 32
+        },
+        {
+          "label": "Asian",
+          "value": 82
+        },
+        {
+          "label": "Black or African American",
+          "value": 460
+        },
+        {
+          "label": "Hispanic",
+          "value": 715
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 884
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29143
+        }
+      ]
+    },
+    "Grafton County, New Hampshire": {
+      "label": "Grafton County, New Hampshire",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 104
+        },
+        {
+          "label": "Asian",
+          "value": 3185
+        },
+        {
+          "label": "Black or African American",
+          "value": 1137
+        },
+        {
+          "label": "Hispanic",
+          "value": 2603
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 30
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3448
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 80860
+        }
+      ]
+    },
+    "Hillsborough County, New Hampshire": {
+      "label": "Hillsborough County, New Hampshire",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 264
+        },
+        {
+          "label": "Asian",
+          "value": 17941
+        },
+        {
+          "label": "Black or African American",
+          "value": 9811
+        },
+        {
+          "label": "Hispanic",
+          "value": 35041
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 35
+        },
+        {
+          "label": "Two or More Races",
+          "value": 16045
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 343814
+        }
+      ]
+    },
+    "Merrimack County, New Hampshire": {
+      "label": "Merrimack County, New Hampshire",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 196
+        },
+        {
+          "label": "Asian",
+          "value": 2508
+        },
+        {
+          "label": "Black or African American",
+          "value": 2314
+        },
+        {
+          "label": "Hispanic",
+          "value": 4083
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 35
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5117
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 140450
+        }
+      ]
+    },
+    "Rockingham County, New Hampshire": {
+      "label": "Rockingham County, New Hampshire",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 229
+        },
+        {
+          "label": "Asian",
+          "value": 6566
+        },
+        {
+          "label": "Black or African American",
+          "value": 2434
+        },
+        {
+          "label": "Hispanic",
+          "value": 11178
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 121
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9694
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 285503
+        }
+      ]
+    },
+    "Strafford County, New Hampshire": {
+      "label": "Strafford County, New Hampshire",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 3478
+        },
+        {
+          "label": "Black or African American",
+          "value": 1547
+        },
+        {
+          "label": "Hispanic",
+          "value": 4110
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5956
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 116084
+        }
+      ]
+    },
+    "Sullivan County, New Hampshire": {
+      "label": "Sullivan County, New Hampshire",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 238
+        },
+        {
+          "label": "Black or African American",
+          "value": 357
+        },
+        {
+          "label": "Hispanic",
+          "value": 871
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1975
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 39951
+        }
+      ]
+    }
+  }
+}

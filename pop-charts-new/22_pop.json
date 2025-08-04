@@ -1,0 +1,6284 @@
+{
+  "Acadia County": [
+    {
+      "year": 1890,
+      "population": 13231
+    },
+    {
+      "year": 1900,
+      "population": 23483
+    },
+    {
+      "year": 1910,
+      "population": 31847
+    },
+    {
+      "year": 1920,
+      "population": 34820
+    },
+    {
+      "year": 1930,
+      "population": 39326
+    },
+    {
+      "year": 1940,
+      "population": 46260
+    },
+    {
+      "year": 1950,
+      "population": 47050
+    },
+    {
+      "year": 1960,
+      "population": 49931
+    },
+    {
+      "year": 1970,
+      "population": 52109
+    },
+    {
+      "year": 1980,
+      "population": 56427
+    },
+    {
+      "year": 1990,
+      "population": 55882
+    }
+  ],
+  "Acadia Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 58861
+    },
+    {
+      "year": 2010,
+      "population": 61773
+    },
+    {
+      "year": 2018,
+      "population": 62568
+    },
+    {
+      "year": 2020,
+      "population": 57576
+    },
+    {
+      "year": 2021,
+      "population": 58200
+    },
+    {
+      "year": 2022,
+      "population": 57674
+    },
+    {
+      "year": 2023,
+      "population": 57218
+    }
+  ],
+  "Allen County": [
+    {
+      "year": 1920,
+      "population": 18382
+    },
+    {
+      "year": 1930,
+      "population": 15261
+    },
+    {
+      "year": 1940,
+      "population": 17540
+    },
+    {
+      "year": 1950,
+      "population": 18835
+    },
+    {
+      "year": 1960,
+      "population": 19867
+    },
+    {
+      "year": 1970,
+      "population": 20794
+    },
+    {
+      "year": 1980,
+      "population": 21390
+    },
+    {
+      "year": 1990,
+      "population": 21226
+    }
+  ],
+  "Allen Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 25440
+    },
+    {
+      "year": 2010,
+      "population": 25764
+    },
+    {
+      "year": 2018,
+      "population": 25661
+    },
+    {
+      "year": 2020,
+      "population": 22750
+    },
+    {
+      "year": 2021,
+      "population": 23085
+    },
+    {
+      "year": 2022,
+      "population": 22798
+    },
+    {
+      "year": 2023,
+      "population": 22552
+    }
+  ],
+  "Ascension County": [
+    {
+      "year": 1810,
+      "population": 2219
+    },
+    {
+      "year": 1820,
+      "population": 3728
+    },
+    {
+      "year": 1830,
+      "population": 5426
+    },
+    {
+      "year": 1840,
+      "population": 6951
+    },
+    {
+      "year": 1850,
+      "population": 10752
+    },
+    {
+      "year": 1860,
+      "population": 11484
+    },
+    {
+      "year": 1870,
+      "population": 11577
+    },
+    {
+      "year": 1880,
+      "population": 16895
+    },
+    {
+      "year": 1890,
+      "population": 19545
+    },
+    {
+      "year": 1900,
+      "population": 24142
+    },
+    {
+      "year": 1910,
+      "population": 23887
+    },
+    {
+      "year": 1920,
+      "population": 22155
+    },
+    {
+      "year": 1930,
+      "population": 18438
+    },
+    {
+      "year": 1940,
+      "population": 21215
+    },
+    {
+      "year": 1950,
+      "population": 22387
+    },
+    {
+      "year": 1960,
+      "population": 27927
+    },
+    {
+      "year": 1970,
+      "population": 37086
+    },
+    {
+      "year": 1980,
+      "population": 50068
+    },
+    {
+      "year": 1990,
+      "population": 58214
+    }
+  ],
+  "Ascension Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 76627
+    },
+    {
+      "year": 2010,
+      "population": 107215
+    },
+    {
+      "year": 2018,
+      "population": 121176
+    },
+    {
+      "year": 2020,
+      "population": 126500
+    },
+    {
+      "year": 2021,
+      "population": 125289
+    },
+    {
+      "year": 2022,
+      "population": 126973
+    },
+    {
+      "year": 2023,
+      "population": 128593
+    }
+  ],
+  "Assumption County": [
+    {
+      "year": 1810,
+      "population": 2472
+    },
+    {
+      "year": 1820,
+      "population": 3576
+    },
+    {
+      "year": 1830,
+      "population": 5669
+    },
+    {
+      "year": 1840,
+      "population": 7141
+    },
+    {
+      "year": 1850,
+      "population": 10538
+    },
+    {
+      "year": 1860,
+      "population": 15379
+    },
+    {
+      "year": 1870,
+      "population": 13234
+    },
+    {
+      "year": 1880,
+      "population": 17010
+    },
+    {
+      "year": 1890,
+      "population": 19629
+    },
+    {
+      "year": 1900,
+      "population": 21620
+    },
+    {
+      "year": 1910,
+      "population": 24128
+    },
+    {
+      "year": 1920,
+      "population": 17912
+    },
+    {
+      "year": 1930,
+      "population": 15990
+    },
+    {
+      "year": 1940,
+      "population": 18541
+    },
+    {
+      "year": 1950,
+      "population": 17278
+    },
+    {
+      "year": 1960,
+      "population": 17991
+    },
+    {
+      "year": 1970,
+      "population": 19654
+    },
+    {
+      "year": 1980,
+      "population": 22084
+    },
+    {
+      "year": 1990,
+      "population": 22753
+    }
+  ],
+  "Assumption Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 23388
+    },
+    {
+      "year": 2010,
+      "population": 23421
+    },
+    {
+      "year": 2018,
+      "population": 22714
+    },
+    {
+      "year": 2020,
+      "population": 21039
+    },
+    {
+      "year": 2021,
+      "population": 21366
+    },
+    {
+      "year": 2022,
+      "population": 21067
+    },
+    {
+      "year": 2023,
+      "population": 20720
+    }
+  ],
+  "Avoyelles County": [
+    {
+      "year": 1810,
+      "population": 1209
+    },
+    {
+      "year": 1820,
+      "population": 2245
+    },
+    {
+      "year": 1830,
+      "population": 3484
+    },
+    {
+      "year": 1840,
+      "population": 6616
+    },
+    {
+      "year": 1850,
+      "population": 9326
+    },
+    {
+      "year": 1860,
+      "population": 13167
+    },
+    {
+      "year": 1870,
+      "population": 12926
+    },
+    {
+      "year": 1880,
+      "population": 16747
+    },
+    {
+      "year": 1890,
+      "population": 25112
+    },
+    {
+      "year": 1900,
+      "population": 29701
+    },
+    {
+      "year": 1910,
+      "population": 34102
+    },
+    {
+      "year": 1920,
+      "population": 35300
+    },
+    {
+      "year": 1930,
+      "population": 34926
+    },
+    {
+      "year": 1940,
+      "population": 39256
+    },
+    {
+      "year": 1950,
+      "population": 38031
+    },
+    {
+      "year": 1960,
+      "population": 37606
+    },
+    {
+      "year": 1970,
+      "population": 37751
+    },
+    {
+      "year": 1980,
+      "population": 41393
+    },
+    {
+      "year": 1990,
+      "population": 39159
+    }
+  ],
+  "Avoyelles Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 41481
+    },
+    {
+      "year": 2010,
+      "population": 42073
+    },
+    {
+      "year": 2018,
+      "population": 40882
+    },
+    {
+      "year": 2020,
+      "population": 39693
+    },
+    {
+      "year": 2021,
+      "population": 39880
+    },
+    {
+      "year": 2022,
+      "population": 39529
+    },
+    {
+      "year": 2023,
+      "population": 39176
+    }
+  ],
+  "Beauregard County": [
+    {
+      "year": 1920,
+      "population": 20767
+    },
+    {
+      "year": 1930,
+      "population": 14569
+    },
+    {
+      "year": 1940,
+      "population": 14847
+    },
+    {
+      "year": 1950,
+      "population": 17766
+    },
+    {
+      "year": 1960,
+      "population": 19191
+    },
+    {
+      "year": 1970,
+      "population": 22888
+    },
+    {
+      "year": 1980,
+      "population": 29692
+    },
+    {
+      "year": 1990,
+      "population": 30083
+    }
+  ],
+  "Beauregard Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 32986
+    },
+    {
+      "year": 2010,
+      "population": 35654
+    },
+    {
+      "year": 2018,
+      "population": 36769
+    },
+    {
+      "year": 2020,
+      "population": 36549
+    },
+    {
+      "year": 2021,
+      "population": 36417
+    },
+    {
+      "year": 2022,
+      "population": 36553
+    },
+    {
+      "year": 2023,
+      "population": 36646
+    }
+  ],
+  "Bienville County": [
+    {
+      "year": 1850,
+      "population": 5539
+    },
+    {
+      "year": 1860,
+      "population": 11000
+    },
+    {
+      "year": 1870,
+      "population": 10636
+    },
+    {
+      "year": 1880,
+      "population": 10442
+    },
+    {
+      "year": 1890,
+      "population": 14108
+    },
+    {
+      "year": 1900,
+      "population": 17588
+    },
+    {
+      "year": 1910,
+      "population": 21776
+    },
+    {
+      "year": 1920,
+      "population": 20977
+    },
+    {
+      "year": 1930,
+      "population": 23789
+    },
+    {
+      "year": 1940,
+      "population": 23933
+    },
+    {
+      "year": 1950,
+      "population": 19105
+    },
+    {
+      "year": 1960,
+      "population": 16726
+    },
+    {
+      "year": 1970,
+      "population": 16024
+    },
+    {
+      "year": 1980,
+      "population": 16387
+    },
+    {
+      "year": 1990,
+      "population": 15979
+    }
+  ],
+  "Bienville Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 15752
+    },
+    {
+      "year": 2010,
+      "population": 14353
+    },
+    {
+      "year": 2018,
+      "population": 13668
+    },
+    {
+      "year": 2020,
+      "population": 12981
+    },
+    {
+      "year": 2021,
+      "population": 13130
+    },
+    {
+      "year": 2022,
+      "population": 12958
+    },
+    {
+      "year": 2023,
+      "population": 12769
+    }
+  ],
+  "Bossier County": [
+    {
+      "year": 1850,
+      "population": 6962
+    },
+    {
+      "year": 1860,
+      "population": 11348
+    },
+    {
+      "year": 1870,
+      "population": 12675
+    },
+    {
+      "year": 1880,
+      "population": 16042
+    },
+    {
+      "year": 1890,
+      "population": 20330
+    },
+    {
+      "year": 1900,
+      "population": 24153
+    },
+    {
+      "year": 1910,
+      "population": 21738
+    },
+    {
+      "year": 1920,
+      "population": 22266
+    },
+    {
+      "year": 1930,
+      "population": 28388
+    },
+    {
+      "year": 1940,
+      "population": 33162
+    },
+    {
+      "year": 1950,
+      "population": 40139
+    },
+    {
+      "year": 1960,
+      "population": 57622
+    },
+    {
+      "year": 1970,
+      "population": 64519
+    },
+    {
+      "year": 1980,
+      "population": 80721
+    },
+    {
+      "year": 1990,
+      "population": 86088
+    }
+  ],
+  "Bossier Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 98310
+    },
+    {
+      "year": 2010,
+      "population": 116979
+    },
+    {
+      "year": 2018,
+      "population": 126131
+    },
+    {
+      "year": 2020,
+      "population": 128746
+    },
+    {
+      "year": 2021,
+      "population": 128508
+    },
+    {
+      "year": 2022,
+      "population": 128877
+    },
+    {
+      "year": 2023,
+      "population": 129134
+    }
+  ],
+  "Caddo County": [
+    {
+      "year": 1840,
+      "population": 5282
+    },
+    {
+      "year": 1850,
+      "population": 8884
+    },
+    {
+      "year": 1860,
+      "population": 12140
+    },
+    {
+      "year": 1870,
+      "population": 21714
+    },
+    {
+      "year": 1880,
+      "population": 26296
+    },
+    {
+      "year": 1890,
+      "population": 31555
+    },
+    {
+      "year": 1900,
+      "population": 44499
+    },
+    {
+      "year": 1910,
+      "population": 58200
+    },
+    {
+      "year": 1920,
+      "population": 83265
+    },
+    {
+      "year": 1930,
+      "population": 124670
+    },
+    {
+      "year": 1940,
+      "population": 150203
+    },
+    {
+      "year": 1950,
+      "population": 176547
+    },
+    {
+      "year": 1960,
+      "population": 223859
+    },
+    {
+      "year": 1970,
+      "population": 230184
+    },
+    {
+      "year": 1980,
+      "population": 252358
+    },
+    {
+      "year": 1990,
+      "population": 248253
+    }
+  ],
+  "Caddo Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 252161
+    },
+    {
+      "year": 2010,
+      "population": 254969
+    },
+    {
+      "year": 2018,
+      "population": 248361
+    },
+    {
+      "year": 2020,
+      "population": 237848
+    },
+    {
+      "year": 2021,
+      "population": 239775
+    },
+    {
+      "year": 2022,
+      "population": 236259
+    },
+    {
+      "year": 2023,
+      "population": 232973
+    }
+  ],
+  "Calcasieu County": [
+    {
+      "year": 1840,
+      "population": 2057
+    },
+    {
+      "year": 1850,
+      "population": 3914
+    },
+    {
+      "year": 1860,
+      "population": 5928
+    },
+    {
+      "year": 1870,
+      "population": 6733
+    },
+    {
+      "year": 1880,
+      "population": 12484
+    },
+    {
+      "year": 1890,
+      "population": 20176
+    },
+    {
+      "year": 1900,
+      "population": 30428
+    },
+    {
+      "year": 1910,
+      "population": 62767
+    },
+    {
+      "year": 1920,
+      "population": 32807
+    },
+    {
+      "year": 1930,
+      "population": 41963
+    },
+    {
+      "year": 1940,
+      "population": 56506
+    },
+    {
+      "year": 1950,
+      "population": 89635
+    },
+    {
+      "year": 1960,
+      "population": 145475
+    },
+    {
+      "year": 1970,
+      "population": 145415
+    },
+    {
+      "year": 1980,
+      "population": 167223
+    },
+    {
+      "year": 1990,
+      "population": 168134
+    }
+  ],
+  "Calcasieu Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 183577
+    },
+    {
+      "year": 2010,
+      "population": 192768
+    },
+    {
+      "year": 2018,
+      "population": 200182
+    },
+    {
+      "year": 2020,
+      "population": 216785
+    },
+    {
+      "year": 2021,
+      "population": 212646
+    },
+    {
+      "year": 2022,
+      "population": 210770
+    },
+    {
+      "year": 2023,
+      "population": 208668
+    }
+  ],
+  "Caldwell County": [
+    {
+      "year": 1840,
+      "population": 2017
+    },
+    {
+      "year": 1850,
+      "population": 2815
+    },
+    {
+      "year": 1860,
+      "population": 4833
+    },
+    {
+      "year": 1870,
+      "population": 4820
+    },
+    {
+      "year": 1880,
+      "population": 5767
+    },
+    {
+      "year": 1890,
+      "population": 5814
+    },
+    {
+      "year": 1900,
+      "population": 6917
+    },
+    {
+      "year": 1910,
+      "population": 8593
+    },
+    {
+      "year": 1920,
+      "population": 9514
+    },
+    {
+      "year": 1930,
+      "population": 10430
+    },
+    {
+      "year": 1940,
+      "population": 12046
+    },
+    {
+      "year": 1950,
+      "population": 10293
+    },
+    {
+      "year": 1960,
+      "population": 9004
+    },
+    {
+      "year": 1970,
+      "population": 9354
+    },
+    {
+      "year": 1980,
+      "population": 10761
+    },
+    {
+      "year": 1990,
+      "population": 9810
+    }
+  ],
+  "Caldwell Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 10560
+    },
+    {
+      "year": 2010,
+      "population": 10132
+    },
+    {
+      "year": 2018,
+      "population": 9996
+    },
+    {
+      "year": 2020,
+      "population": 9645
+    },
+    {
+      "year": 2021,
+      "population": 9707
+    },
+    {
+      "year": 2022,
+      "population": 9658
+    },
+    {
+      "year": 2023,
+      "population": 9563
+    }
+  ],
+  "Cameron County": [
+    {
+      "year": 1870,
+      "population": 1591
+    },
+    {
+      "year": 1880,
+      "population": 2416
+    },
+    {
+      "year": 1890,
+      "population": 2828
+    },
+    {
+      "year": 1900,
+      "population": 3952
+    },
+    {
+      "year": 1910,
+      "population": 4288
+    },
+    {
+      "year": 1920,
+      "population": 3952
+    },
+    {
+      "year": 1930,
+      "population": 6054
+    },
+    {
+      "year": 1940,
+      "population": 7203
+    },
+    {
+      "year": 1950,
+      "population": 6244
+    },
+    {
+      "year": 1960,
+      "population": 6909
+    },
+    {
+      "year": 1970,
+      "population": 8194
+    },
+    {
+      "year": 1980,
+      "population": 9336
+    },
+    {
+      "year": 1990,
+      "population": 9260
+    }
+  ],
+  "Cameron Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 9991
+    },
+    {
+      "year": 2010,
+      "population": 6839
+    },
+    {
+      "year": 2018,
+      "population": 6868
+    },
+    {
+      "year": 2020,
+      "population": 5617
+    },
+    {
+      "year": 2021,
+      "population": 5650
+    },
+    {
+      "year": 2022,
+      "population": 5447
+    },
+    {
+      "year": 2023,
+      "population": 5222
+    }
+  ],
+  "Catahoula County": [
+    {
+      "year": 1810,
+      "population": 1164
+    },
+    {
+      "year": 1820,
+      "population": 2287
+    },
+    {
+      "year": 1830,
+      "population": 2581
+    },
+    {
+      "year": 1840,
+      "population": 4955
+    },
+    {
+      "year": 1850,
+      "population": 7132
+    },
+    {
+      "year": 1860,
+      "population": 11651
+    },
+    {
+      "year": 1870,
+      "population": 8475
+    },
+    {
+      "year": 1880,
+      "population": 10277
+    },
+    {
+      "year": 1890,
+      "population": 12002
+    },
+    {
+      "year": 1900,
+      "population": 16351
+    },
+    {
+      "year": 1910,
+      "population": 10415
+    },
+    {
+      "year": 1920,
+      "population": 11074
+    },
+    {
+      "year": 1930,
+      "population": 12451
+    },
+    {
+      "year": 1940,
+      "population": 14618
+    },
+    {
+      "year": 1950,
+      "population": 11834
+    },
+    {
+      "year": 1960,
+      "population": 11421
+    },
+    {
+      "year": 1970,
+      "population": 11769
+    },
+    {
+      "year": 1980,
+      "population": 12287
+    },
+    {
+      "year": 1990,
+      "population": 11065
+    }
+  ],
+  "Catahoula Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 10920
+    },
+    {
+      "year": 2010,
+      "population": 10407
+    },
+    {
+      "year": 2018,
+      "population": 9893
+    },
+    {
+      "year": 2020,
+      "population": 8906
+    },
+    {
+      "year": 2021,
+      "population": 9117
+    },
+    {
+      "year": 2022,
+      "population": 8895
+    },
+    {
+      "year": 2023,
+      "population": 8738
+    }
+  ],
+  "Claiborne County": [
+    {
+      "year": 1830,
+      "population": 1764
+    },
+    {
+      "year": 1840,
+      "population": 6185
+    },
+    {
+      "year": 1850,
+      "population": 7471
+    },
+    {
+      "year": 1860,
+      "population": 16848
+    },
+    {
+      "year": 1870,
+      "population": 20240
+    },
+    {
+      "year": 1880,
+      "population": 18837
+    },
+    {
+      "year": 1890,
+      "population": 23312
+    },
+    {
+      "year": 1900,
+      "population": 23029
+    },
+    {
+      "year": 1910,
+      "population": 25050
+    },
+    {
+      "year": 1920,
+      "population": 27885
+    },
+    {
+      "year": 1930,
+      "population": 32285
+    },
+    {
+      "year": 1940,
+      "population": 29855
+    },
+    {
+      "year": 1950,
+      "population": 25063
+    },
+    {
+      "year": 1960,
+      "population": 19407
+    },
+    {
+      "year": 1970,
+      "population": 17024
+    },
+    {
+      "year": 1980,
+      "population": 17095
+    },
+    {
+      "year": 1990,
+      "population": 17405
+    }
+  ],
+  "Claiborne Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 16851
+    },
+    {
+      "year": 2010,
+      "population": 17195
+    },
+    {
+      "year": 2018,
+      "population": 16153
+    },
+    {
+      "year": 2020,
+      "population": 14170
+    },
+    {
+      "year": 2021,
+      "population": 14456
+    },
+    {
+      "year": 2022,
+      "population": 14203
+    },
+    {
+      "year": 2023,
+      "population": 14019
+    }
+  ],
+  "Concordia County": [
+    {
+      "year": 1810,
+      "population": 2895
+    },
+    {
+      "year": 1820,
+      "population": 2626
+    },
+    {
+      "year": 1830,
+      "population": 4662
+    },
+    {
+      "year": 1840,
+      "population": 9414
+    },
+    {
+      "year": 1850,
+      "population": 7758
+    },
+    {
+      "year": 1860,
+      "population": 13805
+    },
+    {
+      "year": 1870,
+      "population": 9977
+    },
+    {
+      "year": 1880,
+      "population": 14914
+    },
+    {
+      "year": 1890,
+      "population": 14871
+    },
+    {
+      "year": 1900,
+      "population": 13559
+    },
+    {
+      "year": 1910,
+      "population": 14278
+    },
+    {
+      "year": 1920,
+      "population": 12466
+    },
+    {
+      "year": 1930,
+      "population": 12778
+    },
+    {
+      "year": 1940,
+      "population": 14562
+    },
+    {
+      "year": 1950,
+      "population": 14398
+    },
+    {
+      "year": 1960,
+      "population": 20467
+    },
+    {
+      "year": 1970,
+      "population": 22578
+    },
+    {
+      "year": 1980,
+      "population": 22981
+    },
+    {
+      "year": 1990,
+      "population": 20828
+    }
+  ],
+  "Concordia Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 20247
+    },
+    {
+      "year": 2010,
+      "population": 20822
+    },
+    {
+      "year": 2018,
+      "population": 20021
+    },
+    {
+      "year": 2020,
+      "population": 18687
+    },
+    {
+      "year": 2021,
+      "population": 18989
+    },
+    {
+      "year": 2022,
+      "population": 18677
+    },
+    {
+      "year": 2023,
+      "population": 18325
+    }
+  ],
+  "County County": [
+    {
+      "year": 1800,
+      "population": 1800
+    },
+    {
+      "year": 1810,
+      "population": 1810
+    },
+    {
+      "year": 1820,
+      "population": 1820
+    },
+    {
+      "year": 1830,
+      "population": 1830
+    },
+    {
+      "year": 1840,
+      "population": 1840
+    },
+    {
+      "year": 1850,
+      "population": 1850
+    },
+    {
+      "year": 1860,
+      "population": 1860
+    },
+    {
+      "year": 1870,
+      "population": 1870
+    },
+    {
+      "year": 1880,
+      "population": 1880
+    },
+    {
+      "year": 1890,
+      "population": 1890
+    },
+    {
+      "year": 1900,
+      "population": 1900
+    },
+    {
+      "year": 1910,
+      "population": 1910
+    },
+    {
+      "year": 1920,
+      "population": 1920
+    },
+    {
+      "year": 1930,
+      "population": 1930
+    },
+    {
+      "year": 1940,
+      "population": 1940
+    },
+    {
+      "year": 1950,
+      "population": 1950
+    },
+    {
+      "year": 1960,
+      "population": 1960
+    },
+    {
+      "year": 1970,
+      "population": 1970
+    },
+    {
+      "year": 1980,
+      "population": 1980
+    },
+    {
+      "year": 1990,
+      "population": 1990
+    }
+  ],
+  "De Soto County": [
+    {
+      "year": 1850,
+      "population": 8023
+    },
+    {
+      "year": 1860,
+      "population": 13298
+    },
+    {
+      "year": 1870,
+      "population": 14962
+    },
+    {
+      "year": 1880,
+      "population": 15603
+    },
+    {
+      "year": 1890,
+      "population": 19860
+    },
+    {
+      "year": 1900,
+      "population": 25063
+    },
+    {
+      "year": 1910,
+      "population": 27689
+    },
+    {
+      "year": 1920,
+      "population": 29376
+    },
+    {
+      "year": 1930,
+      "population": 31016
+    },
+    {
+      "year": 1940,
+      "population": 31803
+    },
+    {
+      "year": 1950,
+      "population": 24398
+    },
+    {
+      "year": 1960,
+      "population": 24248
+    },
+    {
+      "year": 1970,
+      "population": 22764
+    },
+    {
+      "year": 1980,
+      "population": 25727
+    },
+    {
+      "year": 1990,
+      "population": 25346
+    }
+  ],
+  "De Soto Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 25494
+    },
+    {
+      "year": 2010,
+      "population": 26656
+    },
+    {
+      "year": 2018,
+      "population": 27216
+    },
+    {
+      "year": 2020,
+      "population": 26812
+    },
+    {
+      "year": 2021,
+      "population": 26803
+    },
+    {
+      "year": 2022,
+      "population": 26821
+    },
+    {
+      "year": 2023,
+      "population": 26897
+    }
+  ],
+  "East Baton Rouge County": [
+    {
+      "year": 1820,
+      "population": 5220
+    },
+    {
+      "year": 1830,
+      "population": 6698
+    },
+    {
+      "year": 1840,
+      "population": 8138
+    },
+    {
+      "year": 1850,
+      "population": 11977
+    },
+    {
+      "year": 1860,
+      "population": 16046
+    },
+    {
+      "year": 1870,
+      "population": 17816
+    },
+    {
+      "year": 1880,
+      "population": 19966
+    },
+    {
+      "year": 1890,
+      "population": 25922
+    },
+    {
+      "year": 1900,
+      "population": 31153
+    },
+    {
+      "year": 1910,
+      "population": 34580
+    },
+    {
+      "year": 1920,
+      "population": 44513
+    },
+    {
+      "year": 1930,
+      "population": 68208
+    },
+    {
+      "year": 1940,
+      "population": 88415
+    },
+    {
+      "year": 1950,
+      "population": 158236
+    },
+    {
+      "year": 1960,
+      "population": 230058
+    },
+    {
+      "year": 1970,
+      "population": 285167
+    },
+    {
+      "year": 1980,
+      "population": 366191
+    },
+    {
+      "year": 1990,
+      "population": 380105
+    }
+  ],
+  "East Baton Rouge Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 412852
+    },
+    {
+      "year": 2010,
+      "population": 440171
+    },
+    {
+      "year": 2018,
+      "population": 444094
+    },
+    {
+      "year": 2020,
+      "population": 456781
+    },
+    {
+      "year": 2021,
+      "population": 455447
+    },
+    {
+      "year": 2022,
+      "population": 454369
+    },
+    {
+      "year": 2023,
+      "population": 452821
+    }
+  ],
+  "East Carroll County": [
+    {
+      "year": 1840,
+      "population": 4237
+    },
+    {
+      "year": 1850,
+      "population": 8789
+    },
+    {
+      "year": 1860,
+      "population": 18052
+    },
+    {
+      "year": 1870,
+      "population": 10110
+    },
+    {
+      "year": 1880,
+      "population": 12134
+    },
+    {
+      "year": 1890,
+      "population": 12362
+    },
+    {
+      "year": 1900,
+      "population": 11373
+    },
+    {
+      "year": 1910,
+      "population": 11637
+    },
+    {
+      "year": 1920,
+      "population": 11231
+    },
+    {
+      "year": 1930,
+      "population": 15815
+    },
+    {
+      "year": 1940,
+      "population": 19023
+    },
+    {
+      "year": 1950,
+      "population": 16302
+    },
+    {
+      "year": 1960,
+      "population": 14433
+    },
+    {
+      "year": 1970,
+      "population": 12884
+    },
+    {
+      "year": 1980,
+      "population": 11772
+    },
+    {
+      "year": 1990,
+      "population": 9709
+    }
+  ],
+  "East Carroll Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 9421
+    },
+    {
+      "year": 2010,
+      "population": 7759
+    },
+    {
+      "year": 2018,
+      "population": 7225
+    },
+    {
+      "year": 2020,
+      "population": 7459
+    },
+    {
+      "year": 2021,
+      "population": 7502
+    },
+    {
+      "year": 2022,
+      "population": 7371
+    },
+    {
+      "year": 2023,
+      "population": 7195
+    }
+  ],
+  "East Feliciana County": [
+    {
+      "year": 1820,
+      "population": 12732
+    },
+    {
+      "year": 1830,
+      "population": 8247
+    },
+    {
+      "year": 1840,
+      "population": 11893
+    },
+    {
+      "year": 1850,
+      "population": 13598
+    },
+    {
+      "year": 1860,
+      "population": 14697
+    },
+    {
+      "year": 1870,
+      "population": 13499
+    },
+    {
+      "year": 1880,
+      "population": 15132
+    },
+    {
+      "year": 1890,
+      "population": 17903
+    },
+    {
+      "year": 1900,
+      "population": 20443
+    },
+    {
+      "year": 1910,
+      "population": 20055
+    },
+    {
+      "year": 1920,
+      "population": 17487
+    },
+    {
+      "year": 1930,
+      "population": 17449
+    },
+    {
+      "year": 1940,
+      "population": 18039
+    },
+    {
+      "year": 1950,
+      "population": 19133
+    },
+    {
+      "year": 1960,
+      "population": 20198
+    },
+    {
+      "year": 1970,
+      "population": 17657
+    },
+    {
+      "year": 1980,
+      "population": 19015
+    },
+    {
+      "year": 1990,
+      "population": 19211
+    }
+  ],
+  "East Feliciana Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 21360
+    },
+    {
+      "year": 2010,
+      "population": 20267
+    },
+    {
+      "year": 2018,
+      "population": 19499
+    },
+    {
+      "year": 2020,
+      "population": 19539
+    },
+    {
+      "year": 2021,
+      "population": 19588
+    },
+    {
+      "year": 2022,
+      "population": 19452
+    },
+    {
+      "year": 2023,
+      "population": 19378
+    }
+  ],
+  "Evangeline County": [
+    {
+      "year": 1920,
+      "population": 23485
+    },
+    {
+      "year": 1930,
+      "population": 25483
+    },
+    {
+      "year": 1940,
+      "population": 30497
+    },
+    {
+      "year": 1950,
+      "population": 31629
+    },
+    {
+      "year": 1960,
+      "population": 31639
+    },
+    {
+      "year": 1970,
+      "population": 31932
+    },
+    {
+      "year": 1980,
+      "population": 33343
+    },
+    {
+      "year": 1990,
+      "population": 33274
+    }
+  ],
+  "Evangeline Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 35434
+    },
+    {
+      "year": 2010,
+      "population": 33984
+    },
+    {
+      "year": 2018,
+      "population": 33636
+    },
+    {
+      "year": 2020,
+      "population": 32350
+    },
+    {
+      "year": 2021,
+      "population": 32538
+    },
+    {
+      "year": 2022,
+      "population": 32335
+    },
+    {
+      "year": 2023,
+      "population": 32162
+    }
+  ],
+  "Franklin County": [
+    {
+      "year": 1850,
+      "population": 3251
+    },
+    {
+      "year": 1860,
+      "population": 6162
+    },
+    {
+      "year": 1870,
+      "population": 5078
+    },
+    {
+      "year": 1880,
+      "population": 6495
+    },
+    {
+      "year": 1890,
+      "population": 6900
+    },
+    {
+      "year": 1900,
+      "population": 8890
+    },
+    {
+      "year": 1910,
+      "population": 11989
+    },
+    {
+      "year": 1920,
+      "population": 24100
+    },
+    {
+      "year": 1930,
+      "population": 30530
+    },
+    {
+      "year": 1940,
+      "population": 32382
+    },
+    {
+      "year": 1950,
+      "population": 29376
+    },
+    {
+      "year": 1960,
+      "population": 26088
+    },
+    {
+      "year": 1970,
+      "population": 23946
+    },
+    {
+      "year": 1980,
+      "population": 24141
+    },
+    {
+      "year": 1990,
+      "population": 22387
+    }
+  ],
+  "Franklin Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 21263
+    },
+    {
+      "year": 2010,
+      "population": 20767
+    },
+    {
+      "year": 2018,
+      "population": 20322
+    },
+    {
+      "year": 2020,
+      "population": 19774
+    },
+    {
+      "year": 2021,
+      "population": 19964
+    },
+    {
+      "year": 2022,
+      "population": 19752
+    },
+    {
+      "year": 2023,
+      "population": 19590
+    }
+  ],
+  "Grant County": [
+    {
+      "year": 1870,
+      "population": 4517
+    },
+    {
+      "year": 1880,
+      "population": 6188
+    },
+    {
+      "year": 1890,
+      "population": 8270
+    },
+    {
+      "year": 1900,
+      "population": 12902
+    },
+    {
+      "year": 1910,
+      "population": 15958
+    },
+    {
+      "year": 1920,
+      "population": 14403
+    },
+    {
+      "year": 1930,
+      "population": 15709
+    },
+    {
+      "year": 1940,
+      "population": 15933
+    },
+    {
+      "year": 1950,
+      "population": 14263
+    },
+    {
+      "year": 1960,
+      "population": 13330
+    },
+    {
+      "year": 1970,
+      "population": 13671
+    },
+    {
+      "year": 1980,
+      "population": 16703
+    },
+    {
+      "year": 1990,
+      "population": 17526
+    }
+  ],
+  "Grant Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 18698
+    },
+    {
+      "year": 2010,
+      "population": 22309
+    },
+    {
+      "year": 2018,
+      "population": 22348
+    },
+    {
+      "year": 2020,
+      "population": 22169
+    },
+    {
+      "year": 2021,
+      "population": 22236
+    },
+    {
+      "year": 2022,
+      "population": 22185
+    },
+    {
+      "year": 2023,
+      "population": 22123
+    }
+  ],
+  "Iberia County": [
+    {
+      "year": 1870,
+      "population": 9042
+    },
+    {
+      "year": 1880,
+      "population": 16676
+    },
+    {
+      "year": 1890,
+      "population": 20997
+    },
+    {
+      "year": 1900,
+      "population": 29015
+    },
+    {
+      "year": 1910,
+      "population": 31262
+    },
+    {
+      "year": 1920,
+      "population": 26855
+    },
+    {
+      "year": 1930,
+      "population": 28192
+    },
+    {
+      "year": 1940,
+      "population": 37183
+    },
+    {
+      "year": 1950,
+      "population": 40059
+    },
+    {
+      "year": 1960,
+      "population": 51657
+    },
+    {
+      "year": 1970,
+      "population": 57397
+    },
+    {
+      "year": 1980,
+      "population": 63752
+    },
+    {
+      "year": 1990,
+      "population": 68297
+    }
+  ],
+  "Iberia Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 73266
+    },
+    {
+      "year": 2010,
+      "population": 73240
+    },
+    {
+      "year": 2018,
+      "population": 72691
+    },
+    {
+      "year": 2020,
+      "population": 69929
+    },
+    {
+      "year": 2021,
+      "population": 70518
+    },
+    {
+      "year": 2022,
+      "population": 69958
+    },
+    {
+      "year": 2023,
+      "population": 69194
+    }
+  ],
+  "Iberville County": [
+    {
+      "year": 1810,
+      "population": 2679
+    },
+    {
+      "year": 1820,
+      "population": 4414
+    },
+    {
+      "year": 1830,
+      "population": 7049
+    },
+    {
+      "year": 1840,
+      "population": 8495
+    },
+    {
+      "year": 1850,
+      "population": 12278
+    },
+    {
+      "year": 1860,
+      "population": 14661
+    },
+    {
+      "year": 1870,
+      "population": 12347
+    },
+    {
+      "year": 1880,
+      "population": 17544
+    },
+    {
+      "year": 1890,
+      "population": 21848
+    },
+    {
+      "year": 1900,
+      "population": 27006
+    },
+    {
+      "year": 1910,
+      "population": 30954
+    },
+    {
+      "year": 1920,
+      "population": 26806
+    },
+    {
+      "year": 1930,
+      "population": 24638
+    },
+    {
+      "year": 1940,
+      "population": 27721
+    },
+    {
+      "year": 1950,
+      "population": 26750
+    },
+    {
+      "year": 1960,
+      "population": 29939
+    },
+    {
+      "year": 1970,
+      "population": 30746
+    },
+    {
+      "year": 1980,
+      "population": 32159
+    },
+    {
+      "year": 1990,
+      "population": 31049
+    }
+  ],
+  "Iberville Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 33320
+    },
+    {
+      "year": 2010,
+      "population": 33387
+    },
+    {
+      "year": 2018,
+      "population": 32956
+    },
+    {
+      "year": 2020,
+      "population": 30241
+    },
+    {
+      "year": 2021,
+      "population": 30651
+    },
+    {
+      "year": 2022,
+      "population": 30210
+    },
+    {
+      "year": 2023,
+      "population": 29950
+    }
+  ],
+  "Jackson County": [
+    {
+      "year": 1850,
+      "population": 5566
+    },
+    {
+      "year": 1860,
+      "population": 9465
+    },
+    {
+      "year": 1870,
+      "population": 7646
+    },
+    {
+      "year": 1880,
+      "population": 5328
+    },
+    {
+      "year": 1890,
+      "population": 7453
+    },
+    {
+      "year": 1900,
+      "population": 9119
+    },
+    {
+      "year": 1910,
+      "population": 13818
+    },
+    {
+      "year": 1920,
+      "population": 14486
+    },
+    {
+      "year": 1930,
+      "population": 13808
+    },
+    {
+      "year": 1940,
+      "population": 17807
+    },
+    {
+      "year": 1950,
+      "population": 15434
+    },
+    {
+      "year": 1960,
+      "population": 15828
+    },
+    {
+      "year": 1970,
+      "population": 15963
+    },
+    {
+      "year": 1980,
+      "population": 17321
+    },
+    {
+      "year": 1990,
+      "population": 15705
+    }
+  ],
+  "Jackson Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 15397
+    },
+    {
+      "year": 2010,
+      "population": 16274
+    },
+    {
+      "year": 2018,
+      "population": 15926
+    },
+    {
+      "year": 2020,
+      "population": 15031
+    },
+    {
+      "year": 2021,
+      "population": 15214
+    },
+    {
+      "year": 2022,
+      "population": 15093
+    },
+    {
+      "year": 2023,
+      "population": 14939
+    }
+  ],
+  "Jefferson County": [
+    {
+      "year": 1830,
+      "population": 6846
+    },
+    {
+      "year": 1840,
+      "population": 10470
+    },
+    {
+      "year": 1850,
+      "population": 25093
+    },
+    {
+      "year": 1860,
+      "population": 15372
+    },
+    {
+      "year": 1870,
+      "population": 17767
+    },
+    {
+      "year": 1880,
+      "population": 12166
+    },
+    {
+      "year": 1890,
+      "population": 13221
+    },
+    {
+      "year": 1900,
+      "population": 15321
+    },
+    {
+      "year": 1910,
+      "population": 18247
+    },
+    {
+      "year": 1920,
+      "population": 21563
+    },
+    {
+      "year": 1930,
+      "population": 40032
+    },
+    {
+      "year": 1940,
+      "population": 50427
+    },
+    {
+      "year": 1950,
+      "population": 103873
+    },
+    {
+      "year": 1960,
+      "population": 208769
+    },
+    {
+      "year": 1970,
+      "population": 337568
+    },
+    {
+      "year": 1980,
+      "population": 454592
+    },
+    {
+      "year": 1990,
+      "population": 448306
+    }
+  ],
+  "Jefferson Davis County": [
+    {
+      "year": 1920,
+      "population": 18999
+    },
+    {
+      "year": 1930,
+      "population": 19765
+    },
+    {
+      "year": 1940,
+      "population": 24191
+    },
+    {
+      "year": 1950,
+      "population": 26298
+    },
+    {
+      "year": 1960,
+      "population": 29825
+    },
+    {
+      "year": 1970,
+      "population": 29554
+    },
+    {
+      "year": 1980,
+      "population": 32168
+    },
+    {
+      "year": 1990,
+      "population": 30722
+    }
+  ],
+  "Jefferson Davis Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 31435
+    },
+    {
+      "year": 2010,
+      "population": 31594
+    },
+    {
+      "year": 2018,
+      "population": 31467
+    },
+    {
+      "year": 2020,
+      "population": 32250
+    },
+    {
+      "year": 2021,
+      "population": 32270
+    },
+    {
+      "year": 2022,
+      "population": 32277
+    },
+    {
+      "year": 2023,
+      "population": 32083
+    }
+  ],
+  "Jefferson Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 455466
+    },
+    {
+      "year": 2010,
+      "population": 432552
+    },
+    {
+      "year": 2018,
+      "population": 435300
+    },
+    {
+      "year": 2020,
+      "population": 440781
+    },
+    {
+      "year": 2021,
+      "population": 439402
+    },
+    {
+      "year": 2022,
+      "population": 436171
+    },
+    {
+      "year": 2023,
+      "population": 432484
+    }
+  ],
+  "La Salle County": [
+    {
+      "year": 1910,
+      "population": 9402
+    },
+    {
+      "year": 1920,
+      "population": 9856
+    },
+    {
+      "year": 1930,
+      "population": 11668
+    },
+    {
+      "year": 1940,
+      "population": 10959
+    },
+    {
+      "year": 1950,
+      "population": 12717
+    },
+    {
+      "year": 1960,
+      "population": 13011
+    },
+    {
+      "year": 1970,
+      "population": 13295
+    },
+    {
+      "year": 1980,
+      "population": 17004
+    },
+    {
+      "year": 1990,
+      "population": 13662
+    }
+  ],
+  "La Salle Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 14282
+    },
+    {
+      "year": 2010,
+      "population": 14890
+    }
+  ],
+  "LaSalle Parish, Louisiana County": [
+    {
+      "year": 2018,
+      "population": 14949
+    },
+    {
+      "year": 2020,
+      "population": 14791
+    },
+    {
+      "year": 2021,
+      "population": 14770
+    },
+    {
+      "year": 2022,
+      "population": 14764
+    },
+    {
+      "year": 2023,
+      "population": 14804
+    }
+  ],
+  "Lafayette County": [
+    {
+      "year": 1830,
+      "population": 5653
+    },
+    {
+      "year": 1840,
+      "population": 7841
+    },
+    {
+      "year": 1850,
+      "population": 6720
+    },
+    {
+      "year": 1860,
+      "population": 9003
+    },
+    {
+      "year": 1870,
+      "population": 10388
+    },
+    {
+      "year": 1880,
+      "population": 13235
+    },
+    {
+      "year": 1890,
+      "population": 15966
+    },
+    {
+      "year": 1900,
+      "population": 22825
+    },
+    {
+      "year": 1910,
+      "population": 28733
+    },
+    {
+      "year": 1920,
+      "population": 30841
+    },
+    {
+      "year": 1930,
+      "population": 38827
+    },
+    {
+      "year": 1940,
+      "population": 43941
+    },
+    {
+      "year": 1950,
+      "population": 57743
+    },
+    {
+      "year": 1960,
+      "population": 84656
+    },
+    {
+      "year": 1970,
+      "population": 109716
+    },
+    {
+      "year": 1980,
+      "population": 150017
+    },
+    {
+      "year": 1990,
+      "population": 164762
+    }
+  ],
+  "Lafayette Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 190503
+    },
+    {
+      "year": 2010,
+      "population": 221578
+    },
+    {
+      "year": 2018,
+      "population": 240091
+    },
+    {
+      "year": 2020,
+      "population": 241753
+    },
+    {
+      "year": 2021,
+      "population": 241173
+    },
+    {
+      "year": 2022,
+      "population": 243175
+    },
+    {
+      "year": 2023,
+      "population": 245075
+    }
+  ],
+  "Lafourche County": [
+    {
+      "year": 1810,
+      "population": 1995
+    },
+    {
+      "year": 1820,
+      "population": 3755
+    },
+    {
+      "year": 1830,
+      "population": 5503
+    },
+    {
+      "year": 1840,
+      "population": 7303
+    },
+    {
+      "year": 1850,
+      "population": 9532
+    },
+    {
+      "year": 1860,
+      "population": 14044
+    },
+    {
+      "year": 1870,
+      "population": 14719
+    },
+    {
+      "year": 1880,
+      "population": 19113
+    },
+    {
+      "year": 1890,
+      "population": 22095
+    },
+    {
+      "year": 1900,
+      "population": 28882
+    },
+    {
+      "year": 1910,
+      "population": 33111
+    },
+    {
+      "year": 1920,
+      "population": 30344
+    },
+    {
+      "year": 1930,
+      "population": 32419
+    },
+    {
+      "year": 1940,
+      "population": 38615
+    },
+    {
+      "year": 1950,
+      "population": 42209
+    },
+    {
+      "year": 1960,
+      "population": 55381
+    },
+    {
+      "year": 1970,
+      "population": 68941
+    },
+    {
+      "year": 1980,
+      "population": 82483
+    },
+    {
+      "year": 1990,
+      "population": 85860
+    }
+  ],
+  "Lafourche Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 89974
+    },
+    {
+      "year": 2010,
+      "population": 96318
+    },
+    {
+      "year": 2018,
+      "population": 98214
+    },
+    {
+      "year": 2020,
+      "population": 97557
+    },
+    {
+      "year": 2021,
+      "population": 97677
+    },
+    {
+      "year": 2022,
+      "population": 97220
+    },
+    {
+      "year": 2023,
+      "population": 96670
+    }
+  ],
+  "Lincoln County": [
+    {
+      "year": 1880,
+      "population": 11075
+    },
+    {
+      "year": 1890,
+      "population": 14753
+    },
+    {
+      "year": 1900,
+      "population": 15898
+    },
+    {
+      "year": 1910,
+      "population": 18485
+    },
+    {
+      "year": 1920,
+      "population": 16962
+    },
+    {
+      "year": 1930,
+      "population": 22822
+    },
+    {
+      "year": 1940,
+      "population": 24790
+    },
+    {
+      "year": 1950,
+      "population": 25782
+    },
+    {
+      "year": 1960,
+      "population": 28535
+    },
+    {
+      "year": 1970,
+      "population": 33800
+    },
+    {
+      "year": 1980,
+      "population": 39763
+    },
+    {
+      "year": 1990,
+      "population": 41745
+    }
+  ],
+  "Lincoln Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 42509
+    },
+    {
+      "year": 2010,
+      "population": 46735
+    },
+    {
+      "year": 2018,
+      "population": 47356
+    },
+    {
+      "year": 2020,
+      "population": 48396
+    },
+    {
+      "year": 2021,
+      "population": 48415
+    },
+    {
+      "year": 2022,
+      "population": 48323
+    },
+    {
+      "year": 2023,
+      "population": 48160
+    }
+  ],
+  "Livingston County": [
+    {
+      "year": 1840,
+      "population": 2315
+    },
+    {
+      "year": 1850,
+      "population": 3385
+    },
+    {
+      "year": 1860,
+      "population": 4431
+    },
+    {
+      "year": 1870,
+      "population": 4026
+    },
+    {
+      "year": 1880,
+      "population": 5258
+    },
+    {
+      "year": 1890,
+      "population": 5769
+    },
+    {
+      "year": 1900,
+      "population": 8100
+    },
+    {
+      "year": 1910,
+      "population": 10627
+    },
+    {
+      "year": 1920,
+      "population": 11643
+    },
+    {
+      "year": 1930,
+      "population": 18206
+    },
+    {
+      "year": 1940,
+      "population": 17790
+    },
+    {
+      "year": 1950,
+      "population": 20054
+    },
+    {
+      "year": 1960,
+      "population": 26974
+    },
+    {
+      "year": 1970,
+      "population": 36511
+    },
+    {
+      "year": 1980,
+      "population": 58806
+    },
+    {
+      "year": 1990,
+      "population": 70526
+    }
+  ],
+  "Livingston Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 91814
+    },
+    {
+      "year": 2010,
+      "population": 128026
+    },
+    {
+      "year": 2018,
+      "population": 138111
+    },
+    {
+      "year": 2020,
+      "population": 142282
+    },
+    {
+      "year": 2021,
+      "population": 141057
+    },
+    {
+      "year": 2022,
+      "population": 143425
+    },
+    {
+      "year": 2023,
+      "population": 145583
+    }
+  ],
+  "Madison County": [
+    {
+      "year": 1840,
+      "population": 5142
+    },
+    {
+      "year": 1850,
+      "population": 8773
+    },
+    {
+      "year": 1860,
+      "population": 14133
+    },
+    {
+      "year": 1870,
+      "population": 8600
+    },
+    {
+      "year": 1880,
+      "population": 13906
+    },
+    {
+      "year": 1890,
+      "population": 14135
+    },
+    {
+      "year": 1900,
+      "population": 12322
+    },
+    {
+      "year": 1910,
+      "population": 10676
+    },
+    {
+      "year": 1920,
+      "population": 10829
+    },
+    {
+      "year": 1930,
+      "population": 14829
+    },
+    {
+      "year": 1940,
+      "population": 18443
+    },
+    {
+      "year": 1950,
+      "population": 17451
+    },
+    {
+      "year": 1960,
+      "population": 16444
+    },
+    {
+      "year": 1970,
+      "population": 15065
+    },
+    {
+      "year": 1980,
+      "population": 15975
+    },
+    {
+      "year": 1990,
+      "population": 12463
+    }
+  ],
+  "Madison Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 13728
+    },
+    {
+      "year": 2010,
+      "population": 12093
+    },
+    {
+      "year": 2018,
+      "population": 11472
+    },
+    {
+      "year": 2020,
+      "population": 10017
+    },
+    {
+      "year": 2021,
+      "population": 10297
+    },
+    {
+      "year": 2022,
+      "population": 10028
+    },
+    {
+      "year": 2023,
+      "population": 9757
+    }
+  ],
+  "Morehouse County": [
+    {
+      "year": 1850,
+      "population": 3913
+    },
+    {
+      "year": 1860,
+      "population": 10357
+    },
+    {
+      "year": 1870,
+      "population": 9387
+    },
+    {
+      "year": 1880,
+      "population": 14206
+    },
+    {
+      "year": 1890,
+      "population": 16786
+    },
+    {
+      "year": 1900,
+      "population": 16634
+    },
+    {
+      "year": 1910,
+      "population": 18786
+    },
+    {
+      "year": 1920,
+      "population": 19311
+    },
+    {
+      "year": 1930,
+      "population": 23689
+    },
+    {
+      "year": 1940,
+      "population": 27571
+    },
+    {
+      "year": 1950,
+      "population": 32038
+    },
+    {
+      "year": 1960,
+      "population": 33709
+    },
+    {
+      "year": 1970,
+      "population": 32463
+    },
+    {
+      "year": 1980,
+      "population": 34803
+    },
+    {
+      "year": 1990,
+      "population": 31938
+    }
+  ],
+  "Morehouse Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 31021
+    },
+    {
+      "year": 2010,
+      "population": 27979
+    },
+    {
+      "year": 2018,
+      "population": 25992
+    },
+    {
+      "year": 2020,
+      "population": 25629
+    },
+    {
+      "year": 2021,
+      "population": 25852
+    },
+    {
+      "year": 2022,
+      "population": 25438
+    },
+    {
+      "year": 2023,
+      "population": 24967
+    }
+  ],
+  "Natchitoches County": [
+    {
+      "year": 1810,
+      "population": 2870
+    },
+    {
+      "year": 1820,
+      "population": 7486
+    },
+    {
+      "year": 1830,
+      "population": 7905
+    },
+    {
+      "year": 1840,
+      "population": 14350
+    },
+    {
+      "year": 1850,
+      "population": 14228
+    },
+    {
+      "year": 1860,
+      "population": 16699
+    },
+    {
+      "year": 1870,
+      "population": 18265
+    },
+    {
+      "year": 1880,
+      "population": 19707
+    },
+    {
+      "year": 1890,
+      "population": 25836
+    },
+    {
+      "year": 1900,
+      "population": 33216
+    },
+    {
+      "year": 1910,
+      "population": 36455
+    },
+    {
+      "year": 1920,
+      "population": 38602
+    },
+    {
+      "year": 1930,
+      "population": 38477
+    },
+    {
+      "year": 1940,
+      "population": 40997
+    },
+    {
+      "year": 1950,
+      "population": 38144
+    },
+    {
+      "year": 1960,
+      "population": 35653
+    },
+    {
+      "year": 1970,
+      "population": 35219
+    },
+    {
+      "year": 1980,
+      "population": 39863
+    },
+    {
+      "year": 1990,
+      "population": 36689
+    }
+  ],
+  "Natchitoches Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 39080
+    },
+    {
+      "year": 2010,
+      "population": 39566
+    },
+    {
+      "year": 2018,
+      "population": 38963
+    },
+    {
+      "year": 2020,
+      "population": 37515
+    },
+    {
+      "year": 2021,
+      "population": 37896
+    },
+    {
+      "year": 2022,
+      "population": 37478
+    },
+    {
+      "year": 2023,
+      "population": 37047
+    }
+  ],
+  "Orleans County": [
+    {
+      "year": 1810,
+      "population": 24552
+    },
+    {
+      "year": 1820,
+      "population": 41351
+    },
+    {
+      "year": 1830,
+      "population": 49826
+    },
+    {
+      "year": 1840,
+      "population": 102193
+    },
+    {
+      "year": 1850,
+      "population": 119460
+    },
+    {
+      "year": 1860,
+      "population": 174491
+    },
+    {
+      "year": 1870,
+      "population": 191418
+    },
+    {
+      "year": 1880,
+      "population": 216090
+    },
+    {
+      "year": 1890,
+      "population": 242039
+    },
+    {
+      "year": 1900,
+      "population": 287104
+    },
+    {
+      "year": 1910,
+      "population": 339075
+    },
+    {
+      "year": 1920,
+      "population": 387219
+    },
+    {
+      "year": 1930,
+      "population": 458762
+    },
+    {
+      "year": 1940,
+      "population": 494537
+    },
+    {
+      "year": 1950,
+      "population": 570445
+    },
+    {
+      "year": 1960,
+      "population": 627525
+    },
+    {
+      "year": 1970,
+      "population": 593471
+    },
+    {
+      "year": 1980,
+      "population": 557515
+    },
+    {
+      "year": 1990,
+      "population": 496938
+    }
+  ],
+  "Orleans Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 484674
+    },
+    {
+      "year": 2010,
+      "population": 343829
+    },
+    {
+      "year": 2018,
+      "population": 389648
+    },
+    {
+      "year": 2020,
+      "population": 383997
+    },
+    {
+      "year": 2021,
+      "population": 383974
+    },
+    {
+      "year": 2022,
+      "population": 380408
+    },
+    {
+      "year": 2023,
+      "population": 376035
+    }
+  ],
+  "Ouachita County": [
+    {
+      "year": 1810,
+      "population": 1077
+    },
+    {
+      "year": 1820,
+      "population": 2896
+    },
+    {
+      "year": 1830,
+      "population": 5140
+    },
+    {
+      "year": 1840,
+      "population": 4640
+    },
+    {
+      "year": 1850,
+      "population": 5008
+    },
+    {
+      "year": 1860,
+      "population": 4727
+    },
+    {
+      "year": 1870,
+      "population": 11582
+    },
+    {
+      "year": 1880,
+      "population": 14685
+    },
+    {
+      "year": 1890,
+      "population": 17985
+    },
+    {
+      "year": 1900,
+      "population": 20947
+    },
+    {
+      "year": 1910,
+      "population": 25830
+    },
+    {
+      "year": 1920,
+      "population": 30319
+    },
+    {
+      "year": 1930,
+      "population": 54337
+    },
+    {
+      "year": 1940,
+      "population": 59168
+    },
+    {
+      "year": 1950,
+      "population": 74713
+    },
+    {
+      "year": 1960,
+      "population": 101663
+    },
+    {
+      "year": 1970,
+      "population": 115387
+    },
+    {
+      "year": 1980,
+      "population": 139241
+    },
+    {
+      "year": 1990,
+      "population": 142191
+    }
+  ],
+  "Ouachita Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 147250
+    },
+    {
+      "year": 2010,
+      "population": 153720
+    },
+    {
+      "year": 2018,
+      "population": 156075
+    },
+    {
+      "year": 2020,
+      "population": 160368
+    },
+    {
+      "year": 2021,
+      "population": 160227
+    },
+    {
+      "year": 2022,
+      "population": 159585
+    },
+    {
+      "year": 2023,
+      "population": 158916
+    }
+  ],
+  "Plaquemines County": [
+    {
+      "year": 1810,
+      "population": 1549
+    },
+    {
+      "year": 1820,
+      "population": 2354
+    },
+    {
+      "year": 1830,
+      "population": 4489
+    },
+    {
+      "year": 1840,
+      "population": 5060
+    },
+    {
+      "year": 1850,
+      "population": 7390
+    },
+    {
+      "year": 1860,
+      "population": 8494
+    },
+    {
+      "year": 1870,
+      "population": 10552
+    },
+    {
+      "year": 1880,
+      "population": 11575
+    },
+    {
+      "year": 1890,
+      "population": 12541
+    },
+    {
+      "year": 1900,
+      "population": 13039
+    },
+    {
+      "year": 1910,
+      "population": 12524
+    },
+    {
+      "year": 1920,
+      "population": 10194
+    },
+    {
+      "year": 1930,
+      "population": 9608
+    },
+    {
+      "year": 1940,
+      "population": 12318
+    },
+    {
+      "year": 1950,
+      "population": 14239
+    },
+    {
+      "year": 1960,
+      "population": 22545
+    },
+    {
+      "year": 1970,
+      "population": 25225
+    },
+    {
+      "year": 1980,
+      "population": 26049
+    },
+    {
+      "year": 1990,
+      "population": 25575
+    }
+  ],
+  "Plaquemines Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 26757
+    },
+    {
+      "year": 2010,
+      "population": 23042
+    },
+    {
+      "year": 2018,
+      "population": 23373
+    },
+    {
+      "year": 2020,
+      "population": 23515
+    },
+    {
+      "year": 2021,
+      "population": 23536
+    },
+    {
+      "year": 2022,
+      "population": 23305
+    },
+    {
+      "year": 2023,
+      "population": 23070
+    }
+  ],
+  "Pointe Coupee County": [
+    {
+      "year": 1810,
+      "population": 4539
+    },
+    {
+      "year": 1820,
+      "population": 4912
+    },
+    {
+      "year": 1830,
+      "population": 5936
+    },
+    {
+      "year": 1840,
+      "population": 7898
+    },
+    {
+      "year": 1850,
+      "population": 11339
+    },
+    {
+      "year": 1860,
+      "population": 17718
+    },
+    {
+      "year": 1870,
+      "population": 12981
+    },
+    {
+      "year": 1880,
+      "population": 17785
+    },
+    {
+      "year": 1890,
+      "population": 19613
+    },
+    {
+      "year": 1900,
+      "population": 25777
+    },
+    {
+      "year": 1910,
+      "population": 25289
+    },
+    {
+      "year": 1920,
+      "population": 24697
+    },
+    {
+      "year": 1930,
+      "population": 21007
+    },
+    {
+      "year": 1940,
+      "population": 24004
+    },
+    {
+      "year": 1950,
+      "population": 21841
+    },
+    {
+      "year": 1960,
+      "population": 22488
+    },
+    {
+      "year": 1970,
+      "population": 22002
+    },
+    {
+      "year": 1980,
+      "population": 24045
+    },
+    {
+      "year": 1990,
+      "population": 22540
+    }
+  ],
+  "Pointe Coupee Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 22763
+    },
+    {
+      "year": 2010,
+      "population": 22802
+    },
+    {
+      "year": 2018,
+      "population": 22158
+    },
+    {
+      "year": 2020,
+      "population": 20758
+    },
+    {
+      "year": 2021,
+      "population": 20951
+    },
+    {
+      "year": 2022,
+      "population": 20652
+    },
+    {
+      "year": 2023,
+      "population": 20438
+    }
+  ],
+  "Rapides County": [
+    {
+      "year": 1810,
+      "population": 2200
+    },
+    {
+      "year": 1820,
+      "population": 6065
+    },
+    {
+      "year": 1830,
+      "population": 7575
+    },
+    {
+      "year": 1840,
+      "population": 14132
+    },
+    {
+      "year": 1850,
+      "population": 16561
+    },
+    {
+      "year": 1860,
+      "population": 25360
+    },
+    {
+      "year": 1870,
+      "population": 18015
+    },
+    {
+      "year": 1880,
+      "population": 23563
+    },
+    {
+      "year": 1890,
+      "population": 27642
+    },
+    {
+      "year": 1900,
+      "population": 39578
+    },
+    {
+      "year": 1910,
+      "population": 44545
+    },
+    {
+      "year": 1920,
+      "population": 59444
+    },
+    {
+      "year": 1930,
+      "population": 65455
+    },
+    {
+      "year": 1940,
+      "population": 73370
+    },
+    {
+      "year": 1950,
+      "population": 90648
+    },
+    {
+      "year": 1960,
+      "population": 111351
+    },
+    {
+      "year": 1970,
+      "population": 118078
+    },
+    {
+      "year": 1980,
+      "population": 135282
+    },
+    {
+      "year": 1990,
+      "population": 131556
+    }
+  ],
+  "Rapides Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 126337
+    },
+    {
+      "year": 2010,
+      "population": 131613
+    },
+    {
+      "year": 2018,
+      "population": 131546
+    },
+    {
+      "year": 2020,
+      "population": 130023
+    },
+    {
+      "year": 2021,
+      "population": 130459
+    },
+    {
+      "year": 2022,
+      "population": 129536
+    },
+    {
+      "year": 2023,
+      "population": 128470
+    }
+  ],
+  "Red River County": [
+    {
+      "year": 1880,
+      "population": 8573
+    },
+    {
+      "year": 1890,
+      "population": 11318
+    },
+    {
+      "year": 1900,
+      "population": 11548
+    },
+    {
+      "year": 1910,
+      "population": 11402
+    },
+    {
+      "year": 1920,
+      "population": 15301
+    },
+    {
+      "year": 1930,
+      "population": 16078
+    },
+    {
+      "year": 1940,
+      "population": 15881
+    },
+    {
+      "year": 1950,
+      "population": 12113
+    },
+    {
+      "year": 1960,
+      "population": 9978
+    },
+    {
+      "year": 1970,
+      "population": 9226
+    },
+    {
+      "year": 1980,
+      "population": 10433
+    },
+    {
+      "year": 1990,
+      "population": 9387
+    }
+  ],
+  "Red River Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 9622
+    },
+    {
+      "year": 2010,
+      "population": 9091
+    },
+    {
+      "year": 2018,
+      "population": 8618
+    },
+    {
+      "year": 2020,
+      "population": 7620
+    },
+    {
+      "year": 2021,
+      "population": 7787
+    },
+    {
+      "year": 2022,
+      "population": 7631
+    },
+    {
+      "year": 2023,
+      "population": 7529
+    }
+  ],
+  "Richland County": [
+    {
+      "year": 1870,
+      "population": 5110
+    },
+    {
+      "year": 1880,
+      "population": 8440
+    },
+    {
+      "year": 1890,
+      "population": 10230
+    },
+    {
+      "year": 1900,
+      "population": 11116
+    },
+    {
+      "year": 1910,
+      "population": 15769
+    },
+    {
+      "year": 1920,
+      "population": 20860
+    },
+    {
+      "year": 1930,
+      "population": 26374
+    },
+    {
+      "year": 1940,
+      "population": 28829
+    },
+    {
+      "year": 1950,
+      "population": 26672
+    },
+    {
+      "year": 1960,
+      "population": 23824
+    },
+    {
+      "year": 1970,
+      "population": 21774
+    },
+    {
+      "year": 1980,
+      "population": 22187
+    },
+    {
+      "year": 1990,
+      "population": 20629
+    }
+  ],
+  "Richland Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 20981
+    },
+    {
+      "year": 2010,
+      "population": 20725
+    },
+    {
+      "year": 2018,
+      "population": 20474
+    },
+    {
+      "year": 2020,
+      "population": 20043
+    },
+    {
+      "year": 2021,
+      "population": 20110
+    },
+    {
+      "year": 2022,
+      "population": 20028
+    },
+    {
+      "year": 2023,
+      "population": 19908
+    }
+  ],
+  "Sabine County": [
+    {
+      "year": 1850,
+      "population": 4515
+    },
+    {
+      "year": 1860,
+      "population": 5828
+    },
+    {
+      "year": 1870,
+      "population": 6456
+    },
+    {
+      "year": 1880,
+      "population": 7344
+    },
+    {
+      "year": 1890,
+      "population": 9390
+    },
+    {
+      "year": 1900,
+      "population": 15421
+    },
+    {
+      "year": 1910,
+      "population": 19874
+    },
+    {
+      "year": 1920,
+      "population": 20713
+    },
+    {
+      "year": 1930,
+      "population": 24110
+    },
+    {
+      "year": 1940,
+      "population": 23586
+    },
+    {
+      "year": 1950,
+      "population": 20880
+    },
+    {
+      "year": 1960,
+      "population": 18564
+    },
+    {
+      "year": 1970,
+      "population": 18638
+    },
+    {
+      "year": 1980,
+      "population": 25280
+    },
+    {
+      "year": 1990,
+      "population": 22646
+    }
+  ],
+  "Sabine Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 23459
+    },
+    {
+      "year": 2010,
+      "population": 24233
+    },
+    {
+      "year": 2018,
+      "population": 24088
+    },
+    {
+      "year": 2020,
+      "population": 22155
+    },
+    {
+      "year": 2021,
+      "population": 22377
+    },
+    {
+      "year": 2022,
+      "population": 22209
+    },
+    {
+      "year": 2023,
+      "population": 22085
+    }
+  ],
+  "St. Bernard County": [
+    {
+      "year": 1810,
+      "population": 1020
+    },
+    {
+      "year": 1820,
+      "population": 2635
+    },
+    {
+      "year": 1830,
+      "population": 3356
+    },
+    {
+      "year": 1840,
+      "population": 3237
+    },
+    {
+      "year": 1850,
+      "population": 3802
+    },
+    {
+      "year": 1860,
+      "population": 4076
+    },
+    {
+      "year": 1870,
+      "population": 3553
+    },
+    {
+      "year": 1880,
+      "population": 4405
+    },
+    {
+      "year": 1890,
+      "population": 4326
+    },
+    {
+      "year": 1900,
+      "population": 5031
+    },
+    {
+      "year": 1910,
+      "population": 5277
+    },
+    {
+      "year": 1920,
+      "population": 4968
+    },
+    {
+      "year": 1930,
+      "population": 6512
+    },
+    {
+      "year": 1940,
+      "population": 7280
+    },
+    {
+      "year": 1950,
+      "population": 11087
+    },
+    {
+      "year": 1960,
+      "population": 32186
+    },
+    {
+      "year": 1970,
+      "population": 51185
+    },
+    {
+      "year": 1980,
+      "population": 64097
+    },
+    {
+      "year": 1990,
+      "population": 66631
+    }
+  ],
+  "St. Bernard Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 67229
+    },
+    {
+      "year": 2010,
+      "population": 35897
+    },
+    {
+      "year": 2018,
+      "population": 45694
+    },
+    {
+      "year": 2020,
+      "population": 43764
+    },
+    {
+      "year": 2021,
+      "population": 43821
+    },
+    {
+      "year": 2022,
+      "population": 44038
+    },
+    {
+      "year": 2023,
+      "population": 44172
+    }
+  ],
+  "St. Charles County": [
+    {
+      "year": 1810,
+      "population": 3291
+    },
+    {
+      "year": 1820,
+      "population": 3862
+    },
+    {
+      "year": 1830,
+      "population": 5147
+    },
+    {
+      "year": 1840,
+      "population": 4700
+    },
+    {
+      "year": 1850,
+      "population": 5120
+    },
+    {
+      "year": 1860,
+      "population": 5297
+    },
+    {
+      "year": 1870,
+      "population": 4867
+    },
+    {
+      "year": 1880,
+      "population": 7161
+    },
+    {
+      "year": 1890,
+      "population": 7737
+    },
+    {
+      "year": 1900,
+      "population": 9072
+    },
+    {
+      "year": 1910,
+      "population": 11207
+    },
+    {
+      "year": 1920,
+      "population": 8586
+    },
+    {
+      "year": 1930,
+      "population": 12111
+    },
+    {
+      "year": 1940,
+      "population": 12321
+    },
+    {
+      "year": 1950,
+      "population": 13363
+    },
+    {
+      "year": 1960,
+      "population": 21219
+    },
+    {
+      "year": 1970,
+      "population": 29550
+    },
+    {
+      "year": 1980,
+      "population": 37259
+    },
+    {
+      "year": 1990,
+      "population": 42437
+    }
+  ],
+  "St. Charles Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 48072
+    },
+    {
+      "year": 2010,
+      "population": 52780
+    },
+    {
+      "year": 2018,
+      "population": 52724
+    },
+    {
+      "year": 2020,
+      "population": 52549
+    },
+    {
+      "year": 2021,
+      "population": 52411
+    },
+    {
+      "year": 2022,
+      "population": 52191
+    },
+    {
+      "year": 2023,
+      "population": 51863
+    }
+  ],
+  "St. Helena County": [
+    {
+      "year": 1820,
+      "population": 3026
+    },
+    {
+      "year": 1830,
+      "population": 4028
+    },
+    {
+      "year": 1840,
+      "population": 3525
+    },
+    {
+      "year": 1850,
+      "population": 4561
+    },
+    {
+      "year": 1860,
+      "population": 7130
+    },
+    {
+      "year": 1870,
+      "population": 5423
+    },
+    {
+      "year": 1880,
+      "population": 7504
+    },
+    {
+      "year": 1890,
+      "population": 8062
+    },
+    {
+      "year": 1900,
+      "population": 8479
+    },
+    {
+      "year": 1910,
+      "population": 9172
+    },
+    {
+      "year": 1920,
+      "population": 8427
+    },
+    {
+      "year": 1930,
+      "population": 8492
+    },
+    {
+      "year": 1940,
+      "population": 9542
+    },
+    {
+      "year": 1950,
+      "population": 9013
+    },
+    {
+      "year": 1960,
+      "population": 9162
+    },
+    {
+      "year": 1970,
+      "population": 9937
+    },
+    {
+      "year": 1980,
+      "population": 9827
+    },
+    {
+      "year": 1990,
+      "population": 9874
+    }
+  ],
+  "St. Helena Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 10525
+    },
+    {
+      "year": 2010,
+      "population": 11203
+    },
+    {
+      "year": 2018,
+      "population": 10411
+    },
+    {
+      "year": 2020,
+      "population": 10920
+    },
+    {
+      "year": 2021,
+      "population": 10881
+    },
+    {
+      "year": 2022,
+      "population": 10872
+    },
+    {
+      "year": 2023,
+      "population": 10849
+    }
+  ],
+  "St. James County": [
+    {
+      "year": 1810,
+      "population": 3955
+    },
+    {
+      "year": 1820,
+      "population": 5660
+    },
+    {
+      "year": 1830,
+      "population": 7646
+    },
+    {
+      "year": 1840,
+      "population": 8548
+    },
+    {
+      "year": 1850,
+      "population": 11098
+    },
+    {
+      "year": 1860,
+      "population": 11499
+    },
+    {
+      "year": 1870,
+      "population": 10152
+    },
+    {
+      "year": 1880,
+      "population": 14714
+    },
+    {
+      "year": 1890,
+      "population": 15715
+    },
+    {
+      "year": 1900,
+      "population": 20197
+    },
+    {
+      "year": 1910,
+      "population": 23009
+    },
+    {
+      "year": 1920,
+      "population": 21228
+    },
+    {
+      "year": 1930,
+      "population": 15338
+    },
+    {
+      "year": 1940,
+      "population": 16596
+    },
+    {
+      "year": 1950,
+      "population": 15334
+    },
+    {
+      "year": 1960,
+      "population": 18369
+    },
+    {
+      "year": 1970,
+      "population": 19733
+    },
+    {
+      "year": 1980,
+      "population": 21495
+    },
+    {
+      "year": 1990,
+      "population": 20879
+    }
+  ],
+  "St. James Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 21216
+    },
+    {
+      "year": 2010,
+      "population": 22102
+    },
+    {
+      "year": 2018,
+      "population": 21357
+    },
+    {
+      "year": 2020,
+      "population": 20192
+    },
+    {
+      "year": 2021,
+      "population": 20390
+    },
+    {
+      "year": 2022,
+      "population": 20090
+    },
+    {
+      "year": 2023,
+      "population": 19797
+    }
+  ],
+  "St. John the Baptist County": [
+    {
+      "year": 1810,
+      "population": 2990
+    },
+    {
+      "year": 1820,
+      "population": 3854
+    },
+    {
+      "year": 1830,
+      "population": 5677
+    },
+    {
+      "year": 1840,
+      "population": 5776
+    },
+    {
+      "year": 1850,
+      "population": 7317
+    },
+    {
+      "year": 1860,
+      "population": 7930
+    },
+    {
+      "year": 1870,
+      "population": 6762
+    },
+    {
+      "year": 1880,
+      "population": 9686
+    },
+    {
+      "year": 1890,
+      "population": 11359
+    },
+    {
+      "year": 1900,
+      "population": 12330
+    },
+    {
+      "year": 1910,
+      "population": 14338
+    },
+    {
+      "year": 1920,
+      "population": 11896
+    },
+    {
+      "year": 1930,
+      "population": 14078
+    },
+    {
+      "year": 1940,
+      "population": 14766
+    },
+    {
+      "year": 1950,
+      "population": 14861
+    },
+    {
+      "year": 1960,
+      "population": 18439
+    },
+    {
+      "year": 1970,
+      "population": 23813
+    },
+    {
+      "year": 1980,
+      "population": 31924
+    },
+    {
+      "year": 1990,
+      "population": 39996
+    }
+  ],
+  "St. John the Baptist Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 43044
+    },
+    {
+      "year": 2010,
+      "population": 45924
+    },
+    {
+      "year": 2018,
+      "population": 43446
+    },
+    {
+      "year": 2020,
+      "population": 42477
+    },
+    {
+      "year": 2021,
+      "population": 42704
+    },
+    {
+      "year": 2022,
+      "population": 41986
+    },
+    {
+      "year": 2023,
+      "population": 41342
+    }
+  ],
+  "St. Landry County": [
+    {
+      "year": 1810,
+      "population": 5048
+    },
+    {
+      "year": 1820,
+      "population": 10085
+    },
+    {
+      "year": 1830,
+      "population": 12591
+    },
+    {
+      "year": 1840,
+      "population": 15233
+    },
+    {
+      "year": 1850,
+      "population": 22253
+    },
+    {
+      "year": 1860,
+      "population": 23104
+    },
+    {
+      "year": 1870,
+      "population": 25553
+    },
+    {
+      "year": 1880,
+      "population": 40004
+    },
+    {
+      "year": 1890,
+      "population": 40250
+    },
+    {
+      "year": 1900,
+      "population": 52906
+    },
+    {
+      "year": 1910,
+      "population": 66661
+    },
+    {
+      "year": 1920,
+      "population": 51697
+    },
+    {
+      "year": 1930,
+      "population": 60074
+    },
+    {
+      "year": 1940,
+      "population": 71481
+    },
+    {
+      "year": 1950,
+      "population": 78476
+    },
+    {
+      "year": 1960,
+      "population": 81493
+    },
+    {
+      "year": 1970,
+      "population": 80364
+    },
+    {
+      "year": 1980,
+      "population": 84128
+    },
+    {
+      "year": 1990,
+      "population": 80331
+    }
+  ],
+  "St. Landry Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 87700
+    },
+    {
+      "year": 2010,
+      "population": 83384
+    },
+    {
+      "year": 2018,
+      "population": 83449
+    },
+    {
+      "year": 2020,
+      "population": 82540
+    },
+    {
+      "year": 2021,
+      "population": 82999
+    },
+    {
+      "year": 2022,
+      "population": 82574
+    },
+    {
+      "year": 2023,
+      "population": 82128
+    }
+  ],
+  "St. Martin County": [
+    {
+      "year": 1810,
+      "population": 7369
+    },
+    {
+      "year": 1820,
+      "population": 12063
+    },
+    {
+      "year": 1830,
+      "population": 7205
+    },
+    {
+      "year": 1840,
+      "population": 8674
+    },
+    {
+      "year": 1850,
+      "population": 11761
+    },
+    {
+      "year": 1860,
+      "population": 12674
+    },
+    {
+      "year": 1870,
+      "population": 9370
+    },
+    {
+      "year": 1880,
+      "population": 12663
+    },
+    {
+      "year": 1890,
+      "population": 14884
+    },
+    {
+      "year": 1900,
+      "population": 18940
+    },
+    {
+      "year": 1910,
+      "population": 23070
+    },
+    {
+      "year": 1920,
+      "population": 21990
+    },
+    {
+      "year": 1930,
+      "population": 21767
+    },
+    {
+      "year": 1940,
+      "population": 26394
+    },
+    {
+      "year": 1950,
+      "population": 26353
+    },
+    {
+      "year": 1960,
+      "population": 29063
+    },
+    {
+      "year": 1970,
+      "population": 32453
+    },
+    {
+      "year": 1980,
+      "population": 40214
+    },
+    {
+      "year": 1990,
+      "population": 43978
+    }
+  ],
+  "St. Martin Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 48583
+    },
+    {
+      "year": 2010,
+      "population": 52160
+    },
+    {
+      "year": 2018,
+      "population": 53752
+    },
+    {
+      "year": 2020,
+      "population": 51767
+    },
+    {
+      "year": 2021,
+      "population": 52222
+    },
+    {
+      "year": 2022,
+      "population": 51856
+    },
+    {
+      "year": 2023,
+      "population": 51559
+    }
+  ],
+  "St. Mary County": [
+    {
+      "year": 1830,
+      "population": 6442
+    },
+    {
+      "year": 1840,
+      "population": 8950
+    },
+    {
+      "year": 1850,
+      "population": 13697
+    },
+    {
+      "year": 1860,
+      "population": 16816
+    },
+    {
+      "year": 1870,
+      "population": 13860
+    },
+    {
+      "year": 1880,
+      "population": 19891
+    },
+    {
+      "year": 1890,
+      "population": 22416
+    },
+    {
+      "year": 1900,
+      "population": 34145
+    },
+    {
+      "year": 1910,
+      "population": 39368
+    },
+    {
+      "year": 1920,
+      "population": 30754
+    },
+    {
+      "year": 1930,
+      "population": 29397
+    },
+    {
+      "year": 1940,
+      "population": 31458
+    },
+    {
+      "year": 1950,
+      "population": 35848
+    },
+    {
+      "year": 1960,
+      "population": 48833
+    },
+    {
+      "year": 1970,
+      "population": 60752
+    },
+    {
+      "year": 1980,
+      "population": 64253
+    },
+    {
+      "year": 1990,
+      "population": 58086
+    }
+  ],
+  "St. Mary Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 53500
+    },
+    {
+      "year": 2010,
+      "population": 54650
+    },
+    {
+      "year": 2018,
+      "population": 51734
+    },
+    {
+      "year": 2020,
+      "population": 49406
+    },
+    {
+      "year": 2021,
+      "population": 49818
+    },
+    {
+      "year": 2022,
+      "population": 49114
+    },
+    {
+      "year": 2023,
+      "population": 48455
+    }
+  ],
+  "St. Tammany County": [
+    {
+      "year": 1820,
+      "population": 1723
+    },
+    {
+      "year": 1830,
+      "population": 2864
+    },
+    {
+      "year": 1840,
+      "population": 4598
+    },
+    {
+      "year": 1850,
+      "population": 6364
+    },
+    {
+      "year": 1860,
+      "population": 5406
+    },
+    {
+      "year": 1870,
+      "population": 5586
+    },
+    {
+      "year": 1880,
+      "population": 6887
+    },
+    {
+      "year": 1890,
+      "population": 10160
+    },
+    {
+      "year": 1900,
+      "population": 13335
+    },
+    {
+      "year": 1910,
+      "population": 18917
+    },
+    {
+      "year": 1920,
+      "population": 20645
+    },
+    {
+      "year": 1930,
+      "population": 20929
+    },
+    {
+      "year": 1940,
+      "population": 23624
+    },
+    {
+      "year": 1950,
+      "population": 26988
+    },
+    {
+      "year": 1960,
+      "population": 38643
+    },
+    {
+      "year": 1970,
+      "population": 63585
+    },
+    {
+      "year": 1980,
+      "population": 110869
+    },
+    {
+      "year": 1990,
+      "population": 144508
+    }
+  ],
+  "St. Tammany Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 191268
+    },
+    {
+      "year": 2010,
+      "population": 233740
+    },
+    {
+      "year": 2018,
+      "population": 252093
+    },
+    {
+      "year": 2020,
+      "population": 264570
+    },
+    {
+      "year": 2021,
+      "population": 262799
+    },
+    {
+      "year": 2022,
+      "population": 266168
+    },
+    {
+      "year": 2023,
+      "population": 269331
+    }
+  ],
+  "Statewide": [
+    {
+      "year": 1800,
+      "population": 1800
+    },
+    {
+      "year": 1810,
+      "population": 78366
+    },
+    {
+      "year": 1820,
+      "population": 155227
+    },
+    {
+      "year": 1830,
+      "population": 217359
+    },
+    {
+      "year": 1840,
+      "population": 354251
+    },
+    {
+      "year": 1850,
+      "population": 519612
+    },
+    {
+      "year": 1860,
+      "population": 709862
+    },
+    {
+      "year": 1870,
+      "population": 728785
+    },
+    {
+      "year": 1880,
+      "population": 941826
+    },
+    {
+      "year": 1890,
+      "population": 1120477
+    },
+    {
+      "year": 1900,
+      "population": 1383525
+    },
+    {
+      "year": 1910,
+      "population": 1658298
+    },
+    {
+      "year": 1920,
+      "population": 1800429
+    },
+    {
+      "year": 1930,
+      "population": 2103523
+    },
+    {
+      "year": 1940,
+      "population": 2365820
+    },
+    {
+      "year": 1950,
+      "population": 2685466
+    },
+    {
+      "year": 1960,
+      "population": 3258982
+    },
+    {
+      "year": 1970,
+      "population": 3643276
+    },
+    {
+      "year": 1980,
+      "population": 4207880
+    },
+    {
+      "year": 1990,
+      "population": 4221963
+    },
+    {
+      "year": 2000,
+      "population": 4468976
+    },
+    {
+      "year": 2010,
+      "population": 4533372
+    },
+    {
+      "year": 2018,
+      "population": 4663616
+    },
+    {
+      "year": 2020,
+      "population": 4657757
+    },
+    {
+      "year": 2021,
+      "population": 4657305
+    },
+    {
+      "year": 2022,
+      "population": 4640546
+    },
+    {
+      "year": 2023,
+      "population": 4621025
+    }
+  ],
+  "Tangipahoa County": [
+    {
+      "year": 1870,
+      "population": 7928
+    },
+    {
+      "year": 1880,
+      "population": 9638
+    },
+    {
+      "year": 1890,
+      "population": 12655
+    },
+    {
+      "year": 1900,
+      "population": 17625
+    },
+    {
+      "year": 1910,
+      "population": 29160
+    },
+    {
+      "year": 1920,
+      "population": 31440
+    },
+    {
+      "year": 1930,
+      "population": 46227
+    },
+    {
+      "year": 1940,
+      "population": 45519
+    },
+    {
+      "year": 1950,
+      "population": 53218
+    },
+    {
+      "year": 1960,
+      "population": 59434
+    },
+    {
+      "year": 1970,
+      "population": 65875
+    },
+    {
+      "year": 1980,
+      "population": 80698
+    },
+    {
+      "year": 1990,
+      "population": 85709
+    }
+  ],
+  "Tangipahoa Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 100588
+    },
+    {
+      "year": 2010,
+      "population": 121097
+    },
+    {
+      "year": 2018,
+      "population": 130504
+    },
+    {
+      "year": 2020,
+      "population": 133157
+    },
+    {
+      "year": 2021,
+      "population": 132492
+    },
+    {
+      "year": 2022,
+      "population": 133953
+    },
+    {
+      "year": 2023,
+      "population": 135218
+    }
+  ],
+  "Tensas County": [
+    {
+      "year": 1850,
+      "population": 9040
+    },
+    {
+      "year": 1860,
+      "population": 16078
+    },
+    {
+      "year": 1870,
+      "population": 12419
+    },
+    {
+      "year": 1880,
+      "population": 17815
+    },
+    {
+      "year": 1890,
+      "population": 16647
+    },
+    {
+      "year": 1900,
+      "population": 19070
+    },
+    {
+      "year": 1910,
+      "population": 17060
+    },
+    {
+      "year": 1920,
+      "population": 12085
+    },
+    {
+      "year": 1930,
+      "population": 15096
+    },
+    {
+      "year": 1940,
+      "population": 15940
+    },
+    {
+      "year": 1950,
+      "population": 13209
+    },
+    {
+      "year": 1960,
+      "population": 11796
+    },
+    {
+      "year": 1970,
+      "population": 9732
+    },
+    {
+      "year": 1980,
+      "population": 8525
+    },
+    {
+      "year": 1990,
+      "population": 7103
+    }
+  ],
+  "Tensas Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 6618
+    },
+    {
+      "year": 2010,
+      "population": 5252
+    },
+    {
+      "year": 2018,
+      "population": 4666
+    },
+    {
+      "year": 2020,
+      "population": 4147
+    },
+    {
+      "year": 2021,
+      "population": 4269
+    },
+    {
+      "year": 2022,
+      "population": 4127
+    },
+    {
+      "year": 2023,
+      "population": 3992
+    }
+  ],
+  "Terrebonne County": [
+    {
+      "year": 1830,
+      "population": 2121
+    },
+    {
+      "year": 1840,
+      "population": 4410
+    },
+    {
+      "year": 1850,
+      "population": 7724
+    },
+    {
+      "year": 1860,
+      "population": 12091
+    },
+    {
+      "year": 1870,
+      "population": 12451
+    },
+    {
+      "year": 1880,
+      "population": 17957
+    },
+    {
+      "year": 1890,
+      "population": 20167
+    },
+    {
+      "year": 1900,
+      "population": 24464
+    },
+    {
+      "year": 1910,
+      "population": 28320
+    },
+    {
+      "year": 1920,
+      "population": 26974
+    },
+    {
+      "year": 1930,
+      "population": 29816
+    },
+    {
+      "year": 1940,
+      "population": 35880
+    },
+    {
+      "year": 1950,
+      "population": 43328
+    },
+    {
+      "year": 1960,
+      "population": 60771
+    },
+    {
+      "year": 1970,
+      "population": 76049
+    },
+    {
+      "year": 1980,
+      "population": 94393
+    },
+    {
+      "year": 1990,
+      "population": 96982
+    }
+  ],
+  "Terrebonne Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 104503
+    },
+    {
+      "year": 2010,
+      "population": 111860
+    },
+    {
+      "year": 2018,
+      "population": 112587
+    },
+    {
+      "year": 2020,
+      "population": 109580
+    },
+    {
+      "year": 2021,
+      "population": 110100
+    },
+    {
+      "year": 2022,
+      "population": 108862
+    },
+    {
+      "year": 2023,
+      "population": 107362
+    }
+  ],
+  "Union County": [
+    {
+      "year": 1840,
+      "population": 1838
+    },
+    {
+      "year": 1850,
+      "population": 8203
+    },
+    {
+      "year": 1860,
+      "population": 10389
+    },
+    {
+      "year": 1870,
+      "population": 11685
+    },
+    {
+      "year": 1880,
+      "population": 13526
+    },
+    {
+      "year": 1890,
+      "population": 17304
+    },
+    {
+      "year": 1900,
+      "population": 18520
+    },
+    {
+      "year": 1910,
+      "population": 20451
+    },
+    {
+      "year": 1920,
+      "population": 19621
+    },
+    {
+      "year": 1930,
+      "population": 20731
+    },
+    {
+      "year": 1940,
+      "population": 20943
+    },
+    {
+      "year": 1950,
+      "population": 19141
+    },
+    {
+      "year": 1960,
+      "population": 17624
+    },
+    {
+      "year": 1970,
+      "population": 18447
+    },
+    {
+      "year": 1980,
+      "population": 21167
+    },
+    {
+      "year": 1990,
+      "population": 20690
+    }
+  ],
+  "Union Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 22803
+    },
+    {
+      "year": 2010,
+      "population": 22721
+    },
+    {
+      "year": 2018,
+      "population": 22475
+    },
+    {
+      "year": 2020,
+      "population": 21107
+    },
+    {
+      "year": 2021,
+      "population": 21272
+    },
+    {
+      "year": 2022,
+      "population": 21049
+    },
+    {
+      "year": 2023,
+      "population": 20914
+    }
+  ],
+  "Vermilion County": [
+    {
+      "year": 1850,
+      "population": 3409
+    },
+    {
+      "year": 1860,
+      "population": 4324
+    },
+    {
+      "year": 1870,
+      "population": 4528
+    },
+    {
+      "year": 1880,
+      "population": 8728
+    },
+    {
+      "year": 1890,
+      "population": 14234
+    },
+    {
+      "year": 1900,
+      "population": 20705
+    },
+    {
+      "year": 1910,
+      "population": 26390
+    },
+    {
+      "year": 1920,
+      "population": 26482
+    },
+    {
+      "year": 1930,
+      "population": 33684
+    },
+    {
+      "year": 1940,
+      "population": 37750
+    },
+    {
+      "year": 1950,
+      "population": 36929
+    },
+    {
+      "year": 1960,
+      "population": 38855
+    },
+    {
+      "year": 1970,
+      "population": 43071
+    },
+    {
+      "year": 1980,
+      "population": 48458
+    },
+    {
+      "year": 1990,
+      "population": 50055
+    }
+  ],
+  "Vermilion Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 53807
+    },
+    {
+      "year": 2010,
+      "population": 57999
+    },
+    {
+      "year": 2018,
+      "population": 59867
+    },
+    {
+      "year": 2020,
+      "population": 57359
+    },
+    {
+      "year": 2021,
+      "population": 57775
+    },
+    {
+      "year": 2022,
+      "population": 57202
+    },
+    {
+      "year": 2023,
+      "population": 57031
+    }
+  ],
+  "Vernon County": [
+    {
+      "year": 1880,
+      "population": 5160
+    },
+    {
+      "year": 1890,
+      "population": 5903
+    },
+    {
+      "year": 1900,
+      "population": 10327
+    },
+    {
+      "year": 1910,
+      "population": 17384
+    },
+    {
+      "year": 1920,
+      "population": 20493
+    },
+    {
+      "year": 1930,
+      "population": 20047
+    },
+    {
+      "year": 1940,
+      "population": 19142
+    },
+    {
+      "year": 1950,
+      "population": 18974
+    },
+    {
+      "year": 1960,
+      "population": 18301
+    },
+    {
+      "year": 1970,
+      "population": 53794
+    },
+    {
+      "year": 1980,
+      "population": 53475
+    },
+    {
+      "year": 1990,
+      "population": 61961
+    }
+  ],
+  "Vernon Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 52531
+    },
+    {
+      "year": 2010,
+      "population": 52334
+    },
+    {
+      "year": 2018,
+      "population": 51007
+    },
+    {
+      "year": 2020,
+      "population": 48750
+    },
+    {
+      "year": 2021,
+      "population": 49064
+    },
+    {
+      "year": 2022,
+      "population": 48452
+    },
+    {
+      "year": 2023,
+      "population": 47764
+    }
+  ],
+  "Washington County": [
+    {
+      "year": 1820,
+      "population": 2517
+    },
+    {
+      "year": 1830,
+      "population": 2286
+    },
+    {
+      "year": 1840,
+      "population": 2649
+    },
+    {
+      "year": 1850,
+      "population": 3408
+    },
+    {
+      "year": 1860,
+      "population": 4708
+    },
+    {
+      "year": 1870,
+      "population": 3330
+    },
+    {
+      "year": 1880,
+      "population": 5190
+    },
+    {
+      "year": 1890,
+      "population": 6700
+    },
+    {
+      "year": 1900,
+      "population": 9628
+    },
+    {
+      "year": 1910,
+      "population": 18886
+    },
+    {
+      "year": 1920,
+      "population": 24164
+    },
+    {
+      "year": 1930,
+      "population": 29904
+    },
+    {
+      "year": 1940,
+      "population": 34443
+    },
+    {
+      "year": 1950,
+      "population": 38371
+    },
+    {
+      "year": 1960,
+      "population": 44015
+    },
+    {
+      "year": 1970,
+      "population": 41987
+    },
+    {
+      "year": 1980,
+      "population": 44207
+    },
+    {
+      "year": 1990,
+      "population": 43185
+    }
+  ],
+  "Washington Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 43926
+    },
+    {
+      "year": 2010,
+      "population": 47168
+    },
+    {
+      "year": 2018,
+      "population": 46457
+    },
+    {
+      "year": 2020,
+      "population": 45463
+    },
+    {
+      "year": 2021,
+      "population": 45794
+    },
+    {
+      "year": 2022,
+      "population": 45514
+    },
+    {
+      "year": 2023,
+      "population": 45238
+    }
+  ],
+  "Webster County": [
+    {
+      "year": 1880,
+      "population": 10005
+    },
+    {
+      "year": 1890,
+      "population": 12466
+    },
+    {
+      "year": 1900,
+      "population": 15125
+    },
+    {
+      "year": 1910,
+      "population": 19186
+    },
+    {
+      "year": 1920,
+      "population": 24707
+    },
+    {
+      "year": 1930,
+      "population": 29458
+    },
+    {
+      "year": 1940,
+      "population": 33676
+    },
+    {
+      "year": 1950,
+      "population": 35704
+    },
+    {
+      "year": 1960,
+      "population": 39701
+    },
+    {
+      "year": 1970,
+      "population": 39939
+    },
+    {
+      "year": 1980,
+      "population": 43631
+    },
+    {
+      "year": 1990,
+      "population": 41989
+    }
+  ],
+  "Webster Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 41831
+    },
+    {
+      "year": 2010,
+      "population": 41207
+    },
+    {
+      "year": 2018,
+      "population": 39631
+    },
+    {
+      "year": 2020,
+      "population": 36967
+    },
+    {
+      "year": 2021,
+      "population": 37356
+    },
+    {
+      "year": 2022,
+      "population": 36761
+    },
+    {
+      "year": 2023,
+      "population": 36189
+    }
+  ],
+  "West Baton Rouge County": [
+    {
+      "year": 1810,
+      "population": 1463
+    },
+    {
+      "year": 1820,
+      "population": 2335
+    },
+    {
+      "year": 1830,
+      "population": 3084
+    },
+    {
+      "year": 1840,
+      "population": 4638
+    },
+    {
+      "year": 1850,
+      "population": 6270
+    },
+    {
+      "year": 1860,
+      "population": 7312
+    },
+    {
+      "year": 1870,
+      "population": 5114
+    },
+    {
+      "year": 1880,
+      "population": 7667
+    },
+    {
+      "year": 1890,
+      "population": 8363
+    },
+    {
+      "year": 1900,
+      "population": 10285
+    },
+    {
+      "year": 1910,
+      "population": 12636
+    },
+    {
+      "year": 1920,
+      "population": 11092
+    },
+    {
+      "year": 1930,
+      "population": 9716
+    },
+    {
+      "year": 1940,
+      "population": 11263
+    },
+    {
+      "year": 1950,
+      "population": 11738
+    },
+    {
+      "year": 1960,
+      "population": 14796
+    },
+    {
+      "year": 1970,
+      "population": 16864
+    },
+    {
+      "year": 1980,
+      "population": 19086
+    },
+    {
+      "year": 1990,
+      "population": 19419
+    }
+  ],
+  "West Baton Rouge Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 21601
+    },
+    {
+      "year": 2010,
+      "population": 23788
+    },
+    {
+      "year": 2018,
+      "population": 25860
+    },
+    {
+      "year": 2020,
+      "population": 27199
+    },
+    {
+      "year": 2021,
+      "population": 27064
+    },
+    {
+      "year": 2022,
+      "population": 27377
+    },
+    {
+      "year": 2023,
+      "population": 27666
+    }
+  ],
+  "West Carroll County": [
+    {
+      "year": 1880,
+      "population": 2776
+    },
+    {
+      "year": 1890,
+      "population": 3748
+    },
+    {
+      "year": 1900,
+      "population": 3685
+    },
+    {
+      "year": 1910,
+      "population": 6249
+    },
+    {
+      "year": 1920,
+      "population": 8857
+    },
+    {
+      "year": 1930,
+      "population": 13895
+    },
+    {
+      "year": 1940,
+      "population": 19252
+    },
+    {
+      "year": 1950,
+      "population": 17248
+    },
+    {
+      "year": 1960,
+      "population": 14177
+    },
+    {
+      "year": 1970,
+      "population": 13028
+    },
+    {
+      "year": 1980,
+      "population": 12922
+    },
+    {
+      "year": 1990,
+      "population": 12093
+    }
+  ],
+  "West Carroll Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 12314
+    },
+    {
+      "year": 2010,
+      "population": 11604
+    },
+    {
+      "year": 2018,
+      "population": 11180
+    },
+    {
+      "year": 2020,
+      "population": 9751
+    },
+    {
+      "year": 2021,
+      "population": 9959
+    },
+    {
+      "year": 2022,
+      "population": 9800
+    },
+    {
+      "year": 2023,
+      "population": 9622
+    }
+  ],
+  "West Feliciana County": [
+    {
+      "year": 1830,
+      "population": 8629
+    },
+    {
+      "year": 1840,
+      "population": 10910
+    },
+    {
+      "year": 1850,
+      "population": 13245
+    },
+    {
+      "year": 1860,
+      "population": 11671
+    },
+    {
+      "year": 1870,
+      "population": 10499
+    },
+    {
+      "year": 1880,
+      "population": 12809
+    },
+    {
+      "year": 1890,
+      "population": 15062
+    },
+    {
+      "year": 1900,
+      "population": 15994
+    },
+    {
+      "year": 1910,
+      "population": 13449
+    },
+    {
+      "year": 1920,
+      "population": 12303
+    },
+    {
+      "year": 1930,
+      "population": 10924
+    },
+    {
+      "year": 1940,
+      "population": 11720
+    },
+    {
+      "year": 1950,
+      "population": 10169
+    },
+    {
+      "year": 1960,
+      "population": 12395
+    },
+    {
+      "year": 1970,
+      "population": 11376
+    },
+    {
+      "year": 1980,
+      "population": 12186
+    },
+    {
+      "year": 1990,
+      "population": 12915
+    }
+  ],
+  "West Feliciana Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 15111
+    },
+    {
+      "year": 2010,
+      "population": 15625
+    },
+    {
+      "year": 2018,
+      "population": 15377
+    },
+    {
+      "year": 2020,
+      "population": 15310
+    },
+    {
+      "year": 2021,
+      "population": 15334
+    },
+    {
+      "year": 2022,
+      "population": 15358
+    },
+    {
+      "year": 2023,
+      "population": 15381
+    }
+  ],
+  "Winn County": [
+    {
+      "year": 1860,
+      "population": 6876
+    },
+    {
+      "year": 1870,
+      "population": 4954
+    },
+    {
+      "year": 1880,
+      "population": 5846
+    },
+    {
+      "year": 1890,
+      "population": 7082
+    },
+    {
+      "year": 1900,
+      "population": 9648
+    },
+    {
+      "year": 1910,
+      "population": 18357
+    },
+    {
+      "year": 1920,
+      "population": 16119
+    },
+    {
+      "year": 1930,
+      "population": 14766
+    },
+    {
+      "year": 1940,
+      "population": 16923
+    },
+    {
+      "year": 1950,
+      "population": 16119
+    },
+    {
+      "year": 1960,
+      "population": 16034
+    },
+    {
+      "year": 1970,
+      "population": 16369
+    },
+    {
+      "year": 1980,
+      "population": 17253
+    },
+    {
+      "year": 1990,
+      "population": 16269
+    }
+  ],
+  "Winn Parish, Louisiana County": [
+    {
+      "year": 2000,
+      "population": 16894
+    },
+    {
+      "year": 2010,
+      "population": 15313
+    },
+    {
+      "year": 2018,
+      "population": 14494
+    },
+    {
+      "year": 2020,
+      "population": 13755
+    },
+    {
+      "year": 2021,
+      "population": 13875
+    },
+    {
+      "year": 2022,
+      "population": 13665
+    },
+    {
+      "year": 2023,
+      "population": 13506
+    }
+  ]
+}

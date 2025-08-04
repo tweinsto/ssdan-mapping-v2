@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Internet Access Over Time –  Alaska</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>body { font-family: sans-serif; margin: 1rem 2rem; text-align: center; }
+                      h2 { margin-bottom: 0.25rem; font-size: 1.6rem; }
+                      select { padding: 0.4rem; font-size: 1rem; margin: 1rem 0; border-radius: 5px; border: 1px solid #999; }
+                      canvas { width: 100%; max-width: 850px; height: 450px; margin-top: 1rem; }</style>
+</head>
+<html>
+  <body>
+    <h2>Internet Access in  Alaska (2013–2023)</h2>
+    <label>Select County: </label>
+    <select id="countySelect"><option value='Statewide'>Statewide</option>
+<option value='Anchorage Municipality, Alaska'>Anchorage Municipality, Alaska</option>
+<option value='Fairbanks North Star Borough, Alaska'>Fairbanks North Star Borough, Alaska</option>
+<option value='Matanuska-Susitna Borough, Alaska'>Matanuska-Susitna Borough, Alaska</option></select>
+    <canvas id="lineChart" width="850" height="450"></canvas>
+    <script>const internetData = {"Statewide":{"2013":82.3,"2014":86.2,"2015":84.8,"2016":89.5,"2017":89.2,"2018":90.7,"2019":91.6,"2021":92.8,"2022":94.6,"2023":95.1},"Anchorage Municipality, Alaska":{"2013":84.9,"2014":87.2,"2015":84.8,"2016":92.1,"2017":90.8,"2018":91.9,"2019":92.9,"2021":94.4,"2022":96,"2023":95.2},"Fairbanks North Star Borough, Alaska":{"2013":73.2,"2014":83.2,"2015":83.9,"2016":84.5,"2017":86.2,"2018":90.1,"2019":90.7,"2021":87.8,"2022":92.7,"2023":94.8},"Matanuska-Susitna Borough, Alaska":{"2013":83.7,"2014":86.6,"2015":85.9,"2016":86.1,"2017":86.6,"2018":87.8,"2019":88.6,"2021":92.9,"2022":92.4,"2023":95.2}};
+const ctx = document.getElementById('lineChart').getContext('2d');
+let chart;
+
+function renderChart(data) {
+  const labels = Object.keys(data);
+  const values = Object.values(data);
+
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: '% With Internet',
+        data: values,
+        fill: false,
+        borderColor: 'teal',
+        backgroundColor: 'teal',
+        tension: 0.3,
+        pointRadius: 4
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100,
+          title: { display: true, text: '% With Internet' }
+        },
+        x: {
+          title: { display: true, text: 'Year' }
+        }
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function(ctx) {
+              return ctx.parsed.y.toFixed(1) + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  renderChart(internetData[this.value]);
+});
+renderChart(internetData['Statewide']);</script>
+  </body>
+</html>
+</html>

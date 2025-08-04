@@ -1,0 +1,500 @@
+{
+  "state": "Addison County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 900
+        },
+        {
+          "label": "Asian",
+          "value": 10503
+        },
+        {
+          "label": "Black or African American",
+          "value": 7453
+        },
+        {
+          "label": "Hispanic",
+          "value": 16058
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 97
+        },
+        {
+          "label": "Two or More Races",
+          "value": 23639
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 584421
+        }
+      ]
+    },
+    "Addison County, Vermont": {
+      "label": "Addison County, Vermont",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 24
+        },
+        {
+          "label": "Asian",
+          "value": 695
+        },
+        {
+          "label": "Black or African American",
+          "value": 326
+        },
+        {
+          "label": "Hispanic",
+          "value": 1184
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 32
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1299
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33828
+        }
+      ]
+    },
+    "Bennington County, Vermont": {
+      "label": "Bennington County, Vermont",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 354
+        },
+        {
+          "label": "Black or African American",
+          "value": 380
+        },
+        {
+          "label": "Hispanic",
+          "value": 1023
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1216
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 34163
+        }
+      ]
+    },
+    "Caledonia County, Vermont": {
+      "label": "Caledonia County, Vermont",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 59
+        },
+        {
+          "label": "Asian",
+          "value": 84
+        },
+        {
+          "label": "Black or African American",
+          "value": 225
+        },
+        {
+          "label": "Hispanic",
+          "value": 643
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1044
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28169
+        }
+      ]
+    },
+    "Chittenden County, Vermont": {
+      "label": "Chittenden County, Vermont",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 145
+        },
+        {
+          "label": "Asian",
+          "value": 6530
+        },
+        {
+          "label": "Black or African American",
+          "value": 4190
+        },
+        {
+          "label": "Hispanic",
+          "value": 4773
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 45
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7065
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 145454
+        }
+      ]
+    },
+    "Essex County, Vermont": {
+      "label": "Essex County, Vermont",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 35
+        },
+        {
+          "label": "Asian",
+          "value": 57
+        },
+        {
+          "label": "Black or African American",
+          "value": 3
+        },
+        {
+          "label": "Hispanic",
+          "value": 89
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 203
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5585
+        }
+      ]
+    },
+    "Franklin County, Vermont": {
+      "label": "Franklin County, Vermont",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 156
+        },
+        {
+          "label": "Asian",
+          "value": 285
+        },
+        {
+          "label": "Black or African American",
+          "value": 138
+        },
+        {
+          "label": "Hispanic",
+          "value": 973
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2158
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 46462
+        }
+      ]
+    },
+    "Grand Isle County, Vermont": {
+      "label": "Grand Isle County, Vermont",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 134
+        },
+        {
+          "label": "Asian",
+          "value": 28
+        },
+        {
+          "label": "Black or African American",
+          "value": 35
+        },
+        {
+          "label": "Hispanic",
+          "value": 155
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 306
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6699
+        }
+      ]
+    },
+    "Lamoille County, Vermont": {
+      "label": "Lamoille County, Vermont",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 102
+        },
+        {
+          "label": "Asian",
+          "value": 204
+        },
+        {
+          "label": "Black or African American",
+          "value": 248
+        },
+        {
+          "label": "Hispanic",
+          "value": 642
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 668
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23895
+        }
+      ]
+    },
+    "Orange County, Vermont": {
+      "label": "Orange County, Vermont",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 153
+        },
+        {
+          "label": "Black or African American",
+          "value": 104
+        },
+        {
+          "label": "Hispanic",
+          "value": 506
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1050
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27633
+        }
+      ]
+    },
+    "Orleans County, Vermont": {
+      "label": "Orleans County, Vermont",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 82
+        },
+        {
+          "label": "Asian",
+          "value": 166
+        },
+        {
+          "label": "Black or African American",
+          "value": 229
+        },
+        {
+          "label": "Hispanic",
+          "value": 500
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 821
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25651
+        }
+      ]
+    },
+    "Rutland County, Vermont": {
+      "label": "Rutland County, Vermont",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 333
+        },
+        {
+          "label": "Black or African American",
+          "value": 375
+        },
+        {
+          "label": "Hispanic",
+          "value": 1279
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2034
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 56412
+        }
+      ]
+    },
+    "Washington County, Vermont": {
+      "label": "Washington County, Vermont",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 439
+        },
+        {
+          "label": "Black or African American",
+          "value": 518
+        },
+        {
+          "label": "Hispanic",
+          "value": 1614
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2051
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 55094
+        }
+      ]
+    },
+    "Windham County, Vermont": {
+      "label": "Windham County, Vermont",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 30
+        },
+        {
+          "label": "Asian",
+          "value": 569
+        },
+        {
+          "label": "Black or African American",
+          "value": 372
+        },
+        {
+          "label": "Hispanic",
+          "value": 1383
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1835
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 41617
+        }
+      ]
+    },
+    "Windsor County, Vermont": {
+      "label": "Windsor County, Vermont",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 47
+        },
+        {
+          "label": "Asian",
+          "value": 606
+        },
+        {
+          "label": "Black or African American",
+          "value": 310
+        },
+        {
+          "label": "Hispanic",
+          "value": 1294
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1889
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 53759
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 15</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Hawaii County, Hawaii">Hawaii County, Hawaii</option>
+<option value="Honolulu County, Hawaii">Honolulu County, Hawaii</option>
+<option value="Kalawao County, Hawaii">Kalawao County, Hawaii</option>
+<option value="Kauai County, Hawaii">Kauai County, Hawaii</option>
+<option value="Maui County, Hawaii">Maui County, Hawaii</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.12,"Asian":36.74,"Black or African American":1.8,"Hispanic":9.84,"Pacific Islander":9.69,"Two or More Races":20.34,"White (non-Hispanic)":21.12},"Hawaii County, Hawaii":{"American Indian / Alaska Native":0.09,"Asian":20.85,"Black or African American":0.73,"Hispanic":11.51,"Pacific Islander":11.27,"Two or More Races":24.99,"White (non-Hispanic)":29.99},"Honolulu County, Hawaii":{"American Indian / Alaska Native":0.13,"Asian":42,"Black or African American":2.28,"Hispanic":9.34,"Pacific Islander":9.33,"Two or More Races":19.26,"White (non-Hispanic)":17.38},"Kalawao County, Hawaii":{"American Indian / Alaska Native":11.63,"Asian":32.56,"Black or African American":0,"Hispanic":9.3,"Pacific Islander":18.6,"Two or More Races":11.63,"White (non-Hispanic)":16.28},"Kauai County, Hawaii":{"American Indian / Alaska Native":0.1,"Asian":29.03,"Black or African American":0.59,"Hispanic":10.49,"Pacific Islander":9.52,"Two or More Races":20.91,"White (non-Hispanic)":28.99},"Maui County, Hawaii":{"American Indian / Alaska Native":0.12,"Asian":27.83,"Black or African American":0.74,"Hispanic":10.52,"Pacific Islander":10.01,"Two or More Races":20.96,"White (non-Hispanic)":29.43}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

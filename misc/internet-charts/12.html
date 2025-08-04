@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Internet Access Over Time –  Florida</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>body { font-family: sans-serif; margin: 1rem 2rem; text-align: center; }
+                      h2 { margin-bottom: 0.25rem; font-size: 1.6rem; }
+                      select { padding: 0.4rem; font-size: 1rem; margin: 1rem 0; border-radius: 5px; border: 1px solid #999; }
+                      canvas { width: 100%; max-width: 850px; height: 450px; margin-top: 1rem; }</style>
+</head>
+<html>
+  <body>
+    <h2>Internet Access in  Florida (2013–2023)</h2>
+    <label>Select County: </label>
+    <select id="countySelect"><option value='Statewide'>Statewide</option>
+<option value='Alachua County, Florida'>Alachua County, Florida</option>
+<option value='Bay County, Florida'>Bay County, Florida</option>
+<option value='Brevard County, Florida'>Brevard County, Florida</option>
+<option value='Broward County, Florida'>Broward County, Florida</option>
+<option value='Charlotte County, Florida'>Charlotte County, Florida</option>
+<option value='Citrus County, Florida'>Citrus County, Florida</option>
+<option value='Clay County, Florida'>Clay County, Florida</option>
+<option value='Collier County, Florida'>Collier County, Florida</option>
+<option value='Columbia County, Florida'>Columbia County, Florida</option>
+<option value='Duval County, Florida'>Duval County, Florida</option>
+<option value='Escambia County, Florida'>Escambia County, Florida</option>
+<option value='Flagler County, Florida'>Flagler County, Florida</option>
+<option value='Hernando County, Florida'>Hernando County, Florida</option>
+<option value='Highlands County, Florida'>Highlands County, Florida</option>
+<option value='Hillsborough County, Florida'>Hillsborough County, Florida</option>
+<option value='Indian River County, Florida'>Indian River County, Florida</option>
+<option value='Lake County, Florida'>Lake County, Florida</option>
+<option value='Lee County, Florida'>Lee County, Florida</option>
+<option value='Leon County, Florida'>Leon County, Florida</option>
+<option value='Manatee County, Florida'>Manatee County, Florida</option>
+<option value='Marion County, Florida'>Marion County, Florida</option>
+<option value='Martin County, Florida'>Martin County, Florida</option>
+<option value='Miami-Dade County, Florida'>Miami-Dade County, Florida</option>
+<option value='Monroe County, Florida'>Monroe County, Florida</option>
+<option value='Nassau County, Florida'>Nassau County, Florida</option>
+<option value='Okaloosa County, Florida'>Okaloosa County, Florida</option>
+<option value='Orange County, Florida'>Orange County, Florida</option>
+<option value='Osceola County, Florida'>Osceola County, Florida</option>
+<option value='Palm Beach County, Florida'>Palm Beach County, Florida</option>
+<option value='Pasco County, Florida'>Pasco County, Florida</option>
+<option value='Pinellas County, Florida'>Pinellas County, Florida</option>
+<option value='Polk County, Florida'>Polk County, Florida</option>
+<option value='Putnam County, Florida'>Putnam County, Florida</option>
+<option value='Santa Rosa County, Florida'>Santa Rosa County, Florida</option>
+<option value='Sarasota County, Florida'>Sarasota County, Florida</option>
+<option value='Seminole County, Florida'>Seminole County, Florida</option>
+<option value='St. Johns County, Florida'>St. Johns County, Florida</option>
+<option value='St. Lucie County, Florida'>St. Lucie County, Florida</option>
+<option value='Sumter County, Florida'>Sumter County, Florida</option>
+<option value='Volusia County, Florida'>Volusia County, Florida</option>
+<option value='Walton County, Florida'>Walton County, Florida</option></select>
+    <canvas id="lineChart" width="850" height="450"></canvas>
+    <script>const internetData = {"Statewide":{"2013":75.7,"2014":77,"2015":78.6,"2016":82,"2017":83.8,"2018":85.8,"2019":87.4,"2021":90.8,"2022":91.9,"2023":93.2},"Alachua County, Florida":{"2013":76.5,"2014":81.1,"2015":81,"2016":83.3,"2017":87,"2018":86.9,"2019":88.4,"2021":88.8,"2022":89.4,"2023":89.1},"Bay County, Florida":{"2013":75.3,"2014":76.3,"2015":76.4,"2016":85.2,"2017":88.8,"2018":87.7,"2019":88.8,"2021":91.2,"2022":95,"2023":94.8},"Brevard County, Florida":{"2013":80.3,"2014":79.7,"2015":83.4,"2016":87,"2017":87.9,"2018":89.2,"2019":90.1,"2021":91.5,"2022":94.1,"2023":94.4},"Broward County, Florida":{"2013":78.1,"2014":79.5,"2015":80.7,"2016":82.7,"2017":84.7,"2018":86.8,"2019":88.2,"2021":91.6,"2022":92.4,"2023":93.5},"Charlotte County, Florida":{"2013":74.8,"2014":77.5,"2015":80.2,"2016":85.3,"2017":84.4,"2018":86.4,"2019":88,"2021":91.9,"2022":92.5,"2023":91.6},"Citrus County, Florida":{"2013":74,"2014":78.1,"2015":79.3,"2016":80.5,"2017":84.4,"2018":82.7,"2019":86.5,"2021":88.8,"2022":92.8,"2023":90.8},"Clay County, Florida":{"2013":83.9,"2014":82.2,"2015":84.1,"2016":89.1,"2017":93.8,"2018":92.8,"2019":93.9,"2021":94.7,"2022":94.7,"2023":94.9},"Collier County, Florida":{"2013":79.8,"2014":78.7,"2015":81.6,"2016":84.7,"2017":86.3,"2018":86.9,"2019":89,"2021":89.7,"2022":94.5,"2023":93.3},"Columbia County, Florida":{"2013":63.4,"2014":72.6,"2015":74.3,"2016":81.6,"2017":77.3,"2018":80.1,"2019":82.3,"2021":85.8,"2022":87.6,"2023":92.4},"Duval County, Florida":{"2013":74.9,"2014":75.4,"2015":78.2,"2016":81.9,"2017":82.6,"2018":88.2,"2019":88.5,"2021":90.4,"2022":91.6,"2023":92.3},"Escambia County, Florida":{"2013":76.1,"2014":79,"2015":79.3,"2016":83.8,"2017":84.5,"2018":83.8,"2019":84.2,"2021":89.4,"2022":93.9,"2023":94.2},"Flagler County, Florida":{"2013":80.3,"2014":83,"2015":82.1,"2016":77.7,"2017":72.4,"2018":75.9,"2019":76.4,"2021":84.4,"2022":93.6,"2023":94.9},"Hernando County, Florida":{"2013":74.9,"2014":77.8,"2015":78.5,"2016":82.8,"2017":84.7,"2018":87.3,"2019":90.5,"2021":90,"2022":91.2,"2023":94.5},"Highlands County, Florida":{"2013":63,"2014":63.6,"2015":68.9,"2016":71.2,"2017":76.9,"2018":79,"2019":78.7,"2021":86,"2022":85.7,"2023":89.7},"Hillsborough County, Florida":{"2013":76.9,"2014":79.6,"2015":81.8,"2016":86.2,"2017":89,"2018":89.1,"2019":91.1,"2021":93.4,"2022":94.4,"2023":95.2},"Indian River County, Florida":{"2013":75.9,"2014":77.9,"2015":79.3,"2016":83,"2017":81.9,"2018":82.8,"2019":84.5,"2021":88.8,"2022":89.9,"2023":90.3},"Lake County, Florida":{"2013":75.4,"2014":77.2,"2015":81.7,"2016":84.3,"2017":87.9,"2018":89.4,"2019":87.5,"2021":89.1,"2022":91.1,"2023":93.5},"Lee County, Florida":{"2013":78,"2014":77.3,"2015":78.8,"2016":82.4,"2017":87.9,"2018":87.7,"2019":89.9,"2021":91.3,"2022":92.4,"2023":93.5},"Leon County, Florida":{"2013":79,"2014":80.1,"2015":85.2,"2016":88.9,"2017":89.6,"2018":88.2,"2019":89.1,"2021":93.1,"2022":91.4,"2023":90.5},"Manatee County, Florida":{"2013":73.4,"2014":74.6,"2015":73.1,"2016":81.1,"2017":85.3,"2018":87.6,"2019":88.1,"2021":92,"2022":91.8,"2023":93.1},"Marion County, Florida":{"2013":71.7,"2014":73,"2015":73.7,"2016":77.7,"2017":81.9,"2018":84,"2019":88.2,"2021":91.2,"2022":92.5,"2023":92.4},"Martin County, Florida":{"2013":79.1,"2014":80.2,"2015":82,"2016":81.1,"2017":87.4,"2018":88.8,"2019":87.7,"2021":92.6,"2022":93.1,"2023":91.2},"Miami-Dade County, Florida":{"2013":70.3,"2014":71.8,"2015":72.4,"2016":74.9,"2017":76.9,"2018":79.5,"2019":80.4,"2021":87.6,"2022":88.2,"2023":92.1},"Monroe County, Florida":{"2013":69.8,"2014":70.4,"2015":78.6,"2016":83,"2017":85.2,"2018":88.6,"2019":85.1,"2021":87.9,"2022":89.4,"2023":95.2},"Nassau County, Florida":{"2013":73.3,"2014":80,"2015":76,"2016":86.7,"2017":91.9,"2018":89.6,"2019":90.8,"2021":95.1,"2022":95.3,"2023":97.1},"Okaloosa County, Florida":{"2013":80.5,"2014":79.3,"2015":73.9,"2016":83.8,"2017":84.8,"2018":87.6,"2019":89.3,"2021":90.3,"2022":94.7,"2023":95},"Orange County, Florida":{"2013":78.8,"2014":81.6,"2015":83.7,"2016":85.9,"2017":86.4,"2018":88.9,"2019":90.3,"2021":93,"2022":93.4,"2023":94.2},"Osceola County, Florida":{"2013":62.5,"2014":58.7,"2015":73.4,"2016":82.6,"2017":85.1,"2018":86,"2019":87.3,"2021":92.2,"2022":93.1,"2023":93.9},"Palm Beach County, Florida":{"2013":76.9,"2014":78.6,"2015":80.3,"2016":84.8,"2017":85.2,"2018":88.2,"2019":87.8,"2021":90.1,"2022":90.8,"2023":92.4},"Pasco County, Florida":{"2013":76.5,"2014":76.2,"2015":79.4,"2016":78.9,"2017":83.9,"2018":84.2,"2019":87,"2021":90.5,"2022":91.6,"2023":92.8},"Pinellas County, Florida":{"2013":75.5,"2014":75.9,"2015":78.3,"2016":82.5,"2017":82.7,"2018":84.2,"2019":87.2,"2021":90,"2022":89.7,"2023":92.5},"Polk County, Florida":{"2013":66.3,"2014":64.6,"2015":62.4,"2016":65,"2017":65.1,"2018":73.5,"2019":82.1,"2021":88.6,"2022":91.2,"2023":91.1},"Putnam County, Florida":{"2013":60.4,"2014":61.5,"2015":55,"2016":68.9,"2017":71,"2018":83,"2019":83.5,"2021":83,"2022":89.3,"2023":92.8},"Santa Rosa County, Florida":{"2013":82.1,"2014":79,"2015":81.7,"2016":92.4,"2017":89.2,"2018":90.5,"2019":91.7,"2021":95.3,"2022":93.2,"2023":95.8},"Sarasota County, Florida":{"2013":78.6,"2014":81.9,"2015":80.3,"2016":83.7,"2017":84.7,"2018":87.8,"2019":88.6,"2021":92.1,"2022":94.6,"2023":94.6},"Seminole County, Florida":{"2013":86.8,"2014":89.9,"2015":87.3,"2016":90.1,"2017":90.9,"2018":88.6,"2019":92.5,"2021":95.2,"2022":95.4,"2023":93.6},"St. Johns County, Florida":{"2013":83.1,"2014":86.2,"2015":86.1,"2016":86.4,"2017":85.4,"2018":88.5,"2019":90.1,"2021":93.2,"2022":95.4,"2023":95.8},"St. Lucie County, Florida":{"2013":75.3,"2014":76.5,"2015":76.4,"2016":82.9,"2017":86.4,"2018":89.8,"2019":89.2,"2021":93.8,"2022":91.3,"2023":92.7},"Sumter County, Florida":{"2013":80,"2014":78.1,"2015":83.3,"2016":86.6,"2017":85.5,"2018":89.9,"2019":89.5,"2021":90.5,"2022":92.6,"2023":95.7},"Volusia County, Florida":{"2013":72.6,"2014":74,"2015":77.9,"2016":76.9,"2017":79.2,"2018":82.4,"2019":85.5,"2021":89.6,"2022":91.3,"2023":92.9},"Walton County, Florida":{"2016":79.7,"2017":86.2,"2018":88.7,"2019":85,"2021":90.4,"2022":93.6,"2023":93.3}};
+const ctx = document.getElementById('lineChart').getContext('2d');
+let chart;
+
+function renderChart(data) {
+  const labels = Object.keys(data);
+  const values = Object.values(data);
+
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: '% With Internet',
+        data: values,
+        fill: false,
+        borderColor: 'teal',
+        backgroundColor: 'teal',
+        tension: 0.3,
+        pointRadius: 4
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100,
+          title: { display: true, text: '% With Internet' }
+        },
+        x: {
+          title: { display: true, text: 'Year' }
+        }
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function(ctx) {
+              return ctx.parsed.y.toFixed(1) + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  renderChart(internetData[this.value]);
+});
+renderChart(internetData['Statewide']);</script>
+  </body>
+</html>
+</html>

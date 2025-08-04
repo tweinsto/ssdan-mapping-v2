@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 25</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Barnstable County, Massachusetts">Barnstable County, Massachusetts</option>
+<option value="Berkshire County, Massachusetts">Berkshire County, Massachusetts</option>
+<option value="Bristol County, Massachusetts">Bristol County, Massachusetts</option>
+<option value="Dukes County, Massachusetts">Dukes County, Massachusetts</option>
+<option value="Essex County, Massachusetts">Essex County, Massachusetts</option>
+<option value="Franklin County, Massachusetts">Franklin County, Massachusetts</option>
+<option value="Hampden County, Massachusetts">Hampden County, Massachusetts</option>
+<option value="Hampshire County, Massachusetts">Hampshire County, Massachusetts</option>
+<option value="Middlesex County, Massachusetts">Middlesex County, Massachusetts</option>
+<option value="Nantucket County, Massachusetts">Nantucket County, Massachusetts</option>
+<option value="Norfolk County, Massachusetts">Norfolk County, Massachusetts</option>
+<option value="Plymouth County, Massachusetts">Plymouth County, Massachusetts</option>
+<option value="Suffolk County, Massachusetts">Suffolk County, Massachusetts</option>
+<option value="Worcester County, Massachusetts">Worcester County, Massachusetts</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.08,"Asian":7.03,"Black or African American":6.51,"Hispanic":12.94,"Pacific Islander":0.03,"Two or More Races":4.49,"White (non-Hispanic)":67.77},"Barnstable County, Massachusetts":{"American Indian / Alaska Native":0.3,"Asian":1.53,"Black or African American":2.7,"Hispanic":3.55,"Pacific Islander":0,"Two or More Races":4.81,"White (non-Hispanic)":85.86},"Berkshire County, Massachusetts":{"American Indian / Alaska Native":0.07,"Asian":1.8,"Black or African American":2.3,"Hispanic":5.6,"Pacific Islander":0.01,"Two or More Races":4.12,"White (non-Hispanic)":85.71},"Bristol County, Massachusetts":{"American Indian / Alaska Native":0.09,"Asian":2.36,"Black or African American":3.96,"Hispanic":9.82,"Pacific Islander":0.01,"Two or More Races":5.48,"White (non-Hispanic)":76.67},"Dukes County, Massachusetts":{"American Indian / Alaska Native":1.1,"Asian":1.39,"Black or African American":3.33,"Hispanic":3.09,"Pacific Islander":0,"Two or More Races":7.45,"White (non-Hispanic)":81.09},"Essex County, Massachusetts":{"American Indian / Alaska Native":0.05,"Asian":3.42,"Black or African American":3.51,"Hispanic":23.23,"Pacific Islander":0.02,"Two or More Races":3.18,"White (non-Hispanic)":65.9},"Franklin County, Massachusetts":{"American Indian / Alaska Native":0.03,"Asian":1.87,"Black or African American":1.32,"Hispanic":5.2,"Pacific Islander":0.01,"Two or More Races":3.09,"White (non-Hispanic)":87.92},"Hampden County, Massachusetts":{"American Indian / Alaska Native":0.06,"Asian":2.49,"Black or African American":7.59,"Hispanic":26.57,"Pacific Islander":0.01,"Two or More Races":2.82,"White (non-Hispanic)":60.2},"Hampshire County, Massachusetts":{"American Indian / Alaska Native":0.05,"Asian":5,"Black or African American":2.2,"Hispanic":7.19,"Pacific Islander":0.06,"Two or More Races":3.87,"White (non-Hispanic)":81.3},"Middlesex County, Massachusetts":{"American Indian / Alaska Native":0.07,"Asian":13.14,"Black or African American":4.81,"Hispanic":8.99,"Pacific Islander":0.04,"Two or More Races":4.97,"White (non-Hispanic)":66.66},"Nantucket County, Massachusetts":{"American Indian / Alaska Native":0,"Asian":1.78,"Black or African American":9.14,"Hispanic":16.41,"Pacific Islander":0,"Two or More Races":2.76,"White (non-Hispanic)":69.12},"Norfolk County, Massachusetts":{"American Indian / Alaska Native":0.06,"Asian":12.02,"Black or African American":6.93,"Hispanic":5.54,"Pacific Islander":0.02,"Two or More Races":4.42,"White (non-Hispanic)":70.02},"Plymouth County, Massachusetts":{"American Indian / Alaska Native":0.07,"Asian":1.65,"Black or African American":8.43,"Hispanic":4.7,"Pacific Islander":0.04,"Two or More Races":5.81,"White (non-Hispanic)":76.79},"Suffolk County, Massachusetts":{"American Indian / Alaska Native":0.12,"Asian":8.92,"Black or African American":17.92,"Hispanic":22.79,"Pacific Islander":0.05,"Two or More Races":4.97,"White (non-Hispanic)":44.13},"Worcester County, Massachusetts":{"American Indian / Alaska Native":0.08,"Asian":5.18,"Black or African American":4.64,"Hispanic":13.32,"Pacific Islander":0.02,"Two or More Races":4,"White (non-Hispanic)":71.75}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

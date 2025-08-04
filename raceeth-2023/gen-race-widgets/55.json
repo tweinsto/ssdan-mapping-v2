@@ -1,0 +1,2414 @@
+{
+  "state": "Adams County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 34317
+        },
+        {
+          "label": "Asian",
+          "value": 168432
+        },
+        {
+          "label": "Black or African American",
+          "value": 354279
+        },
+        {
+          "label": "Hispanic",
+          "value": 457687
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1729
+        },
+        {
+          "label": "Two or More Races",
+          "value": 193453
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4664403
+        }
+      ]
+    },
+    "Adams County, Wisconsin": {
+      "label": "Adams County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 108
+        },
+        {
+          "label": "Asian",
+          "value": 130
+        },
+        {
+          "label": "Black or African American",
+          "value": 455
+        },
+        {
+          "label": "Hispanic",
+          "value": 893
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 750
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18489
+        }
+      ]
+    },
+    "Ashland County, Wisconsin": {
+      "label": "Ashland County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1475
+        },
+        {
+          "label": "Asian",
+          "value": 120
+        },
+        {
+          "label": "Black or African American",
+          "value": 121
+        },
+        {
+          "label": "Hispanic",
+          "value": 459
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 722
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13140
+        }
+      ]
+    },
+    "Barron County, Wisconsin": {
+      "label": "Barron County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 159
+        },
+        {
+          "label": "Asian",
+          "value": 248
+        },
+        {
+          "label": "Black or African American",
+          "value": 662
+        },
+        {
+          "label": "Hispanic",
+          "value": 1399
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1470
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 42643
+        }
+      ]
+    },
+    "Bayfield County, Wisconsin": {
+      "label": "Bayfield County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1242
+        },
+        {
+          "label": "Asian",
+          "value": 80
+        },
+        {
+          "label": "Black or African American",
+          "value": 101
+        },
+        {
+          "label": "Hispanic",
+          "value": 330
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 857
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13776
+        }
+      ]
+    },
+    "Brown County, Wisconsin": {
+      "label": "Brown County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4436
+        },
+        {
+          "label": "Asian",
+          "value": 8500
+        },
+        {
+          "label": "Black or African American",
+          "value": 6824
+        },
+        {
+          "label": "Hispanic",
+          "value": 26989
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 17
+        },
+        {
+          "label": "Two or More Races",
+          "value": 11247
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 210396
+        }
+      ]
+    },
+    "Buffalo County, Wisconsin": {
+      "label": "Buffalo County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 12
+        },
+        {
+          "label": "Black or African American",
+          "value": 64
+        },
+        {
+          "label": "Hispanic",
+          "value": 363
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 311
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12573
+        }
+      ]
+    },
+    "Burnett County, Wisconsin": {
+      "label": "Burnett County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 532
+        },
+        {
+          "label": "Asian",
+          "value": 74
+        },
+        {
+          "label": "Black or African American",
+          "value": 129
+        },
+        {
+          "label": "Hispanic",
+          "value": 325
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 568
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15068
+        }
+      ]
+    },
+    "Calumet County, Wisconsin": {
+      "label": "Calumet County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 119
+        },
+        {
+          "label": "Asian",
+          "value": 1256
+        },
+        {
+          "label": "Black or African American",
+          "value": 498
+        },
+        {
+          "label": "Hispanic",
+          "value": 2923
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1281
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 46367
+        }
+      ]
+    },
+    "Chippewa County, Wisconsin": {
+      "label": "Chippewa County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 253
+        },
+        {
+          "label": "Asian",
+          "value": 974
+        },
+        {
+          "label": "Black or African American",
+          "value": 1040
+        },
+        {
+          "label": "Hispanic",
+          "value": 1286
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1377
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 61585
+        }
+      ]
+    },
+    "Clark County, Wisconsin": {
+      "label": "Clark County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 48
+        },
+        {
+          "label": "Asian",
+          "value": 120
+        },
+        {
+          "label": "Black or African American",
+          "value": 94
+        },
+        {
+          "label": "Hispanic",
+          "value": 2116
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 706
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 31571
+        }
+      ]
+    },
+    "Columbia County, Wisconsin": {
+      "label": "Columbia County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 217
+        },
+        {
+          "label": "Asian",
+          "value": 439
+        },
+        {
+          "label": "Black or African American",
+          "value": 982
+        },
+        {
+          "label": "Hispanic",
+          "value": 2269
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1304
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 53036
+        }
+      ]
+    },
+    "Crawford County, Wisconsin": {
+      "label": "Crawford County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 26
+        },
+        {
+          "label": "Asian",
+          "value": 81
+        },
+        {
+          "label": "Black or African American",
+          "value": 227
+        },
+        {
+          "label": "Hispanic",
+          "value": 307
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 20
+        },
+        {
+          "label": "Two or More Races",
+          "value": 455
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14930
+        }
+      ]
+    },
+    "Dane County, Wisconsin": {
+      "label": "Dane County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 823
+        },
+        {
+          "label": "Asian",
+          "value": 33543
+        },
+        {
+          "label": "Black or African American",
+          "value": 28594
+        },
+        {
+          "label": "Hispanic",
+          "value": 42861
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 159
+        },
+        {
+          "label": "Two or More Races",
+          "value": 23533
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 433144
+        }
+      ]
+    },
+    "Dodge County, Wisconsin": {
+      "label": "Dodge County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 245
+        },
+        {
+          "label": "Asian",
+          "value": 351
+        },
+        {
+          "label": "Black or African American",
+          "value": 2346
+        },
+        {
+          "label": "Hispanic",
+          "value": 5696
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 32
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1937
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 78086
+        }
+      ]
+    },
+    "Door County, Wisconsin": {
+      "label": "Door County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 155
+        },
+        {
+          "label": "Asian",
+          "value": 89
+        },
+        {
+          "label": "Black or African American",
+          "value": 114
+        },
+        {
+          "label": "Hispanic",
+          "value": 1192
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 820
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27907
+        }
+      ]
+    },
+    "Douglas County, Wisconsin": {
+      "label": "Douglas County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 511
+        },
+        {
+          "label": "Asian",
+          "value": 470
+        },
+        {
+          "label": "Black or African American",
+          "value": 560
+        },
+        {
+          "label": "Hispanic",
+          "value": 829
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1855
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 39872
+        }
+      ]
+    },
+    "Dunn County, Wisconsin": {
+      "label": "Dunn County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 72
+        },
+        {
+          "label": "Asian",
+          "value": 1375
+        },
+        {
+          "label": "Black or African American",
+          "value": 390
+        },
+        {
+          "label": "Hispanic",
+          "value": 1080
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1040
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 41238
+        }
+      ]
+    },
+    "Eau Claire County, Wisconsin": {
+      "label": "Eau Claire County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 263
+        },
+        {
+          "label": "Asian",
+          "value": 4262
+        },
+        {
+          "label": "Black or African American",
+          "value": 1171
+        },
+        {
+          "label": "Hispanic",
+          "value": 3210
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 94
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3618
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 93370
+        }
+      ]
+    },
+    "Florence County, Wisconsin": {
+      "label": "Florence County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 20
+        },
+        {
+          "label": "Hispanic",
+          "value": 27
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 141
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4406
+        }
+      ]
+    },
+    "Fond du Lac County, Wisconsin": {
+      "label": "Fond du Lac County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 139
+        },
+        {
+          "label": "Asian",
+          "value": 1660
+        },
+        {
+          "label": "Black or African American",
+          "value": 1758
+        },
+        {
+          "label": "Hispanic",
+          "value": 6892
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 108
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2827
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 90158
+        }
+      ]
+    },
+    "Forest County, Wisconsin": {
+      "label": "Forest County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1053
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 35
+        },
+        {
+          "label": "Hispanic",
+          "value": 202
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 621
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7211
+        }
+      ]
+    },
+    "Grant County, Wisconsin": {
+      "label": "Grant County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 46
+        },
+        {
+          "label": "Asian",
+          "value": 427
+        },
+        {
+          "label": "Black or African American",
+          "value": 857
+        },
+        {
+          "label": "Hispanic",
+          "value": 1273
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 792
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 48193
+        }
+      ]
+    },
+    "Green County, Wisconsin": {
+      "label": "Green County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 30
+        },
+        {
+          "label": "Asian",
+          "value": 138
+        },
+        {
+          "label": "Black or African American",
+          "value": 256
+        },
+        {
+          "label": "Hispanic",
+          "value": 1509
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 802
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 34230
+        }
+      ]
+    },
+    "Green Lake County, Wisconsin": {
+      "label": "Green Lake County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 60
+        },
+        {
+          "label": "Asian",
+          "value": 101
+        },
+        {
+          "label": "Black or African American",
+          "value": 119
+        },
+        {
+          "label": "Hispanic",
+          "value": 1044
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 31
+        },
+        {
+          "label": "Two or More Races",
+          "value": 334
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17444
+        }
+      ]
+    },
+    "Iowa County, Wisconsin": {
+      "label": "Iowa County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 22
+        },
+        {
+          "label": "Asian",
+          "value": 201
+        },
+        {
+          "label": "Black or African American",
+          "value": 201
+        },
+        {
+          "label": "Hispanic",
+          "value": 522
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 743
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22076
+        }
+      ]
+    },
+    "Iron County, Wisconsin": {
+      "label": "Iron County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 37
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 3
+        },
+        {
+          "label": "Hispanic",
+          "value": 96
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 233
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5794
+        }
+      ]
+    },
+    "Jackson County, Wisconsin": {
+      "label": "Jackson County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 985
+        },
+        {
+          "label": "Asian",
+          "value": 119
+        },
+        {
+          "label": "Black or African American",
+          "value": 324
+        },
+        {
+          "label": "Hispanic",
+          "value": 746
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 744
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17959
+        }
+      ]
+    },
+    "Jefferson County, Wisconsin": {
+      "label": "Jefferson County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 59
+        },
+        {
+          "label": "Asian",
+          "value": 478
+        },
+        {
+          "label": "Black or African American",
+          "value": 799
+        },
+        {
+          "label": "Hispanic",
+          "value": 7181
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2085
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 75103
+        }
+      ]
+    },
+    "Juneau County, Wisconsin": {
+      "label": "Juneau County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 181
+        },
+        {
+          "label": "Asian",
+          "value": 158
+        },
+        {
+          "label": "Black or African American",
+          "value": 605
+        },
+        {
+          "label": "Hispanic",
+          "value": 768
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1417
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23468
+        }
+      ]
+    },
+    "Kenosha County, Wisconsin": {
+      "label": "Kenosha County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 256
+        },
+        {
+          "label": "Asian",
+          "value": 2982
+        },
+        {
+          "label": "Black or African American",
+          "value": 10296
+        },
+        {
+          "label": "Hispanic",
+          "value": 24975
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 78
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7223
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 121573
+        }
+      ]
+    },
+    "Kewaunee County, Wisconsin": {
+      "label": "Kewaunee County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 98
+        },
+        {
+          "label": "Black or African American",
+          "value": 82
+        },
+        {
+          "label": "Hispanic",
+          "value": 827
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 457
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19071
+        }
+      ]
+    },
+    "La Crosse County, Wisconsin": {
+      "label": "La Crosse County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 204
+        },
+        {
+          "label": "Asian",
+          "value": 5454
+        },
+        {
+          "label": "Black or African American",
+          "value": 1817
+        },
+        {
+          "label": "Hispanic",
+          "value": 3146
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 25
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3697
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 105619
+        }
+      ]
+    },
+    "Lafayette County, Wisconsin": {
+      "label": "Lafayette County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 98
+        },
+        {
+          "label": "Black or African American",
+          "value": 96
+        },
+        {
+          "label": "Hispanic",
+          "value": 1087
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 212
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15219
+        }
+      ]
+    },
+    "Langlade County, Wisconsin": {
+      "label": "Langlade County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 143
+        },
+        {
+          "label": "Asian",
+          "value": 44
+        },
+        {
+          "label": "Black or African American",
+          "value": 96
+        },
+        {
+          "label": "Hispanic",
+          "value": 469
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 662
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18056
+        }
+      ]
+    },
+    "Lincoln County, Wisconsin": {
+      "label": "Lincoln County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 114
+        },
+        {
+          "label": "Black or African American",
+          "value": 139
+        },
+        {
+          "label": "Hispanic",
+          "value": 587
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 822
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26549
+        }
+      ]
+    },
+    "Manitowoc County, Wisconsin": {
+      "label": "Manitowoc County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 217
+        },
+        {
+          "label": "Asian",
+          "value": 2020
+        },
+        {
+          "label": "Black or African American",
+          "value": 612
+        },
+        {
+          "label": "Hispanic",
+          "value": 4228
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 39
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2397
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 71623
+        }
+      ]
+    },
+    "Marathon County, Wisconsin": {
+      "label": "Marathon County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 127
+        },
+        {
+          "label": "Asian",
+          "value": 7596
+        },
+        {
+          "label": "Black or African American",
+          "value": 646
+        },
+        {
+          "label": "Hispanic",
+          "value": 4641
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 54
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4768
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 119909
+        }
+      ]
+    },
+    "Marinette County, Wisconsin": {
+      "label": "Marinette County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 63
+        },
+        {
+          "label": "Asian",
+          "value": 168
+        },
+        {
+          "label": "Black or African American",
+          "value": 181
+        },
+        {
+          "label": "Hispanic",
+          "value": 1127
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 982
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 39365
+        }
+      ]
+    },
+    "Marquette County, Wisconsin": {
+      "label": "Marquette County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 37
+        },
+        {
+          "label": "Asian",
+          "value": 88
+        },
+        {
+          "label": "Black or African American",
+          "value": 82
+        },
+        {
+          "label": "Hispanic",
+          "value": 559
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 373
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14536
+        }
+      ]
+    },
+    "Menominee County, Wisconsin": {
+      "label": "Menominee County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3337
+        },
+        {
+          "label": "Asian",
+          "value": 5
+        },
+        {
+          "label": "Black or African American",
+          "value": 32
+        },
+        {
+          "label": "Hispanic",
+          "value": 183
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 190
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 502
+        }
+      ]
+    },
+    "Milwaukee County, Wisconsin": {
+      "label": "Milwaukee County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3225
+        },
+        {
+          "label": "Asian",
+          "value": 43206
+        },
+        {
+          "label": "Black or African American",
+          "value": 237537
+        },
+        {
+          "label": "Hispanic",
+          "value": 154350
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 169
+        },
+        {
+          "label": "Two or More Races",
+          "value": 35094
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 451044
+        }
+      ]
+    },
+    "Monroe County, Wisconsin": {
+      "label": "Monroe County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 317
+        },
+        {
+          "label": "Asian",
+          "value": 269
+        },
+        {
+          "label": "Black or African American",
+          "value": 661
+        },
+        {
+          "label": "Hispanic",
+          "value": 2569
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1456
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 40840
+        }
+      ]
+    },
+    "Oconto County, Wisconsin": {
+      "label": "Oconto County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 362
+        },
+        {
+          "label": "Asian",
+          "value": 101
+        },
+        {
+          "label": "Black or African American",
+          "value": 51
+        },
+        {
+          "label": "Hispanic",
+          "value": 886
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1062
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 36827
+        }
+      ]
+    },
+    "Oneida County, Wisconsin": {
+      "label": "Oneida County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 258
+        },
+        {
+          "label": "Asian",
+          "value": 156
+        },
+        {
+          "label": "Black or African American",
+          "value": 192
+        },
+        {
+          "label": "Hispanic",
+          "value": 639
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1163
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 35529
+        }
+      ]
+    },
+    "Outagamie County, Wisconsin": {
+      "label": "Outagamie County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1801
+        },
+        {
+          "label": "Asian",
+          "value": 6726
+        },
+        {
+          "label": "Black or African American",
+          "value": 2773
+        },
+        {
+          "label": "Hispanic",
+          "value": 9773
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 130
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6430
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 163624
+        }
+      ]
+    },
+    "Ozaukee County, Wisconsin": {
+      "label": "Ozaukee County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 107
+        },
+        {
+          "label": "Asian",
+          "value": 1960
+        },
+        {
+          "label": "Black or African American",
+          "value": 1353
+        },
+        {
+          "label": "Hispanic",
+          "value": 3299
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 17
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2548
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 82922
+        }
+      ]
+    },
+    "Pepin County, Wisconsin": {
+      "label": "Pepin County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 35
+        },
+        {
+          "label": "Black or African American",
+          "value": 21
+        },
+        {
+          "label": "Hispanic",
+          "value": 180
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 104
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6989
+        }
+      ]
+    },
+    "Pierce County, Wisconsin": {
+      "label": "Pierce County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 98
+        },
+        {
+          "label": "Asian",
+          "value": 524
+        },
+        {
+          "label": "Black or African American",
+          "value": 165
+        },
+        {
+          "label": "Hispanic",
+          "value": 1227
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 44
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1420
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 38736
+        }
+      ]
+    },
+    "Polk County, Wisconsin": {
+      "label": "Polk County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 192
+        },
+        {
+          "label": "Asian",
+          "value": 166
+        },
+        {
+          "label": "Black or African American",
+          "value": 120
+        },
+        {
+          "label": "Hispanic",
+          "value": 980
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1365
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 42393
+        }
+      ]
+    },
+    "Portage County, Wisconsin": {
+      "label": "Portage County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 106
+        },
+        {
+          "label": "Asian",
+          "value": 1992
+        },
+        {
+          "label": "Black or African American",
+          "value": 579
+        },
+        {
+          "label": "Hispanic",
+          "value": 2764
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1838
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 62970
+        }
+      ]
+    },
+    "Price County, Wisconsin": {
+      "label": "Price County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 47
+        },
+        {
+          "label": "Asian",
+          "value": 78
+        },
+        {
+          "label": "Black or African American",
+          "value": 27
+        },
+        {
+          "label": "Hispanic",
+          "value": 232
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 101
+        },
+        {
+          "label": "Two or More Races",
+          "value": 398
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13168
+        }
+      ]
+    },
+    "Racine County, Wisconsin": {
+      "label": "Racine County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 430
+        },
+        {
+          "label": "Asian",
+          "value": 2325
+        },
+        {
+          "label": "Black or African American",
+          "value": 20566
+        },
+        {
+          "label": "Hispanic",
+          "value": 28784
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 144
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7144
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 136877
+        }
+      ]
+    },
+    "Richland County, Wisconsin": {
+      "label": "Richland County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 163
+        },
+        {
+          "label": "Black or African American",
+          "value": 150
+        },
+        {
+          "label": "Hispanic",
+          "value": 540
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 331
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15939
+        }
+      ]
+    },
+    "Rock County, Wisconsin": {
+      "label": "Rock County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 67
+        },
+        {
+          "label": "Asian",
+          "value": 1865
+        },
+        {
+          "label": "Black or African American",
+          "value": 7530
+        },
+        {
+          "label": "Hispanic",
+          "value": 16163
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 25
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6360
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 131551
+        }
+      ]
+    },
+    "Rusk County, Wisconsin": {
+      "label": "Rusk County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 50
+        },
+        {
+          "label": "Asian",
+          "value": 48
+        },
+        {
+          "label": "Black or African American",
+          "value": 130
+        },
+        {
+          "label": "Hispanic",
+          "value": 284
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 349
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13257
+        }
+      ]
+    },
+    "Sauk County, Wisconsin": {
+      "label": "Sauk County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 439
+        },
+        {
+          "label": "Asian",
+          "value": 319
+        },
+        {
+          "label": "Black or African American",
+          "value": 604
+        },
+        {
+          "label": "Hispanic",
+          "value": 4198
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2434
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 57228
+        }
+      ]
+    },
+    "Sawyer County, Wisconsin": {
+      "label": "Sawyer County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2588
+        },
+        {
+          "label": "Asian",
+          "value": 108
+        },
+        {
+          "label": "Black or African American",
+          "value": 101
+        },
+        {
+          "label": "Hispanic",
+          "value": 430
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 890
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14059
+        }
+      ]
+    },
+    "Shawano County, Wisconsin": {
+      "label": "Shawano County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2505
+        },
+        {
+          "label": "Asian",
+          "value": 228
+        },
+        {
+          "label": "Black or African American",
+          "value": 239
+        },
+        {
+          "label": "Hispanic",
+          "value": 1263
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1618
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 34943
+        }
+      ]
+    },
+    "Sheboygan County, Wisconsin": {
+      "label": "Sheboygan County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 179
+        },
+        {
+          "label": "Asian",
+          "value": 6992
+        },
+        {
+          "label": "Black or African American",
+          "value": 2389
+        },
+        {
+          "label": "Hispanic",
+          "value": 8850
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 103
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3015
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 96085
+        }
+      ]
+    },
+    "St. Croix County, Wisconsin": {
+      "label": "St. Croix County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 59
+        },
+        {
+          "label": "Asian",
+          "value": 917
+        },
+        {
+          "label": "Black or African American",
+          "value": 659
+        },
+        {
+          "label": "Hispanic",
+          "value": 2789
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 16
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3056
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 87063
+        }
+      ]
+    },
+    "Taylor County, Wisconsin": {
+      "label": "Taylor County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 49
+        },
+        {
+          "label": "Black or African American",
+          "value": 58
+        },
+        {
+          "label": "Hispanic",
+          "value": 565
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 20
+        },
+        {
+          "label": "Two or More Races",
+          "value": 351
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18833
+        }
+      ]
+    },
+    "Trempealeau County, Wisconsin": {
+      "label": "Trempealeau County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 42
+        },
+        {
+          "label": "Asian",
+          "value": 122
+        },
+        {
+          "label": "Black or African American",
+          "value": 153
+        },
+        {
+          "label": "Hispanic",
+          "value": 3914
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 515
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25992
+        }
+      ]
+    },
+    "Vernon County, Wisconsin": {
+      "label": "Vernon County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 84
+        },
+        {
+          "label": "Black or African American",
+          "value": 94
+        },
+        {
+          "label": "Hispanic",
+          "value": 516
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 869
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29236
+        }
+      ]
+    },
+    "Vilas County, Wisconsin": {
+      "label": "Vilas County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1911
+        },
+        {
+          "label": "Asian",
+          "value": 91
+        },
+        {
+          "label": "Black or African American",
+          "value": 74
+        },
+        {
+          "label": "Hispanic",
+          "value": 530
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 818
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19937
+        }
+      ]
+    },
+    "Walworth County, Wisconsin": {
+      "label": "Walworth County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 136
+        },
+        {
+          "label": "Asian",
+          "value": 849
+        },
+        {
+          "label": "Black or African American",
+          "value": 841
+        },
+        {
+          "label": "Hispanic",
+          "value": 12545
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 26
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2691
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 88121
+        }
+      ]
+    },
+    "Washburn County, Wisconsin": {
+      "label": "Washburn County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 162
+        },
+        {
+          "label": "Asian",
+          "value": 85
+        },
+        {
+          "label": "Black or African American",
+          "value": 36
+        },
+        {
+          "label": "Hispanic",
+          "value": 335
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 543
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15548
+        }
+      ]
+    },
+    "Washington County, Wisconsin": {
+      "label": "Washington County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 134
+        },
+        {
+          "label": "Asian",
+          "value": 2109
+        },
+        {
+          "label": "Black or African American",
+          "value": 2050
+        },
+        {
+          "label": "Hispanic",
+          "value": 5027
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2945
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 124718
+        }
+      ]
+    },
+    "Waukesha County, Wisconsin": {
+      "label": "Waukesha County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 399
+        },
+        {
+          "label": "Asian",
+          "value": 15695
+        },
+        {
+          "label": "Black or African American",
+          "value": 6111
+        },
+        {
+          "label": "Hispanic",
+          "value": 22725
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 54
+        },
+        {
+          "label": "Two or More Races",
+          "value": 11541
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 350739
+        }
+      ]
+    },
+    "Waupaca County, Wisconsin": {
+      "label": "Waupaca County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 65
+        },
+        {
+          "label": "Asian",
+          "value": 186
+        },
+        {
+          "label": "Black or African American",
+          "value": 344
+        },
+        {
+          "label": "Hispanic",
+          "value": 1943
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1134
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 47941
+        }
+      ]
+    },
+    "Waushara County, Wisconsin": {
+      "label": "Waushara County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 86
+        },
+        {
+          "label": "Asian",
+          "value": 105
+        },
+        {
+          "label": "Black or African American",
+          "value": 449
+        },
+        {
+          "label": "Hispanic",
+          "value": 1715
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 589
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21751
+        }
+      ]
+    },
+    "Winnebago County, Wisconsin": {
+      "label": "Winnebago County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 502
+        },
+        {
+          "label": "Asian",
+          "value": 5476
+        },
+        {
+          "label": "Black or African American",
+          "value": 4286
+        },
+        {
+          "label": "Hispanic",
+          "value": 8464
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 108
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5018
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 146984
+        }
+      ]
+    },
+    "Wood County, Wisconsin": {
+      "label": "Wood County, Wisconsin",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 198
+        },
+        {
+          "label": "Asian",
+          "value": 1326
+        },
+        {
+          "label": "Black or African American",
+          "value": 508
+        },
+        {
+          "label": "Hispanic",
+          "value": 2592
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1991
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 67304
+        }
+      ]
+    }
+  }
+}

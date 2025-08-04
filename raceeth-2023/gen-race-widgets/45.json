@@ -1,0 +1,1556 @@
+{
+  "state": "Abbeville County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9365
+        },
+        {
+          "label": "Asian",
+          "value": 88246
+        },
+        {
+          "label": "Black or African American",
+          "value": 1307687
+        },
+        {
+          "label": "Hispanic",
+          "value": 368900
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3034
+        },
+        {
+          "label": "Two or More Races",
+          "value": 169141
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3243703
+        }
+      ]
+    },
+    "Abbeville County, South Carolina": {
+      "label": "Abbeville County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 51
+        },
+        {
+          "label": "Black or African American",
+          "value": 6287
+        },
+        {
+          "label": "Hispanic",
+          "value": 475
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 713
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16657
+        }
+      ]
+    },
+    "Aiken County, South Carolina": {
+      "label": "Aiken County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 166
+        },
+        {
+          "label": "Asian",
+          "value": 1707
+        },
+        {
+          "label": "Black or African American",
+          "value": 41597
+        },
+        {
+          "label": "Hispanic",
+          "value": 11974
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 16
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5537
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 110334
+        }
+      ]
+    },
+    "Allendale County, South Carolina": {
+      "label": "Allendale County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 81
+        },
+        {
+          "label": "Asian",
+          "value": 22
+        },
+        {
+          "label": "Black or African American",
+          "value": 4951
+        },
+        {
+          "label": "Hispanic",
+          "value": 799
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 132
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1745
+        }
+      ]
+    },
+    "Anderson County, South Carolina": {
+      "label": "Anderson County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 883
+        },
+        {
+          "label": "Asian",
+          "value": 2144
+        },
+        {
+          "label": "Black or African American",
+          "value": 28084
+        },
+        {
+          "label": "Hispanic",
+          "value": 10188
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 35
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8892
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 156437
+        }
+      ]
+    },
+    "Bamberg County, South Carolina": {
+      "label": "Bamberg County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 25
+        },
+        {
+          "label": "Asian",
+          "value": 60
+        },
+        {
+          "label": "Black or African American",
+          "value": 7847
+        },
+        {
+          "label": "Hispanic",
+          "value": 223
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 121
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4878
+        }
+      ]
+    },
+    "Barnwell County, South Carolina": {
+      "label": "Barnwell County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 30
+        },
+        {
+          "label": "Asian",
+          "value": 106
+        },
+        {
+          "label": "Black or African American",
+          "value": 8862
+        },
+        {
+          "label": "Hispanic",
+          "value": 576
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 533
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10367
+        }
+      ]
+    },
+    "Beaufort County, South Carolina": {
+      "label": "Beaufort County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 107
+        },
+        {
+          "label": "Asian",
+          "value": 2007
+        },
+        {
+          "label": "Black or African American",
+          "value": 30072
+        },
+        {
+          "label": "Hispanic",
+          "value": 23539
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5833
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 129485
+        }
+      ]
+    },
+    "Berkeley County, South Carolina": {
+      "label": "Berkeley County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 562
+        },
+        {
+          "label": "Asian",
+          "value": 5486
+        },
+        {
+          "label": "Black or African American",
+          "value": 54584
+        },
+        {
+          "label": "Hispanic",
+          "value": 21150
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 183
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10578
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 144857
+        }
+      ]
+    },
+    "Calhoun County, South Carolina": {
+      "label": "Calhoun County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 50
+        },
+        {
+          "label": "Asian",
+          "value": 26
+        },
+        {
+          "label": "Black or African American",
+          "value": 5460
+        },
+        {
+          "label": "Hispanic",
+          "value": 539
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 63
+        },
+        {
+          "label": "Two or More Races",
+          "value": 252
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7760
+        }
+      ]
+    },
+    "Charleston County, South Carolina": {
+      "label": "Charleston County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 280
+        },
+        {
+          "label": "Asian",
+          "value": 7257
+        },
+        {
+          "label": "Black or African American",
+          "value": 97371
+        },
+        {
+          "label": "Hispanic",
+          "value": 29019
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 256
+        },
+        {
+          "label": "Two or More Races",
+          "value": 12094
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 266718
+        }
+      ]
+    },
+    "Cherokee County, South Carolina": {
+      "label": "Cherokee County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 131
+        },
+        {
+          "label": "Asian",
+          "value": 247
+        },
+        {
+          "label": "Black or African American",
+          "value": 10575
+        },
+        {
+          "label": "Hispanic",
+          "value": 2944
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2244
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 39434
+        }
+      ]
+    },
+    "Chester County, South Carolina": {
+      "label": "Chester County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 55
+        },
+        {
+          "label": "Asian",
+          "value": 170
+        },
+        {
+          "label": "Black or African American",
+          "value": 11526
+        },
+        {
+          "label": "Hispanic",
+          "value": 877
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 893
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18518
+        }
+      ]
+    },
+    "Chesterfield County, South Carolina": {
+      "label": "Chesterfield County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 96
+        },
+        {
+          "label": "Asian",
+          "value": 165
+        },
+        {
+          "label": "Black or African American",
+          "value": 13267
+        },
+        {
+          "label": "Hispanic",
+          "value": 2328
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1914
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25643
+        }
+      ]
+    },
+    "Clarendon County, South Carolina": {
+      "label": "Clarendon County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 36
+        },
+        {
+          "label": "Asian",
+          "value": 232
+        },
+        {
+          "label": "Black or African American",
+          "value": 14019
+        },
+        {
+          "label": "Hispanic",
+          "value": 945
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 601
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15173
+        }
+      ]
+    },
+    "Colleton County, South Carolina": {
+      "label": "Colleton County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 128
+        },
+        {
+          "label": "Asian",
+          "value": 176
+        },
+        {
+          "label": "Black or African American",
+          "value": 13350
+        },
+        {
+          "label": "Hispanic",
+          "value": 1562
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1439
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21845
+        }
+      ]
+    },
+    "Darlington County, South Carolina": {
+      "label": "Darlington County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 108
+        },
+        {
+          "label": "Asian",
+          "value": 220
+        },
+        {
+          "label": "Black or African American",
+          "value": 25647
+        },
+        {
+          "label": "Hispanic",
+          "value": 1486
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1593
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33575
+        }
+      ]
+    },
+    "Dillon County, South Carolina": {
+      "label": "Dillon County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 572
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 12806
+        },
+        {
+          "label": "Hispanic",
+          "value": 931
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1175
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12536
+        }
+      ]
+    },
+    "Dorchester County, South Carolina": {
+      "label": "Dorchester County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 417
+        },
+        {
+          "label": "Asian",
+          "value": 3550
+        },
+        {
+          "label": "Black or African American",
+          "value": 40707
+        },
+        {
+          "label": "Hispanic",
+          "value": 11323
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 879
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5642
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 100805
+        }
+      ]
+    },
+    "Edgefield County, South Carolina": {
+      "label": "Edgefield County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 37
+        },
+        {
+          "label": "Asian",
+          "value": 89
+        },
+        {
+          "label": "Black or African American",
+          "value": 8319
+        },
+        {
+          "label": "Hispanic",
+          "value": 1650
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 45
+        },
+        {
+          "label": "Two or More Races",
+          "value": 883
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15294
+        }
+      ]
+    },
+    "Fairfield County, South Carolina": {
+      "label": "Fairfield County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 40
+        },
+        {
+          "label": "Black or African American",
+          "value": 11438
+        },
+        {
+          "label": "Hispanic",
+          "value": 486
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 680
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8023
+        }
+      ]
+    },
+    "Florence County, South Carolina": {
+      "label": "Florence County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 136
+        },
+        {
+          "label": "Asian",
+          "value": 2137
+        },
+        {
+          "label": "Black or African American",
+          "value": 58691
+        },
+        {
+          "label": "Hispanic",
+          "value": 4391
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 14
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2984
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 68272
+        }
+      ]
+    },
+    "Georgetown County, South Carolina": {
+      "label": "Georgetown County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 83
+        },
+        {
+          "label": "Asian",
+          "value": 254
+        },
+        {
+          "label": "Black or African American",
+          "value": 18448
+        },
+        {
+          "label": "Hispanic",
+          "value": 2259
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 930
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 42158
+        }
+      ]
+    },
+    "Greenville County, South Carolina": {
+      "label": "Greenville County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 417
+        },
+        {
+          "label": "Asian",
+          "value": 13184
+        },
+        {
+          "label": "Black or African American",
+          "value": 88076
+        },
+        {
+          "label": "Hispanic",
+          "value": 60182
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 225
+        },
+        {
+          "label": "Two or More Races",
+          "value": 19079
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 353665
+        }
+      ]
+    },
+    "Greenwood County, South Carolina": {
+      "label": "Greenwood County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 35
+        },
+        {
+          "label": "Asian",
+          "value": 683
+        },
+        {
+          "label": "Black or African American",
+          "value": 21645
+        },
+        {
+          "label": "Hispanic",
+          "value": 4848
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1393
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 40209
+        }
+      ]
+    },
+    "Hampton County, South Carolina": {
+      "label": "Hampton County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 25
+        },
+        {
+          "label": "Asian",
+          "value": 162
+        },
+        {
+          "label": "Black or African American",
+          "value": 9714
+        },
+        {
+          "label": "Hispanic",
+          "value": 750
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 332
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7468
+        }
+      ]
+    },
+    "Horry County, South Carolina": {
+      "label": "Horry County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 450
+        },
+        {
+          "label": "Asian",
+          "value": 4877
+        },
+        {
+          "label": "Black or African American",
+          "value": 43355
+        },
+        {
+          "label": "Hispanic",
+          "value": 25961
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 312
+        },
+        {
+          "label": "Two or More Races",
+          "value": 12456
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 280046
+        }
+      ]
+    },
+    "Jasper County, South Carolina": {
+      "label": "Jasper County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 26
+        },
+        {
+          "label": "Asian",
+          "value": 60
+        },
+        {
+          "label": "Black or African American",
+          "value": 10539
+        },
+        {
+          "label": "Hispanic",
+          "value": 5259
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 987
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13780
+        }
+      ]
+    },
+    "Kershaw County, South Carolina": {
+      "label": "Kershaw County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 90
+        },
+        {
+          "label": "Asian",
+          "value": 317
+        },
+        {
+          "label": "Black or African American",
+          "value": 15657
+        },
+        {
+          "label": "Hispanic",
+          "value": 3744
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 70
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2352
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 44664
+        }
+      ]
+    },
+    "Lancaster County, South Carolina": {
+      "label": "Lancaster County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 121
+        },
+        {
+          "label": "Asian",
+          "value": 2478
+        },
+        {
+          "label": "Black or African American",
+          "value": 19558
+        },
+        {
+          "label": "Hispanic",
+          "value": 7062
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2709
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 68819
+        }
+      ]
+    },
+    "Laurens County, South Carolina": {
+      "label": "Laurens County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 347
+        },
+        {
+          "label": "Black or African American",
+          "value": 15594
+        },
+        {
+          "label": "Hispanic",
+          "value": 4303
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 62
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2771
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 44665
+        }
+      ]
+    },
+    "Lee County, South Carolina": {
+      "label": "Lee County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 24
+        },
+        {
+          "label": "Black or African American",
+          "value": 10159
+        },
+        {
+          "label": "Hispanic",
+          "value": 379
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 329
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5422
+        }
+      ]
+    },
+    "Lexington County, South Carolina": {
+      "label": "Lexington County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 370
+        },
+        {
+          "label": "Asian",
+          "value": 6322
+        },
+        {
+          "label": "Black or African American",
+          "value": 44607
+        },
+        {
+          "label": "Hispanic",
+          "value": 22831
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 196
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10673
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 213922
+        }
+      ]
+    },
+    "Marion County, South Carolina": {
+      "label": "Marion County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 98
+        },
+        {
+          "label": "Asian",
+          "value": 42
+        },
+        {
+          "label": "Black or African American",
+          "value": 16101
+        },
+        {
+          "label": "Hispanic",
+          "value": 753
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 793
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11095
+        }
+      ]
+    },
+    "Marlboro County, South Carolina": {
+      "label": "Marlboro County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 895
+        },
+        {
+          "label": "Asian",
+          "value": 99
+        },
+        {
+          "label": "Black or African American",
+          "value": 12905
+        },
+        {
+          "label": "Hispanic",
+          "value": 701
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1455
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9970
+        }
+      ]
+    },
+    "McCormick County, South Carolina": {
+      "label": "McCormick County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 18
+        },
+        {
+          "label": "Black or African American",
+          "value": 3988
+        },
+        {
+          "label": "Hispanic",
+          "value": 65
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 270
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5290
+        }
+      ]
+    },
+    "Newberry County, South Carolina": {
+      "label": "Newberry County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 59
+        },
+        {
+          "label": "Asian",
+          "value": 180
+        },
+        {
+          "label": "Black or African American",
+          "value": 11091
+        },
+        {
+          "label": "Hispanic",
+          "value": 3403
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 580
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22652
+        }
+      ]
+    },
+    "Oconee County, South Carolina": {
+      "label": "Oconee County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 63
+        },
+        {
+          "label": "Asian",
+          "value": 639
+        },
+        {
+          "label": "Black or African American",
+          "value": 5345
+        },
+        {
+          "label": "Hispanic",
+          "value": 4642
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 16
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2257
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 66463
+        }
+      ]
+    },
+    "Orangeburg County, South Carolina": {
+      "label": "Orangeburg County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 270
+        },
+        {
+          "label": "Asian",
+          "value": 669
+        },
+        {
+          "label": "Black or African American",
+          "value": 51371
+        },
+        {
+          "label": "Hispanic",
+          "value": 2100
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1341
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27673
+        }
+      ]
+    },
+    "Pickens County, South Carolina": {
+      "label": "Pickens County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 109
+        },
+        {
+          "label": "Asian",
+          "value": 2245
+        },
+        {
+          "label": "Black or African American",
+          "value": 8084
+        },
+        {
+          "label": "Hispanic",
+          "value": 6809
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 34
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4327
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 110572
+        }
+      ]
+    },
+    "Richland County, South Carolina": {
+      "label": "Richland County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 423
+        },
+        {
+          "label": "Asian",
+          "value": 11995
+        },
+        {
+          "label": "Black or African American",
+          "value": 196182
+        },
+        {
+          "label": "Hispanic",
+          "value": 26339
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 397
+        },
+        {
+          "label": "Two or More Races",
+          "value": 14110
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 166868
+        }
+      ]
+    },
+    "Saluda County, South Carolina": {
+      "label": "Saluda County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 36
+        },
+        {
+          "label": "Asian",
+          "value": 52
+        },
+        {
+          "label": "Black or African American",
+          "value": 4194
+        },
+        {
+          "label": "Hispanic",
+          "value": 3144
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 466
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10903
+        }
+      ]
+    },
+    "Spartanburg County, South Carolina": {
+      "label": "Spartanburg County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 355
+        },
+        {
+          "label": "Asian",
+          "value": 7875
+        },
+        {
+          "label": "Black or African American",
+          "value": 66690
+        },
+        {
+          "label": "Hispanic",
+          "value": 29892
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 67
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9525
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 222196
+        }
+      ]
+    },
+    "Sumter County, South Carolina": {
+      "label": "Sumter County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 81
+        },
+        {
+          "label": "Asian",
+          "value": 1543
+        },
+        {
+          "label": "Black or African American",
+          "value": 48203
+        },
+        {
+          "label": "Hispanic",
+          "value": 4500
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 78
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3801
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 46112
+        }
+      ]
+    },
+    "Union County, South Carolina": {
+      "label": "Union County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 68
+        },
+        {
+          "label": "Asian",
+          "value": 54
+        },
+        {
+          "label": "Black or African American",
+          "value": 7789
+        },
+        {
+          "label": "Hispanic",
+          "value": 520
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1198
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17314
+        }
+      ]
+    },
+    "Williamsburg County, South Carolina": {
+      "label": "Williamsburg County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 97
+        },
+        {
+          "label": "Asian",
+          "value": 205
+        },
+        {
+          "label": "Black or African American",
+          "value": 19497
+        },
+        {
+          "label": "Hispanic",
+          "value": 718
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 200
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9750
+        }
+      ]
+    },
+    "York County, South Carolina": {
+      "label": "York County, South Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1216
+        },
+        {
+          "label": "Asian",
+          "value": 8030
+        },
+        {
+          "label": "Black or African American",
+          "value": 53435
+        },
+        {
+          "label": "Hispanic",
+          "value": 20331
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10074
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 193671
+        }
+      ]
+    }
+  }
+}

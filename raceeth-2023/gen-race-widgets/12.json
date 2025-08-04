@@ -1,0 +1,2249 @@
+{
+  "state": "Alachua County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23258
+        },
+        {
+          "label": "Asian",
+          "value": 613745
+        },
+        {
+          "label": "Black or African American",
+          "value": 3248401
+        },
+        {
+          "label": "Hispanic",
+          "value": 5865737
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11168
+        },
+        {
+          "label": "Two or More Races",
+          "value": 760569
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11266583
+        }
+      ]
+    },
+    "Alachua County, Florida": {
+      "label": "Alachua County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 270
+        },
+        {
+          "label": "Asian",
+          "value": 16444
+        },
+        {
+          "label": "Black or African American",
+          "value": 53662
+        },
+        {
+          "label": "Hispanic",
+          "value": 34392
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 129
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10668
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 164301
+        }
+      ]
+    },
+    "Baker County, Florida": {
+      "label": "Baker County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 230
+        },
+        {
+          "label": "Black or African American",
+          "value": 3230
+        },
+        {
+          "label": "Hispanic",
+          "value": 1049
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1762
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21901
+        }
+      ]
+    },
+    "Bay County, Florida": {
+      "label": "Bay County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 412
+        },
+        {
+          "label": "Asian",
+          "value": 3476
+        },
+        {
+          "label": "Black or African American",
+          "value": 17855
+        },
+        {
+          "label": "Hispanic",
+          "value": 15221
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 179
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9359
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 133662
+        }
+      ]
+    },
+    "Bradford County, Florida": {
+      "label": "Bradford County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 262
+        },
+        {
+          "label": "Black or African American",
+          "value": 4829
+        },
+        {
+          "label": "Hispanic",
+          "value": 1360
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1175
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20241
+        }
+      ]
+    },
+    "Brevard County, Florida": {
+      "label": "Brevard County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 636
+        },
+        {
+          "label": "Asian",
+          "value": 14835
+        },
+        {
+          "label": "Black or African American",
+          "value": 57308
+        },
+        {
+          "label": "Hispanic",
+          "value": 72613
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 403
+        },
+        {
+          "label": "Two or More Races",
+          "value": 27886
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 442208
+        }
+      ]
+    },
+    "Broward County, Florida": {
+      "label": "Broward County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2183
+        },
+        {
+          "label": "Asian",
+          "value": 70070
+        },
+        {
+          "label": "Black or African American",
+          "value": 536826
+        },
+        {
+          "label": "Hispanic",
+          "value": 621023
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1162
+        },
+        {
+          "label": "Two or More Races",
+          "value": 74259
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 621174
+        }
+      ]
+    },
+    "Calhoun County, Florida": {
+      "label": "Calhoun County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 95
+        },
+        {
+          "label": "Asian",
+          "value": 101
+        },
+        {
+          "label": "Black or African American",
+          "value": 1578
+        },
+        {
+          "label": "Hispanic",
+          "value": 685
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 675
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10326
+        }
+      ]
+    },
+    "Charlotte County, Florida": {
+      "label": "Charlotte County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 175
+        },
+        {
+          "label": "Asian",
+          "value": 2526
+        },
+        {
+          "label": "Black or African American",
+          "value": 9957
+        },
+        {
+          "label": "Hispanic",
+          "value": 15278
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 62
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5785
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 160819
+        }
+      ]
+    },
+    "Citrus County, Florida": {
+      "label": "Citrus County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 359
+        },
+        {
+          "label": "Asian",
+          "value": 2169
+        },
+        {
+          "label": "Black or African American",
+          "value": 3369
+        },
+        {
+          "label": "Hispanic",
+          "value": 10329
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 67
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5501
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 136069
+        }
+      ]
+    },
+    "Clay County, Florida": {
+      "label": "Clay County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 117
+        },
+        {
+          "label": "Asian",
+          "value": 6524
+        },
+        {
+          "label": "Black or African American",
+          "value": 24902
+        },
+        {
+          "label": "Hispanic",
+          "value": 24684
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 135
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10422
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 154359
+        }
+      ]
+    },
+    "Collier County, Florida": {
+      "label": "Collier County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 277
+        },
+        {
+          "label": "Asian",
+          "value": 5769
+        },
+        {
+          "label": "Black or African American",
+          "value": 24974
+        },
+        {
+          "label": "Hispanic",
+          "value": 106446
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 16
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7555
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 241784
+        }
+      ]
+    },
+    "Columbia County, Florida": {
+      "label": "Columbia County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 43
+        },
+        {
+          "label": "Asian",
+          "value": 657
+        },
+        {
+          "label": "Black or African American",
+          "value": 11496
+        },
+        {
+          "label": "Hispanic",
+          "value": 5258
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 29
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2641
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 50036
+        }
+      ]
+    },
+    "DeSoto County, Florida": {
+      "label": "DeSoto County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 45
+        },
+        {
+          "label": "Asian",
+          "value": 12
+        },
+        {
+          "label": "Black or African American",
+          "value": 4392
+        },
+        {
+          "label": "Hispanic",
+          "value": 10334
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 584
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19264
+        }
+      ]
+    },
+    "Dixie County, Florida": {
+      "label": "Dixie County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 49
+        },
+        {
+          "label": "Asian",
+          "value": 73
+        },
+        {
+          "label": "Black or African American",
+          "value": 1073
+        },
+        {
+          "label": "Hispanic",
+          "value": 759
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 903
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14083
+        }
+      ]
+    },
+    "Duval County, Florida": {
+      "label": "Duval County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1066
+        },
+        {
+          "label": "Asian",
+          "value": 47857
+        },
+        {
+          "label": "Black or African American",
+          "value": 286983
+        },
+        {
+          "label": "Hispanic",
+          "value": 118365
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 607
+        },
+        {
+          "label": "Two or More Races",
+          "value": 48575
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 496520
+        }
+      ]
+    },
+    "Escambia County, Florida": {
+      "label": "Escambia County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 696
+        },
+        {
+          "label": "Asian",
+          "value": 9071
+        },
+        {
+          "label": "Black or African American",
+          "value": 67970
+        },
+        {
+          "label": "Hispanic",
+          "value": 21413
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 320
+        },
+        {
+          "label": "Two or More Races",
+          "value": 21349
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 200929
+        }
+      ]
+    },
+    "Flagler County, Florida": {
+      "label": "Flagler County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 131
+        },
+        {
+          "label": "Asian",
+          "value": 2664
+        },
+        {
+          "label": "Black or African American",
+          "value": 11167
+        },
+        {
+          "label": "Hispanic",
+          "value": 13595
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 151
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4337
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 89205
+        }
+      ]
+    },
+    "Franklin County, Florida": {
+      "label": "Franklin County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 39
+        },
+        {
+          "label": "Black or African American",
+          "value": 1330
+        },
+        {
+          "label": "Hispanic",
+          "value": 675
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 555
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9801
+        }
+      ]
+    },
+    "Gadsden County, Florida": {
+      "label": "Gadsden County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 46
+        },
+        {
+          "label": "Asian",
+          "value": 59
+        },
+        {
+          "label": "Black or African American",
+          "value": 23848
+        },
+        {
+          "label": "Hispanic",
+          "value": 5180
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 728
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13744
+        }
+      ]
+    },
+    "Gilchrist County, Florida": {
+      "label": "Gilchrist County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 42
+        },
+        {
+          "label": "Black or African American",
+          "value": 561
+        },
+        {
+          "label": "Hispanic",
+          "value": 1378
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 555
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15893
+        }
+      ]
+    },
+    "Glades County, Florida": {
+      "label": "Glades County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 356
+        },
+        {
+          "label": "Asian",
+          "value": 43
+        },
+        {
+          "label": "Black or African American",
+          "value": 1812
+        },
+        {
+          "label": "Hispanic",
+          "value": 3089
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 123
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6790
+        }
+      ]
+    },
+    "Gulf County, Florida": {
+      "label": "Gulf County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 67
+        },
+        {
+          "label": "Black or African American",
+          "value": 2037
+        },
+        {
+          "label": "Hispanic",
+          "value": 656
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 18
+        },
+        {
+          "label": "Two or More Races",
+          "value": 539
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11414
+        }
+      ]
+    },
+    "Hamilton County, Florida": {
+      "label": "Hamilton County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 71
+        },
+        {
+          "label": "Asian",
+          "value": 66
+        },
+        {
+          "label": "Black or African American",
+          "value": 4146
+        },
+        {
+          "label": "Hispanic",
+          "value": 1478
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 255
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7424
+        }
+      ]
+    },
+    "Hardee County, Florida": {
+      "label": "Hardee County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 282
+        },
+        {
+          "label": "Black or African American",
+          "value": 1642
+        },
+        {
+          "label": "Hispanic",
+          "value": 10713
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 801
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12010
+        }
+      ]
+    },
+    "Hendry County, Florida": {
+      "label": "Hendry County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 500
+        },
+        {
+          "label": "Asian",
+          "value": 429
+        },
+        {
+          "label": "Black or African American",
+          "value": 4313
+        },
+        {
+          "label": "Hispanic",
+          "value": 23074
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 458
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11888
+        }
+      ]
+    },
+    "Hernando County, Florida": {
+      "label": "Hernando County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 414
+        },
+        {
+          "label": "Asian",
+          "value": 2728
+        },
+        {
+          "label": "Black or African American",
+          "value": 9550
+        },
+        {
+          "label": "Hispanic",
+          "value": 32348
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 188
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6691
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 147951
+        }
+      ]
+    },
+    "Highlands County, Florida": {
+      "label": "Highlands County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 150
+        },
+        {
+          "label": "Asian",
+          "value": 1559
+        },
+        {
+          "label": "Black or African American",
+          "value": 9508
+        },
+        {
+          "label": "Hispanic",
+          "value": 22310
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 32
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3016
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 66658
+        }
+      ]
+    },
+    "Hillsborough County, Florida": {
+      "label": "Hillsborough County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1135
+        },
+        {
+          "label": "Asian",
+          "value": 64120
+        },
+        {
+          "label": "Black or African American",
+          "value": 232451
+        },
+        {
+          "label": "Hispanic",
+          "value": 441871
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1005
+        },
+        {
+          "label": "Two or More Races",
+          "value": 55680
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 682693
+        }
+      ]
+    },
+    "Holmes County, Florida": {
+      "label": "Holmes County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 151
+        },
+        {
+          "label": "Asian",
+          "value": 85
+        },
+        {
+          "label": "Black or African American",
+          "value": 1300
+        },
+        {
+          "label": "Hispanic",
+          "value": 697
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 791
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16569
+        }
+      ]
+    },
+    "Indian River County, Florida": {
+      "label": "Indian River County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 332
+        },
+        {
+          "label": "Asian",
+          "value": 2360
+        },
+        {
+          "label": "Black or African American",
+          "value": 13104
+        },
+        {
+          "label": "Hispanic",
+          "value": 22009
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5341
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 119812
+        }
+      ]
+    },
+    "Jackson County, Florida": {
+      "label": "Jackson County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 81
+        },
+        {
+          "label": "Asian",
+          "value": 282
+        },
+        {
+          "label": "Black or African American",
+          "value": 12060
+        },
+        {
+          "label": "Hispanic",
+          "value": 2432
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 50
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1883
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30749
+        }
+      ]
+    },
+    "Jefferson County, Florida": {
+      "label": "Jefferson County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 103
+        },
+        {
+          "label": "Black or African American",
+          "value": 4416
+        },
+        {
+          "label": "Hispanic",
+          "value": 704
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 553
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8849
+        }
+      ]
+    },
+    "Lafayette County, Florida": {
+      "label": "Lafayette County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 2
+        },
+        {
+          "label": "Black or African American",
+          "value": 1404
+        },
+        {
+          "label": "Hispanic",
+          "value": 956
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 87
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5583
+        }
+      ]
+    },
+    "Lake County, Florida": {
+      "label": "Lake County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 361
+        },
+        {
+          "label": "Asian",
+          "value": 8263
+        },
+        {
+          "label": "Black or African American",
+          "value": 39144
+        },
+        {
+          "label": "Hispanic",
+          "value": 71545
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 508
+        },
+        {
+          "label": "Two or More Races",
+          "value": 15635
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 260319
+        }
+      ]
+    },
+    "Lee County, Florida": {
+      "label": "Lee County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 504
+        },
+        {
+          "label": "Asian",
+          "value": 13271
+        },
+        {
+          "label": "Black or African American",
+          "value": 60490
+        },
+        {
+          "label": "Hispanic",
+          "value": 187055
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 298
+        },
+        {
+          "label": "Two or More Races",
+          "value": 22007
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 504628
+        }
+      ]
+    },
+    "Leon County, Florida": {
+      "label": "Leon County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 153
+        },
+        {
+          "label": "Asian",
+          "value": 10134
+        },
+        {
+          "label": "Black or African American",
+          "value": 89723
+        },
+        {
+          "label": "Hispanic",
+          "value": 23394
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 118
+        },
+        {
+          "label": "Two or More Races",
+          "value": 11272
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 159105
+        }
+      ]
+    },
+    "Levy County, Florida": {
+      "label": "Levy County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 57
+        },
+        {
+          "label": "Asian",
+          "value": 372
+        },
+        {
+          "label": "Black or African American",
+          "value": 3643
+        },
+        {
+          "label": "Hispanic",
+          "value": 4365
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1537
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 34138
+        }
+      ]
+    },
+    "Liberty County, Florida": {
+      "label": "Liberty County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 16
+        },
+        {
+          "label": "Black or African American",
+          "value": 985
+        },
+        {
+          "label": "Hispanic",
+          "value": 544
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 333
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5729
+        }
+      ]
+    },
+    "Madison County, Florida": {
+      "label": "Madison County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 27
+        },
+        {
+          "label": "Asian",
+          "value": 25
+        },
+        {
+          "label": "Black or African American",
+          "value": 6508
+        },
+        {
+          "label": "Hispanic",
+          "value": 1005
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 684
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9763
+        }
+      ]
+    },
+    "Manatee County, Florida": {
+      "label": "Manatee County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 312
+        },
+        {
+          "label": "Asian",
+          "value": 8848
+        },
+        {
+          "label": "Black or African American",
+          "value": 32353
+        },
+        {
+          "label": "Hispanic",
+          "value": 74279
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 233
+        },
+        {
+          "label": "Two or More Races",
+          "value": 13815
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 284736
+        }
+      ]
+    },
+    "Marion County, Florida": {
+      "label": "Marion County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 529
+        },
+        {
+          "label": "Asian",
+          "value": 5984
+        },
+        {
+          "label": "Black or African American",
+          "value": 47151
+        },
+        {
+          "label": "Hispanic",
+          "value": 61736
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 77
+        },
+        {
+          "label": "Two or More Races",
+          "value": 11534
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 258819
+        }
+      ]
+    },
+    "Martin County, Florida": {
+      "label": "Martin County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 118
+        },
+        {
+          "label": "Asian",
+          "value": 2211
+        },
+        {
+          "label": "Black or African American",
+          "value": 7876
+        },
+        {
+          "label": "Hispanic",
+          "value": 24690
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 51
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3949
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 121185
+        }
+      ]
+    },
+    "Miami-Dade County, Florida": {
+      "label": "Miami-Dade County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2037
+        },
+        {
+          "label": "Asian",
+          "value": 39484
+        },
+        {
+          "label": "Black or African American",
+          "value": 392563
+        },
+        {
+          "label": "Hispanic",
+          "value": 1846781
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 531
+        },
+        {
+          "label": "Two or More Races",
+          "value": 44292
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 345749
+        }
+      ]
+    },
+    "Monroe County, Florida": {
+      "label": "Monroe County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 870
+        },
+        {
+          "label": "Black or African American",
+          "value": 5485
+        },
+        {
+          "label": "Hispanic",
+          "value": 19611
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 17
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2255
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 53020
+        }
+      ]
+    },
+    "Nassau County, Florida": {
+      "label": "Nassau County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 132
+        },
+        {
+          "label": "Asian",
+          "value": 1201
+        },
+        {
+          "label": "Black or African American",
+          "value": 5204
+        },
+        {
+          "label": "Hispanic",
+          "value": 5052
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 27
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2714
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 79754
+        }
+      ]
+    },
+    "Okaloosa County, Florida": {
+      "label": "Okaloosa County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 364
+        },
+        {
+          "label": "Asian",
+          "value": 6833
+        },
+        {
+          "label": "Black or African American",
+          "value": 19688
+        },
+        {
+          "label": "Hispanic",
+          "value": 23230
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 184
+        },
+        {
+          "label": "Two or More Races",
+          "value": 12802
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 150139
+        }
+      ]
+    },
+    "Okeechobee County, Florida": {
+      "label": "Okeechobee County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 61
+        },
+        {
+          "label": "Asian",
+          "value": 355
+        },
+        {
+          "label": "Black or African American",
+          "value": 3100
+        },
+        {
+          "label": "Hispanic",
+          "value": 10281
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1067
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25254
+        }
+      ]
+    },
+    "Orange County, Florida": {
+      "label": "Orange County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1216
+        },
+        {
+          "label": "Asian",
+          "value": 75474
+        },
+        {
+          "label": "Black or African American",
+          "value": 277717
+        },
+        {
+          "label": "Hispanic",
+          "value": 478735
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1270
+        },
+        {
+          "label": "Two or More Races",
+          "value": 62921
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 530144
+        }
+      ]
+    },
+    "Osceola County, Florida": {
+      "label": "Osceola County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 172
+        },
+        {
+          "label": "Asian",
+          "value": 11073
+        },
+        {
+          "label": "Black or African American",
+          "value": 39259
+        },
+        {
+          "label": "Hispanic",
+          "value": 223890
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 120
+        },
+        {
+          "label": "Two or More Races",
+          "value": 13251
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 115811
+        }
+      ]
+    },
+    "Palm Beach County, Florida": {
+      "label": "Palm Beach County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 920
+        },
+        {
+          "label": "Asian",
+          "value": 42119
+        },
+        {
+          "label": "Black or African American",
+          "value": 271548
+        },
+        {
+          "label": "Hispanic",
+          "value": 358640
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 592
+        },
+        {
+          "label": "Two or More Races",
+          "value": 55804
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 766229
+        }
+      ]
+    },
+    "Pasco County, Florida": {
+      "label": "Pasco County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 746
+        },
+        {
+          "label": "Asian",
+          "value": 18015
+        },
+        {
+          "label": "Black or African American",
+          "value": 34351
+        },
+        {
+          "label": "Hispanic",
+          "value": 104251
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 302
+        },
+        {
+          "label": "Two or More Races",
+          "value": 20476
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 407831
+        }
+      ]
+    },
+    "Pinellas County, Florida": {
+      "label": "Pinellas County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 967
+        },
+        {
+          "label": "Asian",
+          "value": 34147
+        },
+        {
+          "label": "Black or African American",
+          "value": 91718
+        },
+        {
+          "label": "Hispanic",
+          "value": 104765
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 645
+        },
+        {
+          "label": "Two or More Races",
+          "value": 35286
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 687960
+        }
+      ]
+    },
+    "Polk County, Florida": {
+      "label": "Polk County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 928
+        },
+        {
+          "label": "Asian",
+          "value": 13066
+        },
+        {
+          "label": "Black or African American",
+          "value": 107927
+        },
+        {
+          "label": "Hispanic",
+          "value": 211002
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 247
+        },
+        {
+          "label": "Two or More Races",
+          "value": 22362
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 400412
+        }
+      ]
+    },
+    "Putnam County, Florida": {
+      "label": "Putnam County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 206
+        },
+        {
+          "label": "Asian",
+          "value": 448
+        },
+        {
+          "label": "Black or African American",
+          "value": 11234
+        },
+        {
+          "label": "Hispanic",
+          "value": 8092
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2165
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 51942
+        }
+      ]
+    },
+    "Santa Rosa County, Florida": {
+      "label": "Santa Rosa County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 320
+        },
+        {
+          "label": "Asian",
+          "value": 3993
+        },
+        {
+          "label": "Black or African American",
+          "value": 10581
+        },
+        {
+          "label": "Hispanic",
+          "value": 12751
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 331
+        },
+        {
+          "label": "Two or More Races",
+          "value": 11163
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 153283
+        }
+      ]
+    },
+    "Sarasota County, Florida": {
+      "label": "Sarasota County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 500
+        },
+        {
+          "label": "Asian",
+          "value": 8343
+        },
+        {
+          "label": "Black or African American",
+          "value": 17882
+        },
+        {
+          "label": "Hispanic",
+          "value": 45922
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 161
+        },
+        {
+          "label": "Two or More Races",
+          "value": 12293
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 361961
+        }
+      ]
+    },
+    "Seminole County, Florida": {
+      "label": "Seminole County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 318
+        },
+        {
+          "label": "Asian",
+          "value": 24149
+        },
+        {
+          "label": "Black or African American",
+          "value": 52933
+        },
+        {
+          "label": "Hispanic",
+          "value": 110154
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 225
+        },
+        {
+          "label": "Two or More Races",
+          "value": 18070
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 266320
+        }
+      ]
+    },
+    "St. Johns County, Florida": {
+      "label": "St. Johns County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 187
+        },
+        {
+          "label": "Asian",
+          "value": 9822
+        },
+        {
+          "label": "Black or African American",
+          "value": 14404
+        },
+        {
+          "label": "Hispanic",
+          "value": 25354
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 199
+        },
+        {
+          "label": "Two or More Races",
+          "value": 11115
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 229577
+        }
+      ]
+    },
+    "St. Lucie County, Florida": {
+      "label": "St. Lucie County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 423
+        },
+        {
+          "label": "Asian",
+          "value": 6761
+        },
+        {
+          "label": "Black or African American",
+          "value": 69661
+        },
+        {
+          "label": "Hispanic",
+          "value": 72914
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 137
+        },
+        {
+          "label": "Two or More Races",
+          "value": 12032
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 182174
+        }
+      ]
+    },
+    "Sumter County, Florida": {
+      "label": "Sumter County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 326
+        },
+        {
+          "label": "Asian",
+          "value": 1356
+        },
+        {
+          "label": "Black or African American",
+          "value": 9150
+        },
+        {
+          "label": "Hispanic",
+          "value": 8369
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 25
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2144
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 115620
+        }
+      ]
+    },
+    "Suwannee County, Florida": {
+      "label": "Suwannee County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 96
+        },
+        {
+          "label": "Asian",
+          "value": 317
+        },
+        {
+          "label": "Black or African American",
+          "value": 4349
+        },
+        {
+          "label": "Hispanic",
+          "value": 5040
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1911
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32623
+        }
+      ]
+    },
+    "Taylor County, Florida": {
+      "label": "Taylor County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 85
+        },
+        {
+          "label": "Asian",
+          "value": 18
+        },
+        {
+          "label": "Black or African American",
+          "value": 4227
+        },
+        {
+          "label": "Hispanic",
+          "value": 879
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 83
+        },
+        {
+          "label": "Two or More Races",
+          "value": 575
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15418
+        }
+      ]
+    },
+    "Union County, Florida": {
+      "label": "Union County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 31
+        },
+        {
+          "label": "Black or African American",
+          "value": 2484
+        },
+        {
+          "label": "Hispanic",
+          "value": 799
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1107
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11090
+        }
+      ]
+    },
+    "Volusia County, Florida": {
+      "label": "Volusia County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 714
+        },
+        {
+          "label": "Asian",
+          "value": 10458
+        },
+        {
+          "label": "Black or African American",
+          "value": 58769
+        },
+        {
+          "label": "Hispanic",
+          "value": 89077
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 161
+        },
+        {
+          "label": "Two or More Races",
+          "value": 16886
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 390004
+        }
+      ]
+    },
+    "Wakulla County, Florida": {
+      "label": "Wakulla County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 68
+        },
+        {
+          "label": "Asian",
+          "value": 161
+        },
+        {
+          "label": "Black or African American",
+          "value": 4799
+        },
+        {
+          "label": "Hispanic",
+          "value": 1625
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1094
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26630
+        }
+      ]
+    },
+    "Walton County, Florida": {
+      "label": "Walton County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 248
+        },
+        {
+          "label": "Asian",
+          "value": 895
+        },
+        {
+          "label": "Black or African American",
+          "value": 3036
+        },
+        {
+          "label": "Hispanic",
+          "value": 6563
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 20
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3539
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 65095
+        }
+      ]
+    },
+    "Washington County, Florida": {
+      "label": "Washington County, Florida",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 226
+        },
+        {
+          "label": "Asian",
+          "value": 226
+        },
+        {
+          "label": "Black or African American",
+          "value": 3406
+        },
+        {
+          "label": "Hispanic",
+          "value": 973
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 987
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19412
+        }
+      ]
+    }
+  }
+}

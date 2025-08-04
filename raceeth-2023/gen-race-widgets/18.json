@@ -1,0 +1,3074 @@
+{
+  "state": "Adams County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4786
+        },
+        {
+          "label": "Asian",
+          "value": 171292
+        },
+        {
+          "label": "Black or African American",
+          "value": 621991
+        },
+        {
+          "label": "Hispanic",
+          "value": 569410
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2073
+        },
+        {
+          "label": "Two or More Races",
+          "value": 231665
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5184070
+        }
+      ]
+    },
+    "Adams County, Indiana": {
+      "label": "Adams County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 113
+        },
+        {
+          "label": "Black or African American",
+          "value": 149
+        },
+        {
+          "label": "Hispanic",
+          "value": 1688
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 607
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33389
+        }
+      ]
+    },
+    "Allen County, Indiana": {
+      "label": "Allen County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 211
+        },
+        {
+          "label": "Asian",
+          "value": 19286
+        },
+        {
+          "label": "Black or African American",
+          "value": 41658
+        },
+        {
+          "label": "Hispanic",
+          "value": 34095
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 188
+        },
+        {
+          "label": "Two or More Races",
+          "value": 17315
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 274650
+        }
+      ]
+    },
+    "Bartholomew County, Indiana": {
+      "label": "Bartholomew County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 49
+        },
+        {
+          "label": "Asian",
+          "value": 6253
+        },
+        {
+          "label": "Black or African American",
+          "value": 1468
+        },
+        {
+          "label": "Hispanic",
+          "value": 7445
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2664
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 64351
+        }
+      ]
+    },
+    "Benton County, Indiana": {
+      "label": "Benton County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 128
+        },
+        {
+          "label": "Hispanic",
+          "value": 608
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 160
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7792
+        }
+      ]
+    },
+    "Blackford County, Indiana": {
+      "label": "Blackford County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 19
+        },
+        {
+          "label": "Black or African American",
+          "value": 56
+        },
+        {
+          "label": "Hispanic",
+          "value": 263
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 332
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11311
+        }
+      ]
+    },
+    "Boone County, Indiana": {
+      "label": "Boone County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 2447
+        },
+        {
+          "label": "Black or African American",
+          "value": 1773
+        },
+        {
+          "label": "Hispanic",
+          "value": 2991
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 20
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2020
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 63510
+        }
+      ]
+    },
+    "Brown County, Indiana": {
+      "label": "Brown County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 82
+        },
+        {
+          "label": "Black or African American",
+          "value": 93
+        },
+        {
+          "label": "Hispanic",
+          "value": 312
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 49
+        },
+        {
+          "label": "Two or More Races",
+          "value": 267
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14697
+        }
+      ]
+    },
+    "Carroll County, Indiana": {
+      "label": "Carroll County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 19
+        },
+        {
+          "label": "Black or African American",
+          "value": 148
+        },
+        {
+          "label": "Hispanic",
+          "value": 899
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 435
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18924
+        }
+      ]
+    },
+    "Cass County, Indiana": {
+      "label": "Cass County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 46
+        },
+        {
+          "label": "Asian",
+          "value": 582
+        },
+        {
+          "label": "Black or African American",
+          "value": 494
+        },
+        {
+          "label": "Hispanic",
+          "value": 6810
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1352
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28160
+        }
+      ]
+    },
+    "Clark County, Indiana": {
+      "label": "Clark County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 27
+        },
+        {
+          "label": "Asian",
+          "value": 1352
+        },
+        {
+          "label": "Black or African American",
+          "value": 8432
+        },
+        {
+          "label": "Hispanic",
+          "value": 8166
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5762
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 98569
+        }
+      ]
+    },
+    "Clay County, Indiana": {
+      "label": "Clay County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 60
+        },
+        {
+          "label": "Black or African American",
+          "value": 81
+        },
+        {
+          "label": "Hispanic",
+          "value": 496
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 21
+        },
+        {
+          "label": "Two or More Races",
+          "value": 795
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24937
+        }
+      ]
+    },
+    "Clinton County, Indiana": {
+      "label": "Clinton County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 155
+        },
+        {
+          "label": "Black or African American",
+          "value": 184
+        },
+        {
+          "label": "Hispanic",
+          "value": 6252
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 491
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25860
+        }
+      ]
+    },
+    "Crawford County, Indiana": {
+      "label": "Crawford County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 2
+        },
+        {
+          "label": "Black or African American",
+          "value": 28
+        },
+        {
+          "label": "Hispanic",
+          "value": 33
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 406
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9999
+        }
+      ]
+    },
+    "Daviess County, Indiana": {
+      "label": "Daviess County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 85
+        },
+        {
+          "label": "Black or African American",
+          "value": 521
+        },
+        {
+          "label": "Hispanic",
+          "value": 2144
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1109
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29405
+        }
+      ]
+    },
+    "Dearborn County, Indiana": {
+      "label": "Dearborn County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 255
+        },
+        {
+          "label": "Black or African American",
+          "value": 111
+        },
+        {
+          "label": "Hispanic",
+          "value": 771
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1431
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 48062
+        }
+      ]
+    },
+    "Decatur County, Indiana": {
+      "label": "Decatur County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 24
+        },
+        {
+          "label": "Black or African American",
+          "value": 84
+        },
+        {
+          "label": "Hispanic",
+          "value": 640
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 846
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24682
+        }
+      ]
+    },
+    "DeKalb County, Indiana": {
+      "label": "DeKalb County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 224
+        },
+        {
+          "label": "Black or African American",
+          "value": 92
+        },
+        {
+          "label": "Hispanic",
+          "value": 1280
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 974
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 40928
+        }
+      ]
+    },
+    "Delaware County, Indiana": {
+      "label": "Delaware County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 185
+        },
+        {
+          "label": "Asian",
+          "value": 1689
+        },
+        {
+          "label": "Black or African American",
+          "value": 5899
+        },
+        {
+          "label": "Hispanic",
+          "value": 3552
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 13
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5232
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 95256
+        }
+      ]
+    },
+    "Dubois County, Indiana": {
+      "label": "Dubois County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 34
+        },
+        {
+          "label": "Asian",
+          "value": 271
+        },
+        {
+          "label": "Black or African American",
+          "value": 387
+        },
+        {
+          "label": "Hispanic",
+          "value": 4220
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 433
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 38085
+        }
+      ]
+    },
+    "Elkhart County, Indiana": {
+      "label": "Elkhart County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 336
+        },
+        {
+          "label": "Asian",
+          "value": 2247
+        },
+        {
+          "label": "Black or African American",
+          "value": 9879
+        },
+        {
+          "label": "Hispanic",
+          "value": 40368
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 68
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6619
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 146352
+        }
+      ]
+    },
+    "Fayette County, Indiana": {
+      "label": "Fayette County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 49
+        },
+        {
+          "label": "Asian",
+          "value": 36
+        },
+        {
+          "label": "Black or African American",
+          "value": 266
+        },
+        {
+          "label": "Hispanic",
+          "value": 318
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 765
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21952
+        }
+      ]
+    },
+    "Floyd County, Indiana": {
+      "label": "Floyd County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 25
+        },
+        {
+          "label": "Asian",
+          "value": 943
+        },
+        {
+          "label": "Black or African American",
+          "value": 4067
+        },
+        {
+          "label": "Hispanic",
+          "value": 3256
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 27
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2886
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 69109
+        }
+      ]
+    },
+    "Fountain County, Indiana": {
+      "label": "Fountain County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 46
+        },
+        {
+          "label": "Black or African American",
+          "value": 127
+        },
+        {
+          "label": "Hispanic",
+          "value": 472
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 260
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15545
+        }
+      ]
+    },
+    "Franklin County, Indiana": {
+      "label": "Franklin County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 149
+        },
+        {
+          "label": "Black or African American",
+          "value": 34
+        },
+        {
+          "label": "Hispanic",
+          "value": 258
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 372
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22008
+        }
+      ]
+    },
+    "Fulton County, Indiana": {
+      "label": "Fulton County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 16
+        },
+        {
+          "label": "Black or African American",
+          "value": 87
+        },
+        {
+          "label": "Hispanic",
+          "value": 1097
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 557
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18340
+        }
+      ]
+    },
+    "Gibson County, Indiana": {
+      "label": "Gibson County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 154
+        },
+        {
+          "label": "Black or African American",
+          "value": 739
+        },
+        {
+          "label": "Hispanic",
+          "value": 709
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 32
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1153
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29915
+        }
+      ]
+    },
+    "Grant County, Indiana": {
+      "label": "Grant County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 203
+        },
+        {
+          "label": "Asian",
+          "value": 603
+        },
+        {
+          "label": "Black or African American",
+          "value": 3164
+        },
+        {
+          "label": "Hispanic",
+          "value": 3530
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 21
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3537
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 55240
+        }
+      ]
+    },
+    "Greene County, Indiana": {
+      "label": "Greene County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 52
+        },
+        {
+          "label": "Black or African American",
+          "value": 132
+        },
+        {
+          "label": "Hispanic",
+          "value": 605
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 570
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29556
+        }
+      ]
+    },
+    "Hamilton County, Indiana": {
+      "label": "Hamilton County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 160
+        },
+        {
+          "label": "Asian",
+          "value": 24053
+        },
+        {
+          "label": "Black or African American",
+          "value": 14777
+        },
+        {
+          "label": "Hispanic",
+          "value": 19165
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 159
+        },
+        {
+          "label": "Two or More Races",
+          "value": 12364
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 284532
+        }
+      ]
+    },
+    "Hancock County, Indiana": {
+      "label": "Hancock County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 65
+        },
+        {
+          "label": "Asian",
+          "value": 753
+        },
+        {
+          "label": "Black or African American",
+          "value": 2570
+        },
+        {
+          "label": "Hispanic",
+          "value": 2613
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2601
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 73271
+        }
+      ]
+    },
+    "Harrison County, Indiana": {
+      "label": "Harrison County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 255
+        },
+        {
+          "label": "Black or African American",
+          "value": 351
+        },
+        {
+          "label": "Hispanic",
+          "value": 913
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 594
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 37613
+        }
+      ]
+    },
+    "Hendricks County, Indiana": {
+      "label": "Hendricks County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 150
+        },
+        {
+          "label": "Asian",
+          "value": 5884
+        },
+        {
+          "label": "Black or African American",
+          "value": 16116
+        },
+        {
+          "label": "Hispanic",
+          "value": 8849
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5663
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 142074
+        }
+      ]
+    },
+    "Henry County, Indiana": {
+      "label": "Henry County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 26
+        },
+        {
+          "label": "Asian",
+          "value": 249
+        },
+        {
+          "label": "Black or African American",
+          "value": 1108
+        },
+        {
+          "label": "Hispanic",
+          "value": 1055
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1149
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 45196
+        }
+      ]
+    },
+    "Howard County, Indiana": {
+      "label": "Howard County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 36
+        },
+        {
+          "label": "Asian",
+          "value": 1223
+        },
+        {
+          "label": "Black or African American",
+          "value": 6526
+        },
+        {
+          "label": "Hispanic",
+          "value": 3260
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2875
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 69511
+        }
+      ]
+    },
+    "Huntington County, Indiana": {
+      "label": "Huntington County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 231
+        },
+        {
+          "label": "Black or African American",
+          "value": 292
+        },
+        {
+          "label": "Hispanic",
+          "value": 1098
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 16
+        },
+        {
+          "label": "Two or More Races",
+          "value": 740
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 34277
+        }
+      ]
+    },
+    "Jackson County, Indiana": {
+      "label": "Jackson County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 1016
+        },
+        {
+          "label": "Black or African American",
+          "value": 509
+        },
+        {
+          "label": "Hispanic",
+          "value": 6288
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 900
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 37379
+        }
+      ]
+    },
+    "Jasper County, Indiana": {
+      "label": "Jasper County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 108
+        },
+        {
+          "label": "Black or African American",
+          "value": 231
+        },
+        {
+          "label": "Hispanic",
+          "value": 2435
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1389
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29026
+        }
+      ]
+    },
+    "Jay County, Indiana": {
+      "label": "Jay County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 68
+        },
+        {
+          "label": "Black or African American",
+          "value": 62
+        },
+        {
+          "label": "Hispanic",
+          "value": 911
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 361
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18864
+        }
+      ]
+    },
+    "Jefferson County, Indiana": {
+      "label": "Jefferson County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 48
+        },
+        {
+          "label": "Asian",
+          "value": 242
+        },
+        {
+          "label": "Black or African American",
+          "value": 349
+        },
+        {
+          "label": "Hispanic",
+          "value": 1125
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 911
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30321
+        }
+      ]
+    },
+    "Jennings County, Indiana": {
+      "label": "Jennings County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 32
+        },
+        {
+          "label": "Asian",
+          "value": 135
+        },
+        {
+          "label": "Black or African American",
+          "value": 148
+        },
+        {
+          "label": "Hispanic",
+          "value": 909
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 522
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25789
+        }
+      ]
+    },
+    "Johnson County, Indiana": {
+      "label": "Johnson County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 42
+        },
+        {
+          "label": "Asian",
+          "value": 7673
+        },
+        {
+          "label": "Black or African American",
+          "value": 4941
+        },
+        {
+          "label": "Hispanic",
+          "value": 6744
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 49
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4737
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 139247
+        }
+      ]
+    },
+    "Knox County, Indiana": {
+      "label": "Knox County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 343
+        },
+        {
+          "label": "Black or African American",
+          "value": 571
+        },
+        {
+          "label": "Hispanic",
+          "value": 1025
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1583
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32523
+        }
+      ]
+    },
+    "Kosciusko County, Indiana": {
+      "label": "Kosciusko County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 38
+        },
+        {
+          "label": "Asian",
+          "value": 1184
+        },
+        {
+          "label": "Black or African American",
+          "value": 573
+        },
+        {
+          "label": "Hispanic",
+          "value": 7643
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1879
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 68887
+        }
+      ]
+    },
+    "LaGrange County, Indiana": {
+      "label": "LaGrange County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 16
+        },
+        {
+          "label": "Black or African American",
+          "value": 124
+        },
+        {
+          "label": "Hispanic",
+          "value": 1794
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 660
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 37974
+        }
+      ]
+    },
+    "Lake County, Indiana": {
+      "label": "Lake County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 500
+        },
+        {
+          "label": "Asian",
+          "value": 7656
+        },
+        {
+          "label": "Black or African American",
+          "value": 114300
+        },
+        {
+          "label": "Hispanic",
+          "value": 102413
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 138
+        },
+        {
+          "label": "Two or More Races",
+          "value": 12746
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 259429
+        }
+      ]
+    },
+    "LaPorte County, Indiana": {
+      "label": "LaPorte County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 98
+        },
+        {
+          "label": "Asian",
+          "value": 746
+        },
+        {
+          "label": "Black or African American",
+          "value": 11454
+        },
+        {
+          "label": "Hispanic",
+          "value": 8264
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5067
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 86093
+        }
+      ]
+    },
+    "Lawrence County, Indiana": {
+      "label": "Lawrence County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 268
+        },
+        {
+          "label": "Black or African American",
+          "value": 163
+        },
+        {
+          "label": "Hispanic",
+          "value": 847
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 24
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1034
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 42464
+        }
+      ]
+    },
+    "Madison County, Indiana": {
+      "label": "Madison County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 151
+        },
+        {
+          "label": "Asian",
+          "value": 788
+        },
+        {
+          "label": "Black or African American",
+          "value": 8195
+        },
+        {
+          "label": "Hispanic",
+          "value": 6724
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6419
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 108194
+        }
+      ]
+    },
+    "Marion County, Indiana": {
+      "label": "Marion County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 521
+        },
+        {
+          "label": "Asian",
+          "value": 37604
+        },
+        {
+          "label": "Black or African American",
+          "value": 265415
+        },
+        {
+          "label": "Hispanic",
+          "value": 129973
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 135
+        },
+        {
+          "label": "Two or More Races",
+          "value": 42217
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 490631
+        }
+      ]
+    },
+    "Marshall County, Indiana": {
+      "label": "Marshall County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 301
+        },
+        {
+          "label": "Black or African American",
+          "value": 226
+        },
+        {
+          "label": "Hispanic",
+          "value": 5346
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 790
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 39466
+        }
+      ]
+    },
+    "Martin County, Indiana": {
+      "label": "Martin County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 11
+        },
+        {
+          "label": "Black or African American",
+          "value": 15
+        },
+        {
+          "label": "Hispanic",
+          "value": 120
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 355
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9313
+        }
+      ]
+    },
+    "Miami County, Indiana": {
+      "label": "Miami County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 78
+        },
+        {
+          "label": "Asian",
+          "value": 220
+        },
+        {
+          "label": "Black or African American",
+          "value": 1340
+        },
+        {
+          "label": "Hispanic",
+          "value": 1288
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 66
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1444
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 31228
+        }
+      ]
+    },
+    "Monroe County, Indiana": {
+      "label": "Monroe County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 9258
+        },
+        {
+          "label": "Black or African American",
+          "value": 4888
+        },
+        {
+          "label": "Hispanic",
+          "value": 6441
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4682
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 114157
+        }
+      ]
+    },
+    "Montgomery County, Indiana": {
+      "label": "Montgomery County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 178
+        },
+        {
+          "label": "Black or African American",
+          "value": 205
+        },
+        {
+          "label": "Hispanic",
+          "value": 2322
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 29
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1060
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33989
+        }
+      ]
+    },
+    "Morgan County, Indiana": {
+      "label": "Morgan County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 430
+        },
+        {
+          "label": "Black or African American",
+          "value": 363
+        },
+        {
+          "label": "Hispanic",
+          "value": 1433
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1751
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 67964
+        }
+      ]
+    },
+    "Newton County, Indiana": {
+      "label": "Newton County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 48
+        },
+        {
+          "label": "Black or African American",
+          "value": 141
+        },
+        {
+          "label": "Hispanic",
+          "value": 1083
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 459
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12079
+        }
+      ]
+    },
+    "Noble County, Indiana": {
+      "label": "Noble County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 45
+        },
+        {
+          "label": "Asian",
+          "value": 271
+        },
+        {
+          "label": "Black or African American",
+          "value": 145
+        },
+        {
+          "label": "Hispanic",
+          "value": 5312
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 61
+        },
+        {
+          "label": "Two or More Races",
+          "value": 965
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 40493
+        }
+      ]
+    },
+    "Ohio County, Indiana": {
+      "label": "Ohio County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 36
+        },
+        {
+          "label": "Black or African American",
+          "value": 21
+        },
+        {
+          "label": "Hispanic",
+          "value": 0
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 231
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5696
+        }
+      ]
+    },
+    "Orange County, Indiana": {
+      "label": "Orange County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 84
+        },
+        {
+          "label": "Black or African American",
+          "value": 292
+        },
+        {
+          "label": "Hispanic",
+          "value": 345
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 641
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18380
+        }
+      ]
+    },
+    "Owen County, Indiana": {
+      "label": "Owen County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 118
+        },
+        {
+          "label": "Black or African American",
+          "value": 121
+        },
+        {
+          "label": "Hispanic",
+          "value": 313
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 427
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20400
+        }
+      ]
+    },
+    "Parke County, Indiana": {
+      "label": "Parke County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 367
+        },
+        {
+          "label": "Hispanic",
+          "value": 264
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 277
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15425
+        }
+      ]
+    },
+    "Perry County, Indiana": {
+      "label": "Perry County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 134
+        },
+        {
+          "label": "Black or African American",
+          "value": 400
+        },
+        {
+          "label": "Hispanic",
+          "value": 273
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 499
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17876
+        }
+      ]
+    },
+    "Pike County, Indiana": {
+      "label": "Pike County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 159
+        },
+        {
+          "label": "Asian",
+          "value": 6
+        },
+        {
+          "label": "Black or African American",
+          "value": 31
+        },
+        {
+          "label": "Hispanic",
+          "value": 179
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 164
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11648
+        }
+      ]
+    },
+    "Porter County, Indiana": {
+      "label": "Porter County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 111
+        },
+        {
+          "label": "Asian",
+          "value": 2333
+        },
+        {
+          "label": "Black or African American",
+          "value": 7090
+        },
+        {
+          "label": "Hispanic",
+          "value": 19734
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 37
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5226
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 139285
+        }
+      ]
+    },
+    "Posey County, Indiana": {
+      "label": "Posey County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 73
+        },
+        {
+          "label": "Black or African American",
+          "value": 175
+        },
+        {
+          "label": "Hispanic",
+          "value": 378
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 663
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23580
+        }
+      ]
+    },
+    "Pulaski County, Indiana": {
+      "label": "Pulaski County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 53
+        },
+        {
+          "label": "Black or African American",
+          "value": 41
+        },
+        {
+          "label": "Hispanic",
+          "value": 485
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 26
+        },
+        {
+          "label": "Two or More Races",
+          "value": 395
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11430
+        }
+      ]
+    },
+    "Putnam County, Indiana": {
+      "label": "Putnam County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 42
+        },
+        {
+          "label": "Asian",
+          "value": 504
+        },
+        {
+          "label": "Black or African American",
+          "value": 1255
+        },
+        {
+          "label": "Hispanic",
+          "value": 806
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 684
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33736
+        }
+      ]
+    },
+    "Randolph County, Indiana": {
+      "label": "Randolph County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 103
+        },
+        {
+          "label": "Black or African American",
+          "value": 192
+        },
+        {
+          "label": "Hispanic",
+          "value": 1216
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 17
+        },
+        {
+          "label": "Two or More Races",
+          "value": 456
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22177
+        }
+      ]
+    },
+    "Ripley County, Indiana": {
+      "label": "Ripley County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 142
+        },
+        {
+          "label": "Black or African American",
+          "value": 65
+        },
+        {
+          "label": "Hispanic",
+          "value": 555
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 667
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27488
+        }
+      ]
+    },
+    "Rush County, Indiana": {
+      "label": "Rush County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 11
+        },
+        {
+          "label": "Black or African American",
+          "value": 109
+        },
+        {
+          "label": "Hispanic",
+          "value": 300
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 394
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15846
+        }
+      ]
+    },
+    "Scott County, Indiana": {
+      "label": "Scott County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 69
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 75
+        },
+        {
+          "label": "Hispanic",
+          "value": 605
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 521
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22990
+        }
+      ]
+    },
+    "Shelby County, Indiana": {
+      "label": "Shelby County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 390
+        },
+        {
+          "label": "Black or African American",
+          "value": 547
+        },
+        {
+          "label": "Hispanic",
+          "value": 2451
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 870
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 40809
+        }
+      ]
+    },
+    "Spencer County, Indiana": {
+      "label": "Spencer County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 67
+        },
+        {
+          "label": "Black or African American",
+          "value": 110
+        },
+        {
+          "label": "Hispanic",
+          "value": 691
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 364
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18567
+        }
+      ]
+    },
+    "St. Joseph County, Indiana": {
+      "label": "St. Joseph County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 234
+        },
+        {
+          "label": "Asian",
+          "value": 6932
+        },
+        {
+          "label": "Black or African American",
+          "value": 33761
+        },
+        {
+          "label": "Hispanic",
+          "value": 27729
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 178
+        },
+        {
+          "label": "Two or More Races",
+          "value": 12615
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 189708
+        }
+      ]
+    },
+    "Starke County, Indiana": {
+      "label": "Starke County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 68
+        },
+        {
+          "label": "Black or African American",
+          "value": 100
+        },
+        {
+          "label": "Hispanic",
+          "value": 962
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 657
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21461
+        }
+      ]
+    },
+    "Steuben County, Indiana": {
+      "label": "Steuben County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 46
+        },
+        {
+          "label": "Black or African American",
+          "value": 263
+        },
+        {
+          "label": "Hispanic",
+          "value": 1488
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 844
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 31848
+        }
+      ]
+    },
+    "Sullivan County, Indiana": {
+      "label": "Sullivan County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 138
+        },
+        {
+          "label": "Black or African American",
+          "value": 693
+        },
+        {
+          "label": "Hispanic",
+          "value": 376
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 621
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18829
+        }
+      ]
+    },
+    "Switzerland County, Indiana": {
+      "label": "Switzerland County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 101
+        },
+        {
+          "label": "Black or African American",
+          "value": 28
+        },
+        {
+          "label": "Hispanic",
+          "value": 95
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 269
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9381
+        }
+      ]
+    },
+    "Tippecanoe County, Indiana": {
+      "label": "Tippecanoe County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 163
+        },
+        {
+          "label": "Asian",
+          "value": 14583
+        },
+        {
+          "label": "Black or African American",
+          "value": 11069
+        },
+        {
+          "label": "Hispanic",
+          "value": 18958
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 13
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5846
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 135814
+        }
+      ]
+    },
+    "Tipton County, Indiana": {
+      "label": "Tipton County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 47
+        },
+        {
+          "label": "Black or African American",
+          "value": 119
+        },
+        {
+          "label": "Hispanic",
+          "value": 482
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 330
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14308
+        }
+      ]
+    },
+    "Union County, Indiana": {
+      "label": "Union County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 73
+        },
+        {
+          "label": "Black or African American",
+          "value": 23
+        },
+        {
+          "label": "Hispanic",
+          "value": 77
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 146
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6701
+        }
+      ]
+    },
+    "Vanderburgh County, Indiana": {
+      "label": "Vanderburgh County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 2432
+        },
+        {
+          "label": "Black or African American",
+          "value": 17376
+        },
+        {
+          "label": "Hispanic",
+          "value": 6480
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 456
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6937
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 145281
+        }
+      ]
+    },
+    "Vermillion County, Indiana": {
+      "label": "Vermillion County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 30
+        },
+        {
+          "label": "Asian",
+          "value": 22
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 214
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 397
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14783
+        }
+      ]
+    },
+    "Vigo County, Indiana": {
+      "label": "Vigo County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 136
+        },
+        {
+          "label": "Asian",
+          "value": 2212
+        },
+        {
+          "label": "Black or African American",
+          "value": 6485
+        },
+        {
+          "label": "Hispanic",
+          "value": 3307
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 109
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4089
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 89504
+        }
+      ]
+    },
+    "Wabash County, Indiana": {
+      "label": "Wabash County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 46
+        },
+        {
+          "label": "Asian",
+          "value": 120
+        },
+        {
+          "label": "Black or African American",
+          "value": 350
+        },
+        {
+          "label": "Hispanic",
+          "value": 938
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 23
+        },
+        {
+          "label": "Two or More Races",
+          "value": 639
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28695
+        }
+      ]
+    },
+    "Warren County, Indiana": {
+      "label": "Warren County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 38
+        },
+        {
+          "label": "Black or African American",
+          "value": 8
+        },
+        {
+          "label": "Hispanic",
+          "value": 84
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 312
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8004
+        }
+      ]
+    },
+    "Warrick County, Indiana": {
+      "label": "Warrick County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 43
+        },
+        {
+          "label": "Asian",
+          "value": 1073
+        },
+        {
+          "label": "Black or African American",
+          "value": 1220
+        },
+        {
+          "label": "Hispanic",
+          "value": 1504
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2190
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 58227
+        }
+      ]
+    },
+    "Washington County, Indiana": {
+      "label": "Washington County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 46
+        },
+        {
+          "label": "Black or African American",
+          "value": 77
+        },
+        {
+          "label": "Hispanic",
+          "value": 416
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 638
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26941
+        }
+      ]
+    },
+    "Wayne County, Indiana": {
+      "label": "Wayne County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 694
+        },
+        {
+          "label": "Black or African American",
+          "value": 2672
+        },
+        {
+          "label": "Hispanic",
+          "value": 2531
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2999
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 57188
+        }
+      ]
+    },
+    "Wells County, Indiana": {
+      "label": "Wells County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 61
+        },
+        {
+          "label": "Black or African American",
+          "value": 297
+        },
+        {
+          "label": "Hispanic",
+          "value": 1075
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 14
+        },
+        {
+          "label": "Two or More Races",
+          "value": 626
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26152
+        }
+      ]
+    },
+    "White County, Indiana": {
+      "label": "White County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 26
+        },
+        {
+          "label": "Asian",
+          "value": 60
+        },
+        {
+          "label": "Black or African American",
+          "value": 110
+        },
+        {
+          "label": "Hispanic",
+          "value": 2522
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 526
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21458
+        }
+      ]
+    },
+    "Whitley County, Indiana": {
+      "label": "Whitley County, Indiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 103
+        },
+        {
+          "label": "Black or African American",
+          "value": 70
+        },
+        {
+          "label": "Hispanic",
+          "value": 906
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1238
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 31886
+        }
+      ]
+    }
+  }
+}

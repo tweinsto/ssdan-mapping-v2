@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 29</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Adair County, Missouri">Adair County, Missouri</option>
+<option value="Andrew County, Missouri">Andrew County, Missouri</option>
+<option value="Atchison County, Missouri">Atchison County, Missouri</option>
+<option value="Audrain County, Missouri">Audrain County, Missouri</option>
+<option value="Barry County, Missouri">Barry County, Missouri</option>
+<option value="Barton County, Missouri">Barton County, Missouri</option>
+<option value="Bates County, Missouri">Bates County, Missouri</option>
+<option value="Benton County, Missouri">Benton County, Missouri</option>
+<option value="Bollinger County, Missouri">Bollinger County, Missouri</option>
+<option value="Boone County, Missouri">Boone County, Missouri</option>
+<option value="Buchanan County, Missouri">Buchanan County, Missouri</option>
+<option value="Butler County, Missouri">Butler County, Missouri</option>
+<option value="Caldwell County, Missouri">Caldwell County, Missouri</option>
+<option value="Callaway County, Missouri">Callaway County, Missouri</option>
+<option value="Camden County, Missouri">Camden County, Missouri</option>
+<option value="Cape Girardeau County, Missouri">Cape Girardeau County, Missouri</option>
+<option value="Carroll County, Missouri">Carroll County, Missouri</option>
+<option value="Carter County, Missouri">Carter County, Missouri</option>
+<option value="Cass County, Missouri">Cass County, Missouri</option>
+<option value="Cedar County, Missouri">Cedar County, Missouri</option>
+<option value="Chariton County, Missouri">Chariton County, Missouri</option>
+<option value="Christian County, Missouri">Christian County, Missouri</option>
+<option value="Clark County, Missouri">Clark County, Missouri</option>
+<option value="Clay County, Missouri">Clay County, Missouri</option>
+<option value="Clinton County, Missouri">Clinton County, Missouri</option>
+<option value="Cole County, Missouri">Cole County, Missouri</option>
+<option value="Cooper County, Missouri">Cooper County, Missouri</option>
+<option value="Crawford County, Missouri">Crawford County, Missouri</option>
+<option value="Dade County, Missouri">Dade County, Missouri</option>
+<option value="Dallas County, Missouri">Dallas County, Missouri</option>
+<option value="Daviess County, Missouri">Daviess County, Missouri</option>
+<option value="DeKalb County, Missouri">DeKalb County, Missouri</option>
+<option value="Dent County, Missouri">Dent County, Missouri</option>
+<option value="Douglas County, Missouri">Douglas County, Missouri</option>
+<option value="Dunklin County, Missouri">Dunklin County, Missouri</option>
+<option value="Franklin County, Missouri">Franklin County, Missouri</option>
+<option value="Gasconade County, Missouri">Gasconade County, Missouri</option>
+<option value="Gentry County, Missouri">Gentry County, Missouri</option>
+<option value="Greene County, Missouri">Greene County, Missouri</option>
+<option value="Grundy County, Missouri">Grundy County, Missouri</option>
+<option value="Harrison County, Missouri">Harrison County, Missouri</option>
+<option value="Henry County, Missouri">Henry County, Missouri</option>
+<option value="Hickory County, Missouri">Hickory County, Missouri</option>
+<option value="Holt County, Missouri">Holt County, Missouri</option>
+<option value="Howard County, Missouri">Howard County, Missouri</option>
+<option value="Howell County, Missouri">Howell County, Missouri</option>
+<option value="Iron County, Missouri">Iron County, Missouri</option>
+<option value="Jackson County, Missouri">Jackson County, Missouri</option>
+<option value="Jasper County, Missouri">Jasper County, Missouri</option>
+<option value="Jefferson County, Missouri">Jefferson County, Missouri</option>
+<option value="Johnson County, Missouri">Johnson County, Missouri</option>
+<option value="Knox County, Missouri">Knox County, Missouri</option>
+<option value="Laclede County, Missouri">Laclede County, Missouri</option>
+<option value="Lafayette County, Missouri">Lafayette County, Missouri</option>
+<option value="Lawrence County, Missouri">Lawrence County, Missouri</option>
+<option value="Lewis County, Missouri">Lewis County, Missouri</option>
+<option value="Lincoln County, Missouri">Lincoln County, Missouri</option>
+<option value="Linn County, Missouri">Linn County, Missouri</option>
+<option value="Livingston County, Missouri">Livingston County, Missouri</option>
+<option value="Macon County, Missouri">Macon County, Missouri</option>
+<option value="Madison County, Missouri">Madison County, Missouri</option>
+<option value="Maries County, Missouri">Maries County, Missouri</option>
+<option value="Marion County, Missouri">Marion County, Missouri</option>
+<option value="McDonald County, Missouri">McDonald County, Missouri</option>
+<option value="Mercer County, Missouri">Mercer County, Missouri</option>
+<option value="Miller County, Missouri">Miller County, Missouri</option>
+<option value="Mississippi County, Missouri">Mississippi County, Missouri</option>
+<option value="Moniteau County, Missouri">Moniteau County, Missouri</option>
+<option value="Monroe County, Missouri">Monroe County, Missouri</option>
+<option value="Montgomery County, Missouri">Montgomery County, Missouri</option>
+<option value="Morgan County, Missouri">Morgan County, Missouri</option>
+<option value="New Madrid County, Missouri">New Madrid County, Missouri</option>
+<option value="Newton County, Missouri">Newton County, Missouri</option>
+<option value="Nodaway County, Missouri">Nodaway County, Missouri</option>
+<option value="Oregon County, Missouri">Oregon County, Missouri</option>
+<option value="Osage County, Missouri">Osage County, Missouri</option>
+<option value="Ozark County, Missouri">Ozark County, Missouri</option>
+<option value="Pemiscot County, Missouri">Pemiscot County, Missouri</option>
+<option value="Perry County, Missouri">Perry County, Missouri</option>
+<option value="Pettis County, Missouri">Pettis County, Missouri</option>
+<option value="Phelps County, Missouri">Phelps County, Missouri</option>
+<option value="Pike County, Missouri">Pike County, Missouri</option>
+<option value="Platte County, Missouri">Platte County, Missouri</option>
+<option value="Polk County, Missouri">Polk County, Missouri</option>
+<option value="Pulaski County, Missouri">Pulaski County, Missouri</option>
+<option value="Putnam County, Missouri">Putnam County, Missouri</option>
+<option value="Ralls County, Missouri">Ralls County, Missouri</option>
+<option value="Randolph County, Missouri">Randolph County, Missouri</option>
+<option value="Ray County, Missouri">Ray County, Missouri</option>
+<option value="Reynolds County, Missouri">Reynolds County, Missouri</option>
+<option value="Ripley County, Missouri">Ripley County, Missouri</option>
+<option value="Saline County, Missouri">Saline County, Missouri</option>
+<option value="Schuyler County, Missouri">Schuyler County, Missouri</option>
+<option value="Scotland County, Missouri">Scotland County, Missouri</option>
+<option value="Scott County, Missouri">Scott County, Missouri</option>
+<option value="Shannon County, Missouri">Shannon County, Missouri</option>
+<option value="Shelby County, Missouri">Shelby County, Missouri</option>
+<option value="St. Charles County, Missouri">St. Charles County, Missouri</option>
+<option value="St. Clair County, Missouri">St. Clair County, Missouri</option>
+<option value="St. Francois County, Missouri">St. Francois County, Missouri</option>
+<option value="St. Louis city, Missouri">St. Louis city, Missouri</option>
+<option value="St. Louis County, Missouri">St. Louis County, Missouri</option>
+<option value="Ste. Genevieve County, Missouri">Ste. Genevieve County, Missouri</option>
+<option value="Stoddard County, Missouri">Stoddard County, Missouri</option>
+<option value="Stone County, Missouri">Stone County, Missouri</option>
+<option value="Sullivan County, Missouri">Sullivan County, Missouri</option>
+<option value="Taney County, Missouri">Taney County, Missouri</option>
+<option value="Texas County, Missouri">Texas County, Missouri</option>
+<option value="Vernon County, Missouri">Vernon County, Missouri</option>
+<option value="Warren County, Missouri">Warren County, Missouri</option>
+<option value="Washington County, Missouri">Washington County, Missouri</option>
+<option value="Wayne County, Missouri">Wayne County, Missouri</option>
+<option value="Webster County, Missouri">Webster County, Missouri</option>
+<option value="Worth County, Missouri">Worth County, Missouri</option>
+<option value="Wright County, Missouri">Wright County, Missouri</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.17,"Asian":2.05,"Black or African American":11.03,"Hispanic":5.06,"Pacific Islander":0.15,"Two or More Races":4.37,"White (non-Hispanic)":76.81},"Adair County, Missouri":{"American Indian / Alaska Native":0.31,"Asian":1.88,"Black or African American":4.2,"Hispanic":2.86,"Pacific Islander":0.04,"Two or More Races":3.06,"White (non-Hispanic)":87.65},"Andrew County, Missouri":{"American Indian / Alaska Native":0.07,"Asian":0.72,"Black or African American":0.9,"Hispanic":2.48,"Pacific Islander":0,"Two or More Races":2.88,"White (non-Hispanic)":92.91},"Atchison County, Missouri":{"American Indian / Alaska Native":0.31,"Asian":0.17,"Black or African American":0.33,"Hispanic":1.8,"Pacific Islander":0.1,"Two or More Races":3.51,"White (non-Hispanic)":93.48},"Audrain County, Missouri":{"American Indian / Alaska Native":0.19,"Asian":0.45,"Black or African American":4.65,"Hispanic":3.11,"Pacific Islander":0.03,"Two or More Races":4.01,"White (non-Hispanic)":87.26},"Barry County, Missouri":{"American Indian / Alaska Native":0.17,"Asian":1.87,"Black or African American":0.26,"Hispanic":9.97,"Pacific Islander":0.8,"Two or More Races":6.39,"White (non-Hispanic)":80.44},"Barton County, Missouri":{"American Indian / Alaska Native":1.21,"Asian":0.02,"Black or African American":0.21,"Hispanic":2.76,"Pacific Islander":0,"Two or More Races":4.57,"White (non-Hispanic)":90.88},"Bates County, Missouri":{"American Indian / Alaska Native":0.34,"Asian":0.4,"Black or African American":2.13,"Hispanic":2.39,"Pacific Islander":0.09,"Two or More Races":2.44,"White (non-Hispanic)":92.21},"Benton County, Missouri":{"American Indian / Alaska Native":0.66,"Asian":0.15,"Black or African American":0.9,"Hispanic":1.9,"Pacific Islander":0.04,"Two or More Races":3.39,"White (non-Hispanic)":92.42},"Bollinger County, Missouri":{"American Indian / Alaska Native":0.02,"Asian":0.06,"Black or African American":0.61,"Hispanic":1.57,"Pacific Islander":0,"Two or More Races":3.7,"White (non-Hispanic)":93.52},"Boone County, Missouri":{"American Indian / Alaska Native":0.12,"Asian":4.63,"Black or African American":9.33,"Hispanic":4.38,"Pacific Islander":0.07,"Two or More Races":4.62,"White (non-Hispanic)":76.41},"Buchanan County, Missouri":{"American Indian / Alaska Native":0.24,"Asian":1.2,"Black or African American":5.64,"Hispanic":7.04,"Pacific Islander":0.43,"Two or More Races":4.64,"White (non-Hispanic)":80.68},"Butler County, Missouri":{"American Indian / Alaska Native":0.21,"Asian":0.7,"Black or African American":4.61,"Hispanic":2.36,"Pacific Islander":0.07,"Two or More Races":4.86,"White (non-Hispanic)":86.43},"Caldwell County, Missouri":{"American Indian / Alaska Native":0.18,"Asian":0.34,"Black or African American":1.18,"Hispanic":2.16,"Pacific Islander":0.08,"Two or More Races":2.91,"White (non-Hispanic)":92.73},"Callaway County, Missouri":{"American Indian / Alaska Native":0.44,"Asian":0.29,"Black or African American":3.39,"Hispanic":2.34,"Pacific Islander":0,"Two or More Races":4.65,"White (non-Hispanic)":88.55},"Camden County, Missouri":{"American Indian / Alaska Native":0.14,"Asian":0.41,"Black or African American":0.88,"Hispanic":3.35,"Pacific Islander":0,"Two or More Races":2.62,"White (non-Hispanic)":92.54},"Cape Girardeau County, Missouri":{"American Indian / Alaska Native":0.07,"Asian":1.44,"Black or African American":8.09,"Hispanic":2.85,"Pacific Islander":0.12,"Two or More Races":3.08,"White (non-Hispanic)":84.07},"Carroll County, Missouri":{"American Indian / Alaska Native":0,"Asian":0.19,"Black or African American":1.29,"Hispanic":2.06,"Pacific Islander":0.02,"Two or More Races":2.74,"White (non-Hispanic)":93.7},"Carter County, Missouri":{"American Indian / Alaska Native":0,"Asian":0.06,"Black or African American":0.63,"Hispanic":2.05,"Pacific Islander":0,"Two or More Races":4.29,"White (non-Hispanic)":92.98},"Cass County, Missouri":{"American Indian / Alaska Native":0.18,"Asian":0.71,"Black or African American":4.44,"Hispanic":5.33,"Pacific Islander":0.11,"Two or More Races":4.12,"White (non-Hispanic)":84.42},"Cedar County, Missouri":{"American Indian / Alaska Native":0.3,"Asian":0,"Black or African American":0.44,"Hispanic":2.06,"Pacific Islander":0,"Two or More Races":4.04,"White (non-Hispanic)":92.62},"Chariton County, Missouri":{"American Indian / Alaska Native":0.09,"Asian":0,"Black or African American":2.63,"Hispanic":0.9,"Pacific Islander":0,"Two or More Races":2.67,"White (non-Hispanic)":93.06},"Christian County, Missouri":{"American Indian / Alaska Native":0.2,"Asian":0.83,"Black or African American":0.78,"Hispanic":3.58,"Pacific Islander":0.08,"Two or More Races":3.13,"White (non-Hispanic)":91.07},"Clark County, Missouri":{"American Indian / Alaska Native":0.42,"Asian":0.43,"Black or African American":0.39,"Hispanic":0.91,"Pacific Islander":0,"Two or More Races":2.19,"White (non-Hispanic)":95.66},"Clay County, Missouri":{"American Indian / Alaska Native":0.19,"Asian":2.43,"Black or African American":6.61,"Hispanic":7.7,"Pacific Islander":0.35,"Two or More Races":4.61,"White (non-Hispanic)":77.79},"Clinton County, Missouri":{"American Indian / Alaska Native":0.09,"Asian":0.42,"Black or African American":0.74,"Hispanic":2.55,"Pacific Islander":0.06,"Two or More Races":3.73,"White (non-Hispanic)":92.21},"Cole County, Missouri":{"American Indian / Alaska Native":0.08,"Asian":1.58,"Black or African American":11.19,"Hispanic":3.54,"Pacific Islander":0.01,"Two or More Races":3.38,"White (non-Hispanic)":79.71},"Cooper County, Missouri":{"American Indian / Alaska Native":0.11,"Asian":0.4,"Black or African American":5.51,"Hispanic":2.06,"Pacific Islander":0,"Two or More Races":3.56,"White (non-Hispanic)":88.14},"Crawford County, Missouri":{"American Indian / Alaska Native":0.15,"Asian":0.12,"Black or African American":0.6,"Hispanic":2.3,"Pacific Islander":0.23,"Two or More Races":3.48,"White (non-Hispanic)":92.86},"Dade County, Missouri":{"American Indian / Alaska Native":0.38,"Asian":0.37,"Black or African American":0.38,"Hispanic":2.12,"Pacific Islander":0.03,"Two or More Races":3.92,"White (non-Hispanic)":92.76},"Dallas County, Missouri":{"American Indian / Alaska Native":0.19,"Asian":0.02,"Black or African American":0.18,"Hispanic":2.16,"Pacific Islander":0,"Two or More Races":4.06,"White (non-Hispanic)":93.39},"Daviess County, Missouri":{"American Indian / Alaska Native":0.13,"Asian":0.3,"Black or African American":0.9,"Hispanic":1.7,"Pacific Islander":0.05,"Two or More Races":1.6,"White (non-Hispanic)":95.32},"DeKalb County, Missouri":{"American Indian / Alaska Native":0.34,"Asian":0.69,"Black or African American":6.59,"Hispanic":2.34,"Pacific Islander":0,"Two or More Races":2.96,"White (non-Hispanic)":86.98},"Dent County, Missouri":{"American Indian / Alaska Native":0.43,"Asian":0.89,"Black or African American":0.48,"Hispanic":2.12,"Pacific Islander":0.08,"Two or More Races":4.26,"White (non-Hispanic)":91.68},"Douglas County, Missouri":{"American Indian / Alaska Native":1.13,"Asian":0.08,"Black or African American":0.95,"Hispanic":0.95,"Pacific Islander":0,"Two or More Races":3.96,"White (non-Hispanic)":92.74},"Dunklin County, Missouri":{"American Indian / Alaska Native":0.05,"Asian":0.28,"Black or African American":7.8,"Hispanic":7.39,"Pacific Islander":0,"Two or More Races":8.59,"White (non-Hispanic)":75.76},"Franklin County, Missouri":{"American Indian / Alaska Native":0.08,"Asian":0.42,"Black or African American":0.81,"Hispanic":2.22,"Pacific Islander":0.04,"Two or More Races":7.02,"White (non-Hispanic)":89.2},"Gasconade County, Missouri":{"American Indian / Alaska Native":0.23,"Asian":0.1,"Black or African American":0.92,"Hispanic":1.52,"Pacific Islander":0.2,"Two or More Races":2.51,"White (non-Hispanic)":94.52},"Gentry County, Missouri":{"American Indian / Alaska Native":0,"Asian":1.21,"Black or African American":0.37,"Hispanic":1.8,"Pacific Islander":0,"Two or More Races":1.59,"White (non-Hispanic)":94.86},"Greene County, Missouri":{"American Indian / Alaska Native":0.2,"Asian":1.9,"Black or African American":2.86,"Hispanic":4.96,"Pacific Islander":0.14,"Two or More Races":4.69,"White (non-Hispanic)":84.7},"Grundy County, Missouri":{"American Indian / Alaska Native":0.11,"Asian":0.89,"Black or African American":0.47,"Hispanic":2.65,"Pacific Islander":0,"Two or More Races":2.96,"White (non-Hispanic)":92.6},"Harrison County, Missouri":{"American Indian / Alaska Native":0.39,"Asian":0.24,"Black or African American":0.76,"Hispanic":2.33,"Pacific Islander":0.01,"Two or More Races":1.87,"White (non-Hispanic)":94.4},"Henry County, Missouri":{"American Indian / Alaska Native":0.22,"Asian":0.23,"Black or African American":0.72,"Hispanic":2.93,"Pacific Islander":0,"Two or More Races":3.89,"White (non-Hispanic)":91.94},"Hickory County, Missouri":{"American Indian / Alaska Native":0.01,"Asian":0.53,"Black or African American":0.08,"Hispanic":1.69,"Pacific Islander":0,"Two or More Races":4.01,"White (non-Hispanic)":93.67},"Holt County, Missouri":{"American Indian / Alaska Native":0.21,"Asian":0.35,"Black or African American":0.78,"Hispanic":1.67,"Pacific Islander":0,"Two or More Races":2.77,"White (non-Hispanic)":94.22},"Howard County, Missouri":{"American Indian / Alaska Native":0.36,"Asian":0.45,"Black or African American":5.23,"Hispanic":2.13,"Pacific Islander":0.05,"Two or More Races":4.27,"White (non-Hispanic)":86.95},"Howell County, Missouri":{"American Indian / Alaska Native":0.24,"Asian":0.51,"Black or African American":0.38,"Hispanic":2.43,"Pacific Islander":0,"Two or More Races":3.29,"White (non-Hispanic)":92.4},"Iron County, Missouri":{"American Indian / Alaska Native":0.13,"Asian":0.32,"Black or African American":0.79,"Hispanic":2.1,"Pacific Islander":0.09,"Two or More Races":4.18,"White (non-Hispanic)":92.29},"Jackson County, Missouri":{"American Indian / Alaska Native":0.15,"Asian":1.74,"Black or African American":22.35,"Hispanic":11.07,"Pacific Islander":0.28,"Two or More Races":4.13,"White (non-Hispanic)":59.74},"Jasper County, Missouri":{"American Indian / Alaska Native":0.67,"Asian":1.36,"Black or African American":1.67,"Hispanic":9.53,"Pacific Islander":0.34,"Two or More Races":4.91,"White (non-Hispanic)":81.17},"Jefferson County, Missouri":{"American Indian / Alaska Native":0.08,"Asian":1.01,"Black or African American":1.07,"Hispanic":2.54,"Pacific Islander":0.03,"Two or More Races":6.02,"White (non-Hispanic)":88.96},"Johnson County, Missouri":{"American Indian / Alaska Native":0.15,"Asian":1.62,"Black or African American":3.71,"Hispanic":5.05,"Pacific Islander":0.29,"Two or More Races":4.26,"White (non-Hispanic)":84.33},"Knox County, Missouri":{"American Indian / Alaska Native":0.03,"Asian":0.21,"Black or African American":0.9,"Hispanic":0.37,"Pacific Islander":1.91,"Two or More Races":1.28,"White (non-Hispanic)":95.29},"Laclede County, Missouri":{"American Indian / Alaska Native":0.38,"Asian":0.68,"Black or African American":0.72,"Hispanic":2.85,"Pacific Islander":0.12,"Two or More Races":4.1,"White (non-Hispanic)":90.84},"Lafayette County, Missouri":{"American Indian / Alaska Native":0.25,"Asian":0.62,"Black or African American":1.74,"Hispanic":3.32,"Pacific Islander":0,"Two or More Races":3.04,"White (non-Hispanic)":90.8},"Lawrence County, Missouri":{"American Indian / Alaska Native":0.34,"Asian":0.47,"Black or African American":0.25,"Hispanic":8.23,"Pacific Islander":0.05,"Two or More Races":3.46,"White (non-Hispanic)":86.77},"Lewis County, Missouri":{"American Indian / Alaska Native":0.08,"Asian":0.46,"Black or African American":3.04,"Hispanic":1.21,"Pacific Islander":0.16,"Two or More Races":3.02,"White (non-Hispanic)":92.01},"Lincoln County, Missouri":{"American Indian / Alaska Native":0.04,"Asian":0.34,"Black or African American":1.71,"Hispanic":2.77,"Pacific Islander":0.12,"Two or More Races":2.82,"White (non-Hispanic)":92.12},"Linn County, Missouri":{"American Indian / Alaska Native":0.32,"Asian":0.43,"Black or African American":0.68,"Hispanic":2.87,"Pacific Islander":0.09,"Two or More Races":1.7,"White (non-Hispanic)":93.9},"Livingston County, Missouri":{"American Indian / Alaska Native":0.34,"Asian":0.65,"Black or African American":2.95,"Hispanic":1.91,"Pacific Islander":0.03,"Two or More Races":2.1,"White (non-Hispanic)":91.82},"Macon County, Missouri":{"American Indian / Alaska Native":0.11,"Asian":0.67,"Black or African American":2.05,"Hispanic":1.82,"Pacific Islander":0,"Two or More Races":2.97,"White (non-Hispanic)":92.17},"Madison County, Missouri":{"American Indian / Alaska Native":0.28,"Asian":0.36,"Black or African American":0.39,"Hispanic":2.65,"Pacific Islander":0,"Two or More Races":3.5,"White (non-Hispanic)":92.71},"Maries County, Missouri":{"American Indian / Alaska Native":0.65,"Asian":0.09,"Black or African American":0.17,"Hispanic":1.9,"Pacific Islander":0,"Two or More Races":4.98,"White (non-Hispanic)":92},"Marion County, Missouri":{"American Indian / Alaska Native":0.21,"Asian":0.34,"Black or African American":5.2,"Hispanic":1.97,"Pacific Islander":0.03,"Two or More Races":2.74,"White (non-Hispanic)":89.4},"McDonald County, Missouri":{"American Indian / Alaska Native":1.2,"Asian":1.23,"Black or African American":1.95,"Hispanic":12.26,"Pacific Islander":3.24,"Two or More Races":10.53,"White (non-Hispanic)":68.73},"Mercer County, Missouri":{"American Indian / Alaska Native":0.4,"Asian":1.03,"Black or African American":0.26,"Hispanic":4.43,"Pacific Islander":0,"Two or More Races":2.4,"White (non-Hispanic)":91.49},"Miller County, Missouri":{"American Indian / Alaska Native":0.12,"Asian":0.38,"Black or African American":1.19,"Hispanic":2.06,"Pacific Islander":0.03,"Two or More Races":2.15,"White (non-Hispanic)":93.74},"Mississippi County, Missouri":{"American Indian / Alaska Native":0,"Asian":0.36,"Black or African American":22.71,"Hispanic":1.52,"Pacific Islander":0,"Two or More Races":4.7,"White (non-Hispanic)":70.7},"Moniteau County, Missouri":{"American Indian / Alaska Native":0.12,"Asian":0.46,"Black or African American":2.4,"Hispanic":5.73,"Pacific Islander":0,"Two or More Races":2.08,"White (non-Hispanic)":88.76},"Monroe County, Missouri":{"American Indian / Alaska Native":0.5,"Asian":0.1,"Black or African American":4.04,"Hispanic":1.74,"Pacific Islander":0,"Two or More Races":1.42,"White (non-Hispanic)":91.87},"Montgomery County, Missouri":{"American Indian / Alaska Native":0.14,"Asian":0.18,"Black or African American":1.87,"Hispanic":2.21,"Pacific Islander":0,"Two or More Races":3.04,"White (non-Hispanic)":92.54},"Morgan County, Missouri":{"American Indian / Alaska Native":0.11,"Asian":0.4,"Black or African American":0.21,"Hispanic":2.5,"Pacific Islander":0,"Two or More Races":4.28,"White (non-Hispanic)":92.35},"New Madrid County, Missouri":{"American Indian / Alaska Native":0.09,"Asian":0.29,"Black or African American":12.64,"Hispanic":1.78,"Pacific Islander":0,"Two or More Races":9.44,"White (non-Hispanic)":75.64},"Newton County, Missouri":{"American Indian / Alaska Native":1.07,"Asian":1.59,"Black or African American":0.93,"Hispanic":6.44,"Pacific Islander":1.28,"Two or More Races":7.2,"White (non-Hispanic)":81.28},"Nodaway County, Missouri":{"American Indian / Alaska Native":0.24,"Asian":1.51,"Black or African American":2.01,"Hispanic":2.1,"Pacific Islander":0.01,"Two or More Races":1.66,"White (non-Hispanic)":92.18},"Oregon County, Missouri":{"American Indian / Alaska Native":0.44,"Asian":0.32,"Black or African American":0.08,"Hispanic":1.31,"Pacific Islander":0.03,"Two or More Races":4.61,"White (non-Hispanic)":93.15},"Osage County, Missouri":{"American Indian / Alaska Native":0.3,"Asian":0.01,"Black or African American":0.16,"Hispanic":1.05,"Pacific Islander":0,"Two or More Races":1.52,"White (non-Hispanic)":96.96},"Ozark County, Missouri":{"American Indian / Alaska Native":0.28,"Asian":0,"Black or African American":0.44,"Hispanic":1.9,"Pacific Islander":0,"Two or More Races":3.32,"White (non-Hispanic)":93.95},"Pemiscot County, Missouri":{"American Indian / Alaska Native":0.16,"Asian":0.2,"Black or African American":24.9,"Hispanic":3,"Pacific Islander":0,"Two or More Races":5.89,"White (non-Hispanic)":65.85},"Perry County, Missouri":{"American Indian / Alaska Native":0.02,"Asian":0.77,"Black or African American":0.8,"Hispanic":2.31,"Pacific Islander":0,"Two or More Races":2.29,"White (non-Hispanic)":93.82},"Pettis County, Missouri":{"American Indian / Alaska Native":0.03,"Asian":0.68,"Black or African American":2.47,"Hispanic":9.57,"Pacific Islander":0.37,"Two or More Races":4,"White (non-Hispanic)":82.65},"Phelps County, Missouri":{"American Indian / Alaska Native":0.29,"Asian":3.35,"Black or African American":2.05,"Hispanic":2.95,"Pacific Islander":0.02,"Two or More Races":5.25,"White (non-Hispanic)":85.67},"Pike County, Missouri":{"American Indian / Alaska Native":0.58,"Asian":0.29,"Black or African American":4.79,"Hispanic":1.28,"Pacific Islander":0.32,"Two or More Races":3.54,"White (non-Hispanic)":89.17},"Platte County, Missouri":{"American Indian / Alaska Native":0.12,"Asian":2.49,"Black or African American":7.24,"Hispanic":6.93,"Pacific Islander":0.53,"Two or More Races":4.65,"White (non-Hispanic)":77.52},"Polk County, Missouri":{"American Indian / Alaska Native":0.32,"Asian":0.72,"Black or African American":0.82,"Hispanic":2.8,"Pacific Islander":0.02,"Two or More Races":2.92,"White (non-Hispanic)":92.16},"Pulaski County, Missouri":{"American Indian / Alaska Native":0.45,"Asian":2.06,"Black or African American":9.96,"Hispanic":11.49,"Pacific Islander":0.56,"Two or More Races":6.18,"White (non-Hispanic)":68.8},"Putnam County, Missouri":{"American Indian / Alaska Native":0.41,"Asian":0,"Black or African American":0.15,"Hispanic":2.84,"Pacific Islander":0,"Two or More Races":1.35,"White (non-Hispanic)":95.25},"Ralls County, Missouri":{"American Indian / Alaska Native":0.06,"Asian":0.25,"Black or African American":1.87,"Hispanic":1.18,"Pacific Islander":0,"Two or More Races":3.1,"White (non-Hispanic)":93.3},"Randolph County, Missouri":{"American Indian / Alaska Native":0.13,"Asian":0.33,"Black or African American":4.97,"Hispanic":2.43,"Pacific Islander":0.02,"Two or More Races":4.33,"White (non-Hispanic)":87.48},"Ray County, Missouri":{"American Indian / Alaska Native":0.32,"Asian":0.29,"Black or African American":1.16,"Hispanic":2.78,"Pacific Islander":0,"Two or More Races":2.44,"White (non-Hispanic)":92.53},"Reynolds County, Missouri":{"American Indian / Alaska Native":0.18,"Asian":0.2,"Black or African American":1.49,"Hispanic":1.68,"Pacific Islander":0,"Two or More Races":5.25,"White (non-Hispanic)":91.19},"Ripley County, Missouri":{"American Indian / Alaska Native":0.26,"Asian":0.51,"Black or African American":0.23,"Hispanic":1.25,"Pacific Islander":0,"Two or More Races":4.26,"White (non-Hispanic)":93.29},"Saline County, Missouri":{"American Indian / Alaska Native":0.13,"Asian":0.84,"Black or African American":4.6,"Hispanic":12.2,"Pacific Islander":0.73,"Two or More Races":4.53,"White (non-Hispanic)":76.28},"Schuyler County, Missouri":{"American Indian / Alaska Native":0.27,"Asian":0.49,"Black or African American":0.1,"Hispanic":1.66,"Pacific Islander":0,"Two or More Races":3.17,"White (non-Hispanic)":94.31},"Scotland County, Missouri":{"American Indian / Alaska Native":0.17,"Asian":0.06,"Black or African American":0.09,"Hispanic":0.09,"Pacific Islander":0.53,"Two or More Races":2.34,"White (non-Hispanic)":96.68},"Scott County, Missouri":{"American Indian / Alaska Native":0.04,"Asian":0.21,"Black or African American":11.15,"Hispanic":2.54,"Pacific Islander":0.08,"Two or More Races":4.5,"White (non-Hispanic)":81.4},"Shannon County, Missouri":{"American Indian / Alaska Native":0.28,"Asian":0.36,"Black or African American":0.24,"Hispanic":0.52,"Pacific Islander":0,"Two or More Races":5.81,"White (non-Hispanic)":92.6},"Shelby County, Missouri":{"American Indian / Alaska Native":0.03,"Asian":1.16,"Black or African American":0.6,"Hispanic":2.23,"Pacific Islander":0,"Two or More Races":1.7,"White (non-Hispanic)":94.23},"St. Charles County, Missouri":{"American Indian / Alaska Native":0.04,"Asian":2.83,"Black or African American":4.94,"Hispanic":4.04,"Pacific Islander":0.04,"Two or More Races":3.94,"White (non-Hispanic)":83.89},"St. Clair County, Missouri":{"American Indian / Alaska Native":0.12,"Asian":0.24,"Black or African American":0.78,"Hispanic":2.15,"Pacific Islander":0,"Two or More Races":3.79,"White (non-Hispanic)":92.92},"St. Francois County, Missouri":{"American Indian / Alaska Native":0.31,"Asian":0.43,"Black or African American":2.99,"Hispanic":1.79,"Pacific Islander":0.03,"Two or More Races":3.36,"White (non-Hispanic)":90.65},"St. Louis city, Missouri":{"American Indian / Alaska Native":0.15,"Asian":3.39,"Black or African American":42.86,"Hispanic":5.12,"Pacific Islander":0.03,"Two or More Races":3.66,"White (non-Hispanic)":44.39},"St. Louis County, Missouri":{"American Indian / Alaska Native":0.06,"Asian":4.68,"Black or African American":24.06,"Hispanic":3.73,"Pacific Islander":0.02,"Two or More Races":5.07,"White (non-Hispanic)":61.97},"Ste. Genevieve County, Missouri":{"American Indian / Alaska Native":0.08,"Asian":0.05,"Black or African American":1.63,"Hispanic":1.43,"Pacific Islander":0,"Two or More Races":2.79,"White (non-Hispanic)":93.98},"Stoddard County, Missouri":{"American Indian / Alaska Native":0.04,"Asian":0.35,"Black or African American":0.96,"Hispanic":2.09,"Pacific Islander":0.13,"Two or More Races":3.24,"White (non-Hispanic)":93.13},"Stone County, Missouri":{"American Indian / Alaska Native":0.16,"Asian":0.44,"Black or African American":0.33,"Hispanic":2.73,"Pacific Islander":0,"Two or More Races":2.75,"White (non-Hispanic)":93.49},"Sullivan County, Missouri":{"American Indian / Alaska Native":0.22,"Asian":0.75,"Black or African American":2.46,"Hispanic":17.8,"Pacific Islander":0,"Two or More Races":1.54,"White (non-Hispanic)":77.23},"Taney County, Missouri":{"American Indian / Alaska Native":0.28,"Asian":0.99,"Black or African American":1.41,"Hispanic":7.54,"Pacific Islander":0,"Two or More Races":4.08,"White (non-Hispanic)":85.57},"Texas County, Missouri":{"American Indian / Alaska Native":0.4,"Asian":0.29,"Black or African American":2.08,"Hispanic":2.36,"Pacific Islander":0,"Two or More Races":5.04,"White (non-Hispanic)":89.61},"Vernon County, Missouri":{"American Indian / Alaska Native":0.1,"Asian":0.71,"Black or African American":0.77,"Hispanic":2.5,"Pacific Islander":0.01,"Two or More Races":2.84,"White (non-Hispanic)":93.06},"Warren County, Missouri":{"American Indian / Alaska Native":0.07,"Asian":0.5,"Black or African American":2.12,"Hispanic":4,"Pacific Islander":0,"Two or More Races":3.38,"White (non-Hispanic)":89.77},"Washington County, Missouri":{"American Indian / Alaska Native":0.03,"Asian":0.15,"Black or African American":1.92,"Hispanic":1.04,"Pacific Islander":0.14,"Two or More Races":4.86,"White (non-Hispanic)":91.8},"Wayne County, Missouri":{"American Indian / Alaska Native":0,"Asian":0.25,"Black or African American":0.38,"Hispanic":1.03,"Pacific Islander":0,"Two or More Races":4.6,"White (non-Hispanic)":92.79},"Webster County, Missouri":{"American Indian / Alaska Native":0.3,"Asian":0.15,"Black or African American":1.14,"Hispanic":2.21,"Pacific Islander":0.21,"Two or More Races":3.98,"White (non-Hispanic)":91.48},"Worth County, Missouri":{"American Indian / Alaska Native":0.2,"Asian":0,"Black or African American":0.1,"Hispanic":1.89,"Pacific Islander":0,"Two or More Races":2.25,"White (non-Hispanic)":95.55},"Wright County, Missouri":{"American Indian / Alaska Native":0.14,"Asian":0.43,"Black or African American":0.19,"Hispanic":2.46,"Pacific Islander":0.09,"Two or More Races":4,"White (non-Hispanic)":92.6}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

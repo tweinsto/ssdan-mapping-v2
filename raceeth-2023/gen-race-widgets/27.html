@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 27</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Aitkin County, Minnesota">Aitkin County, Minnesota</option>
+<option value="Anoka County, Minnesota">Anoka County, Minnesota</option>
+<option value="Becker County, Minnesota">Becker County, Minnesota</option>
+<option value="Beltrami County, Minnesota">Beltrami County, Minnesota</option>
+<option value="Benton County, Minnesota">Benton County, Minnesota</option>
+<option value="Big Stone County, Minnesota">Big Stone County, Minnesota</option>
+<option value="Blue Earth County, Minnesota">Blue Earth County, Minnesota</option>
+<option value="Brown County, Minnesota">Brown County, Minnesota</option>
+<option value="Carlton County, Minnesota">Carlton County, Minnesota</option>
+<option value="Carver County, Minnesota">Carver County, Minnesota</option>
+<option value="Cass County, Minnesota">Cass County, Minnesota</option>
+<option value="Chippewa County, Minnesota">Chippewa County, Minnesota</option>
+<option value="Chisago County, Minnesota">Chisago County, Minnesota</option>
+<option value="Clay County, Minnesota">Clay County, Minnesota</option>
+<option value="Clearwater County, Minnesota">Clearwater County, Minnesota</option>
+<option value="Cook County, Minnesota">Cook County, Minnesota</option>
+<option value="Cottonwood County, Minnesota">Cottonwood County, Minnesota</option>
+<option value="Crow Wing County, Minnesota">Crow Wing County, Minnesota</option>
+<option value="Dakota County, Minnesota">Dakota County, Minnesota</option>
+<option value="Dodge County, Minnesota">Dodge County, Minnesota</option>
+<option value="Douglas County, Minnesota">Douglas County, Minnesota</option>
+<option value="Faribault County, Minnesota">Faribault County, Minnesota</option>
+<option value="Fillmore County, Minnesota">Fillmore County, Minnesota</option>
+<option value="Freeborn County, Minnesota">Freeborn County, Minnesota</option>
+<option value="Goodhue County, Minnesota">Goodhue County, Minnesota</option>
+<option value="Grant County, Minnesota">Grant County, Minnesota</option>
+<option value="Hennepin County, Minnesota">Hennepin County, Minnesota</option>
+<option value="Houston County, Minnesota">Houston County, Minnesota</option>
+<option value="Hubbard County, Minnesota">Hubbard County, Minnesota</option>
+<option value="Isanti County, Minnesota">Isanti County, Minnesota</option>
+<option value="Itasca County, Minnesota">Itasca County, Minnesota</option>
+<option value="Jackson County, Minnesota">Jackson County, Minnesota</option>
+<option value="Kanabec County, Minnesota">Kanabec County, Minnesota</option>
+<option value="Kandiyohi County, Minnesota">Kandiyohi County, Minnesota</option>
+<option value="Kittson County, Minnesota">Kittson County, Minnesota</option>
+<option value="Koochiching County, Minnesota">Koochiching County, Minnesota</option>
+<option value="Lac qui Parle County, Minnesota">Lac qui Parle County, Minnesota</option>
+<option value="Lake County, Minnesota">Lake County, Minnesota</option>
+<option value="Lake of the Woods County, Minnesota">Lake of the Woods County, Minnesota</option>
+<option value="Le Sueur County, Minnesota">Le Sueur County, Minnesota</option>
+<option value="Lincoln County, Minnesota">Lincoln County, Minnesota</option>
+<option value="Lyon County, Minnesota">Lyon County, Minnesota</option>
+<option value="Mahnomen County, Minnesota">Mahnomen County, Minnesota</option>
+<option value="Marshall County, Minnesota">Marshall County, Minnesota</option>
+<option value="Martin County, Minnesota">Martin County, Minnesota</option>
+<option value="McLeod County, Minnesota">McLeod County, Minnesota</option>
+<option value="Meeker County, Minnesota">Meeker County, Minnesota</option>
+<option value="Mille Lacs County, Minnesota">Mille Lacs County, Minnesota</option>
+<option value="Morrison County, Minnesota">Morrison County, Minnesota</option>
+<option value="Mower County, Minnesota">Mower County, Minnesota</option>
+<option value="Murray County, Minnesota">Murray County, Minnesota</option>
+<option value="Nicollet County, Minnesota">Nicollet County, Minnesota</option>
+<option value="Nobles County, Minnesota">Nobles County, Minnesota</option>
+<option value="Norman County, Minnesota">Norman County, Minnesota</option>
+<option value="Olmsted County, Minnesota">Olmsted County, Minnesota</option>
+<option value="Otter Tail County, Minnesota">Otter Tail County, Minnesota</option>
+<option value="Pennington County, Minnesota">Pennington County, Minnesota</option>
+<option value="Pine County, Minnesota">Pine County, Minnesota</option>
+<option value="Pipestone County, Minnesota">Pipestone County, Minnesota</option>
+<option value="Polk County, Minnesota">Polk County, Minnesota</option>
+<option value="Pope County, Minnesota">Pope County, Minnesota</option>
+<option value="Ramsey County, Minnesota">Ramsey County, Minnesota</option>
+<option value="Red Lake County, Minnesota">Red Lake County, Minnesota</option>
+<option value="Redwood County, Minnesota">Redwood County, Minnesota</option>
+<option value="Renville County, Minnesota">Renville County, Minnesota</option>
+<option value="Rice County, Minnesota">Rice County, Minnesota</option>
+<option value="Rock County, Minnesota">Rock County, Minnesota</option>
+<option value="Roseau County, Minnesota">Roseau County, Minnesota</option>
+<option value="Scott County, Minnesota">Scott County, Minnesota</option>
+<option value="Sherburne County, Minnesota">Sherburne County, Minnesota</option>
+<option value="Sibley County, Minnesota">Sibley County, Minnesota</option>
+<option value="St. Louis County, Minnesota">St. Louis County, Minnesota</option>
+<option value="Stearns County, Minnesota">Stearns County, Minnesota</option>
+<option value="Steele County, Minnesota">Steele County, Minnesota</option>
+<option value="Stevens County, Minnesota">Stevens County, Minnesota</option>
+<option value="Swift County, Minnesota">Swift County, Minnesota</option>
+<option value="Todd County, Minnesota">Todd County, Minnesota</option>
+<option value="Traverse County, Minnesota">Traverse County, Minnesota</option>
+<option value="Wabasha County, Minnesota">Wabasha County, Minnesota</option>
+<option value="Wadena County, Minnesota">Wadena County, Minnesota</option>
+<option value="Waseca County, Minnesota">Waseca County, Minnesota</option>
+<option value="Washington County, Minnesota">Washington County, Minnesota</option>
+<option value="Watonwan County, Minnesota">Watonwan County, Minnesota</option>
+<option value="Wilkin County, Minnesota">Wilkin County, Minnesota</option>
+<option value="Winona County, Minnesota">Winona County, Minnesota</option>
+<option value="Wright County, Minnesota">Wright County, Minnesota</option>
+<option value="Yellow Medicine County, Minnesota">Yellow Medicine County, Minnesota</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.73,"Asian":5.03,"Black or African American":6.73,"Hispanic":6.19,"Pacific Islander":0.04,"Two or More Races":4.12,"White (non-Hispanic)":76.72},"Aitkin County, Minnesota":{"American Indian / Alaska Native":1.54,"Asian":0.14,"Black or African American":0.67,"Hispanic":1.46,"Pacific Islander":0.02,"Two or More Races":2.84,"White (non-Hispanic)":92.77},"Anoka County, Minnesota":{"American Indian / Alaska Native":0.39,"Asian":5.38,"Black or African American":8.28,"Hispanic":5.59,"Pacific Islander":0.01,"Two or More Races":4.13,"White (non-Hispanic)":75.95},"Becker County, Minnesota":{"American Indian / Alaska Native":4.79,"Asian":0.71,"Black or African American":0.8,"Hispanic":1.89,"Pacific Islander":0.01,"Two or More Races":5.95,"White (non-Hispanic)":85.49},"Beltrami County, Minnesota":{"American Indian / Alaska Native":18.91,"Asian":0.57,"Black or African American":0.89,"Hispanic":2.52,"Pacific Islander":0.08,"Two or More Races":6.07,"White (non-Hispanic)":70.36},"Benton County, Minnesota":{"American Indian / Alaska Native":0.67,"Asian":0.99,"Black or African American":3.9,"Hispanic":3.25,"Pacific Islander":0.02,"Two or More Races":4.24,"White (non-Hispanic)":86.6},"Big Stone County, Minnesota":{"American Indian / Alaska Native":0.31,"Asian":0.76,"Black or African American":0.17,"Hispanic":2.52,"Pacific Islander":0,"Two or More Races":1.88,"White (non-Hispanic)":94.31},"Blue Earth County, Minnesota":{"American Indian / Alaska Native":0.15,"Asian":2.33,"Black or African American":4.55,"Hispanic":4.69,"Pacific Islander":0,"Two or More Races":2.96,"White (non-Hispanic)":85.18},"Brown County, Minnesota":{"American Indian / Alaska Native":0.17,"Asian":0.6,"Black or African American":0.84,"Hispanic":4.85,"Pacific Islander":0.01,"Two or More Races":1.14,"White (non-Hispanic)":92.21},"Carlton County, Minnesota":{"American Indian / Alaska Native":3.42,"Asian":0.46,"Black or African American":2.09,"Hispanic":1.85,"Pacific Islander":0,"Two or More Races":4.52,"White (non-Hispanic)":87.28},"Carver County, Minnesota":{"American Indian / Alaska Native":0.14,"Asian":3.33,"Black or African American":1.51,"Hispanic":4.96,"Pacific Islander":0.01,"Two or More Races":3.56,"White (non-Hispanic)":86.14},"Cass County, Minnesota":{"American Indian / Alaska Native":8.68,"Asian":0.49,"Black or African American":0.39,"Hispanic":1.73,"Pacific Islander":0.08,"Two or More Races":6.97,"White (non-Hispanic)":81.15},"Chippewa County, Minnesota":{"American Indian / Alaska Native":1.76,"Asian":1.27,"Black or African American":0.91,"Hispanic":9.91,"Pacific Islander":1.68,"Two or More Races":0.89,"White (non-Hispanic)":83.35},"Chisago County, Minnesota":{"American Indian / Alaska Native":0.38,"Asian":1.42,"Black or African American":1.2,"Hispanic":2.72,"Pacific Islander":0.03,"Two or More Races":3.3,"White (non-Hispanic)":90.52},"Clay County, Minnesota":{"American Indian / Alaska Native":0.8,"Asian":1.66,"Black or African American":4.59,"Hispanic":4.85,"Pacific Islander":0.25,"Two or More Races":3.42,"White (non-Hispanic)":84.25},"Clearwater County, Minnesota":{"American Indian / Alaska Native":7.04,"Asian":0.73,"Black or African American":0.16,"Hispanic":0.87,"Pacific Islander":0.05,"Two or More Races":6.59,"White (non-Hispanic)":84.26},"Cook County, Minnesota":{"American Indian / Alaska Native":6.27,"Asian":0.67,"Black or African American":0.46,"Hispanic":2.77,"Pacific Islander":0.05,"Two or More Races":5.22,"White (non-Hispanic)":84.31},"Cottonwood County, Minnesota":{"American Indian / Alaska Native":0.39,"Asian":3.41,"Black or African American":1.75,"Hispanic":10.5,"Pacific Islander":0.85,"Two or More Races":1.59,"White (non-Hispanic)":81.51},"Crow Wing County, Minnesota":{"American Indian / Alaska Native":0.7,"Asian":0.44,"Black or African American":0.58,"Hispanic":1.53,"Pacific Islander":0,"Two or More Races":2.61,"White (non-Hispanic)":93.56},"Dakota County, Minnesota":{"American Indian / Alaska Native":0.18,"Asian":5.14,"Black or African American":7.23,"Hispanic":8.44,"Pacific Islander":0.01,"Two or More Races":4.6,"White (non-Hispanic)":73.85},"Dodge County, Minnesota":{"American Indian / Alaska Native":0.15,"Asian":0.56,"Black or African American":0.98,"Hispanic":5.17,"Pacific Islander":0,"Two or More Races":2.67,"White (non-Hispanic)":89.99},"Douglas County, Minnesota":{"American Indian / Alaska Native":0.24,"Asian":0.4,"Black or African American":0.47,"Hispanic":2.15,"Pacific Islander":0.18,"Two or More Races":2.01,"White (non-Hispanic)":94.18},"Faribault County, Minnesota":{"American Indian / Alaska Native":0.22,"Asian":0.63,"Black or African American":0.56,"Hispanic":7.81,"Pacific Islander":0,"Two or More Races":1.74,"White (non-Hispanic)":88.62},"Fillmore County, Minnesota":{"American Indian / Alaska Native":0.06,"Asian":0.61,"Black or African American":0.61,"Hispanic":1.85,"Pacific Islander":0,"Two or More Races":1.93,"White (non-Hispanic)":94.61},"Freeborn County, Minnesota":{"American Indian / Alaska Native":0.09,"Asian":3.07,"Black or African American":1.18,"Hispanic":10.57,"Pacific Islander":0.18,"Two or More Races":2.48,"White (non-Hispanic)":82.24},"Goodhue County, Minnesota":{"American Indian / Alaska Native":0.85,"Asian":0.78,"Black or African American":1.6,"Hispanic":3.93,"Pacific Islander":0,"Two or More Races":2.53,"White (non-Hispanic)":89.63},"Grant County, Minnesota":{"American Indian / Alaska Native":0.44,"Asian":0.07,"Black or African American":0.47,"Hispanic":2.59,"Pacific Islander":0,"Two or More Races":3.27,"White (non-Hispanic)":92.71},"Hennepin County, Minnesota":{"American Indian / Alaska Native":0.39,"Asian":7.09,"Black or African American":13.2,"Hispanic":7.71,"Pacific Islander":0.02,"Two or More Races":4.95,"White (non-Hispanic)":65.96},"Houston County, Minnesota":{"American Indian / Alaska Native":0.18,"Asian":1.02,"Black or African American":0.35,"Hispanic":1.49,"Pacific Islander":0,"Two or More Races":3.2,"White (non-Hispanic)":93.77},"Hubbard County, Minnesota":{"American Indian / Alaska Native":1.81,"Asian":0.38,"Black or African American":0.48,"Hispanic":2.55,"Pacific Islander":0,"Two or More Races":3.81,"White (non-Hispanic)":90.22},"Isanti County, Minnesota":{"American Indian / Alaska Native":0.32,"Asian":2.05,"Black or African American":1.03,"Hispanic":2.41,"Pacific Islander":0.01,"Two or More Races":2.32,"White (non-Hispanic)":91.82},"Itasca County, Minnesota":{"American Indian / Alaska Native":2.55,"Asian":0.33,"Black or African American":0.67,"Hispanic":1.45,"Pacific Islander":0.05,"Two or More Races":5.68,"White (non-Hispanic)":88.91},"Jackson County, Minnesota":{"American Indian / Alaska Native":0,"Asian":0.99,"Black or African American":0.54,"Hispanic":4.52,"Pacific Islander":0,"Two or More Races":3.44,"White (non-Hispanic)":90.44},"Kanabec County, Minnesota":{"American Indian / Alaska Native":0.4,"Asian":0.49,"Black or African American":0.51,"Hispanic":1.73,"Pacific Islander":0,"Two or More Races":3.45,"White (non-Hispanic)":93.3},"Kandiyohi County, Minnesota":{"American Indian / Alaska Native":0.46,"Asian":1.29,"Black or African American":5.59,"Hispanic":13.96,"Pacific Islander":0.18,"Two or More Races":1.94,"White (non-Hispanic)":76.35},"Kittson County, Minnesota":{"American Indian / Alaska Native":0.22,"Asian":0.38,"Black or African American":0.5,"Hispanic":2.5,"Pacific Islander":0,"Two or More Races":2.69,"White (non-Hispanic)":93.54},"Koochiching County, Minnesota":{"American Indian / Alaska Native":2.08,"Asian":0.9,"Black or African American":0.56,"Hispanic":1.46,"Pacific Islander":0,"Two or More Races":5.06,"White (non-Hispanic)":89.87},"Lac qui Parle County, Minnesota":{"American Indian / Alaska Native":0.18,"Asian":0.43,"Black or African American":0.55,"Hispanic":3.14,"Pacific Islander":0,"Two or More Races":2.21,"White (non-Hispanic)":93.4},"Lake County, Minnesota":{"American Indian / Alaska Native":0.25,"Asian":0.23,"Black or African American":0.39,"Hispanic":1.41,"Pacific Islander":0,"Two or More Races":2.91,"White (non-Hispanic)":94.8},"Lake of the Woods County, Minnesota":{"American Indian / Alaska Native":2.11,"Asian":0.21,"Black or African American":0.26,"Hispanic":0.68,"Pacific Islander":0,"Two or More Races":5.84,"White (non-Hispanic)":90.71},"Le Sueur County, Minnesota":{"American Indian / Alaska Native":0.25,"Asian":0.49,"Black or African American":0.88,"Hispanic":6.64,"Pacific Islander":0,"Two or More Races":1.94,"White (non-Hispanic)":89.65},"Lincoln County, Minnesota":{"American Indian / Alaska Native":0.14,"Asian":0.7,"Black or African American":0.16,"Hispanic":2.34,"Pacific Islander":0.07,"Two or More Races":2.34,"White (non-Hispanic)":94.23},"Lyon County, Minnesota":{"American Indian / Alaska Native":0.32,"Asian":4.71,"Black or African American":2.49,"Hispanic":7.38,"Pacific Islander":0,"Two or More Races":2.76,"White (non-Hispanic)":82.03},"Mahnomen County, Minnesota":{"American Indian / Alaska Native":34.44,"Asian":0.35,"Black or African American":0.06,"Hispanic":3.69,"Pacific Islander":0.04,"Two or More Races":16.25,"White (non-Hispanic)":44.87},"Marshall County, Minnesota":{"American Indian / Alaska Native":0.33,"Asian":0.25,"Black or African American":0.35,"Hispanic":4.63,"Pacific Islander":0,"Two or More Races":2.38,"White (non-Hispanic)":91.85},"Martin County, Minnesota":{"American Indian / Alaska Native":0.17,"Asian":0.56,"Black or African American":0.81,"Hispanic":6.81,"Pacific Islander":0,"Two or More Races":1.76,"White (non-Hispanic)":88.73},"McLeod County, Minnesota":{"American Indian / Alaska Native":0.08,"Asian":0.64,"Black or African American":0.47,"Hispanic":7.24,"Pacific Islander":0,"Two or More Races":2.41,"White (non-Hispanic)":88.97},"Meeker County, Minnesota":{"American Indian / Alaska Native":0.06,"Asian":0.29,"Black or African American":0.16,"Hispanic":4.29,"Pacific Islander":0,"Two or More Races":2.08,"White (non-Hispanic)":92.86},"Mille Lacs County, Minnesota":{"American Indian / Alaska Native":3.93,"Asian":0.61,"Black or African American":0.29,"Hispanic":2.16,"Pacific Islander":0.09,"Two or More Races":4.18,"White (non-Hispanic)":88.3},"Morrison County, Minnesota":{"American Indian / Alaska Native":0.11,"Asian":0.35,"Black or African American":0.32,"Hispanic":1.85,"Pacific Islander":0,"Two or More Races":2.36,"White (non-Hispanic)":94.7},"Mower County, Minnesota":{"American Indian / Alaska Native":0.04,"Asian":5.68,"Black or African American":3.54,"Hispanic":13.04,"Pacific Islander":0.42,"Two or More Races":2.64,"White (non-Hispanic)":74.01},"Murray County, Minnesota":{"American Indian / Alaska Native":0.18,"Asian":1.11,"Black or African American":0.62,"Hispanic":4.89,"Pacific Islander":0,"Two or More Races":2.49,"White (non-Hispanic)":89.6},"Nicollet County, Minnesota":{"American Indian / Alaska Native":0.2,"Asian":1.49,"Black or African American":3.47,"Hispanic":5.31,"Pacific Islander":0,"Two or More Races":3.32,"White (non-Hispanic)":85.92},"Nobles County, Minnesota":{"American Indian / Alaska Native":0.14,"Asian":4.57,"Black or African American":4.61,"Hispanic":33.14,"Pacific Islander":0,"Two or More Races":4.21,"White (non-Hispanic)":53.11},"Norman County, Minnesota":{"American Indian / Alaska Native":1.37,"Asian":0.8,"Black or African American":1.08,"Hispanic":5.21,"Pacific Islander":0,"Two or More Races":3.45,"White (non-Hispanic)":87.9},"Olmsted County, Minnesota":{"American Indian / Alaska Native":0.13,"Asian":6.3,"Black or African American":7.2,"Hispanic":5.78,"Pacific Islander":0.07,"Two or More Races":3.88,"White (non-Hispanic)":76.27},"Otter Tail County, Minnesota":{"American Indian / Alaska Native":0.18,"Asian":0.65,"Black or African American":0.98,"Hispanic":3.75,"Pacific Islander":0.03,"Two or More Races":3.11,"White (non-Hispanic)":90.9},"Pennington County, Minnesota":{"American Indian / Alaska Native":0.46,"Asian":1.24,"Black or African American":1.16,"Hispanic":4.78,"Pacific Islander":0,"Two or More Races":3.34,"White (non-Hispanic)":88.36},"Pine County, Minnesota":{"American Indian / Alaska Native":2.12,"Asian":1.08,"Black or African American":2.22,"Hispanic":2.67,"Pacific Islander":0,"Two or More Races":3.51,"White (non-Hispanic)":88.18},"Pipestone County, Minnesota":{"American Indian / Alaska Native":0.73,"Asian":0.96,"Black or African American":0.96,"Hispanic":8.44,"Pacific Islander":0,"Two or More Races":4.29,"White (non-Hispanic)":84.4},"Polk County, Minnesota":{"American Indian / Alaska Native":1.05,"Asian":0.78,"Black or African American":2.19,"Hispanic":6.71,"Pacific Islander":0.01,"Two or More Races":3.78,"White (non-Hispanic)":84.7},"Pope County, Minnesota":{"American Indian / Alaska Native":0.16,"Asian":0.77,"Black or African American":0.61,"Hispanic":1.96,"Pacific Islander":0,"Two or More Races":2.09,"White (non-Hispanic)":94.14},"Ramsey County, Minnesota":{"American Indian / Alaska Native":0.34,"Asian":14.9,"Black or African American":12.01,"Hispanic":8.24,"Pacific Islander":0.02,"Two or More Races":5.39,"White (non-Hispanic)":58.65},"Red Lake County, Minnesota":{"American Indian / Alaska Native":2.01,"Asian":0.33,"Black or African American":0.61,"Hispanic":3.39,"Pacific Islander":0,"Two or More Races":2.5,"White (non-Hispanic)":91.15},"Redwood County, Minnesota":{"American Indian / Alaska Native":3.65,"Asian":2.57,"Black or African American":0.57,"Hispanic":3.98,"Pacific Islander":0.06,"Two or More Races":3.45,"White (non-Hispanic)":85.46},"Renville County, Minnesota":{"American Indian / Alaska Native":0.77,"Asian":0.73,"Black or African American":0.85,"Hispanic":9.69,"Pacific Islander":0,"Two or More Races":2.07,"White (non-Hispanic)":85.67},"Rice County, Minnesota":{"American Indian / Alaska Native":0.24,"Asian":2.11,"Black or African American":6.46,"Hispanic":10.22,"Pacific Islander":0.03,"Two or More Races":2.57,"White (non-Hispanic)":78.21},"Rock County, Minnesota":{"American Indian / Alaska Native":0.53,"Asian":0.61,"Black or African American":0.18,"Hispanic":3.76,"Pacific Islander":0,"Two or More Races":2.97,"White (non-Hispanic)":91.95},"Roseau County, Minnesota":{"American Indian / Alaska Native":1.14,"Asian":2.73,"Black or African American":0.93,"Hispanic":1.75,"Pacific Islander":0,"Two or More Races":4.14,"White (non-Hispanic)":89.07},"Scott County, Minnesota":{"American Indian / Alaska Native":0.54,"Asian":6.08,"Black or African American":5.22,"Hispanic":6.17,"Pacific Islander":0.01,"Two or More Races":5,"White (non-Hispanic)":76.56},"Sherburne County, Minnesota":{"American Indian / Alaska Native":0.24,"Asian":1.44,"Black or African American":3.63,"Hispanic":3.19,"Pacific Islander":0,"Two or More Races":4.11,"White (non-Hispanic)":86.74},"Sibley County, Minnesota":{"American Indian / Alaska Native":0.19,"Asian":0.36,"Black or African American":0.94,"Hispanic":9.05,"Pacific Islander":0.07,"Two or More Races":1.77,"White (non-Hispanic)":87.49},"St. Louis County, Minnesota":{"American Indian / Alaska Native":1.55,"Asian":1.04,"Black or African American":1.59,"Hispanic":1.88,"Pacific Islander":0.01,"Two or More Races":3.7,"White (non-Hispanic)":89.92},"Stearns County, Minnesota":{"American Indian / Alaska Native":0.08,"Asian":1.91,"Black or African American":8.34,"Hispanic":4.51,"Pacific Islander":0.04,"Two or More Races":3.49,"White (non-Hispanic)":81.46},"Steele County, Minnesota":{"American Indian / Alaska Native":0.1,"Asian":0.67,"Black or African American":3.37,"Hispanic":8.64,"Pacific Islander":0,"Two or More Races":2.75,"White (non-Hispanic)":84.26},"Stevens County, Minnesota":{"American Indian / Alaska Native":1.35,"Asian":1.37,"Black or African American":1.55,"Hispanic":10.73,"Pacific Islander":0.75,"Two or More Races":1.73,"White (non-Hispanic)":82.4},"Swift County, Minnesota":{"American Indian / Alaska Native":0.35,"Asian":0,"Black or African American":0.68,"Hispanic":6.86,"Pacific Islander":0.74,"Two or More Races":4.61,"White (non-Hispanic)":86.66},"Todd County, Minnesota":{"American Indian / Alaska Native":0.23,"Asian":0.44,"Black or African American":0.51,"Hispanic":9.19,"Pacific Islander":0.22,"Two or More Races":3.76,"White (non-Hispanic)":85.36},"Traverse County, Minnesota":{"American Indian / Alaska Native":4.48,"Asian":0.15,"Black or African American":0.49,"Hispanic":5.61,"Pacific Islander":0,"Two or More Races":3.9,"White (non-Hispanic)":84.87},"Wabasha County, Minnesota":{"American Indian / Alaska Native":0.2,"Asian":0.58,"Black or African American":0.33,"Hispanic":3.31,"Pacific Islander":0.15,"Two or More Races":1.71,"White (non-Hispanic)":93.63},"Wadena County, Minnesota":{"American Indian / Alaska Native":0.17,"Asian":0.47,"Black or African American":0.72,"Hispanic":2.29,"Pacific Islander":0,"Two or More Races":5.6,"White (non-Hispanic)":90.73},"Waseca County, Minnesota":{"American Indian / Alaska Native":0.83,"Asian":0.88,"Black or African American":1.09,"Hispanic":6.97,"Pacific Islander":0,"Two or More Races":2.45,"White (non-Hispanic)":87.63},"Washington County, Minnesota":{"American Indian / Alaska Native":0.19,"Asian":7.28,"Black or African American":4.81,"Hispanic":5.07,"Pacific Islander":0.04,"Two or More Races":3.7,"White (non-Hispanic)":78.36},"Watonwan County, Minnesota":{"American Indian / Alaska Native":0.06,"Asian":0.34,"Black or African American":0.01,"Hispanic":29.13,"Pacific Islander":0,"Two or More Races":0.9,"White (non-Hispanic)":69.44},"Wilkin County, Minnesota":{"American Indian / Alaska Native":0.45,"Asian":0.06,"Black or African American":0.2,"Hispanic":3.71,"Pacific Islander":0,"Two or More Races":3.04,"White (non-Hispanic)":91.21},"Winona County, Minnesota":{"American Indian / Alaska Native":0.16,"Asian":2.39,"Black or African American":1.7,"Hispanic":3.77,"Pacific Islander":0.01,"Two or More Races":2.33,"White (non-Hispanic)":89.54},"Wright County, Minnesota":{"American Indian / Alaska Native":0.19,"Asian":1.55,"Black or African American":1.85,"Hispanic":3.49,"Pacific Islander":0,"Two or More Races":3.56,"White (non-Hispanic)":88.87},"Yellow Medicine County, Minnesota":{"American Indian / Alaska Native":2.46,"Asian":0.23,"Black or African American":0.75,"Hispanic":5.18,"Pacific Islander":0.06,"Two or More Races":3.01,"White (non-Hispanic)":88.22}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

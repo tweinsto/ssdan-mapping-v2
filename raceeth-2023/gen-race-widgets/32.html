@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 32</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Carson City, Nevada">Carson City, Nevada</option>
+<option value="Churchill County, Nevada">Churchill County, Nevada</option>
+<option value="Clark County, Nevada">Clark County, Nevada</option>
+<option value="Douglas County, Nevada">Douglas County, Nevada</option>
+<option value="Elko County, Nevada">Elko County, Nevada</option>
+<option value="Esmeralda County, Nevada">Esmeralda County, Nevada</option>
+<option value="Eureka County, Nevada">Eureka County, Nevada</option>
+<option value="Humboldt County, Nevada">Humboldt County, Nevada</option>
+<option value="Lander County, Nevada">Lander County, Nevada</option>
+<option value="Lincoln County, Nevada">Lincoln County, Nevada</option>
+<option value="Lyon County, Nevada">Lyon County, Nevada</option>
+<option value="Mineral County, Nevada">Mineral County, Nevada</option>
+<option value="Nye County, Nevada">Nye County, Nevada</option>
+<option value="Pershing County, Nevada">Pershing County, Nevada</option>
+<option value="Storey County, Nevada">Storey County, Nevada</option>
+<option value="Washoe County, Nevada">Washoe County, Nevada</option>
+<option value="White Pine County, Nevada">White Pine County, Nevada</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.63,"Asian":8.54,"Black or African American":9.05,"Hispanic":29.2,"Pacific Islander":0.66,"Two or More Races":5.43,"White (non-Hispanic)":45.95},"Carson City, Nevada":{"American Indian / Alaska Native":1.45,"Asian":2.59,"Black or African American":1.93,"Hispanic":25.88,"Pacific Islander":0.04,"Two or More Races":4.86,"White (non-Hispanic)":63.17},"Churchill County, Nevada":{"American Indian / Alaska Native":3.1,"Asian":2.12,"Black or African American":1.81,"Hispanic":14.82,"Pacific Islander":0.25,"Two or More Races":6.23,"White (non-Hispanic)":71.5},"Clark County, Nevada":{"American Indian / Alaska Native":0.34,"Asian":10.25,"Black or African American":11.66,"Hispanic":31.45,"Pacific Islander":0.74,"Two or More Races":5.6,"White (non-Hispanic)":39.39},"Douglas County, Nevada":{"American Indian / Alaska Native":1.1,"Asian":2.64,"Black or African American":0.07,"Hispanic":12.75,"Pacific Islander":0.11,"Two or More Races":3.96,"White (non-Hispanic)":78.16},"Elko County, Nevada":{"American Indian / Alaska Native":3.82,"Asian":1.36,"Black or African American":0.85,"Hispanic":25.66,"Pacific Islander":0.15,"Two or More Races":4.59,"White (non-Hispanic)":62.71},"Esmeralda County, Nevada":{"American Indian / Alaska Native":1.56,"Asian":1.35,"Black or African American":0.31,"Hispanic":26.4,"Pacific Islander":0,"Two or More Races":2.39,"White (non-Hispanic)":65.18},"Eureka County, Nevada":{"American Indian / Alaska Native":2.35,"Asian":3.31,"Black or African American":0.12,"Hispanic":2.95,"Pacific Islander":0,"Two or More Races":8.01,"White (non-Hispanic)":83.25},"Humboldt County, Nevada":{"American Indian / Alaska Native":2.89,"Asian":1.35,"Black or African American":0.68,"Hispanic":26.88,"Pacific Islander":0.12,"Two or More Races":2.91,"White (non-Hispanic)":64.71},"Lander County, Nevada":{"American Indian / Alaska Native":2.23,"Asian":0.3,"Black or African American":0.14,"Hispanic":22.04,"Pacific Islander":0,"Two or More Races":5.5,"White (non-Hispanic)":69.8},"Lincoln County, Nevada":{"American Indian / Alaska Native":3.57,"Asian":0,"Black or African American":4.18,"Hispanic":5.28,"Pacific Islander":0.04,"Two or More Races":2.2,"White (non-Hispanic)":84.73},"Lyon County, Nevada":{"American Indian / Alaska Native":1.59,"Asian":1.37,"Black or African American":0.98,"Hispanic":18.69,"Pacific Islander":0.11,"Two or More Races":5.2,"White (non-Hispanic)":71.72},"Mineral County, Nevada":{"American Indian / Alaska Native":15.91,"Asian":0.07,"Black or African American":2.9,"Hispanic":18.19,"Pacific Islander":0,"Two or More Races":6.41,"White (non-Hispanic)":56.48},"Nye County, Nevada":{"American Indian / Alaska Native":0.99,"Asian":1.96,"Black or African American":2.53,"Hispanic":16.41,"Pacific Islander":0.5,"Two or More Races":7.09,"White (non-Hispanic)":70.3},"Pershing County, Nevada":{"American Indian / Alaska Native":2.69,"Asian":1.15,"Black or African American":4.15,"Hispanic":23.27,"Pacific Islander":0.08,"Two or More Races":3.5,"White (non-Hispanic)":64.55},"Storey County, Nevada":{"American Indian / Alaska Native":0,"Asian":1.01,"Black or African American":1.93,"Hispanic":7.03,"Pacific Islander":0,"Two or More Races":5.29,"White (non-Hispanic)":84.49},"Washoe County, Nevada":{"American Indian / Alaska Native":0.87,"Asian":5.41,"Black or African American":2.29,"Hispanic":25.64,"Pacific Islander":0.64,"Two or More Races":4.93,"White (non-Hispanic)":59.73},"White Pine County, Nevada":{"American Indian / Alaska Native":3.39,"Asian":0.61,"Black or African American":6.8,"Hispanic":16.38,"Pacific Islander":0,"Two or More Races":1.04,"White (non-Hispanic)":71.67}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

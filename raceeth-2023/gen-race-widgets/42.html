@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 42</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Adams County, Pennsylvania">Adams County, Pennsylvania</option>
+<option value="Allegheny County, Pennsylvania">Allegheny County, Pennsylvania</option>
+<option value="Armstrong County, Pennsylvania">Armstrong County, Pennsylvania</option>
+<option value="Beaver County, Pennsylvania">Beaver County, Pennsylvania</option>
+<option value="Bedford County, Pennsylvania">Bedford County, Pennsylvania</option>
+<option value="Berks County, Pennsylvania">Berks County, Pennsylvania</option>
+<option value="Blair County, Pennsylvania">Blair County, Pennsylvania</option>
+<option value="Bradford County, Pennsylvania">Bradford County, Pennsylvania</option>
+<option value="Bucks County, Pennsylvania">Bucks County, Pennsylvania</option>
+<option value="Butler County, Pennsylvania">Butler County, Pennsylvania</option>
+<option value="Cambria County, Pennsylvania">Cambria County, Pennsylvania</option>
+<option value="Cameron County, Pennsylvania">Cameron County, Pennsylvania</option>
+<option value="Carbon County, Pennsylvania">Carbon County, Pennsylvania</option>
+<option value="Centre County, Pennsylvania">Centre County, Pennsylvania</option>
+<option value="Chester County, Pennsylvania">Chester County, Pennsylvania</option>
+<option value="Clarion County, Pennsylvania">Clarion County, Pennsylvania</option>
+<option value="Clearfield County, Pennsylvania">Clearfield County, Pennsylvania</option>
+<option value="Clinton County, Pennsylvania">Clinton County, Pennsylvania</option>
+<option value="Columbia County, Pennsylvania">Columbia County, Pennsylvania</option>
+<option value="Crawford County, Pennsylvania">Crawford County, Pennsylvania</option>
+<option value="Cumberland County, Pennsylvania">Cumberland County, Pennsylvania</option>
+<option value="Dauphin County, Pennsylvania">Dauphin County, Pennsylvania</option>
+<option value="Delaware County, Pennsylvania">Delaware County, Pennsylvania</option>
+<option value="Elk County, Pennsylvania">Elk County, Pennsylvania</option>
+<option value="Erie County, Pennsylvania">Erie County, Pennsylvania</option>
+<option value="Fayette County, Pennsylvania">Fayette County, Pennsylvania</option>
+<option value="Forest County, Pennsylvania">Forest County, Pennsylvania</option>
+<option value="Franklin County, Pennsylvania">Franklin County, Pennsylvania</option>
+<option value="Fulton County, Pennsylvania">Fulton County, Pennsylvania</option>
+<option value="Greene County, Pennsylvania">Greene County, Pennsylvania</option>
+<option value="Huntingdon County, Pennsylvania">Huntingdon County, Pennsylvania</option>
+<option value="Indiana County, Pennsylvania">Indiana County, Pennsylvania</option>
+<option value="Jefferson County, Pennsylvania">Jefferson County, Pennsylvania</option>
+<option value="Juniata County, Pennsylvania">Juniata County, Pennsylvania</option>
+<option value="Lackawanna County, Pennsylvania">Lackawanna County, Pennsylvania</option>
+<option value="Lancaster County, Pennsylvania">Lancaster County, Pennsylvania</option>
+<option value="Lawrence County, Pennsylvania">Lawrence County, Pennsylvania</option>
+<option value="Lebanon County, Pennsylvania">Lebanon County, Pennsylvania</option>
+<option value="Lehigh County, Pennsylvania">Lehigh County, Pennsylvania</option>
+<option value="Luzerne County, Pennsylvania">Luzerne County, Pennsylvania</option>
+<option value="Lycoming County, Pennsylvania">Lycoming County, Pennsylvania</option>
+<option value="McKean County, Pennsylvania">McKean County, Pennsylvania</option>
+<option value="Mercer County, Pennsylvania">Mercer County, Pennsylvania</option>
+<option value="Mifflin County, Pennsylvania">Mifflin County, Pennsylvania</option>
+<option value="Monroe County, Pennsylvania">Monroe County, Pennsylvania</option>
+<option value="Montgomery County, Pennsylvania">Montgomery County, Pennsylvania</option>
+<option value="Montour County, Pennsylvania">Montour County, Pennsylvania</option>
+<option value="Northampton County, Pennsylvania">Northampton County, Pennsylvania</option>
+<option value="Northumberland County, Pennsylvania">Northumberland County, Pennsylvania</option>
+<option value="Perry County, Pennsylvania">Perry County, Pennsylvania</option>
+<option value="Philadelphia County, Pennsylvania">Philadelphia County, Pennsylvania</option>
+<option value="Pike County, Pennsylvania">Pike County, Pennsylvania</option>
+<option value="Potter County, Pennsylvania">Potter County, Pennsylvania</option>
+<option value="Schuylkill County, Pennsylvania">Schuylkill County, Pennsylvania</option>
+<option value="Snyder County, Pennsylvania">Snyder County, Pennsylvania</option>
+<option value="Somerset County, Pennsylvania">Somerset County, Pennsylvania</option>
+<option value="Sullivan County, Pennsylvania">Sullivan County, Pennsylvania</option>
+<option value="Susquehanna County, Pennsylvania">Susquehanna County, Pennsylvania</option>
+<option value="Tioga County, Pennsylvania">Tioga County, Pennsylvania</option>
+<option value="Union County, Pennsylvania">Union County, Pennsylvania</option>
+<option value="Venango County, Pennsylvania">Venango County, Pennsylvania</option>
+<option value="Warren County, Pennsylvania">Warren County, Pennsylvania</option>
+<option value="Washington County, Pennsylvania">Washington County, Pennsylvania</option>
+<option value="Wayne County, Pennsylvania">Wayne County, Pennsylvania</option>
+<option value="Westmoreland County, Pennsylvania">Westmoreland County, Pennsylvania</option>
+<option value="Wyoming County, Pennsylvania">Wyoming County, Pennsylvania</option>
+<option value="York County, Pennsylvania">York County, Pennsylvania</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.06,"Asian":3.67,"Black or African American":10.31,"Hispanic":8.38,"Pacific Islander":0.02,"Two or More Races":3.31,"White (non-Hispanic)":73.81},"Adams County, Pennsylvania":{"American Indian / Alaska Native":0.03,"Asian":0.86,"Black or African American":1.64,"Hispanic":7.53,"Pacific Islander":0,"Two or More Races":2.08,"White (non-Hispanic)":87.51},"Allegheny County, Pennsylvania":{"American Indian / Alaska Native":0.06,"Asian":4.12,"Black or African American":12.39,"Hispanic":2.81,"Pacific Islander":0.01,"Two or More Races":3.99,"White (non-Hispanic)":76.15},"Armstrong County, Pennsylvania":{"American Indian / Alaska Native":0.01,"Asian":0.39,"Black or African American":0.96,"Hispanic":0.89,"Pacific Islander":0,"Two or More Races":2.17,"White (non-Hispanic)":95.54},"Beaver County, Pennsylvania":{"American Indian / Alaska Native":0.05,"Asian":0.45,"Black or African American":6.13,"Hispanic":2.26,"Pacific Islander":0.01,"Two or More Races":3.9,"White (non-Hispanic)":87.02},"Bedford County, Pennsylvania":{"American Indian / Alaska Native":0.08,"Asian":0.42,"Black or African American":0.77,"Hispanic":1.19,"Pacific Islander":0,"Two or More Races":1.53,"White (non-Hispanic)":95.88},"Berks County, Pennsylvania":{"American Indian / Alaska Native":0.07,"Asian":1.29,"Black or African American":3.95,"Hispanic":23.97,"Pacific Islander":0.02,"Two or More Races":2.51,"White (non-Hispanic)":67.76},"Blair County, Pennsylvania":{"American Indian / Alaska Native":0.07,"Asian":0.58,"Black or African American":1.68,"Hispanic":1.46,"Pacific Islander":0.01,"Two or More Races":3.47,"White (non-Hispanic)":92.57},"Bradford County, Pennsylvania":{"American Indian / Alaska Native":0.06,"Asian":0.61,"Black or African American":0.92,"Hispanic":1.57,"Pacific Islander":0.05,"Two or More Races":1.79,"White (non-Hispanic)":94.56},"Bucks County, Pennsylvania":{"American Indian / Alaska Native":0.03,"Asian":4.9,"Black or African American":3.56,"Hispanic":6.34,"Pacific Islander":0.01,"Two or More Races":3.64,"White (non-Hispanic)":80.83},"Butler County, Pennsylvania":{"American Indian / Alaska Native":0.02,"Asian":1.36,"Black or African American":1.02,"Hispanic":1.94,"Pacific Islander":0.01,"Two or More Races":2.35,"White (non-Hispanic)":93.01},"Cambria County, Pennsylvania":{"American Indian / Alaska Native":0.05,"Asian":0.45,"Black or African American":2.92,"Hispanic":2,"Pacific Islander":0,"Two or More Races":3.57,"White (non-Hispanic)":90.84},"Cameron County, Pennsylvania":{"American Indian / Alaska Native":0.2,"Asian":0.51,"Black or African American":0.04,"Hispanic":1.85,"Pacific Islander":0,"Two or More Races":4.36,"White (non-Hispanic)":93.03},"Carbon County, Pennsylvania":{"American Indian / Alaska Native":0.08,"Asian":0.49,"Black or African American":1.83,"Hispanic":6.37,"Pacific Islander":0,"Two or More Races":2.25,"White (non-Hispanic)":88.76},"Centre County, Pennsylvania":{"American Indian / Alaska Native":0.11,"Asian":6.01,"Black or African American":3.21,"Hispanic":3.56,"Pacific Islander":0.03,"Two or More Races":3.33,"White (non-Hispanic)":83.52},"Chester County, Pennsylvania":{"American Indian / Alaska Native":0.02,"Asian":6.37,"Black or African American":4.92,"Hispanic":8.2,"Pacific Islander":0.02,"Two or More Races":3.83,"White (non-Hispanic)":76.26},"Clarion County, Pennsylvania":{"American Indian / Alaska Native":0.01,"Asian":0.45,"Black or African American":1.7,"Hispanic":1.11,"Pacific Islander":0,"Two or More Races":2.05,"White (non-Hispanic)":94.55},"Clearfield County, Pennsylvania":{"American Indian / Alaska Native":0.02,"Asian":0.55,"Black or African American":1.99,"Hispanic":2.88,"Pacific Islander":0.02,"Two or More Races":1.9,"White (non-Hispanic)":92.44},"Clinton County, Pennsylvania":{"American Indian / Alaska Native":0.06,"Asian":0.69,"Black or African American":1.39,"Hispanic":1.83,"Pacific Islander":0,"Two or More Races":1.98,"White (non-Hispanic)":93.87},"Columbia County, Pennsylvania":{"American Indian / Alaska Native":0.05,"Asian":1.01,"Black or African American":1.76,"Hispanic":3.68,"Pacific Islander":0.33,"Two or More Races":1.75,"White (non-Hispanic)":91.04},"Crawford County, Pennsylvania":{"American Indian / Alaska Native":0.04,"Asian":0.55,"Black or African American":1.57,"Hispanic":1.53,"Pacific Islander":0.01,"Two or More Races":2.48,"White (non-Hispanic)":93.37},"Cumberland County, Pennsylvania":{"American Indian / Alaska Native":0.02,"Asian":5.21,"Black or African American":4.08,"Hispanic":4.88,"Pacific Islander":0,"Two or More Races":3.49,"White (non-Hispanic)":81.91},"Dauphin County, Pennsylvania":{"American Indian / Alaska Native":0.08,"Asian":6.12,"Black or African American":16.69,"Hispanic":11.28,"Pacific Islander":0.01,"Two or More Races":3.61,"White (non-Hispanic)":61.73},"Delaware County, Pennsylvania":{"American Indian / Alaska Native":0.05,"Asian":6.13,"Black or African American":21.74,"Hispanic":4.81,"Pacific Islander":0.03,"Two or More Races":3.46,"White (non-Hispanic)":63.32},"Elk County, Pennsylvania":{"American Indian / Alaska Native":0.02,"Asian":0.41,"Black or African American":0.84,"Hispanic":1,"Pacific Islander":0,"Two or More Races":2.99,"White (non-Hispanic)":94.74},"Erie County, Pennsylvania":{"American Indian / Alaska Native":0.08,"Asian":1.96,"Black or African American":6.62,"Hispanic":4.63,"Pacific Islander":0.02,"Two or More Races":3.96,"White (non-Hispanic)":82.34},"Fayette County, Pennsylvania":{"American Indian / Alaska Native":0.03,"Asian":0.45,"Black or African American":4,"Hispanic":1.34,"Pacific Islander":0.06,"Two or More Races":4.15,"White (non-Hispanic)":89.63},"Forest County, Pennsylvania":{"American Indian / Alaska Native":0.37,"Asian":0.62,"Black or African American":13.72,"Hispanic":4.98,"Pacific Islander":0,"Two or More Races":1.95,"White (non-Hispanic)":78.31},"Franklin County, Pennsylvania":{"American Indian / Alaska Native":0.03,"Asian":0.94,"Black or African American":3.11,"Hispanic":7.16,"Pacific Islander":0,"Two or More Races":3.45,"White (non-Hispanic)":85},"Fulton County, Pennsylvania":{"American Indian / Alaska Native":0.02,"Asian":0.22,"Black or African American":1.36,"Hispanic":1.24,"Pacific Islander":0,"Two or More Races":2.17,"White (non-Hispanic)":93.67},"Greene County, Pennsylvania":{"American Indian / Alaska Native":0,"Asian":0.2,"Black or African American":2.61,"Hispanic":1.55,"Pacific Islander":0,"Two or More Races":3.76,"White (non-Hispanic)":91.65},"Huntingdon County, Pennsylvania":{"American Indian / Alaska Native":0.08,"Asian":0.49,"Black or African American":4.79,"Hispanic":2.02,"Pacific Islander":0,"Two or More Races":2.98,"White (non-Hispanic)":89.53},"Indiana County, Pennsylvania":{"American Indian / Alaska Native":0.02,"Asian":0.79,"Black or African American":2.33,"Hispanic":1.78,"Pacific Islander":0,"Two or More Races":3.01,"White (non-Hispanic)":91.93},"Jefferson County, Pennsylvania":{"American Indian / Alaska Native":0.05,"Asian":0.25,"Black or African American":0.43,"Hispanic":0.98,"Pacific Islander":0,"Two or More Races":1.97,"White (non-Hispanic)":96.05},"Juniata County, Pennsylvania":{"American Indian / Alaska Native":0.01,"Asian":0.47,"Black or African American":1.05,"Hispanic":3.98,"Pacific Islander":0,"Two or More Races":1.74,"White (non-Hispanic)":92.47},"Lackawanna County, Pennsylvania":{"American Indian / Alaska Native":0.05,"Asian":2.95,"Black or African American":2.91,"Hispanic":9.17,"Pacific Islander":0.03,"Two or More Races":3.34,"White (non-Hispanic)":81.06},"Lancaster County, Pennsylvania":{"American Indian / Alaska Native":0.05,"Asian":2.34,"Black or African American":3.41,"Hispanic":11.27,"Pacific Islander":0.01,"Two or More Races":2.66,"White (non-Hispanic)":79.79},"Lawrence County, Pennsylvania":{"American Indian / Alaska Native":0.01,"Asian":0.27,"Black or African American":3.64,"Hispanic":2.06,"Pacific Islander":0,"Two or More Races":3.94,"White (non-Hispanic)":89.66},"Lebanon County, Pennsylvania":{"American Indian / Alaska Native":0.03,"Asian":1.53,"Black or African American":1.81,"Hispanic":14.7,"Pacific Islander":0,"Two or More Races":2.26,"White (non-Hispanic)":79.33},"Lehigh County, Pennsylvania":{"American Indian / Alaska Native":0.06,"Asian":3.47,"Black or African American":6,"Hispanic":26.96,"Pacific Islander":0.04,"Two or More Races":2.57,"White (non-Hispanic)":60.42},"Luzerne County, Pennsylvania":{"American Indian / Alaska Native":0.02,"Asian":1.1,"Black or African American":4.07,"Hispanic":15.93,"Pacific Islander":0.11,"Two or More Races":2.62,"White (non-Hispanic)":75.92},"Lycoming County, Pennsylvania":{"American Indian / Alaska Native":0.11,"Asian":0.87,"Black or African American":4.19,"Hispanic":2.26,"Pacific Islander":0.03,"Two or More Races":3.81,"White (non-Hispanic)":88.59},"McKean County, Pennsylvania":{"American Indian / Alaska Native":0.02,"Asian":0.48,"Black or African American":2.16,"Hispanic":1.82,"Pacific Islander":0,"Two or More Races":2.64,"White (non-Hispanic)":92.47},"Mercer County, Pennsylvania":{"American Indian / Alaska Native":0.07,"Asian":0.61,"Black or African American":5.48,"Hispanic":1.59,"Pacific Islander":0.02,"Two or More Races":3.33,"White (non-Hispanic)":88.58},"Mifflin County, Pennsylvania":{"American Indian / Alaska Native":0.14,"Asian":0.28,"Black or African American":0.71,"Hispanic":2.17,"Pacific Islander":0.09,"Two or More Races":2.78,"White (non-Hispanic)":93.7},"Monroe County, Pennsylvania":{"American Indian / Alaska Native":0.1,"Asian":2.53,"Black or African American":13.02,"Hispanic":17.7,"Pacific Islander":0,"Two or More Races":4.08,"White (non-Hispanic)":61.17},"Montgomery County, Pennsylvania":{"American Indian / Alaska Native":0.02,"Asian":7.79,"Black or African American":9.1,"Hispanic":6.48,"Pacific Islander":0.03,"Two or More Races":3.71,"White (non-Hispanic)":72.37},"Montour County, Pennsylvania":{"American Indian / Alaska Native":0.1,"Asian":3.49,"Black or African American":2.38,"Hispanic":2.94,"Pacific Islander":0,"Two or More Races":1.29,"White (non-Hispanic)":89.57},"Northampton County, Pennsylvania":{"American Indian / Alaska Native":0.01,"Asian":3.04,"Black or African American":5.32,"Hispanic":14.9,"Pacific Islander":0.01,"Two or More Races":3.08,"White (non-Hispanic)":73.05},"Northumberland County, Pennsylvania":{"American Indian / Alaska Native":0.01,"Asian":0.45,"Black or African American":2.45,"Hispanic":4.85,"Pacific Islander":0.01,"Two or More Races":2.31,"White (non-Hispanic)":89.47},"Perry County, Pennsylvania":{"American Indian / Alaska Native":0.08,"Asian":0.25,"Black or African American":0.76,"Hispanic":2.27,"Pacific Islander":0.02,"Two or More Races":2.66,"White (non-Hispanic)":93.88},"Philadelphia County, Pennsylvania":{"American Indian / Alaska Native":0.14,"Asian":7.71,"Black or African American":38.85,"Hispanic":15.2,"Pacific Islander":0.02,"Two or More Races":3.81,"White (non-Hispanic)":33.58},"Pike County, Pennsylvania":{"American Indian / Alaska Native":0.04,"Asian":1.45,"Black or African American":5.45,"Hispanic":12.02,"Pacific Islander":0,"Two or More Races":3.24,"White (non-Hispanic)":77.64},"Potter County, Pennsylvania":{"American Indian / Alaska Native":0.09,"Asian":0.46,"Black or African American":0.42,"Hispanic":1.67,"Pacific Islander":0,"Two or More Races":2.33,"White (non-Hispanic)":94.86},"Schuylkill County, Pennsylvania":{"American Indian / Alaska Native":0.02,"Asian":0.43,"Black or African American":2.61,"Hispanic":6.8,"Pacific Islander":0.01,"Two or More Races":2.38,"White (non-Hispanic)":87.64},"Snyder County, Pennsylvania":{"American Indian / Alaska Native":0.02,"Asian":0.55,"Black or African American":0.77,"Hispanic":2.49,"Pacific Islander":0.23,"Two or More Races":1.51,"White (non-Hispanic)":94.26},"Somerset County, Pennsylvania":{"American Indian / Alaska Native":0.08,"Asian":0.48,"Black or African American":1.89,"Hispanic":1.5,"Pacific Islander":0,"Two or More Races":2.1,"White (non-Hispanic)":93.78},"Sullivan County, Pennsylvania":{"American Indian / Alaska Native":0.14,"Asian":0,"Black or African American":2.17,"Hispanic":2,"Pacific Islander":0,"Two or More Races":1.78,"White (non-Hispanic)":93.78},"Susquehanna County, Pennsylvania":{"American Indian / Alaska Native":0.01,"Asian":0.48,"Black or African American":0.2,"Hispanic":2.28,"Pacific Islander":0,"Two or More Races":2.33,"White (non-Hispanic)":94.53},"Tioga County, Pennsylvania":{"American Indian / Alaska Native":0.08,"Asian":0.38,"Black or African American":0.83,"Hispanic":1.63,"Pacific Islander":0,"Two or More Races":1.7,"White (non-Hispanic)":95.27},"Union County, Pennsylvania":{"American Indian / Alaska Native":0.12,"Asian":1.65,"Black or African American":5.77,"Hispanic":4.92,"Pacific Islander":0,"Two or More Races":1.16,"White (non-Hispanic)":86.13},"Venango County, Pennsylvania":{"American Indian / Alaska Native":0.02,"Asian":0.34,"Black or African American":1.06,"Hispanic":1.17,"Pacific Islander":0.02,"Two or More Races":2.7,"White (non-Hispanic)":94.01},"Warren County, Pennsylvania":{"American Indian / Alaska Native":0.05,"Asian":0.42,"Black or African American":0.76,"Hispanic":1.19,"Pacific Islander":0.04,"Two or More Races":2.56,"White (non-Hispanic)":94.86},"Washington County, Pennsylvania":{"American Indian / Alaska Native":0.01,"Asian":1.21,"Black or African American":3.09,"Hispanic":1.96,"Pacific Islander":0.03,"Two or More Races":3.27,"White (non-Hispanic)":90.14},"Wayne County, Pennsylvania":{"American Indian / Alaska Native":0.05,"Asian":0.68,"Black or African American":2.88,"Hispanic":4.94,"Pacific Islander":0.05,"Two or More Races":2.81,"White (non-Hispanic)":88.3},"Westmoreland County, Pennsylvania":{"American Indian / Alaska Native":0.02,"Asian":0.91,"Black or African American":2.43,"Hispanic":1.53,"Pacific Islander":0.01,"Two or More Races":2.91,"White (non-Hispanic)":91.99},"Wyoming County, Pennsylvania":{"American Indian / Alaska Native":0.03,"Asian":0.25,"Black or African American":0.73,"Hispanic":2.35,"Pacific Islander":0,"Two or More Races":2.96,"White (non-Hispanic)":93.66},"York County, Pennsylvania":{"American Indian / Alaska Native":0.04,"Asian":1.39,"Black or African American":5.43,"Hispanic":9.09,"Pacific Islander":0.02,"Two or More Races":3.51,"White (non-Hispanic)":80.03}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

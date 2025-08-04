@@ -1,0 +1,1127 @@
+{
+  "state": "Bernalillo County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 181771
+        },
+        {
+          "label": "Asian",
+          "value": 33725
+        },
+        {
+          "label": "Black or African American",
+          "value": 38382
+        },
+        {
+          "label": "Hispanic",
+          "value": 1018321
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1248
+        },
+        {
+          "label": "Two or More Races",
+          "value": 59550
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 772482
+        }
+      ]
+    },
+    "Bernalillo County, New Mexico": {
+      "label": "Bernalillo County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 26758
+        },
+        {
+          "label": "Asian",
+          "value": 18315
+        },
+        {
+          "label": "Black or African American",
+          "value": 17205
+        },
+        {
+          "label": "Hispanic",
+          "value": 329949
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 346
+        },
+        {
+          "label": "Two or More Races",
+          "value": 22761
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 254583
+        }
+      ]
+    },
+    "Catron County, New Mexico": {
+      "label": "Catron County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 81
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 14
+        },
+        {
+          "label": "Hispanic",
+          "value": 559
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 109
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2909
+        }
+      ]
+    },
+    "Chaves County, New Mexico": {
+      "label": "Chaves County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 337
+        },
+        {
+          "label": "Asian",
+          "value": 728
+        },
+        {
+          "label": "Black or African American",
+          "value": 915
+        },
+        {
+          "label": "Hispanic",
+          "value": 37329
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 49
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1016
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23882
+        }
+      ]
+    },
+    "Cibola County, New Mexico": {
+      "label": "Cibola County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11502
+        },
+        {
+          "label": "Asian",
+          "value": 172
+        },
+        {
+          "label": "Black or African American",
+          "value": 522
+        },
+        {
+          "label": "Hispanic",
+          "value": 8925
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 585
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5330
+        }
+      ]
+    },
+    "Colfax County, New Mexico": {
+      "label": "Colfax County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 133
+        },
+        {
+          "label": "Asian",
+          "value": 26
+        },
+        {
+          "label": "Black or African American",
+          "value": 67
+        },
+        {
+          "label": "Hispanic",
+          "value": 5849
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 359
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5894
+        }
+      ]
+    },
+    "Curry County, New Mexico": {
+      "label": "Curry County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 183
+        },
+        {
+          "label": "Asian",
+          "value": 725
+        },
+        {
+          "label": "Black or African American",
+          "value": 2305
+        },
+        {
+          "label": "Hispanic",
+          "value": 21782
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 44
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1877
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20987
+        }
+      ]
+    },
+    "De Baca County, New Mexico": {
+      "label": "De Baca County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 1
+        },
+        {
+          "label": "Hispanic",
+          "value": 1004
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 35
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 539
+        }
+      ]
+    },
+    "Doña Ana County, New Mexico": {
+      "label": "Doña Ana County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1198
+        },
+        {
+          "label": "Asian",
+          "value": 2575
+        },
+        {
+          "label": "Black or African American",
+          "value": 3130
+        },
+        {
+          "label": "Hispanic",
+          "value": 149893
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 183
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3969
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 60117
+        }
+      ]
+    },
+    "Eddy County, New Mexico": {
+      "label": "Eddy County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 571
+        },
+        {
+          "label": "Asian",
+          "value": 381
+        },
+        {
+          "label": "Black or African American",
+          "value": 720
+        },
+        {
+          "label": "Hispanic",
+          "value": 31104
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1211
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26692
+        }
+      ]
+    },
+    "Grant County, New Mexico": {
+      "label": "Grant County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 276
+        },
+        {
+          "label": "Asian",
+          "value": 241
+        },
+        {
+          "label": "Black or African American",
+          "value": 186
+        },
+        {
+          "label": "Hispanic",
+          "value": 13373
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 523
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13221
+        }
+      ]
+    },
+    "Guadalupe County, New Mexico": {
+      "label": "Guadalupe County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 226
+        },
+        {
+          "label": "Asian",
+          "value": 10
+        },
+        {
+          "label": "Black or African American",
+          "value": 75
+        },
+        {
+          "label": "Hispanic",
+          "value": 3263
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 66
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 739
+        }
+      ]
+    },
+    "Harding County, New Mexico": {
+      "label": "Harding County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 13
+        },
+        {
+          "label": "Hispanic",
+          "value": 304
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 20
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 346
+        }
+      ]
+    },
+    "Hidalgo County, New Mexico": {
+      "label": "Hidalgo County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 34
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 2343
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 110
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1568
+        }
+      ]
+    },
+    "Lea County, New Mexico": {
+      "label": "Lea County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 347
+        },
+        {
+          "label": "Asian",
+          "value": 459
+        },
+        {
+          "label": "Black or African American",
+          "value": 2507
+        },
+        {
+          "label": "Hispanic",
+          "value": 45091
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 18
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1113
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23474
+        }
+      ]
+    },
+    "Lincoln County, New Mexico": {
+      "label": "Lincoln County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 620
+        },
+        {
+          "label": "Asian",
+          "value": 106
+        },
+        {
+          "label": "Black or African American",
+          "value": 126
+        },
+        {
+          "label": "Hispanic",
+          "value": 6591
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 487
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12262
+        }
+      ]
+    },
+    "Los Alamos County, New Mexico": {
+      "label": "Los Alamos County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 144
+        },
+        {
+          "label": "Asian",
+          "value": 964
+        },
+        {
+          "label": "Black or African American",
+          "value": 233
+        },
+        {
+          "label": "Hispanic",
+          "value": 3465
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 872
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13614
+        }
+      ]
+    },
+    "Luna County, New Mexico": {
+      "label": "Luna County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 83
+        },
+        {
+          "label": "Asian",
+          "value": 233
+        },
+        {
+          "label": "Black or African American",
+          "value": 385
+        },
+        {
+          "label": "Hispanic",
+          "value": 16917
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 14
+        },
+        {
+          "label": "Two or More Races",
+          "value": 344
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7392
+        }
+      ]
+    },
+    "McKinley County, New Mexico": {
+      "label": "McKinley County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 53427
+        },
+        {
+          "label": "Asian",
+          "value": 926
+        },
+        {
+          "label": "Black or African American",
+          "value": 313
+        },
+        {
+          "label": "Hispanic",
+          "value": 8649
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 57
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2016
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5699
+        }
+      ]
+    },
+    "Mora County, New Mexico": {
+      "label": "Mora County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 73
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 3178
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 917
+        }
+      ]
+    },
+    "Otero County, New Mexico": {
+      "label": "Otero County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3988
+        },
+        {
+          "label": "Asian",
+          "value": 974
+        },
+        {
+          "label": "Black or African American",
+          "value": 2340
+        },
+        {
+          "label": "Hispanic",
+          "value": 26683
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 79
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2121
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 31781
+        }
+      ]
+    },
+    "Quay County, New Mexico": {
+      "label": "Quay County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 34
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 96
+        },
+        {
+          "label": "Hispanic",
+          "value": 3842
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 18
+        },
+        {
+          "label": "Two or More Races",
+          "value": 383
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4165
+        }
+      ]
+    },
+    "Rio Arriba County, New Mexico": {
+      "label": "Rio Arriba County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6266
+        },
+        {
+          "label": "Asian",
+          "value": 236
+        },
+        {
+          "label": "Black or African American",
+          "value": 264
+        },
+        {
+          "label": "Hispanic",
+          "value": 27038
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 64
+        },
+        {
+          "label": "Two or More Races",
+          "value": 450
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5665
+        }
+      ]
+    },
+    "Roosevelt County, New Mexico": {
+      "label": "Roosevelt County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 158
+        },
+        {
+          "label": "Asian",
+          "value": 83
+        },
+        {
+          "label": "Black or African American",
+          "value": 176
+        },
+        {
+          "label": "Hispanic",
+          "value": 8440
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 33
+        },
+        {
+          "label": "Two or More Races",
+          "value": 812
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9283
+        }
+      ]
+    },
+    "San Juan County, New Mexico": {
+      "label": "San Juan County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 46701
+        },
+        {
+          "label": "Asian",
+          "value": 823
+        },
+        {
+          "label": "Black or African American",
+          "value": 739
+        },
+        {
+          "label": "Hispanic",
+          "value": 23890
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 19
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4221
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 44466
+        }
+      ]
+    },
+    "San Miguel County, New Mexico": {
+      "label": "San Miguel County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 481
+        },
+        {
+          "label": "Asian",
+          "value": 107
+        },
+        {
+          "label": "Black or African American",
+          "value": 326
+        },
+        {
+          "label": "Hispanic",
+          "value": 20367
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 787
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4699
+        }
+      ]
+    },
+    "Sandoval County, New Mexico": {
+      "label": "Sandoval County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16896
+        },
+        {
+          "label": "Asian",
+          "value": 2237
+        },
+        {
+          "label": "Black or African American",
+          "value": 3097
+        },
+        {
+          "label": "Hispanic",
+          "value": 59922
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 177
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5257
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 63454
+        }
+      ]
+    },
+    "Santa Fe County, New Mexico": {
+      "label": "Santa Fe County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3995
+        },
+        {
+          "label": "Asian",
+          "value": 2197
+        },
+        {
+          "label": "Black or African American",
+          "value": 1251
+        },
+        {
+          "label": "Hispanic",
+          "value": 74485
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 70
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4072
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 68374
+        }
+      ]
+    },
+    "Sierra County, New Mexico": {
+      "label": "Sierra County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 280
+        },
+        {
+          "label": "Asian",
+          "value": 28
+        },
+        {
+          "label": "Black or African American",
+          "value": 20
+        },
+        {
+          "label": "Hispanic",
+          "value": 3386
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 448
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7349
+        }
+      ]
+    },
+    "Socorro County, New Mexico": {
+      "label": "Socorro County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1967
+        },
+        {
+          "label": "Asian",
+          "value": 301
+        },
+        {
+          "label": "Black or African American",
+          "value": 37
+        },
+        {
+          "label": "Hispanic",
+          "value": 8196
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 396
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5372
+        }
+      ]
+    },
+    "Taos County, New Mexico": {
+      "label": "Taos County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1735
+        },
+        {
+          "label": "Asian",
+          "value": 254
+        },
+        {
+          "label": "Black or African American",
+          "value": 89
+        },
+        {
+          "label": "Hispanic",
+          "value": 17530
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 895
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13962
+        }
+      ]
+    },
+    "Torrance County, New Mexico": {
+      "label": "Torrance County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 332
+        },
+        {
+          "label": "Asian",
+          "value": 92
+        },
+        {
+          "label": "Black or African American",
+          "value": 263
+        },
+        {
+          "label": "Hispanic",
+          "value": 6499
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 471
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7476
+        }
+      ]
+    },
+    "Union County, New Mexico": {
+      "label": "Union County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 81
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 33
+        },
+        {
+          "label": "Hispanic",
+          "value": 1603
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 109
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2180
+        }
+      ]
+    },
+    "Valencia County, New Mexico": {
+      "label": "Valencia County, New Mexico",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2879
+        },
+        {
+          "label": "Asian",
+          "value": 485
+        },
+        {
+          "label": "Black or African American",
+          "value": 934
+        },
+        {
+          "label": "Hispanic",
+          "value": 46872
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 65
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1651
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24091
+        }
+      ]
+    }
+  }
+}

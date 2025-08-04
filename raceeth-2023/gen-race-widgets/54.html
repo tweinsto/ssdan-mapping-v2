@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 54</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Barbour County, West Virginia">Barbour County, West Virginia</option>
+<option value="Berkeley County, West Virginia">Berkeley County, West Virginia</option>
+<option value="Boone County, West Virginia">Boone County, West Virginia</option>
+<option value="Braxton County, West Virginia">Braxton County, West Virginia</option>
+<option value="Brooke County, West Virginia">Brooke County, West Virginia</option>
+<option value="Cabell County, West Virginia">Cabell County, West Virginia</option>
+<option value="Calhoun County, West Virginia">Calhoun County, West Virginia</option>
+<option value="Clay County, West Virginia">Clay County, West Virginia</option>
+<option value="Doddridge County, West Virginia">Doddridge County, West Virginia</option>
+<option value="Fayette County, West Virginia">Fayette County, West Virginia</option>
+<option value="Gilmer County, West Virginia">Gilmer County, West Virginia</option>
+<option value="Grant County, West Virginia">Grant County, West Virginia</option>
+<option value="Greenbrier County, West Virginia">Greenbrier County, West Virginia</option>
+<option value="Hampshire County, West Virginia">Hampshire County, West Virginia</option>
+<option value="Hancock County, West Virginia">Hancock County, West Virginia</option>
+<option value="Hardy County, West Virginia">Hardy County, West Virginia</option>
+<option value="Harrison County, West Virginia">Harrison County, West Virginia</option>
+<option value="Jackson County, West Virginia">Jackson County, West Virginia</option>
+<option value="Jefferson County, West Virginia">Jefferson County, West Virginia</option>
+<option value="Kanawha County, West Virginia">Kanawha County, West Virginia</option>
+<option value="Lewis County, West Virginia">Lewis County, West Virginia</option>
+<option value="Lincoln County, West Virginia">Lincoln County, West Virginia</option>
+<option value="Logan County, West Virginia">Logan County, West Virginia</option>
+<option value="Marion County, West Virginia">Marion County, West Virginia</option>
+<option value="Marshall County, West Virginia">Marshall County, West Virginia</option>
+<option value="Mason County, West Virginia">Mason County, West Virginia</option>
+<option value="McDowell County, West Virginia">McDowell County, West Virginia</option>
+<option value="Mercer County, West Virginia">Mercer County, West Virginia</option>
+<option value="Mineral County, West Virginia">Mineral County, West Virginia</option>
+<option value="Mingo County, West Virginia">Mingo County, West Virginia</option>
+<option value="Monongalia County, West Virginia">Monongalia County, West Virginia</option>
+<option value="Monroe County, West Virginia">Monroe County, West Virginia</option>
+<option value="Morgan County, West Virginia">Morgan County, West Virginia</option>
+<option value="Nicholas County, West Virginia">Nicholas County, West Virginia</option>
+<option value="Ohio County, West Virginia">Ohio County, West Virginia</option>
+<option value="Pendleton County, West Virginia">Pendleton County, West Virginia</option>
+<option value="Pleasants County, West Virginia">Pleasants County, West Virginia</option>
+<option value="Pocahontas County, West Virginia">Pocahontas County, West Virginia</option>
+<option value="Preston County, West Virginia">Preston County, West Virginia</option>
+<option value="Putnam County, West Virginia">Putnam County, West Virginia</option>
+<option value="Raleigh County, West Virginia">Raleigh County, West Virginia</option>
+<option value="Randolph County, West Virginia">Randolph County, West Virginia</option>
+<option value="Ritchie County, West Virginia">Ritchie County, West Virginia</option>
+<option value="Roane County, West Virginia">Roane County, West Virginia</option>
+<option value="Summers County, West Virginia">Summers County, West Virginia</option>
+<option value="Taylor County, West Virginia">Taylor County, West Virginia</option>
+<option value="Tucker County, West Virginia">Tucker County, West Virginia</option>
+<option value="Tyler County, West Virginia">Tyler County, West Virginia</option>
+<option value="Upshur County, West Virginia">Upshur County, West Virginia</option>
+<option value="Wayne County, West Virginia">Wayne County, West Virginia</option>
+<option value="Webster County, West Virginia">Webster County, West Virginia</option>
+<option value="Wetzel County, West Virginia">Wetzel County, West Virginia</option>
+<option value="Wirt County, West Virginia">Wirt County, West Virginia</option>
+<option value="Wood County, West Virginia">Wood County, West Virginia</option>
+<option value="Wyoming County, West Virginia">Wyoming County, West Virginia</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.06,"Asian":0.75,"Black or African American":3.21,"Hispanic":2.02,"Pacific Islander":0.03,"Two or More Races":3.45,"White (non-Hispanic)":90.2},"Barbour County, West Virginia":{"American Indian / Alaska Native":0.11,"Asian":0.47,"Black or African American":1.75,"Hispanic":1.19,"Pacific Islander":0,"Two or More Races":5.2,"White (non-Hispanic)":91.13},"Berkeley County, West Virginia":{"American Indian / Alaska Native":0.06,"Asian":0.92,"Black or African American":6.9,"Hispanic":6.04,"Pacific Islander":0.01,"Two or More Races":4.62,"White (non-Hispanic)":80.77},"Boone County, West Virginia":{"American Indian / Alaska Native":0,"Asian":0.18,"Black or African American":0.43,"Hispanic":0.46,"Pacific Islander":0,"Two or More Races":1.72,"White (non-Hispanic)":97.22},"Braxton County, West Virginia":{"American Indian / Alaska Native":0.31,"Asian":0.11,"Black or African American":0.87,"Hispanic":0.83,"Pacific Islander":0,"Two or More Races":10.9,"White (non-Hispanic)":86.97},"Brooke County, West Virginia":{"American Indian / Alaska Native":0.06,"Asian":0.56,"Black or African American":1.43,"Hispanic":1.34,"Pacific Islander":0.01,"Two or More Races":3.51,"White (non-Hispanic)":93.09},"Cabell County, West Virginia":{"American Indian / Alaska Native":0.08,"Asian":1.22,"Black or African American":4.11,"Hispanic":1.7,"Pacific Islander":0.01,"Two or More Races":3.63,"White (non-Hispanic)":89.06},"Calhoun County, West Virginia":{"American Indian / Alaska Native":0,"Asian":0.03,"Black or African American":0.05,"Hispanic":0.45,"Pacific Islander":0,"Two or More Races":3.23,"White (non-Hispanic)":95.75},"Clay County, West Virginia":{"American Indian / Alaska Native":0.06,"Asian":0,"Black or African American":0.03,"Hispanic":0.19,"Pacific Islander":0,"Two or More Races":2.69,"White (non-Hispanic)":97.03},"Doddridge County, West Virginia":{"American Indian / Alaska Native":0.15,"Asian":0,"Black or African American":2.45,"Hispanic":1.43,"Pacific Islander":0,"Two or More Races":2.97,"White (non-Hispanic)":92.44},"Fayette County, West Virginia":{"American Indian / Alaska Native":0.03,"Asian":0.04,"Black or African American":4.51,"Hispanic":1.35,"Pacific Islander":0,"Two or More Races":2.18,"White (non-Hispanic)":91.71},"Gilmer County, West Virginia":{"American Indian / Alaska Native":0.14,"Asian":0.19,"Black or African American":14.28,"Hispanic":3.61,"Pacific Islander":0,"Two or More Races":1.87,"White (non-Hispanic)":79.14},"Grant County, West Virginia":{"American Indian / Alaska Native":0,"Asian":0.08,"Black or African American":1.37,"Hispanic":0.48,"Pacific Islander":0.09,"Two or More Races":1.83,"White (non-Hispanic)":96.13},"Greenbrier County, West Virginia":{"American Indian / Alaska Native":0.11,"Asian":0.53,"Black or African American":2.2,"Hispanic":1.83,"Pacific Islander":0.05,"Two or More Races":3.4,"White (non-Hispanic)":91.8},"Hampshire County, West Virginia":{"American Indian / Alaska Native":0.06,"Asian":0.07,"Black or African American":0.62,"Hispanic":1.64,"Pacific Islander":0,"Two or More Races":3.48,"White (non-Hispanic)":93.86},"Hancock County, West Virginia":{"American Indian / Alaska Native":0,"Asian":0.41,"Black or African American":1.96,"Hispanic":1.65,"Pacific Islander":0.25,"Two or More Races":3.16,"White (non-Hispanic)":92.41},"Hardy County, West Virginia":{"American Indian / Alaska Native":0.02,"Asian":0.03,"Black or African American":4.56,"Hispanic":4.52,"Pacific Islander":0.01,"Two or More Races":1.29,"White (non-Hispanic)":89.3},"Harrison County, West Virginia":{"American Indian / Alaska Native":0.04,"Asian":0.75,"Black or African American":1.29,"Hispanic":2.16,"Pacific Islander":0.02,"Two or More Races":3.4,"White (non-Hispanic)":92.31},"Jackson County, West Virginia":{"American Indian / Alaska Native":0.03,"Asian":0.41,"Black or African American":0.2,"Hispanic":0.95,"Pacific Islander":0.03,"Two or More Races":1.99,"White (non-Hispanic)":96.05},"Jefferson County, West Virginia":{"American Indian / Alaska Native":0.01,"Asian":1.43,"Black or African American":5.28,"Hispanic":7.45,"Pacific Islander":0,"Two or More Races":4.77,"White (non-Hispanic)":80.42},"Kanawha County, West Virginia":{"American Indian / Alaska Native":0.05,"Asian":1.2,"Black or African American":6.13,"Hispanic":1.5,"Pacific Islander":0.1,"Two or More Races":4.56,"White (non-Hispanic)":86.24},"Lewis County, West Virginia":{"American Indian / Alaska Native":0.19,"Asian":0.37,"Black or African American":0.33,"Hispanic":1.51,"Pacific Islander":0,"Two or More Races":6.23,"White (non-Hispanic)":91.22},"Lincoln County, West Virginia":{"American Indian / Alaska Native":0.22,"Asian":0.22,"Black or African American":0,"Hispanic":0.72,"Pacific Islander":0,"Two or More Races":2.4,"White (non-Hispanic)":96.43},"Logan County, West Virginia":{"American Indian / Alaska Native":0.01,"Asian":0.34,"Black or African American":1.86,"Hispanic":0.8,"Pacific Islander":0,"Two or More Races":1.25,"White (non-Hispanic)":95.75},"Marion County, West Virginia":{"American Indian / Alaska Native":0.02,"Asian":0.43,"Black or African American":2.59,"Hispanic":1.57,"Pacific Islander":0,"Two or More Races":3.58,"White (non-Hispanic)":91.48},"Marshall County, West Virginia":{"American Indian / Alaska Native":0.03,"Asian":0.37,"Black or African American":0.27,"Hispanic":1.11,"Pacific Islander":0.12,"Two or More Races":3.37,"White (non-Hispanic)":93.91},"Mason County, West Virginia":{"American Indian / Alaska Native":0,"Asian":0.39,"Black or African American":0.88,"Hispanic":0.81,"Pacific Islander":0,"Two or More Races":1.8,"White (non-Hispanic)":95.7},"McDowell County, West Virginia":{"American Indian / Alaska Native":0.17,"Asian":0.1,"Black or African American":9.02,"Hispanic":1.94,"Pacific Islander":0,"Two or More Races":2.01,"White (non-Hispanic)":86.74},"Mercer County, West Virginia":{"American Indian / Alaska Native":0.29,"Asian":0.3,"Black or African American":4.16,"Hispanic":1.31,"Pacific Islander":0,"Two or More Races":4.72,"White (non-Hispanic)":88.9},"Mineral County, West Virginia":{"American Indian / Alaska Native":0,"Asian":0.07,"Black or African American":1.76,"Hispanic":1.17,"Pacific Islander":0.11,"Two or More Races":3.81,"White (non-Hispanic)":92.5},"Mingo County, West Virginia":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":1.98,"Hispanic":0.48,"Pacific Islander":0,"Two or More Races":2.17,"White (non-Hispanic)":95.27},"Monongalia County, West Virginia":{"American Indian / Alaska Native":0.04,"Asian":3.52,"Black or African American":3.51,"Hispanic":3.1,"Pacific Islander":0,"Two or More Races":2.95,"White (non-Hispanic)":86.16},"Monroe County, West Virginia":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":1.3,"Hispanic":0.81,"Pacific Islander":0,"Two or More Races":2.28,"White (non-Hispanic)":95.61},"Morgan County, West Virginia":{"American Indian / Alaska Native":0.02,"Asian":0.56,"Black or African American":0.25,"Hispanic":1.64,"Pacific Islander":0,"Two or More Races":3.08,"White (non-Hispanic)":93.86},"Nicholas County, West Virginia":{"American Indian / Alaska Native":0.04,"Asian":0.55,"Black or African American":0.3,"Hispanic":0.53,"Pacific Islander":0,"Two or More Races":2.04,"White (non-Hispanic)":96.49},"Ohio County, West Virginia":{"American Indian / Alaska Native":0.1,"Asian":0.43,"Black or African American":3.24,"Hispanic":1.58,"Pacific Islander":0,"Two or More Races":4.27,"White (non-Hispanic)":90.21},"Pendleton County, West Virginia":{"American Indian / Alaska Native":0.23,"Asian":0.2,"Black or African American":2.14,"Hispanic":1.88,"Pacific Islander":0,"Two or More Races":0.77,"White (non-Hispanic)":94.78},"Pleasants County, West Virginia":{"American Indian / Alaska Native":0.26,"Asian":0,"Black or African American":0.46,"Hispanic":3.09,"Pacific Islander":0,"Two or More Races":1.52,"White (non-Hispanic)":94.66},"Pocahontas County, West Virginia":{"American Indian / Alaska Native":0,"Asian":0.36,"Black or African American":0.37,"Hispanic":0.87,"Pacific Islander":0,"Two or More Races":3.78,"White (non-Hispanic)":94.53},"Preston County, West Virginia":{"American Indian / Alaska Native":0.23,"Asian":0.25,"Black or African American":6.45,"Hispanic":1.92,"Pacific Islander":0.01,"Two or More Races":1.8,"White (non-Hispanic)":89.31},"Putnam County, West Virginia":{"American Indian / Alaska Native":0.02,"Asian":0.79,"Black or African American":0.73,"Hispanic":1.49,"Pacific Islander":0,"Two or More Races":2.63,"White (non-Hispanic)":94.04},"Raleigh County, West Virginia":{"American Indian / Alaska Native":0.02,"Asian":0.8,"Black or African American":6.74,"Hispanic":1.7,"Pacific Islander":0.01,"Two or More Races":3.35,"White (non-Hispanic)":87.15},"Randolph County, West Virginia":{"American Indian / Alaska Native":0.1,"Asian":0.01,"Black or African American":1.44,"Hispanic":1.08,"Pacific Islander":0,"Two or More Races":6.88,"White (non-Hispanic)":90.48},"Ritchie County, West Virginia":{"American Indian / Alaska Native":0,"Asian":0.9,"Black or African American":0.12,"Hispanic":0.45,"Pacific Islander":0,"Two or More Races":1.88,"White (non-Hispanic)":96.64},"Roane County, West Virginia":{"American Indian / Alaska Native":0.09,"Asian":0.52,"Black or African American":0.02,"Hispanic":1.18,"Pacific Islander":0.01,"Two or More Races":2.9,"White (non-Hispanic)":95.12},"Summers County, West Virginia":{"American Indian / Alaska Native":0.18,"Asian":0,"Black or African American":5.72,"Hispanic":1.2,"Pacific Islander":0,"Two or More Races":1.78,"White (non-Hispanic)":91.04},"Taylor County, West Virginia":{"American Indian / Alaska Native":0.14,"Asian":0.1,"Black or African American":1.21,"Hispanic":1.01,"Pacific Islander":0,"Two or More Races":2.57,"White (non-Hispanic)":94.98},"Tucker County, West Virginia":{"American Indian / Alaska Native":0,"Asian":0.09,"Black or African American":0.01,"Hispanic":0.45,"Pacific Islander":0,"Two or More Races":2.42,"White (non-Hispanic)":97.03},"Tyler County, West Virginia":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":0.71,"Hispanic":1.01,"Pacific Islander":0,"Two or More Races":2.52,"White (non-Hispanic)":95.75},"Upshur County, West Virginia":{"American Indian / Alaska Native":0.05,"Asian":0.29,"Black or African American":1.3,"Hispanic":1.4,"Pacific Islander":0.03,"Two or More Races":3.8,"White (non-Hispanic)":92.15},"Wayne County, West Virginia":{"American Indian / Alaska Native":0,"Asian":0.04,"Black or African American":0.85,"Hispanic":0.85,"Pacific Islander":0,"Two or More Races":2.27,"White (non-Hispanic)":95.93},"Webster County, West Virginia":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":0.19,"Hispanic":0.39,"Pacific Islander":0,"Two or More Races":6.62,"White (non-Hispanic)":92.69},"Wetzel County, West Virginia":{"American Indian / Alaska Native":0,"Asian":0.13,"Black or African American":0.46,"Hispanic":1.79,"Pacific Islander":0,"Two or More Races":3.12,"White (non-Hispanic)":94.08},"Wirt County, West Virginia":{"American Indian / Alaska Native":0,"Asian":0.16,"Black or African American":0.21,"Hispanic":0,"Pacific Islander":0,"Two or More Races":2.77,"White (non-Hispanic)":96.86},"Wood County, West Virginia":{"American Indian / Alaska Native":0.1,"Asian":0.44,"Black or African American":1.14,"Hispanic":1.42,"Pacific Islander":0.1,"Two or More Races":2.67,"White (non-Hispanic)":94.01},"Wyoming County, West Virginia":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":0.66,"Hispanic":0.44,"Pacific Islander":0,"Two or More Races":1.98,"White (non-Hispanic)":96.84}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

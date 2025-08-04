@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 31</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Adams County, Nebraska">Adams County, Nebraska</option>
+<option value="Antelope County, Nebraska">Antelope County, Nebraska</option>
+<option value="Arthur County, Nebraska">Arthur County, Nebraska</option>
+<option value="Banner County, Nebraska">Banner County, Nebraska</option>
+<option value="Blaine County, Nebraska">Blaine County, Nebraska</option>
+<option value="Boone County, Nebraska">Boone County, Nebraska</option>
+<option value="Box Butte County, Nebraska">Box Butte County, Nebraska</option>
+<option value="Boyd County, Nebraska">Boyd County, Nebraska</option>
+<option value="Brown County, Nebraska">Brown County, Nebraska</option>
+<option value="Buffalo County, Nebraska">Buffalo County, Nebraska</option>
+<option value="Burt County, Nebraska">Burt County, Nebraska</option>
+<option value="Butler County, Nebraska">Butler County, Nebraska</option>
+<option value="Cass County, Nebraska">Cass County, Nebraska</option>
+<option value="Cedar County, Nebraska">Cedar County, Nebraska</option>
+<option value="Chase County, Nebraska">Chase County, Nebraska</option>
+<option value="Cherry County, Nebraska">Cherry County, Nebraska</option>
+<option value="Cheyenne County, Nebraska">Cheyenne County, Nebraska</option>
+<option value="Clay County, Nebraska">Clay County, Nebraska</option>
+<option value="Colfax County, Nebraska">Colfax County, Nebraska</option>
+<option value="Cuming County, Nebraska">Cuming County, Nebraska</option>
+<option value="Custer County, Nebraska">Custer County, Nebraska</option>
+<option value="Dakota County, Nebraska">Dakota County, Nebraska</option>
+<option value="Dawes County, Nebraska">Dawes County, Nebraska</option>
+<option value="Dawson County, Nebraska">Dawson County, Nebraska</option>
+<option value="Deuel County, Nebraska">Deuel County, Nebraska</option>
+<option value="Dixon County, Nebraska">Dixon County, Nebraska</option>
+<option value="Dodge County, Nebraska">Dodge County, Nebraska</option>
+<option value="Douglas County, Nebraska">Douglas County, Nebraska</option>
+<option value="Dundy County, Nebraska">Dundy County, Nebraska</option>
+<option value="Fillmore County, Nebraska">Fillmore County, Nebraska</option>
+<option value="Franklin County, Nebraska">Franklin County, Nebraska</option>
+<option value="Frontier County, Nebraska">Frontier County, Nebraska</option>
+<option value="Furnas County, Nebraska">Furnas County, Nebraska</option>
+<option value="Gage County, Nebraska">Gage County, Nebraska</option>
+<option value="Garden County, Nebraska">Garden County, Nebraska</option>
+<option value="Garfield County, Nebraska">Garfield County, Nebraska</option>
+<option value="Gosper County, Nebraska">Gosper County, Nebraska</option>
+<option value="Grant County, Nebraska">Grant County, Nebraska</option>
+<option value="Greeley County, Nebraska">Greeley County, Nebraska</option>
+<option value="Hall County, Nebraska">Hall County, Nebraska</option>
+<option value="Hamilton County, Nebraska">Hamilton County, Nebraska</option>
+<option value="Harlan County, Nebraska">Harlan County, Nebraska</option>
+<option value="Hayes County, Nebraska">Hayes County, Nebraska</option>
+<option value="Hitchcock County, Nebraska">Hitchcock County, Nebraska</option>
+<option value="Holt County, Nebraska">Holt County, Nebraska</option>
+<option value="Hooker County, Nebraska">Hooker County, Nebraska</option>
+<option value="Howard County, Nebraska">Howard County, Nebraska</option>
+<option value="Jefferson County, Nebraska">Jefferson County, Nebraska</option>
+<option value="Johnson County, Nebraska">Johnson County, Nebraska</option>
+<option value="Kearney County, Nebraska">Kearney County, Nebraska</option>
+<option value="Keith County, Nebraska">Keith County, Nebraska</option>
+<option value="Keya Paha County, Nebraska">Keya Paha County, Nebraska</option>
+<option value="Kimball County, Nebraska">Kimball County, Nebraska</option>
+<option value="Knox County, Nebraska">Knox County, Nebraska</option>
+<option value="Lancaster County, Nebraska">Lancaster County, Nebraska</option>
+<option value="Lincoln County, Nebraska">Lincoln County, Nebraska</option>
+<option value="Logan County, Nebraska">Logan County, Nebraska</option>
+<option value="Loup County, Nebraska">Loup County, Nebraska</option>
+<option value="Madison County, Nebraska">Madison County, Nebraska</option>
+<option value="McPherson County, Nebraska">McPherson County, Nebraska</option>
+<option value="Merrick County, Nebraska">Merrick County, Nebraska</option>
+<option value="Morrill County, Nebraska">Morrill County, Nebraska</option>
+<option value="Nance County, Nebraska">Nance County, Nebraska</option>
+<option value="Nemaha County, Nebraska">Nemaha County, Nebraska</option>
+<option value="Nuckolls County, Nebraska">Nuckolls County, Nebraska</option>
+<option value="Otoe County, Nebraska">Otoe County, Nebraska</option>
+<option value="Pawnee County, Nebraska">Pawnee County, Nebraska</option>
+<option value="Perkins County, Nebraska">Perkins County, Nebraska</option>
+<option value="Phelps County, Nebraska">Phelps County, Nebraska</option>
+<option value="Pierce County, Nebraska">Pierce County, Nebraska</option>
+<option value="Platte County, Nebraska">Platte County, Nebraska</option>
+<option value="Polk County, Nebraska">Polk County, Nebraska</option>
+<option value="Red Willow County, Nebraska">Red Willow County, Nebraska</option>
+<option value="Richardson County, Nebraska">Richardson County, Nebraska</option>
+<option value="Rock County, Nebraska">Rock County, Nebraska</option>
+<option value="Saline County, Nebraska">Saline County, Nebraska</option>
+<option value="Sarpy County, Nebraska">Sarpy County, Nebraska</option>
+<option value="Saunders County, Nebraska">Saunders County, Nebraska</option>
+<option value="Scotts Bluff County, Nebraska">Scotts Bluff County, Nebraska</option>
+<option value="Seward County, Nebraska">Seward County, Nebraska</option>
+<option value="Sheridan County, Nebraska">Sheridan County, Nebraska</option>
+<option value="Sherman County, Nebraska">Sherman County, Nebraska</option>
+<option value="Sioux County, Nebraska">Sioux County, Nebraska</option>
+<option value="Stanton County, Nebraska">Stanton County, Nebraska</option>
+<option value="Thayer County, Nebraska">Thayer County, Nebraska</option>
+<option value="Thomas County, Nebraska">Thomas County, Nebraska</option>
+<option value="Thurston County, Nebraska">Thurston County, Nebraska</option>
+<option value="Valley County, Nebraska">Valley County, Nebraska</option>
+<option value="Washington County, Nebraska">Washington County, Nebraska</option>
+<option value="Wayne County, Nebraska">Wayne County, Nebraska</option>
+<option value="Webster County, Nebraska">Webster County, Nebraska</option>
+<option value="Wheeler County, Nebraska">Wheeler County, Nebraska</option>
+<option value="York County, Nebraska">York County, Nebraska</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.59,"Asian":2.48,"Black or African American":4.62,"Hispanic":12.32,"Pacific Islander":0.04,"Two or More Races":3.44,"White (non-Hispanic)":76.22},"Adams County, Nebraska":{"American Indian / Alaska Native":0.15,"Asian":1.02,"Black or African American":1.2,"Hispanic":12.05,"Pacific Islander":0,"Two or More Races":1.83,"White (non-Hispanic)":83.41},"Antelope County, Nebraska":{"American Indian / Alaska Native":0.19,"Asian":0.21,"Black or African American":0.89,"Hispanic":3.76,"Pacific Islander":0.03,"Two or More Races":0.98,"White (non-Hispanic)":93.45},"Arthur County, Nebraska":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":0,"Hispanic":0.56,"Pacific Islander":0,"Two or More Races":6.67,"White (non-Hispanic)":92.59},"Banner County, Nebraska":{"American Indian / Alaska Native":0,"Asian":1.07,"Black or African American":0,"Hispanic":4.41,"Pacific Islander":0,"Two or More Races":2.13,"White (non-Hispanic)":92.39},"Blaine County, Nebraska":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":0,"Hispanic":0,"Pacific Islander":0,"Two or More Races":0,"White (non-Hispanic)":100},"Boone County, Nebraska":{"American Indian / Alaska Native":0.04,"Asian":0.32,"Black or African American":0.02,"Hispanic":3.86,"Pacific Islander":0.04,"Two or More Races":1.47,"White (non-Hispanic)":94.26},"Box Butte County, Nebraska":{"American Indian / Alaska Native":0.9,"Asian":0.94,"Black or African American":3.39,"Hispanic":12.28,"Pacific Islander":0,"Two or More Races":1.83,"White (non-Hispanic)":80.65},"Boyd County, Nebraska":{"American Indian / Alaska Native":2.93,"Asian":0,"Black or African American":0.29,"Hispanic":3.93,"Pacific Islander":0,"Two or More Races":0.23,"White (non-Hispanic)":92.14},"Brown County, Nebraska":{"American Indian / Alaska Native":0.29,"Asian":0.04,"Black or African American":0.04,"Hispanic":5.77,"Pacific Islander":0,"Two or More Races":4.24,"White (non-Hispanic)":89.12},"Buffalo County, Nebraska":{"American Indian / Alaska Native":0.25,"Asian":1.62,"Black or African American":0.81,"Hispanic":10.37,"Pacific Islander":0.02,"Two or More Races":2.08,"White (non-Hispanic)":84.64},"Burt County, Nebraska":{"American Indian / Alaska Native":0.71,"Asian":0.42,"Black or African American":0.45,"Hispanic":3.24,"Pacific Islander":0.16,"Two or More Races":3.36,"White (non-Hispanic)":91.11},"Butler County, Nebraska":{"American Indian / Alaska Native":0.24,"Asian":0,"Black or African American":0.29,"Hispanic":5.99,"Pacific Islander":0,"Two or More Races":3,"White (non-Hispanic)":90.41},"Cass County, Nebraska":{"American Indian / Alaska Native":0.28,"Asian":0.25,"Black or African American":0.16,"Hispanic":3.94,"Pacific Islander":0.03,"Two or More Races":3.19,"White (non-Hispanic)":91.14},"Cedar County, Nebraska":{"American Indian / Alaska Native":0.31,"Asian":0.23,"Black or African American":0.16,"Hispanic":2.43,"Pacific Islander":0,"Two or More Races":1.47,"White (non-Hispanic)":95.33},"Chase County, Nebraska":{"American Indian / Alaska Native":0,"Asian":2.23,"Black or African American":0.44,"Hispanic":18.36,"Pacific Islander":0,"Two or More Races":1.95,"White (non-Hispanic)":77.03},"Cherry County, Nebraska":{"American Indian / Alaska Native":2.62,"Asian":1.15,"Black or African American":0.97,"Hispanic":3,"Pacific Islander":0,"Two or More Races":6.58,"White (non-Hispanic)":85.15},"Cheyenne County, Nebraska":{"American Indian / Alaska Native":0.13,"Asian":0.65,"Black or African American":2.07,"Hispanic":8.34,"Pacific Islander":0.15,"Two or More Races":1.13,"White (non-Hispanic)":87.39},"Clay County, Nebraska":{"American Indian / Alaska Native":0.15,"Asian":0.03,"Black or African American":0.67,"Hispanic":9.37,"Pacific Islander":0,"Two or More Races":1.81,"White (non-Hispanic)":87.87},"Colfax County, Nebraska":{"American Indian / Alaska Native":2.07,"Asian":0.02,"Black or African American":3.41,"Hispanic":47.27,"Pacific Islander":0,"Two or More Races":1.58,"White (non-Hispanic)":45.65},"Cuming County, Nebraska":{"American Indian / Alaska Native":0.55,"Asian":0.22,"Black or African American":0.43,"Hispanic":12.2,"Pacific Islander":0,"Two or More Races":1.09,"White (non-Hispanic)":85.46},"Custer County, Nebraska":{"American Indian / Alaska Native":0.61,"Asian":0.11,"Black or African American":0.51,"Hispanic":3.76,"Pacific Islander":0.11,"Two or More Races":2.11,"White (non-Hispanic)":92.41},"Dakota County, Nebraska":{"American Indian / Alaska Native":1.95,"Asian":2.81,"Black or African American":8.12,"Hispanic":41.16,"Pacific Islander":0,"Two or More Races":2.58,"White (non-Hispanic)":43.26},"Dawes County, Nebraska":{"American Indian / Alaska Native":1.79,"Asian":1,"Black or African American":1.35,"Hispanic":4.76,"Pacific Islander":0,"Two or More Races":4.65,"White (non-Hispanic)":86.45},"Dawson County, Nebraska":{"American Indian / Alaska Native":0.11,"Asian":0.58,"Black or African American":6.27,"Hispanic":36.3,"Pacific Islander":0.35,"Two or More Races":2.09,"White (non-Hispanic)":53.94},"Deuel County, Nebraska":{"American Indian / Alaska Native":0.8,"Asian":0.48,"Black or African American":0,"Hispanic":10.08,"Pacific Islander":0,"Two or More Races":2.14,"White (non-Hispanic)":86.27},"Dixon County, Nebraska":{"American Indian / Alaska Native":0.29,"Asian":1.02,"Black or African American":0.04,"Hispanic":15.07,"Pacific Islander":0,"Two or More Races":1.4,"White (non-Hispanic)":82.04},"Dodge County, Nebraska":{"American Indian / Alaska Native":0.1,"Asian":0.43,"Black or African American":0.52,"Hispanic":17.09,"Pacific Islander":0.01,"Two or More Races":2.7,"White (non-Hispanic)":78.79},"Douglas County, Nebraska":{"American Indian / Alaska Native":0.24,"Asian":4.18,"Black or African American":10.32,"Hispanic":14.12,"Pacific Islander":0.04,"Two or More Races":4.17,"White (non-Hispanic)":66.62},"Dundy County, Nebraska":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":0.33,"Hispanic":2.43,"Pacific Islander":0,"Two or More Races":1.1,"White (non-Hispanic)":96.13},"Fillmore County, Nebraska":{"American Indian / Alaska Native":0.18,"Asian":0.16,"Black or African American":0.27,"Hispanic":3.68,"Pacific Islander":0,"Two or More Races":2.5,"White (non-Hispanic)":93.03},"Franklin County, Nebraska":{"American Indian / Alaska Native":0.52,"Asian":0.03,"Black or African American":0.21,"Hispanic":3.14,"Pacific Islander":0,"Two or More Races":2.75,"White (non-Hispanic)":93.27},"Frontier County, Nebraska":{"American Indian / Alaska Native":0.16,"Asian":0,"Black or African American":1.01,"Hispanic":3.75,"Pacific Islander":0,"Two or More Races":2.73,"White (non-Hispanic)":92.35},"Furnas County, Nebraska":{"American Indian / Alaska Native":0.96,"Asian":0.11,"Black or African American":0.28,"Hispanic":5.06,"Pacific Islander":0,"Two or More Races":1.85,"White (non-Hispanic)":91.75},"Gage County, Nebraska":{"American Indian / Alaska Native":0.32,"Asian":0.59,"Black or African American":0.67,"Hispanic":3.21,"Pacific Islander":0,"Two or More Races":2.23,"White (non-Hispanic)":92.88},"Garden County, Nebraska":{"American Indian / Alaska Native":0.06,"Asian":0.25,"Black or African American":0.06,"Hispanic":3.27,"Pacific Islander":0,"Two or More Races":1.42,"White (non-Hispanic)":94.57},"Garfield County, Nebraska":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":0.39,"Hispanic":2.11,"Pacific Islander":0,"Two or More Races":1.06,"White (non-Hispanic)":96.44},"Gosper County, Nebraska":{"American Indian / Alaska Native":0.41,"Asian":0,"Black or African American":0,"Hispanic":6.38,"Pacific Islander":0.36,"Two or More Races":1.3,"White (non-Hispanic)":91.55},"Grant County, Nebraska":{"American Indian / Alaska Native":1.01,"Asian":0.72,"Black or African American":0.29,"Hispanic":0.14,"Pacific Islander":0,"Two or More Races":1.87,"White (non-Hispanic)":94.53},"Greeley County, Nebraska":{"American Indian / Alaska Native":0.63,"Asian":0,"Black or African American":0.63,"Hispanic":2.17,"Pacific Islander":0,"Two or More Races":4.03,"White (non-Hispanic)":92.54},"Hall County, Nebraska":{"American Indian / Alaska Native":0.35,"Asian":1.04,"Black or African American":3.18,"Hispanic":31.34,"Pacific Islander":0.04,"Two or More Races":1.8,"White (non-Hispanic)":62.09},"Hamilton County, Nebraska":{"American Indian / Alaska Native":0.12,"Asian":0.38,"Black or African American":0.15,"Hispanic":4.07,"Pacific Islander":0.01,"Two or More Races":2.44,"White (non-Hispanic)":92.76},"Harlan County, Nebraska":{"American Indian / Alaska Native":0,"Asian":1.33,"Black or African American":0.2,"Hispanic":2.33,"Pacific Islander":0,"Two or More Races":2.56,"White (non-Hispanic)":93.58},"Hayes County, Nebraska":{"American Indian / Alaska Native":0.23,"Asian":0,"Black or African American":0,"Hispanic":6.44,"Pacific Islander":0,"Two or More Races":0.94,"White (non-Hispanic)":92.39},"Hitchcock County, Nebraska":{"American Indian / Alaska Native":0.23,"Asian":0.31,"Black or African American":0.08,"Hispanic":3.88,"Pacific Islander":0,"Two or More Races":2.73,"White (non-Hispanic)":92.62},"Holt County, Nebraska":{"American Indian / Alaska Native":0.21,"Asian":0.46,"Black or African American":0.32,"Hispanic":5.51,"Pacific Islander":0,"Two or More Races":1.64,"White (non-Hispanic)":91.63},"Hooker County, Nebraska":{"American Indian / Alaska Native":1.14,"Asian":0,"Black or African American":1.79,"Hispanic":0,"Pacific Islander":0,"Two or More Races":7.99,"White (non-Hispanic)":87.11},"Howard County, Nebraska":{"American Indian / Alaska Native":0.03,"Asian":0,"Black or African American":0.51,"Hispanic":2.99,"Pacific Islander":0,"Two or More Races":4.7,"White (non-Hispanic)":91.77},"Jefferson County, Nebraska":{"American Indian / Alaska Native":0.27,"Asian":0.03,"Black or African American":0.63,"Hispanic":5.3,"Pacific Islander":0,"Two or More Races":2.64,"White (non-Hispanic)":91.14},"Johnson County, Nebraska":{"American Indian / Alaska Native":1.35,"Asian":1.06,"Black or African American":4.66,"Hispanic":11.69,"Pacific Islander":0,"Two or More Races":3.1,"White (non-Hispanic)":78.15},"Kearney County, Nebraska":{"American Indian / Alaska Native":0.43,"Asian":0.61,"Black or African American":0.03,"Hispanic":6.48,"Pacific Islander":0,"Two or More Races":1.1,"White (non-Hispanic)":91.28},"Keith County, Nebraska":{"American Indian / Alaska Native":0,"Asian":0.62,"Black or African American":1.32,"Hispanic":8.99,"Pacific Islander":0,"Two or More Races":3,"White (non-Hispanic)":86.07},"Keya Paha County, Nebraska":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":0.11,"Hispanic":3.62,"Pacific Islander":0,"Two or More Races":0.21,"White (non-Hispanic)":93.82},"Kimball County, Nebraska":{"American Indian / Alaska Native":1.61,"Asian":0.39,"Black or African American":1.31,"Hispanic":9.92,"Pacific Islander":0,"Two or More Races":3.11,"White (non-Hispanic)":83.66},"Knox County, Nebraska":{"American Indian / Alaska Native":8.6,"Asian":0.43,"Black or African American":0.6,"Hispanic":2.79,"Pacific Islander":0.01,"Two or More Races":2.55,"White (non-Hispanic)":84.94},"Lancaster County, Nebraska":{"American Indian / Alaska Native":0.31,"Asian":4.05,"Black or African American":3.68,"Hispanic":8.24,"Pacific Islander":0.04,"Two or More Races":4.65,"White (non-Hispanic)":78.75},"Lincoln County, Nebraska":{"American Indian / Alaska Native":0.57,"Asian":0.74,"Black or African American":0.83,"Hispanic":9.08,"Pacific Islander":0.02,"Two or More Races":1.7,"White (non-Hispanic)":86.73},"Logan County, Nebraska":{"American Indian / Alaska Native":0.62,"Asian":0,"Black or African American":1.6,"Hispanic":1.35,"Pacific Islander":0,"Two or More Races":6.03,"White (non-Hispanic)":89.53},"Loup County, Nebraska":{"American Indian / Alaska Native":0.89,"Asian":0,"Black or African American":0,"Hispanic":9.4,"Pacific Islander":0,"Two or More Races":3.55,"White (non-Hispanic)":86.17},"Madison County, Nebraska":{"American Indian / Alaska Native":0.82,"Asian":1.21,"Black or African American":0.86,"Hispanic":15.92,"Pacific Islander":0,"Two or More Races":3.02,"White (non-Hispanic)":78.17},"McPherson County, Nebraska":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":0,"Hispanic":0,"Pacific Islander":0,"Two or More Races":0.65,"White (non-Hispanic)":99.35},"Merrick County, Nebraska":{"American Indian / Alaska Native":0.01,"Asian":0.83,"Black or African American":0.04,"Hispanic":5.42,"Pacific Islander":0,"Two or More Races":2.56,"White (non-Hispanic)":91.14},"Morrill County, Nebraska":{"American Indian / Alaska Native":0.24,"Asian":1.06,"Black or African American":0.09,"Hispanic":14.48,"Pacific Islander":0,"Two or More Races":2.11,"White (non-Hispanic)":81.27},"Nance County, Nebraska":{"American Indian / Alaska Native":0.63,"Asian":0.12,"Black or African American":0.33,"Hispanic":2.33,"Pacific Islander":0,"Two or More Races":1.62,"White (non-Hispanic)":94.64},"Nemaha County, Nebraska":{"American Indian / Alaska Native":0.4,"Asian":0.24,"Black or African American":1.12,"Hispanic":3.11,"Pacific Islander":0,"Two or More Races":5.46,"White (non-Hispanic)":89.67},"Nuckolls County, Nebraska":{"American Indian / Alaska Native":0.32,"Asian":0,"Black or African American":0.2,"Hispanic":3.45,"Pacific Islander":0.2,"Two or More Races":3.2,"White (non-Hispanic)":92.64},"Otoe County, Nebraska":{"American Indian / Alaska Native":0.17,"Asian":0.08,"Black or African American":0.8,"Hispanic":8.28,"Pacific Islander":0,"Two or More Races":4.14,"White (non-Hispanic)":86.52},"Pawnee County, Nebraska":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":0.24,"Hispanic":1.85,"Pacific Islander":0,"Two or More Races":3.9,"White (non-Hispanic)":94.01},"Perkins County, Nebraska":{"American Indian / Alaska Native":0.14,"Asian":0.63,"Black or African American":0,"Hispanic":5.08,"Pacific Islander":0,"Two or More Races":3.07,"White (non-Hispanic)":91.01},"Phelps County, Nebraska":{"American Indian / Alaska Native":0.31,"Asian":0.07,"Black or African American":0.81,"Hispanic":6.47,"Pacific Islander":0.07,"Two or More Races":2.17,"White (non-Hispanic)":90.07},"Pierce County, Nebraska":{"American Indian / Alaska Native":0.41,"Asian":0.22,"Black or African American":0.4,"Hispanic":2.48,"Pacific Islander":0,"Two or More Races":1.9,"White (non-Hispanic)":94.53},"Platte County, Nebraska":{"American Indian / Alaska Native":0.21,"Asian":0.36,"Black or African American":0.81,"Hispanic":22.24,"Pacific Islander":0,"Two or More Races":1.98,"White (non-Hispanic)":74.29},"Polk County, Nebraska":{"American Indian / Alaska Native":0.08,"Asian":0.08,"Black or African American":0.08,"Hispanic":5.78,"Pacific Islander":0,"Two or More Races":2.99,"White (non-Hispanic)":90.96},"Red Willow County, Nebraska":{"American Indian / Alaska Native":0.38,"Asian":0,"Black or African American":0.85,"Hispanic":6.17,"Pacific Islander":0,"Two or More Races":2.54,"White (non-Hispanic)":90.07},"Richardson County, Nebraska":{"American Indian / Alaska Native":1.19,"Asian":0.03,"Black or African American":0.21,"Hispanic":2.19,"Pacific Islander":0,"Two or More Races":5.48,"White (non-Hispanic)":90.91},"Rock County, Nebraska":{"American Indian / Alaska Native":0.6,"Asian":0,"Black or African American":0.15,"Hispanic":0.45,"Pacific Islander":0,"Two or More Races":0.22,"White (non-Hispanic)":98.43},"Saline County, Nebraska":{"American Indian / Alaska Native":0.11,"Asian":2.89,"Black or African American":0.46,"Hispanic":28.71,"Pacific Islander":0.08,"Two or More Races":2.02,"White (non-Hispanic)":65.68},"Sarpy County, Nebraska":{"American Indian / Alaska Native":0.21,"Asian":2.71,"Black or African American":3.98,"Hispanic":11.06,"Pacific Islander":0.12,"Two or More Races":3.74,"White (non-Hispanic)":77.56},"Saunders County, Nebraska":{"American Indian / Alaska Native":0.13,"Asian":0.22,"Black or African American":0.65,"Hispanic":2.71,"Pacific Islander":0.03,"Two or More Races":3.12,"White (non-Hispanic)":92.97},"Scotts Bluff County, Nebraska":{"American Indian / Alaska Native":1.16,"Asian":0.65,"Black or African American":0.56,"Hispanic":23.43,"Pacific Islander":0.02,"Two or More Races":2.26,"White (non-Hispanic)":71.57},"Seward County, Nebraska":{"American Indian / Alaska Native":0.07,"Asian":0.46,"Black or African American":0.67,"Hispanic":2.82,"Pacific Islander":0.05,"Two or More Races":1.92,"White (non-Hispanic)":94.01},"Sheridan County, Nebraska":{"American Indian / Alaska Native":9.27,"Asian":1.32,"Black or African American":0.43,"Hispanic":5.14,"Pacific Islander":0,"Two or More Races":2.43,"White (non-Hispanic)":81.18},"Sherman County, Nebraska":{"American Indian / Alaska Native":0.1,"Asian":0.34,"Black or African American":0.64,"Hispanic":2.62,"Pacific Islander":0,"Two or More Races":3.6,"White (non-Hispanic)":92.7},"Sioux County, Nebraska":{"American Indian / Alaska Native":0,"Asian":0.08,"Black or African American":0.33,"Hispanic":3.84,"Pacific Islander":0,"Two or More Races":1.25,"White (non-Hispanic)":93.98},"Stanton County, Nebraska":{"American Indian / Alaska Native":0.12,"Asian":0.29,"Black or African American":0.21,"Hispanic":6.65,"Pacific Islander":0,"Two or More Races":3.03,"White (non-Hispanic)":89.67},"Thayer County, Nebraska":{"American Indian / Alaska Native":0.55,"Asian":0.02,"Black or African American":0.1,"Hispanic":3.1,"Pacific Islander":0,"Two or More Races":2.67,"White (non-Hispanic)":93.4},"Thomas County, Nebraska":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":1.28,"Hispanic":3.99,"Pacific Islander":0,"Two or More Races":6.55,"White (non-Hispanic)":88.18},"Thurston County, Nebraska":{"American Indian / Alaska Native":54.8,"Asian":0.93,"Black or African American":0.15,"Hispanic":4.4,"Pacific Islander":0,"Two or More Races":2.99,"White (non-Hispanic)":36.36},"Valley County, Nebraska":{"American Indian / Alaska Native":0.68,"Asian":0.27,"Black or African American":0,"Hispanic":2.61,"Pacific Islander":0,"Two or More Races":0.78,"White (non-Hispanic)":95.65},"Washington County, Nebraska":{"American Indian / Alaska Native":0.14,"Asian":0.25,"Black or African American":0.24,"Hispanic":3.16,"Pacific Islander":0,"Two or More Races":2.79,"White (non-Hispanic)":93.33},"Wayne County, Nebraska":{"American Indian / Alaska Native":0.2,"Asian":0.35,"Black or African American":1.01,"Hispanic":10.06,"Pacific Islander":0,"Two or More Races":2.69,"White (non-Hispanic)":85.59},"Webster County, Nebraska":{"American Indian / Alaska Native":0.53,"Asian":0.12,"Black or African American":0.15,"Hispanic":5.49,"Pacific Islander":0.21,"Two or More Races":4.08,"White (non-Hispanic)":89.19},"Wheeler County, Nebraska":{"American Indian / Alaska Native":0,"Asian":0.13,"Black or African American":0,"Hispanic":1.91,"Pacific Islander":0,"Two or More Races":1.15,"White (non-Hispanic)":96.82},"York County, Nebraska":{"American Indian / Alaska Native":0.53,"Asian":0.54,"Black or African American":1.21,"Hispanic":6.04,"Pacific Islander":0,"Two or More Races":2.71,"White (non-Hispanic)":88.5}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

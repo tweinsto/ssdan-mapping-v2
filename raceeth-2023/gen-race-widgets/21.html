@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 21</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Adair County, Kentucky">Adair County, Kentucky</option>
+<option value="Allen County, Kentucky">Allen County, Kentucky</option>
+<option value="Anderson County, Kentucky">Anderson County, Kentucky</option>
+<option value="Ballard County, Kentucky">Ballard County, Kentucky</option>
+<option value="Barren County, Kentucky">Barren County, Kentucky</option>
+<option value="Bath County, Kentucky">Bath County, Kentucky</option>
+<option value="Bell County, Kentucky">Bell County, Kentucky</option>
+<option value="Boone County, Kentucky">Boone County, Kentucky</option>
+<option value="Bourbon County, Kentucky">Bourbon County, Kentucky</option>
+<option value="Boyd County, Kentucky">Boyd County, Kentucky</option>
+<option value="Boyle County, Kentucky">Boyle County, Kentucky</option>
+<option value="Bracken County, Kentucky">Bracken County, Kentucky</option>
+<option value="Breathitt County, Kentucky">Breathitt County, Kentucky</option>
+<option value="Breckinridge County, Kentucky">Breckinridge County, Kentucky</option>
+<option value="Bullitt County, Kentucky">Bullitt County, Kentucky</option>
+<option value="Butler County, Kentucky">Butler County, Kentucky</option>
+<option value="Caldwell County, Kentucky">Caldwell County, Kentucky</option>
+<option value="Calloway County, Kentucky">Calloway County, Kentucky</option>
+<option value="Campbell County, Kentucky">Campbell County, Kentucky</option>
+<option value="Carlisle County, Kentucky">Carlisle County, Kentucky</option>
+<option value="Carroll County, Kentucky">Carroll County, Kentucky</option>
+<option value="Carter County, Kentucky">Carter County, Kentucky</option>
+<option value="Casey County, Kentucky">Casey County, Kentucky</option>
+<option value="Christian County, Kentucky">Christian County, Kentucky</option>
+<option value="Clark County, Kentucky">Clark County, Kentucky</option>
+<option value="Clay County, Kentucky">Clay County, Kentucky</option>
+<option value="Clinton County, Kentucky">Clinton County, Kentucky</option>
+<option value="Crittenden County, Kentucky">Crittenden County, Kentucky</option>
+<option value="Cumberland County, Kentucky">Cumberland County, Kentucky</option>
+<option value="Daviess County, Kentucky">Daviess County, Kentucky</option>
+<option value="Edmonson County, Kentucky">Edmonson County, Kentucky</option>
+<option value="Elliott County, Kentucky">Elliott County, Kentucky</option>
+<option value="Estill County, Kentucky">Estill County, Kentucky</option>
+<option value="Fayette County, Kentucky">Fayette County, Kentucky</option>
+<option value="Fleming County, Kentucky">Fleming County, Kentucky</option>
+<option value="Floyd County, Kentucky">Floyd County, Kentucky</option>
+<option value="Franklin County, Kentucky">Franklin County, Kentucky</option>
+<option value="Fulton County, Kentucky">Fulton County, Kentucky</option>
+<option value="Gallatin County, Kentucky">Gallatin County, Kentucky</option>
+<option value="Garrard County, Kentucky">Garrard County, Kentucky</option>
+<option value="Grant County, Kentucky">Grant County, Kentucky</option>
+<option value="Graves County, Kentucky">Graves County, Kentucky</option>
+<option value="Grayson County, Kentucky">Grayson County, Kentucky</option>
+<option value="Green County, Kentucky">Green County, Kentucky</option>
+<option value="Greenup County, Kentucky">Greenup County, Kentucky</option>
+<option value="Hancock County, Kentucky">Hancock County, Kentucky</option>
+<option value="Hardin County, Kentucky">Hardin County, Kentucky</option>
+<option value="Harlan County, Kentucky">Harlan County, Kentucky</option>
+<option value="Harrison County, Kentucky">Harrison County, Kentucky</option>
+<option value="Hart County, Kentucky">Hart County, Kentucky</option>
+<option value="Henderson County, Kentucky">Henderson County, Kentucky</option>
+<option value="Henry County, Kentucky">Henry County, Kentucky</option>
+<option value="Hickman County, Kentucky">Hickman County, Kentucky</option>
+<option value="Hopkins County, Kentucky">Hopkins County, Kentucky</option>
+<option value="Jackson County, Kentucky">Jackson County, Kentucky</option>
+<option value="Jefferson County, Kentucky">Jefferson County, Kentucky</option>
+<option value="Jessamine County, Kentucky">Jessamine County, Kentucky</option>
+<option value="Johnson County, Kentucky">Johnson County, Kentucky</option>
+<option value="Kenton County, Kentucky">Kenton County, Kentucky</option>
+<option value="Knott County, Kentucky">Knott County, Kentucky</option>
+<option value="Knox County, Kentucky">Knox County, Kentucky</option>
+<option value="Larue County, Kentucky">Larue County, Kentucky</option>
+<option value="Laurel County, Kentucky">Laurel County, Kentucky</option>
+<option value="Lawrence County, Kentucky">Lawrence County, Kentucky</option>
+<option value="Lee County, Kentucky">Lee County, Kentucky</option>
+<option value="Leslie County, Kentucky">Leslie County, Kentucky</option>
+<option value="Letcher County, Kentucky">Letcher County, Kentucky</option>
+<option value="Lewis County, Kentucky">Lewis County, Kentucky</option>
+<option value="Lincoln County, Kentucky">Lincoln County, Kentucky</option>
+<option value="Livingston County, Kentucky">Livingston County, Kentucky</option>
+<option value="Logan County, Kentucky">Logan County, Kentucky</option>
+<option value="Lyon County, Kentucky">Lyon County, Kentucky</option>
+<option value="Madison County, Kentucky">Madison County, Kentucky</option>
+<option value="Magoffin County, Kentucky">Magoffin County, Kentucky</option>
+<option value="Marion County, Kentucky">Marion County, Kentucky</option>
+<option value="Marshall County, Kentucky">Marshall County, Kentucky</option>
+<option value="Martin County, Kentucky">Martin County, Kentucky</option>
+<option value="Mason County, Kentucky">Mason County, Kentucky</option>
+<option value="McCracken County, Kentucky">McCracken County, Kentucky</option>
+<option value="McCreary County, Kentucky">McCreary County, Kentucky</option>
+<option value="McLean County, Kentucky">McLean County, Kentucky</option>
+<option value="Meade County, Kentucky">Meade County, Kentucky</option>
+<option value="Menifee County, Kentucky">Menifee County, Kentucky</option>
+<option value="Mercer County, Kentucky">Mercer County, Kentucky</option>
+<option value="Metcalfe County, Kentucky">Metcalfe County, Kentucky</option>
+<option value="Monroe County, Kentucky">Monroe County, Kentucky</option>
+<option value="Montgomery County, Kentucky">Montgomery County, Kentucky</option>
+<option value="Morgan County, Kentucky">Morgan County, Kentucky</option>
+<option value="Muhlenberg County, Kentucky">Muhlenberg County, Kentucky</option>
+<option value="Nelson County, Kentucky">Nelson County, Kentucky</option>
+<option value="Nicholas County, Kentucky">Nicholas County, Kentucky</option>
+<option value="Ohio County, Kentucky">Ohio County, Kentucky</option>
+<option value="Oldham County, Kentucky">Oldham County, Kentucky</option>
+<option value="Owen County, Kentucky">Owen County, Kentucky</option>
+<option value="Owsley County, Kentucky">Owsley County, Kentucky</option>
+<option value="Pendleton County, Kentucky">Pendleton County, Kentucky</option>
+<option value="Perry County, Kentucky">Perry County, Kentucky</option>
+<option value="Pike County, Kentucky">Pike County, Kentucky</option>
+<option value="Powell County, Kentucky">Powell County, Kentucky</option>
+<option value="Pulaski County, Kentucky">Pulaski County, Kentucky</option>
+<option value="Robertson County, Kentucky">Robertson County, Kentucky</option>
+<option value="Rockcastle County, Kentucky">Rockcastle County, Kentucky</option>
+<option value="Rowan County, Kentucky">Rowan County, Kentucky</option>
+<option value="Russell County, Kentucky">Russell County, Kentucky</option>
+<option value="Scott County, Kentucky">Scott County, Kentucky</option>
+<option value="Shelby County, Kentucky">Shelby County, Kentucky</option>
+<option value="Simpson County, Kentucky">Simpson County, Kentucky</option>
+<option value="Spencer County, Kentucky">Spencer County, Kentucky</option>
+<option value="Taylor County, Kentucky">Taylor County, Kentucky</option>
+<option value="Todd County, Kentucky">Todd County, Kentucky</option>
+<option value="Trigg County, Kentucky">Trigg County, Kentucky</option>
+<option value="Trimble County, Kentucky">Trimble County, Kentucky</option>
+<option value="Union County, Kentucky">Union County, Kentucky</option>
+<option value="Warren County, Kentucky">Warren County, Kentucky</option>
+<option value="Washington County, Kentucky">Washington County, Kentucky</option>
+<option value="Wayne County, Kentucky">Wayne County, Kentucky</option>
+<option value="Webster County, Kentucky">Webster County, Kentucky</option>
+<option value="Whitley County, Kentucky">Whitley County, Kentucky</option>
+<option value="Wolfe County, Kentucky">Wolfe County, Kentucky</option>
+<option value="Woodford County, Kentucky">Woodford County, Kentucky</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.08,"Asian":1.5,"Black or African American":7.77,"Hispanic":4.7,"Pacific Islander":0.07,"Two or More Races":3.3,"White (non-Hispanic)":82.31},"Adair County, Kentucky":{"American Indian / Alaska Native":0.02,"Asian":0.28,"Black or African American":1.8,"Hispanic":3.29,"Pacific Islander":0.28,"Two or More Races":3.56,"White (non-Hispanic)":90.76},"Allen County, Kentucky":{"American Indian / Alaska Native":0.13,"Asian":0.02,"Black or African American":0.46,"Hispanic":2.78,"Pacific Islander":0,"Two or More Races":2.85,"White (non-Hispanic)":93.55},"Anderson County, Kentucky":{"American Indian / Alaska Native":0,"Asian":0.13,"Black or African American":2.82,"Hispanic":2.4,"Pacific Islander":0,"Two or More Races":2.25,"White (non-Hispanic)":92.18},"Ballard County, Kentucky":{"American Indian / Alaska Native":0,"Asian":0.21,"Black or African American":3.63,"Hispanic":1.43,"Pacific Islander":0,"Two or More Races":3.19,"White (non-Hispanic)":91.53},"Barren County, Kentucky":{"American Indian / Alaska Native":0.02,"Asian":0.78,"Black or African American":3.65,"Hispanic":4.26,"Pacific Islander":0,"Two or More Races":2.84,"White (non-Hispanic)":88.09},"Bath County, Kentucky":{"American Indian / Alaska Native":0.01,"Asian":0.05,"Black or African American":1.76,"Hispanic":1.77,"Pacific Islander":0,"Two or More Races":1.51,"White (non-Hispanic)":94.82},"Bell County, Kentucky":{"American Indian / Alaska Native":0.09,"Asian":0.14,"Black or African American":2.23,"Hispanic":0.74,"Pacific Islander":0,"Two or More Races":3.27,"White (non-Hispanic)":93.2},"Boone County, Kentucky":{"American Indian / Alaska Native":0.04,"Asian":2.36,"Black or African American":3.81,"Hispanic":5.69,"Pacific Islander":0.23,"Two or More Races":3.62,"White (non-Hispanic)":83.55},"Bourbon County, Kentucky":{"American Indian / Alaska Native":0,"Asian":0.17,"Black or African American":4.71,"Hispanic":7.55,"Pacific Islander":0,"Two or More Races":3.45,"White (non-Hispanic)":84},"Boyd County, Kentucky":{"American Indian / Alaska Native":0.08,"Asian":0.33,"Black or African American":2.07,"Hispanic":1.7,"Pacific Islander":0.03,"Two or More Races":3.28,"White (non-Hispanic)":92.41},"Boyle County, Kentucky":{"American Indian / Alaska Native":0.02,"Asian":0.82,"Black or African American":7.36,"Hispanic":4.68,"Pacific Islander":0.02,"Two or More Races":3.46,"White (non-Hispanic)":82.99},"Bracken County, Kentucky":{"American Indian / Alaska Native":1.08,"Asian":0,"Black or African American":1.21,"Hispanic":0.93,"Pacific Islander":0,"Two or More Races":2.2,"White (non-Hispanic)":94.59},"Breathitt County, Kentucky":{"American Indian / Alaska Native":0.14,"Asian":0.76,"Black or African American":0.54,"Hispanic":1.15,"Pacific Islander":0,"Two or More Races":1.16,"White (non-Hispanic)":96.24},"Breckinridge County, Kentucky":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":1.6,"Hispanic":1.58,"Pacific Islander":0.03,"Two or More Races":3.16,"White (non-Hispanic)":93.16},"Bullitt County, Kentucky":{"American Indian / Alaska Native":0.03,"Asian":0.67,"Black or African American":1.15,"Hispanic":2.89,"Pacific Islander":0,"Two or More Races":3.14,"White (non-Hispanic)":91.68},"Butler County, Kentucky":{"American Indian / Alaska Native":0.12,"Asian":0.23,"Black or African American":0.22,"Hispanic":4.98,"Pacific Islander":0,"Two or More Races":2.02,"White (non-Hispanic)":92.43},"Caldwell County, Kentucky":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":4.96,"Hispanic":2.37,"Pacific Islander":0.02,"Two or More Races":2.34,"White (non-Hispanic)":90.06},"Calloway County, Kentucky":{"American Indian / Alaska Native":0.23,"Asian":1.57,"Black or African American":3.64,"Hispanic":3.47,"Pacific Islander":0.4,"Two or More Races":2.57,"White (non-Hispanic)":87.69},"Campbell County, Kentucky":{"American Indian / Alaska Native":0.02,"Asian":0.96,"Black or African American":2.79,"Hispanic":2.53,"Pacific Islander":0.02,"Two or More Races":2.72,"White (non-Hispanic)":90.69},"Carlisle County, Kentucky":{"American Indian / Alaska Native":0.17,"Asian":0.31,"Black or African American":1.41,"Hispanic":2.79,"Pacific Islander":0.25,"Two or More Races":4.07,"White (non-Hispanic)":90.97},"Carroll County, Kentucky":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":2.34,"Hispanic":7.32,"Pacific Islander":0,"Two or More Races":3.49,"White (non-Hispanic)":86.82},"Carter County, Kentucky":{"American Indian / Alaska Native":0.04,"Asian":0.16,"Black or African American":0.32,"Hispanic":1.09,"Pacific Islander":0,"Two or More Races":3.06,"White (non-Hispanic)":95.24},"Casey County, Kentucky":{"American Indian / Alaska Native":0.21,"Asian":0.05,"Black or African American":0.53,"Hispanic":3.34,"Pacific Islander":0,"Two or More Races":2.06,"White (non-Hispanic)":93.79},"Christian County, Kentucky":{"American Indian / Alaska Native":0.1,"Asian":1.25,"Black or African American":19.04,"Hispanic":8.43,"Pacific Islander":0.37,"Two or More Races":6.17,"White (non-Hispanic)":64.35},"Clark County, Kentucky":{"American Indian / Alaska Native":0.07,"Asian":0.81,"Black or African American":4.26,"Hispanic":4.03,"Pacific Islander":0,"Two or More Races":2.35,"White (non-Hispanic)":88.31},"Clay County, Kentucky":{"American Indian / Alaska Native":0.05,"Asian":0,"Black or African American":4.57,"Hispanic":1.21,"Pacific Islander":0,"Two or More Races":2.72,"White (non-Hispanic)":91.39},"Clinton County, Kentucky":{"American Indian / Alaska Native":0.4,"Asian":0.21,"Black or African American":0,"Hispanic":3.03,"Pacific Islander":0,"Two or More Races":2.26,"White (non-Hispanic)":93.83},"Crittenden County, Kentucky":{"American Indian / Alaska Native":0.14,"Asian":0.26,"Black or African American":0.51,"Hispanic":2.41,"Pacific Islander":0,"Two or More Races":1.92,"White (non-Hispanic)":94.3},"Cumberland County, Kentucky":{"American Indian / Alaska Native":0.71,"Asian":0.64,"Black or African American":1.65,"Hispanic":1.8,"Pacific Islander":0,"Two or More Races":2.42,"White (non-Hispanic)":92.79},"Daviess County, Kentucky":{"American Indian / Alaska Native":0.18,"Asian":2.17,"Black or African American":4.26,"Hispanic":4.05,"Pacific Islander":0.03,"Two or More Races":3.15,"White (non-Hispanic)":85.49},"Edmonson County, Kentucky":{"American Indian / Alaska Native":0.12,"Asian":0.46,"Black or African American":0.67,"Hispanic":1.59,"Pacific Islander":0,"Two or More Races":2.07,"White (non-Hispanic)":94.91},"Elliott County, Kentucky":{"American Indian / Alaska Native":0.48,"Asian":0,"Black or African American":2.94,"Hispanic":2.02,"Pacific Islander":0,"Two or More Races":1.61,"White (non-Hispanic)":92.95},"Estill County, Kentucky":{"American Indian / Alaska Native":0.03,"Asian":0.97,"Black or African American":0.11,"Hispanic":0.93,"Pacific Islander":0,"Two or More Races":1.69,"White (non-Hispanic)":96.27},"Fayette County, Kentucky":{"American Indian / Alaska Native":0.05,"Asian":4.14,"Black or African American":14.31,"Hispanic":9.21,"Pacific Islander":0.01,"Two or More Races":4.25,"White (non-Hispanic)":67.79},"Fleming County, Kentucky":{"American Indian / Alaska Native":0.03,"Asian":0.58,"Black or African American":1.09,"Hispanic":1.56,"Pacific Islander":0,"Two or More Races":2.16,"White (non-Hispanic)":94.35},"Floyd County, Kentucky":{"American Indian / Alaska Native":0.03,"Asian":0.36,"Black or African American":0.54,"Hispanic":0.93,"Pacific Islander":0.04,"Two or More Races":1.72,"White (non-Hispanic)":96.28},"Franklin County, Kentucky":{"American Indian / Alaska Native":0.05,"Asian":1.87,"Black or African American":9.23,"Hispanic":4.09,"Pacific Islander":0.22,"Two or More Races":3.56,"White (non-Hispanic)":80.87},"Fulton County, Kentucky":{"American Indian / Alaska Native":0.39,"Asian":0,"Black or African American":24.33,"Hispanic":1.34,"Pacific Islander":0.84,"Two or More Races":3.79,"White (non-Hispanic)":69.32},"Gallatin County, Kentucky":{"American Indian / Alaska Native":0.01,"Asian":0.45,"Black or African American":2.72,"Hispanic":5.39,"Pacific Islander":0,"Two or More Races":2.27,"White (non-Hispanic)":88.86},"Garrard County, Kentucky":{"American Indian / Alaska Native":0.19,"Asian":0,"Black or African American":2.21,"Hispanic":2.7,"Pacific Islander":0,"Two or More Races":2.06,"White (non-Hispanic)":92.11},"Grant County, Kentucky":{"American Indian / Alaska Native":0.03,"Asian":0.23,"Black or African American":0.82,"Hispanic":3.17,"Pacific Islander":0.05,"Two or More Races":3.17,"White (non-Hispanic)":92.48},"Graves County, Kentucky":{"American Indian / Alaska Native":0.03,"Asian":0.43,"Black or African American":4.08,"Hispanic":7.75,"Pacific Islander":0,"Two or More Races":2.94,"White (non-Hispanic)":84.49},"Grayson County, Kentucky":{"American Indian / Alaska Native":0.07,"Asian":0.36,"Black or African American":0.99,"Hispanic":1.54,"Pacific Islander":0,"Two or More Races":1.99,"White (non-Hispanic)":94.85},"Green County, Kentucky":{"American Indian / Alaska Native":0.11,"Asian":0,"Black or African American":1.21,"Hispanic":2.31,"Pacific Islander":0,"Two or More Races":2.49,"White (non-Hispanic)":93.89},"Greenup County, Kentucky":{"American Indian / Alaska Native":0.07,"Asian":0.6,"Black or African American":0.55,"Hispanic":1.08,"Pacific Islander":0,"Two or More Races":2.44,"White (non-Hispanic)":95.19},"Hancock County, Kentucky":{"American Indian / Alaska Native":0.03,"Asian":0.1,"Black or African American":1.11,"Hispanic":0.7,"Pacific Islander":0,"Two or More Races":3.01,"White (non-Hispanic)":94.23},"Hardin County, Kentucky":{"American Indian / Alaska Native":0.18,"Asian":1.9,"Black or African American":10.95,"Hispanic":6.29,"Pacific Islander":0.31,"Two or More Races":5.25,"White (non-Hispanic)":74.82},"Harlan County, Kentucky":{"American Indian / Alaska Native":0.06,"Asian":0.24,"Black or African American":1.48,"Hispanic":0.15,"Pacific Islander":0.08,"Two or More Races":3.54,"White (non-Hispanic)":94.23},"Harrison County, Kentucky":{"American Indian / Alaska Native":0.08,"Asian":0.05,"Black or African American":1.87,"Hispanic":2.21,"Pacific Islander":0,"Two or More Races":2.22,"White (non-Hispanic)":93.55},"Hart County, Kentucky":{"American Indian / Alaska Native":0.06,"Asian":0.55,"Black or African American":4.61,"Hispanic":1.97,"Pacific Islander":0,"Two or More Races":1.93,"White (non-Hispanic)":90.52},"Henderson County, Kentucky":{"American Indian / Alaska Native":0.33,"Asian":0.23,"Black or African American":6.81,"Hispanic":3.23,"Pacific Islander":0.19,"Two or More Races":4.77,"White (non-Hispanic)":84.39},"Henry County, Kentucky":{"American Indian / Alaska Native":0.01,"Asian":0.53,"Black or African American":2.69,"Hispanic":3.84,"Pacific Islander":0,"Two or More Races":2.64,"White (non-Hispanic)":90.11},"Hickman County, Kentucky":{"American Indian / Alaska Native":0.16,"Asian":0,"Black or African American":9.22,"Hispanic":2.42,"Pacific Islander":0,"Two or More Races":2.33,"White (non-Hispanic)":85.88},"Hopkins County, Kentucky":{"American Indian / Alaska Native":0.12,"Asian":0.5,"Black or African American":6.06,"Hispanic":2.53,"Pacific Islander":0.01,"Two or More Races":3.4,"White (non-Hispanic)":87.33},"Jackson County, Kentucky":{"American Indian / Alaska Native":0.22,"Asian":0.11,"Black or African American":0.18,"Hispanic":0.96,"Pacific Islander":0,"Two or More Races":2.05,"White (non-Hispanic)":96.49},"Jefferson County, Kentucky":{"American Indian / Alaska Native":0.04,"Asian":2.89,"Black or African American":21.67,"Hispanic":7.83,"Pacific Islander":0.04,"Two or More Races":3.84,"White (non-Hispanic)":63.34},"Jessamine County, Kentucky":{"American Indian / Alaska Native":0.04,"Asian":1.63,"Black or African American":3.88,"Hispanic":4.59,"Pacific Islander":0.03,"Two or More Races":3.1,"White (non-Hispanic)":86.32},"Johnson County, Kentucky":{"American Indian / Alaska Native":0.12,"Asian":1.12,"Black or African American":0.56,"Hispanic":0.53,"Pacific Islander":0.04,"Two or More Races":2.3,"White (non-Hispanic)":95.33},"Kenton County, Kentucky":{"American Indian / Alaska Native":0.06,"Asian":1.19,"Black or African American":4.18,"Hispanic":4.57,"Pacific Islander":0.02,"Two or More Races":3.72,"White (non-Hispanic)":86.04},"Knott County, Kentucky":{"American Indian / Alaska Native":0.17,"Asian":0.25,"Black or African American":0.95,"Hispanic":0.85,"Pacific Islander":0,"Two or More Races":1.17,"White (non-Hispanic)":96.55},"Knox County, Kentucky":{"American Indian / Alaska Native":0,"Asian":0.1,"Black or African American":0.84,"Hispanic":1.22,"Pacific Islander":0.07,"Two or More Races":2.67,"White (non-Hispanic)":95.1},"Larue County, Kentucky":{"American Indian / Alaska Native":0.03,"Asian":0.02,"Black or African American":2,"Hispanic":3.29,"Pacific Islander":0,"Two or More Races":3.47,"White (non-Hispanic)":90.54},"Laurel County, Kentucky":{"American Indian / Alaska Native":0.05,"Asian":0.3,"Black or African American":0.47,"Hispanic":1.66,"Pacific Islander":0.21,"Two or More Races":2.13,"White (non-Hispanic)":95.11},"Lawrence County, Kentucky":{"American Indian / Alaska Native":0.01,"Asian":1.17,"Black or African American":0.05,"Hispanic":0.65,"Pacific Islander":0,"Two or More Races":1.35,"White (non-Hispanic)":96.77},"Lee County, Kentucky":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":2.14,"Hispanic":0.98,"Pacific Islander":0,"Two or More Races":2.98,"White (non-Hispanic)":93.79},"Leslie County, Kentucky":{"American Indian / Alaska Native":0,"Asian":0.34,"Black or African American":0.53,"Hispanic":0.5,"Pacific Islander":0,"Two or More Races":1.86,"White (non-Hispanic)":96.77},"Letcher County, Kentucky":{"American Indian / Alaska Native":0.03,"Asian":0.21,"Black or African American":0.74,"Hispanic":0.75,"Pacific Islander":0,"Two or More Races":1.22,"White (non-Hispanic)":96.75},"Lewis County, Kentucky":{"American Indian / Alaska Native":0,"Asian":0.15,"Black or African American":0.03,"Hispanic":0.08,"Pacific Islander":0.25,"Two or More Races":2.25,"White (non-Hispanic)":97.03},"Lincoln County, Kentucky":{"American Indian / Alaska Native":0.01,"Asian":0.3,"Black or African American":1.68,"Hispanic":2.04,"Pacific Islander":0,"Two or More Races":2.4,"White (non-Hispanic)":92.6},"Livingston County, Kentucky":{"American Indian / Alaska Native":0,"Asian":0.02,"Black or African American":0.11,"Hispanic":2.44,"Pacific Islander":0,"Two or More Races":3.04,"White (non-Hispanic)":94.39},"Logan County, Kentucky":{"American Indian / Alaska Native":0.22,"Asian":0.41,"Black or African American":4.59,"Hispanic":3.38,"Pacific Islander":0,"Two or More Races":3.43,"White (non-Hispanic)":87.71},"Lyon County, Kentucky":{"American Indian / Alaska Native":0.37,"Asian":0.97,"Black or African American":6.9,"Hispanic":1.06,"Pacific Islander":0,"Two or More Races":2.7,"White (non-Hispanic)":87.76},"Madison County, Kentucky":{"American Indian / Alaska Native":0.1,"Asian":0.87,"Black or African American":3.52,"Hispanic":3.38,"Pacific Islander":0.24,"Two or More Races":3.62,"White (non-Hispanic)":88.01},"Magoffin County, Kentucky":{"American Indian / Alaska Native":0.19,"Asian":0.11,"Black or African American":0.05,"Hispanic":1.3,"Pacific Islander":0,"Two or More Races":0.73,"White (non-Hispanic)":97.61},"Marion County, Kentucky":{"American Indian / Alaska Native":0.02,"Asian":0.62,"Black or African American":7.19,"Hispanic":3.54,"Pacific Islander":0,"Two or More Races":1.88,"White (non-Hispanic)":86.65},"Marshall County, Kentucky":{"American Indian / Alaska Native":0.25,"Asian":0.38,"Black or African American":0.66,"Hispanic":1.89,"Pacific Islander":0.01,"Two or More Races":1.24,"White (non-Hispanic)":95.57},"Martin County, Kentucky":{"American Indian / Alaska Native":0.47,"Asian":0.07,"Black or African American":7.31,"Hispanic":1.91,"Pacific Islander":0.12,"Two or More Races":3.53,"White (non-Hispanic)":86.59},"Mason County, Kentucky":{"American Indian / Alaska Native":0,"Asian":0.58,"Black or African American":6.19,"Hispanic":2.26,"Pacific Islander":0,"Two or More Races":3.52,"White (non-Hispanic)":87.4},"McCracken County, Kentucky":{"American Indian / Alaska Native":0.12,"Asian":0.94,"Black or African American":9.96,"Hispanic":3.27,"Pacific Islander":0.02,"Two or More Races":3.81,"White (non-Hispanic)":81.48},"McCreary County, Kentucky":{"American Indian / Alaska Native":0.07,"Asian":0.05,"Black or African American":6.63,"Hispanic":1.75,"Pacific Islander":0.05,"Two or More Races":2.4,"White (non-Hispanic)":88.98},"McLean County, Kentucky":{"American Indian / Alaska Native":0.24,"Asian":0.19,"Black or African American":0.76,"Hispanic":2.04,"Pacific Islander":0,"Two or More Races":2.09,"White (non-Hispanic)":94.66},"Meade County, Kentucky":{"American Indian / Alaska Native":0.1,"Asian":0.66,"Black or African American":3.37,"Hispanic":4.04,"Pacific Islander":0.34,"Two or More Races":3,"White (non-Hispanic)":88.41},"Menifee County, Kentucky":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":0.24,"Hispanic":2.48,"Pacific Islander":0,"Two or More Races":1.43,"White (non-Hispanic)":95.84},"Mercer County, Kentucky":{"American Indian / Alaska Native":0.08,"Asian":0.26,"Black or African American":3.56,"Hispanic":3.2,"Pacific Islander":0,"Two or More Races":2.51,"White (non-Hispanic)":90.28},"Metcalfe County, Kentucky":{"American Indian / Alaska Native":0.13,"Asian":0,"Black or African American":2.21,"Hispanic":2.25,"Pacific Islander":0,"Two or More Races":1.3,"White (non-Hispanic)":94.11},"Monroe County, Kentucky":{"American Indian / Alaska Native":0.06,"Asian":0.19,"Black or African American":2.58,"Hispanic":4.42,"Pacific Islander":0,"Two or More Races":1.18,"White (non-Hispanic)":91.57},"Montgomery County, Kentucky":{"American Indian / Alaska Native":0.15,"Asian":0.46,"Black or African American":2.65,"Hispanic":3.33,"Pacific Islander":0,"Two or More Races":1.08,"White (non-Hispanic)":92.08},"Morgan County, Kentucky":{"American Indian / Alaska Native":0.02,"Asian":0.73,"Black or African American":4.09,"Hispanic":3.16,"Pacific Islander":0,"Two or More Races":2.12,"White (non-Hispanic)":89.88},"Muhlenberg County, Kentucky":{"American Indian / Alaska Native":0.15,"Asian":0.97,"Black or African American":2.1,"Hispanic":1.94,"Pacific Islander":0,"Two or More Races":2.63,"White (non-Hispanic)":92.18},"Nelson County, Kentucky":{"American Indian / Alaska Native":0.05,"Asian":0.48,"Black or African American":5.1,"Hispanic":2.71,"Pacific Islander":0,"Two or More Races":2.1,"White (non-Hispanic)":89.52},"Nicholas County, Kentucky":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":0.99,"Hispanic":1.02,"Pacific Islander":0,"Two or More Races":2.31,"White (non-Hispanic)":95.68},"Ohio County, Kentucky":{"American Indian / Alaska Native":0.01,"Asian":0.17,"Black or African American":1.08,"Hispanic":4.25,"Pacific Islander":0,"Two or More Races":1.67,"White (non-Hispanic)":92.52},"Oldham County, Kentucky":{"American Indian / Alaska Native":0.05,"Asian":1.57,"Black or African American":3.64,"Hispanic":4.81,"Pacific Islander":0.01,"Two or More Races":3.05,"White (non-Hispanic)":86.29},"Owen County, Kentucky":{"American Indian / Alaska Native":0.03,"Asian":0.03,"Black or African American":0.36,"Hispanic":2.47,"Pacific Islander":0,"Two or More Races":2.72,"White (non-Hispanic)":94.08},"Owsley County, Kentucky":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":0,"Hispanic":0,"Pacific Islander":0,"Two or More Races":5.1,"White (non-Hispanic)":93.29},"Pendleton County, Kentucky":{"American Indian / Alaska Native":0.08,"Asian":0.38,"Black or African American":0.59,"Hispanic":1.57,"Pacific Islander":0.03,"Two or More Races":4.67,"White (non-Hispanic)":92.45},"Perry County, Kentucky":{"American Indian / Alaska Native":0.33,"Asian":0.8,"Black or African American":0.99,"Hispanic":0.32,"Pacific Islander":0.21,"Two or More Races":3.15,"White (non-Hispanic)":94.2},"Pike County, Kentucky":{"American Indian / Alaska Native":0.02,"Asian":0.51,"Black or African American":0.61,"Hispanic":1.22,"Pacific Islander":0.11,"Two or More Races":2.85,"White (non-Hispanic)":94.66},"Powell County, Kentucky":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":1.72,"Hispanic":1.37,"Pacific Islander":0,"Two or More Races":2.56,"White (non-Hispanic)":93.82},"Pulaski County, Kentucky":{"American Indian / Alaska Native":0.11,"Asian":0.85,"Black or African American":0.88,"Hispanic":2.97,"Pacific Islander":0,"Two or More Races":2.36,"White (non-Hispanic)":92.68},"Robertson County, Kentucky":{"American Indian / Alaska Native":0.4,"Asian":0,"Black or African American":2.05,"Hispanic":0.67,"Pacific Islander":0,"Two or More Races":2.46,"White (non-Hispanic)":94.42},"Rockcastle County, Kentucky":{"American Indian / Alaska Native":0.01,"Asian":0.31,"Black or African American":0.63,"Hispanic":1.18,"Pacific Islander":0,"Two or More Races":1.83,"White (non-Hispanic)":95.85},"Rowan County, Kentucky":{"American Indian / Alaska Native":0.05,"Asian":0.89,"Black or African American":1.84,"Hispanic":2.21,"Pacific Islander":0,"Two or More Races":1.18,"White (non-Hispanic)":93.81},"Russell County, Kentucky":{"American Indian / Alaska Native":0.04,"Asian":0.01,"Black or African American":0.97,"Hispanic":4.37,"Pacific Islander":0.06,"Two or More Races":2.47,"White (non-Hispanic)":92.06},"Scott County, Kentucky":{"American Indian / Alaska Native":0.03,"Asian":0.93,"Black or African American":4.74,"Hispanic":5.48,"Pacific Islander":0.01,"Two or More Races":3.86,"White (non-Hispanic)":84.66},"Shelby County, Kentucky":{"American Indian / Alaska Native":0.1,"Asian":1.09,"Black or African American":4.55,"Hispanic":10.78,"Pacific Islander":0,"Two or More Races":5.01,"White (non-Hispanic)":78.09},"Simpson County, Kentucky":{"American Indian / Alaska Native":0.04,"Asian":0.17,"Black or African American":6.87,"Hispanic":3.43,"Pacific Islander":0,"Two or More Races":5.2,"White (non-Hispanic)":84.2},"Spencer County, Kentucky":{"American Indian / Alaska Native":0.09,"Asian":0.44,"Black or African American":0.91,"Hispanic":2.57,"Pacific Islander":0,"Two or More Races":2.52,"White (non-Hispanic)":93.16},"Taylor County, Kentucky":{"American Indian / Alaska Native":0.06,"Asian":0.93,"Black or African American":4.6,"Hispanic":2.87,"Pacific Islander":0,"Two or More Races":2.69,"White (non-Hispanic)":88.85},"Todd County, Kentucky":{"American Indian / Alaska Native":0.02,"Asian":0.02,"Black or African American":7.14,"Hispanic":5.06,"Pacific Islander":0.02,"Two or More Races":2.66,"White (non-Hispanic)":84.71},"Trigg County, Kentucky":{"American Indian / Alaska Native":0,"Asian":0.29,"Black or African American":6.42,"Hispanic":2.58,"Pacific Islander":0,"Two or More Races":3.91,"White (non-Hispanic)":86.41},"Trimble County, Kentucky":{"American Indian / Alaska Native":0.09,"Asian":0.14,"Black or African American":0.82,"Hispanic":2.74,"Pacific Islander":0.07,"Two or More Races":2.79,"White (non-Hispanic)":92.56},"Union County, Kentucky":{"American Indian / Alaska Native":0,"Asian":0.32,"Black or African American":8.06,"Hispanic":1.64,"Pacific Islander":0.02,"Two or More Races":1.81,"White (non-Hispanic)":88.15},"Warren County, Kentucky":{"American Indian / Alaska Native":0.07,"Asian":4.54,"Black or African American":8.53,"Hispanic":6.94,"Pacific Islander":0.5,"Two or More Races":4.29,"White (non-Hispanic)":74.99},"Washington County, Kentucky":{"American Indian / Alaska Native":0,"Asian":0.39,"Black or African American":5.2,"Hispanic":0.45,"Pacific Islander":0,"Two or More Races":6.1,"White (non-Hispanic)":87.78},"Wayne County, Kentucky":{"American Indian / Alaska Native":0.46,"Asian":0.03,"Black or African American":1.36,"Hispanic":4.39,"Pacific Islander":0,"Two or More Races":1.77,"White (non-Hispanic)":91.99},"Webster County, Kentucky":{"American Indian / Alaska Native":0,"Asian":0.04,"Black or African American":4.26,"Hispanic":6.53,"Pacific Islander":0.21,"Two or More Races":1.67,"White (non-Hispanic)":87.24},"Whitley County, Kentucky":{"American Indian / Alaska Native":0.08,"Asian":0.18,"Black or African American":1.06,"Hispanic":1.94,"Pacific Islander":0,"Two or More Races":1.75,"White (non-Hispanic)":94.84},"Wolfe County, Kentucky":{"American Indian / Alaska Native":0.15,"Asian":0,"Black or African American":0.22,"Hispanic":1.57,"Pacific Islander":0,"Two or More Races":1.57,"White (non-Hispanic)":96.1},"Woodford County, Kentucky":{"American Indian / Alaska Native":0.04,"Asian":0.38,"Black or African American":3.86,"Hispanic":7.34,"Pacific Islander":0,"Two or More Races":3.04,"White (non-Hispanic)":85.08}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

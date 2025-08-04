@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 39</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Adams County, Ohio">Adams County, Ohio</option>
+<option value="Allen County, Ohio">Allen County, Ohio</option>
+<option value="Ashland County, Ohio">Ashland County, Ohio</option>
+<option value="Ashtabula County, Ohio">Ashtabula County, Ohio</option>
+<option value="Athens County, Ohio">Athens County, Ohio</option>
+<option value="Auglaize County, Ohio">Auglaize County, Ohio</option>
+<option value="Belmont County, Ohio">Belmont County, Ohio</option>
+<option value="Brown County, Ohio">Brown County, Ohio</option>
+<option value="Butler County, Ohio">Butler County, Ohio</option>
+<option value="Carroll County, Ohio">Carroll County, Ohio</option>
+<option value="Champaign County, Ohio">Champaign County, Ohio</option>
+<option value="Clark County, Ohio">Clark County, Ohio</option>
+<option value="Clermont County, Ohio">Clermont County, Ohio</option>
+<option value="Clinton County, Ohio">Clinton County, Ohio</option>
+<option value="Columbiana County, Ohio">Columbiana County, Ohio</option>
+<option value="Coshocton County, Ohio">Coshocton County, Ohio</option>
+<option value="Crawford County, Ohio">Crawford County, Ohio</option>
+<option value="Cuyahoga County, Ohio">Cuyahoga County, Ohio</option>
+<option value="Darke County, Ohio">Darke County, Ohio</option>
+<option value="Defiance County, Ohio">Defiance County, Ohio</option>
+<option value="Delaware County, Ohio">Delaware County, Ohio</option>
+<option value="Erie County, Ohio">Erie County, Ohio</option>
+<option value="Fairfield County, Ohio">Fairfield County, Ohio</option>
+<option value="Fayette County, Ohio">Fayette County, Ohio</option>
+<option value="Franklin County, Ohio">Franklin County, Ohio</option>
+<option value="Fulton County, Ohio">Fulton County, Ohio</option>
+<option value="Gallia County, Ohio">Gallia County, Ohio</option>
+<option value="Geauga County, Ohio">Geauga County, Ohio</option>
+<option value="Greene County, Ohio">Greene County, Ohio</option>
+<option value="Guernsey County, Ohio">Guernsey County, Ohio</option>
+<option value="Hamilton County, Ohio">Hamilton County, Ohio</option>
+<option value="Hancock County, Ohio">Hancock County, Ohio</option>
+<option value="Hardin County, Ohio">Hardin County, Ohio</option>
+<option value="Harrison County, Ohio">Harrison County, Ohio</option>
+<option value="Henry County, Ohio">Henry County, Ohio</option>
+<option value="Highland County, Ohio">Highland County, Ohio</option>
+<option value="Hocking County, Ohio">Hocking County, Ohio</option>
+<option value="Holmes County, Ohio">Holmes County, Ohio</option>
+<option value="Huron County, Ohio">Huron County, Ohio</option>
+<option value="Jackson County, Ohio">Jackson County, Ohio</option>
+<option value="Jefferson County, Ohio">Jefferson County, Ohio</option>
+<option value="Knox County, Ohio">Knox County, Ohio</option>
+<option value="Lake County, Ohio">Lake County, Ohio</option>
+<option value="Lawrence County, Ohio">Lawrence County, Ohio</option>
+<option value="Licking County, Ohio">Licking County, Ohio</option>
+<option value="Logan County, Ohio">Logan County, Ohio</option>
+<option value="Lorain County, Ohio">Lorain County, Ohio</option>
+<option value="Lucas County, Ohio">Lucas County, Ohio</option>
+<option value="Madison County, Ohio">Madison County, Ohio</option>
+<option value="Mahoning County, Ohio">Mahoning County, Ohio</option>
+<option value="Marion County, Ohio">Marion County, Ohio</option>
+<option value="Medina County, Ohio">Medina County, Ohio</option>
+<option value="Meigs County, Ohio">Meigs County, Ohio</option>
+<option value="Mercer County, Ohio">Mercer County, Ohio</option>
+<option value="Miami County, Ohio">Miami County, Ohio</option>
+<option value="Monroe County, Ohio">Monroe County, Ohio</option>
+<option value="Montgomery County, Ohio">Montgomery County, Ohio</option>
+<option value="Morgan County, Ohio">Morgan County, Ohio</option>
+<option value="Morrow County, Ohio">Morrow County, Ohio</option>
+<option value="Muskingum County, Ohio">Muskingum County, Ohio</option>
+<option value="Noble County, Ohio">Noble County, Ohio</option>
+<option value="Ottawa County, Ohio">Ottawa County, Ohio</option>
+<option value="Paulding County, Ohio">Paulding County, Ohio</option>
+<option value="Perry County, Ohio">Perry County, Ohio</option>
+<option value="Pickaway County, Ohio">Pickaway County, Ohio</option>
+<option value="Pike County, Ohio">Pike County, Ohio</option>
+<option value="Portage County, Ohio">Portage County, Ohio</option>
+<option value="Preble County, Ohio">Preble County, Ohio</option>
+<option value="Putnam County, Ohio">Putnam County, Ohio</option>
+<option value="Richland County, Ohio">Richland County, Ohio</option>
+<option value="Ross County, Ohio">Ross County, Ohio</option>
+<option value="Sandusky County, Ohio">Sandusky County, Ohio</option>
+<option value="Scioto County, Ohio">Scioto County, Ohio</option>
+<option value="Seneca County, Ohio">Seneca County, Ohio</option>
+<option value="Shelby County, Ohio">Shelby County, Ohio</option>
+<option value="Stark County, Ohio">Stark County, Ohio</option>
+<option value="Summit County, Ohio">Summit County, Ohio</option>
+<option value="Trumbull County, Ohio">Trumbull County, Ohio</option>
+<option value="Tuscarawas County, Ohio">Tuscarawas County, Ohio</option>
+<option value="Union County, Ohio">Union County, Ohio</option>
+<option value="Van Wert County, Ohio">Van Wert County, Ohio</option>
+<option value="Vinton County, Ohio">Vinton County, Ohio</option>
+<option value="Warren County, Ohio">Warren County, Ohio</option>
+<option value="Washington County, Ohio">Washington County, Ohio</option>
+<option value="Wayne County, Ohio">Wayne County, Ohio</option>
+<option value="Williams County, Ohio">Williams County, Ohio</option>
+<option value="Wood County, Ohio">Wood County, Ohio</option>
+<option value="Wyandot County, Ohio">Wyandot County, Ohio</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.06,"Asian":2.43,"Black or African American":12.13,"Hispanic":4.56,"Pacific Islander":0.03,"Two or More Races":3.91,"White (non-Hispanic)":76.49},"Adams County, Ohio":{"American Indian / Alaska Native":0.13,"Asian":0.4,"Black or African American":0.33,"Hispanic":0.89,"Pacific Islander":0.03,"Two or More Races":2.17,"White (non-Hispanic)":95.92},"Allen County, Ohio":{"American Indian / Alaska Native":0.08,"Asian":0.89,"Black or African American":10.59,"Hispanic":3.44,"Pacific Islander":0.01,"Two or More Races":5.03,"White (non-Hispanic)":79.62},"Ashland County, Ohio":{"American Indian / Alaska Native":0.07,"Asian":0.56,"Black or African American":1.14,"Hispanic":1.69,"Pacific Islander":0,"Two or More Races":2.02,"White (non-Hispanic)":94.25},"Ashtabula County, Ohio":{"American Indian / Alaska Native":0.05,"Asian":0.37,"Black or African American":3.72,"Hispanic":4.8,"Pacific Islander":0.04,"Two or More Races":3.6,"White (non-Hispanic)":87.18},"Athens County, Ohio":{"American Indian / Alaska Native":0.06,"Asian":2.1,"Black or African American":2.48,"Hispanic":2.24,"Pacific Islander":0,"Two or More Races":3.84,"White (non-Hispanic)":89.15},"Auglaize County, Ohio":{"American Indian / Alaska Native":0.03,"Asian":0.32,"Black or African American":0.89,"Hispanic":1.79,"Pacific Islander":0,"Two or More Races":2.14,"White (non-Hispanic)":94.76},"Belmont County, Ohio":{"American Indian / Alaska Native":0.05,"Asian":0.58,"Black or African American":3.08,"Hispanic":1.27,"Pacific Islander":0.05,"Two or More Races":3.82,"White (non-Hispanic)":91.07},"Brown County, Ohio":{"American Indian / Alaska Native":0.02,"Asian":0.19,"Black or African American":0.77,"Hispanic":1.21,"Pacific Islander":0,"Two or More Races":2.59,"White (non-Hispanic)":95.15},"Butler County, Ohio":{"American Indian / Alaska Native":0.03,"Asian":4.08,"Black or African American":8.21,"Hispanic":6.62,"Pacific Islander":0.05,"Two or More Races":4.79,"White (non-Hispanic)":75.88},"Carroll County, Ohio":{"American Indian / Alaska Native":0,"Asian":0.05,"Black or African American":0.73,"Hispanic":1.26,"Pacific Islander":0,"Two or More Races":2.81,"White (non-Hispanic)":94.87},"Champaign County, Ohio":{"American Indian / Alaska Native":0.18,"Asian":0.39,"Black or African American":1.7,"Hispanic":1.76,"Pacific Islander":0,"Two or More Races":3.35,"White (non-Hispanic)":92.07},"Clark County, Ohio":{"American Indian / Alaska Native":0.04,"Asian":0.62,"Black or African American":8.19,"Hispanic":4.05,"Pacific Islander":0.07,"Two or More Races":4.41,"White (non-Hispanic)":82.38},"Clermont County, Ohio":{"American Indian / Alaska Native":0.03,"Asian":1.05,"Black or African American":1.48,"Hispanic":2.44,"Pacific Islander":0,"Two or More Races":3.24,"White (non-Hispanic)":91.33},"Clinton County, Ohio":{"American Indian / Alaska Native":0.05,"Asian":0.71,"Black or African American":1.79,"Hispanic":2.07,"Pacific Islander":0.02,"Two or More Races":2.99,"White (non-Hispanic)":92.11},"Columbiana County, Ohio":{"American Indian / Alaska Native":0.04,"Asian":0.36,"Black or African American":1.84,"Hispanic":1.85,"Pacific Islander":0.09,"Two or More Races":2.94,"White (non-Hispanic)":92.52},"Coshocton County, Ohio":{"American Indian / Alaska Native":0.11,"Asian":0.42,"Black or African American":0.7,"Hispanic":0.26,"Pacific Islander":0,"Two or More Races":3.65,"White (non-Hispanic)":94.63},"Crawford County, Ohio":{"American Indian / Alaska Native":0.02,"Asian":0.75,"Black or African American":0.85,"Hispanic":1.73,"Pacific Islander":0,"Two or More Races":2.21,"White (non-Hispanic)":94.39},"Cuyahoga County, Ohio":{"American Indian / Alaska Native":0.08,"Asian":3.22,"Black or African American":28.61,"Hispanic":6.79,"Pacific Islander":0.02,"Two or More Races":3.75,"White (non-Hispanic)":57.03},"Darke County, Ohio":{"American Indian / Alaska Native":0.04,"Asian":0.44,"Black or African American":0.55,"Hispanic":1.79,"Pacific Islander":0,"Two or More Races":2.01,"White (non-Hispanic)":95.08},"Defiance County, Ohio":{"American Indian / Alaska Native":0.1,"Asian":0.25,"Black or African American":1.45,"Hispanic":10.71,"Pacific Islander":0,"Two or More Races":2.2,"White (non-Hispanic)":85.24},"Delaware County, Ohio":{"American Indian / Alaska Native":0.04,"Asian":7.88,"Black or African American":4.1,"Hispanic":3.33,"Pacific Islander":0.03,"Two or More Races":3.83,"White (non-Hispanic)":80.41},"Erie County, Ohio":{"American Indian / Alaska Native":0.11,"Asian":0.68,"Black or African American":8.3,"Hispanic":4.4,"Pacific Islander":0.02,"Two or More Races":4.86,"White (non-Hispanic)":80.81},"Fairfield County, Ohio":{"American Indian / Alaska Native":0.05,"Asian":2.55,"Black or African American":8.86,"Hispanic":2.66,"Pacific Islander":0.09,"Two or More Races":3.59,"White (non-Hispanic)":81.98},"Fayette County, Ohio":{"American Indian / Alaska Native":0,"Asian":0.37,"Black or African American":2.47,"Hispanic":2.42,"Pacific Islander":0.06,"Two or More Races":3.56,"White (non-Hispanic)":90.94},"Franklin County, Ohio":{"American Indian / Alaska Native":0.06,"Asian":5.38,"Black or African American":22.83,"Hispanic":7.08,"Pacific Islander":0.04,"Two or More Races":5.08,"White (non-Hispanic)":59.06},"Fulton County, Ohio":{"American Indian / Alaska Native":0.04,"Asian":0.33,"Black or African American":0.37,"Hispanic":9.13,"Pacific Islander":0.02,"Two or More Races":2.14,"White (non-Hispanic)":87.67},"Gallia County, Ohio":{"American Indian / Alaska Native":0,"Asian":0.83,"Black or African American":1.95,"Hispanic":1.03,"Pacific Islander":0,"Two or More Races":2.66,"White (non-Hispanic)":92.15},"Geauga County, Ohio":{"American Indian / Alaska Native":0.03,"Asian":0.53,"Black or African American":0.94,"Hispanic":1.86,"Pacific Islander":0.01,"Two or More Races":3.08,"White (non-Hispanic)":93.16},"Greene County, Ohio":{"American Indian / Alaska Native":0.07,"Asian":2.84,"Black or African American":5.77,"Hispanic":3.21,"Pacific Islander":0.07,"Two or More Races":5.62,"White (non-Hispanic)":81.74},"Guernsey County, Ohio":{"American Indian / Alaska Native":0.04,"Asian":0.49,"Black or African American":1.61,"Hispanic":1.28,"Pacific Islander":0,"Two or More Races":2.75,"White (non-Hispanic)":93.4},"Hamilton County, Ohio":{"American Indian / Alaska Native":0.04,"Asian":2.7,"Black or African American":24.94,"Hispanic":4.52,"Pacific Islander":0.06,"Two or More Races":4.25,"White (non-Hispanic)":62.94},"Hancock County, Ohio":{"American Indian / Alaska Native":0.07,"Asian":1.92,"Black or African American":1.8,"Hispanic":5.86,"Pacific Islander":0.02,"Two or More Races":2.62,"White (non-Hispanic)":87.53},"Hardin County, Ohio":{"American Indian / Alaska Native":0.13,"Asian":0.8,"Black or African American":1.13,"Hispanic":2.3,"Pacific Islander":0.07,"Two or More Races":2.41,"White (non-Hispanic)":92.96},"Harrison County, Ohio":{"American Indian / Alaska Native":0.01,"Asian":0,"Black or African American":2.85,"Hispanic":1.12,"Pacific Islander":0,"Two or More Races":1.87,"White (non-Hispanic)":94.04},"Henry County, Ohio":{"American Indian / Alaska Native":0.12,"Asian":0.12,"Black or African American":0.61,"Hispanic":8.09,"Pacific Islander":0.12,"Two or More Races":2.02,"White (non-Hispanic)":87.71},"Highland County, Ohio":{"American Indian / Alaska Native":0.08,"Asian":0.08,"Black or African American":1.17,"Hispanic":1.13,"Pacific Islander":0,"Two or More Races":2.89,"White (non-Hispanic)":94.59},"Hocking County, Ohio":{"American Indian / Alaska Native":0.03,"Asian":0.32,"Black or African American":0.37,"Hispanic":0.93,"Pacific Islander":0,"Two or More Races":3.24,"White (non-Hispanic)":94.16},"Holmes County, Ohio":{"American Indian / Alaska Native":0.1,"Asian":0.18,"Black or African American":0.16,"Hispanic":1.06,"Pacific Islander":0,"Two or More Races":0.92,"White (non-Hispanic)":97.41},"Huron County, Ohio":{"American Indian / Alaska Native":0.05,"Asian":0.35,"Black or African American":0.63,"Hispanic":7.15,"Pacific Islander":0.02,"Two or More Races":3.36,"White (non-Hispanic)":87.98},"Jackson County, Ohio":{"American Indian / Alaska Native":0.36,"Asian":0.57,"Black or African American":0.99,"Hispanic":0.98,"Pacific Islander":0,"Two or More Races":1.51,"White (non-Hispanic)":95.58},"Jefferson County, Ohio":{"American Indian / Alaska Native":0.04,"Asian":0.56,"Black or African American":5.37,"Hispanic":1.82,"Pacific Islander":0,"Two or More Races":3.03,"White (non-Hispanic)":88.87},"Knox County, Ohio":{"American Indian / Alaska Native":0.02,"Asian":0.69,"Black or African American":0.92,"Hispanic":1.96,"Pacific Islander":0,"Two or More Races":2.74,"White (non-Hispanic)":93.22},"Lake County, Ohio":{"American Indian / Alaska Native":0.08,"Asian":1.43,"Black or African American":4.59,"Hispanic":5.1,"Pacific Islander":0.04,"Two or More Races":3.48,"White (non-Hispanic)":85},"Lawrence County, Ohio":{"American Indian / Alaska Native":0.04,"Asian":0.59,"Black or African American":1.67,"Hispanic":1.07,"Pacific Islander":0.05,"Two or More Races":2.48,"White (non-Hispanic)":93.78},"Licking County, Ohio":{"American Indian / Alaska Native":0.02,"Asian":3.14,"Black or African American":3.99,"Hispanic":2.34,"Pacific Islander":0.03,"Two or More Races":3.73,"White (non-Hispanic)":86.21},"Logan County, Ohio":{"American Indian / Alaska Native":0.1,"Asian":0.6,"Black or African American":1.72,"Hispanic":2.26,"Pacific Islander":0.04,"Two or More Races":3.15,"White (non-Hispanic)":91.94},"Lorain County, Ohio":{"American Indian / Alaska Native":0.08,"Asian":1.29,"Black or African American":7.19,"Hispanic":10.81,"Pacific Islander":0,"Two or More Races":4.33,"White (non-Hispanic)":76.08},"Lucas County, Ohio":{"American Indian / Alaska Native":0.06,"Asian":1.72,"Black or African American":19.12,"Hispanic":7.66,"Pacific Islander":0.04,"Two or More Races":4.4,"White (non-Hispanic)":66.67},"Madison County, Ohio":{"American Indian / Alaska Native":0.18,"Asian":0.87,"Black or African American":4.68,"Hispanic":2.95,"Pacific Islander":0.02,"Two or More Races":4.45,"White (non-Hispanic)":86.5},"Mahoning County, Ohio":{"American Indian / Alaska Native":0.06,"Asian":0.92,"Black or African American":13.83,"Hispanic":6.5,"Pacific Islander":0.02,"Two or More Races":3.92,"White (non-Hispanic)":74.32},"Marion County, Ohio":{"American Indian / Alaska Native":0.04,"Asian":0.59,"Black or African American":4.89,"Hispanic":3.12,"Pacific Islander":0.02,"Two or More Races":4.24,"White (non-Hispanic)":86.62},"Medina County, Ohio":{"American Indian / Alaska Native":0.05,"Asian":0.97,"Black or African American":1.25,"Hispanic":2.62,"Pacific Islander":0.01,"Two or More Races":3.12,"White (non-Hispanic)":91.82},"Meigs County, Ohio":{"American Indian / Alaska Native":0.02,"Asian":0.24,"Black or African American":0.6,"Hispanic":0.9,"Pacific Islander":0,"Two or More Races":2.14,"White (non-Hispanic)":96.04},"Mercer County, Ohio":{"American Indian / Alaska Native":0.05,"Asian":0.5,"Black or African American":0.61,"Hispanic":2.17,"Pacific Islander":0.04,"Two or More Races":2.27,"White (non-Hispanic)":94.36},"Miami County, Ohio":{"American Indian / Alaska Native":0.02,"Asian":1.7,"Black or African American":1.98,"Hispanic":2.09,"Pacific Islander":0.01,"Two or More Races":3.42,"White (non-Hispanic)":90.52},"Monroe County, Ohio":{"American Indian / Alaska Native":0.04,"Asian":0.53,"Black or African American":0.53,"Hispanic":0.18,"Pacific Islander":0,"Two or More Races":2.98,"White (non-Hispanic)":95.43},"Montgomery County, Ohio":{"American Indian / Alaska Native":0.08,"Asian":2.16,"Black or African American":20.4,"Hispanic":4.05,"Pacific Islander":0.02,"Two or More Races":4.68,"White (non-Hispanic)":68.26},"Morgan County, Ohio":{"American Indian / Alaska Native":0.1,"Asian":0.17,"Black or African American":3.03,"Hispanic":1.06,"Pacific Islander":0,"Two or More Races":4.21,"White (non-Hispanic)":90.73},"Morrow County, Ohio":{"American Indian / Alaska Native":0.09,"Asian":0.34,"Black or African American":0.53,"Hispanic":1.82,"Pacific Islander":0,"Two or More Races":2.29,"White (non-Hispanic)":94.66},"Muskingum County, Ohio":{"American Indian / Alaska Native":0.06,"Asian":0.53,"Black or African American":3.13,"Hispanic":1.29,"Pacific Islander":0.01,"Two or More Races":3.97,"White (non-Hispanic)":90.62},"Noble County, Ohio":{"American Indian / Alaska Native":0.06,"Asian":0.03,"Black or African American":4.01,"Hispanic":1.27,"Pacific Islander":0,"Two or More Races":1.02,"White (non-Hispanic)":93.52},"Ottawa County, Ohio":{"American Indian / Alaska Native":0.1,"Asian":0.33,"Black or African American":1.06,"Hispanic":5.21,"Pacific Islander":0.02,"Two or More Races":2.23,"White (non-Hispanic)":90.9},"Paulding County, Ohio":{"American Indian / Alaska Native":0.12,"Asian":0.26,"Black or African American":0.79,"Hispanic":5.55,"Pacific Islander":0,"Two or More Races":2.54,"White (non-Hispanic)":90.71},"Perry County, Ohio":{"American Indian / Alaska Native":0.07,"Asian":0.12,"Black or African American":0.23,"Hispanic":0.81,"Pacific Islander":0,"Two or More Races":2.84,"White (non-Hispanic)":95.78},"Pickaway County, Ohio":{"American Indian / Alaska Native":0.11,"Asian":0.28,"Black or African American":2.89,"Hispanic":1.76,"Pacific Islander":0,"Two or More Races":3.56,"White (non-Hispanic)":91.36},"Pike County, Ohio":{"American Indian / Alaska Native":0.08,"Asian":0.33,"Black or African American":1.07,"Hispanic":0.61,"Pacific Islander":0.47,"Two or More Races":2.81,"White (non-Hispanic)":94.62},"Portage County, Ohio":{"American Indian / Alaska Native":0.05,"Asian":1.73,"Black or African American":4.63,"Hispanic":2.22,"Pacific Islander":0.01,"Two or More Races":4.17,"White (non-Hispanic)":86.83},"Preble County, Ohio":{"American Indian / Alaska Native":0.04,"Asian":0.15,"Black or African American":0.79,"Hispanic":1.08,"Pacific Islander":0.01,"Two or More Races":2.44,"White (non-Hispanic)":95.29},"Putnam County, Ohio":{"American Indian / Alaska Native":0.06,"Asian":0.18,"Black or African American":0.54,"Hispanic":6.59,"Pacific Islander":0.05,"Two or More Races":1.12,"White (non-Hispanic)":90.97},"Richland County, Ohio":{"American Indian / Alaska Native":0.08,"Asian":0.86,"Black or African American":7.35,"Hispanic":2.2,"Pacific Islander":0.12,"Two or More Races":4.54,"White (non-Hispanic)":84.16},"Ross County, Ohio":{"American Indian / Alaska Native":0.15,"Asian":0.54,"Black or African American":5.33,"Hispanic":1.39,"Pacific Islander":0.05,"Two or More Races":3.67,"White (non-Hispanic)":88.68},"Sandusky County, Ohio":{"American Indian / Alaska Native":0.15,"Asian":0.4,"Black or African American":2.99,"Hispanic":10.63,"Pacific Islander":0.01,"Two or More Races":2.99,"White (non-Hispanic)":82.45},"Scioto County, Ohio":{"American Indian / Alaska Native":0.08,"Asian":0.49,"Black or African American":2.41,"Hispanic":1.49,"Pacific Islander":0.02,"Two or More Races":3.01,"White (non-Hispanic)":92.34},"Seneca County, Ohio":{"American Indian / Alaska Native":0.11,"Asian":0.55,"Black or African American":2.64,"Hispanic":5.52,"Pacific Islander":0.02,"Two or More Races":2.52,"White (non-Hispanic)":88.35},"Shelby County, Ohio":{"American Indian / Alaska Native":0.03,"Asian":0.78,"Black or African American":2.1,"Hispanic":1.68,"Pacific Islander":0,"Two or More Races":3.2,"White (non-Hispanic)":91.81},"Stark County, Ohio":{"American Indian / Alaska Native":0.05,"Asian":0.87,"Black or African American":7.43,"Hispanic":2.91,"Pacific Islander":0.03,"Two or More Races":4.11,"White (non-Hispanic)":84.34},"Summit County, Ohio":{"American Indian / Alaska Native":0.06,"Asian":4.04,"Black or African American":13.84,"Hispanic":2.58,"Pacific Islander":0.01,"Two or More Races":4.9,"White (non-Hispanic)":74.17},"Trumbull County, Ohio":{"American Indian / Alaska Native":0.07,"Asian":0.55,"Black or African American":7.84,"Hispanic":2.18,"Pacific Islander":0.07,"Two or More Races":4.08,"White (non-Hispanic)":85.09},"Tuscarawas County, Ohio":{"American Indian / Alaska Native":0.04,"Asian":0.36,"Black or African American":0.69,"Hispanic":4.4,"Pacific Islander":0,"Two or More Races":1.9,"White (non-Hispanic)":92.48},"Union County, Ohio":{"American Indian / Alaska Native":0.13,"Asian":4.83,"Black or African American":2.39,"Hispanic":2.92,"Pacific Islander":0,"Two or More Races":3.49,"White (non-Hispanic)":85.89},"Van Wert County, Ohio":{"American Indian / Alaska Native":0.07,"Asian":0.4,"Black or African American":0.69,"Hispanic":3.95,"Pacific Islander":0,"Two or More Races":2.48,"White (non-Hispanic)":92.35},"Vinton County, Ohio":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":0.6,"Hispanic":0.09,"Pacific Islander":0,"Two or More Races":3.22,"White (non-Hispanic)":96.1},"Warren County, Ohio":{"American Indian / Alaska Native":0.07,"Asian":6.82,"Black or African American":3.28,"Hispanic":3.32,"Pacific Islander":0,"Two or More Races":3.11,"White (non-Hispanic)":82.71},"Washington County, Ohio":{"American Indian / Alaska Native":0.19,"Asian":0.66,"Black or African American":1.01,"Hispanic":1.21,"Pacific Islander":0,"Two or More Races":2.71,"White (non-Hispanic)":93.77},"Wayne County, Ohio":{"American Indian / Alaska Native":0.06,"Asian":1.15,"Black or African American":1.12,"Hispanic":2.38,"Pacific Islander":0,"Two or More Races":2.5,"White (non-Hispanic)":92.5},"Williams County, Ohio":{"American Indian / Alaska Native":0.12,"Asian":0.6,"Black or African American":1.14,"Hispanic":5.25,"Pacific Islander":0.04,"Two or More Races":1.55,"White (non-Hispanic)":91.03},"Wood County, Ohio":{"American Indian / Alaska Native":0.15,"Asian":1.93,"Black or African American":1.92,"Hispanic":6.39,"Pacific Islander":0.13,"Two or More Races":3.22,"White (non-Hispanic)":86.08},"Wyandot County, Ohio":{"American Indian / Alaska Native":0.01,"Asian":0,"Black or African American":0.21,"Hispanic":3.06,"Pacific Islander":0,"Two or More Races":2.3,"White (non-Hispanic)":94.31}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

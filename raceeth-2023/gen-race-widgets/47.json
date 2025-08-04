@@ -1,0 +1,3173 @@
+{
+  "state": "Anderson County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6914
+        },
+        {
+          "label": "Asian",
+          "value": 127497
+        },
+        {
+          "label": "Black or African American",
+          "value": 1099942
+        },
+        {
+          "label": "Hispanic",
+          "value": 496457
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3783
+        },
+        {
+          "label": "Two or More Races",
+          "value": 231152
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4994428
+        }
+      ]
+    },
+    "Anderson County, Tennessee": {
+      "label": "Anderson County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 93
+        },
+        {
+          "label": "Asian",
+          "value": 1084
+        },
+        {
+          "label": "Black or African American",
+          "value": 2578
+        },
+        {
+          "label": "Hispanic",
+          "value": 3000
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 80
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2925
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 67994
+        }
+      ]
+    },
+    "Bedford County, Tennessee": {
+      "label": "Bedford County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 98
+        },
+        {
+          "label": "Asian",
+          "value": 382
+        },
+        {
+          "label": "Black or African American",
+          "value": 3661
+        },
+        {
+          "label": "Hispanic",
+          "value": 7968
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1591
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 37563
+        }
+      ]
+    },
+    "Benton County, Tennessee": {
+      "label": "Benton County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 145
+        },
+        {
+          "label": "Black or African American",
+          "value": 289
+        },
+        {
+          "label": "Hispanic",
+          "value": 430
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 85
+        },
+        {
+          "label": "Two or More Races",
+          "value": 432
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14550
+        }
+      ]
+    },
+    "Bledsoe County, Tennessee": {
+      "label": "Bledsoe County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 8
+        },
+        {
+          "label": "Black or African American",
+          "value": 815
+        },
+        {
+          "label": "Hispanic",
+          "value": 495
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 597
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12943
+        }
+      ]
+    },
+    "Blount County, Tennessee": {
+      "label": "Blount County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 79
+        },
+        {
+          "label": "Asian",
+          "value": 1042
+        },
+        {
+          "label": "Black or African American",
+          "value": 3573
+        },
+        {
+          "label": "Hispanic",
+          "value": 6097
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 39
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3715
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 122694
+        }
+      ]
+    },
+    "Bradley County, Tennessee": {
+      "label": "Bradley County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 131
+        },
+        {
+          "label": "Asian",
+          "value": 1144
+        },
+        {
+          "label": "Black or African American",
+          "value": 5035
+        },
+        {
+          "label": "Hispanic",
+          "value": 8827
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3465
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 90448
+        }
+      ]
+    },
+    "Campbell County, Tennessee": {
+      "label": "Campbell County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 158
+        },
+        {
+          "label": "Black or African American",
+          "value": 134
+        },
+        {
+          "label": "Hispanic",
+          "value": 576
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 15
+        },
+        {
+          "label": "Two or More Races",
+          "value": 705
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 37944
+        }
+      ]
+    },
+    "Cannon County, Tennessee": {
+      "label": "Cannon County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 22
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 352
+        },
+        {
+          "label": "Hispanic",
+          "value": 428
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 291
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13565
+        }
+      ]
+    },
+    "Carroll County, Tennessee": {
+      "label": "Carroll County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 38
+        },
+        {
+          "label": "Asian",
+          "value": 79
+        },
+        {
+          "label": "Black or African American",
+          "value": 2515
+        },
+        {
+          "label": "Hispanic",
+          "value": 849
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1056
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23904
+        }
+      ]
+    },
+    "Carter County, Tennessee": {
+      "label": "Carter County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 142
+        },
+        {
+          "label": "Black or African American",
+          "value": 1151
+        },
+        {
+          "label": "Hispanic",
+          "value": 1327
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 19
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1100
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 52665
+        }
+      ]
+    },
+    "Cheatham County, Tennessee": {
+      "label": "Cheatham County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 83
+        },
+        {
+          "label": "Asian",
+          "value": 270
+        },
+        {
+          "label": "Black or African American",
+          "value": 872
+        },
+        {
+          "label": "Hispanic",
+          "value": 1903
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1122
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 36917
+        }
+      ]
+    },
+    "Chester County, Tennessee": {
+      "label": "Chester County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 31
+        },
+        {
+          "label": "Black or African American",
+          "value": 1713
+        },
+        {
+          "label": "Hispanic",
+          "value": 546
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 333
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14669
+        }
+      ]
+    },
+    "Claiborne County, Tennessee": {
+      "label": "Claiborne County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 204
+        },
+        {
+          "label": "Black or African American",
+          "value": 234
+        },
+        {
+          "label": "Hispanic",
+          "value": 516
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 806
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30443
+        }
+      ]
+    },
+    "Clay County, Tennessee": {
+      "label": "Clay County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 73
+        },
+        {
+          "label": "Black or African American",
+          "value": 72
+        },
+        {
+          "label": "Hispanic",
+          "value": 154
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 130
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7175
+        }
+      ]
+    },
+    "Cocke County, Tennessee": {
+      "label": "Cocke County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 121
+        },
+        {
+          "label": "Asian",
+          "value": 183
+        },
+        {
+          "label": "Black or African American",
+          "value": 553
+        },
+        {
+          "label": "Hispanic",
+          "value": 1066
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 28
+        },
+        {
+          "label": "Two or More Races",
+          "value": 872
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33680
+        }
+      ]
+    },
+    "Coffee County, Tennessee": {
+      "label": "Coffee County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 744
+        },
+        {
+          "label": "Black or African American",
+          "value": 2379
+        },
+        {
+          "label": "Hispanic",
+          "value": 3527
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 20
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1591
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 50528
+        }
+      ]
+    },
+    "Crockett County, Tennessee": {
+      "label": "Crockett County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 97
+        },
+        {
+          "label": "Asian",
+          "value": 66
+        },
+        {
+          "label": "Black or African American",
+          "value": 1485
+        },
+        {
+          "label": "Hispanic",
+          "value": 1560
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 705
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10013
+        }
+      ]
+    },
+    "Cumberland County, Tennessee": {
+      "label": "Cumberland County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 71
+        },
+        {
+          "label": "Asian",
+          "value": 222
+        },
+        {
+          "label": "Black or African American",
+          "value": 501
+        },
+        {
+          "label": "Hispanic",
+          "value": 2106
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1180
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 58415
+        }
+      ]
+    },
+    "Davidson County, Tennessee": {
+      "label": "Davidson County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 523
+        },
+        {
+          "label": "Asian",
+          "value": 23892
+        },
+        {
+          "label": "Black or African American",
+          "value": 176754
+        },
+        {
+          "label": "Hispanic",
+          "value": 96481
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 350
+        },
+        {
+          "label": "Two or More Races",
+          "value": 28736
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 379503
+        }
+      ]
+    },
+    "Decatur County, Tennessee": {
+      "label": "Decatur County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 108
+        },
+        {
+          "label": "Black or African American",
+          "value": 353
+        },
+        {
+          "label": "Hispanic",
+          "value": 406
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 197
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10435
+        }
+      ]
+    },
+    "DeKalb County, Tennessee": {
+      "label": "DeKalb County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 89
+        },
+        {
+          "label": "Asian",
+          "value": 164
+        },
+        {
+          "label": "Black or African American",
+          "value": 348
+        },
+        {
+          "label": "Hispanic",
+          "value": 1551
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 369
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18004
+        }
+      ]
+    },
+    "Dickson County, Tennessee": {
+      "label": "Dickson County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 97
+        },
+        {
+          "label": "Asian",
+          "value": 38
+        },
+        {
+          "label": "Black or African American",
+          "value": 1925
+        },
+        {
+          "label": "Hispanic",
+          "value": 2688
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1920
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 48278
+        }
+      ]
+    },
+    "Dyer County, Tennessee": {
+      "label": "Dyer County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 25
+        },
+        {
+          "label": "Asian",
+          "value": 140
+        },
+        {
+          "label": "Black or African American",
+          "value": 5458
+        },
+        {
+          "label": "Hispanic",
+          "value": 1404
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1240
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28402
+        }
+      ]
+    },
+    "Fayette County, Tennessee": {
+      "label": "Fayette County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 26
+        },
+        {
+          "label": "Asian",
+          "value": 270
+        },
+        {
+          "label": "Black or African American",
+          "value": 11447
+        },
+        {
+          "label": "Hispanic",
+          "value": 1542
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1065
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28180
+        }
+      ]
+    },
+    "Fentress County, Tennessee": {
+      "label": "Fentress County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 42
+        },
+        {
+          "label": "Black or African American",
+          "value": 54
+        },
+        {
+          "label": "Hispanic",
+          "value": 374
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 14
+        },
+        {
+          "label": "Two or More Races",
+          "value": 578
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17886
+        }
+      ]
+    },
+    "Franklin County, Tennessee": {
+      "label": "Franklin County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 336
+        },
+        {
+          "label": "Black or African American",
+          "value": 2015
+        },
+        {
+          "label": "Hispanic",
+          "value": 1604
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1279
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 38114
+        }
+      ]
+    },
+    "Gibson County, Tennessee": {
+      "label": "Gibson County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 227
+        },
+        {
+          "label": "Asian",
+          "value": 140
+        },
+        {
+          "label": "Black or African American",
+          "value": 7600
+        },
+        {
+          "label": "Hispanic",
+          "value": 1607
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2875
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 38008
+        }
+      ]
+    },
+    "Giles County, Tennessee": {
+      "label": "Giles County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 115
+        },
+        {
+          "label": "Black or African American",
+          "value": 2618
+        },
+        {
+          "label": "Hispanic",
+          "value": 844
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1392
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25412
+        }
+      ]
+    },
+    "Grainger County, Tennessee": {
+      "label": "Grainger County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 34
+        },
+        {
+          "label": "Black or African American",
+          "value": 216
+        },
+        {
+          "label": "Hispanic",
+          "value": 840
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 112
+        },
+        {
+          "label": "Two or More Races",
+          "value": 398
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22258
+        }
+      ]
+    },
+    "Greene County, Tennessee": {
+      "label": "Greene County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 56
+        },
+        {
+          "label": "Asian",
+          "value": 392
+        },
+        {
+          "label": "Black or African American",
+          "value": 1326
+        },
+        {
+          "label": "Hispanic",
+          "value": 2662
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1531
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 64747
+        }
+      ]
+    },
+    "Grundy County, Tennessee": {
+      "label": "Grundy County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 49
+        },
+        {
+          "label": "Black or African American",
+          "value": 59
+        },
+        {
+          "label": "Hispanic",
+          "value": 231
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 428
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12884
+        }
+      ]
+    },
+    "Hamblen County, Tennessee": {
+      "label": "Hamblen County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 73
+        },
+        {
+          "label": "Asian",
+          "value": 576
+        },
+        {
+          "label": "Black or African American",
+          "value": 1737
+        },
+        {
+          "label": "Hispanic",
+          "value": 9561
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 459
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1947
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 50359
+        }
+      ]
+    },
+    "Hamilton County, Tennessee": {
+      "label": "Hamilton County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 274
+        },
+        {
+          "label": "Asian",
+          "value": 7121
+        },
+        {
+          "label": "Black or African American",
+          "value": 64548
+        },
+        {
+          "label": "Hispanic",
+          "value": 28357
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 104
+        },
+        {
+          "label": "Two or More Races",
+          "value": 13502
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 255254
+        }
+      ]
+    },
+    "Hancock County, Tennessee": {
+      "label": "Hancock County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 25
+        },
+        {
+          "label": "Black or African American",
+          "value": 30
+        },
+        {
+          "label": "Hispanic",
+          "value": 74
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 139
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6522
+        }
+      ]
+    },
+    "Hardeman County, Tennessee": {
+      "label": "Hardeman County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 21
+        },
+        {
+          "label": "Asian",
+          "value": 115
+        },
+        {
+          "label": "Black or African American",
+          "value": 10207
+        },
+        {
+          "label": "Hispanic",
+          "value": 530
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 942
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13642
+        }
+      ]
+    },
+    "Hardin County, Tennessee": {
+      "label": "Hardin County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 61
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 799
+        },
+        {
+          "label": "Hispanic",
+          "value": 649
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 888
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24504
+        }
+      ]
+    },
+    "Hawkins County, Tennessee": {
+      "label": "Hawkins County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 270
+        },
+        {
+          "label": "Black or African American",
+          "value": 694
+        },
+        {
+          "label": "Hispanic",
+          "value": 1058
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1365
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 53978
+        }
+      ]
+    },
+    "Haywood County, Tennessee": {
+      "label": "Haywood County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 17
+        },
+        {
+          "label": "Black or African American",
+          "value": 8830
+        },
+        {
+          "label": "Hispanic",
+          "value": 834
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 320
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7590
+        }
+      ]
+    },
+    "Henderson County, Tennessee": {
+      "label": "Henderson County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 35
+        },
+        {
+          "label": "Black or African American",
+          "value": 2125
+        },
+        {
+          "label": "Hispanic",
+          "value": 793
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 860
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24035
+        }
+      ]
+    },
+    "Henry County, Tennessee": {
+      "label": "Henry County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 186
+        },
+        {
+          "label": "Asian",
+          "value": 212
+        },
+        {
+          "label": "Black or African American",
+          "value": 2326
+        },
+        {
+          "label": "Hispanic",
+          "value": 940
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 23
+        },
+        {
+          "label": "Two or More Races",
+          "value": 787
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27871
+        }
+      ]
+    },
+    "Hickman County, Tennessee": {
+      "label": "Hickman County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 148
+        },
+        {
+          "label": "Asian",
+          "value": 88
+        },
+        {
+          "label": "Black or African American",
+          "value": 889
+        },
+        {
+          "label": "Hispanic",
+          "value": 782
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 733
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22546
+        }
+      ]
+    },
+    "Houston County, Tennessee": {
+      "label": "Houston County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 30
+        },
+        {
+          "label": "Black or African American",
+          "value": 241
+        },
+        {
+          "label": "Hispanic",
+          "value": 245
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 238
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7511
+        }
+      ]
+    },
+    "Humphreys County, Tennessee": {
+      "label": "Humphreys County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 88
+        },
+        {
+          "label": "Black or African American",
+          "value": 370
+        },
+        {
+          "label": "Hispanic",
+          "value": 525
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 699
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17198
+        }
+      ]
+    },
+    "Jackson County, Tennessee": {
+      "label": "Jackson County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 26
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 55
+        },
+        {
+          "label": "Hispanic",
+          "value": 302
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 462
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11031
+        }
+      ]
+    },
+    "Jefferson County, Tennessee": {
+      "label": "Jefferson County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 24
+        },
+        {
+          "label": "Asian",
+          "value": 308
+        },
+        {
+          "label": "Black or African American",
+          "value": 860
+        },
+        {
+          "label": "Hispanic",
+          "value": 2525
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 28
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1473
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 50394
+        }
+      ]
+    },
+    "Johnson County, Tennessee": {
+      "label": "Johnson County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 103
+        },
+        {
+          "label": "Asian",
+          "value": 33
+        },
+        {
+          "label": "Black or African American",
+          "value": 667
+        },
+        {
+          "label": "Hispanic",
+          "value": 541
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 742
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15898
+        }
+      ]
+    },
+    "Knox County, Tennessee": {
+      "label": "Knox County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 426
+        },
+        {
+          "label": "Asian",
+          "value": 10813
+        },
+        {
+          "label": "Black or African American",
+          "value": 39181
+        },
+        {
+          "label": "Hispanic",
+          "value": 29579
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 334
+        },
+        {
+          "label": "Two or More Races",
+          "value": 16828
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 387760
+        }
+      ]
+    },
+    "Lake County, Tennessee": {
+      "label": "Lake County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 67
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 1482
+        },
+        {
+          "label": "Hispanic",
+          "value": 295
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 13
+        },
+        {
+          "label": "Two or More Races",
+          "value": 455
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4366
+        }
+      ]
+    },
+    "Lauderdale County, Tennessee": {
+      "label": "Lauderdale County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 84
+        },
+        {
+          "label": "Asian",
+          "value": 156
+        },
+        {
+          "label": "Black or African American",
+          "value": 8455
+        },
+        {
+          "label": "Hispanic",
+          "value": 652
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 923
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14619
+        }
+      ]
+    },
+    "Lawrence County, Tennessee": {
+      "label": "Lawrence County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 99
+        },
+        {
+          "label": "Black or African American",
+          "value": 588
+        },
+        {
+          "label": "Hispanic",
+          "value": 1202
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1586
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 41335
+        }
+      ]
+    },
+    "Lewis County, Tennessee": {
+      "label": "Lewis County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 106
+        },
+        {
+          "label": "Black or African American",
+          "value": 100
+        },
+        {
+          "label": "Hispanic",
+          "value": 372
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 464
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11742
+        }
+      ]
+    },
+    "Lincoln County, Tennessee": {
+      "label": "Lincoln County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 223
+        },
+        {
+          "label": "Black or African American",
+          "value": 2052
+        },
+        {
+          "label": "Hispanic",
+          "value": 1393
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1535
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30348
+        }
+      ]
+    },
+    "Loudon County, Tennessee": {
+      "label": "Loudon County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 519
+        },
+        {
+          "label": "Black or African American",
+          "value": 745
+        },
+        {
+          "label": "Hispanic",
+          "value": 5708
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 894
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 48897
+        }
+      ]
+    },
+    "Macon County, Tennessee": {
+      "label": "Macon County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 12
+        },
+        {
+          "label": "Black or African American",
+          "value": 191
+        },
+        {
+          "label": "Hispanic",
+          "value": 1751
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 942
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22880
+        }
+      ]
+    },
+    "Madison County, Tennessee": {
+      "label": "Madison County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 141
+        },
+        {
+          "label": "Asian",
+          "value": 986
+        },
+        {
+          "label": "Black or African American",
+          "value": 36056
+        },
+        {
+          "label": "Hispanic",
+          "value": 4920
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 87
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3191
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 52899
+        }
+      ]
+    },
+    "Marion County, Tennessee": {
+      "label": "Marion County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 34
+        },
+        {
+          "label": "Asian",
+          "value": 65
+        },
+        {
+          "label": "Black or African American",
+          "value": 817
+        },
+        {
+          "label": "Hispanic",
+          "value": 672
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1159
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26229
+        }
+      ]
+    },
+    "Marshall County, Tennessee": {
+      "label": "Marshall County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 67
+        },
+        {
+          "label": "Asian",
+          "value": 234
+        },
+        {
+          "label": "Black or African American",
+          "value": 1447
+        },
+        {
+          "label": "Hispanic",
+          "value": 2402
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1481
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29445
+        }
+      ]
+    },
+    "Maury County, Tennessee": {
+      "label": "Maury County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 85
+        },
+        {
+          "label": "Asian",
+          "value": 977
+        },
+        {
+          "label": "Black or African American",
+          "value": 11082
+        },
+        {
+          "label": "Hispanic",
+          "value": 8178
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 13
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3968
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 80422
+        }
+      ]
+    },
+    "McMinn County, Tennessee": {
+      "label": "McMinn County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 32
+        },
+        {
+          "label": "Asian",
+          "value": 433
+        },
+        {
+          "label": "Black or African American",
+          "value": 1694
+        },
+        {
+          "label": "Hispanic",
+          "value": 2369
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2618
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 46935
+        }
+      ]
+    },
+    "McNairy County, Tennessee": {
+      "label": "McNairy County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 62
+        },
+        {
+          "label": "Asian",
+          "value": 120
+        },
+        {
+          "label": "Black or African American",
+          "value": 1363
+        },
+        {
+          "label": "Hispanic",
+          "value": 520
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 675
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23172
+        }
+      ]
+    },
+    "Meigs County, Tennessee": {
+      "label": "Meigs County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 63
+        },
+        {
+          "label": "Black or African American",
+          "value": 304
+        },
+        {
+          "label": "Hispanic",
+          "value": 131
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 698
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11827
+        }
+      ]
+    },
+    "Monroe County, Tennessee": {
+      "label": "Monroe County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 87
+        },
+        {
+          "label": "Asian",
+          "value": 202
+        },
+        {
+          "label": "Black or African American",
+          "value": 819
+        },
+        {
+          "label": "Hispanic",
+          "value": 2095
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2590
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 41139
+        }
+      ]
+    },
+    "Montgomery County, Tennessee": {
+      "label": "Montgomery County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 390
+        },
+        {
+          "label": "Asian",
+          "value": 5535
+        },
+        {
+          "label": "Black or African American",
+          "value": 44642
+        },
+        {
+          "label": "Hispanic",
+          "value": 25020
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 608
+        },
+        {
+          "label": "Two or More Races",
+          "value": 13486
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 137242
+        }
+      ]
+    },
+    "Moore County, Tennessee": {
+      "label": "Moore County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 26
+        },
+        {
+          "label": "Asian",
+          "value": 27
+        },
+        {
+          "label": "Black or African American",
+          "value": 195
+        },
+        {
+          "label": "Hispanic",
+          "value": 109
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 161
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6092
+        }
+      ]
+    },
+    "Morgan County, Tennessee": {
+      "label": "Morgan County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 33
+        },
+        {
+          "label": "Black or African American",
+          "value": 945
+        },
+        {
+          "label": "Hispanic",
+          "value": 378
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 323
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19494
+        }
+      ]
+    },
+    "Obion County, Tennessee": {
+      "label": "Obion County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 22
+        },
+        {
+          "label": "Asian",
+          "value": 69
+        },
+        {
+          "label": "Black or African American",
+          "value": 3208
+        },
+        {
+          "label": "Hispanic",
+          "value": 1614
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 40
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1248
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24307
+        }
+      ]
+    },
+    "Overton County, Tennessee": {
+      "label": "Overton County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 63
+        },
+        {
+          "label": "Black or African American",
+          "value": 314
+        },
+        {
+          "label": "Hispanic",
+          "value": 454
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 218
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21725
+        }
+      ]
+    },
+    "Perry County, Tennessee": {
+      "label": "Perry County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 46
+        },
+        {
+          "label": "Asian",
+          "value": 108
+        },
+        {
+          "label": "Black or African American",
+          "value": 43
+        },
+        {
+          "label": "Hispanic",
+          "value": 243
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 401
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7720
+        }
+      ]
+    },
+    "Pickett County, Tennessee": {
+      "label": "Pickett County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 18
+        },
+        {
+          "label": "Hispanic",
+          "value": 41
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 157
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4841
+        }
+      ]
+    },
+    "Polk County, Tennessee": {
+      "label": "Polk County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 49
+        },
+        {
+          "label": "Black or African American",
+          "value": 137
+        },
+        {
+          "label": "Hispanic",
+          "value": 369
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1075
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16011
+        }
+      ]
+    },
+    "Putnam County, Tennessee": {
+      "label": "Putnam County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 34
+        },
+        {
+          "label": "Asian",
+          "value": 946
+        },
+        {
+          "label": "Black or African American",
+          "value": 1944
+        },
+        {
+          "label": "Hispanic",
+          "value": 6538
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2237
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 69518
+        }
+      ]
+    },
+    "Rhea County, Tennessee": {
+      "label": "Rhea County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 222
+        },
+        {
+          "label": "Black or African American",
+          "value": 535
+        },
+        {
+          "label": "Hispanic",
+          "value": 2032
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1201
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29122
+        }
+      ]
+    },
+    "Roane County, Tennessee": {
+      "label": "Roane County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 99
+        },
+        {
+          "label": "Asian",
+          "value": 330
+        },
+        {
+          "label": "Black or African American",
+          "value": 1294
+        },
+        {
+          "label": "Hispanic",
+          "value": 1225
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1789
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 49590
+        }
+      ]
+    },
+    "Robertson County, Tennessee": {
+      "label": "Robertson County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 64
+        },
+        {
+          "label": "Asian",
+          "value": 502
+        },
+        {
+          "label": "Black or African American",
+          "value": 5222
+        },
+        {
+          "label": "Hispanic",
+          "value": 7150
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2054
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 58899
+        }
+      ]
+    },
+    "Rutherford County, Tennessee": {
+      "label": "Rutherford County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 294
+        },
+        {
+          "label": "Asian",
+          "value": 12374
+        },
+        {
+          "label": "Black or African American",
+          "value": 52310
+        },
+        {
+          "label": "Hispanic",
+          "value": 40625
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 217
+        },
+        {
+          "label": "Two or More Races",
+          "value": 16220
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 227872
+        }
+      ]
+    },
+    "Scott County, Tennessee": {
+      "label": "Scott County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 54
+        },
+        {
+          "label": "Asian",
+          "value": 90
+        },
+        {
+          "label": "Black or African American",
+          "value": 86
+        },
+        {
+          "label": "Hispanic",
+          "value": 29
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 466
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21215
+        }
+      ]
+    },
+    "Sequatchie County, Tennessee": {
+      "label": "Sequatchie County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 130
+        },
+        {
+          "label": "Black or African American",
+          "value": 77
+        },
+        {
+          "label": "Hispanic",
+          "value": 719
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 20
+        },
+        {
+          "label": "Two or More Races",
+          "value": 431
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14986
+        }
+      ]
+    },
+    "Sevier County, Tennessee": {
+      "label": "Sevier County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 157
+        },
+        {
+          "label": "Asian",
+          "value": 1163
+        },
+        {
+          "label": "Black or African American",
+          "value": 830
+        },
+        {
+          "label": "Hispanic",
+          "value": 8822
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 50
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2292
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 84933
+        }
+      ]
+    },
+    "Shelby County, Tennessee": {
+      "label": "Shelby County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 386
+        },
+        {
+          "label": "Asian",
+          "value": 26120
+        },
+        {
+          "label": "Black or African American",
+          "value": 485527
+        },
+        {
+          "label": "Hispanic",
+          "value": 78252
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 607
+        },
+        {
+          "label": "Two or More Races",
+          "value": 21677
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 306862
+        }
+      ]
+    },
+    "Smith County, Tennessee": {
+      "label": "Smith County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 102
+        },
+        {
+          "label": "Black or African American",
+          "value": 359
+        },
+        {
+          "label": "Hispanic",
+          "value": 599
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 19
+        },
+        {
+          "label": "Two or More Races",
+          "value": 760
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18273
+        }
+      ]
+    },
+    "Stewart County, Tennessee": {
+      "label": "Stewart County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 83
+        },
+        {
+          "label": "Black or African American",
+          "value": 179
+        },
+        {
+          "label": "Hispanic",
+          "value": 399
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 606
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12576
+        }
+      ]
+    },
+    "Sullivan County, Tennessee": {
+      "label": "Sullivan County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 196
+        },
+        {
+          "label": "Asian",
+          "value": 1328
+        },
+        {
+          "label": "Black or African American",
+          "value": 3173
+        },
+        {
+          "label": "Hispanic",
+          "value": 3905
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3675
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 147064
+        }
+      ]
+    },
+    "Sumner County, Tennessee": {
+      "label": "Sumner County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 156
+        },
+        {
+          "label": "Asian",
+          "value": 3190
+        },
+        {
+          "label": "Black or African American",
+          "value": 16979
+        },
+        {
+          "label": "Hispanic",
+          "value": 13759
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 84
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6079
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 159392
+        }
+      ]
+    },
+    "Tipton County, Tennessee": {
+      "label": "Tipton County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 107
+        },
+        {
+          "label": "Asian",
+          "value": 305
+        },
+        {
+          "label": "Black or African American",
+          "value": 11411
+        },
+        {
+          "label": "Hispanic",
+          "value": 1829
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1946
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 45251
+        }
+      ]
+    },
+    "Trousdale County, Tennessee": {
+      "label": "Trousdale County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 19
+        },
+        {
+          "label": "Black or African American",
+          "value": 1330
+        },
+        {
+          "label": "Hispanic",
+          "value": 431
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 474
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9490
+        }
+      ]
+    },
+    "Unicoi County, Tennessee": {
+      "label": "Unicoi County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 58
+        },
+        {
+          "label": "Asian",
+          "value": 29
+        },
+        {
+          "label": "Black or African American",
+          "value": 82
+        },
+        {
+          "label": "Hispanic",
+          "value": 1143
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 363
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16104
+        }
+      ]
+    },
+    "Union County, Tennessee": {
+      "label": "Union County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 111
+        },
+        {
+          "label": "Hispanic",
+          "value": 447
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 517
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19049
+        }
+      ]
+    },
+    "Van Buren County, Tennessee": {
+      "label": "Van Buren County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 24
+        },
+        {
+          "label": "Hispanic",
+          "value": 29
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 231
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5983
+        }
+      ]
+    },
+    "Warren County, Tennessee": {
+      "label": "Warren County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 249
+        },
+        {
+          "label": "Black or African American",
+          "value": 1134
+        },
+        {
+          "label": "Hispanic",
+          "value": 4080
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 24
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1260
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 34827
+        }
+      ]
+    },
+    "Washington County, Tennessee": {
+      "label": "Washington County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 81
+        },
+        {
+          "label": "Asian",
+          "value": 2052
+        },
+        {
+          "label": "Black or African American",
+          "value": 4989
+        },
+        {
+          "label": "Hispanic",
+          "value": 6356
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 34
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4665
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 116192
+        }
+      ]
+    },
+    "Wayne County, Tennessee": {
+      "label": "Wayne County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 21
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 682
+        },
+        {
+          "label": "Hispanic",
+          "value": 415
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 25
+        },
+        {
+          "label": "Two or More Races",
+          "value": 667
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14407
+        }
+      ]
+    },
+    "Weakley County, Tennessee": {
+      "label": "Weakley County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 77
+        },
+        {
+          "label": "Asian",
+          "value": 372
+        },
+        {
+          "label": "Black or African American",
+          "value": 2446
+        },
+        {
+          "label": "Hispanic",
+          "value": 977
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 15
+        },
+        {
+          "label": "Two or More Races",
+          "value": 906
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28067
+        }
+      ]
+    },
+    "White County, Tennessee": {
+      "label": "White County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 100
+        },
+        {
+          "label": "Black or African American",
+          "value": 336
+        },
+        {
+          "label": "Hispanic",
+          "value": 837
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 97
+        },
+        {
+          "label": "Two or More Races",
+          "value": 697
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25598
+        }
+      ]
+    },
+    "Williamson County, Tennessee": {
+      "label": "Williamson County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 80
+        },
+        {
+          "label": "Asian",
+          "value": 13115
+        },
+        {
+          "label": "Black or African American",
+          "value": 9670
+        },
+        {
+          "label": "Hispanic",
+          "value": 14809
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8082
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 207584
+        }
+      ]
+    },
+    "Wilson County, Tennessee": {
+      "label": "Wilson County, Tennessee",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 78
+        },
+        {
+          "label": "Asian",
+          "value": 3113
+        },
+        {
+          "label": "Black or African American",
+          "value": 10871
+        },
+        {
+          "label": "Hispanic",
+          "value": 9258
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5060
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 123573
+        }
+      ]
+    }
+  }
+}

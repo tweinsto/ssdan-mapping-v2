@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Race by Year – Adjuntas Municipio</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      margin: 1em;
+    }
+    #buttons button {
+      margin: 0 5px;
+    }
+    #chart-container {
+      width: 90%;
+      max-width: 800px;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+  <h2>Race/Ethnicity Population – Adjuntas Municipio</h2>
+
+  <label for="countySelect">County:</label>
+  <select id="countySelect">
+    <option value='Adjuntas Municipio'>Adjuntas Municipio</option>
+<option value='Aguada Municipio'>Aguada Municipio</option>
+<option value='Aguadilla Municipio'>Aguadilla Municipio</option>
+<option value='Aguas Buenas Municipio'>Aguas Buenas Municipio</option>
+<option value='Aibonito Municipio'>Aibonito Municipio</option>
+<option value='Añasco Municipio'>Añasco Municipio</option>
+<option value='Arecibo Municipio'>Arecibo Municipio</option>
+<option value='Arroyo Municipio'>Arroyo Municipio</option>
+<option value='Barceloneta Municipio'>Barceloneta Municipio</option>
+<option value='Barranquitas Municipio'>Barranquitas Municipio</option>
+<option value='Bayamón Municipio'>Bayamón Municipio</option>
+<option value='Cabo Rojo Municipio'>Cabo Rojo Municipio</option>
+<option value='Caguas Municipio'>Caguas Municipio</option>
+<option value='Camuy Municipio'>Camuy Municipio</option>
+<option value='Canóvanas Municipio'>Canóvanas Municipio</option>
+<option value='Carolina Municipio'>Carolina Municipio</option>
+<option value='Cataño Municipio'>Cataño Municipio</option>
+<option value='Cayey Municipio'>Cayey Municipio</option>
+<option value='Ceiba Municipio'>Ceiba Municipio</option>
+<option value='Ciales Municipio'>Ciales Municipio</option>
+<option value='Cidra Municipio'>Cidra Municipio</option>
+<option value='Coamo Municipio'>Coamo Municipio</option>
+<option value='Comerío Municipio'>Comerío Municipio</option>
+<option value='Corozal Municipio'>Corozal Municipio</option>
+<option value='Culebra Municipio'>Culebra Municipio</option>
+<option value='Dorado Municipio'>Dorado Municipio</option>
+<option value='Fajardo Municipio'>Fajardo Municipio</option>
+<option value='Florida Municipio'>Florida Municipio</option>
+<option value='Guánica Municipio'>Guánica Municipio</option>
+<option value='Guayama Municipio'>Guayama Municipio</option>
+<option value='Guayanilla Municipio'>Guayanilla Municipio</option>
+<option value='Guaynabo Municipio'>Guaynabo Municipio</option>
+<option value='Gurabo Municipio'>Gurabo Municipio</option>
+<option value='Hatillo Municipio'>Hatillo Municipio</option>
+<option value='Hormigueros Municipio'>Hormigueros Municipio</option>
+<option value='Humacao Municipio'>Humacao Municipio</option>
+<option value='Isabela Municipio'>Isabela Municipio</option>
+<option value='Jayuya Municipio'>Jayuya Municipio</option>
+<option value='Juana Díaz Municipio'>Juana Díaz Municipio</option>
+<option value='Juncos Municipio'>Juncos Municipio</option>
+<option value='Lajas Municipio'>Lajas Municipio</option>
+<option value='Lares Municipio'>Lares Municipio</option>
+<option value='Las Marías Municipio'>Las Marías Municipio</option>
+<option value='Las Piedras Municipio'>Las Piedras Municipio</option>
+<option value='Loíza Municipio'>Loíza Municipio</option>
+<option value='Luquillo Municipio'>Luquillo Municipio</option>
+<option value='Manatí Municipio'>Manatí Municipio</option>
+<option value='Maricao Municipio'>Maricao Municipio</option>
+<option value='Maunabo Municipio'>Maunabo Municipio</option>
+<option value='Mayagüez Municipio'>Mayagüez Municipio</option>
+<option value='Moca Municipio'>Moca Municipio</option>
+<option value='Morovis Municipio'>Morovis Municipio</option>
+<option value='Naguabo Municipio'>Naguabo Municipio</option>
+<option value='Naranjito Municipio'>Naranjito Municipio</option>
+<option value='Orocovis Municipio'>Orocovis Municipio</option>
+<option value='Patillas Municipio'>Patillas Municipio</option>
+<option value='Peñuelas Municipio'>Peñuelas Municipio</option>
+<option value='Ponce Municipio'>Ponce Municipio</option>
+<option value='Quebradillas Municipio'>Quebradillas Municipio</option>
+<option value='Rincón Municipio'>Rincón Municipio</option>
+<option value='Río Grande Municipio'>Río Grande Municipio</option>
+<option value='Sabana Grande Municipio'>Sabana Grande Municipio</option>
+<option value='Salinas Municipio'>Salinas Municipio</option>
+<option value='San Germán Municipio'>San Germán Municipio</option>
+<option value='San Juan Municipio'>San Juan Municipio</option>
+<option value='San Lorenzo Municipio'>San Lorenzo Municipio</option>
+<option value='San Sebastián Municipio'>San Sebastián Municipio</option>
+<option value='Santa Isabel Municipio'>Santa Isabel Municipio</option>
+<option value='Toa Alta Municipio'>Toa Alta Municipio</option>
+<option value='Toa Baja Municipio'>Toa Baja Municipio</option>
+<option value='Trujillo Alto Municipio'>Trujillo Alto Municipio</option>
+<option value='Utuado Municipio'>Utuado Municipio</option>
+<option value='Vega Alta Municipio'>Vega Alta Municipio</option>
+<option value='Vega Baja Municipio'>Vega Baja Municipio</option>
+<option value='Vieques Municipio'>Vieques Municipio</option>
+<option value='Villalba Municipio'>Villalba Municipio</option>
+<option value='Yabucoa Municipio'>Yabucoa Municipio</option>
+<option value='Yauco Municipio'>Yauco Municipio</option>
+  </select>
+
+  <div id="buttons">
+    <button onclick="updateChart(2010)">2010</button>
+    <button onclick="updateChart(2020)">2020</button>
+  </div>
+
+  <div id="chart-container">
+    <canvas id="raceChart"></canvas>
+  </div>
+
+  <script>
+    let data = null;
+    let chart = null;
+    let currentYear = 2020;
+
+    fetch("72.json")
+      .then(res => res.json())
+      .then(json => {
+        data = json;
+        document.getElementById("countySelect").addEventListener("change", () => updateChart(currentYear));
+        updateChart(currentYear);
+      });
+
+    function updateChart(year) {
+      currentYear = year;
+      const county = document.getElementById("countySelect").value;
+      const entry = data[county] && data[county][year];
+      if (!entry) return;
+
+      const races = Object.keys(entry[0]).filter(k => !["state_fips", "county", "year", "total"].includes(k));
+      const values = races.map(r => entry[0][r]);
+
+      const config = {
+        type: "bar",
+        data: {
+          labels: races,
+          datasets: [{
+            label: "Population",
+            data: values,
+            backgroundColor: "dodgerblue"
+          }]
+        },
+        options: {
+          plugins: {
+            legend: { display: false }
+          },
+          scales: {
+            y: {
+              beginAtZero: true,
+              ticks: {
+                callback: function(value) {
+                  return value.toLocaleString();
+                }
+              }
+            }
+          }
+        }
+      };
+
+      if (chart) {
+        chart.destroy();
+      }
+      chart = new Chart(document.getElementById("raceChart"), config);
+    }
+  </script>
+</body>
+</html>

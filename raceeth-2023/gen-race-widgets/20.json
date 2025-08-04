@@ -1,0 +1,3503 @@
+{
+  "state": "Allen County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12516
+        },
+        {
+          "label": "Asian",
+          "value": 84668
+        },
+        {
+          "label": "Black or African American",
+          "value": 154704
+        },
+        {
+          "label": "Hispanic",
+          "value": 389514
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2217
+        },
+        {
+          "label": "Two or More Races",
+          "value": 127393
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2155363
+        }
+      ]
+    },
+    "Allen County, Kansas": {
+      "label": "Allen County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 91
+        },
+        {
+          "label": "Asian",
+          "value": 93
+        },
+        {
+          "label": "Black or African American",
+          "value": 236
+        },
+        {
+          "label": "Hispanic",
+          "value": 512
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 108
+        },
+        {
+          "label": "Two or More Races",
+          "value": 331
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11120
+        }
+      ]
+    },
+    "Anderson County, Kansas": {
+      "label": "Anderson County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 69
+        },
+        {
+          "label": "Hispanic",
+          "value": 127
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 484
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7120
+        }
+      ]
+    },
+    "Atchison County, Kansas": {
+      "label": "Atchison County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 109
+        },
+        {
+          "label": "Black or African American",
+          "value": 679
+        },
+        {
+          "label": "Hispanic",
+          "value": 582
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 717
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13998
+        }
+      ]
+    },
+    "Barber County, Kansas": {
+      "label": "Barber County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 85
+        },
+        {
+          "label": "Asian",
+          "value": 21
+        },
+        {
+          "label": "Black or African American",
+          "value": 7
+        },
+        {
+          "label": "Hispanic",
+          "value": 254
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 89
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3687
+        }
+      ]
+    },
+    "Barton County, Kansas": {
+      "label": "Barton County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 40
+        },
+        {
+          "label": "Asian",
+          "value": 92
+        },
+        {
+          "label": "Black or African American",
+          "value": 165
+        },
+        {
+          "label": "Hispanic",
+          "value": 4149
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 734
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20072
+        }
+      ]
+    },
+    "Bourbon County, Kansas": {
+      "label": "Bourbon County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 91
+        },
+        {
+          "label": "Black or African American",
+          "value": 313
+        },
+        {
+          "label": "Hispanic",
+          "value": 432
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 720
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12773
+        }
+      ]
+    },
+    "Brown County, Kansas": {
+      "label": "Brown County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 629
+        },
+        {
+          "label": "Asian",
+          "value": 24
+        },
+        {
+          "label": "Black or African American",
+          "value": 131
+        },
+        {
+          "label": "Hispanic",
+          "value": 416
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 418
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7706
+        }
+      ]
+    },
+    "Butler County, Kansas": {
+      "label": "Butler County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 402
+        },
+        {
+          "label": "Asian",
+          "value": 1075
+        },
+        {
+          "label": "Black or African American",
+          "value": 1392
+        },
+        {
+          "label": "Hispanic",
+          "value": 3813
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 91
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2407
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 58612
+        }
+      ]
+    },
+    "Chase County, Kansas": {
+      "label": "Chase County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 7
+        },
+        {
+          "label": "Black or African American",
+          "value": 32
+        },
+        {
+          "label": "Hispanic",
+          "value": 208
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 87
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2245
+        }
+      ]
+    },
+    "Chautauqua County, Kansas": {
+      "label": "Chautauqua County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 84
+        },
+        {
+          "label": "Asian",
+          "value": 15
+        },
+        {
+          "label": "Black or African American",
+          "value": 32
+        },
+        {
+          "label": "Hispanic",
+          "value": 161
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 271
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2788
+        }
+      ]
+    },
+    "Cherokee County, Kansas": {
+      "label": "Cherokee County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 367
+        },
+        {
+          "label": "Asian",
+          "value": 111
+        },
+        {
+          "label": "Black or African American",
+          "value": 157
+        },
+        {
+          "label": "Hispanic",
+          "value": 548
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 57
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1352
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16536
+        }
+      ]
+    },
+    "Cheyenne County, Kansas": {
+      "label": "Cheyenne County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 1
+        },
+        {
+          "label": "Hispanic",
+          "value": 239
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 66
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2307
+        }
+      ]
+    },
+    "Clark County, Kansas": {
+      "label": "Clark County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 37
+        },
+        {
+          "label": "Asian",
+          "value": 38
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 127
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 106
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1673
+        }
+      ]
+    },
+    "Clay County, Kansas": {
+      "label": "Clay County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 46
+        },
+        {
+          "label": "Asian",
+          "value": 48
+        },
+        {
+          "label": "Black or African American",
+          "value": 189
+        },
+        {
+          "label": "Hispanic",
+          "value": 264
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 145
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7379
+        }
+      ]
+    },
+    "Cloud County, Kansas": {
+      "label": "Cloud County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 43
+        },
+        {
+          "label": "Asian",
+          "value": 11
+        },
+        {
+          "label": "Black or African American",
+          "value": 54
+        },
+        {
+          "label": "Hispanic",
+          "value": 332
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 144
+        },
+        {
+          "label": "Two or More Races",
+          "value": 339
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8037
+        }
+      ]
+    },
+    "Coffey County, Kansas": {
+      "label": "Coffey County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 79
+        },
+        {
+          "label": "Black or African American",
+          "value": 41
+        },
+        {
+          "label": "Hispanic",
+          "value": 279
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 228
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7653
+        }
+      ]
+    },
+    "Comanche County, Kansas": {
+      "label": "Comanche County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 4
+        },
+        {
+          "label": "Hispanic",
+          "value": 31
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 44
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1606
+        }
+      ]
+    },
+    "Cowley County, Kansas": {
+      "label": "Cowley County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 411
+        },
+        {
+          "label": "Asian",
+          "value": 642
+        },
+        {
+          "label": "Black or African American",
+          "value": 763
+        },
+        {
+          "label": "Hispanic",
+          "value": 4098
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 70
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1815
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26639
+        }
+      ]
+    },
+    "Crawford County, Kansas": {
+      "label": "Crawford County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 183
+        },
+        {
+          "label": "Asian",
+          "value": 677
+        },
+        {
+          "label": "Black or African American",
+          "value": 718
+        },
+        {
+          "label": "Hispanic",
+          "value": 2769
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 56
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1630
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32839
+        }
+      ]
+    },
+    "Decatur County, Kansas": {
+      "label": "Decatur County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 47
+        },
+        {
+          "label": "Hispanic",
+          "value": 112
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 44
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2501
+        }
+      ]
+    },
+    "Dickinson County, Kansas": {
+      "label": "Dickinson County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 25
+        },
+        {
+          "label": "Asian",
+          "value": 60
+        },
+        {
+          "label": "Black or African American",
+          "value": 51
+        },
+        {
+          "label": "Hispanic",
+          "value": 998
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 835
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16396
+        }
+      ]
+    },
+    "Doniphan County, Kansas": {
+      "label": "Doniphan County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 24
+        },
+        {
+          "label": "Asian",
+          "value": 7
+        },
+        {
+          "label": "Black or African American",
+          "value": 229
+        },
+        {
+          "label": "Hispanic",
+          "value": 237
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 351
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6639
+        }
+      ]
+    },
+    "Douglas County, Kansas": {
+      "label": "Douglas County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1233
+        },
+        {
+          "label": "Asian",
+          "value": 5407
+        },
+        {
+          "label": "Black or African American",
+          "value": 4758
+        },
+        {
+          "label": "Hispanic",
+          "value": 8443
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7584
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 91508
+        }
+      ]
+    },
+    "Edwards County, Kansas": {
+      "label": "Edwards County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 11
+        },
+        {
+          "label": "Black or African American",
+          "value": 4
+        },
+        {
+          "label": "Hispanic",
+          "value": 621
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 92
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2073
+        }
+      ]
+    },
+    "Elk County, Kansas": {
+      "label": "Elk County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 11
+        },
+        {
+          "label": "Black or African American",
+          "value": 3
+        },
+        {
+          "label": "Hispanic",
+          "value": 110
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 117
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2172
+        }
+      ]
+    },
+    "Ellis County, Kansas": {
+      "label": "Ellis County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 420
+        },
+        {
+          "label": "Black or African American",
+          "value": 342
+        },
+        {
+          "label": "Hispanic",
+          "value": 2039
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 36
+        },
+        {
+          "label": "Two or More Races",
+          "value": 708
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25267
+        }
+      ]
+    },
+    "Ellsworth County, Kansas": {
+      "label": "Ellsworth County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 37
+        },
+        {
+          "label": "Black or African American",
+          "value": 197
+        },
+        {
+          "label": "Hispanic",
+          "value": 385
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 351
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5368
+        }
+      ]
+    },
+    "Finney County, Kansas": {
+      "label": "Finney County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 1481
+        },
+        {
+          "label": "Black or African American",
+          "value": 1605
+        },
+        {
+          "label": "Hispanic",
+          "value": 19915
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 28
+        },
+        {
+          "label": "Two or More Races",
+          "value": 494
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14422
+        }
+      ]
+    },
+    "Ford County, Kansas": {
+      "label": "Ford County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 140
+        },
+        {
+          "label": "Black or African American",
+          "value": 767
+        },
+        {
+          "label": "Hispanic",
+          "value": 19858
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 821
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12418
+        }
+      ]
+    },
+    "Franklin County, Kansas": {
+      "label": "Franklin County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 87
+        },
+        {
+          "label": "Asian",
+          "value": 161
+        },
+        {
+          "label": "Black or African American",
+          "value": 203
+        },
+        {
+          "label": "Hispanic",
+          "value": 1215
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 55
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1059
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23173
+        }
+      ]
+    },
+    "Geary County, Kansas": {
+      "label": "Geary County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 78
+        },
+        {
+          "label": "Asian",
+          "value": 1121
+        },
+        {
+          "label": "Black or African American",
+          "value": 5757
+        },
+        {
+          "label": "Hispanic",
+          "value": 5811
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 37
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2914
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19955
+        }
+      ]
+    },
+    "Gove County, Kansas": {
+      "label": "Gove County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 8
+        },
+        {
+          "label": "Black or African American",
+          "value": 6
+        },
+        {
+          "label": "Hispanic",
+          "value": 37
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 78
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2660
+        }
+      ]
+    },
+    "Graham County, Kansas": {
+      "label": "Graham County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 28
+        },
+        {
+          "label": "Black or African American",
+          "value": 90
+        },
+        {
+          "label": "Hispanic",
+          "value": 90
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 90
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2108
+        }
+      ]
+    },
+    "Grant County, Kansas": {
+      "label": "Grant County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 53
+        },
+        {
+          "label": "Asian",
+          "value": 17
+        },
+        {
+          "label": "Black or African American",
+          "value": 13
+        },
+        {
+          "label": "Hispanic",
+          "value": 3850
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 121
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3230
+        }
+      ]
+    },
+    "Gray County, Kansas": {
+      "label": "Gray County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 22
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 915
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 162
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4593
+        }
+      ]
+    },
+    "Greeley County, Kansas": {
+      "label": "Greeley County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 225
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 14
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1050
+        }
+      ]
+    },
+    "Greenwood County, Kansas": {
+      "label": "Greenwood County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 63
+        },
+        {
+          "label": "Asian",
+          "value": 5
+        },
+        {
+          "label": "Black or African American",
+          "value": 35
+        },
+        {
+          "label": "Hispanic",
+          "value": 235
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 183
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5432
+        }
+      ]
+    },
+    "Hamilton County, Kansas": {
+      "label": "Hamilton County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 1
+        },
+        {
+          "label": "Hispanic",
+          "value": 1034
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 26
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1424
+        }
+      ]
+    },
+    "Harper County, Kansas": {
+      "label": "Harper County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 11
+        },
+        {
+          "label": "Black or African American",
+          "value": 46
+        },
+        {
+          "label": "Hispanic",
+          "value": 421
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 195
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4740
+        }
+      ]
+    },
+    "Harvey County, Kansas": {
+      "label": "Harvey County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 57
+        },
+        {
+          "label": "Asian",
+          "value": 253
+        },
+        {
+          "label": "Black or African American",
+          "value": 371
+        },
+        {
+          "label": "Hispanic",
+          "value": 4104
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1449
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27475
+        }
+      ]
+    },
+    "Haskell County, Kansas": {
+      "label": "Haskell County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 38
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 9
+        },
+        {
+          "label": "Hispanic",
+          "value": 1112
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 65
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2471
+        }
+      ]
+    },
+    "Hodgeman County, Kansas": {
+      "label": "Hodgeman County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 96
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 40
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1537
+        }
+      ]
+    },
+    "Jackson County, Kansas": {
+      "label": "Jackson County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 807
+        },
+        {
+          "label": "Asian",
+          "value": 48
+        },
+        {
+          "label": "Black or African American",
+          "value": 124
+        },
+        {
+          "label": "Hispanic",
+          "value": 705
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 556
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11006
+        }
+      ]
+    },
+    "Jefferson County, Kansas": {
+      "label": "Jefferson County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 85
+        },
+        {
+          "label": "Asian",
+          "value": 41
+        },
+        {
+          "label": "Black or African American",
+          "value": 117
+        },
+        {
+          "label": "Hispanic",
+          "value": 616
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 647
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16847
+        }
+      ]
+    },
+    "Jewell County, Kansas": {
+      "label": "Jewell County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 10
+        },
+        {
+          "label": "Black or African American",
+          "value": 23
+        },
+        {
+          "label": "Hispanic",
+          "value": 76
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 104
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2685
+        }
+      ]
+    },
+    "Johnson County, Kansas": {
+      "label": "Johnson County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 666
+        },
+        {
+          "label": "Asian",
+          "value": 31510
+        },
+        {
+          "label": "Black or African American",
+          "value": 29088
+        },
+        {
+          "label": "Hispanic",
+          "value": 55724
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 117
+        },
+        {
+          "label": "Two or More Races",
+          "value": 22616
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 472785
+        }
+      ]
+    },
+    "Kearny County, Kansas": {
+      "label": "Kearny County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 33
+        },
+        {
+          "label": "Black or African American",
+          "value": 46
+        },
+        {
+          "label": "Hispanic",
+          "value": 1379
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 116
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2290
+        }
+      ]
+    },
+    "Kingman County, Kansas": {
+      "label": "Kingman County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 19
+        },
+        {
+          "label": "Hispanic",
+          "value": 289
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 274
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6601
+        }
+      ]
+    },
+    "Kiowa County, Kansas": {
+      "label": "Kiowa County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 53
+        },
+        {
+          "label": "Black or African American",
+          "value": 20
+        },
+        {
+          "label": "Hispanic",
+          "value": 104
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 82
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2147
+        }
+      ]
+    },
+    "Labette County, Kansas": {
+      "label": "Labette County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 142
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 686
+        },
+        {
+          "label": "Hispanic",
+          "value": 998
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1252
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16634
+        }
+      ]
+    },
+    "Lane County, Kansas": {
+      "label": "Lane County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 17
+        },
+        {
+          "label": "Black or African American",
+          "value": 5
+        },
+        {
+          "label": "Hispanic",
+          "value": 231
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 20
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1210
+        }
+      ]
+    },
+    "Leavenworth County, Kansas": {
+      "label": "Leavenworth County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 343
+        },
+        {
+          "label": "Asian",
+          "value": 1049
+        },
+        {
+          "label": "Black or African American",
+          "value": 5916
+        },
+        {
+          "label": "Hispanic",
+          "value": 6027
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 29
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4415
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 64124
+        }
+      ]
+    },
+    "Lincoln County, Kansas": {
+      "label": "Lincoln County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 23
+        },
+        {
+          "label": "Black or African American",
+          "value": 6
+        },
+        {
+          "label": "Hispanic",
+          "value": 123
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 77
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2693
+        }
+      ]
+    },
+    "Linn County, Kansas": {
+      "label": "Linn County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 33
+        },
+        {
+          "label": "Black or African American",
+          "value": 69
+        },
+        {
+          "label": "Hispanic",
+          "value": 284
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 20
+        },
+        {
+          "label": "Two or More Races",
+          "value": 402
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8869
+        }
+      ]
+    },
+    "Logan County, Kansas": {
+      "label": "Logan County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 14
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 185
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 82
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2408
+        }
+      ]
+    },
+    "Lyon County, Kansas": {
+      "label": "Lyon County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 44
+        },
+        {
+          "label": "Asian",
+          "value": 493
+        },
+        {
+          "label": "Black or African American",
+          "value": 509
+        },
+        {
+          "label": "Hispanic",
+          "value": 7526
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1316
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22235
+        }
+      ]
+    },
+    "Marion County, Kansas": {
+      "label": "Marion County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 62
+        },
+        {
+          "label": "Asian",
+          "value": 40
+        },
+        {
+          "label": "Black or African American",
+          "value": 131
+        },
+        {
+          "label": "Hispanic",
+          "value": 480
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 281
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10785
+        }
+      ]
+    },
+    "Marshall County, Kansas": {
+      "label": "Marshall County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 31
+        },
+        {
+          "label": "Black or African American",
+          "value": 66
+        },
+        {
+          "label": "Hispanic",
+          "value": 262
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 228
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9385
+        }
+      ]
+    },
+    "McPherson County, Kansas": {
+      "label": "McPherson County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 30
+        },
+        {
+          "label": "Asian",
+          "value": 218
+        },
+        {
+          "label": "Black or African American",
+          "value": 486
+        },
+        {
+          "label": "Hispanic",
+          "value": 1635
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 775
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26986
+        }
+      ]
+    },
+    "Meade County, Kansas": {
+      "label": "Meade County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 51
+        },
+        {
+          "label": "Hispanic",
+          "value": 915
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 97
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2877
+        }
+      ]
+    },
+    "Miami County, Kansas": {
+      "label": "Miami County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 75
+        },
+        {
+          "label": "Asian",
+          "value": 193
+        },
+        {
+          "label": "Black or African American",
+          "value": 373
+        },
+        {
+          "label": "Hispanic",
+          "value": 1334
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1123
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 31499
+        }
+      ]
+    },
+    "Mitchell County, Kansas": {
+      "label": "Mitchell County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 27
+        },
+        {
+          "label": "Asian",
+          "value": 15
+        },
+        {
+          "label": "Black or African American",
+          "value": 11
+        },
+        {
+          "label": "Hispanic",
+          "value": 118
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 202
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5394
+        }
+      ]
+    },
+    "Montgomery County, Kansas": {
+      "label": "Montgomery County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 702
+        },
+        {
+          "label": "Asian",
+          "value": 75
+        },
+        {
+          "label": "Black or African American",
+          "value": 1321
+        },
+        {
+          "label": "Hispanic",
+          "value": 2428
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 34
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2357
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24097
+        }
+      ]
+    },
+    "Morris County, Kansas": {
+      "label": "Morris County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 12
+        },
+        {
+          "label": "Hispanic",
+          "value": 237
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 256
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4867
+        }
+      ]
+    },
+    "Morton County, Kansas": {
+      "label": "Morton County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 37
+        },
+        {
+          "label": "Black or African American",
+          "value": 35
+        },
+        {
+          "label": "Hispanic",
+          "value": 613
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 72
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1889
+        }
+      ]
+    },
+    "Nemaha County, Kansas": {
+      "label": "Nemaha County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 49
+        },
+        {
+          "label": "Asian",
+          "value": 40
+        },
+        {
+          "label": "Black or African American",
+          "value": 65
+        },
+        {
+          "label": "Hispanic",
+          "value": 257
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 207
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9567
+        }
+      ]
+    },
+    "Neosho County, Kansas": {
+      "label": "Neosho County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 78
+        },
+        {
+          "label": "Black or African American",
+          "value": 218
+        },
+        {
+          "label": "Hispanic",
+          "value": 930
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 603
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13861
+        }
+      ]
+    },
+    "Ness County, Kansas": {
+      "label": "Ness County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 7
+        },
+        {
+          "label": "Black or African American",
+          "value": 1
+        },
+        {
+          "label": "Hispanic",
+          "value": 403
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 122
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2120
+        }
+      ]
+    },
+    "Norton County, Kansas": {
+      "label": "Norton County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 64
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 146
+        },
+        {
+          "label": "Hispanic",
+          "value": 314
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 222
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4616
+        }
+      ]
+    },
+    "Osage County, Kansas": {
+      "label": "Osage County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 20
+        },
+        {
+          "label": "Black or African American",
+          "value": 79
+        },
+        {
+          "label": "Hispanic",
+          "value": 512
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 523
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14582
+        }
+      ]
+    },
+    "Osborne County, Kansas": {
+      "label": "Osborne County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 14
+        },
+        {
+          "label": "Hispanic",
+          "value": 93
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 107
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3224
+        }
+      ]
+    },
+    "Ottawa County, Kansas": {
+      "label": "Ottawa County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 27
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 40
+        },
+        {
+          "label": "Hispanic",
+          "value": 183
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 147
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5382
+        }
+      ]
+    },
+    "Pawnee County, Kansas": {
+      "label": "Pawnee County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 39
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 426
+        },
+        {
+          "label": "Hispanic",
+          "value": 540
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 134
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5081
+        }
+      ]
+    },
+    "Phillips County, Kansas": {
+      "label": "Phillips County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 30
+        },
+        {
+          "label": "Asian",
+          "value": 20
+        },
+        {
+          "label": "Black or African American",
+          "value": 26
+        },
+        {
+          "label": "Hispanic",
+          "value": 160
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 115
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4515
+        }
+      ]
+    },
+    "Pottawatomie County, Kansas": {
+      "label": "Pottawatomie County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 72
+        },
+        {
+          "label": "Asian",
+          "value": 92
+        },
+        {
+          "label": "Black or African American",
+          "value": 443
+        },
+        {
+          "label": "Hispanic",
+          "value": 1508
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 25
+        },
+        {
+          "label": "Two or More Races",
+          "value": 824
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22688
+        }
+      ]
+    },
+    "Pratt County, Kansas": {
+      "label": "Pratt County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 20
+        },
+        {
+          "label": "Black or African American",
+          "value": 189
+        },
+        {
+          "label": "Hispanic",
+          "value": 755
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 314
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7773
+        }
+      ]
+    },
+    "Rawlins County, Kansas": {
+      "label": "Rawlins County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 186
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 58
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2256
+        }
+      ]
+    },
+    "Reno County, Kansas": {
+      "label": "Reno County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 233
+        },
+        {
+          "label": "Asian",
+          "value": 360
+        },
+        {
+          "label": "Black or African American",
+          "value": 1388
+        },
+        {
+          "label": "Hispanic",
+          "value": 6245
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 257
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2036
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 51001
+        }
+      ]
+    },
+    "Republic County, Kansas": {
+      "label": "Republic County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 25
+        },
+        {
+          "label": "Black or African American",
+          "value": 29
+        },
+        {
+          "label": "Hispanic",
+          "value": 116
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 90
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4368
+        }
+      ]
+    },
+    "Rice County, Kansas": {
+      "label": "Rice County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 47
+        },
+        {
+          "label": "Asian",
+          "value": 6
+        },
+        {
+          "label": "Black or African American",
+          "value": 176
+        },
+        {
+          "label": "Hispanic",
+          "value": 1282
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 452
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7346
+        }
+      ]
+    },
+    "Riley County, Kansas": {
+      "label": "Riley County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 221
+        },
+        {
+          "label": "Asian",
+          "value": 2829
+        },
+        {
+          "label": "Black or African American",
+          "value": 4385
+        },
+        {
+          "label": "Hispanic",
+          "value": 7120
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 199
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3517
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 53106
+        }
+      ]
+    },
+    "Rooks County, Kansas": {
+      "label": "Rooks County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 10
+        },
+        {
+          "label": "Black or African American",
+          "value": 131
+        },
+        {
+          "label": "Hispanic",
+          "value": 144
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 77
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4485
+        }
+      ]
+    },
+    "Rush County, Kansas": {
+      "label": "Rush County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 5
+        },
+        {
+          "label": "Black or African American",
+          "value": 13
+        },
+        {
+          "label": "Hispanic",
+          "value": 160
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 154
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2613
+        }
+      ]
+    },
+    "Russell County, Kansas": {
+      "label": "Russell County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 36
+        },
+        {
+          "label": "Asian",
+          "value": 24
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 271
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 329
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6042
+        }
+      ]
+    },
+    "Saline County, Kansas": {
+      "label": "Saline County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 1116
+        },
+        {
+          "label": "Black or African American",
+          "value": 1866
+        },
+        {
+          "label": "Hispanic",
+          "value": 6715
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 16
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1674
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 42359
+        }
+      ]
+    },
+    "Scott County, Kansas": {
+      "label": "Scott County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 66
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 1024
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 75
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3876
+        }
+      ]
+    },
+    "Sedgwick County, Kansas": {
+      "label": "Sedgwick County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2364
+        },
+        {
+          "label": "Asian",
+          "value": 21792
+        },
+        {
+          "label": "Black or African American",
+          "value": 40792
+        },
+        {
+          "label": "Hispanic",
+          "value": 84671
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 358
+        },
+        {
+          "label": "Two or More Races",
+          "value": 28821
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 343531
+        }
+      ]
+    },
+    "Seward County, Kansas": {
+      "label": "Seward County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 46
+        },
+        {
+          "label": "Asian",
+          "value": 514
+        },
+        {
+          "label": "Black or African American",
+          "value": 545
+        },
+        {
+          "label": "Hispanic",
+          "value": 14418
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 504
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5603
+        }
+      ]
+    },
+    "Shawnee County, Kansas": {
+      "label": "Shawnee County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 748
+        },
+        {
+          "label": "Asian",
+          "value": 2423
+        },
+        {
+          "label": "Black or African American",
+          "value": 13092
+        },
+        {
+          "label": "Hispanic",
+          "value": 24244
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 155
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8777
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 127911
+        }
+      ]
+    },
+    "Sheridan County, Kansas": {
+      "label": "Sheridan County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 3
+        },
+        {
+          "label": "Hispanic",
+          "value": 145
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 51
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2237
+        }
+      ]
+    },
+    "Sherman County, Kansas": {
+      "label": "Sherman County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 2
+        },
+        {
+          "label": "Black or African American",
+          "value": 122
+        },
+        {
+          "label": "Hispanic",
+          "value": 766
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 281
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4748
+        }
+      ]
+    },
+    "Smith County, Kansas": {
+      "label": "Smith County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 25
+        },
+        {
+          "label": "Black or African American",
+          "value": 27
+        },
+        {
+          "label": "Hispanic",
+          "value": 40
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 108
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3354
+        }
+      ]
+    },
+    "Stafford County, Kansas": {
+      "label": "Stafford County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 7
+        },
+        {
+          "label": "Hispanic",
+          "value": 534
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 158
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3284
+        }
+      ]
+    },
+    "Stanton County, Kansas": {
+      "label": "Stanton County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 105
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 908
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 75
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 926
+        }
+      ]
+    },
+    "Stevens County, Kansas": {
+      "label": "Stevens County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 15
+        },
+        {
+          "label": "Black or African American",
+          "value": 6
+        },
+        {
+          "label": "Hispanic",
+          "value": 2016
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 159
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3013
+        }
+      ]
+    },
+    "Sumner County, Kansas": {
+      "label": "Sumner County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 172
+        },
+        {
+          "label": "Asian",
+          "value": 96
+        },
+        {
+          "label": "Black or African American",
+          "value": 255
+        },
+        {
+          "label": "Hispanic",
+          "value": 1320
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 946
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19510
+        }
+      ]
+    },
+    "Thomas County, Kansas": {
+      "label": "Thomas County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 19
+        },
+        {
+          "label": "Black or African American",
+          "value": 25
+        },
+        {
+          "label": "Hispanic",
+          "value": 639
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 78
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7133
+        }
+      ]
+    },
+    "Trego County, Kansas": {
+      "label": "Trego County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 21
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 5
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 53
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2669
+        }
+      ]
+    },
+    "Wabaunsee County, Kansas": {
+      "label": "Wabaunsee County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 26
+        },
+        {
+          "label": "Black or African American",
+          "value": 22
+        },
+        {
+          "label": "Hispanic",
+          "value": 322
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 261
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6265
+        }
+      ]
+    },
+    "Wallace County, Kansas": {
+      "label": "Wallace County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 16
+        },
+        {
+          "label": "Black or African American",
+          "value": 10
+        },
+        {
+          "label": "Hispanic",
+          "value": 91
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 42
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1298
+        }
+      ]
+    },
+    "Washington County, Kansas": {
+      "label": "Washington County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 32
+        },
+        {
+          "label": "Black or African American",
+          "value": 11
+        },
+        {
+          "label": "Hispanic",
+          "value": 258
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 110
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5043
+        }
+      ]
+    },
+    "Wichita County, Kansas": {
+      "label": "Wichita County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 4
+        },
+        {
+          "label": "Hispanic",
+          "value": 628
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 43
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1431
+        }
+      ]
+    },
+    "Wilson County, Kansas": {
+      "label": "Wilson County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 50
+        },
+        {
+          "label": "Asian",
+          "value": 2
+        },
+        {
+          "label": "Black or African American",
+          "value": 13
+        },
+        {
+          "label": "Hispanic",
+          "value": 310
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 379
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7786
+        }
+      ]
+    },
+    "Woodson County, Kansas": {
+      "label": "Woodson County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 3
+        },
+        {
+          "label": "Hispanic",
+          "value": 23
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 190
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2868
+        }
+      ]
+    },
+    "Wyandotte County, Kansas": {
+      "label": "Wyandotte County, Kansas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 489
+        },
+        {
+          "label": "Asian",
+          "value": 8633
+        },
+        {
+          "label": "Black or African American",
+          "value": 31495
+        },
+        {
+          "label": "Hispanic",
+          "value": 55765
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 292
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7451
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 62177
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 49</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Beaver County, Utah">Beaver County, Utah</option>
+<option value="Box Elder County, Utah">Box Elder County, Utah</option>
+<option value="Cache County, Utah">Cache County, Utah</option>
+<option value="Carbon County, Utah">Carbon County, Utah</option>
+<option value="Daggett County, Utah">Daggett County, Utah</option>
+<option value="Davis County, Utah">Davis County, Utah</option>
+<option value="Duchesne County, Utah">Duchesne County, Utah</option>
+<option value="Emery County, Utah">Emery County, Utah</option>
+<option value="Garfield County, Utah">Garfield County, Utah</option>
+<option value="Grand County, Utah">Grand County, Utah</option>
+<option value="Iron County, Utah">Iron County, Utah</option>
+<option value="Juab County, Utah">Juab County, Utah</option>
+<option value="Kane County, Utah">Kane County, Utah</option>
+<option value="Millard County, Utah">Millard County, Utah</option>
+<option value="Morgan County, Utah">Morgan County, Utah</option>
+<option value="Piute County, Utah">Piute County, Utah</option>
+<option value="Rich County, Utah">Rich County, Utah</option>
+<option value="Salt Lake County, Utah">Salt Lake County, Utah</option>
+<option value="San Juan County, Utah">San Juan County, Utah</option>
+<option value="Sanpete County, Utah">Sanpete County, Utah</option>
+<option value="Sevier County, Utah">Sevier County, Utah</option>
+<option value="Summit County, Utah">Summit County, Utah</option>
+<option value="Tooele County, Utah">Tooele County, Utah</option>
+<option value="Uintah County, Utah">Uintah County, Utah</option>
+<option value="Utah County, Utah">Utah County, Utah</option>
+<option value="Wasatch County, Utah">Wasatch County, Utah</option>
+<option value="Washington County, Utah">Washington County, Utah</option>
+<option value="Wayne County, Utah">Wayne County, Utah</option>
+<option value="Weber County, Utah">Weber County, Utah</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.68,"Asian":2.32,"Black or African American":1.04,"Hispanic":15.4,"Pacific Islander":0.91,"Two or More Races":3.58,"White (non-Hispanic)":75.71},"Beaver County, Utah":{"American Indian / Alaska Native":0.08,"Asian":0,"Black or African American":0.15,"Hispanic":14.74,"Pacific Islander":0.14,"Two or More Races":0.75,"White (non-Hispanic)":84.09},"Box Elder County, Utah":{"American Indian / Alaska Native":0.42,"Asian":0.74,"Black or African American":0.35,"Hispanic":9.93,"Pacific Islander":0.21,"Two or More Races":2.05,"White (non-Hispanic)":86.25},"Cache County, Utah":{"American Indian / Alaska Native":0.08,"Asian":1.84,"Black or African American":0.66,"Hispanic":11.53,"Pacific Islander":0.38,"Two or More Races":3.35,"White (non-Hispanic)":81.94},"Carbon County, Utah":{"American Indian / Alaska Native":0.58,"Asian":0.31,"Black or African American":0.52,"Hispanic":13.21,"Pacific Islander":0.34,"Two or More Races":2.44,"White (non-Hispanic)":82.32},"Daggett County, Utah":{"American Indian / Alaska Native":1.47,"Asian":0,"Black or African American":0,"Hispanic":2.95,"Pacific Islander":0,"Two or More Races":3.21,"White (non-Hispanic)":92.24},"Davis County, Utah":{"American Indian / Alaska Native":0.3,"Asian":1.88,"Black or African American":1.14,"Hispanic":11.26,"Pacific Islander":0.81,"Two or More Races":3.39,"White (non-Hispanic)":80.64},"Duchesne County, Utah":{"American Indian / Alaska Native":3.49,"Asian":0.52,"Black or African American":0.08,"Hispanic":7.1,"Pacific Islander":0.47,"Two or More Races":2.91,"White (non-Hispanic)":85.33},"Emery County, Utah":{"American Indian / Alaska Native":0.76,"Asian":0,"Black or African American":0.04,"Hispanic":7.32,"Pacific Islander":0.54,"Two or More Races":1.77,"White (non-Hispanic)":89.49},"Garfield County, Utah":{"American Indian / Alaska Native":1.93,"Asian":0,"Black or African American":0.08,"Hispanic":6.98,"Pacific Islander":0.48,"Two or More Races":1.18,"White (non-Hispanic)":89.34},"Grand County, Utah":{"American Indian / Alaska Native":3.94,"Asian":1.1,"Black or African American":0.02,"Hispanic":12.5,"Pacific Islander":1.42,"Two or More Races":2.22,"White (non-Hispanic)":78.69},"Iron County, Utah":{"American Indian / Alaska Native":1.23,"Asian":0.99,"Black or African American":0.63,"Hispanic":10.08,"Pacific Islander":0.32,"Two or More Races":2.74,"White (non-Hispanic)":83.83},"Juab County, Utah":{"American Indian / Alaska Native":1.05,"Asian":0,"Black or African American":0.65,"Hispanic":5.22,"Pacific Islander":0.01,"Two or More Races":2.07,"White (non-Hispanic)":91},"Kane County, Utah":{"American Indian / Alaska Native":2.09,"Asian":0.14,"Black or African American":0.23,"Hispanic":4.8,"Pacific Islander":0.09,"Two or More Races":3.34,"White (non-Hispanic)":88.72},"Millard County, Utah":{"American Indian / Alaska Native":1.36,"Asian":1.71,"Black or African American":0.21,"Hispanic":13.32,"Pacific Islander":0.14,"Two or More Races":1.21,"White (non-Hispanic)":81.96},"Morgan County, Utah":{"American Indian / Alaska Native":0.14,"Asian":0.18,"Black or African American":0.16,"Hispanic":2.88,"Pacific Islander":0.38,"Two or More Races":2.21,"White (non-Hispanic)":92.72},"Piute County, Utah":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":0.12,"Hispanic":4.4,"Pacific Islander":0,"Two or More Races":0,"White (non-Hispanic)":95.48},"Rich County, Utah":{"American Indian / Alaska Native":0.43,"Asian":0,"Black or African American":0,"Hispanic":6.96,"Pacific Islander":0,"Two or More Races":3.13,"White (non-Hispanic)":89.45},"Salt Lake County, Utah":{"American Indian / Alaska Native":0.49,"Asian":4.06,"Black or African American":1.65,"Hispanic":19.98,"Pacific Islander":1.5,"Two or More Races":4.02,"White (non-Hispanic)":67.89},"San Juan County, Utah":{"American Indian / Alaska Native":45.26,"Asian":0.5,"Black or African American":0.07,"Hispanic":5.56,"Pacific Islander":0.41,"Two or More Races":2.63,"White (non-Hispanic)":44.91},"Sanpete County, Utah":{"American Indian / Alaska Native":0.6,"Asian":0.85,"Black or African American":0.88,"Hispanic":10.47,"Pacific Islander":0.47,"Two or More Races":2.03,"White (non-Hispanic)":84.49},"Sevier County, Utah":{"American Indian / Alaska Native":0.44,"Asian":0.29,"Black or African American":0.2,"Hispanic":5.21,"Pacific Islander":0.19,"Two or More Races":2.13,"White (non-Hispanic)":91.32},"Summit County, Utah":{"American Indian / Alaska Native":0.06,"Asian":1.72,"Black or African American":0.39,"Hispanic":11.15,"Pacific Islander":0.15,"Two or More Races":3.14,"White (non-Hispanic)":83.23},"Tooele County, Utah":{"American Indian / Alaska Native":0.23,"Asian":0.72,"Black or African American":0.81,"Hispanic":14.25,"Pacific Islander":0.86,"Two or More Races":3.41,"White (non-Hispanic)":79.15},"Uintah County, Utah":{"American Indian / Alaska Native":5.1,"Asian":0.73,"Black or African American":0.5,"Hispanic":8.42,"Pacific Islander":0.12,"Two or More Races":4.55,"White (non-Hispanic)":80.39},"Utah County, Utah":{"American Indian / Alaska Native":0.25,"Asian":1.43,"Black or African American":0.6,"Hispanic":13.86,"Pacific Islander":0.79,"Two or More Races":3.9,"White (non-Hispanic)":78.9},"Wasatch County, Utah":{"American Indian / Alaska Native":0.23,"Asian":1.4,"Black or African American":0.06,"Hispanic":14.37,"Pacific Islander":0.12,"Two or More Races":1.96,"White (non-Hispanic)":81.54},"Washington County, Utah":{"American Indian / Alaska Native":0.67,"Asian":1.05,"Black or African American":0.47,"Hispanic":11.75,"Pacific Islander":0.66,"Two or More Races":3.29,"White (non-Hispanic)":81.82},"Wayne County, Utah":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":0,"Hispanic":3.83,"Pacific Islander":0,"Two or More Races":5.16,"White (non-Hispanic)":91.01},"Weber County, Utah":{"American Indian / Alaska Native":0.37,"Asian":1.44,"Black or African American":1.05,"Hispanic":18.92,"Pacific Islander":0.22,"Two or More Races":3.12,"White (non-Hispanic)":74.56}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

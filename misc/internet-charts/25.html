@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Internet Access Over Time –  Massachusetts</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>body { font-family: sans-serif; margin: 1rem 2rem; text-align: center; }
+                      h2 { margin-bottom: 0.25rem; font-size: 1.6rem; }
+                      select { padding: 0.4rem; font-size: 1rem; margin: 1rem 0; border-radius: 5px; border: 1px solid #999; }
+                      canvas { width: 100%; max-width: 850px; height: 450px; margin-top: 1rem; }</style>
+</head>
+<html>
+  <body>
+    <h2>Internet Access in  Massachusetts (2013–2023)</h2>
+    <label>Select County: </label>
+    <select id="countySelect"><option value='Statewide'>Statewide</option>
+<option value='Barnstable County, Massachusetts'>Barnstable County, Massachusetts</option>
+<option value='Berkshire County, Massachusetts'>Berkshire County, Massachusetts</option>
+<option value='Bristol County, Massachusetts'>Bristol County, Massachusetts</option>
+<option value='Essex County, Massachusetts'>Essex County, Massachusetts</option>
+<option value='Franklin County, Massachusetts'>Franklin County, Massachusetts</option>
+<option value='Hampden County, Massachusetts'>Hampden County, Massachusetts</option>
+<option value='Hampshire County, Massachusetts'>Hampshire County, Massachusetts</option>
+<option value='Middlesex County, Massachusetts'>Middlesex County, Massachusetts</option>
+<option value='Norfolk County, Massachusetts'>Norfolk County, Massachusetts</option>
+<option value='Plymouth County, Massachusetts'>Plymouth County, Massachusetts</option>
+<option value='Suffolk County, Massachusetts'>Suffolk County, Massachusetts</option>
+<option value='Worcester County, Massachusetts'>Worcester County, Massachusetts</option></select>
+    <canvas id="lineChart" width="850" height="450"></canvas>
+    <script>const internetData = {"Statewide":{"2013":80.2,"2014":81,"2015":83.1,"2016":85.8,"2017":87,"2018":88.2,"2019":89.1,"2021":92.3,"2022":93,"2023":93.9},"Barnstable County, Massachusetts":{"2013":81.9,"2014":81.5,"2015":84.3,"2016":86.5,"2017":88.1,"2018":90,"2019":91.9,"2021":94.3,"2022":94.7,"2023":96},"Berkshire County, Massachusetts":{"2013":75.5,"2014":77.6,"2015":75.4,"2016":84,"2017":83.6,"2018":86.4,"2019":86.8,"2021":90.1,"2022":91.7,"2023":93.7},"Bristol County, Massachusetts":{"2013":74,"2014":74.6,"2015":78.2,"2016":81.9,"2017":82.9,"2018":83.3,"2019":84.9,"2021":89.1,"2022":90.5,"2023":92},"Essex County, Massachusetts":{"2013":80,"2014":80.7,"2015":82.3,"2016":85.7,"2017":86.1,"2018":87.9,"2019":88.2,"2021":91.9,"2022":93.3,"2023":92.9},"Franklin County, Massachusetts":{"2013":74.1,"2014":78,"2015":80.7,"2016":81.4,"2017":85.1,"2018":82.4,"2019":84,"2021":89.5,"2022":93,"2023":92.8},"Hampden County, Massachusetts":{"2013":73.2,"2014":73.1,"2015":74.9,"2016":78.9,"2017":79.4,"2018":80.7,"2019":81.8,"2021":88.1,"2022":88.1,"2023":89.9},"Hampshire County, Massachusetts":{"2013":83.1,"2014":82.4,"2015":84.1,"2016":88.2,"2017":91.8,"2018":87.9,"2019":89,"2021":90.2,"2022":93.2,"2023":93.8},"Middlesex County, Massachusetts":{"2013":84.3,"2014":85.2,"2015":87.1,"2016":88.5,"2017":89.9,"2018":91.2,"2019":92.5,"2021":94.5,"2022":95.2,"2023":95.1},"Norfolk County, Massachusetts":{"2013":85,"2014":85,"2015":87.8,"2016":90,"2017":90.1,"2018":91.6,"2019":92.1,"2021":94,"2022":94.9,"2023":95.4},"Plymouth County, Massachusetts":{"2013":83.7,"2014":83.7,"2015":85.8,"2016":87.5,"2017":90,"2018":88.6,"2019":90.2,"2021":92.6,"2022":92.5,"2023":94.5},"Suffolk County, Massachusetts":{"2013":75.8,"2014":78.2,"2015":81,"2016":84.4,"2017":85.2,"2018":86.8,"2019":87.6,"2021":91.3,"2022":91.2,"2023":93.3},"Worcester County, Massachusetts":{"2013":79.8,"2014":80.4,"2015":81.5,"2016":84.7,"2017":86.8,"2018":88.7,"2019":88.9,"2021":92.7,"2022":92.9,"2023":94.8}};
+const ctx = document.getElementById('lineChart').getContext('2d');
+let chart;
+
+function renderChart(data) {
+  const labels = Object.keys(data);
+  const values = Object.values(data);
+
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: '% With Internet',
+        data: values,
+        fill: false,
+        borderColor: 'teal',
+        backgroundColor: 'teal',
+        tension: 0.3,
+        pointRadius: 4
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100,
+          title: { display: true, text: '% With Internet' }
+        },
+        x: {
+          title: { display: true, text: 'Year' }
+        }
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function(ctx) {
+              return ctx.parsed.y.toFixed(1) + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  renderChart(internetData[this.value]);
+});
+renderChart(internetData['Statewide']);</script>
+  </body>
+</html>
+</html>

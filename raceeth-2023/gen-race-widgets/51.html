@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 51</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Accomack County, Virginia">Accomack County, Virginia</option>
+<option value="Albemarle County, Virginia">Albemarle County, Virginia</option>
+<option value="Alexandria city, Virginia">Alexandria city, Virginia</option>
+<option value="Alleghany County, Virginia">Alleghany County, Virginia</option>
+<option value="Amelia County, Virginia">Amelia County, Virginia</option>
+<option value="Amherst County, Virginia">Amherst County, Virginia</option>
+<option value="Appomattox County, Virginia">Appomattox County, Virginia</option>
+<option value="Arlington County, Virginia">Arlington County, Virginia</option>
+<option value="Augusta County, Virginia">Augusta County, Virginia</option>
+<option value="Bath County, Virginia">Bath County, Virginia</option>
+<option value="Bedford County, Virginia">Bedford County, Virginia</option>
+<option value="Bland County, Virginia">Bland County, Virginia</option>
+<option value="Botetourt County, Virginia">Botetourt County, Virginia</option>
+<option value="Bristol city, Virginia">Bristol city, Virginia</option>
+<option value="Brunswick County, Virginia">Brunswick County, Virginia</option>
+<option value="Buchanan County, Virginia">Buchanan County, Virginia</option>
+<option value="Buckingham County, Virginia">Buckingham County, Virginia</option>
+<option value="Buena Vista city, Virginia">Buena Vista city, Virginia</option>
+<option value="Campbell County, Virginia">Campbell County, Virginia</option>
+<option value="Caroline County, Virginia">Caroline County, Virginia</option>
+<option value="Carroll County, Virginia">Carroll County, Virginia</option>
+<option value="Charles City County, Virginia">Charles City County, Virginia</option>
+<option value="Charlotte County, Virginia">Charlotte County, Virginia</option>
+<option value="Charlottesville city, Virginia">Charlottesville city, Virginia</option>
+<option value="Chesapeake city, Virginia">Chesapeake city, Virginia</option>
+<option value="Chesterfield County, Virginia">Chesterfield County, Virginia</option>
+<option value="Clarke County, Virginia">Clarke County, Virginia</option>
+<option value="Colonial Heights city, Virginia">Colonial Heights city, Virginia</option>
+<option value="Covington city, Virginia">Covington city, Virginia</option>
+<option value="Craig County, Virginia">Craig County, Virginia</option>
+<option value="Culpeper County, Virginia">Culpeper County, Virginia</option>
+<option value="Cumberland County, Virginia">Cumberland County, Virginia</option>
+<option value="Danville city, Virginia">Danville city, Virginia</option>
+<option value="Dickenson County, Virginia">Dickenson County, Virginia</option>
+<option value="Dinwiddie County, Virginia">Dinwiddie County, Virginia</option>
+<option value="Emporia city, Virginia">Emporia city, Virginia</option>
+<option value="Essex County, Virginia">Essex County, Virginia</option>
+<option value="Fairfax city, Virginia">Fairfax city, Virginia</option>
+<option value="Fairfax County, Virginia">Fairfax County, Virginia</option>
+<option value="Falls Church city, Virginia">Falls Church city, Virginia</option>
+<option value="Fauquier County, Virginia">Fauquier County, Virginia</option>
+<option value="Floyd County, Virginia">Floyd County, Virginia</option>
+<option value="Fluvanna County, Virginia">Fluvanna County, Virginia</option>
+<option value="Franklin city, Virginia">Franklin city, Virginia</option>
+<option value="Franklin County, Virginia">Franklin County, Virginia</option>
+<option value="Frederick County, Virginia">Frederick County, Virginia</option>
+<option value="Fredericksburg city, Virginia">Fredericksburg city, Virginia</option>
+<option value="Galax city, Virginia">Galax city, Virginia</option>
+<option value="Giles County, Virginia">Giles County, Virginia</option>
+<option value="Gloucester County, Virginia">Gloucester County, Virginia</option>
+<option value="Goochland County, Virginia">Goochland County, Virginia</option>
+<option value="Grayson County, Virginia">Grayson County, Virginia</option>
+<option value="Greene County, Virginia">Greene County, Virginia</option>
+<option value="Greensville County, Virginia">Greensville County, Virginia</option>
+<option value="Halifax County, Virginia">Halifax County, Virginia</option>
+<option value="Hampton city, Virginia">Hampton city, Virginia</option>
+<option value="Hanover County, Virginia">Hanover County, Virginia</option>
+<option value="Harrisonburg city, Virginia">Harrisonburg city, Virginia</option>
+<option value="Henrico County, Virginia">Henrico County, Virginia</option>
+<option value="Henry County, Virginia">Henry County, Virginia</option>
+<option value="Highland County, Virginia">Highland County, Virginia</option>
+<option value="Hopewell city, Virginia">Hopewell city, Virginia</option>
+<option value="Isle of Wight County, Virginia">Isle of Wight County, Virginia</option>
+<option value="James City County, Virginia">James City County, Virginia</option>
+<option value="King and Queen County, Virginia">King and Queen County, Virginia</option>
+<option value="King George County, Virginia">King George County, Virginia</option>
+<option value="King William County, Virginia">King William County, Virginia</option>
+<option value="Lancaster County, Virginia">Lancaster County, Virginia</option>
+<option value="Lee County, Virginia">Lee County, Virginia</option>
+<option value="Lexington city, Virginia">Lexington city, Virginia</option>
+<option value="Loudoun County, Virginia">Loudoun County, Virginia</option>
+<option value="Louisa County, Virginia">Louisa County, Virginia</option>
+<option value="Lunenburg County, Virginia">Lunenburg County, Virginia</option>
+<option value="Lynchburg city, Virginia">Lynchburg city, Virginia</option>
+<option value="Madison County, Virginia">Madison County, Virginia</option>
+<option value="Manassas city, Virginia">Manassas city, Virginia</option>
+<option value="Manassas Park city, Virginia">Manassas Park city, Virginia</option>
+<option value="Martinsville city, Virginia">Martinsville city, Virginia</option>
+<option value="Mathews County, Virginia">Mathews County, Virginia</option>
+<option value="Mecklenburg County, Virginia">Mecklenburg County, Virginia</option>
+<option value="Middlesex County, Virginia">Middlesex County, Virginia</option>
+<option value="Montgomery County, Virginia">Montgomery County, Virginia</option>
+<option value="Nelson County, Virginia">Nelson County, Virginia</option>
+<option value="New Kent County, Virginia">New Kent County, Virginia</option>
+<option value="Newport News city, Virginia">Newport News city, Virginia</option>
+<option value="Norfolk city, Virginia">Norfolk city, Virginia</option>
+<option value="Northampton County, Virginia">Northampton County, Virginia</option>
+<option value="Northumberland County, Virginia">Northumberland County, Virginia</option>
+<option value="Norton city, Virginia">Norton city, Virginia</option>
+<option value="Nottoway County, Virginia">Nottoway County, Virginia</option>
+<option value="Orange County, Virginia">Orange County, Virginia</option>
+<option value="Page County, Virginia">Page County, Virginia</option>
+<option value="Patrick County, Virginia">Patrick County, Virginia</option>
+<option value="Petersburg city, Virginia">Petersburg city, Virginia</option>
+<option value="Pittsylvania County, Virginia">Pittsylvania County, Virginia</option>
+<option value="Poquoson city, Virginia">Poquoson city, Virginia</option>
+<option value="Portsmouth city, Virginia">Portsmouth city, Virginia</option>
+<option value="Powhatan County, Virginia">Powhatan County, Virginia</option>
+<option value="Prince Edward County, Virginia">Prince Edward County, Virginia</option>
+<option value="Prince George County, Virginia">Prince George County, Virginia</option>
+<option value="Prince William County, Virginia">Prince William County, Virginia</option>
+<option value="Pulaski County, Virginia">Pulaski County, Virginia</option>
+<option value="Radford city, Virginia">Radford city, Virginia</option>
+<option value="Rappahannock County, Virginia">Rappahannock County, Virginia</option>
+<option value="Richmond city, Virginia">Richmond city, Virginia</option>
+<option value="Richmond County, Virginia">Richmond County, Virginia</option>
+<option value="Roanoke city, Virginia">Roanoke city, Virginia</option>
+<option value="Roanoke County, Virginia">Roanoke County, Virginia</option>
+<option value="Rockbridge County, Virginia">Rockbridge County, Virginia</option>
+<option value="Rockingham County, Virginia">Rockingham County, Virginia</option>
+<option value="Russell County, Virginia">Russell County, Virginia</option>
+<option value="Salem city, Virginia">Salem city, Virginia</option>
+<option value="Scott County, Virginia">Scott County, Virginia</option>
+<option value="Shenandoah County, Virginia">Shenandoah County, Virginia</option>
+<option value="Smyth County, Virginia">Smyth County, Virginia</option>
+<option value="Southampton County, Virginia">Southampton County, Virginia</option>
+<option value="Spotsylvania County, Virginia">Spotsylvania County, Virginia</option>
+<option value="Stafford County, Virginia">Stafford County, Virginia</option>
+<option value="Staunton city, Virginia">Staunton city, Virginia</option>
+<option value="Suffolk city, Virginia">Suffolk city, Virginia</option>
+<option value="Surry County, Virginia">Surry County, Virginia</option>
+<option value="Sussex County, Virginia">Sussex County, Virginia</option>
+<option value="Tazewell County, Virginia">Tazewell County, Virginia</option>
+<option value="Virginia Beach city, Virginia">Virginia Beach city, Virginia</option>
+<option value="Warren County, Virginia">Warren County, Virginia</option>
+<option value="Washington County, Virginia">Washington County, Virginia</option>
+<option value="Waynesboro city, Virginia">Waynesboro city, Virginia</option>
+<option value="Westmoreland County, Virginia">Westmoreland County, Virginia</option>
+<option value="Williamsburg city, Virginia">Williamsburg city, Virginia</option>
+<option value="Winchester city, Virginia">Winchester city, Virginia</option>
+<option value="Wise County, Virginia">Wise County, Virginia</option>
+<option value="Wythe County, Virginia">Wythe County, Virginia</option>
+<option value="York County, Virginia">York County, Virginia</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.12,"Asian":6.81,"Black or African American":18.43,"Hispanic":10.73,"Pacific Islander":0.06,"Two or More Races":4.3,"White (non-Hispanic)":59.02},"Accomack County, Virginia":{"American Indian / Alaska Native":0.1,"Asian":0.86,"Black or African American":27.12,"Hispanic":10.59,"Pacific Islander":0,"Two or More Races":2.8,"White (non-Hispanic)":58.28},"Albemarle County, Virginia":{"American Indian / Alaska Native":0.05,"Asian":5.52,"Black or African American":8.79,"Hispanic":7.34,"Pacific Islander":0.03,"Two or More Races":3.91,"White (non-Hispanic)":74.01},"Alexandria city, Virginia":{"American Indian / Alaska Native":0.15,"Asian":6.24,"Black or African American":20.66,"Hispanic":18.2,"Pacific Islander":0.03,"Two or More Races":4.66,"White (non-Hispanic)":49.59},"Alleghany County, Virginia":{"American Indian / Alaska Native":0,"Asian":0.07,"Black or African American":5.53,"Hispanic":1.5,"Pacific Islander":0,"Two or More Races":1.5,"White (non-Hispanic)":91.39},"Amelia County, Virginia":{"American Indian / Alaska Native":0,"Asian":0.01,"Black or African American":20.31,"Hispanic":1.89,"Pacific Islander":0,"Two or More Races":4.5,"White (non-Hispanic)":73.29},"Amherst County, Virginia":{"American Indian / Alaska Native":0.63,"Asian":0.63,"Black or African American":17.51,"Hispanic":2.84,"Pacific Islander":0.06,"Two or More Races":3.28,"White (non-Hispanic)":73.94},"Appomattox County, Virginia":{"American Indian / Alaska Native":0.01,"Asian":0.15,"Black or African American":17.04,"Hispanic":2.24,"Pacific Islander":0,"Two or More Races":2.65,"White (non-Hispanic)":76.1},"Arlington County, Virginia":{"American Indian / Alaska Native":0.14,"Asian":10.47,"Black or African American":9.21,"Hispanic":15.74,"Pacific Islander":0.02,"Two or More Races":4.99,"White (non-Hispanic)":58.83},"Augusta County, Virginia":{"American Indian / Alaska Native":0.16,"Asian":0.41,"Black or African American":4.26,"Hispanic":3.77,"Pacific Islander":0.1,"Two or More Races":2.47,"White (non-Hispanic)":88.39},"Bath County, Virginia":{"American Indian / Alaska Native":0.32,"Asian":0.44,"Black or African American":3.76,"Hispanic":3.71,"Pacific Islander":0,"Two or More Races":0.61,"White (non-Hispanic)":90.54},"Bedford County, Virginia":{"American Indian / Alaska Native":0.1,"Asian":1.11,"Black or African American":5.97,"Hispanic":2.71,"Pacific Islander":0,"Two or More Races":3.64,"White (non-Hispanic)":85.59},"Bland County, Virginia":{"American Indian / Alaska Native":0.08,"Asian":0.27,"Black or African American":4.64,"Hispanic":0.66,"Pacific Islander":0,"Two or More Races":1.29,"White (non-Hispanic)":93.06},"Botetourt County, Virginia":{"American Indian / Alaska Native":0.11,"Asian":0.59,"Black or African American":2.36,"Hispanic":2.37,"Pacific Islander":0.25,"Two or More Races":3,"White (non-Hispanic)":90.84},"Bristol city, Virginia":{"American Indian / Alaska Native":0,"Asian":0.33,"Black or African American":6.67,"Hispanic":2.69,"Pacific Islander":0.08,"Two or More Races":4.26,"White (non-Hispanic)":85.31},"Brunswick County, Virginia":{"American Indian / Alaska Native":0.14,"Asian":0.47,"Black or African American":53.21,"Hispanic":2.74,"Pacific Islander":0,"Two or More Races":2.48,"White (non-Hispanic)":40.95},"Buchanan County, Virginia":{"American Indian / Alaska Native":0,"Asian":0.25,"Black or African American":2.36,"Hispanic":1.02,"Pacific Islander":0,"Two or More Races":0.69,"White (non-Hispanic)":95.68},"Buckingham County, Virginia":{"American Indian / Alaska Native":0.07,"Asian":0.2,"Black or African American":31.94,"Hispanic":2.57,"Pacific Islander":0,"Two or More Races":4.27,"White (non-Hispanic)":60.77},"Buena Vista city, Virginia":{"American Indian / Alaska Native":0,"Asian":0.56,"Black or African American":1.59,"Hispanic":0.95,"Pacific Islander":0.12,"Two or More Races":10.74,"White (non-Hispanic)":85.59},"Campbell County, Virginia":{"American Indian / Alaska Native":0.14,"Asian":1.05,"Black or African American":14.34,"Hispanic":3.36,"Pacific Islander":0.06,"Two or More Races":3.31,"White (non-Hispanic)":77.25},"Caroline County, Virginia":{"American Indian / Alaska Native":0.38,"Asian":1.19,"Black or African American":23.5,"Hispanic":7.04,"Pacific Islander":0,"Two or More Races":5.18,"White (non-Hispanic)":61.52},"Carroll County, Virginia":{"American Indian / Alaska Native":0.07,"Asian":0.15,"Black or African American":0.33,"Hispanic":3.87,"Pacific Islander":0.03,"Two or More Races":1.8,"White (non-Hispanic)":93.66},"Charles City County, Virginia":{"American Indian / Alaska Native":5.67,"Asian":1.2,"Black or African American":40.34,"Hispanic":1.99,"Pacific Islander":0,"Two or More Races":6.12,"White (non-Hispanic)":44.33},"Charlotte County, Virginia":{"American Indian / Alaska Native":0,"Asian":0.17,"Black or African American":25.05,"Hispanic":2.46,"Pacific Islander":0,"Two or More Races":3.84,"White (non-Hispanic)":68.36},"Charlottesville city, Virginia":{"American Indian / Alaska Native":0.07,"Asian":7,"Black or African American":16.82,"Hispanic":6.77,"Pacific Islander":0,"Two or More Races":4.35,"White (non-Hispanic)":64.39},"Chesapeake city, Virginia":{"American Indian / Alaska Native":0.11,"Asian":3.7,"Black or African American":28.54,"Hispanic":7.41,"Pacific Islander":0.04,"Two or More Races":5.16,"White (non-Hispanic)":54.43},"Chesterfield County, Virginia":{"American Indian / Alaska Native":0.06,"Asian":3.5,"Black or African American":22.97,"Hispanic":11.41,"Pacific Islander":0.06,"Two or More Races":3.86,"White (non-Hispanic)":57.41},"Clarke County, Virginia":{"American Indian / Alaska Native":0.25,"Asian":1.12,"Black or African American":4.91,"Hispanic":7.06,"Pacific Islander":0,"Two or More Races":2.93,"White (non-Hispanic)":83.21},"Colonial Heights city, Virginia":{"American Indian / Alaska Native":0.29,"Asian":3.43,"Black or African American":17.78,"Hispanic":7.64,"Pacific Islander":0,"Two or More Races":3.6,"White (non-Hispanic)":66.99},"Covington city, Virginia":{"American Indian / Alaska Native":0,"Asian":1.18,"Black or African American":12.34,"Hispanic":3.24,"Pacific Islander":0,"Two or More Races":3.63,"White (non-Hispanic)":79.6},"Craig County, Virginia":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":0.06,"Hispanic":0.78,"Pacific Islander":0,"Two or More Races":2.36,"White (non-Hispanic)":95.23},"Culpeper County, Virginia":{"American Indian / Alaska Native":0.27,"Asian":1.16,"Black or African American":12.83,"Hispanic":14.77,"Pacific Islander":0.05,"Two or More Races":4.94,"White (non-Hispanic)":65.51},"Cumberland County, Virginia":{"American Indian / Alaska Native":0.05,"Asian":0,"Black or African American":28.8,"Hispanic":1.77,"Pacific Islander":0.09,"Two or More Races":5.31,"White (non-Hispanic)":63.98},"Danville city, Virginia":{"American Indian / Alaska Native":0.07,"Asian":1.35,"Black or African American":50.26,"Hispanic":5.22,"Pacific Islander":0.01,"Two or More Races":3.62,"White (non-Hispanic)":39.4},"Dickenson County, Virginia":{"American Indian / Alaska Native":0.13,"Asian":0.22,"Black or African American":1.01,"Hispanic":0.73,"Pacific Islander":0,"Two or More Races":0.31,"White (non-Hispanic)":97.56},"Dinwiddie County, Virginia":{"American Indian / Alaska Native":0.02,"Asian":0.62,"Black or African American":30.61,"Hispanic":4.17,"Pacific Islander":0,"Two or More Races":1.6,"White (non-Hispanic)":62.35},"Emporia city, Virginia":{"American Indian / Alaska Native":0,"Asian":0.59,"Black or African American":63.57,"Hispanic":8.4,"Pacific Islander":0,"Two or More Races":7.88,"White (non-Hispanic)":19.56},"Essex County, Virginia":{"American Indian / Alaska Native":0.13,"Asian":0.53,"Black or African American":37.35,"Hispanic":4.35,"Pacific Islander":0.08,"Two or More Races":3.7,"White (non-Hispanic)":53.8},"Fairfax city, Virginia":{"American Indian / Alaska Native":0.09,"Asian":18.05,"Black or African American":6.39,"Hispanic":18.31,"Pacific Islander":0,"Two or More Races":3.97,"White (non-Hispanic)":52.5},"Fairfax County, Virginia":{"American Indian / Alaska Native":0.1,"Asian":19.85,"Black or African American":9.6,"Hispanic":17.4,"Pacific Islander":0.04,"Two or More Races":4.76,"White (non-Hispanic)":47.52},"Falls Church city, Virginia":{"American Indian / Alaska Native":0,"Asian":9.18,"Black or African American":4.82,"Hispanic":10.66,"Pacific Islander":0,"Two or More Races":5.48,"White (non-Hispanic)":68.5},"Fauquier County, Virginia":{"American Indian / Alaska Native":0.04,"Asian":1.73,"Black or African American":6.21,"Hispanic":11.66,"Pacific Islander":0.03,"Two or More Races":4.18,"White (non-Hispanic)":75.69},"Floyd County, Virginia":{"American Indian / Alaska Native":0,"Asian":0.42,"Black or African American":2.78,"Hispanic":3.03,"Pacific Islander":0,"Two or More Races":1.07,"White (non-Hispanic)":92.43},"Fluvanna County, Virginia":{"American Indian / Alaska Native":0.16,"Asian":0.87,"Black or African American":12.65,"Hispanic":4.37,"Pacific Islander":0,"Two or More Races":5.25,"White (non-Hispanic)":75.47},"Franklin city, Virginia":{"American Indian / Alaska Native":0,"Asian":2.29,"Black or African American":51.68,"Hispanic":3.15,"Pacific Islander":0,"Two or More Races":5.1,"White (non-Hispanic)":37.77},"Franklin County, Virginia":{"American Indian / Alaska Native":0.03,"Asian":0.7,"Black or African American":7.73,"Hispanic":3.61,"Pacific Islander":0.01,"Two or More Races":2.02,"White (non-Hispanic)":85.87},"Frederick County, Virginia":{"American Indian / Alaska Native":0.06,"Asian":1.88,"Black or African American":4.16,"Hispanic":11.73,"Pacific Islander":0.1,"Two or More Races":3.01,"White (non-Hispanic)":78.64},"Fredericksburg city, Virginia":{"American Indian / Alaska Native":0.11,"Asian":3.71,"Black or African American":19.79,"Hispanic":12.36,"Pacific Islander":0,"Two or More Races":7.57,"White (non-Hispanic)":55.65},"Galax city, Virginia":{"American Indian / Alaska Native":0.43,"Asian":0.15,"Black or African American":4.88,"Hispanic":15.78,"Pacific Islander":0.33,"Two or More Races":2.33,"White (non-Hispanic)":75.78},"Giles County, Virginia":{"American Indian / Alaska Native":0.01,"Asian":0.51,"Black or African American":2.25,"Hispanic":1.69,"Pacific Islander":0.11,"Two or More Races":1.12,"White (non-Hispanic)":94.32},"Gloucester County, Virginia":{"American Indian / Alaska Native":0.07,"Asian":0.77,"Black or African American":8.14,"Hispanic":4.04,"Pacific Islander":0,"Two or More Races":3.82,"White (non-Hispanic)":82.97},"Goochland County, Virginia":{"American Indian / Alaska Native":0.05,"Asian":1.65,"Black or African American":14.36,"Hispanic":3.65,"Pacific Islander":0,"Two or More Races":2.73,"White (non-Hispanic)":77.49},"Grayson County, Virginia":{"American Indian / Alaska Native":0,"Asian":1.14,"Black or African American":5.18,"Hispanic":4.06,"Pacific Islander":0,"Two or More Races":1.4,"White (non-Hispanic)":87.97},"Greene County, Virginia":{"American Indian / Alaska Native":0.07,"Asian":2.52,"Black or African American":6.77,"Hispanic":6.95,"Pacific Islander":0.12,"Two or More Races":3.21,"White (non-Hispanic)":79.51},"Greensville County, Virginia":{"American Indian / Alaska Native":0,"Asian":0.26,"Black or African American":52.71,"Hispanic":5.1,"Pacific Islander":0,"Two or More Races":6.39,"White (non-Hispanic)":35.36},"Halifax County, Virginia":{"American Indian / Alaska Native":0.09,"Asian":0.46,"Black or African American":34.7,"Hispanic":2.48,"Pacific Islander":0,"Two or More Races":2.7,"White (non-Hispanic)":59.54},"Hampton city, Virginia":{"American Indian / Alaska Native":0.22,"Asian":2.18,"Black or African American":47.9,"Hispanic":6.61,"Pacific Islander":0.06,"Two or More Races":6.59,"White (non-Hispanic)":35.85},"Hanover County, Virginia":{"American Indian / Alaska Native":0.1,"Asian":1.77,"Black or African American":8.38,"Hispanic":3.76,"Pacific Islander":0.07,"Two or More Races":4.18,"White (non-Hispanic)":81.18},"Harrisonburg city, Virginia":{"American Indian / Alaska Native":0.02,"Asian":3.2,"Black or African American":7.03,"Hispanic":23.09,"Pacific Islander":0,"Two or More Races":4.67,"White (non-Hispanic)":61.38},"Henrico County, Virginia":{"American Indian / Alaska Native":0.12,"Asian":9.48,"Black or African American":29.37,"Hispanic":6.69,"Pacific Islander":0.04,"Two or More Races":3.83,"White (non-Hispanic)":50.02},"Henry County, Virginia":{"American Indian / Alaska Native":0.08,"Asian":0.42,"Black or African American":22.33,"Hispanic":6.69,"Pacific Islander":0,"Two or More Races":2.28,"White (non-Hispanic)":67.94},"Highland County, Virginia":{"American Indian / Alaska Native":0,"Asian":3.09,"Black or African American":0,"Hispanic":0,"Pacific Islander":0,"Two or More Races":2.47,"White (non-Hispanic)":94.44},"Hopewell city, Virginia":{"American Indian / Alaska Native":0.01,"Asian":1.14,"Black or African American":41.16,"Hispanic":8.59,"Pacific Islander":0,"Two or More Races":7.4,"White (non-Hispanic)":41.61},"Isle of Wight County, Virginia":{"American Indian / Alaska Native":0.15,"Asian":1.04,"Black or African American":21.83,"Hispanic":3.85,"Pacific Islander":0.05,"Two or More Races":3.5,"White (non-Hispanic)":69.32},"James City County, Virginia":{"American Indian / Alaska Native":0.02,"Asian":2.61,"Black or African American":12.76,"Hispanic":6.91,"Pacific Islander":0,"Two or More Races":4.65,"White (non-Hispanic)":72.49},"King and Queen County, Virginia":{"American Indian / Alaska Native":0.24,"Asian":0,"Black or African American":23.85,"Hispanic":3.12,"Pacific Islander":0,"Two or More Races":5.75,"White (non-Hispanic)":66.34},"King George County, Virginia":{"American Indian / Alaska Native":0.04,"Asian":1.26,"Black or African American":15.43,"Hispanic":6.59,"Pacific Islander":0,"Two or More Races":5.39,"White (non-Hispanic)":69.13},"King William County, Virginia":{"American Indian / Alaska Native":0.76,"Asian":0.66,"Black or African American":15.29,"Hispanic":3.1,"Pacific Islander":0.05,"Two or More Races":3.1,"White (non-Hispanic)":77.03},"Lancaster County, Virginia":{"American Indian / Alaska Native":0,"Asian":0.46,"Black or African American":27.58,"Hispanic":1.58,"Pacific Islander":0,"Two or More Races":2.58,"White (non-Hispanic)":67.31},"Lee County, Virginia":{"American Indian / Alaska Native":0.19,"Asian":0.19,"Black or African American":4.13,"Hispanic":2.3,"Pacific Islander":0,"Two or More Races":1.27,"White (non-Hispanic)":91.84},"Lexington city, Virginia":{"American Indian / Alaska Native":0.5,"Asian":3.21,"Black or African American":4.66,"Hispanic":4.88,"Pacific Islander":0,"Two or More Races":7.21,"White (non-Hispanic)":79.15},"Loudoun County, Virginia":{"American Indian / Alaska Native":0.12,"Asian":20.98,"Black or African American":7.45,"Hispanic":14.16,"Pacific Islander":0.06,"Two or More Races":4.59,"White (non-Hispanic)":52.07},"Louisa County, Virginia":{"American Indian / Alaska Native":0.11,"Asian":0.46,"Black or African American":13.28,"Hispanic":3.9,"Pacific Islander":0.02,"Two or More Races":5.57,"White (non-Hispanic)":76},"Lunenburg County, Virginia":{"American Indian / Alaska Native":0.02,"Asian":0.04,"Black or African American":33.34,"Hispanic":5.75,"Pacific Islander":0.01,"Two or More Races":3.14,"White (non-Hispanic)":57.71},"Lynchburg city, Virginia":{"American Indian / Alaska Native":0.11,"Asian":2.16,"Black or African American":27.41,"Hispanic":4.95,"Pacific Islander":0.14,"Two or More Races":3.64,"White (non-Hispanic)":60.64},"Madison County, Virginia":{"American Indian / Alaska Native":0.02,"Asian":0.32,"Black or African American":8.37,"Hispanic":3.52,"Pacific Islander":0,"Two or More Races":3.52,"White (non-Hispanic)":84.11},"Manassas city, Virginia":{"American Indian / Alaska Native":0.12,"Asian":5.52,"Black or African American":12.39,"Hispanic":43.01,"Pacific Islander":0.03,"Two or More Races":4.02,"White (non-Hispanic)":34.48},"Manassas Park city, Virginia":{"American Indian / Alaska Native":0,"Asian":10.55,"Black or African American":10.92,"Hispanic":45.92,"Pacific Islander":0,"Two or More Races":5.22,"White (non-Hispanic)":27.38},"Martinsville city, Virginia":{"American Indian / Alaska Native":0,"Asian":1.13,"Black or African American":44.2,"Hispanic":8.03,"Pacific Islander":0.1,"Two or More Races":3.92,"White (non-Hispanic)":41.73},"Mathews County, Virginia":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":8.37,"Hispanic":2.57,"Pacific Islander":0.25,"Two or More Races":3.38,"White (non-Hispanic)":84.75},"Mecklenburg County, Virginia":{"American Indian / Alaska Native":0.29,"Asian":1.02,"Black or African American":32.87,"Hispanic":3,"Pacific Islander":0,"Two or More Races":2.32,"White (non-Hispanic)":60.39},"Middlesex County, Virginia":{"American Indian / Alaska Native":0,"Asian":1.23,"Black or African American":14.75,"Hispanic":2.94,"Pacific Islander":0.15,"Two or More Races":2.78,"White (non-Hispanic)":77.98},"Montgomery County, Virginia":{"American Indian / Alaska Native":0.21,"Asian":6.15,"Black or African American":3.87,"Hispanic":4.55,"Pacific Islander":0.17,"Two or More Races":2.91,"White (non-Hispanic)":81.52},"Nelson County, Virginia":{"American Indian / Alaska Native":0.06,"Asian":1.69,"Black or African American":10.25,"Hispanic":4.68,"Pacific Islander":0,"Two or More Races":2.99,"White (non-Hispanic)":79.88},"New Kent County, Virginia":{"American Indian / Alaska Native":0.65,"Asian":1.1,"Black or African American":13.16,"Hispanic":3.57,"Pacific Islander":0,"Two or More Races":4.69,"White (non-Hispanic)":76.74},"Newport News city, Virginia":{"American Indian / Alaska Native":0.2,"Asian":3.28,"Black or African American":40.4,"Hispanic":10.54,"Pacific Islander":0.08,"Two or More Races":4.86,"White (non-Hispanic)":39.8},"Norfolk city, Virginia":{"American Indian / Alaska Native":0.26,"Asian":3.63,"Black or African American":39.05,"Hispanic":9.87,"Pacific Islander":0.1,"Two or More Races":5.08,"White (non-Hispanic)":41.51},"Northampton County, Virginia":{"American Indian / Alaska Native":0.02,"Asian":1.07,"Black or African American":31.18,"Hispanic":9.2,"Pacific Islander":0,"Two or More Races":2.88,"White (non-Hispanic)":55.59},"Northumberland County, Virginia":{"American Indian / Alaska Native":0.1,"Asian":4.22,"Black or African American":19.64,"Hispanic":3.33,"Pacific Islander":0,"Two or More Races":3.96,"White (non-Hispanic)":68.16},"Norton city, Virginia":{"American Indian / Alaska Native":0,"Asian":0.06,"Black or African American":1.33,"Hispanic":0,"Pacific Islander":0,"Two or More Races":3.48,"White (non-Hispanic)":95.14},"Nottoway County, Virginia":{"American Indian / Alaska Native":0.1,"Asian":0.65,"Black or African American":37.46,"Hispanic":4.78,"Pacific Islander":0,"Two or More Races":2.69,"White (non-Hispanic)":54.09},"Orange County, Virginia":{"American Indian / Alaska Native":0.02,"Asian":0.89,"Black or African American":10.42,"Hispanic":6.55,"Pacific Islander":0,"Two or More Races":5.92,"White (non-Hispanic)":75.32},"Page County, Virginia":{"American Indian / Alaska Native":0.08,"Asian":0.35,"Black or African American":1.87,"Hispanic":2.37,"Pacific Islander":0,"Two or More Races":2.32,"White (non-Hispanic)":92.41},"Patrick County, Virginia":{"American Indian / Alaska Native":0.06,"Asian":0.2,"Black or African American":5.38,"Hispanic":3.38,"Pacific Islander":0,"Two or More Races":1.62,"White (non-Hispanic)":89.35},"Petersburg city, Virginia":{"American Indian / Alaska Native":0.05,"Asian":1.23,"Black or African American":74.56,"Hispanic":6.03,"Pacific Islander":0.06,"Two or More Races":3.27,"White (non-Hispanic)":14.65},"Pittsylvania County, Virginia":{"American Indian / Alaska Native":0.04,"Asian":0.49,"Black or African American":20.6,"Hispanic":3,"Pacific Islander":0,"Two or More Races":2.4,"White (non-Hispanic)":73.42},"Poquoson city, Virginia":{"American Indian / Alaska Native":0.12,"Asian":1.79,"Black or African American":1.66,"Hispanic":3.9,"Pacific Islander":0,"Two or More Races":3.27,"White (non-Hispanic)":88.76},"Portsmouth city, Virginia":{"American Indian / Alaska Native":0.14,"Asian":1.44,"Black or African American":51.16,"Hispanic":5.08,"Pacific Islander":0.03,"Two or More Races":5.72,"White (non-Hispanic)":35.93},"Powhatan County, Virginia":{"American Indian / Alaska Native":0.04,"Asian":0.33,"Black or African American":8.74,"Hispanic":2.8,"Pacific Islander":0,"Two or More Races":2.81,"White (non-Hispanic)":84.82},"Prince Edward County, Virginia":{"American Indian / Alaska Native":0.1,"Asian":1.1,"Black or African American":30.34,"Hispanic":4.79,"Pacific Islander":0.94,"Two or More Races":2.84,"White (non-Hispanic)":59.81},"Prince George County, Virginia":{"American Indian / Alaska Native":0.25,"Asian":1.88,"Black or African American":30.47,"Hispanic":10.09,"Pacific Islander":0.45,"Two or More Races":4.44,"White (non-Hispanic)":51.94},"Prince William County, Virginia":{"American Indian / Alaska Native":0.1,"Asian":9.74,"Black or African American":20.01,"Hispanic":25.66,"Pacific Islander":0.07,"Two or More Races":5.08,"White (non-Hispanic)":38.87},"Pulaski County, Virginia":{"American Indian / Alaska Native":0.01,"Asian":0.55,"Black or African American":4.58,"Hispanic":2.15,"Pacific Islander":0.25,"Two or More Races":2.39,"White (non-Hispanic)":89.88},"Radford city, Virginia":{"American Indian / Alaska Native":0.07,"Asian":2.22,"Black or African American":9.17,"Hispanic":4.28,"Pacific Islander":0,"Two or More Races":2.63,"White (non-Hispanic)":81.33},"Rappahannock County, Virginia":{"American Indian / Alaska Native":0.28,"Asian":0.19,"Black or African American":4.83,"Hispanic":4.54,"Pacific Islander":0,"Two or More Races":2.66,"White (non-Hispanic)":85.67},"Richmond city, Virginia":{"American Indian / Alaska Native":0.15,"Asian":2.07,"Black or African American":41.65,"Hispanic":10.3,"Pacific Islander":0.05,"Two or More Races":4.29,"White (non-Hispanic)":41.04},"Richmond County, Virginia":{"American Indian / Alaska Native":0.39,"Asian":0.02,"Black or African American":27.93,"Hispanic":7.24,"Pacific Islander":0,"Two or More Races":3.82,"White (non-Hispanic)":60.42},"Roanoke city, Virginia":{"American Indian / Alaska Native":0.09,"Asian":3.13,"Black or African American":28.48,"Hispanic":8.57,"Pacific Islander":0.1,"Two or More Races":3.65,"White (non-Hispanic)":55.54},"Roanoke County, Virginia":{"American Indian / Alaska Native":0.11,"Asian":3.6,"Black or African American":6.36,"Hispanic":3.81,"Pacific Islander":0.02,"Two or More Races":2.6,"White (non-Hispanic)":83.14},"Rockbridge County, Virginia":{"American Indian / Alaska Native":0.39,"Asian":0.77,"Black or African American":3.02,"Hispanic":2.27,"Pacific Islander":0,"Two or More Races":2.76,"White (non-Hispanic)":89.19},"Rockingham County, Virginia":{"American Indian / Alaska Native":0.06,"Asian":1.08,"Black or African American":2.32,"Hispanic":8.85,"Pacific Islander":0.1,"Two or More Races":2.05,"White (non-Hispanic)":85.29},"Russell County, Virginia":{"American Indian / Alaska Native":0.16,"Asian":0.09,"Black or African American":1.21,"Hispanic":0.65,"Pacific Islander":0.19,"Two or More Races":0.81,"White (non-Hispanic)":96.78},"Salem city, Virginia":{"American Indian / Alaska Native":0.15,"Asian":1.94,"Black or African American":7.68,"Hispanic":4.47,"Pacific Islander":0.09,"Two or More Races":2.39,"White (non-Hispanic)":82.37},"Scott County, Virginia":{"American Indian / Alaska Native":0.09,"Asian":0.12,"Black or African American":1.2,"Hispanic":1.42,"Pacific Islander":0.13,"Two or More Races":1.13,"White (non-Hispanic)":95.86},"Shenandoah County, Virginia":{"American Indian / Alaska Native":0.03,"Asian":1.26,"Black or African American":2.7,"Hispanic":8.78,"Pacific Islander":0.01,"Two or More Races":2.59,"White (non-Hispanic)":84.44},"Smyth County, Virginia":{"American Indian / Alaska Native":0.11,"Asian":0.28,"Black or African American":1.95,"Hispanic":2.04,"Pacific Islander":0.07,"Two or More Races":1.82,"White (non-Hispanic)":93.69},"Southampton County, Virginia":{"American Indian / Alaska Native":0.41,"Asian":0.72,"Black or African American":29.61,"Hispanic":2.3,"Pacific Islander":0,"Two or More Races":6.2,"White (non-Hispanic)":60.38},"Spotsylvania County, Virginia":{"American Indian / Alaska Native":0.13,"Asian":2.63,"Black or African American":16.38,"Hispanic":12.69,"Pacific Islander":0.05,"Two or More Races":5.13,"White (non-Hispanic)":62.64},"Stafford County, Virginia":{"American Indian / Alaska Native":0.1,"Asian":3.73,"Black or African American":18.89,"Hispanic":15.9,"Pacific Islander":0.01,"Two or More Races":6.78,"White (non-Hispanic)":53.66},"Staunton city, Virginia":{"American Indian / Alaska Native":0.13,"Asian":1.53,"Black or African American":10.04,"Hispanic":4.43,"Pacific Islander":0.26,"Two or More Races":4.6,"White (non-Hispanic)":78.89},"Suffolk city, Virginia":{"American Indian / Alaska Native":0.07,"Asian":1.89,"Black or African American":41.54,"Hispanic":4.95,"Pacific Islander":0,"Two or More Races":4.39,"White (non-Hispanic)":46.5},"Surry County, Virginia":{"American Indian / Alaska Native":0,"Asian":0.12,"Black or African American":41.01,"Hispanic":2.92,"Pacific Islander":0,"Two or More Races":1.53,"White (non-Hispanic)":54.43},"Sussex County, Virginia":{"American Indian / Alaska Native":0.02,"Asian":0.56,"Black or African American":54.66,"Hispanic":1.53,"Pacific Islander":0,"Two or More Races":2.9,"White (non-Hispanic)":40.34},"Tazewell County, Virginia":{"American Indian / Alaska Native":0.01,"Asian":0.66,"Black or African American":3.28,"Hispanic":1.3,"Pacific Islander":0,"Two or More Races":1.77,"White (non-Hispanic)":92.94},"Virginia Beach city, Virginia":{"American Indian / Alaska Native":0.11,"Asian":7.04,"Black or African American":18.34,"Hispanic":8.94,"Pacific Islander":0.1,"Two or More Races":5.63,"White (non-Hispanic)":59.36},"Warren County, Virginia":{"American Indian / Alaska Native":0.02,"Asian":1.2,"Black or African American":4.99,"Hispanic":6.71,"Pacific Islander":0,"Two or More Races":3.58,"White (non-Hispanic)":82.37},"Washington County, Virginia":{"American Indian / Alaska Native":0.08,"Asian":0.48,"Black or African American":1.69,"Hispanic":1.76,"Pacific Islander":0.01,"Two or More Races":1.52,"White (non-Hispanic)":94.38},"Waynesboro city, Virginia":{"American Indian / Alaska Native":0.04,"Asian":1.76,"Black or African American":10.99,"Hispanic":9.17,"Pacific Islander":0,"Two or More Races":5.45,"White (non-Hispanic)":72.59},"Westmoreland County, Virginia":{"American Indian / Alaska Native":0.12,"Asian":1.09,"Black or African American":23.74,"Hispanic":6.21,"Pacific Islander":0,"Two or More Races":5.48,"White (non-Hispanic)":62.62},"Williamsburg city, Virginia":{"American Indian / Alaska Native":0,"Asian":6.75,"Black or African American":15.17,"Hispanic":8.01,"Pacific Islander":0,"Two or More Races":2.64,"White (non-Hispanic)":67.26},"Winchester city, Virginia":{"American Indian / Alaska Native":0.13,"Asian":2.31,"Black or African American":8.83,"Hispanic":20.05,"Pacific Islander":0,"Two or More Races":5.27,"White (non-Hispanic)":62.73},"Wise County, Virginia":{"American Indian / Alaska Native":0.11,"Asian":0.39,"Black or African American":5.28,"Hispanic":1.36,"Pacific Islander":0,"Two or More Races":1.76,"White (non-Hispanic)":90.51},"Wythe County, Virginia":{"American Indian / Alaska Native":0.01,"Asian":0.77,"Black or African American":2.37,"Hispanic":1.49,"Pacific Islander":0.09,"Two or More Races":1.9,"White (non-Hispanic)":93.18},"York County, Virginia":{"American Indian / Alaska Native":0.17,"Asian":5.78,"Black or African American":13.01,"Hispanic":7.56,"Pacific Islander":0.25,"Two or More Races":5.44,"White (non-Hispanic)":66.95}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

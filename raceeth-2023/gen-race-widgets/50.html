@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 50</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Addison County, Vermont">Addison County, Vermont</option>
+<option value="Bennington County, Vermont">Bennington County, Vermont</option>
+<option value="Caledonia County, Vermont">Caledonia County, Vermont</option>
+<option value="Chittenden County, Vermont">Chittenden County, Vermont</option>
+<option value="Essex County, Vermont">Essex County, Vermont</option>
+<option value="Franklin County, Vermont">Franklin County, Vermont</option>
+<option value="Grand Isle County, Vermont">Grand Isle County, Vermont</option>
+<option value="Lamoille County, Vermont">Lamoille County, Vermont</option>
+<option value="Orange County, Vermont">Orange County, Vermont</option>
+<option value="Orleans County, Vermont">Orleans County, Vermont</option>
+<option value="Rutland County, Vermont">Rutland County, Vermont</option>
+<option value="Washington County, Vermont">Washington County, Vermont</option>
+<option value="Windham County, Vermont">Windham County, Vermont</option>
+<option value="Windsor County, Vermont">Windsor County, Vermont</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.14,"Asian":1.63,"Black or African American":1.16,"Hispanic":2.49,"Pacific Islander":0.02,"Two or More Races":3.66,"White (non-Hispanic)":90.57},"Addison County, Vermont":{"American Indian / Alaska Native":0.06,"Asian":1.85,"Black or African American":0.87,"Hispanic":3.16,"Pacific Islander":0.09,"Two or More Races":3.46,"White (non-Hispanic)":90.22},"Bennington County, Vermont":{"American Indian / Alaska Native":0.09,"Asian":0.95,"Black or African American":1.02,"Hispanic":2.74,"Pacific Islander":0.01,"Two or More Races":3.26,"White (non-Hispanic)":91.56},"Caledonia County, Vermont":{"American Indian / Alaska Native":0.19,"Asian":0.28,"Black or African American":0.74,"Hispanic":2.11,"Pacific Islander":0.02,"Two or More Races":3.43,"White (non-Hispanic)":92.59},"Chittenden County, Vermont":{"American Indian / Alaska Native":0.09,"Asian":3.87,"Black or African American":2.48,"Hispanic":2.83,"Pacific Islander":0.03,"Two or More Races":4.18,"White (non-Hispanic)":86.15},"Essex County, Vermont":{"American Indian / Alaska Native":0.59,"Asian":0.95,"Black or African American":0.05,"Hispanic":1.49,"Pacific Islander":0,"Two or More Races":3.4,"White (non-Hispanic)":93.52},"Franklin County, Vermont":{"American Indian / Alaska Native":0.31,"Asian":0.57,"Black or African American":0.27,"Hispanic":1.93,"Pacific Islander":0.02,"Two or More Races":4.28,"White (non-Hispanic)":92.22},"Grand Isle County, Vermont":{"American Indian / Alaska Native":1.81,"Asian":0.38,"Black or African American":0.47,"Hispanic":2.1,"Pacific Islander":0,"Two or More Races":4.14,"White (non-Hispanic)":90.61},"Lamoille County, Vermont":{"American Indian / Alaska Native":0.39,"Asian":0.78,"Black or African American":0.95,"Hispanic":2.47,"Pacific Islander":0,"Two or More Races":2.57,"White (non-Hispanic)":91.78},"Orange County, Vermont":{"American Indian / Alaska Native":0.14,"Asian":0.52,"Black or African American":0.35,"Hispanic":1.71,"Pacific Islander":0,"Two or More Races":3.55,"White (non-Hispanic)":93.37},"Orleans County, Vermont":{"American Indian / Alaska Native":0.3,"Asian":0.6,"Black or African American":0.83,"Hispanic":1.82,"Pacific Islander":0.01,"Two or More Races":2.99,"White (non-Hispanic)":93.3},"Rutland County, Vermont":{"American Indian / Alaska Native":0,"Asian":0.55,"Black or African American":0.62,"Hispanic":2.11,"Pacific Islander":0,"Two or More Races":3.36,"White (non-Hispanic)":93.27},"Washington County, Vermont":{"American Indian / Alaska Native":0.02,"Asian":0.73,"Black or African American":0.86,"Hispanic":2.69,"Pacific Islander":0,"Two or More Races":3.42,"White (non-Hispanic)":91.89},"Windham County, Vermont":{"American Indian / Alaska Native":0.07,"Asian":1.24,"Black or African American":0.81,"Hispanic":3.01,"Pacific Islander":0,"Two or More Races":4,"White (non-Hispanic)":90.64},"Windsor County, Vermont":{"American Indian / Alaska Native":0.08,"Asian":1.05,"Black or African American":0.53,"Hispanic":2.23,"Pacific Islander":0,"Two or More Races":3.26,"White (non-Hispanic)":92.74}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

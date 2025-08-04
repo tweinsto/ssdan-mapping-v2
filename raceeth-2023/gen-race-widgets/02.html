@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 02</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Aleutians East Borough, Alaska">Aleutians East Borough, Alaska</option>
+<option value="Aleutians West Census Area, Alaska">Aleutians West Census Area, Alaska</option>
+<option value="Anchorage Municipality, Alaska">Anchorage Municipality, Alaska</option>
+<option value="Bethel Census Area, Alaska">Bethel Census Area, Alaska</option>
+<option value="Bristol Bay Borough, Alaska">Bristol Bay Borough, Alaska</option>
+<option value="Chugach Census Area, Alaska">Chugach Census Area, Alaska</option>
+<option value="Copper River Census Area, Alaska">Copper River Census Area, Alaska</option>
+<option value="Denali Borough, Alaska">Denali Borough, Alaska</option>
+<option value="Dillingham Census Area, Alaska">Dillingham Census Area, Alaska</option>
+<option value="Fairbanks North Star Borough, Alaska">Fairbanks North Star Borough, Alaska</option>
+<option value="Haines Borough, Alaska">Haines Borough, Alaska</option>
+<option value="Hoonah-Angoon Census Area, Alaska">Hoonah-Angoon Census Area, Alaska</option>
+<option value="Juneau City and Borough, Alaska">Juneau City and Borough, Alaska</option>
+<option value="Kenai Peninsula Borough, Alaska">Kenai Peninsula Borough, Alaska</option>
+<option value="Ketchikan Gateway Borough, Alaska">Ketchikan Gateway Borough, Alaska</option>
+<option value="Kodiak Island Borough, Alaska">Kodiak Island Borough, Alaska</option>
+<option value="Kusilvak Census Area, Alaska">Kusilvak Census Area, Alaska</option>
+<option value="Lake and Peninsula Borough, Alaska">Lake and Peninsula Borough, Alaska</option>
+<option value="Matanuska-Susitna Borough, Alaska">Matanuska-Susitna Borough, Alaska</option>
+<option value="Nome Census Area, Alaska">Nome Census Area, Alaska</option>
+<option value="North Slope Borough, Alaska">North Slope Borough, Alaska</option>
+<option value="Northwest Arctic Borough, Alaska">Northwest Arctic Borough, Alaska</option>
+<option value="Petersburg Borough, Alaska">Petersburg Borough, Alaska</option>
+<option value="Prince of Wales-Hyder Census Area, Alaska">Prince of Wales-Hyder Census Area, Alaska</option>
+<option value="Sitka City and Borough, Alaska">Sitka City and Borough, Alaska</option>
+<option value="Skagway Municipality, Alaska">Skagway Municipality, Alaska</option>
+<option value="Southeast Fairbanks Census Area, Alaska">Southeast Fairbanks Census Area, Alaska</option>
+<option value="Wrangell City and Borough, Alaska">Wrangell City and Borough, Alaska</option>
+<option value="Yakutat City and Borough, Alaska">Yakutat City and Borough, Alaska</option>
+<option value="Yukon-Koyukuk Census Area, Alaska">Yukon-Koyukuk Census Area, Alaska</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":13.5,"Asian":6.33,"Black or African American":2.97,"Hispanic":7.15,"Pacific Islander":1.52,"Two or More Races":9.59,"White (non-Hispanic)":58.33},"Aleutians East Borough, Alaska":{"American Indian / Alaska Native":35.96,"Asian":21.24,"Black or African American":5.87,"Hispanic":10.52,"Pacific Islander":0.93,"Two or More Races":9.49,"White (non-Hispanic)":15.43},"Aleutians West Census Area, Alaska":{"American Indian / Alaska Native":7.71,"Asian":40.69,"Black or African American":5.27,"Hispanic":13.81,"Pacific Islander":1.89,"Two or More Races":6.89,"White (non-Hispanic)":23.74},"Anchorage Municipality, Alaska":{"American Indian / Alaska Native":7,"Asian":9.67,"Black or African American":5.07,"Hispanic":9.32,"Pacific Islander":3.06,"Two or More Races":10,"White (non-Hispanic)":55.09},"Bethel Census Area, Alaska":{"American Indian / Alaska Native":83.56,"Asian":1.4,"Black or African American":1.15,"Hispanic":1.39,"Pacific Islander":0.21,"Two or More Races":3.55,"White (non-Hispanic)":8.75},"Bristol Bay Borough, Alaska":{"American Indian / Alaska Native":23.23,"Asian":6.95,"Black or African American":0.57,"Hispanic":8.31,"Pacific Islander":1.37,"Two or More Races":9.91,"White (non-Hispanic)":47.95},"Chugach Census Area, Alaska":{"American Indian / Alaska Native":4.61,"Asian":5.92,"Black or African American":1.38,"Hispanic":5.16,"Pacific Islander":0.98,"Two or More Races":9.18,"White (non-Hispanic)":71.97},"Copper River Census Area, Alaska":{"American Indian / Alaska Native":35.11,"Asian":0.53,"Black or African American":0.11,"Hispanic":3.88,"Pacific Islander":0,"Two or More Races":7.12,"White (non-Hispanic)":53.24},"Denali Borough, Alaska":{"American Indian / Alaska Native":2.81,"Asian":3.4,"Black or African American":1.03,"Hispanic":6.46,"Pacific Islander":0,"Two or More Races":8.28,"White (non-Hispanic)":76.69},"Dillingham Census Area, Alaska":{"American Indian / Alaska Native":70.75,"Asian":1.69,"Black or African American":0.63,"Hispanic":3.43,"Pacific Islander":0,"Two or More Races":9.14,"White (non-Hispanic)":14.31},"Fairbanks North Star Borough, Alaska":{"American Indian / Alaska Native":6.34,"Asian":2.9,"Black or African American":3.66,"Hispanic":8.19,"Pacific Islander":0.6,"Two or More Races":10.17,"White (non-Hispanic)":67.46},"Haines Borough, Alaska":{"American Indian / Alaska Native":4.48,"Asian":3.76,"Black or African American":0.24,"Hispanic":4,"Pacific Islander":0,"Two or More Races":9.39,"White (non-Hispanic)":77.37},"Hoonah-Angoon Census Area, Alaska":{"American Indian / Alaska Native":24.9,"Asian":1.56,"Black or African American":0.39,"Hispanic":10.81,"Pacific Islander":0.17,"Two or More Races":12.97,"White (non-Hispanic)":49.2},"Juneau City and Borough, Alaska":{"American Indian / Alaska Native":8.32,"Asian":6.91,"Black or African American":0.7,"Hispanic":6.99,"Pacific Islander":1.39,"Two or More Races":13.59,"White (non-Hispanic)":61.77},"Kenai Peninsula Borough, Alaska":{"American Indian / Alaska Native":6.35,"Asian":1.82,"Black or African American":0.54,"Hispanic":4.26,"Pacific Islander":0.32,"Two or More Races":8.15,"White (non-Hispanic)":77.87},"Ketchikan Gateway Borough, Alaska":{"American Indian / Alaska Native":12.49,"Asian":8.95,"Black or African American":0.42,"Hispanic":5.26,"Pacific Islander":0.2,"Two or More Races":10.96,"White (non-Hispanic)":61.44},"Kodiak Island Borough, Alaska":{"American Indian / Alaska Native":11.34,"Asian":22.14,"Black or African American":0.59,"Hispanic":8.16,"Pacific Islander":0.06,"Two or More Races":10.98,"White (non-Hispanic)":46.03},"Kusilvak Census Area, Alaska":{"American Indian / Alaska Native":86.43,"Asian":0.29,"Black or African American":0.88,"Hispanic":1.64,"Pacific Islander":0.14,"Two or More Races":7.54,"White (non-Hispanic)":3.07},"Lake and Peninsula Borough, Alaska":{"American Indian / Alaska Native":52.93,"Asian":2.38,"Black or African American":2.28,"Hispanic":1.09,"Pacific Islander":0,"Two or More Races":24.53,"White (non-Hispanic)":16.39},"Matanuska-Susitna Borough, Alaska":{"American Indian / Alaska Native":5.6,"Asian":1.72,"Black or African American":1.28,"Hispanic":5.19,"Pacific Islander":0.37,"Two or More Races":8.83,"White (non-Hispanic)":76.43},"Nome Census Area, Alaska":{"American Indian / Alaska Native":74.61,"Asian":1.66,"Black or African American":1.04,"Hispanic":2.09,"Pacific Islander":0,"Two or More Races":6.77,"White (non-Hispanic)":13.83},"North Slope Borough, Alaska":{"American Indian / Alaska Native":47.36,"Asian":5.1,"Black or African American":1.61,"Hispanic":5.31,"Pacific Islander":1.92,"Two or More Races":7.43,"White (non-Hispanic)":31.17},"Northwest Arctic Borough, Alaska":{"American Indian / Alaska Native":80.11,"Asian":2.51,"Black or African American":0.55,"Hispanic":2.09,"Pacific Islander":0.16,"Two or More Races":4.93,"White (non-Hispanic)":9.66},"Petersburg Borough, Alaska":{"American Indian / Alaska Native":5.72,"Asian":13.14,"Black or African American":1.47,"Hispanic":8.93,"Pacific Islander":0.68,"Two or More Races":10.4,"White (non-Hispanic)":59.13},"Prince of Wales-Hyder Census Area, Alaska":{"American Indian / Alaska Native":36.61,"Asian":1.85,"Black or African American":0.37,"Hispanic":3.61,"Pacific Islander":0.68,"Two or More Races":12.76,"White (non-Hispanic)":43.8},"Sitka City and Borough, Alaska":{"American Indian / Alaska Native":8.61,"Asian":7.23,"Black or African American":0.37,"Hispanic":6.85,"Pacific Islander":0.88,"Two or More Races":14.91,"White (non-Hispanic)":59.84},"Skagway Municipality, Alaska":{"American Indian / Alaska Native":4.36,"Asian":7.87,"Black or African American":2.22,"Hispanic":4.89,"Pacific Islander":0,"Two or More Races":11.77,"White (non-Hispanic)":68.88},"Southeast Fairbanks Census Area, Alaska":{"American Indian / Alaska Native":12.07,"Asian":1.98,"Black or African American":0.88,"Hispanic":5.8,"Pacific Islander":0.04,"Two or More Races":6.66,"White (non-Hispanic)":72.46},"Wrangell City and Borough, Alaska":{"American Indian / Alaska Native":19.94,"Asian":4.08,"Black or African American":0.09,"Hispanic":5.51,"Pacific Islander":1.23,"Two or More Races":14.96,"White (non-Hispanic)":54.18},"Yakutat City and Borough, Alaska":{"American Indian / Alaska Native":25.1,"Asian":19.76,"Black or African American":5.53,"Hispanic":4.74,"Pacific Islander":1.78,"Two or More Races":18.38,"White (non-Hispanic)":24.7},"Yukon-Koyukuk Census Area, Alaska":{"American Indian / Alaska Native":65.91,"Asian":1.4,"Black or African American":1.25,"Hispanic":2.07,"Pacific Islander":0.11,"Two or More Races":7.36,"White (non-Hispanic)":21.76}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

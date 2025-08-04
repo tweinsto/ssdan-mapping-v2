@@ -2,60 +2,78 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Indiana Population Overview</title>
+  <title>State Page</title>
   <style>
     body {
       margin: 2rem;
       font-family: sans-serif;
+      background-color: #f1e7e7;
     }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+      color: #333;
+    }
+
     #wrapper {
       display: flex;
-      gap: 1rem;
+      gap: 1.5rem;
       align-items: flex-start;
     }
+
     iframe {
       border: none;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     }
+
     .map-column {
       width: 60%;
     }
+
     .chart-column {
       width: 40%;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    @media (max-width: 800px) {
+      #wrapper {
+        flex-direction: column;
+      }
+      .map-column, .chart-column {
+        width: 100%;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Indiana – County Map and Population Growth 2000-2023</h1>
-
+  <h1>County Map and Population Growth Overview – 18</h1>
   <div id="wrapper">
     <div class="map-column">
       <iframe
         src="../maps/18_county_map.html"
         title="County Map"
-        style="width: 100%; height: 500px;">
+        style="width: 100%; height: 600px;">
       </iframe>
     </div>
 
     <div class="chart-column">
-      <iframe
-        src="../pop-charts/18_chart.html"
-        title="Population Chart"
-        style="width: 100%; height: 300px;">
-      </iframe>
-
-      <div style="padding-top: 1rem;">
-        <h3>State Notes</h3>
-        <p>Indiana was included in the Northwest Territory (1787) but became a separate territory in 1800.  At that time, in addition to most of present-day Indiana, the Territory included all of Illinois and Wisconsin, the western half of Michigan, and northeastern Minnesota.  In 1802 the boundary with Ohio was altered and eastern Michigan was added, but Michigan Territory was separated in 1805 and Illinois Territory in 1809, leaving Indiana Territory with the present State area except for a narrow band along the northern border; the territory also included a portion of the Michigan Upper Peninsula. On December 11, 1816 Indiana was admitted as a State with essentially its present boundaries.</p>
-      </div>
-
-      <div style="padding-top: 1rem;">
-        <h3>Population Rankings by County</h3>
+      <div style="padding: 1rem; background: white;">
         <iframe
-          src="../county_rankings/18_counties.html"
-          title="County Table"
-          style="width: 100%; height: 300px;">
+          src="../pop-charts-new/18_chart.html"
+          title="Population Growth"
+          style="width: 100%; height: 400px; border: none;">
         </iframe>
       </div>
+
+      <iframe
+        src="../maps/growth-rankings2000/rankings18_counties.html"
+        title="County Table"
+        style="width: 100%; height: 400px;">
+      </iframe>
     </div>
   </div>
 </body>

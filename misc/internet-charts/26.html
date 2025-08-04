@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Internet Access Over Time –  Michigan</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>body { font-family: sans-serif; margin: 1rem 2rem; text-align: center; }
+                      h2 { margin-bottom: 0.25rem; font-size: 1.6rem; }
+                      select { padding: 0.4rem; font-size: 1rem; margin: 1rem 0; border-radius: 5px; border: 1px solid #999; }
+                      canvas { width: 100%; max-width: 850px; height: 450px; margin-top: 1rem; }</style>
+</head>
+<html>
+  <body>
+    <h2>Internet Access in  Michigan (2013–2023)</h2>
+    <label>Select County: </label>
+    <select id="countySelect"><option value='Statewide'>Statewide</option>
+<option value='Allegan County, Michigan'>Allegan County, Michigan</option>
+<option value='Bay County, Michigan'>Bay County, Michigan</option>
+<option value='Berrien County, Michigan'>Berrien County, Michigan</option>
+<option value='Calhoun County, Michigan'>Calhoun County, Michigan</option>
+<option value='Clinton County, Michigan'>Clinton County, Michigan</option>
+<option value='Eaton County, Michigan'>Eaton County, Michigan</option>
+<option value='Genesee County, Michigan'>Genesee County, Michigan</option>
+<option value='Grand Traverse County, Michigan'>Grand Traverse County, Michigan</option>
+<option value='Ingham County, Michigan'>Ingham County, Michigan</option>
+<option value='Ionia County, Michigan'>Ionia County, Michigan</option>
+<option value='Isabella County, Michigan'>Isabella County, Michigan</option>
+<option value='Jackson County, Michigan'>Jackson County, Michigan</option>
+<option value='Kalamazoo County, Michigan'>Kalamazoo County, Michigan</option>
+<option value='Kent County, Michigan'>Kent County, Michigan</option>
+<option value='Lapeer County, Michigan'>Lapeer County, Michigan</option>
+<option value='Lenawee County, Michigan'>Lenawee County, Michigan</option>
+<option value='Livingston County, Michigan'>Livingston County, Michigan</option>
+<option value='Macomb County, Michigan'>Macomb County, Michigan</option>
+<option value='Marquette County, Michigan'>Marquette County, Michigan</option>
+<option value='Midland County, Michigan'>Midland County, Michigan</option>
+<option value='Monroe County, Michigan'>Monroe County, Michigan</option>
+<option value='Montcalm County, Michigan'>Montcalm County, Michigan</option>
+<option value='Muskegon County, Michigan'>Muskegon County, Michigan</option>
+<option value='Oakland County, Michigan'>Oakland County, Michigan</option>
+<option value='Ottawa County, Michigan'>Ottawa County, Michigan</option>
+<option value='Saginaw County, Michigan'>Saginaw County, Michigan</option>
+<option value='Shiawassee County, Michigan'>Shiawassee County, Michigan</option>
+<option value='St. Clair County, Michigan'>St. Clair County, Michigan</option>
+<option value='Van Buren County, Michigan'>Van Buren County, Michigan</option>
+<option value='Washtenaw County, Michigan'>Washtenaw County, Michigan</option>
+<option value='Wayne County, Michigan'>Wayne County, Michigan</option></select>
+    <canvas id="lineChart" width="850" height="450"></canvas>
+    <script>const internetData = {"Statewide":{"2013":73.3,"2014":75,"2015":76.2,"2016":81.9,"2017":84.2,"2018":85.2,"2019":87,"2021":90.9,"2022":91.3,"2023":92.4},"Allegan County, Michigan":{"2013":71.4,"2014":66.3,"2015":66.8,"2016":78.9,"2017":82.9,"2018":85.1,"2019":85.2,"2021":91,"2022":93.7,"2023":91.3},"Bay County, Michigan":{"2013":69.7,"2014":71.9,"2015":75,"2016":82,"2017":80.3,"2018":85.5,"2019":88.3,"2021":89.3,"2022":88,"2023":87.2},"Berrien County, Michigan":{"2013":70.5,"2014":67.6,"2015":70.3,"2016":78.1,"2017":81.8,"2018":74.2,"2019":75.6,"2021":88.4,"2022":92.1,"2023":90.8},"Calhoun County, Michigan":{"2013":66.1,"2014":70.1,"2015":70.2,"2016":78.1,"2017":80.8,"2018":83.8,"2019":85.4,"2021":88.7,"2022":89.7,"2023":88.8},"Clinton County, Michigan":{"2013":79.3,"2014":83.6,"2015":82.5,"2016":85.5,"2017":85,"2018":87,"2019":87,"2021":89.9,"2022":89.9,"2023":92.5},"Eaton County, Michigan":{"2013":73.9,"2014":78.2,"2015":78.4,"2016":83.1,"2017":85.9,"2018":87.8,"2019":86.7,"2021":90.7,"2022":90.8,"2023":91.5},"Genesee County, Michigan":{"2013":67.4,"2014":71.3,"2015":69.7,"2016":74.9,"2017":78.1,"2018":80.6,"2019":83.3,"2021":87.2,"2022":89.7,"2023":90.4},"Grand Traverse County, Michigan":{"2013":75.7,"2014":82.3,"2015":80.7,"2016":83.3,"2017":90.5,"2018":86.5,"2019":90.7,"2021":91.9,"2022":91.6,"2023":93.6},"Ingham County, Michigan":{"2013":77.2,"2014":78.1,"2015":74.4,"2016":82,"2017":83.6,"2018":84,"2019":87.9,"2021":90.8,"2022":90,"2023":91.8},"Ionia County, Michigan":{"2021":84.2,"2022":91.3,"2023":88.7},"Isabella County, Michigan":{"2013":68.5,"2014":66.7,"2015":67.6,"2016":77.4,"2017":78,"2018":79.2,"2019":82.5},"Jackson County, Michigan":{"2013":69.8,"2014":70.3,"2015":75.3,"2016":79.7,"2017":83.9,"2018":83.6,"2019":85.8,"2021":90.6,"2022":91.4,"2023":94},"Kalamazoo County, Michigan":{"2013":78.1,"2014":79.9,"2015":82.9,"2016":85.7,"2017":88,"2018":89.5,"2019":88.8,"2021":89.9,"2022":88.4,"2023":93.1},"Kent County, Michigan":{"2013":76.5,"2014":79.5,"2015":81.5,"2016":86.8,"2017":87.3,"2018":87.7,"2019":88.6,"2021":91.4,"2022":92.2,"2023":93.8},"Lapeer County, Michigan":{"2013":73.7,"2014":75.1,"2015":76.4,"2016":79.1,"2017":83,"2018":84.4,"2019":86.7,"2021":88.4,"2022":88,"2023":90.1},"Lenawee County, Michigan":{"2013":73,"2014":72.8,"2015":75.7,"2016":82.9,"2017":84.5,"2018":82.9,"2019":84.7,"2021":90.7,"2022":88,"2023":92.8},"Livingston County, Michigan":{"2013":81.6,"2014":82.4,"2015":78.9,"2016":87.2,"2017":90.2,"2018":90.8,"2019":89.3,"2021":93.4,"2022":93.1,"2023":93.7},"Macomb County, Michigan":{"2013":76.3,"2014":78.6,"2015":80.2,"2016":84.6,"2017":87.6,"2018":88.7,"2019":90.7,"2021":93.3,"2022":93.6,"2023":94.3},"Marquette County, Michigan":{"2013":72,"2014":69.4,"2015":75.8,"2016":78.5,"2017":85,"2018":82.1,"2019":82.5,"2021":86,"2022":87.3,"2023":82.2},"Midland County, Michigan":{"2013":71.4,"2014":72.6,"2015":76.3,"2016":83,"2017":86.1,"2018":82.7,"2019":87.8,"2021":90.5,"2022":88.9,"2023":90.2},"Monroe County, Michigan":{"2013":72.1,"2014":76.9,"2015":77.8,"2016":83,"2017":82.2,"2018":84.1,"2019":83.3,"2021":87.7,"2022":88.6,"2023":91.6},"Montcalm County, Michigan":{"2021":85.7,"2022":81.3,"2023":86.8},"Muskegon County, Michigan":{"2013":70.9,"2014":69.5,"2015":71.8,"2016":78,"2017":80.3,"2018":83.6,"2019":80.8,"2021":89.6,"2022":88.4,"2023":92.6},"Oakland County, Michigan":{"2013":81.8,"2014":82.7,"2015":85.1,"2016":88.7,"2017":90.5,"2018":90.3,"2019":92.4,"2021":94.4,"2022":94.2,"2023":95},"Ottawa County, Michigan":{"2013":80.2,"2014":80.4,"2015":82.7,"2016":86.9,"2017":88.2,"2018":88.8,"2019":88.1,"2021":91.8,"2022":93.2,"2023":93.8},"Saginaw County, Michigan":{"2013":66.7,"2014":70.7,"2015":70.4,"2016":78,"2017":80.5,"2018":83.1,"2019":85.6,"2021":88.2,"2022":90.8,"2023":89.9},"Shiawassee County, Michigan":{"2013":71.7,"2014":69,"2015":74.2,"2016":79.4,"2017":83.3,"2018":83.3,"2019":80.6,"2021":84.8,"2022":86.9,"2023":92.7},"St. Clair County, Michigan":{"2013":72,"2014":76,"2015":78.1,"2016":80.6,"2017":84.9,"2018":85.5,"2019":85.5,"2021":91,"2022":91.1,"2023":92},"Van Buren County, Michigan":{"2013":65.8,"2014":70.7,"2015":66.4,"2016":73.9,"2017":83.8,"2018":82.8,"2019":85,"2021":87.6,"2022":89.1,"2023":89.1},"Washtenaw County, Michigan":{"2013":82.5,"2014":84.9,"2015":85.1,"2016":88.7,"2017":88.8,"2018":91.7,"2019":92.1,"2021":94,"2022":93.5,"2023":94.4},"Wayne County, Michigan":{"2013":63.5,"2014":65.2,"2015":66.1,"2016":74.7,"2017":77,"2018":79.2,"2019":82.5,"2021":89.3,"2022":89.9,"2023":90.8}};
+const ctx = document.getElementById('lineChart').getContext('2d');
+let chart;
+
+function renderChart(data) {
+  const labels = Object.keys(data);
+  const values = Object.values(data);
+
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: '% With Internet',
+        data: values,
+        fill: false,
+        borderColor: 'teal',
+        backgroundColor: 'teal',
+        tension: 0.3,
+        pointRadius: 4
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100,
+          title: { display: true, text: '% With Internet' }
+        },
+        x: {
+          title: { display: true, text: 'Year' }
+        }
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function(ctx) {
+              return ctx.parsed.y.toFixed(1) + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  renderChart(internetData[this.value]);
+});
+renderChart(internetData['Statewide']);</script>
+  </body>
+</html>
+</html>

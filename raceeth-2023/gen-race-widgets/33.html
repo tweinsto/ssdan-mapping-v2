@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 33</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Belknap County, New Hampshire">Belknap County, New Hampshire</option>
+<option value="Carroll County, New Hampshire">Carroll County, New Hampshire</option>
+<option value="Cheshire County, New Hampshire">Cheshire County, New Hampshire</option>
+<option value="Coos County, New Hampshire">Coos County, New Hampshire</option>
+<option value="Grafton County, New Hampshire">Grafton County, New Hampshire</option>
+<option value="Hillsborough County, New Hampshire">Hillsborough County, New Hampshire</option>
+<option value="Merrimack County, New Hampshire">Merrimack County, New Hampshire</option>
+<option value="Rockingham County, New Hampshire">Rockingham County, New Hampshire</option>
+<option value="Strafford County, New Hampshire">Strafford County, New Hampshire</option>
+<option value="Sullivan County, New Hampshire">Sullivan County, New Hampshire</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.08,"Asian":2.57,"Black or African American":1.38,"Hispanic":4.52,"Pacific Islander":0.02,"Two or More Races":3.52,"White (non-Hispanic)":87.53},"Belknap County, New Hampshire":{"American Indian / Alaska Native":0.05,"Asian":1.2,"Black or African American":0.49,"Hispanic":2.16,"Pacific Islander":0.02,"Two or More Races":2.41,"White (non-Hispanic)":93.19},"Carroll County, New Hampshire":{"American Indian / Alaska Native":0.2,"Asian":0.84,"Black or African American":0.53,"Hispanic":1.69,"Pacific Islander":0,"Two or More Races":2.28,"White (non-Hispanic)":94.33},"Cheshire County, New Hampshire":{"American Indian / Alaska Native":0.1,"Asian":0.69,"Black or African American":0.74,"Hispanic":2.47,"Pacific Islander":0.01,"Two or More Races":3.9,"White (non-Hispanic)":91.89},"Coos County, New Hampshire":{"American Indian / Alaska Native":0.1,"Asian":0.26,"Black or African American":1.47,"Hispanic":2.28,"Pacific Islander":0,"Two or More Races":2.82,"White (non-Hispanic)":92.85},"Grafton County, New Hampshire":{"American Indian / Alaska Native":0.11,"Asian":3.47,"Black or African American":1.24,"Hispanic":2.84,"Pacific Islander":0.03,"Two or More Races":3.76,"White (non-Hispanic)":88.12},"Hillsborough County, New Hampshire":{"American Indian / Alaska Native":0.06,"Asian":4.22,"Black or African American":2.31,"Hispanic":8.25,"Pacific Islander":0.01,"Two or More Races":3.78,"White (non-Hispanic)":80.95},"Merrimack County, New Hampshire":{"American Indian / Alaska Native":0.13,"Asian":1.62,"Black or African American":1.49,"Hispanic":2.63,"Pacific Islander":0.02,"Two or More Races":3.3,"White (non-Hispanic)":90.6},"Rockingham County, New Hampshire":{"American Indian / Alaska Native":0.07,"Asian":2.07,"Black or African American":0.77,"Hispanic":3.52,"Pacific Islander":0.04,"Two or More Races":3.06,"White (non-Hispanic)":90.02},"Strafford County, New Hampshire":{"American Indian / Alaska Native":0.02,"Asian":2.64,"Black or African American":1.17,"Hispanic":3.12,"Pacific Islander":0,"Two or More Races":4.52,"White (non-Hispanic)":88.11},"Sullivan County, New Hampshire":{"American Indian / Alaska Native":0.02,"Asian":0.55,"Black or African American":0.82,"Hispanic":2,"Pacific Islander":0.02,"Two or More Races":4.54,"White (non-Hispanic)":91.78}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

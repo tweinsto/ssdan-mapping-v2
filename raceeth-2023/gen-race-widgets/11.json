@@ -1,0 +1,71 @@
+{
+  "state": "District of Columbia",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 715
+        },
+        {
+          "label": "Asian",
+          "value": 26970
+        },
+        {
+          "label": "Black or African American",
+          "value": 285926
+        },
+        {
+          "label": "Hispanic",
+          "value": 77760
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 297
+        },
+        {
+          "label": "Two or More Races",
+          "value": 30350
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 245760
+        }
+      ]
+    },
+    "District of Columbia, District of Columbia": {
+      "label": "District of Columbia, District of Columbia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 715
+        },
+        {
+          "label": "Asian",
+          "value": 26970
+        },
+        {
+          "label": "Black or African American",
+          "value": 285926
+        },
+        {
+          "label": "Hispanic",
+          "value": 77760
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 297
+        },
+        {
+          "label": "Two or More Races",
+          "value": 30350
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 245760
+        }
+      ]
+    }
+  }
+}

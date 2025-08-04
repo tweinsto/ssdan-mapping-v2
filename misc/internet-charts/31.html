@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Internet Access Over Time –  Nebraska</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>body { font-family: sans-serif; margin: 1rem 2rem; text-align: center; }
+                      h2 { margin-bottom: 0.25rem; font-size: 1.6rem; }
+                      select { padding: 0.4rem; font-size: 1rem; margin: 1rem 0; border-radius: 5px; border: 1px solid #999; }
+                      canvas { width: 100%; max-width: 850px; height: 450px; margin-top: 1rem; }</style>
+</head>
+<html>
+  <body>
+    <h2>Internet Access in  Nebraska (2013–2023)</h2>
+    <label>Select County: </label>
+    <select id="countySelect"><option value='Statewide'>Statewide</option>
+<option value='Douglas County, Nebraska'>Douglas County, Nebraska</option>
+<option value='Lancaster County, Nebraska'>Lancaster County, Nebraska</option>
+<option value='Sarpy County, Nebraska'>Sarpy County, Nebraska</option></select>
+    <canvas id="lineChart" width="850" height="450"></canvas>
+    <script>const internetData = {"Statewide":{"2013":78.6,"2014":79.9,"2015":83.3,"2016":85.3,"2017":88.2,"2018":89.3,"2019":90.4,"2021":92.2,"2022":92.8,"2023":94.2},"Douglas County, Nebraska":{"2013":75.6,"2014":76.6,"2015":81.1,"2016":83.6,"2017":86.4,"2018":88.2,"2019":89.8,"2021":91.7,"2022":91.9,"2023":94.2},"Lancaster County, Nebraska":{"2013":80.2,"2014":81.6,"2015":84.1,"2016":86.5,"2017":88.9,"2018":89.7,"2019":90.3,"2021":92.1,"2022":92.9,"2023":93.5},"Sarpy County, Nebraska":{"2013":85.7,"2014":87.8,"2015":89.3,"2016":88.4,"2017":93.2,"2018":92,"2019":92.8,"2021":94,"2022":95.6,"2023":95.5}};
+const ctx = document.getElementById('lineChart').getContext('2d');
+let chart;
+
+function renderChart(data) {
+  const labels = Object.keys(data);
+  const values = Object.values(data);
+
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: '% With Internet',
+        data: values,
+        fill: false,
+        borderColor: 'teal',
+        backgroundColor: 'teal',
+        tension: 0.3,
+        pointRadius: 4
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100,
+          title: { display: true, text: '% With Internet' }
+        },
+        x: {
+          title: { display: true, text: 'Year' }
+        }
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function(ctx) {
+              return ctx.parsed.y.toFixed(1) + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  renderChart(internetData[this.value]);
+});
+renderChart(internetData['Statewide']);</script>
+  </body>
+</html>
+</html>

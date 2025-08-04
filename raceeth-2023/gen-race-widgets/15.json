@@ -1,0 +1,203 @@
+{
+  "state": "Hawaii County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1745
+        },
+        {
+          "label": "Asian",
+          "value": 531189
+        },
+        {
+          "label": "Black or African American",
+          "value": 25998
+        },
+        {
+          "label": "Hispanic",
+          "value": 142225
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 140064
+        },
+        {
+          "label": "Two or More Races",
+          "value": 294050
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 305329
+        }
+      ]
+    },
+    "Hawaii County, Hawaii": {
+      "label": "Hawaii County, Hawaii",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 174
+        },
+        {
+          "label": "Asian",
+          "value": 42468
+        },
+        {
+          "label": "Black or African American",
+          "value": 1493
+        },
+        {
+          "label": "Hispanic",
+          "value": 23451
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22956
+        },
+        {
+          "label": "Two or More Races",
+          "value": 50896
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 61076
+        }
+      ]
+    },
+    "Honolulu County, Hawaii": {
+      "label": "Honolulu County, Hawaii",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1305
+        },
+        {
+          "label": "Asian",
+          "value": 421518
+        },
+        {
+          "label": "Black or African American",
+          "value": 22844
+        },
+        {
+          "label": "Hispanic",
+          "value": 93725
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 93615
+        },
+        {
+          "label": "Two or More Races",
+          "value": 193257
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 174457
+        }
+      ]
+    },
+    "Kalawao County, Hawaii": {
+      "label": "Kalawao County, Hawaii",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 14
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 4
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7
+        }
+      ]
+    },
+    "Kauai County, Hawaii": {
+      "label": "Kauai County, Hawaii",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 70
+        },
+        {
+          "label": "Asian",
+          "value": 21368
+        },
+        {
+          "label": "Black or African American",
+          "value": 436
+        },
+        {
+          "label": "Hispanic",
+          "value": 7720
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7008
+        },
+        {
+          "label": "Two or More Races",
+          "value": 15392
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21341
+        }
+      ]
+    },
+    "Maui County, Hawaii": {
+      "label": "Maui County, Hawaii",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 191
+        },
+        {
+          "label": "Asian",
+          "value": 45821
+        },
+        {
+          "label": "Black or African American",
+          "value": 1225
+        },
+        {
+          "label": "Hispanic",
+          "value": 17325
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 16477
+        },
+        {
+          "label": "Two or More Races",
+          "value": 34500
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 48448
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "state": "Bristol County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1721
+        },
+        {
+          "label": "Asian",
+          "value": 37493
+        },
+        {
+          "label": "Black or African American",
+          "value": 55222
+        },
+        {
+          "label": "Hispanic",
+          "value": 187503
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 475
+        },
+        {
+          "label": "Two or More Races",
+          "value": 47987
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 756498
+        }
+      ]
+    },
+    "Bristol County, Rhode Island": {
+      "label": "Bristol County, Rhode Island",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 1159
+        },
+        {
+          "label": "Black or African American",
+          "value": 500
+        },
+        {
+          "label": "Hispanic",
+          "value": 2043
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 19
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1824
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 44850
+        }
+      ]
+    },
+    "Kent County, Rhode Island": {
+      "label": "Kent County, Rhode Island",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 95
+        },
+        {
+          "label": "Asian",
+          "value": 5002
+        },
+        {
+          "label": "Black or African American",
+          "value": 3025
+        },
+        {
+          "label": "Hispanic",
+          "value": 10976
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 61
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6216
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 144551
+        }
+      ]
+    },
+    "Newport County, Rhode Island": {
+      "label": "Newport County, Rhode Island",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 144
+        },
+        {
+          "label": "Asian",
+          "value": 1464
+        },
+        {
+          "label": "Black or African American",
+          "value": 2927
+        },
+        {
+          "label": "Hispanic",
+          "value": 5583
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3570
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 70856
+        }
+      ]
+    },
+    "Providence County, Rhode Island": {
+      "label": "Providence County, Rhode Island",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1219
+        },
+        {
+          "label": "Asian",
+          "value": 27169
+        },
+        {
+          "label": "Black or African American",
+          "value": 47246
+        },
+        {
+          "label": "Hispanic",
+          "value": 164093
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 367
+        },
+        {
+          "label": "Two or More Races",
+          "value": 32249
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 379663
+        }
+      ]
+    },
+    "Washington County, Rhode Island": {
+      "label": "Washington County, Rhode Island",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 252
+        },
+        {
+          "label": "Asian",
+          "value": 2699
+        },
+        {
+          "label": "Black or African American",
+          "value": 1524
+        },
+        {
+          "label": "Hispanic",
+          "value": 4808
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4128
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 116578
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 12</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Alachua County, Florida">Alachua County, Florida</option>
+<option value="Baker County, Florida">Baker County, Florida</option>
+<option value="Bay County, Florida">Bay County, Florida</option>
+<option value="Bradford County, Florida">Bradford County, Florida</option>
+<option value="Brevard County, Florida">Brevard County, Florida</option>
+<option value="Broward County, Florida">Broward County, Florida</option>
+<option value="Calhoun County, Florida">Calhoun County, Florida</option>
+<option value="Charlotte County, Florida">Charlotte County, Florida</option>
+<option value="Citrus County, Florida">Citrus County, Florida</option>
+<option value="Clay County, Florida">Clay County, Florida</option>
+<option value="Collier County, Florida">Collier County, Florida</option>
+<option value="Columbia County, Florida">Columbia County, Florida</option>
+<option value="DeSoto County, Florida">DeSoto County, Florida</option>
+<option value="Dixie County, Florida">Dixie County, Florida</option>
+<option value="Duval County, Florida">Duval County, Florida</option>
+<option value="Escambia County, Florida">Escambia County, Florida</option>
+<option value="Flagler County, Florida">Flagler County, Florida</option>
+<option value="Franklin County, Florida">Franklin County, Florida</option>
+<option value="Gadsden County, Florida">Gadsden County, Florida</option>
+<option value="Gilchrist County, Florida">Gilchrist County, Florida</option>
+<option value="Glades County, Florida">Glades County, Florida</option>
+<option value="Gulf County, Florida">Gulf County, Florida</option>
+<option value="Hamilton County, Florida">Hamilton County, Florida</option>
+<option value="Hardee County, Florida">Hardee County, Florida</option>
+<option value="Hendry County, Florida">Hendry County, Florida</option>
+<option value="Hernando County, Florida">Hernando County, Florida</option>
+<option value="Highlands County, Florida">Highlands County, Florida</option>
+<option value="Hillsborough County, Florida">Hillsborough County, Florida</option>
+<option value="Holmes County, Florida">Holmes County, Florida</option>
+<option value="Indian River County, Florida">Indian River County, Florida</option>
+<option value="Jackson County, Florida">Jackson County, Florida</option>
+<option value="Jefferson County, Florida">Jefferson County, Florida</option>
+<option value="Lafayette County, Florida">Lafayette County, Florida</option>
+<option value="Lake County, Florida">Lake County, Florida</option>
+<option value="Lee County, Florida">Lee County, Florida</option>
+<option value="Leon County, Florida">Leon County, Florida</option>
+<option value="Levy County, Florida">Levy County, Florida</option>
+<option value="Liberty County, Florida">Liberty County, Florida</option>
+<option value="Madison County, Florida">Madison County, Florida</option>
+<option value="Manatee County, Florida">Manatee County, Florida</option>
+<option value="Marion County, Florida">Marion County, Florida</option>
+<option value="Martin County, Florida">Martin County, Florida</option>
+<option value="Miami-Dade County, Florida">Miami-Dade County, Florida</option>
+<option value="Monroe County, Florida">Monroe County, Florida</option>
+<option value="Nassau County, Florida">Nassau County, Florida</option>
+<option value="Okaloosa County, Florida">Okaloosa County, Florida</option>
+<option value="Okeechobee County, Florida">Okeechobee County, Florida</option>
+<option value="Orange County, Florida">Orange County, Florida</option>
+<option value="Osceola County, Florida">Osceola County, Florida</option>
+<option value="Palm Beach County, Florida">Palm Beach County, Florida</option>
+<option value="Pasco County, Florida">Pasco County, Florida</option>
+<option value="Pinellas County, Florida">Pinellas County, Florida</option>
+<option value="Polk County, Florida">Polk County, Florida</option>
+<option value="Putnam County, Florida">Putnam County, Florida</option>
+<option value="Santa Rosa County, Florida">Santa Rosa County, Florida</option>
+<option value="Sarasota County, Florida">Sarasota County, Florida</option>
+<option value="Seminole County, Florida">Seminole County, Florida</option>
+<option value="St. Johns County, Florida">St. Johns County, Florida</option>
+<option value="St. Lucie County, Florida">St. Lucie County, Florida</option>
+<option value="Sumter County, Florida">Sumter County, Florida</option>
+<option value="Suwannee County, Florida">Suwannee County, Florida</option>
+<option value="Taylor County, Florida">Taylor County, Florida</option>
+<option value="Union County, Florida">Union County, Florida</option>
+<option value="Volusia County, Florida">Volusia County, Florida</option>
+<option value="Wakulla County, Florida">Wakulla County, Florida</option>
+<option value="Walton County, Florida">Walton County, Florida</option>
+<option value="Washington County, Florida">Washington County, Florida</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.11,"Asian":2.8,"Black or African American":14.81,"Hispanic":26.75,"Pacific Islander":0.05,"Two or More Races":3.47,"White (non-Hispanic)":51.38},"Alachua County, Florida":{"American Indian / Alaska Native":0.1,"Asian":5.84,"Black or African American":19.05,"Hispanic":12.21,"Pacific Islander":0.05,"Two or More Races":3.79,"White (non-Hispanic)":58.31},"Baker County, Florida":{"American Indian / Alaska Native":0.05,"Asian":0.82,"Black or African American":11.46,"Hispanic":3.72,"Pacific Islander":0,"Two or More Races":6.25,"White (non-Hispanic)":77.7},"Bay County, Florida":{"American Indian / Alaska Native":0.23,"Asian":1.92,"Black or African American":9.84,"Hispanic":8.39,"Pacific Islander":0.1,"Two or More Races":5.16,"White (non-Hispanic)":73.7},"Bradford County, Florida":{"American Indian / Alaska Native":0.05,"Asian":0.94,"Black or African American":17.32,"Hispanic":4.88,"Pacific Islander":0,"Two or More Races":4.21,"White (non-Hispanic)":72.58},"Brevard County, Florida":{"American Indian / Alaska Native":0.1,"Asian":2.39,"Black or African American":9.24,"Hispanic":11.7,"Pacific Islander":0.06,"Two or More Races":4.49,"White (non-Hispanic)":71.26},"Broward County, Florida":{"American Indian / Alaska Native":0.11,"Asian":3.6,"Black or African American":27.58,"Hispanic":31.91,"Pacific Islander":0.06,"Two or More Races":3.82,"White (non-Hispanic)":31.92},"Calhoun County, Florida":{"American Indian / Alaska Native":0.7,"Asian":0.74,"Black or African American":11.61,"Hispanic":5.04,"Pacific Islander":0,"Two or More Races":4.97,"White (non-Hispanic)":75.97},"Charlotte County, Florida":{"American Indian / Alaska Native":0.09,"Asian":1.29,"Black or African American":5.1,"Hispanic":7.83,"Pacific Islander":0.03,"Two or More Races":2.97,"White (non-Hispanic)":82.44},"Citrus County, Florida":{"American Indian / Alaska Native":0.23,"Asian":1.37,"Black or African American":2.12,"Hispanic":6.51,"Pacific Islander":0.04,"Two or More Races":3.47,"White (non-Hispanic)":85.74},"Clay County, Florida":{"American Indian / Alaska Native":0.05,"Asian":2.92,"Black or African American":11.15,"Hispanic":11.05,"Pacific Islander":0.06,"Two or More Races":4.66,"White (non-Hispanic)":69.08},"Collier County, Florida":{"American Indian / Alaska Native":0.07,"Asian":1.49,"Black or African American":6.44,"Hispanic":27.46,"Pacific Islander":0,"Two or More Races":1.95,"White (non-Hispanic)":62.37},"Columbia County, Florida":{"American Indian / Alaska Native":0.06,"Asian":0.93,"Black or African American":16.25,"Hispanic":7.43,"Pacific Islander":0.04,"Two or More Races":3.73,"White (non-Hispanic)":70.72},"DeSoto County, Florida":{"American Indian / Alaska Native":0.13,"Asian":0.03,"Black or African American":12.65,"Hispanic":29.76,"Pacific Islander":0.06,"Two or More Races":1.68,"White (non-Hispanic)":55.49},"Dixie County, Florida":{"American Indian / Alaska Native":0.29,"Asian":0.43,"Black or African American":6.33,"Hispanic":4.48,"Pacific Islander":0,"Two or More Races":5.33,"White (non-Hispanic)":83.08},"Duval County, Florida":{"American Indian / Alaska Native":0.11,"Asian":4.75,"Black or African American":28.49,"Hispanic":11.75,"Pacific Islander":0.06,"Two or More Races":4.82,"White (non-Hispanic)":49.3},"Escambia County, Florida":{"American Indian / Alaska Native":0.22,"Asian":2.81,"Black or African American":21.03,"Hispanic":6.62,"Pacific Islander":0.1,"Two or More Races":6.6,"White (non-Hispanic)":62.15},"Flagler County, Florida":{"American Indian / Alaska Native":0.11,"Asian":2.19,"Black or African American":9.18,"Hispanic":11.17,"Pacific Islander":0.12,"Two or More Races":3.56,"White (non-Hispanic)":73.29},"Franklin County, Florida":{"American Indian / Alaska Native":0.06,"Asian":0.31,"Black or African American":10.71,"Hispanic":5.44,"Pacific Islander":0,"Two or More Races":4.47,"White (non-Hispanic)":78.93},"Gadsden County, Florida":{"American Indian / Alaska Native":0.11,"Asian":0.14,"Black or African American":54.64,"Hispanic":11.87,"Pacific Islander":0,"Two or More Races":1.67,"White (non-Hispanic)":31.49},"Gilchrist County, Florida":{"American Indian / Alaska Native":0.09,"Asian":0.23,"Black or African American":3.03,"Hispanic":7.45,"Pacific Islander":0.01,"Two or More Races":3,"White (non-Hispanic)":85.94},"Glades County, Florida":{"American Indian / Alaska Native":2.89,"Asian":0.35,"Black or African American":14.7,"Hispanic":25.06,"Pacific Islander":0,"Two or More Races":1,"White (non-Hispanic)":55.1},"Gulf County, Florida":{"American Indian / Alaska Native":0.2,"Asian":0.45,"Black or African American":13.79,"Hispanic":4.44,"Pacific Islander":0.12,"Two or More Races":3.65,"White (non-Hispanic)":77.27},"Hamilton County, Florida":{"American Indian / Alaska Native":0.53,"Asian":0.49,"Black or African American":30.84,"Hispanic":10.99,"Pacific Islander":0,"Two or More Races":1.9,"White (non-Hispanic)":55.22},"Hardee County, Florida":{"American Indian / Alaska Native":0.02,"Asian":1.11,"Black or African American":6.44,"Hispanic":42,"Pacific Islander":0,"Two or More Races":3.14,"White (non-Hispanic)":47.08},"Hendry County, Florida":{"American Indian / Alaska Native":1.23,"Asian":1.05,"Black or African American":10.57,"Hispanic":56.56,"Pacific Islander":0,"Two or More Races":1.12,"White (non-Hispanic)":29.14},"Hernando County, Florida":{"American Indian / Alaska Native":0.21,"Asian":1.35,"Black or African American":4.74,"Hispanic":16.05,"Pacific Islander":0.09,"Two or More Races":3.32,"White (non-Hispanic)":73.42},"Highlands County, Florida":{"American Indian / Alaska Native":0.14,"Asian":1.5,"Black or African American":9.16,"Hispanic":21.49,"Pacific Islander":0.03,"Two or More Races":2.91,"White (non-Hispanic)":64.21},"Hillsborough County, Florida":{"American Indian / Alaska Native":0.08,"Asian":4.3,"Black or African American":15.6,"Hispanic":29.66,"Pacific Islander":0.07,"Two or More Races":3.74,"White (non-Hispanic)":45.83},"Holmes County, Florida":{"American Indian / Alaska Native":0.77,"Asian":0.43,"Black or African American":6.62,"Hispanic":3.55,"Pacific Islander":0,"Two or More Races":4.03,"White (non-Hispanic)":84.42},"Indian River County, Florida":{"American Indian / Alaska Native":0.2,"Asian":1.44,"Black or African American":8,"Hispanic":13.43,"Pacific Islander":0,"Two or More Races":3.26,"White (non-Hispanic)":73.12},"Jackson County, Florida":{"American Indian / Alaska Native":0.17,"Asian":0.59,"Black or African American":25.31,"Hispanic":5.1,"Pacific Islander":0.1,"Two or More Races":3.95,"White (non-Hispanic)":64.53},"Jefferson County, Florida":{"American Indian / Alaska Native":0.1,"Asian":0.7,"Black or African American":30.01,"Hispanic":4.78,"Pacific Islander":0.04,"Two or More Races":3.76,"White (non-Hispanic)":60.14},"Lafayette County, Florida":{"American Indian / Alaska Native":0.04,"Asian":0.02,"Black or African American":17.47,"Hispanic":11.9,"Pacific Islander":0,"Two or More Races":1.08,"White (non-Hispanic)":69.48},"Lake County, Florida":{"American Indian / Alaska Native":0.09,"Asian":2.07,"Black or African American":9.82,"Hispanic":17.94,"Pacific Islander":0.13,"Two or More Races":3.92,"White (non-Hispanic)":65.29},"Lee County, Florida":{"American Indian / Alaska Native":0.06,"Asian":1.67,"Black or African American":7.63,"Hispanic":23.6,"Pacific Islander":0.04,"Two or More Races":2.78,"White (non-Hispanic)":63.66},"Leon County, Florida":{"American Indian / Alaska Native":0.05,"Asian":3.43,"Black or African American":30.38,"Hispanic":7.92,"Pacific Islander":0.04,"Two or More Races":3.82,"White (non-Hispanic)":53.87},"Levy County, Florida":{"American Indian / Alaska Native":0.13,"Asian":0.84,"Black or African American":8.23,"Hispanic":9.86,"Pacific Islander":0.02,"Two or More Races":3.47,"White (non-Hispanic)":77.1},"Liberty County, Florida":{"American Indian / Alaska Native":0.37,"Asian":0.21,"Black or African American":12.88,"Hispanic":7.11,"Pacific Islander":0,"Two or More Races":4.35,"White (non-Hispanic)":74.89},"Madison County, Florida":{"American Indian / Alaska Native":0.15,"Asian":0.14,"Black or African American":35.93,"Hispanic":5.55,"Pacific Islander":0,"Two or More Races":3.78,"White (non-Hispanic)":53.9},"Manatee County, Florida":{"American Indian / Alaska Native":0.07,"Asian":2.13,"Black or African American":7.78,"Hispanic":17.85,"Pacific Islander":0.06,"Two or More Races":3.32,"White (non-Hispanic)":68.44},"Marion County, Florida":{"American Indian / Alaska Native":0.14,"Asian":1.54,"Black or African American":12.16,"Hispanic":15.92,"Pacific Islander":0.02,"Two or More Races":2.98,"White (non-Hispanic)":66.76},"Martin County, Florida":{"American Indian / Alaska Native":0.07,"Asian":1.38,"Black or African American":4.91,"Hispanic":15.39,"Pacific Islander":0.03,"Two or More Races":2.46,"White (non-Hispanic)":75.52},"Miami-Dade County, Florida":{"American Indian / Alaska Native":0.08,"Asian":1.47,"Black or African American":14.62,"Hispanic":68.77,"Pacific Islander":0.02,"Two or More Races":1.65,"White (non-Hispanic)":12.88},"Monroe County, Florida":{"American Indian / Alaska Native":0,"Asian":1.06,"Black or African American":6.7,"Hispanic":23.96,"Pacific Islander":0.02,"Two or More Races":2.76,"White (non-Hispanic)":64.78},"Nassau County, Florida":{"American Indian / Alaska Native":0.14,"Asian":1.27,"Black or African American":5.5,"Hispanic":5.34,"Pacific Islander":0.03,"Two or More Races":2.87,"White (non-Hispanic)":84.26},"Okaloosa County, Florida":{"American Indian / Alaska Native":0.17,"Asian":3.19,"Black or African American":9.19,"Hispanic":10.84,"Pacific Islander":0.09,"Two or More Races":5.97,"White (non-Hispanic)":70.07},"Okeechobee County, Florida":{"American Indian / Alaska Native":0.15,"Asian":0.88,"Black or African American":7.7,"Hispanic":25.54,"Pacific Islander":0.02,"Two or More Races":2.65,"White (non-Hispanic)":62.74},"Orange County, Florida":{"American Indian / Alaska Native":0.08,"Asian":5.24,"Black or African American":19.28,"Hispanic":33.23,"Pacific Islander":0.09,"Two or More Races":4.37,"White (non-Hispanic)":36.8},"Osceola County, Florida":{"American Indian / Alaska Native":0.04,"Asian":2.72,"Black or African American":9.65,"Hispanic":55.02,"Pacific Islander":0.03,"Two or More Races":3.26,"White (non-Hispanic)":28.46},"Palm Beach County, Florida":{"American Indian / Alaska Native":0.06,"Asian":2.79,"Black or African American":18.01,"Hispanic":23.79,"Pacific Islander":0.04,"Two or More Races":3.7,"White (non-Hispanic)":50.83},"Pasco County, Florida":{"American Indian / Alaska Native":0.13,"Asian":3.06,"Black or African American":5.83,"Hispanic":17.71,"Pacific Islander":0.05,"Two or More Races":3.48,"White (non-Hispanic)":69.27},"Pinellas County, Florida":{"American Indian / Alaska Native":0.1,"Asian":3.55,"Black or African American":9.55,"Hispanic":10.91,"Pacific Islander":0.07,"Two or More Races":3.67,"White (non-Hispanic)":71.62},"Polk County, Florida":{"American Indian / Alaska Native":0.12,"Asian":1.72,"Black or African American":14.18,"Hispanic":27.73,"Pacific Islander":0.03,"Two or More Races":2.94,"White (non-Hispanic)":52.62},"Putnam County, Florida":{"American Indian / Alaska Native":0.28,"Asian":0.6,"Black or African American":15.13,"Hispanic":10.9,"Pacific Islander":0,"Two or More Races":2.92,"White (non-Hispanic)":69.97},"Santa Rosa County, Florida":{"American Indian / Alaska Native":0.17,"Asian":2.06,"Black or African American":5.46,"Hispanic":6.58,"Pacific Islander":0.17,"Two or More Races":5.76,"White (non-Hispanic)":79.13},"Sarasota County, Florida":{"American Indian / Alaska Native":0.11,"Asian":1.86,"Black or African American":3.98,"Hispanic":10.23,"Pacific Islander":0.04,"Two or More Races":2.74,"White (non-Hispanic)":80.61},"Seminole County, Florida":{"American Indian / Alaska Native":0.07,"Asian":5.08,"Black or African American":11.15,"Hispanic":23.19,"Pacific Islander":0.05,"Two or More Races":3.8,"White (non-Hispanic)":56.08},"St. Johns County, Florida":{"American Indian / Alaska Native":0.06,"Asian":3.36,"Black or African American":4.93,"Hispanic":8.68,"Pacific Islander":0.07,"Two or More Races":3.8,"White (non-Hispanic)":78.56},"St. Lucie County, Florida":{"American Indian / Alaska Native":0.12,"Asian":1.95,"Black or African American":20.12,"Hispanic":21.06,"Pacific Islander":0.04,"Two or More Races":3.48,"White (non-Hispanic)":52.62},"Sumter County, Florida":{"American Indian / Alaska Native":0.24,"Asian":0.99,"Black or African American":6.65,"Hispanic":6.08,"Pacific Islander":0.02,"Two or More Races":1.56,"White (non-Hispanic)":84.07},"Suwannee County, Florida":{"American Indian / Alaska Native":0.22,"Asian":0.71,"Black or African American":9.78,"Hispanic":11.33,"Pacific Islander":0,"Two or More Races":4.3,"White (non-Hispanic)":73.34},"Taylor County, Florida":{"American Indian / Alaska Native":0.4,"Asian":0.08,"Black or African American":19.73,"Hispanic":4.1,"Pacific Islander":0.39,"Two or More Races":2.68,"White (non-Hispanic)":71.97},"Union County, Florida":{"American Indian / Alaska Native":0.08,"Asian":0.2,"Black or African American":15.97,"Hispanic":5.14,"Pacific Islander":0.03,"Two or More Races":7.12,"White (non-Hispanic)":71.31},"Volusia County, Florida":{"American Indian / Alaska Native":0.13,"Asian":1.84,"Black or African American":10.34,"Hispanic":15.68,"Pacific Islander":0.03,"Two or More Races":2.97,"White (non-Hispanic)":68.64},"Wakulla County, Florida":{"American Indian / Alaska Native":0.2,"Asian":0.47,"Black or African American":13.87,"Hispanic":4.7,"Pacific Islander":0,"Two or More Races":3.16,"White (non-Hispanic)":76.95},"Walton County, Florida":{"American Indian / Alaska Native":0.31,"Asian":1.12,"Black or African American":3.8,"Hispanic":8.22,"Pacific Islander":0.03,"Two or More Races":4.43,"White (non-Hispanic)":81.53},"Washington County, Florida":{"American Indian / Alaska Native":0.89,"Asian":0.89,"Black or African American":13.48,"Hispanic":3.85,"Pacific Islander":0,"Two or More Races":3.91,"White (non-Hispanic)":76.85}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

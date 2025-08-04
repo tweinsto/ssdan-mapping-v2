@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 18</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Adams County, Indiana">Adams County, Indiana</option>
+<option value="Allen County, Indiana">Allen County, Indiana</option>
+<option value="Bartholomew County, Indiana">Bartholomew County, Indiana</option>
+<option value="Benton County, Indiana">Benton County, Indiana</option>
+<option value="Blackford County, Indiana">Blackford County, Indiana</option>
+<option value="Boone County, Indiana">Boone County, Indiana</option>
+<option value="Brown County, Indiana">Brown County, Indiana</option>
+<option value="Carroll County, Indiana">Carroll County, Indiana</option>
+<option value="Cass County, Indiana">Cass County, Indiana</option>
+<option value="Clark County, Indiana">Clark County, Indiana</option>
+<option value="Clay County, Indiana">Clay County, Indiana</option>
+<option value="Clinton County, Indiana">Clinton County, Indiana</option>
+<option value="Crawford County, Indiana">Crawford County, Indiana</option>
+<option value="Daviess County, Indiana">Daviess County, Indiana</option>
+<option value="Dearborn County, Indiana">Dearborn County, Indiana</option>
+<option value="Decatur County, Indiana">Decatur County, Indiana</option>
+<option value="DeKalb County, Indiana">DeKalb County, Indiana</option>
+<option value="Delaware County, Indiana">Delaware County, Indiana</option>
+<option value="Dubois County, Indiana">Dubois County, Indiana</option>
+<option value="Elkhart County, Indiana">Elkhart County, Indiana</option>
+<option value="Fayette County, Indiana">Fayette County, Indiana</option>
+<option value="Floyd County, Indiana">Floyd County, Indiana</option>
+<option value="Fountain County, Indiana">Fountain County, Indiana</option>
+<option value="Franklin County, Indiana">Franklin County, Indiana</option>
+<option value="Fulton County, Indiana">Fulton County, Indiana</option>
+<option value="Gibson County, Indiana">Gibson County, Indiana</option>
+<option value="Grant County, Indiana">Grant County, Indiana</option>
+<option value="Greene County, Indiana">Greene County, Indiana</option>
+<option value="Hamilton County, Indiana">Hamilton County, Indiana</option>
+<option value="Hancock County, Indiana">Hancock County, Indiana</option>
+<option value="Harrison County, Indiana">Harrison County, Indiana</option>
+<option value="Hendricks County, Indiana">Hendricks County, Indiana</option>
+<option value="Henry County, Indiana">Henry County, Indiana</option>
+<option value="Howard County, Indiana">Howard County, Indiana</option>
+<option value="Huntington County, Indiana">Huntington County, Indiana</option>
+<option value="Jackson County, Indiana">Jackson County, Indiana</option>
+<option value="Jasper County, Indiana">Jasper County, Indiana</option>
+<option value="Jay County, Indiana">Jay County, Indiana</option>
+<option value="Jefferson County, Indiana">Jefferson County, Indiana</option>
+<option value="Jennings County, Indiana">Jennings County, Indiana</option>
+<option value="Johnson County, Indiana">Johnson County, Indiana</option>
+<option value="Knox County, Indiana">Knox County, Indiana</option>
+<option value="Kosciusko County, Indiana">Kosciusko County, Indiana</option>
+<option value="LaGrange County, Indiana">LaGrange County, Indiana</option>
+<option value="Lake County, Indiana">Lake County, Indiana</option>
+<option value="LaPorte County, Indiana">LaPorte County, Indiana</option>
+<option value="Lawrence County, Indiana">Lawrence County, Indiana</option>
+<option value="Madison County, Indiana">Madison County, Indiana</option>
+<option value="Marion County, Indiana">Marion County, Indiana</option>
+<option value="Marshall County, Indiana">Marshall County, Indiana</option>
+<option value="Martin County, Indiana">Martin County, Indiana</option>
+<option value="Miami County, Indiana">Miami County, Indiana</option>
+<option value="Monroe County, Indiana">Monroe County, Indiana</option>
+<option value="Montgomery County, Indiana">Montgomery County, Indiana</option>
+<option value="Morgan County, Indiana">Morgan County, Indiana</option>
+<option value="Newton County, Indiana">Newton County, Indiana</option>
+<option value="Noble County, Indiana">Noble County, Indiana</option>
+<option value="Ohio County, Indiana">Ohio County, Indiana</option>
+<option value="Orange County, Indiana">Orange County, Indiana</option>
+<option value="Owen County, Indiana">Owen County, Indiana</option>
+<option value="Parke County, Indiana">Parke County, Indiana</option>
+<option value="Perry County, Indiana">Perry County, Indiana</option>
+<option value="Pike County, Indiana">Pike County, Indiana</option>
+<option value="Porter County, Indiana">Porter County, Indiana</option>
+<option value="Posey County, Indiana">Posey County, Indiana</option>
+<option value="Pulaski County, Indiana">Pulaski County, Indiana</option>
+<option value="Putnam County, Indiana">Putnam County, Indiana</option>
+<option value="Randolph County, Indiana">Randolph County, Indiana</option>
+<option value="Ripley County, Indiana">Ripley County, Indiana</option>
+<option value="Rush County, Indiana">Rush County, Indiana</option>
+<option value="Scott County, Indiana">Scott County, Indiana</option>
+<option value="Shelby County, Indiana">Shelby County, Indiana</option>
+<option value="Spencer County, Indiana">Spencer County, Indiana</option>
+<option value="St. Joseph County, Indiana">St. Joseph County, Indiana</option>
+<option value="Starke County, Indiana">Starke County, Indiana</option>
+<option value="Steuben County, Indiana">Steuben County, Indiana</option>
+<option value="Sullivan County, Indiana">Sullivan County, Indiana</option>
+<option value="Switzerland County, Indiana">Switzerland County, Indiana</option>
+<option value="Tippecanoe County, Indiana">Tippecanoe County, Indiana</option>
+<option value="Tipton County, Indiana">Tipton County, Indiana</option>
+<option value="Union County, Indiana">Union County, Indiana</option>
+<option value="Vanderburgh County, Indiana">Vanderburgh County, Indiana</option>
+<option value="Vermillion County, Indiana">Vermillion County, Indiana</option>
+<option value="Vigo County, Indiana">Vigo County, Indiana</option>
+<option value="Wabash County, Indiana">Wabash County, Indiana</option>
+<option value="Warren County, Indiana">Warren County, Indiana</option>
+<option value="Warrick County, Indiana">Warrick County, Indiana</option>
+<option value="Washington County, Indiana">Washington County, Indiana</option>
+<option value="Wayne County, Indiana">Wayne County, Indiana</option>
+<option value="Wells County, Indiana">Wells County, Indiana</option>
+<option value="White County, Indiana">White County, Indiana</option>
+<option value="Whitley County, Indiana">Whitley County, Indiana</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.07,"Asian":2.51,"Black or African American":9.13,"Hispanic":8.36,"Pacific Islander":0.03,"Two or More Races":3.4,"White (non-Hispanic)":76.1},"Adams County, Indiana":{"American Indian / Alaska Native":0.05,"Asian":0.31,"Black or African American":0.41,"Hispanic":4.69,"Pacific Islander":0,"Two or More Races":1.69,"White (non-Hispanic)":92.76},"Allen County, Indiana":{"American Indian / Alaska Native":0.05,"Asian":4.96,"Black or African American":10.71,"Hispanic":8.77,"Pacific Islander":0.05,"Two or More Races":4.45,"White (non-Hispanic)":70.64},"Bartholomew County, Indiana":{"American Indian / Alaska Native":0.06,"Asian":7.54,"Black or African American":1.77,"Hispanic":8.98,"Pacific Islander":0,"Two or More Races":3.21,"White (non-Hispanic)":77.64},"Benton County, Indiana":{"American Indian / Alaska Native":0.03,"Asian":0.1,"Black or African American":1.47,"Hispanic":6.98,"Pacific Islander":0,"Two or More Races":1.84,"White (non-Hispanic)":89.48},"Blackford County, Indiana":{"American Indian / Alaska Native":0.05,"Asian":0.16,"Black or African American":0.47,"Hispanic":2.19,"Pacific Islander":0,"Two or More Races":2.77,"White (non-Hispanic)":94.2},"Boone County, Indiana":{"American Indian / Alaska Native":0,"Asian":3.36,"Black or African American":2.43,"Hispanic":4.11,"Pacific Islander":0.03,"Two or More Races":2.77,"White (non-Hispanic)":87.21},"Brown County, Indiana":{"American Indian / Alaska Native":0.12,"Asian":0.53,"Black or African American":0.6,"Hispanic":2.01,"Pacific Islander":0.32,"Two or More Races":1.72,"White (non-Hispanic)":94.56},"Carroll County, Indiana":{"American Indian / Alaska Native":0.01,"Asian":0.09,"Black or African American":0.72,"Hispanic":4.4,"Pacific Islander":0,"Two or More Races":2.13,"White (non-Hispanic)":92.57},"Cass County, Indiana":{"American Indian / Alaska Native":0.12,"Asian":1.54,"Black or African American":1.31,"Hispanic":18.06,"Pacific Islander":0,"Two or More Races":3.59,"White (non-Hispanic)":74.69},"Clark County, Indiana":{"American Indian / Alaska Native":0.02,"Asian":1.1,"Black or African American":6.87,"Hispanic":6.65,"Pacific Islander":0,"Two or More Races":4.69,"White (non-Hispanic)":80.27},"Clay County, Indiana":{"American Indian / Alaska Native":0,"Asian":0.23,"Black or African American":0.31,"Hispanic":1.88,"Pacific Islander":0.08,"Two or More Races":3.01,"White (non-Hispanic)":94.35},"Clinton County, Indiana":{"American Indian / Alaska Native":0.02,"Asian":0.47,"Black or African American":0.56,"Hispanic":18.96,"Pacific Islander":0,"Two or More Races":1.49,"White (non-Hispanic)":78.44},"Crawford County, Indiana":{"American Indian / Alaska Native":0,"Asian":0.02,"Black or African American":0.27,"Hispanic":0.31,"Pacific Islander":0,"Two or More Races":3.87,"White (non-Hispanic)":95.28},"Daviess County, Indiana":{"American Indian / Alaska Native":0.05,"Asian":0.25,"Black or African American":1.56,"Hispanic":6.41,"Pacific Islander":0,"Two or More Races":3.32,"White (non-Hispanic)":87.93},"Dearborn County, Indiana":{"American Indian / Alaska Native":0,"Asian":0.5,"Black or African American":0.22,"Hispanic":1.52,"Pacific Islander":0,"Two or More Races":2.82,"White (non-Hispanic)":94.56},"Decatur County, Indiana":{"American Indian / Alaska Native":0.01,"Asian":0.09,"Black or African American":0.32,"Hispanic":2.42,"Pacific Islander":0,"Two or More Races":3.2,"White (non-Hispanic)":93.45},"DeKalb County, Indiana":{"American Indian / Alaska Native":0.03,"Asian":0.51,"Black or African American":0.21,"Hispanic":2.94,"Pacific Islander":0,"Two or More Races":2.23,"White (non-Hispanic)":93.91},"Delaware County, Indiana":{"American Indian / Alaska Native":0.17,"Asian":1.51,"Black or African American":5.26,"Hispanic":3.17,"Pacific Islander":0.01,"Two or More Races":4.67,"White (non-Hispanic)":84.97},"Dubois County, Indiana":{"American Indian / Alaska Native":0.08,"Asian":0.62,"Black or African American":0.89,"Hispanic":9.69,"Pacific Islander":0,"Two or More Races":0.99,"White (non-Hispanic)":87.43},"Elkhart County, Indiana":{"American Indian / Alaska Native":0.16,"Asian":1.09,"Black or African American":4.78,"Hispanic":19.51,"Pacific Islander":0.03,"Two or More Races":3.2,"White (non-Hispanic)":70.75},"Fayette County, Indiana":{"American Indian / Alaska Native":0.21,"Asian":0.15,"Black or African American":1.14,"Hispanic":1.36,"Pacific Islander":0,"Two or More Races":3.27,"White (non-Hispanic)":93.85},"Floyd County, Indiana":{"American Indian / Alaska Native":0.03,"Asian":1.17,"Black or African American":5.05,"Hispanic":4.04,"Pacific Islander":0.03,"Two or More Races":3.58,"White (non-Hispanic)":85.84},"Fountain County, Indiana":{"American Indian / Alaska Native":0.08,"Asian":0.28,"Black or African American":0.77,"Hispanic":2.85,"Pacific Islander":0,"Two or More Races":1.57,"White (non-Hispanic)":93.95},"Franklin County, Indiana":{"American Indian / Alaska Native":0,"Asian":0.65,"Black or African American":0.15,"Hispanic":1.13,"Pacific Islander":0,"Two or More Races":1.62,"White (non-Hispanic)":95.98},"Fulton County, Indiana":{"American Indian / Alaska Native":0.06,"Asian":0.08,"Black or African American":0.43,"Hispanic":5.37,"Pacific Islander":0,"Two or More Races":2.73,"White (non-Hispanic)":89.85},"Gibson County, Indiana":{"American Indian / Alaska Native":0.04,"Asian":0.47,"Black or African American":2.24,"Hispanic":2.15,"Pacific Islander":0.1,"Two or More Races":3.5,"White (non-Hispanic)":90.69},"Grant County, Indiana":{"American Indian / Alaska Native":0.31,"Asian":0.91,"Black or African American":4.77,"Hispanic":5.32,"Pacific Islander":0.03,"Two or More Races":5.33,"White (non-Hispanic)":83.22},"Greene County, Indiana":{"American Indian / Alaska Native":0.02,"Asian":0.17,"Black or African American":0.43,"Hispanic":1.95,"Pacific Islander":0,"Two or More Races":1.84,"White (non-Hispanic)":95.48},"Hamilton County, Indiana":{"American Indian / Alaska Native":0.04,"Asian":6.73,"Black or African American":4.14,"Hispanic":5.37,"Pacific Islander":0.04,"Two or More Races":3.46,"White (non-Hispanic)":79.66},"Hancock County, Indiana":{"American Indian / Alaska Native":0.08,"Asian":0.92,"Black or African American":3.13,"Hispanic":3.19,"Pacific Islander":0,"Two or More Races":3.17,"White (non-Hispanic)":89.34},"Harrison County, Indiana":{"American Indian / Alaska Native":0.03,"Asian":0.64,"Black or African American":0.88,"Hispanic":2.29,"Pacific Islander":0,"Two or More Races":1.49,"White (non-Hispanic)":94.54},"Hendricks County, Indiana":{"American Indian / Alaska Native":0.08,"Asian":3.28,"Black or African American":8.98,"Hispanic":4.93,"Pacific Islander":0,"Two or More Races":3.16,"White (non-Hispanic)":79.2},"Henry County, Indiana":{"American Indian / Alaska Native":0.05,"Asian":0.51,"Black or African American":2.27,"Hispanic":2.16,"Pacific Islander":0,"Two or More Races":2.35,"White (non-Hispanic)":92.43},"Howard County, Indiana":{"American Indian / Alaska Native":0.04,"Asian":1.46,"Black or African American":7.81,"Hispanic":3.9,"Pacific Islander":0.01,"Two or More Races":3.44,"White (non-Hispanic)":83.14},"Huntington County, Indiana":{"American Indian / Alaska Native":0.06,"Asian":0.63,"Black or African American":0.79,"Hispanic":2.99,"Pacific Islander":0.04,"Two or More Races":2.01,"White (non-Hispanic)":93.25},"Jackson County, Indiana":{"American Indian / Alaska Native":0.01,"Asian":2.19,"Black or African American":1.1,"Hispanic":13.58,"Pacific Islander":0.05,"Two or More Races":1.94,"White (non-Hispanic)":80.7},"Jasper County, Indiana":{"American Indian / Alaska Native":0.03,"Asian":0.33,"Black or African American":0.7,"Hispanic":7.33,"Pacific Islander":0,"Two or More Races":4.18,"White (non-Hispanic)":87.43},"Jay County, Indiana":{"American Indian / Alaska Native":0.07,"Asian":0.34,"Black or African American":0.31,"Hispanic":4.49,"Pacific Islander":0,"Two or More Races":1.78,"White (non-Hispanic)":93.01},"Jefferson County, Indiana":{"American Indian / Alaska Native":0.15,"Asian":0.73,"Black or African American":1.06,"Hispanic":3.4,"Pacific Islander":0.02,"Two or More Races":2.75,"White (non-Hispanic)":91.68},"Jennings County, Indiana":{"American Indian / Alaska Native":0.12,"Asian":0.49,"Black or African American":0.54,"Hispanic":3.3,"Pacific Islander":0,"Two or More Races":1.89,"White (non-Hispanic)":93.49},"Johnson County, Indiana":{"American Indian / Alaska Native":0.03,"Asian":4.68,"Black or African American":3.01,"Hispanic":4.11,"Pacific Islander":0.03,"Two or More Races":2.89,"White (non-Hispanic)":84.92},"Knox County, Indiana":{"American Indian / Alaska Native":0.11,"Asian":0.95,"Black or African American":1.58,"Hispanic":2.84,"Pacific Islander":0,"Two or More Races":4.38,"White (non-Hispanic)":90.07},"Kosciusko County, Indiana":{"American Indian / Alaska Native":0.05,"Asian":1.47,"Black or African American":0.71,"Hispanic":9.51,"Pacific Islander":0,"Two or More Races":2.34,"White (non-Hispanic)":85.73},"LaGrange County, Indiana":{"American Indian / Alaska Native":0.02,"Asian":0.04,"Black or African American":0.31,"Hispanic":4.42,"Pacific Islander":0,"Two or More Races":1.63,"White (non-Hispanic)":93.54},"Lake County, Indiana":{"American Indian / Alaska Native":0.1,"Asian":1.53,"Black or African American":22.91,"Hispanic":20.52,"Pacific Islander":0.03,"Two or More Races":2.55,"White (non-Hispanic)":51.99},"LaPorte County, Indiana":{"American Indian / Alaska Native":0.09,"Asian":0.67,"Black or African American":10.21,"Hispanic":7.37,"Pacific Islander":0,"Two or More Races":4.52,"White (non-Hispanic)":76.77},"Lawrence County, Indiana":{"American Indian / Alaska Native":0.03,"Asian":0.59,"Black or African American":0.36,"Hispanic":1.88,"Pacific Islander":0.05,"Two or More Races":2.29,"White (non-Hispanic)":94.2},"Madison County, Indiana":{"American Indian / Alaska Native":0.12,"Asian":0.6,"Black or African American":6.26,"Hispanic":5.13,"Pacific Islander":0.01,"Two or More Races":4.9,"White (non-Hispanic)":82.62},"Marion County, Indiana":{"American Indian / Alaska Native":0.05,"Asian":3.87,"Black or African American":27.31,"Hispanic":13.37,"Pacific Islander":0.01,"Two or More Races":4.34,"White (non-Hispanic)":50.49},"Marshall County, Indiana":{"American Indian / Alaska Native":0.04,"Asian":0.65,"Black or African American":0.49,"Hispanic":11.57,"Pacific Islander":0.03,"Two or More Races":1.71,"White (non-Hispanic)":85.38},"Martin County, Indiana":{"American Indian / Alaska Native":0,"Asian":0.11,"Black or African American":0.15,"Hispanic":1.22,"Pacific Islander":0,"Two or More Races":3.6,"White (non-Hispanic)":94.51},"Miami County, Indiana":{"American Indian / Alaska Native":0.22,"Asian":0.62,"Black or African American":3.75,"Hispanic":3.6,"Pacific Islander":0.18,"Two or More Races":4.04,"White (non-Hispanic)":87.3},"Monroe County, Indiana":{"American Indian / Alaska Native":0.03,"Asian":6.62,"Black or African American":3.5,"Hispanic":4.61,"Pacific Islander":0,"Two or More Races":3.35,"White (non-Hispanic)":81.64},"Montgomery County, Indiana":{"American Indian / Alaska Native":0,"Asian":0.47,"Black or African American":0.54,"Hispanic":6.09,"Pacific Islander":0.08,"Two or More Races":2.78,"White (non-Hispanic)":89.08},"Morgan County, Indiana":{"American Indian / Alaska Native":0.01,"Asian":0.6,"Black or African American":0.5,"Hispanic":1.98,"Pacific Islander":0,"Two or More Races":2.43,"White (non-Hispanic)":94.13},"Newton County, Indiana":{"American Indian / Alaska Native":0.09,"Asian":0.35,"Black or African American":1.02,"Hispanic":7.81,"Pacific Islander":0,"Two or More Races":3.31,"White (non-Hispanic)":87.16},"Noble County, Indiana":{"American Indian / Alaska Native":0.09,"Asian":0.57,"Black or African American":0.31,"Hispanic":11.2,"Pacific Islander":0.13,"Two or More Races":2.04,"White (non-Hispanic)":85.4},"Ohio County, Indiana":{"American Indian / Alaska Native":0.12,"Asian":0.6,"Black or African American":0.35,"Hispanic":0,"Pacific Islander":0,"Two or More Races":3.85,"White (non-Hispanic)":95.04},"Orange County, Indiana":{"American Indian / Alaska Native":0.01,"Asian":0.43,"Black or African American":1.48,"Hispanic":1.75,"Pacific Islander":0,"Two or More Races":3.25,"White (non-Hispanic)":93.08},"Owen County, Indiana":{"American Indian / Alaska Native":0.06,"Asian":0.55,"Black or African American":0.56,"Hispanic":1.46,"Pacific Islander":0,"Two or More Races":1.99,"White (non-Hispanic)":95.18},"Parke County, Indiana":{"American Indian / Alaska Native":0.04,"Asian":0,"Black or African American":2.25,"Hispanic":1.62,"Pacific Islander":0,"Two or More Races":1.69,"White (non-Hispanic)":94.37},"Perry County, Indiana":{"American Indian / Alaska Native":0.16,"Asian":0.7,"Black or African American":2.08,"Hispanic":1.42,"Pacific Islander":0,"Two or More Races":2.6,"White (non-Hispanic)":93.02},"Pike County, Indiana":{"American Indian / Alaska Native":1.3,"Asian":0.05,"Black or African American":0.25,"Hispanic":1.47,"Pacific Islander":0,"Two or More Races":1.35,"White (non-Hispanic)":95.58},"Porter County, Indiana":{"American Indian / Alaska Native":0.06,"Asian":1.34,"Black or African American":4.07,"Hispanic":11.33,"Pacific Islander":0.02,"Two or More Races":3,"White (non-Hispanic)":79.98},"Posey County, Indiana":{"American Indian / Alaska Native":0.06,"Asian":0.29,"Black or African American":0.7,"Hispanic":1.5,"Pacific Islander":0,"Two or More Races":2.63,"White (non-Hispanic)":93.71},"Pulaski County, Indiana":{"American Indian / Alaska Native":0.05,"Asian":0.43,"Black or African American":0.33,"Hispanic":3.9,"Pacific Islander":0.21,"Two or More Races":3.17,"White (non-Hispanic)":91.87},"Putnam County, Indiana":{"American Indian / Alaska Native":0.11,"Asian":1.36,"Black or African American":3.38,"Hispanic":2.17,"Pacific Islander":0,"Two or More Races":1.84,"White (non-Hispanic)":90.95},"Randolph County, Indiana":{"American Indian / Alaska Native":0.06,"Asian":0.42,"Black or African American":0.79,"Hispanic":4.98,"Pacific Islander":0.07,"Two or More Races":1.87,"White (non-Hispanic)":90.8},"Ripley County, Indiana":{"American Indian / Alaska Native":0,"Asian":0.49,"Black or African American":0.22,"Hispanic":1.91,"Pacific Islander":0,"Two or More Races":2.3,"White (non-Hispanic)":94.66},"Rush County, Indiana":{"American Indian / Alaska Native":0,"Asian":0.07,"Black or African American":0.65,"Hispanic":1.79,"Pacific Islander":0,"Two or More Races":2.35,"White (non-Hispanic)":94.69},"Scott County, Indiana":{"American Indian / Alaska Native":0.28,"Asian":0.02,"Black or African American":0.31,"Hispanic":2.47,"Pacific Islander":0.04,"Two or More Races":2.13,"White (non-Hispanic)":93.96},"Shelby County, Indiana":{"American Indian / Alaska Native":0,"Asian":0.86,"Black or African American":1.21,"Hispanic":5.43,"Pacific Islander":0,"Two or More Races":1.93,"White (non-Hispanic)":90.48},"Spencer County, Indiana":{"American Indian / Alaska Native":0,"Asian":0.34,"Black or African American":0.55,"Hispanic":3.48,"Pacific Islander":0,"Two or More Races":1.83,"White (non-Hispanic)":93.44},"St. Joseph County, Indiana":{"American Indian / Alaska Native":0.09,"Asian":2.54,"Black or African American":12.39,"Hispanic":10.17,"Pacific Islander":0.07,"Two or More Races":4.63,"White (non-Hispanic)":69.6},"Starke County, Indiana":{"American Indian / Alaska Native":0.04,"Asian":0.29,"Black or African American":0.43,"Hispanic":4.13,"Pacific Islander":0,"Two or More Races":2.82,"White (non-Hispanic)":92.11},"Steuben County, Indiana":{"American Indian / Alaska Native":0.02,"Asian":0.13,"Black or African American":0.76,"Hispanic":4.29,"Pacific Islander":0.01,"Two or More Races":2.44,"White (non-Hispanic)":91.92},"Sullivan County, Indiana":{"American Indian / Alaska Native":0,"Asian":0.66,"Black or African American":3.34,"Hispanic":1.81,"Pacific Islander":0,"Two or More Races":2.99,"White (non-Hispanic)":90.67},"Switzerland County, Indiana":{"American Indian / Alaska Native":0.04,"Asian":1.02,"Black or African American":0.28,"Hispanic":0.96,"Pacific Islander":0,"Two or More Races":2.71,"White (non-Hispanic)":94.62},"Tippecanoe County, Indiana":{"American Indian / Alaska Native":0.09,"Asian":7.78,"Black or African American":5.91,"Hispanic":10.12,"Pacific Islander":0.01,"Two or More Races":3.12,"White (non-Hispanic)":72.47},"Tipton County, Indiana":{"American Indian / Alaska Native":0.07,"Asian":0.31,"Black or African American":0.78,"Hispanic":3.14,"Pacific Islander":0,"Two or More Races":2.15,"White (non-Hispanic)":93.34},"Union County, Indiana":{"American Indian / Alaska Native":0.11,"Asian":1.04,"Black or African American":0.33,"Hispanic":1.1,"Pacific Islander":0,"Two or More Races":2.08,"White (non-Hispanic)":95.35},"Vanderburgh County, Indiana":{"American Indian / Alaska Native":0.02,"Asian":1.35,"Black or African American":9.66,"Hispanic":3.6,"Pacific Islander":0.25,"Two or More Races":3.86,"White (non-Hispanic)":80.75},"Vermillion County, Indiana":{"American Indian / Alaska Native":0.19,"Asian":0.14,"Black or African American":0,"Hispanic":1.38,"Pacific Islander":0.02,"Two or More Races":2.57,"White (non-Hispanic)":95.67},"Vigo County, Indiana":{"American Indian / Alaska Native":0.13,"Asian":2.08,"Black or African American":6.11,"Hispanic":3.11,"Pacific Islander":0.1,"Two or More Races":3.85,"White (non-Hispanic)":84.28},"Wabash County, Indiana":{"American Indian / Alaska Native":0.15,"Asian":0.39,"Black or African American":1.13,"Hispanic":3.04,"Pacific Islander":0.07,"Two or More Races":2.07,"White (non-Hispanic)":92.86},"Warren County, Indiana":{"American Indian / Alaska Native":0.06,"Asian":0.45,"Black or African American":0.09,"Hispanic":0.99,"Pacific Islander":0.02,"Two or More Races":3.68,"White (non-Hispanic)":94.51},"Warrick County, Indiana":{"American Indian / Alaska Native":0.07,"Asian":1.66,"Black or African American":1.89,"Hispanic":2.33,"Pacific Islander":0,"Two or More Races":3.39,"White (non-Hispanic)":90.06},"Washington County, Indiana":{"American Indian / Alaska Native":0,"Asian":0.16,"Black or African American":0.27,"Hispanic":1.48,"Pacific Islander":0,"Two or More Races":2.27,"White (non-Hispanic)":95.65},"Wayne County, Indiana":{"American Indian / Alaska Native":0.03,"Asian":1.05,"Black or African American":4.03,"Hispanic":3.81,"Pacific Islander":0.01,"Two or More Races":4.52,"White (non-Hispanic)":86.16},"Wells County, Indiana":{"American Indian / Alaska Native":0.02,"Asian":0.22,"Black or African American":1.05,"Hispanic":3.8,"Pacific Islander":0.05,"Two or More Races":2.22,"White (non-Hispanic)":92.54},"White County, Indiana":{"American Indian / Alaska Native":0.11,"Asian":0.24,"Black or African American":0.45,"Hispanic":10.21,"Pacific Islander":0,"Two or More Races":2.13,"White (non-Hispanic)":86.84},"Whitley County, Indiana":{"American Indian / Alaska Native":0.09,"Asian":0.3,"Black or African American":0.2,"Hispanic":2.63,"Pacific Islander":0,"Two or More Races":3.6,"White (non-Hispanic)":92.72}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

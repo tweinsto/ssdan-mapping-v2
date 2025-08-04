@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 38</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Adams County, North Dakota">Adams County, North Dakota</option>
+<option value="Barnes County, North Dakota">Barnes County, North Dakota</option>
+<option value="Benson County, North Dakota">Benson County, North Dakota</option>
+<option value="Billings County, North Dakota">Billings County, North Dakota</option>
+<option value="Bottineau County, North Dakota">Bottineau County, North Dakota</option>
+<option value="Bowman County, North Dakota">Bowman County, North Dakota</option>
+<option value="Burke County, North Dakota">Burke County, North Dakota</option>
+<option value="Burleigh County, North Dakota">Burleigh County, North Dakota</option>
+<option value="Cass County, North Dakota">Cass County, North Dakota</option>
+<option value="Cavalier County, North Dakota">Cavalier County, North Dakota</option>
+<option value="Dickey County, North Dakota">Dickey County, North Dakota</option>
+<option value="Divide County, North Dakota">Divide County, North Dakota</option>
+<option value="Dunn County, North Dakota">Dunn County, North Dakota</option>
+<option value="Eddy County, North Dakota">Eddy County, North Dakota</option>
+<option value="Emmons County, North Dakota">Emmons County, North Dakota</option>
+<option value="Foster County, North Dakota">Foster County, North Dakota</option>
+<option value="Golden Valley County, North Dakota">Golden Valley County, North Dakota</option>
+<option value="Grand Forks County, North Dakota">Grand Forks County, North Dakota</option>
+<option value="Grant County, North Dakota">Grant County, North Dakota</option>
+<option value="Griggs County, North Dakota">Griggs County, North Dakota</option>
+<option value="Hettinger County, North Dakota">Hettinger County, North Dakota</option>
+<option value="Kidder County, North Dakota">Kidder County, North Dakota</option>
+<option value="LaMoure County, North Dakota">LaMoure County, North Dakota</option>
+<option value="Logan County, North Dakota">Logan County, North Dakota</option>
+<option value="McHenry County, North Dakota">McHenry County, North Dakota</option>
+<option value="McIntosh County, North Dakota">McIntosh County, North Dakota</option>
+<option value="McKenzie County, North Dakota">McKenzie County, North Dakota</option>
+<option value="McLean County, North Dakota">McLean County, North Dakota</option>
+<option value="Mercer County, North Dakota">Mercer County, North Dakota</option>
+<option value="Morton County, North Dakota">Morton County, North Dakota</option>
+<option value="Mountrail County, North Dakota">Mountrail County, North Dakota</option>
+<option value="Nelson County, North Dakota">Nelson County, North Dakota</option>
+<option value="Oliver County, North Dakota">Oliver County, North Dakota</option>
+<option value="Pembina County, North Dakota">Pembina County, North Dakota</option>
+<option value="Pierce County, North Dakota">Pierce County, North Dakota</option>
+<option value="Ramsey County, North Dakota">Ramsey County, North Dakota</option>
+<option value="Ransom County, North Dakota">Ransom County, North Dakota</option>
+<option value="Renville County, North Dakota">Renville County, North Dakota</option>
+<option value="Richland County, North Dakota">Richland County, North Dakota</option>
+<option value="Rolette County, North Dakota">Rolette County, North Dakota</option>
+<option value="Sargent County, North Dakota">Sargent County, North Dakota</option>
+<option value="Sheridan County, North Dakota">Sheridan County, North Dakota</option>
+<option value="Sioux County, North Dakota">Sioux County, North Dakota</option>
+<option value="Slope County, North Dakota">Slope County, North Dakota</option>
+<option value="Stark County, North Dakota">Stark County, North Dakota</option>
+<option value="Steele County, North Dakota">Steele County, North Dakota</option>
+<option value="Stutsman County, North Dakota">Stutsman County, North Dakota</option>
+<option value="Towner County, North Dakota">Towner County, North Dakota</option>
+<option value="Traill County, North Dakota">Traill County, North Dakota</option>
+<option value="Walsh County, North Dakota">Walsh County, North Dakota</option>
+<option value="Ward County, North Dakota">Ward County, North Dakota</option>
+<option value="Wells County, North Dakota">Wells County, North Dakota</option>
+<option value="Williams County, North Dakota">Williams County, North Dakota</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":4.27,"Asian":1.54,"Black or African American":3.17,"Hispanic":4.49,"Pacific Islander":0.14,"Two or More Races":3.62,"White (non-Hispanic)":82.52},"Adams County, North Dakota":{"American Indian / Alaska Native":1.28,"Asian":0.69,"Black or African American":0.69,"Hispanic":4.5,"Pacific Islander":0,"Two or More Races":4.54,"White (non-Hispanic)":87.98},"Barnes County, North Dakota":{"American Indian / Alaska Native":1.92,"Asian":1.34,"Black or African American":1.27,"Hispanic":1.99,"Pacific Islander":0.11,"Two or More Races":3.28,"White (non-Hispanic)":90.09},"Benson County, North Dakota":{"American Indian / Alaska Native":50.78,"Asian":0.67,"Black or African American":0.55,"Hispanic":1.67,"Pacific Islander":0.12,"Two or More Races":3.57,"White (non-Hispanic)":42.65},"Billings County, North Dakota":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":0,"Hispanic":3.69,"Pacific Islander":0,"Two or More Races":0,"White (non-Hispanic)":96.31},"Bottineau County, North Dakota":{"American Indian / Alaska Native":4.48,"Asian":0.63,"Black or African American":0.42,"Hispanic":2.44,"Pacific Islander":0,"Two or More Races":2.25,"White (non-Hispanic)":89.66},"Bowman County, North Dakota":{"American Indian / Alaska Native":0.58,"Asian":0,"Black or African American":0,"Hispanic":4.67,"Pacific Islander":0.14,"Two or More Races":2.39,"White (non-Hispanic)":92.23},"Burke County, North Dakota":{"American Indian / Alaska Native":1.02,"Asian":2.77,"Black or African American":0.74,"Hispanic":0.88,"Pacific Islander":0,"Two or More Races":2.73,"White (non-Hispanic)":91.4},"Burleigh County, North Dakota":{"American Indian / Alaska Native":3.67,"Asian":0.85,"Black or African American":1.77,"Hispanic":3.28,"Pacific Islander":0.26,"Two or More Races":4.3,"White (non-Hispanic)":85.7},"Cass County, North Dakota":{"American Indian / Alaska Native":0.81,"Asian":3.08,"Black or African American":6.47,"Hispanic":3.47,"Pacific Islander":0,"Two or More Races":3.54,"White (non-Hispanic)":82.35},"Cavalier County, North Dakota":{"American Indian / Alaska Native":1.37,"Asian":0.08,"Black or African American":0,"Hispanic":2.65,"Pacific Islander":0,"Two or More Races":2.32,"White (non-Hispanic)":92.82},"Dickey County, North Dakota":{"American Indian / Alaska Native":1.17,"Asian":1.13,"Black or African American":0.28,"Hispanic":3.91,"Pacific Islander":0,"Two or More Races":2.02,"White (non-Hispanic)":90.99},"Divide County, North Dakota":{"American Indian / Alaska Native":0.74,"Asian":0.32,"Black or African American":3.54,"Hispanic":5.57,"Pacific Islander":0,"Two or More Races":4.6,"White (non-Hispanic)":85.23},"Dunn County, North Dakota":{"American Indian / Alaska Native":10.24,"Asian":0.64,"Black or African American":0.54,"Hispanic":3.73,"Pacific Islander":0.05,"Two or More Races":4.65,"White (non-Hispanic)":80.04},"Eddy County, North Dakota":{"American Indian / Alaska Native":3.75,"Asian":0,"Black or African American":0,"Hispanic":3.92,"Pacific Islander":0.04,"Two or More Races":3.23,"White (non-Hispanic)":89.05},"Emmons County, North Dakota":{"American Indian / Alaska Native":0.95,"Asian":0.55,"Black or African American":0.06,"Hispanic":0.95,"Pacific Islander":0,"Two or More Races":3.06,"White (non-Hispanic)":94.22},"Foster County, North Dakota":{"American Indian / Alaska Native":0.24,"Asian":1.33,"Black or African American":0.36,"Hispanic":0.83,"Pacific Islander":0.21,"Two or More Races":2.73,"White (non-Hispanic)":93.95},"Golden Valley County, North Dakota":{"American Indian / Alaska Native":0,"Asian":0.54,"Black or African American":0.06,"Hispanic":1.61,"Pacific Islander":0,"Two or More Races":7.68,"White (non-Hispanic)":90.11},"Grand Forks County, North Dakota":{"American Indian / Alaska Native":1.72,"Asian":2.69,"Black or African American":3.41,"Hispanic":5.2,"Pacific Islander":0.5,"Two or More Races":4.06,"White (non-Hispanic)":82.18},"Grant County, North Dakota":{"American Indian / Alaska Native":1.36,"Asian":2.59,"Black or African American":0.09,"Hispanic":0.92,"Pacific Islander":0,"Two or More Races":1.76,"White (non-Hispanic)":93.1},"Griggs County, North Dakota":{"American Indian / Alaska Native":0.38,"Asian":0.13,"Black or African American":1.15,"Hispanic":1.28,"Pacific Islander":0,"Two or More Races":2.74,"White (non-Hispanic)":94.32},"Hettinger County, North Dakota":{"American Indian / Alaska Native":2.28,"Asian":0.33,"Black or African American":0.33,"Hispanic":0.12,"Pacific Islander":0,"Two or More Races":2,"White (non-Hispanic)":94.78},"Kidder County, North Dakota":{"American Indian / Alaska Native":0.97,"Asian":0,"Black or African American":0.21,"Hispanic":2.91,"Pacific Islander":0,"Two or More Races":1.22,"White (non-Hispanic)":94.69},"LaMoure County, North Dakota":{"American Indian / Alaska Native":0.44,"Asian":0.1,"Black or African American":0.12,"Hispanic":2,"Pacific Islander":0,"Two or More Races":1.66,"White (non-Hispanic)":95.69},"Logan County, North Dakota":{"American Indian / Alaska Native":0.05,"Asian":0,"Black or African American":0.05,"Hispanic":3.14,"Pacific Islander":0,"Two or More Races":4.06,"White (non-Hispanic)":92.69},"McHenry County, North Dakota":{"American Indian / Alaska Native":0.55,"Asian":0.49,"Black or African American":0.7,"Hispanic":2.18,"Pacific Islander":0,"Two or More Races":1.54,"White (non-Hispanic)":94.43},"McIntosh County, North Dakota":{"American Indian / Alaska Native":0.8,"Asian":1.47,"Black or African American":0.08,"Hispanic":2.95,"Pacific Islander":0,"Two or More Races":1.27,"White (non-Hispanic)":92.44},"McKenzie County, North Dakota":{"American Indian / Alaska Native":7.4,"Asian":0.92,"Black or African American":2.14,"Hispanic":11.22,"Pacific Islander":0,"Two or More Races":3.78,"White (non-Hispanic)":74.53},"McLean County, North Dakota":{"American Indian / Alaska Native":5.86,"Asian":0.38,"Black or African American":0.16,"Hispanic":1.98,"Pacific Islander":0.25,"Two or More Races":2.87,"White (non-Hispanic)":88.45},"Mercer County, North Dakota":{"American Indian / Alaska Native":2.83,"Asian":0.42,"Black or African American":0.6,"Hispanic":2.7,"Pacific Islander":0,"Two or More Races":1.82,"White (non-Hispanic)":90.49},"Morton County, North Dakota":{"American Indian / Alaska Native":3.4,"Asian":0.22,"Black or African American":1.74,"Hispanic":4.22,"Pacific Islander":0.12,"Two or More Races":2.46,"White (non-Hispanic)":87.44},"Mountrail County, North Dakota":{"American Indian / Alaska Native":28.44,"Asian":0.73,"Black or African American":2.01,"Hispanic":8.24,"Pacific Islander":0.16,"Two or More Races":2.64,"White (non-Hispanic)":57.78},"Nelson County, North Dakota":{"American Indian / Alaska Native":0.86,"Asian":1.03,"Black or African American":0,"Hispanic":2.85,"Pacific Islander":0,"Two or More Races":2.62,"White (non-Hispanic)":92.6},"Oliver County, North Dakota":{"American Indian / Alaska Native":0,"Asian":1.81,"Black or African American":0,"Hispanic":3.02,"Pacific Islander":0.33,"Two or More Races":2.91,"White (non-Hispanic)":91.93},"Pembina County, North Dakota":{"American Indian / Alaska Native":1.16,"Asian":0.31,"Black or African American":0.96,"Hispanic":3.98,"Pacific Islander":0.28,"Two or More Races":4.05,"White (non-Hispanic)":89.04},"Pierce County, North Dakota":{"American Indian / Alaska Native":3.43,"Asian":0.76,"Black or African American":0.28,"Hispanic":1.06,"Pacific Islander":0,"Two or More Races":1.36,"White (non-Hispanic)":93.11},"Ramsey County, North Dakota":{"American Indian / Alaska Native":9.46,"Asian":0.87,"Black or African American":0.75,"Hispanic":2.77,"Pacific Islander":0.11,"Two or More Races":4.31,"White (non-Hispanic)":81.73},"Ransom County, North Dakota":{"American Indian / Alaska Native":0.21,"Asian":0.67,"Black or African American":0.87,"Hispanic":2.68,"Pacific Islander":0,"Two or More Races":3.06,"White (non-Hispanic)":92.46},"Renville County, North Dakota":{"American Indian / Alaska Native":0,"Asian":0.4,"Black or African American":0,"Hispanic":0.92,"Pacific Islander":0,"Two or More Races":2.55,"White (non-Hispanic)":96.14},"Richland County, North Dakota":{"American Indian / Alaska Native":2.19,"Asian":0.2,"Black or African American":0.92,"Hispanic":3.69,"Pacific Islander":0.25,"Two or More Races":2.93,"White (non-Hispanic)":89.08},"Rolette County, North Dakota":{"American Indian / Alaska Native":76.6,"Asian":0.47,"Black or African American":0.2,"Hispanic":1.06,"Pacific Islander":0,"Two or More Races":3.16,"White (non-Hispanic)":18.39},"Sargent County, North Dakota":{"American Indian / Alaska Native":0.18,"Asian":0.26,"Black or African American":2.46,"Hispanic":2.88,"Pacific Islander":0,"Two or More Races":3.72,"White (non-Hispanic)":90.48},"Sheridan County, North Dakota":{"American Indian / Alaska Native":0.83,"Asian":0.9,"Black or African American":0,"Hispanic":0.38,"Pacific Islander":0,"Two or More Races":2.34,"White (non-Hispanic)":95.55},"Sioux County, North Dakota":{"American Indian / Alaska Native":83.74,"Asian":0,"Black or African American":0.18,"Hispanic":1,"Pacific Islander":0,"Two or More Races":2.24,"White (non-Hispanic)":12.17},"Slope County, North Dakota":{"American Indian / Alaska Native":0.63,"Asian":0,"Black or African American":0,"Hispanic":0.13,"Pacific Islander":0,"Two or More Races":4.91,"White (non-Hispanic)":93.84},"Stark County, North Dakota":{"American Indian / Alaska Native":1.06,"Asian":1.22,"Black or African American":2.35,"Hispanic":6.96,"Pacific Islander":0.53,"Two or More Races":2.39,"White (non-Hispanic)":85.35},"Steele County, North Dakota":{"American Indian / Alaska Native":0.52,"Asian":0,"Black or African American":0.29,"Hispanic":2.6,"Pacific Islander":0.29,"Two or More Races":2.48,"White (non-Hispanic)":93.82},"Stutsman County, North Dakota":{"American Indian / Alaska Native":1.18,"Asian":0.5,"Black or African American":2.08,"Hispanic":2.95,"Pacific Islander":0.01,"Two or More Races":2.81,"White (non-Hispanic)":90.39},"Towner County, North Dakota":{"American Indian / Alaska Native":6.48,"Asian":0,"Black or African American":0.52,"Hispanic":3.74,"Pacific Islander":0,"Two or More Races":4.92,"White (non-Hispanic)":84.34},"Traill County, North Dakota":{"American Indian / Alaska Native":0.9,"Asian":0.43,"Black or African American":0.86,"Hispanic":3.75,"Pacific Islander":0.04,"Two or More Races":3.66,"White (non-Hispanic)":90.24},"Walsh County, North Dakota":{"American Indian / Alaska Native":1.53,"Asian":0.69,"Black or African American":0.88,"Hispanic":12.7,"Pacific Islander":0,"Two or More Races":2.4,"White (non-Hispanic)":81.81},"Ward County, North Dakota":{"American Indian / Alaska Native":1.21,"Asian":1.39,"Black or African American":3.9,"Hispanic":6.93,"Pacific Islander":0.09,"Two or More Races":5.19,"White (non-Hispanic)":80.93},"Wells County, North Dakota":{"American Indian / Alaska Native":0.46,"Asian":0.2,"Black or African American":0,"Hispanic":1.27,"Pacific Islander":0,"Two or More Races":2.21,"White (non-Hispanic)":95.61},"Williams County, North Dakota":{"American Indian / Alaska Native":1.99,"Asian":1.17,"Black or African American":5.23,"Hispanic":9.67,"Pacific Islander":0.12,"Two or More Races":4.72,"White (non-Hispanic)":76.69}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

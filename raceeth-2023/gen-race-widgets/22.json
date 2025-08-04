@@ -1,0 +1,2150 @@
+{
+  "state": "Acadia Parish",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18875
+        },
+        {
+          "label": "Asian",
+          "value": 78990
+        },
+        {
+          "label": "Black or African American",
+          "value": 1424797
+        },
+        {
+          "label": "Hispanic",
+          "value": 321022
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2574
+        },
+        {
+          "label": "Two or More Races",
+          "value": 154710
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2598789
+        }
+      ]
+    },
+    "Acadia Parish, Louisiana": {
+      "label": "Acadia Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 46
+        },
+        {
+          "label": "Asian",
+          "value": 111
+        },
+        {
+          "label": "Black or African American",
+          "value": 8983
+        },
+        {
+          "label": "Hispanic",
+          "value": 1802
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2292
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 43941
+        }
+      ]
+    },
+    "Allen Parish, Louisiana": {
+      "label": "Allen Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 305
+        },
+        {
+          "label": "Asian",
+          "value": 166
+        },
+        {
+          "label": "Black or African American",
+          "value": 4279
+        },
+        {
+          "label": "Hispanic",
+          "value": 1803
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1380
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14569
+        }
+      ]
+    },
+    "Ascension Parish, Louisiana": {
+      "label": "Ascension Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 180
+        },
+        {
+          "label": "Asian",
+          "value": 1315
+        },
+        {
+          "label": "Black or African American",
+          "value": 29195
+        },
+        {
+          "label": "Hispanic",
+          "value": 10477
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4258
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 82641
+        }
+      ]
+    },
+    "Assumption Parish, Louisiana": {
+      "label": "Assumption Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 125
+        },
+        {
+          "label": "Asian",
+          "value": 170
+        },
+        {
+          "label": "Black or African American",
+          "value": 5927
+        },
+        {
+          "label": "Hispanic",
+          "value": 860
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 287
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13325
+        }
+      ]
+    },
+    "Avoyelles Parish, Louisiana": {
+      "label": "Avoyelles Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 280
+        },
+        {
+          "label": "Asian",
+          "value": 250
+        },
+        {
+          "label": "Black or African American",
+          "value": 10399
+        },
+        {
+          "label": "Hispanic",
+          "value": 1494
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2040
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24690
+        }
+      ]
+    },
+    "Beauregard Parish, Louisiana": {
+      "label": "Beauregard Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 58
+        },
+        {
+          "label": "Asian",
+          "value": 246
+        },
+        {
+          "label": "Black or African American",
+          "value": 3882
+        },
+        {
+          "label": "Hispanic",
+          "value": 1396
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 21
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1819
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28994
+        }
+      ]
+    },
+    "Bienville Parish, Louisiana": {
+      "label": "Bienville Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 5285
+        },
+        {
+          "label": "Hispanic",
+          "value": 256
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 299
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6817
+        }
+      ]
+    },
+    "Bossier Parish, Louisiana": {
+      "label": "Bossier Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 305
+        },
+        {
+          "label": "Asian",
+          "value": 2405
+        },
+        {
+          "label": "Black or African American",
+          "value": 30438
+        },
+        {
+          "label": "Hispanic",
+          "value": 10328
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4552
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 80729
+        }
+      ]
+    },
+    "Caddo Parish, Louisiana": {
+      "label": "Caddo Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 509
+        },
+        {
+          "label": "Asian",
+          "value": 2749
+        },
+        {
+          "label": "Black or African American",
+          "value": 114133
+        },
+        {
+          "label": "Hispanic",
+          "value": 8531
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 124
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7011
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 99380
+        }
+      ]
+    },
+    "Calcasieu Parish, Louisiana": {
+      "label": "Calcasieu Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 238
+        },
+        {
+          "label": "Asian",
+          "value": 3050
+        },
+        {
+          "label": "Black or African American",
+          "value": 49378
+        },
+        {
+          "label": "Hispanic",
+          "value": 10805
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 65
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7760
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 136233
+        }
+      ]
+    },
+    "Caldwell Parish, Louisiana": {
+      "label": "Caldwell Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 10
+        },
+        {
+          "label": "Black or African American",
+          "value": 1737
+        },
+        {
+          "label": "Hispanic",
+          "value": 253
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 139
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7406
+        }
+      ]
+    },
+    "Cameron Parish, Louisiana": {
+      "label": "Cameron Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 93
+        },
+        {
+          "label": "Asian",
+          "value": 81
+        },
+        {
+          "label": "Black or African American",
+          "value": 63
+        },
+        {
+          "label": "Hispanic",
+          "value": 10
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 498
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4473
+        }
+      ]
+    },
+    "Catahoula Parish, Louisiana": {
+      "label": "Catahoula Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 12
+        },
+        {
+          "label": "Black or African American",
+          "value": 3019
+        },
+        {
+          "label": "Hispanic",
+          "value": 94
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 111
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5492
+        }
+      ]
+    },
+    "Claiborne Parish, Louisiana": {
+      "label": "Claiborne Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 20
+        },
+        {
+          "label": "Black or African American",
+          "value": 6799
+        },
+        {
+          "label": "Hispanic",
+          "value": 471
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 448
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6272
+        }
+      ]
+    },
+    "Concordia Parish, Louisiana": {
+      "label": "Concordia Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 58
+        },
+        {
+          "label": "Asian",
+          "value": 63
+        },
+        {
+          "label": "Black or African American",
+          "value": 7113
+        },
+        {
+          "label": "Hispanic",
+          "value": 465
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 301
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10319
+        }
+      ]
+    },
+    "De Soto Parish, Louisiana": {
+      "label": "De Soto Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 154
+        },
+        {
+          "label": "Asian",
+          "value": 63
+        },
+        {
+          "label": "Black or African American",
+          "value": 9326
+        },
+        {
+          "label": "Hispanic",
+          "value": 828
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 573
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15921
+        }
+      ]
+    },
+    "East Baton Rouge Parish, Louisiana": {
+      "label": "East Baton Rouge Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 487
+        },
+        {
+          "label": "Asian",
+          "value": 14218
+        },
+        {
+          "label": "Black or African American",
+          "value": 199540
+        },
+        {
+          "label": "Hispanic",
+          "value": 29827
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 83
+        },
+        {
+          "label": "Two or More Races",
+          "value": 15950
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 190196
+        }
+      ]
+    },
+    "East Carroll Parish, Louisiana": {
+      "label": "East Carroll Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 50
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 4611
+        },
+        {
+          "label": "Hispanic",
+          "value": 144
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 276
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2089
+        }
+      ]
+    },
+    "East Feliciana Parish, Louisiana": {
+      "label": "East Feliciana Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 128
+        },
+        {
+          "label": "Asian",
+          "value": 44
+        },
+        {
+          "label": "Black or African American",
+          "value": 7734
+        },
+        {
+          "label": "Hispanic",
+          "value": 379
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 590
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10503
+        }
+      ]
+    },
+    "Evangeline Parish, Louisiana": {
+      "label": "Evangeline Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 59
+        },
+        {
+          "label": "Asian",
+          "value": 123
+        },
+        {
+          "label": "Black or African American",
+          "value": 8256
+        },
+        {
+          "label": "Hispanic",
+          "value": 1428
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 23
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1059
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20731
+        }
+      ]
+    },
+    "Franklin Parish, Louisiana": {
+      "label": "Franklin Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 72
+        },
+        {
+          "label": "Black or African American",
+          "value": 5619
+        },
+        {
+          "label": "Hispanic",
+          "value": 320
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 762
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12811
+        }
+      ]
+    },
+    "Grant Parish, Louisiana": {
+      "label": "Grant Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 191
+        },
+        {
+          "label": "Asian",
+          "value": 144
+        },
+        {
+          "label": "Black or African American",
+          "value": 3200
+        },
+        {
+          "label": "Hispanic",
+          "value": 1336
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 787
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16440
+        }
+      ]
+    },
+    "Iberia Parish, Louisiana": {
+      "label": "Iberia Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 208
+        },
+        {
+          "label": "Asian",
+          "value": 1812
+        },
+        {
+          "label": "Black or African American",
+          "value": 21079
+        },
+        {
+          "label": "Hispanic",
+          "value": 3810
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2723
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 39249
+        }
+      ]
+    },
+    "Iberville Parish, Louisiana": {
+      "label": "Iberville Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 55
+        },
+        {
+          "label": "Asian",
+          "value": 12
+        },
+        {
+          "label": "Black or African American",
+          "value": 13529
+        },
+        {
+          "label": "Hispanic",
+          "value": 1440
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 30
+        },
+        {
+          "label": "Two or More Races",
+          "value": 820
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13829
+        }
+      ]
+    },
+    "Jackson Parish, Louisiana": {
+      "label": "Jackson Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 72
+        },
+        {
+          "label": "Asian",
+          "value": 16
+        },
+        {
+          "label": "Black or African American",
+          "value": 3813
+        },
+        {
+          "label": "Hispanic",
+          "value": 486
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 468
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9910
+        }
+      ]
+    },
+    "Jefferson Davis Parish, Louisiana": {
+      "label": "Jefferson Davis Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 66
+        },
+        {
+          "label": "Asian",
+          "value": 67
+        },
+        {
+          "label": "Black or African American",
+          "value": 4710
+        },
+        {
+          "label": "Hispanic",
+          "value": 783
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1660
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24707
+        }
+      ]
+    },
+    "Jefferson Parish, Louisiana": {
+      "label": "Jefferson Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 618
+        },
+        {
+          "label": "Asian",
+          "value": 17927
+        },
+        {
+          "label": "Black or African American",
+          "value": 110533
+        },
+        {
+          "label": "Hispanic",
+          "value": 78562
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 102
+        },
+        {
+          "label": "Two or More Races",
+          "value": 13794
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 208208
+        }
+      ]
+    },
+    "Lafayette Parish, Louisiana": {
+      "label": "Lafayette Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 253
+        },
+        {
+          "label": "Asian",
+          "value": 4572
+        },
+        {
+          "label": "Black or African American",
+          "value": 62014
+        },
+        {
+          "label": "Hispanic",
+          "value": 15847
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 126
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8169
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 153061
+        }
+      ]
+    },
+    "Lafourche Parish, Louisiana": {
+      "label": "Lafourche Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2110
+        },
+        {
+          "label": "Asian",
+          "value": 664
+        },
+        {
+          "label": "Black or African American",
+          "value": 12622
+        },
+        {
+          "label": "Hispanic",
+          "value": 5562
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3167
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 72346
+        }
+      ]
+    },
+    "LaSalle Parish, Louisiana": {
+      "label": "LaSalle Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 176
+        },
+        {
+          "label": "Black or African American",
+          "value": 1680
+        },
+        {
+          "label": "Hispanic",
+          "value": 1315
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 61
+        },
+        {
+          "label": "Two or More Races",
+          "value": 464
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11108
+        }
+      ]
+    },
+    "Lincoln Parish, Louisiana": {
+      "label": "Lincoln Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 372
+        },
+        {
+          "label": "Asian",
+          "value": 627
+        },
+        {
+          "label": "Black or African American",
+          "value": 17787
+        },
+        {
+          "label": "Hispanic",
+          "value": 1753
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 42
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1875
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25263
+        }
+      ]
+    },
+    "Livingston Parish, Louisiana": {
+      "label": "Livingston Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 163
+        },
+        {
+          "label": "Asian",
+          "value": 1060
+        },
+        {
+          "label": "Black or African American",
+          "value": 11949
+        },
+        {
+          "label": "Hispanic",
+          "value": 9095
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3693
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 119241
+        }
+      ]
+    },
+    "Madison Parish, Louisiana": {
+      "label": "Madison Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 25
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 6112
+        },
+        {
+          "label": "Hispanic",
+          "value": 239
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 121
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3260
+        }
+      ]
+    },
+    "Morehouse Parish, Louisiana": {
+      "label": "Morehouse Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 133
+        },
+        {
+          "label": "Black or African American",
+          "value": 12010
+        },
+        {
+          "label": "Hispanic",
+          "value": 405
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 45
+        },
+        {
+          "label": "Two or More Races",
+          "value": 424
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11860
+        }
+      ]
+    },
+    "Natchitoches Parish, Louisiana": {
+      "label": "Natchitoches Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 336
+        },
+        {
+          "label": "Asian",
+          "value": 230
+        },
+        {
+          "label": "Black or African American",
+          "value": 14645
+        },
+        {
+          "label": "Hispanic",
+          "value": 1434
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1334
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18630
+        }
+      ]
+    },
+    "Orleans Parish, Louisiana": {
+      "label": "Orleans Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 480
+        },
+        {
+          "label": "Asian",
+          "value": 10424
+        },
+        {
+          "label": "Black or African American",
+          "value": 205700
+        },
+        {
+          "label": "Hispanic",
+          "value": 29855
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 48
+        },
+        {
+          "label": "Two or More Races",
+          "value": 13261
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 113133
+        }
+      ]
+    },
+    "Ouachita Parish, Louisiana": {
+      "label": "Ouachita Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 170
+        },
+        {
+          "label": "Asian",
+          "value": 1647
+        },
+        {
+          "label": "Black or African American",
+          "value": 58810
+        },
+        {
+          "label": "Hispanic",
+          "value": 5668
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 14
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3585
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 88405
+        }
+      ]
+    },
+    "Plaquemines Parish, Louisiana": {
+      "label": "Plaquemines Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 254
+        },
+        {
+          "label": "Asian",
+          "value": 927
+        },
+        {
+          "label": "Black or African American",
+          "value": 4821
+        },
+        {
+          "label": "Hispanic",
+          "value": 2193
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 943
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13895
+        }
+      ]
+    },
+    "Pointe Coupee Parish, Louisiana": {
+      "label": "Pointe Coupee Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 49
+        },
+        {
+          "label": "Black or African American",
+          "value": 6604
+        },
+        {
+          "label": "Hispanic",
+          "value": 676
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 873
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12192
+        }
+      ]
+    },
+    "Rapides Parish, Louisiana": {
+      "label": "Rapides Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 557
+        },
+        {
+          "label": "Asian",
+          "value": 1667
+        },
+        {
+          "label": "Black or African American",
+          "value": 39816
+        },
+        {
+          "label": "Hispanic",
+          "value": 5178
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4106
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 76742
+        }
+      ]
+    },
+    "Red River Parish, Louisiana": {
+      "label": "Red River Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 3027
+        },
+        {
+          "label": "Hispanic",
+          "value": 133
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 181
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4186
+        }
+      ]
+    },
+    "Richland Parish, Louisiana": {
+      "label": "Richland Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 7170
+        },
+        {
+          "label": "Hispanic",
+          "value": 434
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 294
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11994
+        }
+      ]
+    },
+    "Sabine Parish, Louisiana": {
+      "label": "Sabine Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1352
+        },
+        {
+          "label": "Asian",
+          "value": 88
+        },
+        {
+          "label": "Black or African American",
+          "value": 3156
+        },
+        {
+          "label": "Hispanic",
+          "value": 761
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1870
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14720
+        }
+      ]
+    },
+    "St. Bernard Parish, Louisiana": {
+      "label": "St. Bernard Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 250
+        },
+        {
+          "label": "Asian",
+          "value": 939
+        },
+        {
+          "label": "Black or African American",
+          "value": 10394
+        },
+        {
+          "label": "Hispanic",
+          "value": 5988
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1520
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25048
+        }
+      ]
+    },
+    "St. Charles Parish, Louisiana": {
+      "label": "St. Charles Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 549
+        },
+        {
+          "label": "Asian",
+          "value": 432
+        },
+        {
+          "label": "Black or African American",
+          "value": 11829
+        },
+        {
+          "label": "Hispanic",
+          "value": 4134
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1946
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32583
+        }
+      ]
+    },
+    "St. Helena Parish, Louisiana": {
+      "label": "St. Helena Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 78
+        },
+        {
+          "label": "Asian",
+          "value": 43
+        },
+        {
+          "label": "Black or African American",
+          "value": 5442
+        },
+        {
+          "label": "Hispanic",
+          "value": 245
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 224
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4817
+        }
+      ]
+    },
+    "St. James Parish, Louisiana": {
+      "label": "St. James Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 6
+        },
+        {
+          "label": "Black or African American",
+          "value": 9572
+        },
+        {
+          "label": "Hispanic",
+          "value": 372
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 122
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9725
+        }
+      ]
+    },
+    "St. John the Baptist Parish, Louisiana": {
+      "label": "St. John the Baptist Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 51
+        },
+        {
+          "label": "Asian",
+          "value": 473
+        },
+        {
+          "label": "Black or African American",
+          "value": 23125
+        },
+        {
+          "label": "Hispanic",
+          "value": 3449
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1226
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12513
+        }
+      ]
+    },
+    "St. Landry Parish, Louisiana": {
+      "label": "St. Landry Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 106
+        },
+        {
+          "label": "Asian",
+          "value": 459
+        },
+        {
+          "label": "Black or African American",
+          "value": 32809
+        },
+        {
+          "label": "Hispanic",
+          "value": 2338
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 216
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2434
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 43577
+        }
+      ]
+    },
+    "St. Martin Parish, Louisiana": {
+      "label": "St. Martin Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 86
+        },
+        {
+          "label": "Asian",
+          "value": 474
+        },
+        {
+          "label": "Black or African American",
+          "value": 14732
+        },
+        {
+          "label": "Hispanic",
+          "value": 1746
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 53
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1526
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32850
+        }
+      ]
+    },
+    "St. Mary Parish, Louisiana": {
+      "label": "St. Mary Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 750
+        },
+        {
+          "label": "Asian",
+          "value": 633
+        },
+        {
+          "label": "Black or African American",
+          "value": 13994
+        },
+        {
+          "label": "Hispanic",
+          "value": 4536
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2264
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26135
+        }
+      ]
+    },
+    "St. Tammany Parish, Louisiana": {
+      "label": "St. Tammany Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 594
+        },
+        {
+          "label": "Asian",
+          "value": 3394
+        },
+        {
+          "label": "Black or African American",
+          "value": 32335
+        },
+        {
+          "label": "Hispanic",
+          "value": 21369
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 874
+        },
+        {
+          "label": "Two or More Races",
+          "value": 11075
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 197521
+        }
+      ]
+    },
+    "Tangipahoa Parish, Louisiana": {
+      "label": "Tangipahoa Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 78
+        },
+        {
+          "label": "Asian",
+          "value": 1011
+        },
+        {
+          "label": "Black or African American",
+          "value": 40043
+        },
+        {
+          "label": "Hispanic",
+          "value": 7511
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 49
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3835
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 82315
+        }
+      ]
+    },
+    "Tensas Parish, Louisiana": {
+      "label": "Tensas Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 26
+        },
+        {
+          "label": "Black or African American",
+          "value": 2128
+        },
+        {
+          "label": "Hispanic",
+          "value": 110
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 77
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1651
+        }
+      ]
+    },
+    "Terrebonne Parish, Louisiana": {
+      "label": "Terrebonne Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5075
+        },
+        {
+          "label": "Asian",
+          "value": 1267
+        },
+        {
+          "label": "Black or African American",
+          "value": 20377
+        },
+        {
+          "label": "Hispanic",
+          "value": 7369
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 16
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4019
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 68948
+        }
+      ]
+    },
+    "Union Parish, Louisiana": {
+      "label": "Union Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 6
+        },
+        {
+          "label": "Black or African American",
+          "value": 4928
+        },
+        {
+          "label": "Hispanic",
+          "value": 1172
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 337
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14449
+        }
+      ]
+    },
+    "Vermilion Parish, Louisiana": {
+      "label": "Vermilion Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 92
+        },
+        {
+          "label": "Asian",
+          "value": 1135
+        },
+        {
+          "label": "Black or African American",
+          "value": 7393
+        },
+        {
+          "label": "Hispanic",
+          "value": 2378
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 262
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1840
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 43810
+        }
+      ]
+    },
+    "Vernon Parish, Louisiana": {
+      "label": "Vernon Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 368
+        },
+        {
+          "label": "Asian",
+          "value": 793
+        },
+        {
+          "label": "Black or African American",
+          "value": 6212
+        },
+        {
+          "label": "Hispanic",
+          "value": 4379
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 183
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2199
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33500
+        }
+      ]
+    },
+    "Washington Parish, Louisiana": {
+      "label": "Washington Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 74
+        },
+        {
+          "label": "Asian",
+          "value": 34
+        },
+        {
+          "label": "Black or African American",
+          "value": 13414
+        },
+        {
+          "label": "Hispanic",
+          "value": 1425
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1362
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28764
+        }
+      ]
+    },
+    "Webster Parish, Louisiana": {
+      "label": "Webster Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 114
+        },
+        {
+          "label": "Asian",
+          "value": 112
+        },
+        {
+          "label": "Black or African American",
+          "value": 12068
+        },
+        {
+          "label": "Hispanic",
+          "value": 780
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 34
+        },
+        {
+          "label": "Two or More Races",
+          "value": 736
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22322
+        }
+      ]
+    },
+    "West Baton Rouge Parish, Louisiana": {
+      "label": "West Baton Rouge Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 125
+        },
+        {
+          "label": "Black or African American",
+          "value": 11184
+        },
+        {
+          "label": "Hispanic",
+          "value": 1235
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 444
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14664
+        }
+      ]
+    },
+    "West Carroll Parish, Louisiana": {
+      "label": "West Carroll Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 1482
+        },
+        {
+          "label": "Hispanic",
+          "value": 349
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 78
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7670
+        }
+      ]
+    },
+    "West Feliciana Parish, Louisiana": {
+      "label": "West Feliciana Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 77
+        },
+        {
+          "label": "Asian",
+          "value": 56
+        },
+        {
+          "label": "Black or African American",
+          "value": 6988
+        },
+        {
+          "label": "Hispanic",
+          "value": 222
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 233
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7745
+        }
+      ]
+    },
+    "Winn Parish, Louisiana": {
+      "label": "Winn Parish, Louisiana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 30
+        },
+        {
+          "label": "Asian",
+          "value": 157
+        },
+        {
+          "label": "Black or African American",
+          "value": 3845
+        },
+        {
+          "label": "Hispanic",
+          "value": 979
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 196
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8271
+        }
+      ]
+    }
+  }
+}

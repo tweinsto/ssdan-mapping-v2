@@ -2,720 +2,124 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Rent Stress, Median Rent & Stats – Ohio (2023)</title>
+  <title>Rent Stress, Median Rent & Stats – State 39 (2023)</title>
   <style>
     body {
       margin: 0;
-      padding: 1.5rem;
-      font-family: sans-serif;
-      background-color: #f9f9f9;
+      padding: 2rem;
+      font-family: system-ui, sans-serif;
+      background-color: #f4f6f8;
+      color: #222;
     }
+
     h1 {
-      font-size: 1.5rem;
-      margin-bottom: 1.5rem;
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      margin-top: -1rem;
+      color: #2a2a2a;
     }
-    .row {
-      display: flex;
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
       gap: 2rem;
-      align-items: flex-start;
+      align-items: start;
     }
-    .col-large {
-      flex: 2;
+
+    .section-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #333;
     }
-    .col-small {
-      flex: 1;
+
+    .map-frame, .table-frame {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      padding: 1rem;
+      margin-bottom: 2rem;
     }
-    .map-title {
-      font-size: 1.1rem;
-      font-weight: bold;
-      margin-bottom: 0.5rem;
-    }
-    .map-box {
-      border: 2px solid #ccc;
-      padding: 0.5rem;
-      background-color: white;
-      box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-    }
+
     iframe {
       width: 100%;
-      height: 550px;
+      height: 500px;
       border: none;
-      margin-bottom: 1.5rem;
+      border-radius: 6px;
     }
-    .table-title {
-      font-size: 1.1rem;
-      font-weight: bold;
-      margin: 2rem 0 0.5rem 0;
-    }
-    table {
-      font-size: 0.95rem;
-    }
+
     .description-box {
-      margin-top: 2rem;
-      padding: 1rem;
-      background-color: #eef0f4;
-      border-left: 4px solid #4a142e;
+      background-color: #f1f4fb;
+      border-left: 5px solid #3e49a8;
+      padding: 1rem 1.25rem;
+      border-radius: 6px;
       font-size: 0.95rem;
-      line-height: 1.5;
+      line-height: 1.6;
+      margin-top: 2rem;
+    }
+
+    .description-box strong {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+    }
+
+    .description-box ul {
+      margin: 0.5rem 0 0 1rem;
+      padding-left: 1rem;
+    }
+
+    .description-box li {
+      margin-bottom: 0.5rem;
+    }
+
+    @media (max-width: 900px) {
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+
+      iframe {
+        height: 400px;
+      }
     }
   </style>
 </head>
 <body>
 
-  <h1>Housing Stress Index, Median Rent, and County Statistics – Ohio</h1>
+  <h1>Renter Housing Statistics – 39 (2023)</h1>
 
-  <div class="row">
-    <div class="col-large">
-      <div class="map-title">Housing Stress Index by County</div>
-      <iframe src="../stress-maps/39.html" title="Rent Stress Map"></iframe>
+  <div class="grid-container">
+    <!-- Left Column -->
+    <div>
+      <div class="map-frame">
+        <div class="section-title">% Rent Burdened (30%+) by County</div>
+        <iframe src="../stress-maps/39.html" title="Rent Burdened Map"></iframe>
+      </div>
 
-      <div class="table-title">County-Level Inputs to Housing Stress Index</div>
-      <table class="table table-striped table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
- <thead>
-  <tr>
-   <th style="text-align:left;"> County </th>
-   <th style="text-align:right;"> Median Rent ($) </th>
-   <th style="text-align:right;"> % Rent-Burdened </th>
-   <th style="text-align:right;"> Vacancy Rate (%) </th>
-   <th style="text-align:right;"> Housing Stress Index </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> Adams County, Ohio </td>
-   <td style="text-align:right;"> 700 </td>
-   <td style="text-align:right;"> 8.56 </td>
-   <td style="text-align:right;"> 12.0 </td>
-   <td style="text-align:right;"> 0.14 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Allen County, Ohio </td>
-   <td style="text-align:right;"> 898 </td>
-   <td style="text-align:right;"> 5.44 </td>
-   <td style="text-align:right;"> 16.5 </td>
-   <td style="text-align:right;"> -0.25 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Ashland County, Ohio </td>
-   <td style="text-align:right;"> 841 </td>
-   <td style="text-align:right;"> 6.37 </td>
-   <td style="text-align:right;"> 16.2 </td>
-   <td style="text-align:right;"> -0.20 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Ashtabula County, Ohio </td>
-   <td style="text-align:right;"> 816 </td>
-   <td style="text-align:right;"> 12.53 </td>
-   <td style="text-align:right;"> 15.1 </td>
-   <td style="text-align:right;"> 0.44 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Athens County, Ohio </td>
-   <td style="text-align:right;"> 903 </td>
-   <td style="text-align:right;"> 10.00 </td>
-   <td style="text-align:right;"> 15.7 </td>
-   <td style="text-align:right;"> 0.25 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Auglaize County, Ohio </td>
-   <td style="text-align:right;"> 853 </td>
-   <td style="text-align:right;"> 4.55 </td>
-   <td style="text-align:right;"> 16.3 </td>
-   <td style="text-align:right;"> -0.37 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Belmont County, Ohio </td>
-   <td style="text-align:right;"> 769 </td>
-   <td style="text-align:right;"> 7.90 </td>
-   <td style="text-align:right;"> 12.7 </td>
-   <td style="text-align:right;"> 0.11 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Brown County, Ohio </td>
-   <td style="text-align:right;"> 822 </td>
-   <td style="text-align:right;"> 9.85 </td>
-   <td style="text-align:right;"> 16.0 </td>
-   <td style="text-align:right;"> 0.13 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Butler County, Ohio </td>
-   <td style="text-align:right;"> 1098 </td>
-   <td style="text-align:right;"> 6.68 </td>
-   <td style="text-align:right;"> 25.0 </td>
-   <td style="text-align:right;"> -0.48 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Carroll County, Ohio </td>
-   <td style="text-align:right;"> 780 </td>
-   <td style="text-align:right;"> 6.96 </td>
-   <td style="text-align:right;"> 14.0 </td>
-   <td style="text-align:right;"> -0.06 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Champaign County, Ohio </td>
-   <td style="text-align:right;"> 884 </td>
-   <td style="text-align:right;"> 9.20 </td>
-   <td style="text-align:right;"> 16.4 </td>
-   <td style="text-align:right;"> 0.11 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Clark County, Ohio </td>
-   <td style="text-align:right;"> 840 </td>
-   <td style="text-align:right;"> 9.65 </td>
-   <td style="text-align:right;"> 14.3 </td>
-   <td style="text-align:right;"> 0.24 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Clermont County, Ohio </td>
-   <td style="text-align:right;"> 1040 </td>
-   <td style="text-align:right;"> 7.70 </td>
-   <td style="text-align:right;"> 22.7 </td>
-   <td style="text-align:right;"> -0.29 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Clinton County, Ohio </td>
-   <td style="text-align:right;"> 893 </td>
-   <td style="text-align:right;"> 5.62 </td>
-   <td style="text-align:right;"> 17.0 </td>
-   <td style="text-align:right;"> -0.27 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Columbiana County, Ohio </td>
-   <td style="text-align:right;"> 736 </td>
-   <td style="text-align:right;"> 5.23 </td>
-   <td style="text-align:right;"> 13.8 </td>
-   <td style="text-align:right;"> -0.26 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Coshocton County, Ohio </td>
-   <td style="text-align:right;"> 723 </td>
-   <td style="text-align:right;"> 5.88 </td>
-   <td style="text-align:right;"> 14.3 </td>
-   <td style="text-align:right;"> -0.25 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Crawford County, Ohio </td>
-   <td style="text-align:right;"> 761 </td>
-   <td style="text-align:right;"> 10.31 </td>
-   <td style="text-align:right;"> 17.1 </td>
-   <td style="text-align:right;"> 0.03 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Cuyahoga County, Ohio </td>
-   <td style="text-align:right;"> 1005 </td>
-   <td style="text-align:right;"> 8.43 </td>
-   <td style="text-align:right;"> 16.8 </td>
-   <td style="text-align:right;"> 0.14 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Darke County, Ohio </td>
-   <td style="text-align:right;"> 747 </td>
-   <td style="text-align:right;"> 8.40 </td>
-   <td style="text-align:right;"> 18.3 </td>
-   <td style="text-align:right;"> -0.25 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Defiance County, Ohio </td>
-   <td style="text-align:right;"> 826 </td>
-   <td style="text-align:right;"> 4.68 </td>
-   <td style="text-align:right;"> 15.7 </td>
-   <td style="text-align:right;"> -0.34 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Delaware County, Ohio </td>
-   <td style="text-align:right;"> 1433 </td>
-   <td style="text-align:right;"> 9.09 </td>
-   <td style="text-align:right;"> 35.8 </td>
-   <td style="text-align:right;"> -0.62 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Erie County, Ohio </td>
-   <td style="text-align:right;"> 882 </td>
-   <td style="text-align:right;"> 5.91 </td>
-   <td style="text-align:right;"> 17.3 </td>
-   <td style="text-align:right;"> -0.27 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Fairfield County, Ohio </td>
-   <td style="text-align:right;"> 1114 </td>
-   <td style="text-align:right;"> 9.27 </td>
-   <td style="text-align:right;"> 25.8 </td>
-   <td style="text-align:right;"> -0.27 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Fayette County, Ohio </td>
-   <td style="text-align:right;"> 807 </td>
-   <td style="text-align:right;"> 4.49 </td>
-   <td style="text-align:right;"> 12.0 </td>
-   <td style="text-align:right;"> -0.13 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Franklin County, Ohio </td>
-   <td style="text-align:right;"> 1233 </td>
-   <td style="text-align:right;"> 7.94 </td>
-   <td style="text-align:right;"> 16.4 </td>
-   <td style="text-align:right;"> 0.37 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Fulton County, Ohio </td>
-   <td style="text-align:right;"> 832 </td>
-   <td style="text-align:right;"> 4.51 </td>
-   <td style="text-align:right;"> 19.0 </td>
-   <td style="text-align:right;"> -0.58 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Gallia County, Ohio </td>
-   <td style="text-align:right;"> 798 </td>
-   <td style="text-align:right;"> 2.62 </td>
-   <td style="text-align:right;"> 13.9 </td>
-   <td style="text-align:right;"> -0.45 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Geauga County, Ohio </td>
-   <td style="text-align:right;"> 1018 </td>
-   <td style="text-align:right;"> 5.21 </td>
-   <td style="text-align:right;"> 31.7 </td>
-   <td style="text-align:right;"> -1.17 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Greene County, Ohio </td>
-   <td style="text-align:right;"> 1089 </td>
-   <td style="text-align:right;"> 8.54 </td>
-   <td style="text-align:right;"> 21.3 </td>
-   <td style="text-align:right;"> -0.06 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Guernsey County, Ohio </td>
-   <td style="text-align:right;"> 803 </td>
-   <td style="text-align:right;"> 5.69 </td>
-   <td style="text-align:right;"> 13.3 </td>
-   <td style="text-align:right;"> -0.11 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Hamilton County, Ohio </td>
-   <td style="text-align:right;"> 1005 </td>
-   <td style="text-align:right;"> 7.71 </td>
-   <td style="text-align:right;"> 19.0 </td>
-   <td style="text-align:right;"> -0.08 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Hancock County, Ohio </td>
-   <td style="text-align:right;"> 926 </td>
-   <td style="text-align:right;"> 6.61 </td>
-   <td style="text-align:right;"> 18.4 </td>
-   <td style="text-align:right;"> -0.23 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Hardin County, Ohio </td>
-   <td style="text-align:right;"> 733 </td>
-   <td style="text-align:right;"> 6.07 </td>
-   <td style="text-align:right;"> 17.6 </td>
-   <td style="text-align:right;"> -0.44 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Harrison County, Ohio </td>
-   <td style="text-align:right;"> 753 </td>
-   <td style="text-align:right;"> 4.85 </td>
-   <td style="text-align:right;"> 11.6 </td>
-   <td style="text-align:right;"> -0.13 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Henry County, Ohio </td>
-   <td style="text-align:right;"> 866 </td>
-   <td style="text-align:right;"> 6.56 </td>
-   <td style="text-align:right;"> 19.2 </td>
-   <td style="text-align:right;"> -0.36 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Highland County, Ohio </td>
-   <td style="text-align:right;"> 757 </td>
-   <td style="text-align:right;"> 6.94 </td>
-   <td style="text-align:right;"> 12.8 </td>
-   <td style="text-align:right;"> -0.01 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Hocking County, Ohio </td>
-   <td style="text-align:right;"> 806 </td>
-   <td style="text-align:right;"> 11.91 </td>
-   <td style="text-align:right;"> 11.7 </td>
-   <td style="text-align:right;"> 0.60 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Holmes County, Ohio </td>
-   <td style="text-align:right;"> 773 </td>
-   <td style="text-align:right;"> 1.17 </td>
-   <td style="text-align:right;"> 19.7 </td>
-   <td style="text-align:right;"> -1.01 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Huron County, Ohio </td>
-   <td style="text-align:right;"> 824 </td>
-   <td style="text-align:right;"> 5.65 </td>
-   <td style="text-align:right;"> 16.2 </td>
-   <td style="text-align:right;"> -0.29 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Jackson County, Ohio </td>
-   <td style="text-align:right;"> 773 </td>
-   <td style="text-align:right;"> 2.64 </td>
-   <td style="text-align:right;"> 10.1 </td>
-   <td style="text-align:right;"> -0.22 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Jefferson County, Ohio </td>
-   <td style="text-align:right;"> 792 </td>
-   <td style="text-align:right;"> 5.99 </td>
-   <td style="text-align:right;"> 13.5 </td>
-   <td style="text-align:right;"> -0.11 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Knox County, Ohio </td>
-   <td style="text-align:right;"> 925 </td>
-   <td style="text-align:right;"> 9.01 </td>
-   <td style="text-align:right;"> 17.2 </td>
-   <td style="text-align:right;"> 0.08 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Lake County, Ohio </td>
-   <td style="text-align:right;"> 1073 </td>
-   <td style="text-align:right;"> 7.46 </td>
-   <td style="text-align:right;"> 21.4 </td>
-   <td style="text-align:right;"> -0.19 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Lawrence County, Ohio </td>
-   <td style="text-align:right;"> 830 </td>
-   <td style="text-align:right;"> 6.18 </td>
-   <td style="text-align:right;"> 14.0 </td>
-   <td style="text-align:right;"> -0.08 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Licking County, Ohio </td>
-   <td style="text-align:right;"> 999 </td>
-   <td style="text-align:right;"> 6.45 </td>
-   <td style="text-align:right;"> 21.2 </td>
-   <td style="text-align:right;"> -0.36 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Logan County, Ohio </td>
-   <td style="text-align:right;"> 832 </td>
-   <td style="text-align:right;"> 5.15 </td>
-   <td style="text-align:right;"> 14.6 </td>
-   <td style="text-align:right;"> -0.22 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Lorain County, Ohio </td>
-   <td style="text-align:right;"> 916 </td>
-   <td style="text-align:right;"> 8.25 </td>
-   <td style="text-align:right;"> 20.5 </td>
-   <td style="text-align:right;"> -0.23 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Lucas County, Ohio </td>
-   <td style="text-align:right;"> 911 </td>
-   <td style="text-align:right;"> 7.48 </td>
-   <td style="text-align:right;"> 16.0 </td>
-   <td style="text-align:right;"> 0.00 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Madison County, Ohio </td>
-   <td style="text-align:right;"> 944 </td>
-   <td style="text-align:right;"> 10.93 </td>
-   <td style="text-align:right;"> 18.1 </td>
-   <td style="text-align:right;"> 0.22 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Mahoning County, Ohio </td>
-   <td style="text-align:right;"> 775 </td>
-   <td style="text-align:right;"> 7.82 </td>
-   <td style="text-align:right;"> 15.8 </td>
-   <td style="text-align:right;"> -0.10 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Marion County, Ohio </td>
-   <td style="text-align:right;"> 850 </td>
-   <td style="text-align:right;"> 7.74 </td>
-   <td style="text-align:right;"> 14.3 </td>
-   <td style="text-align:right;"> 0.07 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Medina County, Ohio </td>
-   <td style="text-align:right;"> 1090 </td>
-   <td style="text-align:right;"> 9.96 </td>
-   <td style="text-align:right;"> 28.0 </td>
-   <td style="text-align:right;"> -0.38 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Meigs County, Ohio </td>
-   <td style="text-align:right;"> 704 </td>
-   <td style="text-align:right;"> 5.55 </td>
-   <td style="text-align:right;"> 11.7 </td>
-   <td style="text-align:right;"> -0.12 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Mercer County, Ohio </td>
-   <td style="text-align:right;"> 812 </td>
-   <td style="text-align:right;"> 5.98 </td>
-   <td style="text-align:right;"> 18.1 </td>
-   <td style="text-align:right;"> -0.40 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Miami County, Ohio </td>
-   <td style="text-align:right;"> 942 </td>
-   <td style="text-align:right;"> 8.34 </td>
-   <td style="text-align:right;"> 20.8 </td>
-   <td style="text-align:right;"> -0.21 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Monroe County, Ohio </td>
-   <td style="text-align:right;"> 626 </td>
-   <td style="text-align:right;"> 4.22 </td>
-   <td style="text-align:right;"> 13.9 </td>
-   <td style="text-align:right;"> -0.48 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Montgomery County, Ohio </td>
-   <td style="text-align:right;"> 968 </td>
-   <td style="text-align:right;"> 9.03 </td>
-   <td style="text-align:right;"> 16.1 </td>
-   <td style="text-align:right;"> 0.20 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Morgan County, Ohio </td>
-   <td style="text-align:right;"> 713 </td>
-   <td style="text-align:right;"> 8.71 </td>
-   <td style="text-align:right;"> 10.2 </td>
-   <td style="text-align:right;"> 0.29 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Morrow County, Ohio </td>
-   <td style="text-align:right;"> 942 </td>
-   <td style="text-align:right;"> 9.62 </td>
-   <td style="text-align:right;"> 19.6 </td>
-   <td style="text-align:right;"> -0.01 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Muskingum County, Ohio </td>
-   <td style="text-align:right;"> 811 </td>
-   <td style="text-align:right;"> 6.19 </td>
-   <td style="text-align:right;"> 13.7 </td>
-   <td style="text-align:right;"> -0.08 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Noble County, Ohio </td>
-   <td style="text-align:right;"> 730 </td>
-   <td style="text-align:right;"> 2.41 </td>
-   <td style="text-align:right;"> 15.6 </td>
-   <td style="text-align:right;"> -0.66 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Ottawa County, Ohio </td>
-   <td style="text-align:right;"> 909 </td>
-   <td style="text-align:right;"> 11.46 </td>
-   <td style="text-align:right;"> 14.5 </td>
-   <td style="text-align:right;"> 0.48 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Paulding County, Ohio </td>
-   <td style="text-align:right;"> 750 </td>
-   <td style="text-align:right;"> 9.43 </td>
-   <td style="text-align:right;"> 16.3 </td>
-   <td style="text-align:right;"> -0.01 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Perry County, Ohio </td>
-   <td style="text-align:right;"> 727 </td>
-   <td style="text-align:right;"> 5.87 </td>
-   <td style="text-align:right;"> 12.6 </td>
-   <td style="text-align:right;"> -0.13 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Pickaway County, Ohio </td>
-   <td style="text-align:right;"> 965 </td>
-   <td style="text-align:right;"> 5.74 </td>
-   <td style="text-align:right;"> 14.6 </td>
-   <td style="text-align:right;"> -0.02 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Pike County, Ohio </td>
-   <td style="text-align:right;"> 833 </td>
-   <td style="text-align:right;"> 8.03 </td>
-   <td style="text-align:right;"> 15.8 </td>
-   <td style="text-align:right;"> -0.02 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Portage County, Ohio </td>
-   <td style="text-align:right;"> 1036 </td>
-   <td style="text-align:right;"> 8.16 </td>
-   <td style="text-align:right;"> 17.6 </td>
-   <td style="text-align:right;"> 0.09 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Preble County, Ohio </td>
-   <td style="text-align:right;"> 803 </td>
-   <td style="text-align:right;"> 6.31 </td>
-   <td style="text-align:right;"> 14.8 </td>
-   <td style="text-align:right;"> -0.15 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Putnam County, Ohio </td>
-   <td style="text-align:right;"> 857 </td>
-   <td style="text-align:right;"> 6.57 </td>
-   <td style="text-align:right;"> 19.1 </td>
-   <td style="text-align:right;"> -0.36 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Richland County, Ohio </td>
-   <td style="text-align:right;"> 791 </td>
-   <td style="text-align:right;"> 9.73 </td>
-   <td style="text-align:right;"> 13.2 </td>
-   <td style="text-align:right;"> 0.27 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Ross County, Ohio </td>
-   <td style="text-align:right;"> 858 </td>
-   <td style="text-align:right;"> 9.60 </td>
-   <td style="text-align:right;"> 14.2 </td>
-   <td style="text-align:right;"> 0.27 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Sandusky County, Ohio </td>
-   <td style="text-align:right;"> 786 </td>
-   <td style="text-align:right;"> 7.26 </td>
-   <td style="text-align:right;"> 15.4 </td>
-   <td style="text-align:right;"> -0.12 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Scioto County, Ohio </td>
-   <td style="text-align:right;"> 749 </td>
-   <td style="text-align:right;"> 9.24 </td>
-   <td style="text-align:right;"> 13.4 </td>
-   <td style="text-align:right;"> 0.17 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Seneca County, Ohio </td>
-   <td style="text-align:right;"> 814 </td>
-   <td style="text-align:right;"> 7.05 </td>
-   <td style="text-align:right;"> 15.7 </td>
-   <td style="text-align:right;"> -0.13 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Shelby County, Ohio </td>
-   <td style="text-align:right;"> 904 </td>
-   <td style="text-align:right;"> 8.58 </td>
-   <td style="text-align:right;"> 18.3 </td>
-   <td style="text-align:right;"> -0.06 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Stark County, Ohio </td>
-   <td style="text-align:right;"> 877 </td>
-   <td style="text-align:right;"> 7.42 </td>
-   <td style="text-align:right;"> 16.5 </td>
-   <td style="text-align:right;"> -0.08 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Summit County, Ohio </td>
-   <td style="text-align:right;"> 998 </td>
-   <td style="text-align:right;"> 8.35 </td>
-   <td style="text-align:right;"> 19.5 </td>
-   <td style="text-align:right;"> -0.06 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Trumbull County, Ohio </td>
-   <td style="text-align:right;"> 783 </td>
-   <td style="text-align:right;"> 6.35 </td>
-   <td style="text-align:right;"> 13.5 </td>
-   <td style="text-align:right;"> -0.08 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Tuscarawas County, Ohio </td>
-   <td style="text-align:right;"> 876 </td>
-   <td style="text-align:right;"> 6.95 </td>
-   <td style="text-align:right;"> 13.8 </td>
-   <td style="text-align:right;"> 0.06 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Union County, Ohio </td>
-   <td style="text-align:right;"> 1188 </td>
-   <td style="text-align:right;"> 8.15 </td>
-   <td style="text-align:right;"> 27.4 </td>
-   <td style="text-align:right;"> -0.41 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Van Wert County, Ohio </td>
-   <td style="text-align:right;"> 792 </td>
-   <td style="text-align:right;"> 5.84 </td>
-   <td style="text-align:right;"> 17.8 </td>
-   <td style="text-align:right;"> -0.41 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Vinton County, Ohio </td>
-   <td style="text-align:right;"> 663 </td>
-   <td style="text-align:right;"> 2.70 </td>
-   <td style="text-align:right;"> 14.6 </td>
-   <td style="text-align:right;"> -0.64 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Warren County, Ohio </td>
-   <td style="text-align:right;"> 1293 </td>
-   <td style="text-align:right;"> 7.30 </td>
-   <td style="text-align:right;"> 28.0 </td>
-   <td style="text-align:right;"> -0.41 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Washington County, Ohio </td>
-   <td style="text-align:right;"> 828 </td>
-   <td style="text-align:right;"> 8.95 </td>
-   <td style="text-align:right;"> 15.3 </td>
-   <td style="text-align:right;"> 0.10 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Wayne County, Ohio </td>
-   <td style="text-align:right;"> 849 </td>
-   <td style="text-align:right;"> 8.54 </td>
-   <td style="text-align:right;"> 18.2 </td>
-   <td style="text-align:right;"> -0.12 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Williams County, Ohio </td>
-   <td style="text-align:right;"> 805 </td>
-   <td style="text-align:right;"> 7.88 </td>
-   <td style="text-align:right;"> 17.4 </td>
-   <td style="text-align:right;"> -0.17 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Wood County, Ohio </td>
-   <td style="text-align:right;"> 950 </td>
-   <td style="text-align:right;"> 7.39 </td>
-   <td style="text-align:right;"> 20.5 </td>
-   <td style="text-align:right;"> -0.27 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Wyandot County, Ohio </td>
-   <td style="text-align:right;"> 785 </td>
-   <td style="text-align:right;"> 10.51 </td>
-   <td style="text-align:right;"> 18.4 </td>
-   <td style="text-align:right;"> -0.01 </td>
-  </tr>
-</tbody>
-</table>
+      <div class="table-frame">
+        <div class="section-title">County-Level Housing Indicators</div>
+        <iframe src="../facts-table-stress/39.html" title="Rent Table"></iframe>
+      </div>
     </div>
 
-    <div class="col-small">
-      <div class="map-box">
-        <div class="map-title">Median Gross Monthly Rent by County</div>
+    <!-- Right Column -->
+    <div>
+      <div class="map-frame">
+        <div class="section-title">Median Gross Rent by County</div>
         <iframe src="../rent-maps/39.html" title="Median Rent Map"></iframe>
       </div>
 
       <div class="description-box">
-        <strong>What is the Housing Stress Index?</strong><br>
-The Housing Stress Index is a custom metric created to reflect renter vulnerability in each county. It combines:
-<ul style="margin-top: 0.5rem;">
-  <li>Median gross rent (higher rent = more stress)</li>
-  <li>Percent of renters spending over 30% of income on rent (also known as the rent-burdened rate — a measure of financial strain)</li>
-  <li>Rental vacancy rate (lower vacancy = more stress because renters have fewer housing options and less leverage)</li>
-</ul>
-Each of these is standardized (z-scored), and the Housing Stress Index is the average of the three. Higher values indicate more stress on renters.
+        <strong>What Do These Housing Indicators Show?</strong>
+        All values are based on renter-occupied households in each county.
+        <ul>
+          <li><strong>% Renters</strong>: Share of the population living in rented housing.</li>
+          <li><strong>% Rent Burdened (30%+)</strong>: Renters spending 30%+ of income on rent.</li>
+          <li><strong>Rental Vacancy Rate</strong>: Share of rental units that are currently vacant.</li>
+          <li><strong>Median Gross Rent</strong>: Monthly rent including utilities (if paid by tenant).</li>
+        </ul>
       </div>
     </div>
   </div>

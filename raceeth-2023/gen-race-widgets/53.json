@@ -1,0 +1,1325 @@
+{
+  "state": "Adams County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 63389
+        },
+        {
+          "label": "Asian",
+          "value": 720927
+        },
+        {
+          "label": "Black or African American",
+          "value": 295487
+        },
+        {
+          "label": "Hispanic",
+          "value": 1089609
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 52674
+        },
+        {
+          "label": "Two or More Races",
+          "value": 500698
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4975929
+        }
+      ]
+    },
+    "Adams County, Washington": {
+      "label": "Adams County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 47
+        },
+        {
+          "label": "Asian",
+          "value": 129
+        },
+        {
+          "label": "Black or African American",
+          "value": 77
+        },
+        {
+          "label": "Hispanic",
+          "value": 13255
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 56
+        },
+        {
+          "label": "Two or More Races",
+          "value": 422
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6640
+        }
+      ]
+    },
+    "Asotin County, Washington": {
+      "label": "Asotin County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 202
+        },
+        {
+          "label": "Asian",
+          "value": 215
+        },
+        {
+          "label": "Black or African American",
+          "value": 189
+        },
+        {
+          "label": "Hispanic",
+          "value": 996
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 978
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19650
+        }
+      ]
+    },
+    "Benton County, Washington": {
+      "label": "Benton County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 928
+        },
+        {
+          "label": "Asian",
+          "value": 6041
+        },
+        {
+          "label": "Black or African American",
+          "value": 3166
+        },
+        {
+          "label": "Hispanic",
+          "value": 52111
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 422
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7934
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 138200
+        }
+      ]
+    },
+    "Chelan County, Washington": {
+      "label": "Chelan County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 537
+        },
+        {
+          "label": "Asian",
+          "value": 629
+        },
+        {
+          "label": "Black or African American",
+          "value": 402
+        },
+        {
+          "label": "Hispanic",
+          "value": 22604
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 62
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2318
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 52671
+        }
+      ]
+    },
+    "Clallam County, Washington": {
+      "label": "Clallam County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2634
+        },
+        {
+          "label": "Asian",
+          "value": 1246
+        },
+        {
+          "label": "Black or African American",
+          "value": 651
+        },
+        {
+          "label": "Hispanic",
+          "value": 5095
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 33
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4938
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 62668
+        }
+      ]
+    },
+    "Clark County, Washington": {
+      "label": "Clark County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1551
+        },
+        {
+          "label": "Asian",
+          "value": 23938
+        },
+        {
+          "label": "Black or African American",
+          "value": 10363
+        },
+        {
+          "label": "Hispanic",
+          "value": 61186
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4068
+        },
+        {
+          "label": "Two or More Races",
+          "value": 31102
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 375468
+        }
+      ]
+    },
+    "Columbia County, Washington": {
+      "label": "Columbia County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 28
+        },
+        {
+          "label": "Hispanic",
+          "value": 327
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 361
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3256
+        }
+      ]
+    },
+    "Cowlitz County, Washington": {
+      "label": "Cowlitz County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 794
+        },
+        {
+          "label": "Asian",
+          "value": 1285
+        },
+        {
+          "label": "Black or African American",
+          "value": 763
+        },
+        {
+          "label": "Hispanic",
+          "value": 11367
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 322
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6548
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 89902
+        }
+      ]
+    },
+    "Douglas County, Washington": {
+      "label": "Douglas County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 249
+        },
+        {
+          "label": "Asian",
+          "value": 371
+        },
+        {
+          "label": "Black or African American",
+          "value": 202
+        },
+        {
+          "label": "Hispanic",
+          "value": 15162
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 128
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1595
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25892
+        }
+      ]
+    },
+    "Ferry County, Washington": {
+      "label": "Ferry County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 954
+        },
+        {
+          "label": "Asian",
+          "value": 19
+        },
+        {
+          "label": "Black or African American",
+          "value": 11
+        },
+        {
+          "label": "Hispanic",
+          "value": 240
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 132
+        },
+        {
+          "label": "Two or More Races",
+          "value": 620
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5319
+        }
+      ]
+    },
+    "Franklin County, Washington": {
+      "label": "Franklin County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 198
+        },
+        {
+          "label": "Asian",
+          "value": 1494
+        },
+        {
+          "label": "Black or African American",
+          "value": 1803
+        },
+        {
+          "label": "Hispanic",
+          "value": 53485
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 146
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3063
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 36844
+        }
+      ]
+    },
+    "Garfield County, Washington": {
+      "label": "Garfield County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 25
+        },
+        {
+          "label": "Black or African American",
+          "value": 30
+        },
+        {
+          "label": "Hispanic",
+          "value": 83
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 106
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2082
+        }
+      ]
+    },
+    "Grant County, Washington": {
+      "label": "Grant County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 712
+        },
+        {
+          "label": "Asian",
+          "value": 878
+        },
+        {
+          "label": "Black or African American",
+          "value": 1196
+        },
+        {
+          "label": "Hispanic",
+          "value": 43512
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 18
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3768
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 50182
+        }
+      ]
+    },
+    "Grays Harbor County, Washington": {
+      "label": "Grays Harbor County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2854
+        },
+        {
+          "label": "Asian",
+          "value": 943
+        },
+        {
+          "label": "Black or African American",
+          "value": 1241
+        },
+        {
+          "label": "Hispanic",
+          "value": 8262
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 311
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3618
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 59034
+        }
+      ]
+    },
+    "Island County, Washington": {
+      "label": "Island County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 577
+        },
+        {
+          "label": "Asian",
+          "value": 4194
+        },
+        {
+          "label": "Black or African American",
+          "value": 2278
+        },
+        {
+          "label": "Hispanic",
+          "value": 7384
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 310
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5391
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 66449
+        }
+      ]
+    },
+    "Jefferson County, Washington": {
+      "label": "Jefferson County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 375
+        },
+        {
+          "label": "Asian",
+          "value": 443
+        },
+        {
+          "label": "Black or African American",
+          "value": 114
+        },
+        {
+          "label": "Hispanic",
+          "value": 1415
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 40
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2073
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28414
+        }
+      ]
+    },
+    "King County, Washington": {
+      "label": "King County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9218
+        },
+        {
+          "label": "Asian",
+          "value": 447125
+        },
+        {
+          "label": "Black or African American",
+          "value": 144810
+        },
+        {
+          "label": "Hispanic",
+          "value": 245320
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 16674
+        },
+        {
+          "label": "Two or More Races",
+          "value": 156701
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1229507
+        }
+      ]
+    },
+    "Kitsap County, Washington": {
+      "label": "Kitsap County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2271
+        },
+        {
+          "label": "Asian",
+          "value": 13006
+        },
+        {
+          "label": "Black or African American",
+          "value": 6687
+        },
+        {
+          "label": "Hispanic",
+          "value": 25018
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2466
+        },
+        {
+          "label": "Two or More Races",
+          "value": 22136
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 203638
+        }
+      ]
+    },
+    "Kittitas County, Washington": {
+      "label": "Kittitas County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 164
+        },
+        {
+          "label": "Asian",
+          "value": 790
+        },
+        {
+          "label": "Black or African American",
+          "value": 438
+        },
+        {
+          "label": "Hispanic",
+          "value": 4626
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 42
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2539
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 35688
+        }
+      ]
+    },
+    "Klickitat County, Washington": {
+      "label": "Klickitat County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 278
+        },
+        {
+          "label": "Asian",
+          "value": 210
+        },
+        {
+          "label": "Black or African American",
+          "value": 166
+        },
+        {
+          "label": "Hispanic",
+          "value": 2981
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 82
+        },
+        {
+          "label": "Two or More Races",
+          "value": 968
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18233
+        }
+      ]
+    },
+    "Lewis County, Washington": {
+      "label": "Lewis County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 669
+        },
+        {
+          "label": "Asian",
+          "value": 878
+        },
+        {
+          "label": "Black or African American",
+          "value": 502
+        },
+        {
+          "label": "Hispanic",
+          "value": 9408
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 181
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4150
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 67642
+        }
+      ]
+    },
+    "Lincoln County, Washington": {
+      "label": "Lincoln County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 192
+        },
+        {
+          "label": "Asian",
+          "value": 78
+        },
+        {
+          "label": "Black or African American",
+          "value": 42
+        },
+        {
+          "label": "Hispanic",
+          "value": 447
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 21
+        },
+        {
+          "label": "Two or More Races",
+          "value": 406
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10055
+        }
+      ]
+    },
+    "Mason County, Washington": {
+      "label": "Mason County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 918
+        },
+        {
+          "label": "Asian",
+          "value": 672
+        },
+        {
+          "label": "Black or African American",
+          "value": 670
+        },
+        {
+          "label": "Hispanic",
+          "value": 8128
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 173
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4965
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 50737
+        }
+      ]
+    },
+    "Okanogan County, Washington": {
+      "label": "Okanogan County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3339
+        },
+        {
+          "label": "Asian",
+          "value": 208
+        },
+        {
+          "label": "Black or African American",
+          "value": 698
+        },
+        {
+          "label": "Hispanic",
+          "value": 8676
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 54
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2494
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27189
+        }
+      ]
+    },
+    "Pacific County, Washington": {
+      "label": "Pacific County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 430
+        },
+        {
+          "label": "Asian",
+          "value": 404
+        },
+        {
+          "label": "Black or African American",
+          "value": 121
+        },
+        {
+          "label": "Hispanic",
+          "value": 2313
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 13
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1249
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18989
+        }
+      ]
+    },
+    "Pend Oreille County, Washington": {
+      "label": "Pend Oreille County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 256
+        },
+        {
+          "label": "Asian",
+          "value": 54
+        },
+        {
+          "label": "Black or African American",
+          "value": 41
+        },
+        {
+          "label": "Hispanic",
+          "value": 521
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 25
+        },
+        {
+          "label": "Two or More Races",
+          "value": 980
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11807
+        }
+      ]
+    },
+    "Pierce County, Washington": {
+      "label": "Pierce County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6071
+        },
+        {
+          "label": "Asian",
+          "value": 59584
+        },
+        {
+          "label": "Black or African American",
+          "value": 62678
+        },
+        {
+          "label": "Hispanic",
+          "value": 115594
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 13800
+        },
+        {
+          "label": "Two or More Races",
+          "value": 84025
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 577336
+        }
+      ]
+    },
+    "San Juan County, Washington": {
+      "label": "San Juan County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 67
+        },
+        {
+          "label": "Asian",
+          "value": 209
+        },
+        {
+          "label": "Black or African American",
+          "value": 48
+        },
+        {
+          "label": "Hispanic",
+          "value": 1364
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 44
+        },
+        {
+          "label": "Two or More Races",
+          "value": 753
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15725
+        }
+      ]
+    },
+    "Skagit County, Washington": {
+      "label": "Skagit County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1386
+        },
+        {
+          "label": "Asian",
+          "value": 2619
+        },
+        {
+          "label": "Black or African American",
+          "value": 971
+        },
+        {
+          "label": "Hispanic",
+          "value": 24646
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 251
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6209
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 93511
+        }
+      ]
+    },
+    "Skamania County, Washington": {
+      "label": "Skamania County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 179
+        },
+        {
+          "label": "Asian",
+          "value": 153
+        },
+        {
+          "label": "Black or African American",
+          "value": 34
+        },
+        {
+          "label": "Hispanic",
+          "value": 807
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 28
+        },
+        {
+          "label": "Two or More Races",
+          "value": 642
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10303
+        }
+      ]
+    },
+    "Snohomish County, Washington": {
+      "label": "Snohomish County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5963
+        },
+        {
+          "label": "Asian",
+          "value": 106435
+        },
+        {
+          "label": "Black or African American",
+          "value": 29470
+        },
+        {
+          "label": "Hispanic",
+          "value": 98816
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4245
+        },
+        {
+          "label": "Two or More Races",
+          "value": 53805
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 531121
+        }
+      ]
+    },
+    "Spokane County, Washington": {
+      "label": "Spokane County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4217
+        },
+        {
+          "label": "Asian",
+          "value": 12150
+        },
+        {
+          "label": "Black or African American",
+          "value": 10372
+        },
+        {
+          "label": "Hispanic",
+          "value": 37356
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3563
+        },
+        {
+          "label": "Two or More Races",
+          "value": 30644
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 444020
+        }
+      ]
+    },
+    "Stevens County, Washington": {
+      "label": "Stevens County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1819
+        },
+        {
+          "label": "Asian",
+          "value": 371
+        },
+        {
+          "label": "Black or African American",
+          "value": 127
+        },
+        {
+          "label": "Hispanic",
+          "value": 1904
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 108
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2462
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 40312
+        }
+      ]
+    },
+    "Thurston County, Washington": {
+      "label": "Thurston County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2555
+        },
+        {
+          "label": "Asian",
+          "value": 16994
+        },
+        {
+          "label": "Black or African American",
+          "value": 9413
+        },
+        {
+          "label": "Hispanic",
+          "value": 30528
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2966
+        },
+        {
+          "label": "Two or More Races",
+          "value": 22719
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 209556
+        }
+      ]
+    },
+    "Wahkiakum County, Washington": {
+      "label": "Wahkiakum County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 108
+        },
+        {
+          "label": "Black or African American",
+          "value": 50
+        },
+        {
+          "label": "Hispanic",
+          "value": 281
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 283
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3842
+        }
+      ]
+    },
+    "Walla Walla County, Washington": {
+      "label": "Walla Walla County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 205
+        },
+        {
+          "label": "Asian",
+          "value": 1152
+        },
+        {
+          "label": "Black or African American",
+          "value": 1068
+        },
+        {
+          "label": "Hispanic",
+          "value": 14538
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 98
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2326
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 42505
+        }
+      ]
+    },
+    "Whatcom County, Washington": {
+      "label": "Whatcom County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3839
+        },
+        {
+          "label": "Asian",
+          "value": 9629
+        },
+        {
+          "label": "Black or African American",
+          "value": 1916
+        },
+        {
+          "label": "Hispanic",
+          "value": 23662
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 604
+        },
+        {
+          "label": "Two or More Races",
+          "value": 13949
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 173866
+        }
+      ]
+    },
+    "Whitman County, Washington": {
+      "label": "Whitman County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 188
+        },
+        {
+          "label": "Asian",
+          "value": 3481
+        },
+        {
+          "label": "Black or African American",
+          "value": 733
+        },
+        {
+          "label": "Hispanic",
+          "value": 3783
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 86
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3611
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 34698
+        }
+      ]
+    },
+    "Yakima County, Washington": {
+      "label": "Yakima County, Washington",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6528
+        },
+        {
+          "label": "Asian",
+          "value": 2766
+        },
+        {
+          "label": "Black or African American",
+          "value": 1918
+        },
+        {
+          "label": "Hispanic",
+          "value": 132408
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1102
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7847
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 102978
+        }
+      ]
+    }
+  }
+}

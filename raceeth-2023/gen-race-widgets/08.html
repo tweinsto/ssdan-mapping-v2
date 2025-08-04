@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 08</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Adams County, Colorado">Adams County, Colorado</option>
+<option value="Alamosa County, Colorado">Alamosa County, Colorado</option>
+<option value="Arapahoe County, Colorado">Arapahoe County, Colorado</option>
+<option value="Archuleta County, Colorado">Archuleta County, Colorado</option>
+<option value="Baca County, Colorado">Baca County, Colorado</option>
+<option value="Bent County, Colorado">Bent County, Colorado</option>
+<option value="Boulder County, Colorado">Boulder County, Colorado</option>
+<option value="Broomfield County, Colorado">Broomfield County, Colorado</option>
+<option value="Chaffee County, Colorado">Chaffee County, Colorado</option>
+<option value="Cheyenne County, Colorado">Cheyenne County, Colorado</option>
+<option value="Clear Creek County, Colorado">Clear Creek County, Colorado</option>
+<option value="Conejos County, Colorado">Conejos County, Colorado</option>
+<option value="Costilla County, Colorado">Costilla County, Colorado</option>
+<option value="Crowley County, Colorado">Crowley County, Colorado</option>
+<option value="Custer County, Colorado">Custer County, Colorado</option>
+<option value="Delta County, Colorado">Delta County, Colorado</option>
+<option value="Denver County, Colorado">Denver County, Colorado</option>
+<option value="Dolores County, Colorado">Dolores County, Colorado</option>
+<option value="Douglas County, Colorado">Douglas County, Colorado</option>
+<option value="Eagle County, Colorado">Eagle County, Colorado</option>
+<option value="El Paso County, Colorado">El Paso County, Colorado</option>
+<option value="Elbert County, Colorado">Elbert County, Colorado</option>
+<option value="Fremont County, Colorado">Fremont County, Colorado</option>
+<option value="Garfield County, Colorado">Garfield County, Colorado</option>
+<option value="Gilpin County, Colorado">Gilpin County, Colorado</option>
+<option value="Grand County, Colorado">Grand County, Colorado</option>
+<option value="Gunnison County, Colorado">Gunnison County, Colorado</option>
+<option value="Hinsdale County, Colorado">Hinsdale County, Colorado</option>
+<option value="Huerfano County, Colorado">Huerfano County, Colorado</option>
+<option value="Jackson County, Colorado">Jackson County, Colorado</option>
+<option value="Jefferson County, Colorado">Jefferson County, Colorado</option>
+<option value="Kiowa County, Colorado">Kiowa County, Colorado</option>
+<option value="Kit Carson County, Colorado">Kit Carson County, Colorado</option>
+<option value="La Plata County, Colorado">La Plata County, Colorado</option>
+<option value="Lake County, Colorado">Lake County, Colorado</option>
+<option value="Larimer County, Colorado">Larimer County, Colorado</option>
+<option value="Las Animas County, Colorado">Las Animas County, Colorado</option>
+<option value="Lincoln County, Colorado">Lincoln County, Colorado</option>
+<option value="Logan County, Colorado">Logan County, Colorado</option>
+<option value="Mesa County, Colorado">Mesa County, Colorado</option>
+<option value="Mineral County, Colorado">Mineral County, Colorado</option>
+<option value="Moffat County, Colorado">Moffat County, Colorado</option>
+<option value="Montezuma County, Colorado">Montezuma County, Colorado</option>
+<option value="Montrose County, Colorado">Montrose County, Colorado</option>
+<option value="Morgan County, Colorado">Morgan County, Colorado</option>
+<option value="Otero County, Colorado">Otero County, Colorado</option>
+<option value="Ouray County, Colorado">Ouray County, Colorado</option>
+<option value="Park County, Colorado">Park County, Colorado</option>
+<option value="Phillips County, Colorado">Phillips County, Colorado</option>
+<option value="Pitkin County, Colorado">Pitkin County, Colorado</option>
+<option value="Prowers County, Colorado">Prowers County, Colorado</option>
+<option value="Pueblo County, Colorado">Pueblo County, Colorado</option>
+<option value="Rio Blanco County, Colorado">Rio Blanco County, Colorado</option>
+<option value="Rio Grande County, Colorado">Rio Grande County, Colorado</option>
+<option value="Routt County, Colorado">Routt County, Colorado</option>
+<option value="Saguache County, Colorado">Saguache County, Colorado</option>
+<option value="San Juan County, Colorado">San Juan County, Colorado</option>
+<option value="San Miguel County, Colorado">San Miguel County, Colorado</option>
+<option value="Sedgwick County, Colorado">Sedgwick County, Colorado</option>
+<option value="Summit County, Colorado">Summit County, Colorado</option>
+<option value="Teller County, Colorado">Teller County, Colorado</option>
+<option value="Washington County, Colorado">Washington County, Colorado</option>
+<option value="Weld County, Colorado">Weld County, Colorado</option>
+<option value="Yuma County, Colorado">Yuma County, Colorado</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.39,"Asian":3.16,"Black or African American":3.8,"Hispanic":22.22,"Pacific Islander":0.13,"Two or More Races":4.21,"White (non-Hispanic)":65.65},"Adams County, Colorado":{"American Indian / Alaska Native":0.32,"Asian":3.9,"Black or African American":3.28,"Hispanic":42.26,"Pacific Islander":0.15,"Two or More Races":3.31,"White (non-Hispanic)":46.24},"Alamosa County, Colorado":{"American Indian / Alaska Native":1.07,"Asian":0.42,"Black or African American":1.7,"Hispanic":47.84,"Pacific Islander":0.15,"Two or More Races":2.6,"White (non-Hispanic)":45.8},"Arapahoe County, Colorado":{"American Indian / Alaska Native":0.26,"Asian":5.94,"Black or African American":10.47,"Hispanic":21.18,"Pacific Islander":0.25,"Two or More Races":5.01,"White (non-Hispanic)":56.42},"Archuleta County, Colorado":{"American Indian / Alaska Native":0.68,"Asian":0.35,"Black or African American":0.01,"Hispanic":16.42,"Pacific Islander":0.28,"Two or More Races":4.13,"White (non-Hispanic)":77.28},"Baca County, Colorado":{"American Indian / Alaska Native":0.46,"Asian":2.51,"Black or African American":0.32,"Hispanic":10.69,"Pacific Islander":0,"Two or More Races":2.4,"White (non-Hispanic)":83.55},"Bent County, Colorado":{"American Indian / Alaska Native":1.39,"Asian":0.8,"Black or African American":3.48,"Hispanic":32.22,"Pacific Islander":0.09,"Two or More Races":7.33,"White (non-Hispanic)":54.69},"Boulder County, Colorado":{"American Indian / Alaska Native":0.16,"Asian":4.63,"Black or African American":0.75,"Hispanic":14.6,"Pacific Islander":0.06,"Two or More Races":4.17,"White (non-Hispanic)":75.33},"Broomfield County, Colorado":{"American Indian / Alaska Native":0.15,"Asian":6.72,"Black or African American":1.11,"Hispanic":13.82,"Pacific Islander":0,"Two or More Races":4.65,"White (non-Hispanic)":73.2},"Chaffee County, Colorado":{"American Indian / Alaska Native":0.31,"Asian":0.74,"Black or African American":0.96,"Hispanic":9.73,"Pacific Islander":0.24,"Two or More Races":3.45,"White (non-Hispanic)":84.53},"Cheyenne County, Colorado":{"American Indian / Alaska Native":0.06,"Asian":0.29,"Black or African American":1.1,"Hispanic":12.64,"Pacific Islander":0.35,"Two or More Races":6.58,"White (non-Hispanic)":78.87},"Clear Creek County, Colorado":{"American Indian / Alaska Native":0.64,"Asian":1.13,"Black or African American":1.11,"Hispanic":7.57,"Pacific Islander":0.12,"Two or More Races":2.3,"White (non-Hispanic)":86.4},"Conejos County, Colorado":{"American Indian / Alaska Native":1.09,"Asian":0.31,"Black or African American":0.16,"Hispanic":50.07,"Pacific Islander":0,"Two or More Races":1.43,"White (non-Hispanic)":46.22},"Costilla County, Colorado":{"American Indian / Alaska Native":0.14,"Asian":1.18,"Black or African American":2.18,"Hispanic":55.59,"Pacific Islander":0,"Two or More Races":4.03,"White (non-Hispanic)":36.88},"Crowley County, Colorado":{"American Indian / Alaska Native":3.92,"Asian":0.84,"Black or African American":5.96,"Hispanic":28.67,"Pacific Islander":0.35,"Two or More Races":4.27,"White (non-Hispanic)":55.98},"Custer County, Colorado":{"American Indian / Alaska Native":0.1,"Asian":1.12,"Black or African American":0,"Hispanic":1.81,"Pacific Islander":0,"Two or More Races":1.71,"White (non-Hispanic)":93.1},"Delta County, Colorado":{"American Indian / Alaska Native":0.35,"Asian":0.61,"Black or African American":0.78,"Hispanic":14.23,"Pacific Islander":0,"Two or More Races":2.48,"White (non-Hispanic)":80.51},"Denver County, Colorado":{"American Indian / Alaska Native":0.28,"Asian":3.53,"Black or African American":8.48,"Hispanic":27.94,"Pacific Islander":0.13,"Two or More Races":4.59,"White (non-Hispanic)":54.57},"Dolores County, Colorado":{"American Indian / Alaska Native":4.53,"Asian":0,"Black or African American":0,"Hispanic":12.41,"Pacific Islander":0,"Two or More Races":4.36,"White (non-Hispanic)":78.41},"Douglas County, Colorado":{"American Indian / Alaska Native":0.17,"Asian":5.53,"Black or African American":1.3,"Hispanic":9.89,"Pacific Islander":0.06,"Two or More Races":4.32,"White (non-Hispanic)":78.3},"Eagle County, Colorado":{"American Indian / Alaska Native":0.08,"Asian":1.27,"Black or African American":0.95,"Hispanic":30.21,"Pacific Islander":0.09,"Two or More Races":4.11,"White (non-Hispanic)":63.08},"El Paso County, Colorado":{"American Indian / Alaska Native":0.24,"Asian":2.76,"Black or African American":5.53,"Hispanic":18.33,"Pacific Islander":0.24,"Two or More Races":5.96,"White (non-Hispanic)":66.43},"Elbert County, Colorado":{"American Indian / Alaska Native":0.24,"Asian":0.88,"Black or African American":0.53,"Hispanic":8.61,"Pacific Islander":0.33,"Two or More Races":5.38,"White (non-Hispanic)":83.59},"Fremont County, Colorado":{"American Indian / Alaska Native":0.98,"Asian":0.81,"Black or African American":3.55,"Hispanic":12.96,"Pacific Islander":0.07,"Two or More Races":2.64,"White (non-Hispanic)":78.47},"Garfield County, Colorado":{"American Indian / Alaska Native":0.19,"Asian":0.82,"Black or African American":0.44,"Hispanic":32.03,"Pacific Islander":0.13,"Two or More Races":3.32,"White (non-Hispanic)":62.56},"Gilpin County, Colorado":{"American Indian / Alaska Native":0.54,"Asian":0.6,"Black or African American":1.11,"Hispanic":7.03,"Pacific Islander":0,"Two or More Races":5.51,"White (non-Hispanic)":85.06},"Grand County, Colorado":{"American Indian / Alaska Native":0.44,"Asian":0.27,"Black or African American":0.32,"Hispanic":9.96,"Pacific Islander":0,"Two or More Races":9.93,"White (non-Hispanic)":78.76},"Gunnison County, Colorado":{"American Indian / Alaska Native":0.15,"Asian":0.6,"Black or African American":0.47,"Hispanic":9.86,"Pacific Islander":0.1,"Two or More Races":3.53,"White (non-Hispanic)":84.65},"Hinsdale County, Colorado":{"American Indian / Alaska Native":2.77,"Asian":0,"Black or African American":2.02,"Hispanic":3.09,"Pacific Islander":0,"Two or More Races":6.28,"White (non-Hispanic)":85.84},"Huerfano County, Colorado":{"American Indian / Alaska Native":1.64,"Asian":0.27,"Black or African American":0,"Hispanic":30.82,"Pacific Islander":0,"Two or More Races":3.3,"White (non-Hispanic)":63.84},"Jackson County, Colorado":{"American Indian / Alaska Native":0.21,"Asian":0,"Black or African American":1.05,"Hispanic":13.29,"Pacific Islander":0,"Two or More Races":1.13,"White (non-Hispanic)":84.32},"Jefferson County, Colorado":{"American Indian / Alaska Native":0.3,"Asian":2.78,"Black or African American":1.05,"Hispanic":15.9,"Pacific Islander":0.06,"Two or More Races":3.67,"White (non-Hispanic)":75.94},"Kiowa County, Colorado":{"American Indian / Alaska Native":0.44,"Asian":0,"Black or African American":0,"Hispanic":9.81,"Pacific Islander":0,"Two or More Races":1.55,"White (non-Hispanic)":88.2},"Kit Carson County, Colorado":{"American Indian / Alaska Native":0.58,"Asian":0.33,"Black or African American":0.06,"Hispanic":19.71,"Pacific Islander":0,"Two or More Races":3.61,"White (non-Hispanic)":75.62},"La Plata County, Colorado":{"American Indian / Alaska Native":5.39,"Asian":0.79,"Black or African American":0.16,"Hispanic":12.75,"Pacific Islander":0,"Two or More Races":3.28,"White (non-Hispanic)":76.56},"Lake County, Colorado":{"American Indian / Alaska Native":0.66,"Asian":0.23,"Black or African American":0.09,"Hispanic":35.16,"Pacific Islander":0,"Two or More Races":5.78,"White (non-Hispanic)":57.32},"Larimer County, Colorado":{"American Indian / Alaska Native":0.28,"Asian":2.07,"Black or African American":0.91,"Hispanic":12.7,"Pacific Islander":0.08,"Two or More Races":3.51,"White (non-Hispanic)":79.91},"Las Animas County, Colorado":{"American Indian / Alaska Native":0.87,"Asian":1.28,"Black or African American":1.63,"Hispanic":39.01,"Pacific Islander":0.03,"Two or More Races":2.49,"White (non-Hispanic)":54.43},"Lincoln County, Colorado":{"American Indian / Alaska Native":0.9,"Asian":0,"Black or African American":5.66,"Hispanic":14.87,"Pacific Islander":0,"Two or More Races":3.29,"White (non-Hispanic)":75.22},"Logan County, Colorado":{"American Indian / Alaska Native":0.54,"Asian":0.53,"Black or African American":1.59,"Hispanic":16.76,"Pacific Islander":1.5,"Two or More Races":2.55,"White (non-Hispanic)":76.28},"Mesa County, Colorado":{"American Indian / Alaska Native":0.42,"Asian":0.92,"Black or African American":0.57,"Hispanic":15.23,"Pacific Islander":0.05,"Two or More Races":3.27,"White (non-Hispanic)":79.03},"Mineral County, Colorado":{"American Indian / Alaska Native":0.13,"Asian":0.88,"Black or African American":0,"Hispanic":2.38,"Pacific Islander":0,"Two or More Races":6.63,"White (non-Hispanic)":89.99},"Moffat County, Colorado":{"American Indian / Alaska Native":0.64,"Asian":0.3,"Black or African American":0.13,"Hispanic":16.43,"Pacific Islander":0.26,"Two or More Races":4.44,"White (non-Hispanic)":76.84},"Montezuma County, Colorado":{"American Indian / Alaska Native":8.63,"Asian":0.92,"Black or African American":1.23,"Hispanic":12.38,"Pacific Islander":0,"Two or More Races":5.02,"White (non-Hispanic)":71.31},"Montrose County, Colorado":{"American Indian / Alaska Native":0.64,"Asian":0.54,"Black or African American":0.3,"Hispanic":21.25,"Pacific Islander":0.02,"Two or More Races":2.98,"White (non-Hispanic)":74.02},"Morgan County, Colorado":{"American Indian / Alaska Native":0.15,"Asian":0.61,"Black or African American":3.05,"Hispanic":37.41,"Pacific Islander":0.07,"Two or More Races":2.48,"White (non-Hispanic)":56.1},"Otero County, Colorado":{"American Indian / Alaska Native":0.4,"Asian":0.73,"Black or African American":0.98,"Hispanic":41.7,"Pacific Islander":0,"Two or More Races":2.69,"White (non-Hispanic)":52.15},"Ouray County, Colorado":{"American Indian / Alaska Native":0,"Asian":0.4,"Black or African American":0.8,"Hispanic":4.74,"Pacific Islander":0,"Two or More Races":4.52,"White (non-Hispanic)":89.35},"Park County, Colorado":{"American Indian / Alaska Native":0.37,"Asian":1.09,"Black or African American":0.8,"Hispanic":7.41,"Pacific Islander":0,"Two or More Races":3.34,"White (non-Hispanic)":86.77},"Phillips County, Colorado":{"American Indian / Alaska Native":0,"Asian":0.13,"Black or African American":0,"Hispanic":27.03,"Pacific Islander":0,"Two or More Races":0.98,"White (non-Hispanic)":71.41},"Pitkin County, Colorado":{"American Indian / Alaska Native":0.32,"Asian":2.34,"Black or African American":0.37,"Hispanic":11.12,"Pacific Islander":0,"Two or More Races":5.13,"White (non-Hispanic)":80.48},"Prowers County, Colorado":{"American Indian / Alaska Native":0.16,"Asian":0.52,"Black or African American":0.7,"Hispanic":39.81,"Pacific Islander":0,"Two or More Races":2.76,"White (non-Hispanic)":55.98},"Pueblo County, Colorado":{"American Indian / Alaska Native":0.57,"Asian":0.74,"Black or African American":1.8,"Hispanic":41.97,"Pacific Islander":0.06,"Two or More Races":2.83,"White (non-Hispanic)":51.63},"Rio Blanco County, Colorado":{"American Indian / Alaska Native":0.81,"Asian":0.35,"Black or African American":0.09,"Hispanic":10.51,"Pacific Islander":0,"Two or More Races":5.85,"White (non-Hispanic)":82.39},"Rio Grande County, Colorado":{"American Indian / Alaska Native":1.4,"Asian":0.1,"Black or African American":0.4,"Hispanic":40.64,"Pacific Islander":0,"Two or More Races":2.13,"White (non-Hispanic)":55.15},"Routt County, Colorado":{"American Indian / Alaska Native":0.37,"Asian":0.84,"Black or African American":0.14,"Hispanic":8.72,"Pacific Islander":0.14,"Two or More Races":7.7,"White (non-Hispanic)":81.44},"Saguache County, Colorado":{"American Indian / Alaska Native":0.35,"Asian":0.81,"Black or African American":0.74,"Hispanic":36.92,"Pacific Islander":0,"Two or More Races":5.08,"White (non-Hispanic)":56.09},"San Juan County, Colorado":{"American Indian / Alaska Native":1.16,"Asian":0,"Black or African American":0,"Hispanic":16.23,"Pacific Islander":0,"Two or More Races":3.77,"White (non-Hispanic)":78.84},"San Miguel County, Colorado":{"American Indian / Alaska Native":0.67,"Asian":0.24,"Black or African American":0.7,"Hispanic":11.29,"Pacific Islander":0,"Two or More Races":2.33,"White (non-Hispanic)":84.6},"Sedgwick County, Colorado":{"American Indian / Alaska Native":0.13,"Asian":1.58,"Black or African American":0.9,"Hispanic":18.63,"Pacific Islander":0,"Two or More Races":2.73,"White (non-Hispanic)":75.4},"Summit County, Colorado":{"American Indian / Alaska Native":0.3,"Asian":1.49,"Black or African American":0.37,"Hispanic":16.91,"Pacific Islander":0.51,"Two or More Races":5.34,"White (non-Hispanic)":74.93},"Teller County, Colorado":{"American Indian / Alaska Native":0.01,"Asian":0.41,"Black or African American":0.95,"Hispanic":7.39,"Pacific Islander":0.04,"Two or More Races":6.19,"White (non-Hispanic)":84.45},"Washington County, Colorado":{"American Indian / Alaska Native":0,"Asian":0.39,"Black or African American":1.12,"Hispanic":11.32,"Pacific Islander":0.02,"Two or More Races":2.15,"White (non-Hispanic)":84.75},"Weld County, Colorado":{"American Indian / Alaska Native":0.22,"Asian":1.58,"Black or African American":1.23,"Hispanic":30.47,"Pacific Islander":0.06,"Two or More Races":3,"White (non-Hispanic)":63.05},"Yuma County, Colorado":{"American Indian / Alaska Native":0.85,"Asian":0,"Black or African American":0.12,"Hispanic":28.85,"Pacific Islander":0,"Two or More Races":1.49,"White (non-Hispanic)":68.22}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

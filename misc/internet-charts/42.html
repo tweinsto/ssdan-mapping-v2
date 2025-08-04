@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Internet Access Over Time –  Pennsylvania</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>body { font-family: sans-serif; margin: 1rem 2rem; text-align: center; }
+                      h2 { margin-bottom: 0.25rem; font-size: 1.6rem; }
+                      select { padding: 0.4rem; font-size: 1rem; margin: 1rem 0; border-radius: 5px; border: 1px solid #999; }
+                      canvas { width: 100%; max-width: 850px; height: 450px; margin-top: 1rem; }</style>
+</head>
+<html>
+  <body>
+    <h2>Internet Access in  Pennsylvania (2013–2023)</h2>
+    <label>Select County: </label>
+    <select id="countySelect"><option value='Statewide'>Statewide</option>
+<option value='Adams County, Pennsylvania'>Adams County, Pennsylvania</option>
+<option value='Allegheny County, Pennsylvania'>Allegheny County, Pennsylvania</option>
+<option value='Armstrong County, Pennsylvania'>Armstrong County, Pennsylvania</option>
+<option value='Beaver County, Pennsylvania'>Beaver County, Pennsylvania</option>
+<option value='Berks County, Pennsylvania'>Berks County, Pennsylvania</option>
+<option value='Blair County, Pennsylvania'>Blair County, Pennsylvania</option>
+<option value='Bucks County, Pennsylvania'>Bucks County, Pennsylvania</option>
+<option value='Butler County, Pennsylvania'>Butler County, Pennsylvania</option>
+<option value='Cambria County, Pennsylvania'>Cambria County, Pennsylvania</option>
+<option value='Carbon County, Pennsylvania'>Carbon County, Pennsylvania</option>
+<option value='Centre County, Pennsylvania'>Centre County, Pennsylvania</option>
+<option value='Chester County, Pennsylvania'>Chester County, Pennsylvania</option>
+<option value='Clearfield County, Pennsylvania'>Clearfield County, Pennsylvania</option>
+<option value='Columbia County, Pennsylvania'>Columbia County, Pennsylvania</option>
+<option value='Crawford County, Pennsylvania'>Crawford County, Pennsylvania</option>
+<option value='Cumberland County, Pennsylvania'>Cumberland County, Pennsylvania</option>
+<option value='Dauphin County, Pennsylvania'>Dauphin County, Pennsylvania</option>
+<option value='Delaware County, Pennsylvania'>Delaware County, Pennsylvania</option>
+<option value='Erie County, Pennsylvania'>Erie County, Pennsylvania</option>
+<option value='Fayette County, Pennsylvania'>Fayette County, Pennsylvania</option>
+<option value='Franklin County, Pennsylvania'>Franklin County, Pennsylvania</option>
+<option value='Indiana County, Pennsylvania'>Indiana County, Pennsylvania</option>
+<option value='Lackawanna County, Pennsylvania'>Lackawanna County, Pennsylvania</option>
+<option value='Lancaster County, Pennsylvania'>Lancaster County, Pennsylvania</option>
+<option value='Lawrence County, Pennsylvania'>Lawrence County, Pennsylvania</option>
+<option value='Lebanon County, Pennsylvania'>Lebanon County, Pennsylvania</option>
+<option value='Lehigh County, Pennsylvania'>Lehigh County, Pennsylvania</option>
+<option value='Luzerne County, Pennsylvania'>Luzerne County, Pennsylvania</option>
+<option value='Lycoming County, Pennsylvania'>Lycoming County, Pennsylvania</option>
+<option value='Mercer County, Pennsylvania'>Mercer County, Pennsylvania</option>
+<option value='Monroe County, Pennsylvania'>Monroe County, Pennsylvania</option>
+<option value='Montgomery County, Pennsylvania'>Montgomery County, Pennsylvania</option>
+<option value='Northampton County, Pennsylvania'>Northampton County, Pennsylvania</option>
+<option value='Northumberland County, Pennsylvania'>Northumberland County, Pennsylvania</option>
+<option value='Philadelphia County, Pennsylvania'>Philadelphia County, Pennsylvania</option>
+<option value='Schuylkill County, Pennsylvania'>Schuylkill County, Pennsylvania</option>
+<option value='Somerset County, Pennsylvania'>Somerset County, Pennsylvania</option>
+<option value='Washington County, Pennsylvania'>Washington County, Pennsylvania</option>
+<option value='Westmoreland County, Pennsylvania'>Westmoreland County, Pennsylvania</option>
+<option value='York County, Pennsylvania'>York County, Pennsylvania</option></select>
+    <canvas id="lineChart" width="850" height="450"></canvas>
+    <script>const internetData = {"Statewide":{"2013":74,"2014":75.1,"2015":76.8,"2016":81.3,"2017":82.3,"2018":84.8,"2019":86.3,"2021":89.4,"2022":90.4,"2023":91.5},"Adams County, Pennsylvania":{"2013":76.3,"2014":74.1,"2015":75.9,"2016":80.8,"2017":80,"2018":87,"2019":86.1,"2021":87.9,"2022":89.1,"2023":89.9},"Allegheny County, Pennsylvania":{"2013":75.1,"2014":76.1,"2015":78.2,"2016":83.7,"2017":84.8,"2018":87.2,"2019":87.7,"2021":90.8,"2022":90.4,"2023":92.7},"Armstrong County, Pennsylvania":{"2013":72.2,"2014":71.6,"2015":71.1,"2016":71.8,"2017":75,"2018":78.9,"2019":79.8,"2021":83.3,"2022":88.3,"2023":87.9},"Beaver County, Pennsylvania":{"2013":72.8,"2014":73.3,"2015":77.3,"2016":78.5,"2017":81.3,"2018":83.7,"2019":85.4,"2021":87.3,"2022":90.7,"2023":90.2},"Berks County, Pennsylvania":{"2013":74.2,"2014":75.2,"2015":80.1,"2016":84,"2017":84.1,"2018":83.3,"2019":85,"2021":88.7,"2022":89.5,"2023":92.3},"Blair County, Pennsylvania":{"2013":70.3,"2014":66.2,"2015":71.8,"2016":75.2,"2017":81.7,"2018":81.2,"2019":84.5,"2021":87.4,"2022":86.4,"2023":88},"Bucks County, Pennsylvania":{"2013":84.8,"2014":85.1,"2015":86.7,"2016":87.8,"2017":88.9,"2018":90.5,"2019":91.7,"2021":93.9,"2022":94.8,"2023":95.4},"Butler County, Pennsylvania":{"2013":78.9,"2014":77.4,"2015":81.9,"2016":85.8,"2017":86.5,"2018":86.7,"2019":85.7,"2021":90.3,"2022":91.2,"2023":90.9},"Cambria County, Pennsylvania":{"2013":68.7,"2014":71.1,"2015":71.5,"2016":74.9,"2017":79.8,"2018":78.2,"2019":82.6,"2021":86,"2022":85.4,"2023":87},"Carbon County, Pennsylvania":{"2013":70.8,"2014":71.8,"2015":74.9,"2016":80.7,"2017":80.2,"2018":82.6,"2019":83.4,"2021":90.6,"2022":89,"2023":88.8},"Centre County, Pennsylvania":{"2013":83.5,"2014":80.6,"2015":77.4,"2016":86,"2017":83.3,"2018":85,"2019":82.9,"2021":87.4,"2022":88.1,"2023":89},"Chester County, Pennsylvania":{"2013":84.4,"2014":85.9,"2015":86,"2016":87.3,"2017":89.2,"2018":90.7,"2019":92.3,"2021":94,"2022":95.3,"2023":95},"Clearfield County, Pennsylvania":{"2013":63.8,"2014":68,"2015":66,"2016":73.1,"2017":74.6,"2018":79.5,"2019":77.4,"2021":83.3,"2022":84.3,"2023":87.6},"Columbia County, Pennsylvania":{"2013":68.5,"2014":70.4,"2015":72.7,"2016":78.2,"2017":82.7,"2018":79.6,"2019":81.3,"2023":88.1},"Crawford County, Pennsylvania":{"2013":72.7,"2014":70.3,"2015":73.4,"2016":78.1,"2017":76.9,"2018":83.7,"2019":81.9,"2021":85,"2022":85.5,"2023":87.7},"Cumberland County, Pennsylvania":{"2013":76.6,"2014":77.8,"2015":80.7,"2016":84.8,"2017":86.6,"2018":87.3,"2019":87.6,"2021":92.6,"2022":92.6,"2023":92.9},"Dauphin County, Pennsylvania":{"2013":77.1,"2014":74.5,"2015":77.4,"2016":83.8,"2017":82.1,"2018":83.2,"2019":85.2,"2021":89.6,"2022":91.3,"2023":90.7},"Delaware County, Pennsylvania":{"2013":79.5,"2014":79.8,"2015":80.2,"2016":85.9,"2017":88.1,"2018":88.4,"2019":89.3,"2021":93.8,"2022":93,"2023":95.1},"Erie County, Pennsylvania":{"2013":72.6,"2014":74,"2015":78.1,"2016":79.5,"2017":83.1,"2018":85.3,"2019":84.1,"2021":87,"2022":89.8,"2023":91.2},"Fayette County, Pennsylvania":{"2013":57.3,"2014":65.2,"2015":67,"2016":74.8,"2017":78.3,"2018":78.1,"2019":80.1,"2021":85.2,"2022":85.4,"2023":85.7},"Franklin County, Pennsylvania":{"2013":71,"2014":71.5,"2015":75.3,"2016":79,"2017":82.9,"2018":82,"2019":86.8,"2021":87.8,"2022":88.4,"2023":91.2},"Indiana County, Pennsylvania":{"2013":68.1,"2014":69.1,"2015":69.7,"2016":72.4,"2017":76.2,"2018":79.1,"2019":76.7,"2021":80.5,"2022":79.8,"2023":81.6},"Lackawanna County, Pennsylvania":{"2013":70.5,"2014":68.8,"2015":73.8,"2016":75.9,"2017":80.8,"2018":84.1,"2019":87.3,"2021":87.5,"2022":89.8,"2023":90.1},"Lancaster County, Pennsylvania":{"2013":72.2,"2014":73.2,"2015":74.4,"2016":79.1,"2017":77.9,"2018":81.4,"2019":83.7,"2021":87.7,"2022":88.6,"2023":89.1},"Lawrence County, Pennsylvania":{"2013":67,"2014":68.4,"2015":70.2,"2016":75.7,"2017":80.5,"2018":83.5,"2019":83.9,"2021":86.5,"2022":86.8,"2023":89.5},"Lebanon County, Pennsylvania":{"2013":73.3,"2014":73,"2015":73.6,"2016":81.8,"2017":80.5,"2018":87.4,"2019":83.2,"2021":87.5,"2022":88.5,"2023":89.2},"Lehigh County, Pennsylvania":{"2013":74.9,"2014":78.1,"2015":79.1,"2016":82.5,"2017":84.8,"2018":85.6,"2019":86.9,"2021":87.8,"2022":91,"2023":91},"Luzerne County, Pennsylvania":{"2013":68.3,"2014":70,"2015":70,"2016":74.9,"2017":79.6,"2018":82.1,"2019":83.9,"2021":87.4,"2022":89.2,"2023":88.8},"Lycoming County, Pennsylvania":{"2013":67.1,"2014":69.1,"2015":69.2,"2016":79.8,"2017":82,"2018":82.2,"2019":82.9,"2021":87.3,"2022":88.9,"2023":88.9},"Mercer County, Pennsylvania":{"2013":67.7,"2014":72.2,"2015":70.8,"2016":81.4,"2017":80.2,"2018":81.6,"2019":83,"2021":83.8,"2022":88.7,"2023":89},"Monroe County, Pennsylvania":{"2013":79.9,"2014":79.1,"2015":79,"2016":83.3,"2017":86.7,"2018":87.5,"2019":90.1,"2021":92.6,"2022":93.3,"2023":92.9},"Montgomery County, Pennsylvania":{"2013":83.8,"2014":86,"2015":85.8,"2016":89,"2017":89.8,"2018":91.7,"2019":92.5,"2021":94.4,"2022":94.5,"2023":95.3},"Northampton County, Pennsylvania":{"2013":75.6,"2014":76.8,"2015":80.3,"2016":83.7,"2017":83.7,"2018":84.5,"2019":84.9,"2021":90,"2022":90.4,"2023":91.7},"Northumberland County, Pennsylvania":{"2013":67.5,"2014":64.6,"2015":65,"2016":71,"2017":77.6,"2018":78,"2019":78.1,"2021":82.5,"2022":84.7,"2023":88.1},"Philadelphia County, Pennsylvania":{"2013":65.4,"2014":68.1,"2015":70.5,"2016":74.6,"2017":71.9,"2018":80,"2019":84.3,"2021":86.9,"2022":89.7,"2023":91.1},"Schuylkill County, Pennsylvania":{"2013":65.7,"2014":68.4,"2015":73.3,"2016":75.3,"2017":78.6,"2018":77.7,"2019":80.7,"2021":84.7,"2022":86.8,"2023":87.1},"Somerset County, Pennsylvania":{"2013":66.6,"2014":70.1,"2015":64.3,"2016":72,"2017":73,"2018":75.4,"2019":75.6,"2021":80.5,"2022":81.1,"2023":84.1},"Washington County, Pennsylvania":{"2013":73.8,"2014":74.7,"2015":75.7,"2016":83.6,"2017":83.6,"2018":85.2,"2019":87.4,"2021":89.6,"2022":89.3,"2023":92.8},"Westmoreland County, Pennsylvania":{"2013":70.7,"2014":72.3,"2015":73.1,"2016":80.3,"2017":81.4,"2018":84.2,"2019":84.5,"2021":87.7,"2022":88.9,"2023":90.5},"York County, Pennsylvania":{"2013":73.8,"2014":73.2,"2015":74.5,"2016":82.1,"2017":83.8,"2018":84.2,"2019":87.4,"2021":90,"2022":90.4,"2023":91.6}};
+const ctx = document.getElementById('lineChart').getContext('2d');
+let chart;
+
+function renderChart(data) {
+  const labels = Object.keys(data);
+  const values = Object.values(data);
+
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: '% With Internet',
+        data: values,
+        fill: false,
+        borderColor: 'teal',
+        backgroundColor: 'teal',
+        tension: 0.3,
+        pointRadius: 4
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100,
+          title: { display: true, text: '% With Internet' }
+        },
+        x: {
+          title: { display: true, text: 'Year' }
+        }
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function(ctx) {
+              return ctx.parsed.y.toFixed(1) + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  renderChart(internetData[this.value]);
+});
+renderChart(internetData['Statewide']);</script>
+  </body>
+</html>
+</html>

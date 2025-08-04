@@ -1,0 +1,4427 @@
+{
+  "state": "Accomack County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10473
+        },
+        {
+          "label": "Asian",
+          "value": 589324
+        },
+        {
+          "label": "Black or African American",
+          "value": 1595267
+        },
+        {
+          "label": "Hispanic",
+          "value": 929140
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4893
+        },
+        {
+          "label": "Two or More Races",
+          "value": 372134
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5109807
+        }
+      ]
+    },
+    "Accomack County, Virginia": {
+      "label": "Accomack County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 285
+        },
+        {
+          "label": "Black or African American",
+          "value": 9037
+        },
+        {
+          "label": "Hispanic",
+          "value": 3528
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 933
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19423
+        }
+      ]
+    },
+    "Albemarle County, Virginia": {
+      "label": "Albemarle County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 59
+        },
+        {
+          "label": "Asian",
+          "value": 6278
+        },
+        {
+          "label": "Black or African American",
+          "value": 9989
+        },
+        {
+          "label": "Hispanic",
+          "value": 8348
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 34
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4450
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 84141
+        }
+      ]
+    },
+    "Alexandria city, Virginia": {
+      "label": "Alexandria city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 243
+        },
+        {
+          "label": "Asian",
+          "value": 9780
+        },
+        {
+          "label": "Black or African American",
+          "value": 32396
+        },
+        {
+          "label": "Hispanic",
+          "value": 28540
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 43
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7312
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 77751
+        }
+      ]
+    },
+    "Alleghany County, Virginia": {
+      "label": "Alleghany County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 10
+        },
+        {
+          "label": "Black or African American",
+          "value": 828
+        },
+        {
+          "label": "Hispanic",
+          "value": 225
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 225
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13674
+        }
+      ]
+    },
+    "Amelia County, Virginia": {
+      "label": "Amelia County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 2710
+        },
+        {
+          "label": "Hispanic",
+          "value": 252
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 601
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9778
+        }
+      ]
+    },
+    "Amherst County, Virginia": {
+      "label": "Amherst County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 198
+        },
+        {
+          "label": "Asian",
+          "value": 197
+        },
+        {
+          "label": "Black or African American",
+          "value": 5496
+        },
+        {
+          "label": "Hispanic",
+          "value": 890
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 20
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1030
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23205
+        }
+      ]
+    },
+    "Appomattox County, Virginia": {
+      "label": "Appomattox County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 25
+        },
+        {
+          "label": "Black or African American",
+          "value": 2799
+        },
+        {
+          "label": "Hispanic",
+          "value": 368
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 436
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12498
+        }
+      ]
+    },
+    "Arlington County, Virginia": {
+      "label": "Arlington County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 339
+        },
+        {
+          "label": "Asian",
+          "value": 24656
+        },
+        {
+          "label": "Black or African American",
+          "value": 21676
+        },
+        {
+          "label": "Hispanic",
+          "value": 37054
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 56
+        },
+        {
+          "label": "Two or More Races",
+          "value": 11758
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 138514
+        }
+      ]
+    },
+    "Augusta County, Virginia": {
+      "label": "Augusta County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 127
+        },
+        {
+          "label": "Asian",
+          "value": 316
+        },
+        {
+          "label": "Black or African American",
+          "value": 3314
+        },
+        {
+          "label": "Hispanic",
+          "value": 2931
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 78
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1923
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 68690
+        }
+      ]
+    },
+    "Bath County, Virginia": {
+      "label": "Bath County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 18
+        },
+        {
+          "label": "Black or African American",
+          "value": 155
+        },
+        {
+          "label": "Hispanic",
+          "value": 153
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 25
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3733
+        }
+      ]
+    },
+    "Bedford County, Virginia": {
+      "label": "Bedford County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 83
+        },
+        {
+          "label": "Asian",
+          "value": 890
+        },
+        {
+          "label": "Black or African American",
+          "value": 4791
+        },
+        {
+          "label": "Hispanic",
+          "value": 2174
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2924
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 68692
+        }
+      ]
+    },
+    "Bland County, Virginia": {
+      "label": "Bland County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 17
+        },
+        {
+          "label": "Black or African American",
+          "value": 288
+        },
+        {
+          "label": "Hispanic",
+          "value": 41
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 80
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5780
+        }
+      ]
+    },
+    "Botetourt County, Virginia": {
+      "label": "Botetourt County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 38
+        },
+        {
+          "label": "Asian",
+          "value": 199
+        },
+        {
+          "label": "Black or African American",
+          "value": 800
+        },
+        {
+          "label": "Hispanic",
+          "value": 803
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 84
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1016
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30773
+        }
+      ]
+    },
+    "Bristol city, Virginia": {
+      "label": "Bristol city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 56
+        },
+        {
+          "label": "Black or African American",
+          "value": 1136
+        },
+        {
+          "label": "Hispanic",
+          "value": 458
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 13
+        },
+        {
+          "label": "Two or More Races",
+          "value": 725
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14524
+        }
+      ]
+    },
+    "Brunswick County, Virginia": {
+      "label": "Brunswick County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 22
+        },
+        {
+          "label": "Asian",
+          "value": 74
+        },
+        {
+          "label": "Black or African American",
+          "value": 8443
+        },
+        {
+          "label": "Hispanic",
+          "value": 434
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 394
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6498
+        }
+      ]
+    },
+    "Buchanan County, Virginia": {
+      "label": "Buchanan County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 50
+        },
+        {
+          "label": "Black or African American",
+          "value": 468
+        },
+        {
+          "label": "Hispanic",
+          "value": 202
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 137
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19000
+        }
+      ]
+    },
+    "Buckingham County, Virginia": {
+      "label": "Buckingham County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 33
+        },
+        {
+          "label": "Black or African American",
+          "value": 5402
+        },
+        {
+          "label": "Hispanic",
+          "value": 434
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 722
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10279
+        }
+      ]
+    },
+    "Buena Vista city, Virginia": {
+      "label": "Buena Vista city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 37
+        },
+        {
+          "label": "Black or African American",
+          "value": 105
+        },
+        {
+          "label": "Hispanic",
+          "value": 63
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 710
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5659
+        }
+      ]
+    },
+    "Campbell County, Virginia": {
+      "label": "Campbell County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 76
+        },
+        {
+          "label": "Asian",
+          "value": 584
+        },
+        {
+          "label": "Black or African American",
+          "value": 7942
+        },
+        {
+          "label": "Hispanic",
+          "value": 1862
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 36
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1836
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 42795
+        }
+      ]
+    },
+    "Caroline County, Virginia": {
+      "label": "Caroline County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 121
+        },
+        {
+          "label": "Asian",
+          "value": 376
+        },
+        {
+          "label": "Black or African American",
+          "value": 7412
+        },
+        {
+          "label": "Hispanic",
+          "value": 2220
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1633
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19405
+        }
+      ]
+    },
+    "Carroll County, Virginia": {
+      "label": "Carroll County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 44
+        },
+        {
+          "label": "Black or African American",
+          "value": 97
+        },
+        {
+          "label": "Hispanic",
+          "value": 1128
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 526
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27309
+        }
+      ]
+    },
+    "Charles City County, Virginia": {
+      "label": "Charles City County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 379
+        },
+        {
+          "label": "Asian",
+          "value": 80
+        },
+        {
+          "label": "Black or African American",
+          "value": 2697
+        },
+        {
+          "label": "Hispanic",
+          "value": 133
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 409
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2964
+        }
+      ]
+    },
+    "Charlotte County, Virginia": {
+      "label": "Charlotte County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 20
+        },
+        {
+          "label": "Black or African American",
+          "value": 2875
+        },
+        {
+          "label": "Hispanic",
+          "value": 282
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 441
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7844
+        }
+      ]
+    },
+    "Charlottesville city, Virginia": {
+      "label": "Charlottesville city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 34
+        },
+        {
+          "label": "Asian",
+          "value": 3209
+        },
+        {
+          "label": "Black or African American",
+          "value": 7716
+        },
+        {
+          "label": "Hispanic",
+          "value": 3103
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1993
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29533
+        }
+      ]
+    },
+    "Chesapeake city, Virginia": {
+      "label": "Chesapeake city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 267
+        },
+        {
+          "label": "Asian",
+          "value": 9290
+        },
+        {
+          "label": "Black or African American",
+          "value": 71677
+        },
+        {
+          "label": "Hispanic",
+          "value": 18598
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 108
+        },
+        {
+          "label": "Two or More Races",
+          "value": 12958
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 136706
+        }
+      ]
+    },
+    "Chesterfield County, Virginia": {
+      "label": "Chesterfield County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 235
+        },
+        {
+          "label": "Asian",
+          "value": 13013
+        },
+        {
+          "label": "Black or African American",
+          "value": 85344
+        },
+        {
+          "label": "Hispanic",
+          "value": 42400
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 206
+        },
+        {
+          "label": "Two or More Races",
+          "value": 14356
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 213334
+        }
+      ]
+    },
+    "Clarke County, Virginia": {
+      "label": "Clarke County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 38
+        },
+        {
+          "label": "Asian",
+          "value": 169
+        },
+        {
+          "label": "Black or African American",
+          "value": 740
+        },
+        {
+          "label": "Hispanic",
+          "value": 1063
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 442
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12532
+        }
+      ]
+    },
+    "Colonial Heights city, Virginia": {
+      "label": "Colonial Heights city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 52
+        },
+        {
+          "label": "Asian",
+          "value": 625
+        },
+        {
+          "label": "Black or African American",
+          "value": 3237
+        },
+        {
+          "label": "Hispanic",
+          "value": 1392
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 655
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12198
+        }
+      ]
+    },
+    "Covington city, Virginia": {
+      "label": "Covington city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 67
+        },
+        {
+          "label": "Black or African American",
+          "value": 700
+        },
+        {
+          "label": "Hispanic",
+          "value": 184
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 206
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4514
+        }
+      ]
+    },
+    "Craig County, Virginia": {
+      "label": "Craig County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 3
+        },
+        {
+          "label": "Hispanic",
+          "value": 38
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 115
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4648
+        }
+      ]
+    },
+    "Culpeper County, Virginia": {
+      "label": "Culpeper County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 142
+        },
+        {
+          "label": "Asian",
+          "value": 619
+        },
+        {
+          "label": "Black or African American",
+          "value": 6872
+        },
+        {
+          "label": "Hispanic",
+          "value": 7912
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 28
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2646
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 35089
+        }
+      ]
+    },
+    "Cumberland County, Virginia": {
+      "label": "Cumberland County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 2807
+        },
+        {
+          "label": "Hispanic",
+          "value": 172
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 517
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6235
+        }
+      ]
+    },
+    "Danville city, Virginia": {
+      "label": "Danville city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 30
+        },
+        {
+          "label": "Asian",
+          "value": 570
+        },
+        {
+          "label": "Black or African American",
+          "value": 21229
+        },
+        {
+          "label": "Hispanic",
+          "value": 2205
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1527
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16644
+        }
+      ]
+    },
+    "Dickenson County, Virginia": {
+      "label": "Dickenson County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 31
+        },
+        {
+          "label": "Black or African American",
+          "value": 141
+        },
+        {
+          "label": "Hispanic",
+          "value": 101
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 43
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13580
+        }
+      ]
+    },
+    "Dinwiddie County, Virginia": {
+      "label": "Dinwiddie County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 174
+        },
+        {
+          "label": "Black or African American",
+          "value": 8595
+        },
+        {
+          "label": "Hispanic",
+          "value": 1170
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 448
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17511
+        }
+      ]
+    },
+    "Emporia city, Virginia": {
+      "label": "Emporia city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 33
+        },
+        {
+          "label": "Black or African American",
+          "value": 3581
+        },
+        {
+          "label": "Hispanic",
+          "value": 473
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 444
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1102
+        }
+      ]
+    },
+    "Essex County, Virginia": {
+      "label": "Essex County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 56
+        },
+        {
+          "label": "Black or African American",
+          "value": 3961
+        },
+        {
+          "label": "Hispanic",
+          "value": 461
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 392
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5705
+        }
+      ]
+    },
+    "Fairfax city, Virginia": {
+      "label": "Fairfax city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 21
+        },
+        {
+          "label": "Asian",
+          "value": 4419
+        },
+        {
+          "label": "Black or African American",
+          "value": 1565
+        },
+        {
+          "label": "Hispanic",
+          "value": 4483
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 971
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12850
+        }
+      ]
+    },
+    "Fairfax County, Virginia": {
+      "label": "Fairfax County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1132
+        },
+        {
+          "label": "Asian",
+          "value": 227232
+        },
+        {
+          "label": "Black or African American",
+          "value": 109882
+        },
+        {
+          "label": "Hispanic",
+          "value": 199153
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 514
+        },
+        {
+          "label": "Two or More Races",
+          "value": 54505
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 543842
+        }
+      ]
+    },
+    "Falls Church city, Virginia": {
+      "label": "Falls Church city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 1339
+        },
+        {
+          "label": "Black or African American",
+          "value": 703
+        },
+        {
+          "label": "Hispanic",
+          "value": 1555
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 800
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9996
+        }
+      ]
+    },
+    "Fauquier County, Virginia": {
+      "label": "Fauquier County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 1277
+        },
+        {
+          "label": "Black or African American",
+          "value": 4592
+        },
+        {
+          "label": "Hispanic",
+          "value": 8624
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 20
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3091
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 55960
+        }
+      ]
+    },
+    "Floyd County, Virginia": {
+      "label": "Floyd County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 65
+        },
+        {
+          "label": "Black or African American",
+          "value": 433
+        },
+        {
+          "label": "Hispanic",
+          "value": 471
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 166
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14382
+        }
+      ]
+    },
+    "Fluvanna County, Virginia": {
+      "label": "Fluvanna County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 44
+        },
+        {
+          "label": "Asian",
+          "value": 241
+        },
+        {
+          "label": "Black or African American",
+          "value": 3512
+        },
+        {
+          "label": "Hispanic",
+          "value": 1212
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1458
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20953
+        }
+      ]
+    },
+    "Franklin city, Virginia": {
+      "label": "Franklin city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 188
+        },
+        {
+          "label": "Black or African American",
+          "value": 4244
+        },
+        {
+          "label": "Hispanic",
+          "value": 259
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 419
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3102
+        }
+      ]
+    },
+    "Franklin County, Virginia": {
+      "label": "Franklin County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 386
+        },
+        {
+          "label": "Black or African American",
+          "value": 4249
+        },
+        {
+          "label": "Hispanic",
+          "value": 1982
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1109
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 47191
+        }
+      ]
+    },
+    "Frederick County, Virginia": {
+      "label": "Frederick County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 57
+        },
+        {
+          "label": "Asian",
+          "value": 1753
+        },
+        {
+          "label": "Black or African American",
+          "value": 3888
+        },
+        {
+          "label": "Hispanic",
+          "value": 10952
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 97
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2813
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 73410
+        }
+      ]
+    },
+    "Fredericksburg city, Virginia": {
+      "label": "Fredericksburg city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 30
+        },
+        {
+          "label": "Asian",
+          "value": 1053
+        },
+        {
+          "label": "Black or African American",
+          "value": 5617
+        },
+        {
+          "label": "Hispanic",
+          "value": 3508
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2149
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15795
+        }
+      ]
+    },
+    "Galax city, Virginia": {
+      "label": "Galax city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 10
+        },
+        {
+          "label": "Black or African American",
+          "value": 327
+        },
+        {
+          "label": "Hispanic",
+          "value": 1057
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 156
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5076
+        }
+      ]
+    },
+    "Giles County, Virginia": {
+      "label": "Giles County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 84
+        },
+        {
+          "label": "Black or African American",
+          "value": 373
+        },
+        {
+          "label": "Hispanic",
+          "value": 280
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 19
+        },
+        {
+          "label": "Two or More Races",
+          "value": 186
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15666
+        }
+      ]
+    },
+    "Gloucester County, Virginia": {
+      "label": "Gloucester County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 26
+        },
+        {
+          "label": "Asian",
+          "value": 304
+        },
+        {
+          "label": "Black or African American",
+          "value": 3192
+        },
+        {
+          "label": "Hispanic",
+          "value": 1586
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1499
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32546
+        }
+      ]
+    },
+    "Goochland County, Virginia": {
+      "label": "Goochland County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 423
+        },
+        {
+          "label": "Black or African American",
+          "value": 3677
+        },
+        {
+          "label": "Hispanic",
+          "value": 934
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 698
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19847
+        }
+      ]
+    },
+    "Grayson County, Virginia": {
+      "label": "Grayson County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 174
+        },
+        {
+          "label": "Black or African American",
+          "value": 794
+        },
+        {
+          "label": "Hispanic",
+          "value": 622
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 215
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13480
+        }
+      ]
+    },
+    "Greene County, Virginia": {
+      "label": "Greene County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 525
+        },
+        {
+          "label": "Black or African American",
+          "value": 1411
+        },
+        {
+          "label": "Hispanic",
+          "value": 1449
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 24
+        },
+        {
+          "label": "Two or More Races",
+          "value": 669
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16578
+        }
+      ]
+    },
+    "Greensville County, Virginia": {
+      "label": "Greensville County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 29
+        },
+        {
+          "label": "Black or African American",
+          "value": 5958
+        },
+        {
+          "label": "Hispanic",
+          "value": 577
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 722
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3997
+        }
+      ]
+    },
+    "Halifax County, Virginia": {
+      "label": "Halifax County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 156
+        },
+        {
+          "label": "Black or African American",
+          "value": 11731
+        },
+        {
+          "label": "Hispanic",
+          "value": 840
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 912
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20130
+        }
+      ]
+    },
+    "Hampton city, Virginia": {
+      "label": "Hampton city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 305
+        },
+        {
+          "label": "Asian",
+          "value": 2997
+        },
+        {
+          "label": "Black or African American",
+          "value": 65782
+        },
+        {
+          "label": "Hispanic",
+          "value": 9084
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 81
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9046
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 49231
+        }
+      ]
+    },
+    "Hanover County, Virginia": {
+      "label": "Hanover County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 116
+        },
+        {
+          "label": "Asian",
+          "value": 1974
+        },
+        {
+          "label": "Black or African American",
+          "value": 9354
+        },
+        {
+          "label": "Hispanic",
+          "value": 4203
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 80
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4663
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 90634
+        }
+      ]
+    },
+    "Harrisonburg city, Virginia": {
+      "label": "Harrisonburg city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 1650
+        },
+        {
+          "label": "Black or African American",
+          "value": 3620
+        },
+        {
+          "label": "Hispanic",
+          "value": 11890
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2405
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 31608
+        }
+      ]
+    },
+    "Henrico County, Virginia": {
+      "label": "Henrico County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 400
+        },
+        {
+          "label": "Asian",
+          "value": 31692
+        },
+        {
+          "label": "Black or African American",
+          "value": 98216
+        },
+        {
+          "label": "Hispanic",
+          "value": 22374
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 138
+        },
+        {
+          "label": "Two or More Races",
+          "value": 12809
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 167297
+        }
+      ]
+    },
+    "Henry County, Virginia": {
+      "label": "Henry County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 214
+        },
+        {
+          "label": "Black or African American",
+          "value": 11249
+        },
+        {
+          "label": "Hispanic",
+          "value": 3367
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1148
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 34218
+        }
+      ]
+    },
+    "Highland County, Virginia": {
+      "label": "Highland County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 70
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 0
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 56
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2139
+        }
+      ]
+    },
+    "Hopewell city, Virginia": {
+      "label": "Hopewell city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 261
+        },
+        {
+          "label": "Black or African American",
+          "value": 9443
+        },
+        {
+          "label": "Hispanic",
+          "value": 1971
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1699
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9547
+        }
+      ]
+    },
+    "Isle of Wight County, Virginia": {
+      "label": "Isle of Wight County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 58
+        },
+        {
+          "label": "Asian",
+          "value": 410
+        },
+        {
+          "label": "Black or African American",
+          "value": 8612
+        },
+        {
+          "label": "Hispanic",
+          "value": 1519
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 21
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1381
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27342
+        }
+      ]
+    },
+    "James City County, Virginia": {
+      "label": "James City County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 2086
+        },
+        {
+          "label": "Black or African American",
+          "value": 10211
+        },
+        {
+          "label": "Hispanic",
+          "value": 5531
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3719
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 58022
+        }
+      ]
+    },
+    "King and Queen County, Virginia": {
+      "label": "King and Queen County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 1592
+        },
+        {
+          "label": "Hispanic",
+          "value": 208
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 384
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4429
+        }
+      ]
+    },
+    "King George County, Virginia": {
+      "label": "King George County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 347
+        },
+        {
+          "label": "Black or African American",
+          "value": 4238
+        },
+        {
+          "label": "Hispanic",
+          "value": 1811
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1481
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18988
+        }
+      ]
+    },
+    "King William County, Virginia": {
+      "label": "King William County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 139
+        },
+        {
+          "label": "Asian",
+          "value": 120
+        },
+        {
+          "label": "Black or African American",
+          "value": 2788
+        },
+        {
+          "label": "Hispanic",
+          "value": 565
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 565
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14044
+        }
+      ]
+    },
+    "Lancaster County, Virginia": {
+      "label": "Lancaster County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 50
+        },
+        {
+          "label": "Black or African American",
+          "value": 3000
+        },
+        {
+          "label": "Hispanic",
+          "value": 172
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 281
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7321
+        }
+      ]
+    },
+    "Lee County, Virginia": {
+      "label": "Lee County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 42
+        },
+        {
+          "label": "Asian",
+          "value": 41
+        },
+        {
+          "label": "Black or African American",
+          "value": 911
+        },
+        {
+          "label": "Hispanic",
+          "value": 507
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 280
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20243
+        }
+      ]
+    },
+    "Lexington city, Virginia": {
+      "label": "Lexington city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 37
+        },
+        {
+          "label": "Asian",
+          "value": 238
+        },
+        {
+          "label": "Black or African American",
+          "value": 346
+        },
+        {
+          "label": "Hispanic",
+          "value": 362
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 535
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5873
+        }
+      ]
+    },
+    "Loudoun County, Virginia": {
+      "label": "Loudoun County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 520
+        },
+        {
+          "label": "Asian",
+          "value": 89615
+        },
+        {
+          "label": "Black or African American",
+          "value": 31801
+        },
+        {
+          "label": "Hispanic",
+          "value": 60466
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 241
+        },
+        {
+          "label": "Two or More Races",
+          "value": 19617
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 222395
+        }
+      ]
+    },
+    "Louisa County, Virginia": {
+      "label": "Louisa County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 43
+        },
+        {
+          "label": "Asian",
+          "value": 180
+        },
+        {
+          "label": "Black or African American",
+          "value": 5179
+        },
+        {
+          "label": "Hispanic",
+          "value": 1520
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2174
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29651
+        }
+      ]
+    },
+    "Lunenburg County, Virginia": {
+      "label": "Lunenburg County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 5
+        },
+        {
+          "label": "Black or African American",
+          "value": 3998
+        },
+        {
+          "label": "Hispanic",
+          "value": 689
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 376
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6919
+        }
+      ]
+    },
+    "Lynchburg city, Virginia": {
+      "label": "Lynchburg city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 91
+        },
+        {
+          "label": "Asian",
+          "value": 1709
+        },
+        {
+          "label": "Black or African American",
+          "value": 21727
+        },
+        {
+          "label": "Hispanic",
+          "value": 3920
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 111
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2882
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 48062
+        }
+      ]
+    },
+    "Madison County, Virginia": {
+      "label": "Madison County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 45
+        },
+        {
+          "label": "Black or African American",
+          "value": 1166
+        },
+        {
+          "label": "Hispanic",
+          "value": 490
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 491
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11718
+        }
+      ]
+    },
+    "Manassas city, Virginia": {
+      "label": "Manassas city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 51
+        },
+        {
+          "label": "Asian",
+          "value": 2357
+        },
+        {
+          "label": "Black or African American",
+          "value": 5287
+        },
+        {
+          "label": "Hispanic",
+          "value": 18356
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 14
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1715
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14713
+        }
+      ]
+    },
+    "Manassas Park city, Virginia": {
+      "label": "Manassas Park city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 1786
+        },
+        {
+          "label": "Black or African American",
+          "value": 1848
+        },
+        {
+          "label": "Hispanic",
+          "value": 7771
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 884
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4634
+        }
+      ]
+    },
+    "Martinsville city, Virginia": {
+      "label": "Martinsville city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 153
+        },
+        {
+          "label": "Black or African American",
+          "value": 6004
+        },
+        {
+          "label": "Hispanic",
+          "value": 1091
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 13
+        },
+        {
+          "label": "Two or More Races",
+          "value": 532
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5669
+        }
+      ]
+    },
+    "Mathews County, Virginia": {
+      "label": "Mathews County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 713
+        },
+        {
+          "label": "Hispanic",
+          "value": 219
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 21
+        },
+        {
+          "label": "Two or More Races",
+          "value": 288
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7218
+        }
+      ]
+    },
+    "Mecklenburg County, Virginia": {
+      "label": "Mecklenburg County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 88
+        },
+        {
+          "label": "Asian",
+          "value": 309
+        },
+        {
+          "label": "Black or African American",
+          "value": 10002
+        },
+        {
+          "label": "Hispanic",
+          "value": 912
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 706
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18377
+        }
+      ]
+    },
+    "Middlesex County, Virginia": {
+      "label": "Middlesex County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 133
+        },
+        {
+          "label": "Black or African American",
+          "value": 1589
+        },
+        {
+          "label": "Hispanic",
+          "value": 317
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 16
+        },
+        {
+          "label": "Two or More Races",
+          "value": 299
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8402
+        }
+      ]
+    },
+    "Montgomery County, Virginia": {
+      "label": "Montgomery County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 207
+        },
+        {
+          "label": "Asian",
+          "value": 6102
+        },
+        {
+          "label": "Black or African American",
+          "value": 3837
+        },
+        {
+          "label": "Hispanic",
+          "value": 4512
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 169
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2883
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 80834
+        }
+      ]
+    },
+    "Nelson County, Virginia": {
+      "label": "Nelson County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 250
+        },
+        {
+          "label": "Black or African American",
+          "value": 1515
+        },
+        {
+          "label": "Hispanic",
+          "value": 692
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 442
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11804
+        }
+      ]
+    },
+    "New Kent County, Virginia": {
+      "label": "New Kent County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 158
+        },
+        {
+          "label": "Asian",
+          "value": 266
+        },
+        {
+          "label": "Black or African American",
+          "value": 3177
+        },
+        {
+          "label": "Hispanic",
+          "value": 862
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1131
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18524
+        }
+      ]
+    },
+    "Newport News city, Virginia": {
+      "label": "Newport News city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 370
+        },
+        {
+          "label": "Asian",
+          "value": 6069
+        },
+        {
+          "label": "Black or African American",
+          "value": 74644
+        },
+        {
+          "label": "Hispanic",
+          "value": 19474
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 153
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8985
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 73541
+        }
+      ]
+    },
+    "Norfolk city, Virginia": {
+      "label": "Norfolk city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 610
+        },
+        {
+          "label": "Asian",
+          "value": 8541
+        },
+        {
+          "label": "Black or African American",
+          "value": 91781
+        },
+        {
+          "label": "Hispanic",
+          "value": 23196
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 244
+        },
+        {
+          "label": "Two or More Races",
+          "value": 11940
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 97557
+        }
+      ]
+    },
+    "Northampton County, Virginia": {
+      "label": "Northampton County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 130
+        },
+        {
+          "label": "Black or African American",
+          "value": 3778
+        },
+        {
+          "label": "Hispanic",
+          "value": 1115
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 349
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6735
+        }
+      ]
+    },
+    "Northumberland County, Virginia": {
+      "label": "Northumberland County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 510
+        },
+        {
+          "label": "Black or African American",
+          "value": 2374
+        },
+        {
+          "label": "Hispanic",
+          "value": 403
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 479
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8237
+        }
+      ]
+    },
+    "Norton city, Virginia": {
+      "label": "Norton city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 2
+        },
+        {
+          "label": "Black or African American",
+          "value": 48
+        },
+        {
+          "label": "Hispanic",
+          "value": 0
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 126
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3444
+        }
+      ]
+    },
+    "Nottoway County, Virginia": {
+      "label": "Nottoway County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 101
+        },
+        {
+          "label": "Black or African American",
+          "value": 5843
+        },
+        {
+          "label": "Hispanic",
+          "value": 745
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 420
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8436
+        }
+      ]
+    },
+    "Orange County, Virginia": {
+      "label": "Orange County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 330
+        },
+        {
+          "label": "Black or African American",
+          "value": 3876
+        },
+        {
+          "label": "Hispanic",
+          "value": 2438
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2202
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28024
+        }
+      ]
+    },
+    "Page County, Virginia": {
+      "label": "Page County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 82
+        },
+        {
+          "label": "Black or African American",
+          "value": 443
+        },
+        {
+          "label": "Hispanic",
+          "value": 563
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 552
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21947
+        }
+      ]
+    },
+    "Patrick County, Virginia": {
+      "label": "Patrick County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 36
+        },
+        {
+          "label": "Black or African American",
+          "value": 948
+        },
+        {
+          "label": "Hispanic",
+          "value": 595
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 285
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15731
+        }
+      ]
+    },
+    "Petersburg city, Virginia": {
+      "label": "Petersburg city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 412
+        },
+        {
+          "label": "Black or African American",
+          "value": 24876
+        },
+        {
+          "label": "Hispanic",
+          "value": 2013
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 21
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1090
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4888
+        }
+      ]
+    },
+    "Pittsylvania County, Virginia": {
+      "label": "Pittsylvania County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 27
+        },
+        {
+          "label": "Asian",
+          "value": 296
+        },
+        {
+          "label": "Black or African American",
+          "value": 12393
+        },
+        {
+          "label": "Hispanic",
+          "value": 1804
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1442
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 44162
+        }
+      ]
+    },
+    "Poquoson city, Virginia": {
+      "label": "Poquoson city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 225
+        },
+        {
+          "label": "Black or African American",
+          "value": 209
+        },
+        {
+          "label": "Hispanic",
+          "value": 490
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 411
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11145
+        }
+      ]
+    },
+    "Portsmouth city, Virginia": {
+      "label": "Portsmouth city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 140
+        },
+        {
+          "label": "Asian",
+          "value": 1404
+        },
+        {
+          "label": "Black or African American",
+          "value": 49782
+        },
+        {
+          "label": "Hispanic",
+          "value": 4942
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 26
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5561
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 34957
+        }
+      ]
+    },
+    "Powhatan County, Virginia": {
+      "label": "Powhatan County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 102
+        },
+        {
+          "label": "Black or African American",
+          "value": 2716
+        },
+        {
+          "label": "Hispanic",
+          "value": 871
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 874
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26356
+        }
+      ]
+    },
+    "Prince Edward County, Virginia": {
+      "label": "Prince Edward County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 242
+        },
+        {
+          "label": "Black or African American",
+          "value": 6655
+        },
+        {
+          "label": "Hispanic",
+          "value": 1050
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 206
+        },
+        {
+          "label": "Two or More Races",
+          "value": 623
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13117
+        }
+      ]
+    },
+    "Prince George County, Virginia": {
+      "label": "Prince George County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 109
+        },
+        {
+          "label": "Asian",
+          "value": 807
+        },
+        {
+          "label": "Black or African American",
+          "value": 13063
+        },
+        {
+          "label": "Hispanic",
+          "value": 4328
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 191
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1903
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22268
+        }
+      ]
+    },
+    "Prince William County, Virginia": {
+      "label": "Prince William County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 482
+        },
+        {
+          "label": "Asian",
+          "value": 47213
+        },
+        {
+          "label": "Black or African American",
+          "value": 96966
+        },
+        {
+          "label": "Hispanic",
+          "value": 124358
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 355
+        },
+        {
+          "label": "Two or More Races",
+          "value": 24605
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 188367
+        }
+      ]
+    },
+    "Pulaski County, Virginia": {
+      "label": "Pulaski County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 185
+        },
+        {
+          "label": "Black or African American",
+          "value": 1548
+        },
+        {
+          "label": "Hispanic",
+          "value": 725
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 86
+        },
+        {
+          "label": "Two or More Races",
+          "value": 806
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30352
+        }
+      ]
+    },
+    "Radford city, Virginia": {
+      "label": "Radford city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 367
+        },
+        {
+          "label": "Black or African American",
+          "value": 1514
+        },
+        {
+          "label": "Hispanic",
+          "value": 707
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 434
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13424
+        }
+      ]
+    },
+    "Rappahannock County, Virginia": {
+      "label": "Rappahannock County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 21
+        },
+        {
+          "label": "Asian",
+          "value": 14
+        },
+        {
+          "label": "Black or African American",
+          "value": 358
+        },
+        {
+          "label": "Hispanic",
+          "value": 336
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 197
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6347
+        }
+      ]
+    },
+    "Richmond city, Virginia": {
+      "label": "Richmond city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 335
+        },
+        {
+          "label": "Asian",
+          "value": 4703
+        },
+        {
+          "label": "Black or African American",
+          "value": 94783
+        },
+        {
+          "label": "Hispanic",
+          "value": 23439
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 109
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9760
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 93413
+        }
+      ]
+    },
+    "Richmond County, Virginia": {
+      "label": "Richmond County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 35
+        },
+        {
+          "label": "Asian",
+          "value": 2
+        },
+        {
+          "label": "Black or African American",
+          "value": 2527
+        },
+        {
+          "label": "Hispanic",
+          "value": 655
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 346
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5466
+        }
+      ]
+    },
+    "Roanoke city, Virginia": {
+      "label": "Roanoke city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 85
+        },
+        {
+          "label": "Asian",
+          "value": 3087
+        },
+        {
+          "label": "Black or African American",
+          "value": 28099
+        },
+        {
+          "label": "Hispanic",
+          "value": 8459
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 95
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3603
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 54810
+        }
+      ]
+    },
+    "Roanoke County, Virginia": {
+      "label": "Roanoke County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 110
+        },
+        {
+          "label": "Asian",
+          "value": 3484
+        },
+        {
+          "label": "Black or African American",
+          "value": 6160
+        },
+        {
+          "label": "Hispanic",
+          "value": 3691
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 20
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2513
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 80473
+        }
+      ]
+    },
+    "Rockbridge County, Virginia": {
+      "label": "Rockbridge County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 87
+        },
+        {
+          "label": "Asian",
+          "value": 173
+        },
+        {
+          "label": "Black or African American",
+          "value": 682
+        },
+        {
+          "label": "Hispanic",
+          "value": 512
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 624
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20138
+        }
+      ]
+    },
+    "Rockingham County, Virginia": {
+      "label": "Rockingham County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 49
+        },
+        {
+          "label": "Asian",
+          "value": 914
+        },
+        {
+          "label": "Black or African American",
+          "value": 1962
+        },
+        {
+          "label": "Hispanic",
+          "value": 7501
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 83
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1741
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 72274
+        }
+      ]
+    },
+    "Russell County, Virginia": {
+      "label": "Russell County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 24
+        },
+        {
+          "label": "Black or African American",
+          "value": 309
+        },
+        {
+          "label": "Hispanic",
+          "value": 167
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 49
+        },
+        {
+          "label": "Two or More Races",
+          "value": 207
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24810
+        }
+      ]
+    },
+    "Salem city, Virginia": {
+      "label": "Salem city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 39
+        },
+        {
+          "label": "Asian",
+          "value": 495
+        },
+        {
+          "label": "Black or African American",
+          "value": 1957
+        },
+        {
+          "label": "Hispanic",
+          "value": 1139
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 24
+        },
+        {
+          "label": "Two or More Races",
+          "value": 609
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20986
+        }
+      ]
+    },
+    "Scott County, Virginia": {
+      "label": "Scott County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 25
+        },
+        {
+          "label": "Black or African American",
+          "value": 257
+        },
+        {
+          "label": "Hispanic",
+          "value": 306
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 27
+        },
+        {
+          "label": "Two or More Races",
+          "value": 244
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20613
+        }
+      ]
+    },
+    "Shenandoah County, Virginia": {
+      "label": "Shenandoah County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 562
+        },
+        {
+          "label": "Black or African American",
+          "value": 1206
+        },
+        {
+          "label": "Hispanic",
+          "value": 3919
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1157
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 37685
+        }
+      ]
+    },
+    "Smyth County, Virginia": {
+      "label": "Smyth County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 83
+        },
+        {
+          "label": "Black or African American",
+          "value": 578
+        },
+        {
+          "label": "Hispanic",
+          "value": 605
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 539
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27717
+        }
+      ]
+    },
+    "Southampton County, Virginia": {
+      "label": "Southampton County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 73
+        },
+        {
+          "label": "Asian",
+          "value": 130
+        },
+        {
+          "label": "Black or African American",
+          "value": 5327
+        },
+        {
+          "label": "Hispanic",
+          "value": 414
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1115
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10862
+        }
+      ]
+    },
+    "Spotsylvania County, Virginia": {
+      "label": "Spotsylvania County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 182
+        },
+        {
+          "label": "Asian",
+          "value": 3784
+        },
+        {
+          "label": "Black or African American",
+          "value": 23560
+        },
+        {
+          "label": "Hispanic",
+          "value": 18251
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 72
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7386
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 90118
+        }
+      ]
+    },
+    "Stafford County, Virginia": {
+      "label": "Stafford County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 156
+        },
+        {
+          "label": "Asian",
+          "value": 5995
+        },
+        {
+          "label": "Black or African American",
+          "value": 30317
+        },
+        {
+          "label": "Hispanic",
+          "value": 25516
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 16
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10881
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 86141
+        }
+      ]
+    },
+    "Staunton city, Virginia": {
+      "label": "Staunton city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 393
+        },
+        {
+          "label": "Black or African American",
+          "value": 2586
+        },
+        {
+          "label": "Hispanic",
+          "value": 1141
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 68
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1184
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20325
+        }
+      ]
+    },
+    "Suffolk city, Virginia": {
+      "label": "Suffolk city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 66
+        },
+        {
+          "label": "Asian",
+          "value": 1829
+        },
+        {
+          "label": "Black or African American",
+          "value": 40147
+        },
+        {
+          "label": "Hispanic",
+          "value": 4780
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4244
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 44937
+        }
+      ]
+    },
+    "Surry County, Virginia": {
+      "label": "Surry County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 8
+        },
+        {
+          "label": "Black or African American",
+          "value": 2687
+        },
+        {
+          "label": "Hispanic",
+          "value": 191
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 100
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3566
+        }
+      ]
+    },
+    "Sussex County, Virginia": {
+      "label": "Sussex County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 60
+        },
+        {
+          "label": "Black or African American",
+          "value": 5899
+        },
+        {
+          "label": "Hispanic",
+          "value": 165
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 313
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4354
+        }
+      ]
+    },
+    "Tazewell County, Virginia": {
+      "label": "Tazewell County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 265
+        },
+        {
+          "label": "Black or African American",
+          "value": 1310
+        },
+        {
+          "label": "Hispanic",
+          "value": 518
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 705
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 37114
+        }
+      ]
+    },
+    "Virginia Beach city, Virginia": {
+      "label": "Virginia Beach city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 496
+        },
+        {
+          "label": "Asian",
+          "value": 32159
+        },
+        {
+          "label": "Black or African American",
+          "value": 83839
+        },
+        {
+          "label": "Hispanic",
+          "value": 40854
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 440
+        },
+        {
+          "label": "Two or More Races",
+          "value": 25749
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 271315
+        }
+      ]
+    },
+    "Warren County, Virginia": {
+      "label": "Warren County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 493
+        },
+        {
+          "label": "Black or African American",
+          "value": 2051
+        },
+        {
+          "label": "Hispanic",
+          "value": 2759
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1473
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33857
+        }
+      ]
+    },
+    "Washington County, Virginia": {
+      "label": "Washington County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 43
+        },
+        {
+          "label": "Asian",
+          "value": 258
+        },
+        {
+          "label": "Black or African American",
+          "value": 910
+        },
+        {
+          "label": "Hispanic",
+          "value": 949
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 818
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 50885
+        }
+      ]
+    },
+    "Waynesboro city, Virginia": {
+      "label": "Waynesboro city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 397
+        },
+        {
+          "label": "Black or African American",
+          "value": 2482
+        },
+        {
+          "label": "Hispanic",
+          "value": 2071
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1230
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16386
+        }
+      ]
+    },
+    "Westmoreland County, Virginia": {
+      "label": "Westmoreland County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 22
+        },
+        {
+          "label": "Asian",
+          "value": 203
+        },
+        {
+          "label": "Black or African American",
+          "value": 4436
+        },
+        {
+          "label": "Hispanic",
+          "value": 1161
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1024
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11700
+        }
+      ]
+    },
+    "Williamsburg city, Virginia": {
+      "label": "Williamsburg city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 1050
+        },
+        {
+          "label": "Black or African American",
+          "value": 2361
+        },
+        {
+          "label": "Hispanic",
+          "value": 1247
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 411
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10468
+        }
+      ]
+    },
+    "Winchester city, Virginia": {
+      "label": "Winchester city, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 36
+        },
+        {
+          "label": "Asian",
+          "value": 647
+        },
+        {
+          "label": "Black or African American",
+          "value": 2472
+        },
+        {
+          "label": "Hispanic",
+          "value": 5611
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1475
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17552
+        }
+      ]
+    },
+    "Wise County, Virginia": {
+      "label": "Wise County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 140
+        },
+        {
+          "label": "Black or African American",
+          "value": 1887
+        },
+        {
+          "label": "Hispanic",
+          "value": 485
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 629
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32336
+        }
+      ]
+    },
+    "Wythe County, Virginia": {
+      "label": "Wythe County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 216
+        },
+        {
+          "label": "Black or African American",
+          "value": 668
+        },
+        {
+          "label": "Hispanic",
+          "value": 421
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 26
+        },
+        {
+          "label": "Two or More Races",
+          "value": 535
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26294
+        }
+      ]
+    },
+    "York County, Virginia": {
+      "label": "York County, Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 123
+        },
+        {
+          "label": "Asian",
+          "value": 4077
+        },
+        {
+          "label": "Black or African American",
+          "value": 9181
+        },
+        {
+          "label": "Hispanic",
+          "value": 5340
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 180
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3837
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 47260
+        }
+      ]
+    }
+  }
+}

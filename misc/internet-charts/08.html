@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Internet Access Over Time –  Colorado</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>body { font-family: sans-serif; margin: 1rem 2rem; text-align: center; }
+                      h2 { margin-bottom: 0.25rem; font-size: 1.6rem; }
+                      select { padding: 0.4rem; font-size: 1rem; margin: 1rem 0; border-radius: 5px; border: 1px solid #999; }
+                      canvas { width: 100%; max-width: 850px; height: 450px; margin-top: 1rem; }</style>
+</head>
+<html>
+  <body>
+    <h2>Internet Access in  Colorado (2013–2023)</h2>
+    <label>Select County: </label>
+    <select id="countySelect"><option value='Statewide'>Statewide</option>
+<option value='Adams County, Colorado'>Adams County, Colorado</option>
+<option value='Arapahoe County, Colorado'>Arapahoe County, Colorado</option>
+<option value='Boulder County, Colorado'>Boulder County, Colorado</option>
+<option value='Broomfield County, Colorado'>Broomfield County, Colorado</option>
+<option value='Denver County, Colorado'>Denver County, Colorado</option>
+<option value='Douglas County, Colorado'>Douglas County, Colorado</option>
+<option value='El Paso County, Colorado'>El Paso County, Colorado</option>
+<option value='Jefferson County, Colorado'>Jefferson County, Colorado</option>
+<option value='Larimer County, Colorado'>Larimer County, Colorado</option>
+<option value='Mesa County, Colorado'>Mesa County, Colorado</option>
+<option value='Pueblo County, Colorado'>Pueblo County, Colorado</option>
+<option value='Weld County, Colorado'>Weld County, Colorado</option></select>
+    <canvas id="lineChart" width="850" height="450"></canvas>
+    <script>const internetData = {"Statewide":{"2013":81.5,"2014":83.1,"2015":84.5,"2016":88.6,"2017":89.7,"2018":90.7,"2019":92.1,"2021":93.7,"2022":93.9,"2023":95},"Adams County, Colorado":{"2013":76.6,"2014":75.7,"2015":79.1,"2016":84.6,"2017":85.9,"2018":88,"2019":90.3,"2021":92,"2022":92.2,"2023":94.4},"Arapahoe County, Colorado":{"2013":84.2,"2014":85.8,"2015":86.4,"2016":88.5,"2017":91.1,"2018":92.2,"2019":93.6,"2021":93.4,"2022":94.4,"2023":95.7},"Boulder County, Colorado":{"2013":86.8,"2014":86.3,"2015":89.2,"2016":90.7,"2017":92,"2018":92.2,"2019":93.1,"2021":95.5,"2022":95.6,"2023":96},"Broomfield County, Colorado":{"2015":92.3,"2016":94.6,"2017":93.7,"2018":93.1,"2019":94.3,"2021":95.3,"2022":97.3,"2023":97.5},"Denver County, Colorado":{"2013":75.8,"2014":77.9,"2015":80.7,"2016":85.9,"2017":87.7,"2018":89,"2019":91.6,"2021":92.3,"2022":91.9,"2023":93.7},"Douglas County, Colorado":{"2013":92.4,"2014":94.6,"2015":95,"2016":96.3,"2017":96.3,"2018":96.7,"2019":97.1,"2021":97.5,"2022":98,"2023":98.3},"El Paso County, Colorado":{"2013":85.1,"2014":86.8,"2015":87.4,"2016":91.3,"2017":91.6,"2018":92.4,"2019":93.2,"2021":95.5,"2022":94.9,"2023":96.1},"Jefferson County, Colorado":{"2013":83.4,"2014":85.1,"2015":85.7,"2016":90.9,"2017":91.8,"2018":91.6,"2019":92.4,"2021":95,"2022":95.4,"2023":94.4},"Larimer County, Colorado":{"2013":82.8,"2014":85.8,"2015":87,"2016":88.7,"2017":89.9,"2018":90.8,"2019":92.2,"2021":92.7,"2022":93.6,"2023":93.6},"Mesa County, Colorado":{"2013":80.9,"2014":80.3,"2015":80.2,"2016":87.5,"2017":87.7,"2018":85.2,"2019":89.2,"2021":93.3,"2022":92.6,"2023":94.5},"Pueblo County, Colorado":{"2013":66,"2014":69.7,"2015":65.1,"2016":77.9,"2017":79.6,"2018":79.5,"2019":82.4,"2021":88,"2022":87.5,"2023":92.4},"Weld County, Colorado":{"2013":76.6,"2014":80.6,"2015":81.1,"2016":84.9,"2017":84.5,"2018":90.2,"2019":89.9,"2021":92.1,"2022":93.2,"2023":94}};
+const ctx = document.getElementById('lineChart').getContext('2d');
+let chart;
+
+function renderChart(data) {
+  const labels = Object.keys(data);
+  const values = Object.values(data);
+
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: '% With Internet',
+        data: values,
+        fill: false,
+        borderColor: 'teal',
+        backgroundColor: 'teal',
+        tension: 0.3,
+        pointRadius: 4
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100,
+          title: { display: true, text: '% With Internet' }
+        },
+        x: {
+          title: { display: true, text: 'Year' }
+        }
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function(ctx) {
+              return ctx.parsed.y.toFixed(1) + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  renderChart(internetData[this.value]);
+});
+renderChart(internetData['Statewide']);</script>
+  </body>
+</html>
+</html>

@@ -1,0 +1,137 @@
+{
+  "state": "Kent County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1504
+        },
+        {
+          "label": "Asian",
+          "value": 41015
+        },
+        {
+          "label": "Black or African American",
+          "value": 215204
+        },
+        {
+          "label": "Hispanic",
+          "value": 107829
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 250
+        },
+        {
+          "label": "Two or More Races",
+          "value": 41671
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 593548
+        }
+      ]
+    },
+    "Kent County, Delaware": {
+      "label": "Kent County, Delaware",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 610
+        },
+        {
+          "label": "Asian",
+          "value": 4119
+        },
+        {
+          "label": "Black or African American",
+          "value": 48830
+        },
+        {
+          "label": "Hispanic",
+          "value": 14649
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 81
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9385
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 106611
+        }
+      ]
+    },
+    "New Castle County, Delaware": {
+      "label": "New Castle County, Delaware",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 340
+        },
+        {
+          "label": "Asian",
+          "value": 33842
+        },
+        {
+          "label": "Black or African American",
+          "value": 141051
+        },
+        {
+          "label": "Hispanic",
+          "value": 65392
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 169
+        },
+        {
+          "label": "Two or More Races",
+          "value": 22889
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 306451
+        }
+      ]
+    },
+    "Sussex County, Delaware": {
+      "label": "Sussex County, Delaware",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 554
+        },
+        {
+          "label": "Asian",
+          "value": 3054
+        },
+        {
+          "label": "Black or African American",
+          "value": 25323
+        },
+        {
+          "label": "Hispanic",
+          "value": 27788
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9397
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 180486
+        }
+      ]
+    }
+  }
+}

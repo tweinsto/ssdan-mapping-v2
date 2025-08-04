@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Internet Access Over Time –  North Carolina</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>body { font-family: sans-serif; margin: 1rem 2rem; text-align: center; }
+                      h2 { margin-bottom: 0.25rem; font-size: 1.6rem; }
+                      select { padding: 0.4rem; font-size: 1rem; margin: 1rem 0; border-radius: 5px; border: 1px solid #999; }
+                      canvas { width: 100%; max-width: 850px; height: 450px; margin-top: 1rem; }</style>
+</head>
+<html>
+  <body>
+    <h2>Internet Access in  North Carolina (2013–2023)</h2>
+    <label>Select County: </label>
+    <select id="countySelect"><option value='Statewide'>Statewide</option>
+<option value='Alamance County, North Carolina'>Alamance County, North Carolina</option>
+<option value='Brunswick County, North Carolina'>Brunswick County, North Carolina</option>
+<option value='Buncombe County, North Carolina'>Buncombe County, North Carolina</option>
+<option value='Burke County, North Carolina'>Burke County, North Carolina</option>
+<option value='Cabarrus County, North Carolina'>Cabarrus County, North Carolina</option>
+<option value='Caldwell County, North Carolina'>Caldwell County, North Carolina</option>
+<option value='Carteret County, North Carolina'>Carteret County, North Carolina</option>
+<option value='Catawba County, North Carolina'>Catawba County, North Carolina</option>
+<option value='Chatham County, North Carolina'>Chatham County, North Carolina</option>
+<option value='Cleveland County, North Carolina'>Cleveland County, North Carolina</option>
+<option value='Craven County, North Carolina'>Craven County, North Carolina</option>
+<option value='Cumberland County, North Carolina'>Cumberland County, North Carolina</option>
+<option value='Davidson County, North Carolina'>Davidson County, North Carolina</option>
+<option value='Durham County, North Carolina'>Durham County, North Carolina</option>
+<option value='Forsyth County, North Carolina'>Forsyth County, North Carolina</option>
+<option value='Franklin County, North Carolina'>Franklin County, North Carolina</option>
+<option value='Gaston County, North Carolina'>Gaston County, North Carolina</option>
+<option value='Guilford County, North Carolina'>Guilford County, North Carolina</option>
+<option value='Harnett County, North Carolina'>Harnett County, North Carolina</option>
+<option value='Henderson County, North Carolina'>Henderson County, North Carolina</option>
+<option value='Iredell County, North Carolina'>Iredell County, North Carolina</option>
+<option value='Johnston County, North Carolina'>Johnston County, North Carolina</option>
+<option value='Lee County, North Carolina'>Lee County, North Carolina</option>
+<option value='Lincoln County, North Carolina'>Lincoln County, North Carolina</option>
+<option value='Mecklenburg County, North Carolina'>Mecklenburg County, North Carolina</option>
+<option value='Moore County, North Carolina'>Moore County, North Carolina</option>
+<option value='Nash County, North Carolina'>Nash County, North Carolina</option>
+<option value='New Hanover County, North Carolina'>New Hanover County, North Carolina</option>
+<option value='Onslow County, North Carolina'>Onslow County, North Carolina</option>
+<option value='Orange County, North Carolina'>Orange County, North Carolina</option>
+<option value='Pender County, North Carolina'>Pender County, North Carolina</option>
+<option value='Pitt County, North Carolina'>Pitt County, North Carolina</option>
+<option value='Randolph County, North Carolina'>Randolph County, North Carolina</option>
+<option value='Robeson County, North Carolina'>Robeson County, North Carolina</option>
+<option value='Rockingham County, North Carolina'>Rockingham County, North Carolina</option>
+<option value='Rowan County, North Carolina'>Rowan County, North Carolina</option>
+<option value='Rutherford County, North Carolina'>Rutherford County, North Carolina</option>
+<option value='Stanly County, North Carolina'>Stanly County, North Carolina</option>
+<option value='Surry County, North Carolina'>Surry County, North Carolina</option>
+<option value='Union County, North Carolina'>Union County, North Carolina</option>
+<option value='Wake County, North Carolina'>Wake County, North Carolina</option>
+<option value='Wayne County, North Carolina'>Wayne County, North Carolina</option>
+<option value='Wilkes County, North Carolina'>Wilkes County, North Carolina</option>
+<option value='Wilson County, North Carolina'>Wilson County, North Carolina</option></select>
+    <canvas id="lineChart" width="850" height="450"></canvas>
+    <script>const internetData = {"Statewide":{"2013":74.3,"2014":75.5,"2015":76.9,"2016":81.8,"2017":83.8,"2018":85.5,"2019":86.8,"2021":90.4,"2022":91.5,"2023":92.5},"Alamance County, North Carolina":{"2013":66.8,"2014":72.6,"2015":69.5,"2016":78.6,"2017":78.9,"2018":79.9,"2019":81.1,"2021":88.4,"2022":91.3,"2023":92.3},"Brunswick County, North Carolina":{"2013":74.2,"2014":75.5,"2015":75.7,"2016":82.2,"2017":83.2,"2018":92.5,"2019":92.1,"2021":94,"2022":94,"2023":93.1},"Buncombe County, North Carolina":{"2013":76.3,"2014":79.2,"2015":79.8,"2016":80.1,"2017":82.1,"2018":83.2,"2019":83.8,"2021":87.9,"2022":91.8,"2023":93.6},"Burke County, North Carolina":{"2013":61.2,"2014":61.2,"2015":66,"2016":71.9,"2017":72.6,"2018":73.8,"2019":78.2,"2021":80.7,"2022":85.8,"2023":89.4},"Cabarrus County, North Carolina":{"2013":80.2,"2014":83.5,"2015":86.4,"2016":89.2,"2017":88.8,"2018":92.2,"2019":90.2,"2021":92.6,"2022":92,"2023":95.6},"Caldwell County, North Carolina":{"2013":59.5,"2014":68.4,"2015":69.8,"2016":74.6,"2017":77.4,"2018":81.7,"2019":84.9,"2021":83.5,"2022":84.8,"2023":91.3},"Carteret County, North Carolina":{"2013":75.1,"2014":77.2,"2015":78.9,"2016":79.9,"2017":87.3,"2018":89.1,"2019":89.1,"2021":94.1,"2022":92.3,"2023":94.5},"Catawba County, North Carolina":{"2013":66.6,"2014":71.2,"2015":71.5,"2016":82,"2017":83.3,"2018":84.2,"2019":85.5,"2021":86.7,"2022":90.4,"2023":90.6},"Chatham County, North Carolina":{"2013":76.2,"2014":77,"2015":73,"2016":83.8,"2017":75.2,"2018":80,"2019":79.1,"2021":89.6,"2022":86.3,"2023":89.3},"Cleveland County, North Carolina":{"2013":59.9,"2014":57.3,"2015":61.6,"2016":66.1,"2017":64.9,"2018":66.3,"2019":69.8,"2021":81.9,"2022":85,"2023":89.1},"Craven County, North Carolina":{"2013":75.5,"2014":73.6,"2015":77,"2016":83.9,"2017":82.8,"2018":86.2,"2019":80.7,"2021":83.1,"2022":89.1,"2023":88.8},"Cumberland County, North Carolina":{"2013":74.7,"2014":74.9,"2015":77.4,"2016":82.6,"2017":86.6,"2018":87.8,"2019":87.6,"2021":91.5,"2022":92.4,"2023":93.8},"Davidson County, North Carolina":{"2013":67.8,"2014":66.6,"2015":70,"2016":81.9,"2017":81.6,"2018":80.4,"2019":83.6,"2021":87.3,"2022":87,"2023":90.3},"Durham County, North Carolina":{"2013":81.8,"2014":81.5,"2015":83.2,"2016":84.9,"2017":87.3,"2018":89.9,"2019":90.2,"2021":93.4,"2022":95.6,"2023":95.6},"Forsyth County, North Carolina":{"2013":73.8,"2014":75.3,"2015":75.7,"2016":81.2,"2017":83.7,"2018":80.6,"2019":85.2,"2021":90.9,"2022":90.6,"2023":90.9},"Franklin County, North Carolina":{"2017":80.9,"2018":85.2,"2019":86.3,"2021":88.3,"2022":90.3,"2023":92.5},"Gaston County, North Carolina":{"2013":70,"2014":73.4,"2015":70.4,"2016":80.6,"2017":81,"2018":83.3,"2019":85.1,"2021":85.8,"2022":90.5,"2023":91.5},"Guilford County, North Carolina":{"2013":72.9,"2014":66.1,"2015":65.9,"2016":73.1,"2017":74.9,"2018":82,"2019":84.5,"2021":92.1,"2022":90.7,"2023":91.1},"Harnett County, North Carolina":{"2013":72.3,"2014":70.9,"2015":73.7,"2016":78.5,"2017":80.5,"2018":80.6,"2019":83.1,"2021":80.3,"2022":81,"2023":93.4},"Henderson County, North Carolina":{"2013":70.8,"2014":73.2,"2015":76,"2016":80.8,"2017":84.9,"2018":84.8,"2019":85.2,"2021":89.4,"2022":90.6,"2023":89.1},"Iredell County, North Carolina":{"2013":74.2,"2014":75.5,"2015":73.9,"2016":79.7,"2017":85.8,"2018":88.1,"2019":89,"2021":94.7,"2022":93.7,"2023":92.9},"Johnston County, North Carolina":{"2013":74.9,"2014":72.1,"2015":77,"2016":75.3,"2017":79.7,"2018":78.3,"2019":79.1,"2021":87.2,"2022":86.1,"2023":92},"Lee County, North Carolina":{"2022":74.9,"2023":81.4},"Lincoln County, North Carolina":{"2013":71.7,"2014":67.8,"2015":75.7,"2016":79.8,"2017":81.4,"2018":89.4,"2019":86.5,"2021":91.4,"2022":91.6,"2023":93.7},"Mecklenburg County, North Carolina":{"2013":79.7,"2014":82.5,"2015":82.7,"2016":87.3,"2017":88.7,"2018":90.4,"2019":90.8,"2021":93.2,"2022":94.9,"2023":94.6},"Moore County, North Carolina":{"2013":72.9,"2014":76.7,"2015":79.1,"2016":83.3,"2017":84,"2018":86.1,"2019":84.9,"2021":87.7,"2022":92.7,"2023":94.2},"Nash County, North Carolina":{"2013":58,"2014":69.1,"2015":71,"2016":73.7,"2017":77.1,"2018":81.9,"2019":82.4,"2021":85,"2022":79.6,"2023":85.2},"New Hanover County, North Carolina":{"2013":79.6,"2014":80.2,"2015":82.8,"2016":82.8,"2017":83.5,"2018":88.5,"2019":89.3,"2021":92.3,"2022":93.7,"2023":93},"Onslow County, North Carolina":{"2013":76.9,"2014":80.7,"2015":82,"2016":85.9,"2017":89,"2018":92.3,"2019":91.1,"2021":90.7,"2022":94,"2023":94.3},"Orange County, North Carolina":{"2013":86.6,"2014":88.7,"2015":89.2,"2016":86.4,"2017":88.4,"2018":88.6,"2019":92.5,"2021":92.7,"2022":94.6,"2023":94.1},"Pender County, North Carolina":{"2022":89.6,"2023":92.3},"Pitt County, North Carolina":{"2013":72.9,"2014":72.2,"2015":71.7,"2016":83.1,"2017":84.8,"2018":83,"2019":85.8,"2021":83.3,"2022":90.5,"2023":90.6},"Randolph County, North Carolina":{"2013":63.8,"2014":58.2,"2015":64.5,"2016":76.6,"2017":79,"2018":80.7,"2019":81.1,"2021":88.4,"2022":88.8,"2023":82.4},"Robeson County, North Carolina":{"2013":45.5,"2014":46.5,"2015":48.2,"2016":54.4,"2017":58,"2018":66.8,"2019":68.2,"2021":75.2,"2022":76.9,"2023":83},"Rockingham County, North Carolina":{"2013":63,"2014":66.1,"2015":67.5,"2016":63.8,"2017":74.8,"2018":67.9,"2019":72.6,"2021":81.2,"2022":84.8,"2023":92.4},"Rowan County, North Carolina":{"2013":66.4,"2014":69.6,"2015":75.7,"2016":77.2,"2017":80.1,"2018":82.7,"2019":87.6,"2021":90.1,"2022":91.3,"2023":90.1},"Rutherford County, North Carolina":{"2013":61.5,"2014":64.1,"2015":60.2,"2016":66.4,"2017":70,"2018":73.9,"2019":82.6,"2023":85.2},"Stanly County, North Carolina":{"2023":92.8},"Surry County, North Carolina":{"2013":58.6,"2014":64.6,"2015":66.7,"2016":60.4,"2017":64.6,"2018":60.3,"2019":76.2,"2021":86.8,"2022":84.5,"2023":88.2},"Union County, North Carolina":{"2013":82.6,"2014":86.4,"2015":88.2,"2016":91,"2017":91.6,"2018":92.9,"2019":92.5,"2021":94.4,"2022":94.3,"2023":94.3},"Wake County, North Carolina":{"2013":84.3,"2014":85.1,"2015":86.7,"2016":91.5,"2017":93.5,"2018":92.4,"2019":93.6,"2021":95,"2022":95.5,"2023":95.3},"Wayne County, North Carolina":{"2013":69.4,"2014":66.2,"2015":72,"2016":78,"2017":83.8,"2018":81.9,"2019":85.7,"2021":88.6,"2022":89.8,"2023":89.9},"Wilkes County, North Carolina":{"2013":53.9,"2014":63.8,"2015":63,"2016":75.2,"2017":78.4,"2018":78.4,"2019":79.9,"2021":85.1,"2022":88,"2023":90.3},"Wilson County, North Carolina":{"2013":65.7,"2014":67.5,"2015":73,"2016":72.9,"2017":78.1,"2018":78.2,"2019":74.3,"2021":82,"2022":87.5,"2023":90.7}};
+const ctx = document.getElementById('lineChart').getContext('2d');
+let chart;
+
+function renderChart(data) {
+  const labels = Object.keys(data);
+  const values = Object.values(data);
+
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: '% With Internet',
+        data: values,
+        fill: false,
+        borderColor: 'teal',
+        backgroundColor: 'teal',
+        tension: 0.3,
+        pointRadius: 4
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100,
+          title: { display: true, text: '% With Internet' }
+        },
+        x: {
+          title: { display: true, text: 'Year' }
+        }
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function(ctx) {
+              return ctx.parsed.y.toFixed(1) + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  renderChart(internetData[this.value]);
+});
+renderChart(internetData['Statewide']);</script>
+  </body>
+</html>
+</html>

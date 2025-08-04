@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 47</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Anderson County, Tennessee">Anderson County, Tennessee</option>
+<option value="Bedford County, Tennessee">Bedford County, Tennessee</option>
+<option value="Benton County, Tennessee">Benton County, Tennessee</option>
+<option value="Bledsoe County, Tennessee">Bledsoe County, Tennessee</option>
+<option value="Blount County, Tennessee">Blount County, Tennessee</option>
+<option value="Bradley County, Tennessee">Bradley County, Tennessee</option>
+<option value="Campbell County, Tennessee">Campbell County, Tennessee</option>
+<option value="Cannon County, Tennessee">Cannon County, Tennessee</option>
+<option value="Carroll County, Tennessee">Carroll County, Tennessee</option>
+<option value="Carter County, Tennessee">Carter County, Tennessee</option>
+<option value="Cheatham County, Tennessee">Cheatham County, Tennessee</option>
+<option value="Chester County, Tennessee">Chester County, Tennessee</option>
+<option value="Claiborne County, Tennessee">Claiborne County, Tennessee</option>
+<option value="Clay County, Tennessee">Clay County, Tennessee</option>
+<option value="Cocke County, Tennessee">Cocke County, Tennessee</option>
+<option value="Coffee County, Tennessee">Coffee County, Tennessee</option>
+<option value="Crockett County, Tennessee">Crockett County, Tennessee</option>
+<option value="Cumberland County, Tennessee">Cumberland County, Tennessee</option>
+<option value="Davidson County, Tennessee">Davidson County, Tennessee</option>
+<option value="Decatur County, Tennessee">Decatur County, Tennessee</option>
+<option value="DeKalb County, Tennessee">DeKalb County, Tennessee</option>
+<option value="Dickson County, Tennessee">Dickson County, Tennessee</option>
+<option value="Dyer County, Tennessee">Dyer County, Tennessee</option>
+<option value="Fayette County, Tennessee">Fayette County, Tennessee</option>
+<option value="Fentress County, Tennessee">Fentress County, Tennessee</option>
+<option value="Franklin County, Tennessee">Franklin County, Tennessee</option>
+<option value="Gibson County, Tennessee">Gibson County, Tennessee</option>
+<option value="Giles County, Tennessee">Giles County, Tennessee</option>
+<option value="Grainger County, Tennessee">Grainger County, Tennessee</option>
+<option value="Greene County, Tennessee">Greene County, Tennessee</option>
+<option value="Grundy County, Tennessee">Grundy County, Tennessee</option>
+<option value="Hamblen County, Tennessee">Hamblen County, Tennessee</option>
+<option value="Hamilton County, Tennessee">Hamilton County, Tennessee</option>
+<option value="Hancock County, Tennessee">Hancock County, Tennessee</option>
+<option value="Hardeman County, Tennessee">Hardeman County, Tennessee</option>
+<option value="Hardin County, Tennessee">Hardin County, Tennessee</option>
+<option value="Hawkins County, Tennessee">Hawkins County, Tennessee</option>
+<option value="Haywood County, Tennessee">Haywood County, Tennessee</option>
+<option value="Henderson County, Tennessee">Henderson County, Tennessee</option>
+<option value="Henry County, Tennessee">Henry County, Tennessee</option>
+<option value="Hickman County, Tennessee">Hickman County, Tennessee</option>
+<option value="Houston County, Tennessee">Houston County, Tennessee</option>
+<option value="Humphreys County, Tennessee">Humphreys County, Tennessee</option>
+<option value="Jackson County, Tennessee">Jackson County, Tennessee</option>
+<option value="Jefferson County, Tennessee">Jefferson County, Tennessee</option>
+<option value="Johnson County, Tennessee">Johnson County, Tennessee</option>
+<option value="Knox County, Tennessee">Knox County, Tennessee</option>
+<option value="Lake County, Tennessee">Lake County, Tennessee</option>
+<option value="Lauderdale County, Tennessee">Lauderdale County, Tennessee</option>
+<option value="Lawrence County, Tennessee">Lawrence County, Tennessee</option>
+<option value="Lewis County, Tennessee">Lewis County, Tennessee</option>
+<option value="Lincoln County, Tennessee">Lincoln County, Tennessee</option>
+<option value="Loudon County, Tennessee">Loudon County, Tennessee</option>
+<option value="Macon County, Tennessee">Macon County, Tennessee</option>
+<option value="Madison County, Tennessee">Madison County, Tennessee</option>
+<option value="Marion County, Tennessee">Marion County, Tennessee</option>
+<option value="Marshall County, Tennessee">Marshall County, Tennessee</option>
+<option value="Maury County, Tennessee">Maury County, Tennessee</option>
+<option value="McMinn County, Tennessee">McMinn County, Tennessee</option>
+<option value="McNairy County, Tennessee">McNairy County, Tennessee</option>
+<option value="Meigs County, Tennessee">Meigs County, Tennessee</option>
+<option value="Monroe County, Tennessee">Monroe County, Tennessee</option>
+<option value="Montgomery County, Tennessee">Montgomery County, Tennessee</option>
+<option value="Moore County, Tennessee">Moore County, Tennessee</option>
+<option value="Morgan County, Tennessee">Morgan County, Tennessee</option>
+<option value="Obion County, Tennessee">Obion County, Tennessee</option>
+<option value="Overton County, Tennessee">Overton County, Tennessee</option>
+<option value="Perry County, Tennessee">Perry County, Tennessee</option>
+<option value="Pickett County, Tennessee">Pickett County, Tennessee</option>
+<option value="Polk County, Tennessee">Polk County, Tennessee</option>
+<option value="Putnam County, Tennessee">Putnam County, Tennessee</option>
+<option value="Rhea County, Tennessee">Rhea County, Tennessee</option>
+<option value="Roane County, Tennessee">Roane County, Tennessee</option>
+<option value="Robertson County, Tennessee">Robertson County, Tennessee</option>
+<option value="Rutherford County, Tennessee">Rutherford County, Tennessee</option>
+<option value="Scott County, Tennessee">Scott County, Tennessee</option>
+<option value="Sequatchie County, Tennessee">Sequatchie County, Tennessee</option>
+<option value="Sevier County, Tennessee">Sevier County, Tennessee</option>
+<option value="Shelby County, Tennessee">Shelby County, Tennessee</option>
+<option value="Smith County, Tennessee">Smith County, Tennessee</option>
+<option value="Stewart County, Tennessee">Stewart County, Tennessee</option>
+<option value="Sullivan County, Tennessee">Sullivan County, Tennessee</option>
+<option value="Sumner County, Tennessee">Sumner County, Tennessee</option>
+<option value="Tipton County, Tennessee">Tipton County, Tennessee</option>
+<option value="Trousdale County, Tennessee">Trousdale County, Tennessee</option>
+<option value="Unicoi County, Tennessee">Unicoi County, Tennessee</option>
+<option value="Union County, Tennessee">Union County, Tennessee</option>
+<option value="Van Buren County, Tennessee">Van Buren County, Tennessee</option>
+<option value="Warren County, Tennessee">Warren County, Tennessee</option>
+<option value="Washington County, Tennessee">Washington County, Tennessee</option>
+<option value="Wayne County, Tennessee">Wayne County, Tennessee</option>
+<option value="Weakley County, Tennessee">Weakley County, Tennessee</option>
+<option value="White County, Tennessee">White County, Tennessee</option>
+<option value="Williamson County, Tennessee">Williamson County, Tennessee</option>
+<option value="Wilson County, Tennessee">Wilson County, Tennessee</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.1,"Asian":1.83,"Black or African American":15.74,"Hispanic":7.11,"Pacific Islander":0.05,"Two or More Races":3.31,"White (non-Hispanic)":71.49},"Anderson County, Tennessee":{"American Indian / Alaska Native":0.12,"Asian":1.39,"Black or African American":3.3,"Hispanic":3.84,"Pacific Islander":0.1,"Two or More Races":3.74,"White (non-Hispanic)":86.98},"Bedford County, Tennessee":{"American Indian / Alaska Native":0.19,"Asian":0.74,"Black or African American":7.14,"Hispanic":15.53,"Pacific Islander":0,"Two or More Races":3.1,"White (non-Hispanic)":73.24},"Benton County, Tennessee":{"American Indian / Alaska Native":0.11,"Asian":0.91,"Black or African American":1.81,"Hispanic":2.7,"Pacific Islander":0.53,"Two or More Races":2.71,"White (non-Hispanic)":91.23},"Bledsoe County, Tennessee":{"American Indian / Alaska Native":0.28,"Asian":0.05,"Black or African American":5.47,"Hispanic":3.32,"Pacific Islander":0,"Two or More Races":4.01,"White (non-Hispanic)":86.84},"Blount County, Tennessee":{"American Indian / Alaska Native":0.06,"Asian":0.76,"Black or African American":2.59,"Hispanic":4.43,"Pacific Islander":0.03,"Two or More Races":2.7,"White (non-Hispanic)":89.07},"Bradley County, Tennessee":{"American Indian / Alaska Native":0.12,"Asian":1.04,"Black or African American":4.59,"Hispanic":8.04,"Pacific Islander":0.01,"Two or More Races":3.16,"White (non-Hispanic)":82.42},"Campbell County, Tennessee":{"American Indian / Alaska Native":0.01,"Asian":0.4,"Black or African American":0.34,"Hispanic":1.46,"Pacific Islander":0.04,"Two or More Races":1.78,"White (non-Hispanic)":95.9},"Cannon County, Tennessee":{"American Indian / Alaska Native":0.15,"Asian":0,"Black or African American":2.4,"Hispanic":2.92,"Pacific Islander":0.02,"Two or More Races":1.98,"White (non-Hispanic)":92.52},"Carroll County, Tennessee":{"American Indian / Alaska Native":0.13,"Asian":0.28,"Black or African American":8.84,"Hispanic":2.98,"Pacific Islander":0,"Two or More Races":3.71,"White (non-Hispanic)":83.99},"Carter County, Tennessee":{"American Indian / Alaska Native":0.03,"Asian":0.25,"Black or African American":2.04,"Hispanic":2.35,"Pacific Islander":0.03,"Two or More Races":1.95,"White (non-Hispanic)":93.28},"Cheatham County, Tennessee":{"American Indian / Alaska Native":0.2,"Asian":0.65,"Black or African American":2.1,"Hispanic":4.59,"Pacific Islander":0.02,"Two or More Races":2.7,"White (non-Hispanic)":88.96},"Chester County, Tennessee":{"American Indian / Alaska Native":0.18,"Asian":0.18,"Black or African American":9.82,"Hispanic":3.13,"Pacific Islander":0,"Two or More Races":1.91,"White (non-Hispanic)":84.05},"Claiborne County, Tennessee":{"American Indian / Alaska Native":0.04,"Asian":0.63,"Black or African American":0.73,"Hispanic":1.6,"Pacific Islander":0,"Two or More Races":2.5,"White (non-Hispanic)":94.48},"Clay County, Tennessee":{"American Indian / Alaska Native":0.22,"Asian":0.96,"Black or African American":0.94,"Hispanic":2.02,"Pacific Islander":0,"Two or More Races":1.71,"White (non-Hispanic)":94.15},"Cocke County, Tennessee":{"American Indian / Alaska Native":0.33,"Asian":0.5,"Black or African American":1.51,"Hispanic":2.92,"Pacific Islander":0.08,"Two or More Races":2.39,"White (non-Hispanic)":92.27},"Coffee County, Tennessee":{"American Indian / Alaska Native":0.02,"Asian":1.26,"Black or African American":4.04,"Hispanic":5.98,"Pacific Islander":0.03,"Two or More Races":2.7,"White (non-Hispanic)":85.73},"Crockett County, Tennessee":{"American Indian / Alaska Native":0.7,"Asian":0.47,"Black or African American":10.66,"Hispanic":11.19,"Pacific Islander":0.08,"Two or More Races":5.06,"White (non-Hispanic)":71.84},"Cumberland County, Tennessee":{"American Indian / Alaska Native":0.11,"Asian":0.36,"Black or African American":0.8,"Hispanic":3.37,"Pacific Islander":0,"Two or More Races":1.89,"White (non-Hispanic)":93.42},"Davidson County, Tennessee":{"American Indian / Alaska Native":0.07,"Asian":3.37,"Black or African American":24.9,"Hispanic":13.59,"Pacific Islander":0.05,"Two or More Races":4.05,"White (non-Hispanic)":53.46},"Decatur County, Tennessee":{"American Indian / Alaska Native":0,"Asian":0.94,"Black or African American":3.07,"Hispanic":3.53,"Pacific Islander":0,"Two or More Races":1.71,"White (non-Hispanic)":90.75},"DeKalb County, Tennessee":{"American Indian / Alaska Native":0.43,"Asian":0.8,"Black or African American":1.69,"Hispanic":7.55,"Pacific Islander":0,"Two or More Races":1.8,"White (non-Hispanic)":87.61},"Dickson County, Tennessee":{"American Indian / Alaska Native":0.18,"Asian":0.07,"Black or African American":3.49,"Hispanic":4.87,"Pacific Islander":0,"Two or More Races":3.48,"White (non-Hispanic)":87.46},"Dyer County, Tennessee":{"American Indian / Alaska Native":0.07,"Asian":0.38,"Black or African American":14.88,"Hispanic":3.83,"Pacific Islander":0.03,"Two or More Races":3.38,"White (non-Hispanic)":77.43},"Fayette County, Tennessee":{"American Indian / Alaska Native":0.06,"Asian":0.63,"Black or African American":26.84,"Hispanic":3.62,"Pacific Islander":0,"Two or More Races":2.5,"White (non-Hispanic)":66.07},"Fentress County, Tennessee":{"American Indian / Alaska Native":0,"Asian":0.22,"Black or African American":0.28,"Hispanic":1.97,"Pacific Islander":0.07,"Two or More Races":3.05,"White (non-Hispanic)":94.4},"Franklin County, Tennessee":{"American Indian / Alaska Native":0.04,"Asian":0.77,"Black or African American":4.63,"Hispanic":3.69,"Pacific Islander":0,"Two or More Races":2.94,"White (non-Hispanic)":87.66},"Gibson County, Tennessee":{"American Indian / Alaska Native":0.45,"Asian":0.28,"Black or African American":15.02,"Hispanic":3.18,"Pacific Islander":0.02,"Two or More Races":5.68,"White (non-Hispanic)":75.1},"Giles County, Tennessee":{"American Indian / Alaska Native":0.04,"Asian":0.38,"Black or African American":8.6,"Hispanic":2.77,"Pacific Islander":0,"Two or More Races":4.57,"White (non-Hispanic)":83.48},"Grainger County, Tennessee":{"American Indian / Alaska Native":0.17,"Asian":0.14,"Black or African American":0.9,"Hispanic":3.51,"Pacific Islander":0.47,"Two or More Races":1.66,"White (non-Hispanic)":93.02},"Greene County, Tennessee":{"American Indian / Alaska Native":0.08,"Asian":0.55,"Black or African American":1.87,"Hispanic":3.75,"Pacific Islander":0.03,"Two or More Races":2.16,"White (non-Hispanic)":91.3},"Grundy County, Tennessee":{"American Indian / Alaska Native":0.09,"Asian":0.36,"Black or African American":0.43,"Hispanic":1.69,"Pacific Islander":0,"Two or More Races":3.13,"White (non-Hispanic)":94.28},"Hamblen County, Tennessee":{"American Indian / Alaska Native":0.11,"Asian":0.89,"Black or African American":2.68,"Hispanic":14.73,"Pacific Islander":0.71,"Two or More Races":3,"White (non-Hispanic)":77.56},"Hamilton County, Tennessee":{"American Indian / Alaska Native":0.07,"Asian":1.92,"Black or African American":17.4,"Hispanic":7.65,"Pacific Islander":0.03,"Two or More Races":3.64,"White (non-Hispanic)":68.82},"Hancock County, Tennessee":{"American Indian / Alaska Native":0,"Asian":0.37,"Black or African American":0.44,"Hispanic":1.09,"Pacific Islander":0,"Two or More Races":2.05,"White (non-Hispanic)":96.05},"Hardeman County, Tennessee":{"American Indian / Alaska Native":0.08,"Asian":0.45,"Black or African American":40.06,"Hispanic":2.08,"Pacific Islander":0.02,"Two or More Races":3.7,"White (non-Hispanic)":53.55},"Hardin County, Tennessee":{"American Indian / Alaska Native":0.23,"Asian":0.05,"Black or African American":2.97,"Hispanic":2.41,"Pacific Islander":0,"Two or More Races":3.3,"White (non-Hispanic)":90.96},"Hawkins County, Tennessee":{"American Indian / Alaska Native":0.06,"Asian":0.47,"Black or African American":1.21,"Hispanic":1.84,"Pacific Islander":0,"Two or More Races":2.38,"White (non-Hispanic)":93.96},"Haywood County, Tennessee":{"American Indian / Alaska Native":0,"Asian":0.1,"Black or African American":49.97,"Hispanic":4.72,"Pacific Islander":0,"Two or More Races":1.81,"White (non-Hispanic)":42.95},"Henderson County, Tennessee":{"American Indian / Alaska Native":0.11,"Asian":0.13,"Black or African American":7.61,"Hispanic":2.84,"Pacific Islander":0,"Two or More Races":3.08,"White (non-Hispanic)":86.13},"Henry County, Tennessee":{"American Indian / Alaska Native":0.58,"Asian":0.66,"Black or African American":7.19,"Hispanic":2.91,"Pacific Islander":0.07,"Two or More Races":2.43,"White (non-Hispanic)":86.17},"Hickman County, Tennessee":{"American Indian / Alaska Native":0.59,"Asian":0.35,"Black or African American":3.52,"Hispanic":3.1,"Pacific Islander":0,"Two or More Races":2.91,"White (non-Hispanic)":89.37},"Houston County, Tennessee":{"American Indian / Alaska Native":0.34,"Asian":0.36,"Black or African American":2.91,"Hispanic":2.95,"Pacific Islander":0,"Two or More Races":2.87,"White (non-Hispanic)":90.57},"Humphreys County, Tennessee":{"American Indian / Alaska Native":0.05,"Asian":0.46,"Black or African American":1.94,"Hispanic":2.75,"Pacific Islander":0,"Two or More Races":3.66,"White (non-Hispanic)":90.16},"Jackson County, Tennessee":{"American Indian / Alaska Native":0.22,"Asian":0,"Black or African American":0.46,"Hispanic":2.54,"Pacific Islander":0.05,"Two or More Races":3.89,"White (non-Hispanic)":92.84},"Jefferson County, Tennessee":{"American Indian / Alaska Native":0.04,"Asian":0.55,"Black or African American":1.54,"Hispanic":4.52,"Pacific Islander":0.05,"Two or More Races":2.64,"White (non-Hispanic)":90.26},"Johnson County, Tennessee":{"American Indian / Alaska Native":0.57,"Asian":0.18,"Black or African American":3.69,"Hispanic":2.99,"Pacific Islander":0,"Two or More Races":4.11,"White (non-Hispanic)":87.97},"Knox County, Tennessee":{"American Indian / Alaska Native":0.09,"Asian":2.22,"Black or African American":8.04,"Hispanic":6.07,"Pacific Islander":0.07,"Two or More Races":3.45,"White (non-Hispanic)":79.56},"Lake County, Tennessee":{"American Indian / Alaska Native":1,"Asian":0.19,"Black or African American":22.15,"Hispanic":4.41,"Pacific Islander":0.19,"Two or More Races":6.8,"White (non-Hispanic)":65.25},"Lauderdale County, Tennessee":{"American Indian / Alaska Native":0.34,"Asian":0.63,"Black or African American":33.91,"Hispanic":2.62,"Pacific Islander":0,"Two or More Races":3.7,"White (non-Hispanic)":58.63},"Lawrence County, Tennessee":{"American Indian / Alaska Native":0.02,"Asian":0.22,"Black or African American":1.31,"Hispanic":2.68,"Pacific Islander":0,"Two or More Races":3.53,"White (non-Hispanic)":92.06},"Lewis County, Tennessee":{"American Indian / Alaska Native":0,"Asian":0.83,"Black or African American":0.78,"Hispanic":2.91,"Pacific Islander":0,"Two or More Races":3.63,"White (non-Hispanic)":91.85},"Lincoln County, Tennessee":{"American Indian / Alaska Native":0.08,"Asian":0.63,"Black or African American":5.76,"Hispanic":3.91,"Pacific Islander":0,"Two or More Races":4.31,"White (non-Hispanic)":85.21},"Loudon County, Tennessee":{"American Indian / Alaska Native":0.04,"Asian":0.91,"Black or African American":1.31,"Hispanic":10.01,"Pacific Islander":0,"Two or More Races":1.57,"White (non-Hispanic)":85.79},"Macon County, Tennessee":{"American Indian / Alaska Native":0.07,"Asian":0.05,"Black or African American":0.74,"Hispanic":6.79,"Pacific Islander":0,"Two or More Races":3.65,"White (non-Hispanic)":88.71},"Madison County, Tennessee":{"American Indian / Alaska Native":0.14,"Asian":1,"Black or African American":36.48,"Hispanic":4.98,"Pacific Islander":0.09,"Two or More Races":3.23,"White (non-Hispanic)":53.52},"Marion County, Tennessee":{"American Indian / Alaska Native":0.12,"Asian":0.22,"Black or African American":2.82,"Hispanic":2.32,"Pacific Islander":0,"Two or More Races":4,"White (non-Hispanic)":90.41},"Marshall County, Tennessee":{"American Indian / Alaska Native":0.19,"Asian":0.66,"Black or African American":4.1,"Hispanic":6.81,"Pacific Islander":0,"Two or More Races":4.2,"White (non-Hispanic)":83.47},"Maury County, Tennessee":{"American Indian / Alaska Native":0.08,"Asian":0.93,"Black or African American":10.57,"Hispanic":7.8,"Pacific Islander":0.01,"Two or More Races":3.78,"White (non-Hispanic)":76.7},"McMinn County, Tennessee":{"American Indian / Alaska Native":0.06,"Asian":0.8,"Black or African American":3.13,"Hispanic":4.38,"Pacific Islander":0,"Two or More Races":4.84,"White (non-Hispanic)":86.7},"McNairy County, Tennessee":{"American Indian / Alaska Native":0.24,"Asian":0.46,"Black or African American":5.26,"Hispanic":2.01,"Pacific Islander":0,"Two or More Races":2.6,"White (non-Hispanic)":89.35},"Meigs County, Tennessee":{"American Indian / Alaska Native":0,"Asian":0.48,"Black or African American":2.32,"Hispanic":1,"Pacific Islander":0,"Two or More Races":5.34,"White (non-Hispanic)":90.45},"Monroe County, Tennessee":{"American Indian / Alaska Native":0.18,"Asian":0.43,"Black or African American":1.74,"Hispanic":4.45,"Pacific Islander":0,"Two or More Races":5.5,"White (non-Hispanic)":87.43},"Montgomery County, Tennessee":{"American Indian / Alaska Native":0.17,"Asian":2.43,"Black or African American":19.58,"Hispanic":10.98,"Pacific Islander":0.27,"Two or More Races":5.92,"White (non-Hispanic)":60.21},"Moore County, Tennessee":{"American Indian / Alaska Native":0.39,"Asian":0.41,"Black or African American":2.95,"Hispanic":1.65,"Pacific Islander":0.02,"Two or More Races":2.44,"White (non-Hispanic)":92.15},"Morgan County, Tennessee":{"American Indian / Alaska Native":0.08,"Asian":0.16,"Black or African American":4.46,"Hispanic":1.78,"Pacific Islander":0.01,"Two or More Races":1.52,"White (non-Hispanic)":91.98},"Obion County, Tennessee":{"American Indian / Alaska Native":0.07,"Asian":0.23,"Black or African American":10.49,"Hispanic":5.28,"Pacific Islander":0.13,"Two or More Races":4.08,"White (non-Hispanic)":79.51},"Overton County, Tennessee":{"American Indian / Alaska Native":0.08,"Asian":0.28,"Black or African American":1.38,"Hispanic":1.99,"Pacific Islander":0.04,"Two or More Races":0.96,"White (non-Hispanic)":95.26},"Perry County, Tennessee":{"American Indian / Alaska Native":0.54,"Asian":1.26,"Black or African American":0.5,"Hispanic":2.84,"Pacific Islander":0,"Two or More Races":4.68,"White (non-Hispanic)":90.18},"Pickett County, Tennessee":{"American Indian / Alaska Native":0.1,"Asian":0,"Black or African American":0.36,"Hispanic":0.81,"Pacific Islander":0,"Two or More Races":3.1,"White (non-Hispanic)":95.63},"Polk County, Tennessee":{"American Indian / Alaska Native":0.1,"Asian":0.28,"Black or African American":0.77,"Hispanic":2.08,"Pacific Islander":0,"Two or More Races":6.07,"White (non-Hispanic)":90.45},"Putnam County, Tennessee":{"American Indian / Alaska Native":0.04,"Asian":1.16,"Black or African American":2.39,"Hispanic":8.04,"Pacific Islander":0,"Two or More Races":2.75,"White (non-Hispanic)":85.44},"Rhea County, Tennessee":{"American Indian / Alaska Native":0.06,"Asian":0.67,"Black or African American":1.61,"Hispanic":6.1,"Pacific Islander":0,"Two or More Races":3.61,"White (non-Hispanic)":87.46},"Roane County, Tennessee":{"American Indian / Alaska Native":0.18,"Asian":0.61,"Black or African American":2.38,"Hispanic":2.25,"Pacific Islander":0,"Two or More Races":3.29,"White (non-Hispanic)":91.15},"Robertson County, Tennessee":{"American Indian / Alaska Native":0.09,"Asian":0.68,"Black or African American":7.03,"Hispanic":9.62,"Pacific Islander":0.01,"Two or More Races":2.76,"White (non-Hispanic)":79.28},"Rutherford County, Tennessee":{"American Indian / Alaska Native":0.08,"Asian":3.52,"Black or African American":14.88,"Hispanic":11.55,"Pacific Islander":0.06,"Two or More Races":4.61,"White (non-Hispanic)":64.81},"Scott County, Tennessee":{"American Indian / Alaska Native":0.25,"Asian":0.41,"Black or African American":0.39,"Hispanic":0.13,"Pacific Islander":0.03,"Two or More Races":2.12,"White (non-Hispanic)":96.57},"Sequatchie County, Tennessee":{"American Indian / Alaska Native":0.1,"Asian":0.79,"Black or African American":0.47,"Hispanic":4.38,"Pacific Islander":0.12,"Two or More Races":2.63,"White (non-Hispanic)":91.33},"Sevier County, Tennessee":{"American Indian / Alaska Native":0.16,"Asian":1.18,"Black or African American":0.84,"Hispanic":8.93,"Pacific Islander":0.05,"Two or More Races":2.32,"White (non-Hispanic)":85.96},"Shelby County, Tennessee":{"American Indian / Alaska Native":0.04,"Asian":2.83,"Black or African American":52.65,"Hispanic":8.49,"Pacific Islander":0.07,"Two or More Races":2.35,"White (non-Hispanic)":33.28},"Smith County, Tennessee":{"American Indian / Alaska Native":0.06,"Asian":0.51,"Black or African American":1.78,"Hispanic":2.97,"Pacific Islander":0.09,"Two or More Races":3.76,"White (non-Hispanic)":90.48},"Stewart County, Tennessee":{"American Indian / Alaska Native":0.11,"Asian":0.6,"Black or African American":1.29,"Hispanic":2.88,"Pacific Islander":0,"Two or More Races":4.37,"White (non-Hispanic)":90.74},"Sullivan County, Tennessee":{"American Indian / Alaska Native":0.12,"Asian":0.83,"Black or African American":1.99,"Hispanic":2.45,"Pacific Islander":0,"Two or More Races":2.3,"White (non-Hispanic)":92.09},"Sumner County, Tennessee":{"American Indian / Alaska Native":0.08,"Asian":1.59,"Black or African American":8.47,"Hispanic":6.86,"Pacific Islander":0.04,"Two or More Races":3.03,"White (non-Hispanic)":79.48},"Tipton County, Tennessee":{"American Indian / Alaska Native":0.17,"Asian":0.5,"Black or African American":18.6,"Hispanic":2.98,"Pacific Islander":0,"Two or More Races":3.17,"White (non-Hispanic)":73.77},"Trousdale County, Tennessee":{"American Indian / Alaska Native":0.28,"Asian":0.16,"Black or African American":11.27,"Hispanic":3.65,"Pacific Islander":0,"Two or More Races":4.02,"White (non-Hispanic)":80.39},"Unicoi County, Tennessee":{"American Indian / Alaska Native":0.33,"Asian":0.16,"Black or African American":0.46,"Hispanic":6.43,"Pacific Islander":0,"Two or More Races":2.04,"White (non-Hispanic)":90.58},"Union County, Tennessee":{"American Indian / Alaska Native":0,"Asian":0.02,"Black or African American":0.55,"Hispanic":2.22,"Pacific Islander":0,"Two or More Races":2.57,"White (non-Hispanic)":94.58},"Van Buren County, Tennessee":{"American Indian / Alaska Native":0.21,"Asian":0.21,"Black or African American":0.38,"Hispanic":0.46,"Pacific Islander":0,"Two or More Races":3.67,"White (non-Hispanic)":95.07},"Warren County, Tennessee":{"American Indian / Alaska Native":0.03,"Asian":0.6,"Black or African American":2.73,"Hispanic":9.81,"Pacific Islander":0.06,"Two or More Races":3.03,"White (non-Hispanic)":83.74},"Washington County, Tennessee":{"American Indian / Alaska Native":0.06,"Asian":1.52,"Black or African American":3.7,"Hispanic":4.72,"Pacific Islander":0.03,"Two or More Races":3.46,"White (non-Hispanic)":86.26},"Wayne County, Tennessee":{"American Indian / Alaska Native":0.13,"Asian":0.08,"Black or African American":4.2,"Hispanic":2.55,"Pacific Islander":0.15,"Two or More Races":4.1,"White (non-Hispanic)":88.65},"Weakley County, Tennessee":{"American Indian / Alaska Native":0.23,"Asian":1.13,"Black or African American":7.42,"Hispanic":2.96,"Pacific Islander":0.05,"Two or More Races":2.75,"White (non-Hispanic)":85.16},"White County, Tennessee":{"American Indian / Alaska Native":0.07,"Asian":0.36,"Black or African American":1.21,"Hispanic":3.01,"Pacific Islander":0.35,"Two or More Races":2.51,"White (non-Hispanic)":92.2},"Williamson County, Tennessee":{"American Indian / Alaska Native":0.03,"Asian":5.15,"Black or African American":3.8,"Hispanic":5.82,"Pacific Islander":0,"Two or More Races":3.17,"White (non-Hispanic)":81.53},"Wilson County, Tennessee":{"American Indian / Alaska Native":0.05,"Asian":2.03,"Black or African American":7.08,"Hispanic":6.03,"Pacific Islander":0,"Two or More Races":3.29,"White (non-Hispanic)":80.46}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

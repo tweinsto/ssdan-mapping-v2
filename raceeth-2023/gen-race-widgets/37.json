@@ -1,0 +1,3338 @@
+{
+  "state": "Alamance County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 89481
+        },
+        {
+          "label": "Asian",
+          "value": 330720
+        },
+        {
+          "label": "Black or African American",
+          "value": 2147308
+        },
+        {
+          "label": "Hispanic",
+          "value": 1158750
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5548
+        },
+        {
+          "label": "Two or More Races",
+          "value": 387131
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6419285
+        }
+      ]
+    },
+    "Alamance County, North Carolina": {
+      "label": "Alamance County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 265
+        },
+        {
+          "label": "Asian",
+          "value": 2885
+        },
+        {
+          "label": "Black or African American",
+          "value": 34240
+        },
+        {
+          "label": "Hispanic",
+          "value": 25716
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 51
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6398
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 103736
+        }
+      ]
+    },
+    "Alexander County, North Carolina": {
+      "label": "Alexander County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 392
+        },
+        {
+          "label": "Black or African American",
+          "value": 1468
+        },
+        {
+          "label": "Hispanic",
+          "value": 1950
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1337
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 31262
+        }
+      ]
+    },
+    "Alleghany County, North Carolina": {
+      "label": "Alleghany County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 21
+        },
+        {
+          "label": "Asian",
+          "value": 85
+        },
+        {
+          "label": "Black or African American",
+          "value": 151
+        },
+        {
+          "label": "Hispanic",
+          "value": 1269
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 252
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9297
+        }
+      ]
+    },
+    "Anson County, North Carolina": {
+      "label": "Anson County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 44
+        },
+        {
+          "label": "Asian",
+          "value": 339
+        },
+        {
+          "label": "Black or African American",
+          "value": 10222
+        },
+        {
+          "label": "Hispanic",
+          "value": 799
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 730
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9733
+        }
+      ]
+    },
+    "Ashe County, North Carolina": {
+      "label": "Ashe County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 63
+        },
+        {
+          "label": "Asian",
+          "value": 100
+        },
+        {
+          "label": "Black or African American",
+          "value": 266
+        },
+        {
+          "label": "Hispanic",
+          "value": 1569
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 328
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24470
+        }
+      ]
+    },
+    "Avery County, North Carolina": {
+      "label": "Avery County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 42
+        },
+        {
+          "label": "Asian",
+          "value": 76
+        },
+        {
+          "label": "Black or African American",
+          "value": 742
+        },
+        {
+          "label": "Hispanic",
+          "value": 1005
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 21
+        },
+        {
+          "label": "Two or More Races",
+          "value": 392
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15354
+        }
+      ]
+    },
+    "Beaufort County, North Carolina": {
+      "label": "Beaufort County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 40
+        },
+        {
+          "label": "Asian",
+          "value": 104
+        },
+        {
+          "label": "Black or African American",
+          "value": 10143
+        },
+        {
+          "label": "Hispanic",
+          "value": 3482
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1210
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29528
+        }
+      ]
+    },
+    "Bertie County, North Carolina": {
+      "label": "Bertie County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 56
+        },
+        {
+          "label": "Asian",
+          "value": 136
+        },
+        {
+          "label": "Black or African American",
+          "value": 10489
+        },
+        {
+          "label": "Hispanic",
+          "value": 379
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 403
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5994
+        }
+      ]
+    },
+    "Bladen County, North Carolina": {
+      "label": "Bladen County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 741
+        },
+        {
+          "label": "Asian",
+          "value": 61
+        },
+        {
+          "label": "Black or African American",
+          "value": 9779
+        },
+        {
+          "label": "Hispanic",
+          "value": 2650
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 395
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15909
+        }
+      ]
+    },
+    "Brunswick County, North Carolina": {
+      "label": "Brunswick County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 355
+        },
+        {
+          "label": "Asian",
+          "value": 908
+        },
+        {
+          "label": "Black or African American",
+          "value": 11695
+        },
+        {
+          "label": "Hispanic",
+          "value": 8037
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 44
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6187
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 118328
+        }
+      ]
+    },
+    "Buncombe County, North Carolina": {
+      "label": "Buncombe County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 295
+        },
+        {
+          "label": "Asian",
+          "value": 3122
+        },
+        {
+          "label": "Black or African American",
+          "value": 14644
+        },
+        {
+          "label": "Hispanic",
+          "value": 22443
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 95
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9379
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 220778
+        }
+      ]
+    },
+    "Burke County, North Carolina": {
+      "label": "Burke County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 81
+        },
+        {
+          "label": "Asian",
+          "value": 2941
+        },
+        {
+          "label": "Black or African American",
+          "value": 5221
+        },
+        {
+          "label": "Hispanic",
+          "value": 7229
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 38
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2238
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 69715
+        }
+      ]
+    },
+    "Cabarrus County, North Carolina": {
+      "label": "Cabarrus County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 74
+        },
+        {
+          "label": "Asian",
+          "value": 12408
+        },
+        {
+          "label": "Black or African American",
+          "value": 42734
+        },
+        {
+          "label": "Hispanic",
+          "value": 28603
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 69
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9818
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 135848
+        }
+      ]
+    },
+    "Caldwell County, North Carolina": {
+      "label": "Caldwell County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 72
+        },
+        {
+          "label": "Asian",
+          "value": 403
+        },
+        {
+          "label": "Black or African American",
+          "value": 3294
+        },
+        {
+          "label": "Hispanic",
+          "value": 5160
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 81
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2500
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 69065
+        }
+      ]
+    },
+    "Camden County, North Carolina": {
+      "label": "Camden County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 77
+        },
+        {
+          "label": "Black or African American",
+          "value": 891
+        },
+        {
+          "label": "Hispanic",
+          "value": 419
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 25
+        },
+        {
+          "label": "Two or More Races",
+          "value": 759
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8458
+        }
+      ]
+    },
+    "Carteret County, North Carolina": {
+      "label": "Carteret County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 171
+        },
+        {
+          "label": "Asian",
+          "value": 603
+        },
+        {
+          "label": "Black or African American",
+          "value": 2878
+        },
+        {
+          "label": "Hispanic",
+          "value": 3230
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 15
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2843
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 58683
+        }
+      ]
+    },
+    "Caswell County, North Carolina": {
+      "label": "Caswell County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 97
+        },
+        {
+          "label": "Black or African American",
+          "value": 7138
+        },
+        {
+          "label": "Hispanic",
+          "value": 1102
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 779
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13543
+        }
+      ]
+    },
+    "Catawba County, North Carolina": {
+      "label": "Catawba County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 122
+        },
+        {
+          "label": "Asian",
+          "value": 6681
+        },
+        {
+          "label": "Black or African American",
+          "value": 12855
+        },
+        {
+          "label": "Hispanic",
+          "value": 17954
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 33
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6402
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 117583
+        }
+      ]
+    },
+    "Chatham County, North Carolina": {
+      "label": "Chatham County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 90
+        },
+        {
+          "label": "Asian",
+          "value": 1592
+        },
+        {
+          "label": "Black or African American",
+          "value": 8060
+        },
+        {
+          "label": "Hispanic",
+          "value": 10520
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2928
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 54664
+        }
+      ]
+    },
+    "Cherokee County, North Carolina": {
+      "label": "Cherokee County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 456
+        },
+        {
+          "label": "Asian",
+          "value": 156
+        },
+        {
+          "label": "Black or African American",
+          "value": 449
+        },
+        {
+          "label": "Hispanic",
+          "value": 1019
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 750
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26306
+        }
+      ]
+    },
+    "Chowan County, North Carolina": {
+      "label": "Chowan County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 10
+        },
+        {
+          "label": "Black or African American",
+          "value": 4546
+        },
+        {
+          "label": "Hispanic",
+          "value": 534
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 396
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8293
+        }
+      ]
+    },
+    "Clay County, North Carolina": {
+      "label": "Clay County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 103
+        },
+        {
+          "label": "Asian",
+          "value": 88
+        },
+        {
+          "label": "Black or African American",
+          "value": 202
+        },
+        {
+          "label": "Hispanic",
+          "value": 449
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 137
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10345
+        }
+      ]
+    },
+    "Cleveland County, North Carolina": {
+      "label": "Cleveland County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 219
+        },
+        {
+          "label": "Asian",
+          "value": 910
+        },
+        {
+          "label": "Black or African American",
+          "value": 18385
+        },
+        {
+          "label": "Hispanic",
+          "value": 4426
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 67
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4793
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 71127
+        }
+      ]
+    },
+    "Columbus County, North Carolina": {
+      "label": "Columbus County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1493
+        },
+        {
+          "label": "Asian",
+          "value": 213
+        },
+        {
+          "label": "Black or African American",
+          "value": 14429
+        },
+        {
+          "label": "Hispanic",
+          "value": 2766
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1697
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29764
+        }
+      ]
+    },
+    "Craven County, North Carolina": {
+      "label": "Craven County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 182
+        },
+        {
+          "label": "Asian",
+          "value": 2772
+        },
+        {
+          "label": "Black or African American",
+          "value": 20355
+        },
+        {
+          "label": "Hispanic",
+          "value": 7523
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 180
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3814
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 65396
+        }
+      ]
+    },
+    "Cumberland County, North Carolina": {
+      "label": "Cumberland County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3343
+        },
+        {
+          "label": "Asian",
+          "value": 8630
+        },
+        {
+          "label": "Black or African American",
+          "value": 122573
+        },
+        {
+          "label": "Hispanic",
+          "value": 41644
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1159
+        },
+        {
+          "label": "Two or More Races",
+          "value": 19563
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 136681
+        }
+      ]
+    },
+    "Currituck County, North Carolina": {
+      "label": "Currituck County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 50
+        },
+        {
+          "label": "Asian",
+          "value": 285
+        },
+        {
+          "label": "Black or African American",
+          "value": 1509
+        },
+        {
+          "label": "Hispanic",
+          "value": 1444
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 989
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24993
+        }
+      ]
+    },
+    "Dare County, North Carolina": {
+      "label": "Dare County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 45
+        },
+        {
+          "label": "Asian",
+          "value": 174
+        },
+        {
+          "label": "Black or African American",
+          "value": 1052
+        },
+        {
+          "label": "Hispanic",
+          "value": 2665
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1038
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32294
+        }
+      ]
+    },
+    "Davidson County, North Carolina": {
+      "label": "Davidson County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 204
+        },
+        {
+          "label": "Asian",
+          "value": 2603
+        },
+        {
+          "label": "Black or African American",
+          "value": 15675
+        },
+        {
+          "label": "Hispanic",
+          "value": 14633
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 25
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6060
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 131410
+        }
+      ]
+    },
+    "Davie County, North Carolina": {
+      "label": "Davie County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 146
+        },
+        {
+          "label": "Asian",
+          "value": 308
+        },
+        {
+          "label": "Black or African American",
+          "value": 1734
+        },
+        {
+          "label": "Hispanic",
+          "value": 3493
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1817
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 35895
+        }
+      ]
+    },
+    "Duplin County, North Carolina": {
+      "label": "Duplin County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 60
+        },
+        {
+          "label": "Asian",
+          "value": 299
+        },
+        {
+          "label": "Black or African American",
+          "value": 11137
+        },
+        {
+          "label": "Hispanic",
+          "value": 11137
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 24
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1408
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24904
+        }
+      ]
+    },
+    "Durham County, North Carolina": {
+      "label": "Durham County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 712
+        },
+        {
+          "label": "Asian",
+          "value": 16950
+        },
+        {
+          "label": "Black or African American",
+          "value": 108113
+        },
+        {
+          "label": "Hispanic",
+          "value": 50307
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 143
+        },
+        {
+          "label": "Two or More Races",
+          "value": 13868
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 138134
+        }
+      ]
+    },
+    "Edgecombe County, North Carolina": {
+      "label": "Edgecombe County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 146
+        },
+        {
+          "label": "Asian",
+          "value": 109
+        },
+        {
+          "label": "Black or African American",
+          "value": 27218
+        },
+        {
+          "label": "Hispanic",
+          "value": 2838
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 55
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1206
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17157
+        }
+      ]
+    },
+    "Forsyth County, North Carolina": {
+      "label": "Forsyth County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 616
+        },
+        {
+          "label": "Asian",
+          "value": 8960
+        },
+        {
+          "label": "Black or African American",
+          "value": 96455
+        },
+        {
+          "label": "Hispanic",
+          "value": 56553
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 217
+        },
+        {
+          "label": "Two or More Races",
+          "value": 12482
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 209551
+        }
+      ]
+    },
+    "Franklin County, North Carolina": {
+      "label": "Franklin County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 160
+        },
+        {
+          "label": "Asian",
+          "value": 582
+        },
+        {
+          "label": "Black or African American",
+          "value": 16452
+        },
+        {
+          "label": "Hispanic",
+          "value": 7637
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2916
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 43982
+        }
+      ]
+    },
+    "Gaston County, North Carolina": {
+      "label": "Gaston County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 403
+        },
+        {
+          "label": "Asian",
+          "value": 3685
+        },
+        {
+          "label": "Black or African American",
+          "value": 40133
+        },
+        {
+          "label": "Hispanic",
+          "value": 21518
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 85
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7918
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 156914
+        }
+      ]
+    },
+    "Gates County, North Carolina": {
+      "label": "Gates County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 47
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 3247
+        },
+        {
+          "label": "Hispanic",
+          "value": 219
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 309
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6615
+        }
+      ]
+    },
+    "Graham County, North Carolina": {
+      "label": "Graham County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 672
+        },
+        {
+          "label": "Asian",
+          "value": 90
+        },
+        {
+          "label": "Black or African American",
+          "value": 56
+        },
+        {
+          "label": "Hispanic",
+          "value": 236
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 107
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6847
+        }
+      ]
+    },
+    "Granville County, North Carolina": {
+      "label": "Granville County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 170
+        },
+        {
+          "label": "Asian",
+          "value": 361
+        },
+        {
+          "label": "Black or African American",
+          "value": 17867
+        },
+        {
+          "label": "Hispanic",
+          "value": 6545
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 210
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1988
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33968
+        }
+      ]
+    },
+    "Greene County, North Carolina": {
+      "label": "Greene County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 98
+        },
+        {
+          "label": "Asian",
+          "value": 5
+        },
+        {
+          "label": "Black or African American",
+          "value": 6480
+        },
+        {
+          "label": "Hispanic",
+          "value": 3077
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1355
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9375
+        }
+      ]
+    },
+    "Guilford County, North Carolina": {
+      "label": "Guilford County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 992
+        },
+        {
+          "label": "Asian",
+          "value": 28021
+        },
+        {
+          "label": "Black or African American",
+          "value": 182101
+        },
+        {
+          "label": "Hispanic",
+          "value": 53188
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 50
+        },
+        {
+          "label": "Two or More Races",
+          "value": 20732
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 254315
+        }
+      ]
+    },
+    "Halifax County, North Carolina": {
+      "label": "Halifax County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1388
+        },
+        {
+          "label": "Asian",
+          "value": 446
+        },
+        {
+          "label": "Black or African American",
+          "value": 24935
+        },
+        {
+          "label": "Hispanic",
+          "value": 1558
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2109
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17701
+        }
+      ]
+    },
+    "Harnett County, North Carolina": {
+      "label": "Harnett County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 782
+        },
+        {
+          "label": "Asian",
+          "value": 1281
+        },
+        {
+          "label": "Black or African American",
+          "value": 27741
+        },
+        {
+          "label": "Hispanic",
+          "value": 19970
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 236
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5369
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 80462
+        }
+      ]
+    },
+    "Haywood County, North Carolina": {
+      "label": "Haywood County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 288
+        },
+        {
+          "label": "Asian",
+          "value": 240
+        },
+        {
+          "label": "Black or African American",
+          "value": 603
+        },
+        {
+          "label": "Hispanic",
+          "value": 2953
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1523
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 56749
+        }
+      ]
+    },
+    "Henderson County, North Carolina": {
+      "label": "Henderson County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 309
+        },
+        {
+          "label": "Asian",
+          "value": 1456
+        },
+        {
+          "label": "Black or African American",
+          "value": 3403
+        },
+        {
+          "label": "Hispanic",
+          "value": 15034
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 143
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2742
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 93736
+        }
+      ]
+    },
+    "Hertford County, North Carolina": {
+      "label": "Hertford County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 213
+        },
+        {
+          "label": "Asian",
+          "value": 212
+        },
+        {
+          "label": "Black or African American",
+          "value": 11564
+        },
+        {
+          "label": "Hispanic",
+          "value": 1328
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 485
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6624
+        }
+      ]
+    },
+    "Hoke County, North Carolina": {
+      "label": "Hoke County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3616
+        },
+        {
+          "label": "Asian",
+          "value": 742
+        },
+        {
+          "label": "Black or African American",
+          "value": 17252
+        },
+        {
+          "label": "Hispanic",
+          "value": 8106
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3372
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19436
+        }
+      ]
+    },
+    "Hyde County, North Carolina": {
+      "label": "Hyde County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 53
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 1149
+        },
+        {
+          "label": "Hispanic",
+          "value": 358
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 264
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2801
+        }
+      ]
+    },
+    "Iredell County, North Carolina": {
+      "label": "Iredell County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 201
+        },
+        {
+          "label": "Asian",
+          "value": 4832
+        },
+        {
+          "label": "Black or African American",
+          "value": 21689
+        },
+        {
+          "label": "Hispanic",
+          "value": 17001
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6025
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 140984
+        }
+      ]
+    },
+    "Jackson County, North Carolina": {
+      "label": "Jackson County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3033
+        },
+        {
+          "label": "Asian",
+          "value": 508
+        },
+        {
+          "label": "Black or African American",
+          "value": 962
+        },
+        {
+          "label": "Hispanic",
+          "value": 3310
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1289
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33866
+        }
+      ]
+    },
+    "Johnston County, North Carolina": {
+      "label": "Johnston County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 614
+        },
+        {
+          "label": "Asian",
+          "value": 1785
+        },
+        {
+          "label": "Black or African American",
+          "value": 37414
+        },
+        {
+          "label": "Hispanic",
+          "value": 36811
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 79
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6892
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 142071
+        }
+      ]
+    },
+    "Jones County, North Carolina": {
+      "label": "Jones County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 55
+        },
+        {
+          "label": "Asian",
+          "value": 67
+        },
+        {
+          "label": "Black or African American",
+          "value": 2520
+        },
+        {
+          "label": "Hispanic",
+          "value": 441
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 328
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5834
+        }
+      ]
+    },
+    "Lee County, North Carolina": {
+      "label": "Lee County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 57
+        },
+        {
+          "label": "Asian",
+          "value": 694
+        },
+        {
+          "label": "Black or African American",
+          "value": 11288
+        },
+        {
+          "label": "Hispanic",
+          "value": 13590
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2483
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 36398
+        }
+      ]
+    },
+    "Lenoir County, North Carolina": {
+      "label": "Lenoir County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 74
+        },
+        {
+          "label": "Asian",
+          "value": 426
+        },
+        {
+          "label": "Black or African American",
+          "value": 21622
+        },
+        {
+          "label": "Hispanic",
+          "value": 4620
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 48
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1601
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26368
+        }
+      ]
+    },
+    "Lincoln County, North Carolina": {
+      "label": "Lincoln County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 155
+        },
+        {
+          "label": "Asian",
+          "value": 705
+        },
+        {
+          "label": "Black or African American",
+          "value": 5236
+        },
+        {
+          "label": "Hispanic",
+          "value": 7065
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2137
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 74853
+        }
+      ]
+    },
+    "Macon County, North Carolina": {
+      "label": "Macon County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 83
+        },
+        {
+          "label": "Asian",
+          "value": 314
+        },
+        {
+          "label": "Black or African American",
+          "value": 433
+        },
+        {
+          "label": "Hispanic",
+          "value": 3634
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 839
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32169
+        }
+      ]
+    },
+    "Madison County, North Carolina": {
+      "label": "Madison County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 94
+        },
+        {
+          "label": "Black or African American",
+          "value": 214
+        },
+        {
+          "label": "Hispanic",
+          "value": 759
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 20
+        },
+        {
+          "label": "Two or More Races",
+          "value": 553
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19817
+        }
+      ]
+    },
+    "Martin County, North Carolina": {
+      "label": "Martin County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 124
+        },
+        {
+          "label": "Black or African American",
+          "value": 8913
+        },
+        {
+          "label": "Hispanic",
+          "value": 939
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 24
+        },
+        {
+          "label": "Two or More Races",
+          "value": 589
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11169
+        }
+      ]
+    },
+    "McDowell County, North Carolina": {
+      "label": "McDowell County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 158
+        },
+        {
+          "label": "Asian",
+          "value": 483
+        },
+        {
+          "label": "Black or African American",
+          "value": 1723
+        },
+        {
+          "label": "Hispanic",
+          "value": 3028
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 715
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 38572
+        }
+      ]
+    },
+    "Mecklenburg County, North Carolina": {
+      "label": "Mecklenburg County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1671
+        },
+        {
+          "label": "Asian",
+          "value": 68849
+        },
+        {
+          "label": "Black or African American",
+          "value": 340672
+        },
+        {
+          "label": "Hispanic",
+          "value": 174580
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 416
+        },
+        {
+          "label": "Two or More Races",
+          "value": 43315
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 496297
+        }
+      ]
+    },
+    "Mitchell County, North Carolina": {
+      "label": "Mitchell County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 52
+        },
+        {
+          "label": "Asian",
+          "value": 63
+        },
+        {
+          "label": "Black or African American",
+          "value": 118
+        },
+        {
+          "label": "Hispanic",
+          "value": 790
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 226
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13700
+        }
+      ]
+    },
+    "Montgomery County, North Carolina": {
+      "label": "Montgomery County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 106
+        },
+        {
+          "label": "Asian",
+          "value": 404
+        },
+        {
+          "label": "Black or African American",
+          "value": 4232
+        },
+        {
+          "label": "Hispanic",
+          "value": 4000
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 780
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16261
+        }
+      ]
+    },
+    "Moore County, North Carolina": {
+      "label": "Moore County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 431
+        },
+        {
+          "label": "Asian",
+          "value": 1271
+        },
+        {
+          "label": "Black or African American",
+          "value": 9844
+        },
+        {
+          "label": "Hispanic",
+          "value": 7799
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 151
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4858
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 78066
+        }
+      ]
+    },
+    "Nash County, North Carolina": {
+      "label": "Nash County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 461
+        },
+        {
+          "label": "Asian",
+          "value": 775
+        },
+        {
+          "label": "Black or African American",
+          "value": 38667
+        },
+        {
+          "label": "Hispanic",
+          "value": 7578
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2654
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 44761
+        }
+      ]
+    },
+    "New Hanover County, North Carolina": {
+      "label": "New Hanover County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 377
+        },
+        {
+          "label": "Asian",
+          "value": 3169
+        },
+        {
+          "label": "Black or African American",
+          "value": 25678
+        },
+        {
+          "label": "Hispanic",
+          "value": 17675
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 38
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9293
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 173634
+        }
+      ]
+    },
+    "Northampton County, North Carolina": {
+      "label": "Northampton County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 34
+        },
+        {
+          "label": "Asian",
+          "value": 21
+        },
+        {
+          "label": "Black or African American",
+          "value": 9326
+        },
+        {
+          "label": "Hispanic",
+          "value": 398
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 668
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6707
+        }
+      ]
+    },
+    "Onslow County, North Carolina": {
+      "label": "Onslow County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1267
+        },
+        {
+          "label": "Asian",
+          "value": 3655
+        },
+        {
+          "label": "Black or African American",
+          "value": 24874
+        },
+        {
+          "label": "Hispanic",
+          "value": 28739
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 248
+        },
+        {
+          "label": "Two or More Races",
+          "value": 14332
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 135161
+        }
+      ]
+    },
+    "Orange County, North Carolina": {
+      "label": "Orange County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 372
+        },
+        {
+          "label": "Asian",
+          "value": 11565
+        },
+        {
+          "label": "Black or African American",
+          "value": 15054
+        },
+        {
+          "label": "Hispanic",
+          "value": 15540
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 39
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5703
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 98391
+        }
+      ]
+    },
+    "Pamlico County, North Carolina": {
+      "label": "Pamlico County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 74
+        },
+        {
+          "label": "Black or African American",
+          "value": 2273
+        },
+        {
+          "label": "Hispanic",
+          "value": 567
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 267
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9112
+        }
+      ]
+    },
+    "Pasquotank County, North Carolina": {
+      "label": "Pasquotank County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 64
+        },
+        {
+          "label": "Asian",
+          "value": 504
+        },
+        {
+          "label": "Black or African American",
+          "value": 14143
+        },
+        {
+          "label": "Hispanic",
+          "value": 2401
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 31
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1545
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21934
+        }
+      ]
+    },
+    "Pender County, North Carolina": {
+      "label": "Pender County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 138
+        },
+        {
+          "label": "Asian",
+          "value": 382
+        },
+        {
+          "label": "Black or African American",
+          "value": 7842
+        },
+        {
+          "label": "Hispanic",
+          "value": 5402
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 29
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2464
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 46877
+        }
+      ]
+    },
+    "Perquimans County, North Carolina": {
+      "label": "Perquimans County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 106
+        },
+        {
+          "label": "Black or African American",
+          "value": 2861
+        },
+        {
+          "label": "Hispanic",
+          "value": 391
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 597
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9180
+        }
+      ]
+    },
+    "Person County, North Carolina": {
+      "label": "Person County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 49
+        },
+        {
+          "label": "Asian",
+          "value": 168
+        },
+        {
+          "label": "Black or African American",
+          "value": 10001
+        },
+        {
+          "label": "Hispanic",
+          "value": 2303
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1297
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25433
+        }
+      ]
+    },
+    "Pitt County, North Carolina": {
+      "label": "Pitt County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 200
+        },
+        {
+          "label": "Asian",
+          "value": 3045
+        },
+        {
+          "label": "Black or African American",
+          "value": 60121
+        },
+        {
+          "label": "Hispanic",
+          "value": 13263
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 73
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5560
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 89498
+        }
+      ]
+    },
+    "Polk County, North Carolina": {
+      "label": "Polk County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 34
+        },
+        {
+          "label": "Asian",
+          "value": 20
+        },
+        {
+          "label": "Black or African American",
+          "value": 1002
+        },
+        {
+          "label": "Hispanic",
+          "value": 1075
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 351
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17159
+        }
+      ]
+    },
+    "Randolph County, North Carolina": {
+      "label": "Randolph County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 156
+        },
+        {
+          "label": "Asian",
+          "value": 1597
+        },
+        {
+          "label": "Black or African American",
+          "value": 8594
+        },
+        {
+          "label": "Hispanic",
+          "value": 19722
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4695
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 110281
+        }
+      ]
+    },
+    "Richmond County, North Carolina": {
+      "label": "Richmond County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 882
+        },
+        {
+          "label": "Asian",
+          "value": 344
+        },
+        {
+          "label": "Black or African American",
+          "value": 13566
+        },
+        {
+          "label": "Hispanic",
+          "value": 3222
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1098
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23602
+        }
+      ]
+    },
+    "Robeson County, North Carolina": {
+      "label": "Robeson County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 45676
+        },
+        {
+          "label": "Asian",
+          "value": 897
+        },
+        {
+          "label": "Black or African American",
+          "value": 27106
+        },
+        {
+          "label": "Hispanic",
+          "value": 12216
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 44
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2993
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27575
+        }
+      ]
+    },
+    "Rockingham County, North Carolina": {
+      "label": "Rockingham County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 145
+        },
+        {
+          "label": "Asian",
+          "value": 177
+        },
+        {
+          "label": "Black or African American",
+          "value": 15986
+        },
+        {
+          "label": "Hispanic",
+          "value": 6308
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 138
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3764
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 64579
+        }
+      ]
+    },
+    "Rowan County, North Carolina": {
+      "label": "Rowan County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 149
+        },
+        {
+          "label": "Asian",
+          "value": 1446
+        },
+        {
+          "label": "Black or African American",
+          "value": 22892
+        },
+        {
+          "label": "Hispanic",
+          "value": 16784
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 116
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5022
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 101680
+        }
+      ]
+    },
+    "Rutherford County, North Carolina": {
+      "label": "Rutherford County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 104
+        },
+        {
+          "label": "Asian",
+          "value": 342
+        },
+        {
+          "label": "Black or African American",
+          "value": 5240
+        },
+        {
+          "label": "Hispanic",
+          "value": 3533
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 31
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2519
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 52623
+        }
+      ]
+    },
+    "Sampson County, North Carolina": {
+      "label": "Sampson County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1038
+        },
+        {
+          "label": "Asian",
+          "value": 289
+        },
+        {
+          "label": "Black or African American",
+          "value": 14692
+        },
+        {
+          "label": "Hispanic",
+          "value": 12600
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1037
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29385
+        }
+      ]
+    },
+    "Scotland County, North Carolina": {
+      "label": "Scotland County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3818
+        },
+        {
+          "label": "Asian",
+          "value": 348
+        },
+        {
+          "label": "Black or African American",
+          "value": 12966
+        },
+        {
+          "label": "Hispanic",
+          "value": 1272
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1706
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13946
+        }
+      ]
+    },
+    "Stanly County, North Carolina": {
+      "label": "Stanly County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 1210
+        },
+        {
+          "label": "Black or African American",
+          "value": 6970
+        },
+        {
+          "label": "Hispanic",
+          "value": 3341
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 196
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1588
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 50211
+        }
+      ]
+    },
+    "Stokes County, North Carolina": {
+      "label": "Stokes County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 88
+        },
+        {
+          "label": "Asian",
+          "value": 16
+        },
+        {
+          "label": "Black or African American",
+          "value": 1543
+        },
+        {
+          "label": "Hispanic",
+          "value": 1621
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1260
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 40212
+        }
+      ]
+    },
+    "Surry County, North Carolina": {
+      "label": "Surry County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 72
+        },
+        {
+          "label": "Asian",
+          "value": 454
+        },
+        {
+          "label": "Black or African American",
+          "value": 2493
+        },
+        {
+          "label": "Hispanic",
+          "value": 8674
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 39
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1298
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 58254
+        }
+      ]
+    },
+    "Swain County, North Carolina": {
+      "label": "Swain County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3971
+        },
+        {
+          "label": "Asian",
+          "value": 56
+        },
+        {
+          "label": "Black or African American",
+          "value": 212
+        },
+        {
+          "label": "Hispanic",
+          "value": 718
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 616
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8487
+        }
+      ]
+    },
+    "Transylvania County, North Carolina": {
+      "label": "Transylvania County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 180
+        },
+        {
+          "label": "Black or African American",
+          "value": 1239
+        },
+        {
+          "label": "Hispanic",
+          "value": 1635
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 706
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29335
+        }
+      ]
+    },
+    "Tyrrell County, North Carolina": {
+      "label": "Tyrrell County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 29
+        },
+        {
+          "label": "Black or African American",
+          "value": 1097
+        },
+        {
+          "label": "Hispanic",
+          "value": 337
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 61
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1834
+        }
+      ]
+    },
+    "Union County, North Carolina": {
+      "label": "Union County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 345
+        },
+        {
+          "label": "Asian",
+          "value": 10002
+        },
+        {
+          "label": "Black or African American",
+          "value": 26797
+        },
+        {
+          "label": "Hispanic",
+          "value": 31683
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 44
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8515
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 166556
+        }
+      ]
+    },
+    "Vance County, North Carolina": {
+      "label": "Vance County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 47
+        },
+        {
+          "label": "Asian",
+          "value": 272
+        },
+        {
+          "label": "Black or African American",
+          "value": 20715
+        },
+        {
+          "label": "Hispanic",
+          "value": 3853
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1537
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15937
+        }
+      ]
+    },
+    "Wake County, North Carolina": {
+      "label": "Wake County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2123
+        },
+        {
+          "label": "Asian",
+          "value": 92960
+        },
+        {
+          "label": "Black or African American",
+          "value": 217801
+        },
+        {
+          "label": "Hispanic",
+          "value": 131104
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 341
+        },
+        {
+          "label": "Two or More Races",
+          "value": 43467
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 656508
+        }
+      ]
+    },
+    "Warren County, North Carolina": {
+      "label": "Warren County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 937
+        },
+        {
+          "label": "Asian",
+          "value": 123
+        },
+        {
+          "label": "Black or African American",
+          "value": 8824
+        },
+        {
+          "label": "Hispanic",
+          "value": 830
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 875
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7065
+        }
+      ]
+    },
+    "Washington County, North Carolina": {
+      "label": "Washington County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 5329
+        },
+        {
+          "label": "Hispanic",
+          "value": 426
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 278
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4867
+        }
+      ]
+    },
+    "Watauga County, North Carolina": {
+      "label": "Watauga County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 116
+        },
+        {
+          "label": "Asian",
+          "value": 643
+        },
+        {
+          "label": "Black or African American",
+          "value": 889
+        },
+        {
+          "label": "Hispanic",
+          "value": 3303
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1072
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 48547
+        }
+      ]
+    },
+    "Wayne County, North Carolina": {
+      "label": "Wayne County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 110
+        },
+        {
+          "label": "Asian",
+          "value": 1338
+        },
+        {
+          "label": "Black or African American",
+          "value": 35566
+        },
+        {
+          "label": "Hispanic",
+          "value": 15495
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 101
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4726
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 60037
+        }
+      ]
+    },
+    "Wilkes County, North Carolina": {
+      "label": "Wilkes County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 132
+        },
+        {
+          "label": "Asian",
+          "value": 385
+        },
+        {
+          "label": "Black or African American",
+          "value": 2461
+        },
+        {
+          "label": "Hispanic",
+          "value": 4785
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 79
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1336
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 56783
+        }
+      ]
+    },
+    "Wilson County, North Carolina": {
+      "label": "Wilson County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 154
+        },
+        {
+          "label": "Asian",
+          "value": 805
+        },
+        {
+          "label": "Black or African American",
+          "value": 30742
+        },
+        {
+          "label": "Hispanic",
+          "value": 9354
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1922
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 35211
+        }
+      ]
+    },
+    "Yadkin County, North Carolina": {
+      "label": "Yadkin County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 29
+        },
+        {
+          "label": "Black or African American",
+          "value": 1037
+        },
+        {
+          "label": "Hispanic",
+          "value": 4510
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 830
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30723
+        }
+      ]
+    },
+    "Yancey County, North Carolina": {
+      "label": "Yancey County, North Carolina",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 77
+        },
+        {
+          "label": "Black or African American",
+          "value": 104
+        },
+        {
+          "label": "Hispanic",
+          "value": 1051
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 364
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17052
+        }
+      ]
+    }
+  }
+}

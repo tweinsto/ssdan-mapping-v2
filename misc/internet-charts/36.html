@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Internet Access Over Time –  New York</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>body { font-family: sans-serif; margin: 1rem 2rem; text-align: center; }
+                      h2 { margin-bottom: 0.25rem; font-size: 1.6rem; }
+                      select { padding: 0.4rem; font-size: 1rem; margin: 1rem 0; border-radius: 5px; border: 1px solid #999; }
+                      canvas { width: 100%; max-width: 850px; height: 450px; margin-top: 1rem; }</style>
+</head>
+<html>
+  <body>
+    <h2>Internet Access in  New York (2013–2023)</h2>
+    <label>Select County: </label>
+    <select id="countySelect"><option value='Statewide'>Statewide</option>
+<option value='Albany County, New York'>Albany County, New York</option>
+<option value='Bronx County, New York'>Bronx County, New York</option>
+<option value='Broome County, New York'>Broome County, New York</option>
+<option value='Cattaraugus County, New York'>Cattaraugus County, New York</option>
+<option value='Cayuga County, New York'>Cayuga County, New York</option>
+<option value='Chautauqua County, New York'>Chautauqua County, New York</option>
+<option value='Chemung County, New York'>Chemung County, New York</option>
+<option value='Clinton County, New York'>Clinton County, New York</option>
+<option value='Dutchess County, New York'>Dutchess County, New York</option>
+<option value='Erie County, New York'>Erie County, New York</option>
+<option value='Jefferson County, New York'>Jefferson County, New York</option>
+<option value='Kings County, New York'>Kings County, New York</option>
+<option value='Livingston County, New York'>Livingston County, New York</option>
+<option value='Madison County, New York'>Madison County, New York</option>
+<option value='Monroe County, New York'>Monroe County, New York</option>
+<option value='Nassau County, New York'>Nassau County, New York</option>
+<option value='New York County, New York'>New York County, New York</option>
+<option value='Niagara County, New York'>Niagara County, New York</option>
+<option value='Oneida County, New York'>Oneida County, New York</option>
+<option value='Onondaga County, New York'>Onondaga County, New York</option>
+<option value='Ontario County, New York'>Ontario County, New York</option>
+<option value='Orange County, New York'>Orange County, New York</option>
+<option value='Oswego County, New York'>Oswego County, New York</option>
+<option value='Putnam County, New York'>Putnam County, New York</option>
+<option value='Queens County, New York'>Queens County, New York</option>
+<option value='Rensselaer County, New York'>Rensselaer County, New York</option>
+<option value='Richmond County, New York'>Richmond County, New York</option>
+<option value='Rockland County, New York'>Rockland County, New York</option>
+<option value='Saratoga County, New York'>Saratoga County, New York</option>
+<option value='Schenectady County, New York'>Schenectady County, New York</option>
+<option value='St. Lawrence County, New York'>St. Lawrence County, New York</option>
+<option value='Steuben County, New York'>Steuben County, New York</option>
+<option value='Suffolk County, New York'>Suffolk County, New York</option>
+<option value='Sullivan County, New York'>Sullivan County, New York</option>
+<option value='Tompkins County, New York'>Tompkins County, New York</option>
+<option value='Ulster County, New York'>Ulster County, New York</option>
+<option value='Warren County, New York'>Warren County, New York</option>
+<option value='Wayne County, New York'>Wayne County, New York</option>
+<option value='Westchester County, New York'>Westchester County, New York</option></select>
+    <canvas id="lineChart" width="850" height="450"></canvas>
+    <script>const internetData = {"Statewide":{"2013":76.4,"2014":77.3,"2015":78.5,"2016":82.3,"2017":84,"2018":85.8,"2019":86.7,"2021":90.8,"2022":90.7,"2023":92.3},"Albany County, New York":{"2013":78,"2014":80.9,"2015":77.9,"2016":84,"2017":84.6,"2018":85.9,"2019":87,"2021":89.9,"2022":91.1,"2023":91.9},"Bronx County, New York":{"2013":67.9,"2014":67,"2015":67.8,"2016":73.8,"2017":77.6,"2018":78.7,"2019":81.4,"2021":87.7,"2022":84.2,"2023":88.1},"Broome County, New York":{"2013":75.3,"2014":74.9,"2015":77.6,"2016":81.8,"2017":81.8,"2018":86.2,"2019":84.5,"2021":88.8,"2022":90.5,"2023":93.1},"Cattaraugus County, New York":{"2013":63,"2014":64.9,"2015":65.4,"2016":73.4,"2017":73.2,"2018":76.3,"2019":75.5,"2021":84.7,"2022":84.5,"2023":83.4},"Cayuga County, New York":{"2013":70.7,"2014":71.8,"2015":75.4,"2016":80.1,"2017":79.1,"2018":81.9,"2019":85.3,"2021":86.6,"2022":89.1,"2023":92.5},"Chautauqua County, New York":{"2013":67.9,"2014":68.2,"2015":70.8,"2016":75.6,"2017":78.3,"2018":79.9,"2019":80.2,"2021":88.2,"2022":90.5,"2023":89.3},"Chemung County, New York":{"2013":70.8,"2014":73.2,"2015":74,"2016":78.8,"2017":84.2,"2018":83.9,"2019":83.8,"2021":89,"2022":88.6,"2023":93.3},"Clinton County, New York":{"2013":72.5,"2014":75.6,"2015":73.1,"2016":78.8,"2017":82.9,"2018":86,"2019":83.7,"2021":90.1,"2022":89.6,"2023":90.2},"Dutchess County, New York":{"2013":83.3,"2014":79.8,"2015":84.5,"2016":88.1,"2017":89.3,"2018":89.3,"2019":91.2,"2021":93.1,"2022":93.3,"2023":94.1},"Erie County, New York":{"2013":72.1,"2014":73.8,"2015":72.8,"2016":81.2,"2017":83,"2018":85,"2019":86.3,"2021":89.6,"2022":90.9,"2023":91.3},"Jefferson County, New York":{"2013":77.6,"2014":79.2,"2015":80.6,"2016":83.2,"2017":85.6,"2018":85.5,"2019":85.9,"2021":91.5,"2022":90.4,"2023":90.6},"Kings County, New York":{"2013":71.6,"2014":72.5,"2015":74.7,"2016":79.8,"2017":81.2,"2018":82.8,"2019":84.3,"2021":89.5,"2022":89.1,"2023":90.4},"Livingston County, New York":{"2013":75.7,"2014":75.1,"2015":75.3,"2016":83.6,"2017":87.1,"2018":86.9,"2019":86.9},"Madison County, New York":{"2013":78.4,"2014":77.1,"2015":80.8,"2016":79.3,"2017":83.4,"2018":86.7,"2019":82.8,"2021":89.7,"2022":92.7,"2023":89.3},"Monroe County, New York":{"2013":75,"2014":75.9,"2015":79.4,"2016":83.9,"2017":84.8,"2018":87,"2019":86.5,"2021":90.4,"2022":89.2,"2023":91.2},"Nassau County, New York":{"2013":84.9,"2014":86.2,"2015":87.4,"2016":90.4,"2017":90.2,"2018":91.3,"2019":90.3,"2021":94.4,"2022":95.2,"2023":95.6},"New York County, New York":{"2013":80.4,"2014":79.9,"2015":81,"2016":83.7,"2017":85.9,"2018":87.4,"2019":88.4,"2021":91.4,"2022":90.9,"2023":94.1},"Niagara County, New York":{"2013":69.2,"2014":69.6,"2015":76.2,"2016":78,"2017":80,"2018":82.4,"2019":86.6,"2021":89.4,"2022":90.4,"2023":91.3},"Oneida County, New York":{"2013":71.6,"2014":74.2,"2015":74.6,"2016":79.8,"2017":81.7,"2018":85.1,"2019":85.2,"2021":87.6,"2022":88.1,"2023":90},"Onondaga County, New York":{"2013":76,"2014":77.3,"2015":78.5,"2016":77.9,"2017":79.6,"2018":80.7,"2019":83.8,"2021":91.6,"2022":91.8,"2023":92.7},"Ontario County, New York":{"2013":77,"2014":78.3,"2015":80.1,"2016":85.2,"2017":85,"2018":87.9,"2019":88.6,"2021":92.5,"2022":90.7,"2023":92.6},"Orange County, New York":{"2013":78,"2014":69.5,"2015":71.6,"2016":77.6,"2017":83.4,"2018":85.2,"2019":88,"2021":90.6,"2022":88.2,"2023":90.2},"Oswego County, New York":{"2013":75,"2014":73.7,"2015":77.7,"2016":85.2,"2017":86.8,"2018":86.1,"2019":87.7,"2021":89.4,"2022":92,"2023":89.8},"Putnam County, New York":{"2013":86.8,"2014":89,"2015":90,"2016":93.4,"2017":91.6,"2018":91.7,"2019":94.5,"2021":94.8,"2022":95.8,"2023":94.9},"Queens County, New York":{"2013":75.4,"2014":78.8,"2015":80,"2016":81.9,"2017":84.4,"2018":86.4,"2019":86.4,"2021":91.1,"2022":92.1,"2023":94},"Rensselaer County, New York":{"2013":78.3,"2014":81.5,"2015":80.8,"2016":84.9,"2017":84.9,"2018":89.7,"2019":87.1,"2021":91.8,"2022":91.1,"2023":92.1},"Richmond County, New York":{"2013":78.4,"2014":79.7,"2015":81.1,"2016":80.1,"2017":80.9,"2018":83.7,"2019":84,"2021":89.7,"2022":91.1,"2023":90.9},"Rockland County, New York":{"2013":76.4,"2014":77,"2015":78,"2016":79.5,"2017":84.6,"2018":85.5,"2019":86.5,"2021":87.2,"2022":87.7,"2023":88.8},"Saratoga County, New York":{"2013":81.4,"2014":85.1,"2015":88.2,"2016":87.7,"2017":90.4,"2018":90.1,"2019":92.2,"2021":92,"2022":93.4,"2023":93.7},"Schenectady County, New York":{"2013":73.1,"2014":78.5,"2015":78.4,"2016":85.6,"2017":88.2,"2018":85.5,"2019":83.2,"2021":88.9,"2022":90.1,"2023":90.9},"St. Lawrence County, New York":{"2013":66.9,"2014":72.9,"2015":76.6,"2016":81.2,"2017":83.4,"2018":81.9,"2019":80.2,"2021":88.3,"2022":85.4,"2023":85.2},"Steuben County, New York":{"2013":70.2,"2014":67.8,"2015":66.5,"2016":80.2,"2017":79.9,"2018":82.3,"2019":84.9,"2021":87.3,"2022":87,"2023":87.1},"Suffolk County, New York":{"2013":84.3,"2014":85.8,"2015":85,"2016":86.8,"2017":87,"2018":90.9,"2019":92.7,"2021":94.1,"2022":94.1,"2023":94.8},"Sullivan County, New York":{"2013":74.9,"2014":75.5,"2015":73.3,"2016":79.2,"2017":79.6,"2018":82.5,"2019":86.4,"2021":90.3,"2022":89.2,"2023":91.3},"Tompkins County, New York":{"2013":80.3,"2014":82.6,"2015":82.2,"2016":87.7,"2017":84.9,"2018":86.9,"2019":86.6,"2021":91.4,"2022":92.7,"2023":91.2},"Ulster County, New York":{"2013":77.2,"2014":78.7,"2015":80.2,"2016":86.3,"2017":89.8,"2018":89.2,"2019":87.5,"2021":92.3,"2022":93.8,"2023":93.3},"Warren County, New York":{"2013":79.7,"2014":80.7,"2015":82,"2016":81.8,"2017":83.7,"2018":81.3,"2019":87.2,"2021":91.3,"2022":90.4,"2023":92.3},"Wayne County, New York":{"2013":66.4,"2014":65,"2015":71.5,"2016":83.9,"2017":81.1,"2018":84.1,"2019":85.1,"2021":90.9,"2022":86.1,"2023":89.3},"Westchester County, New York":{"2013":81.3,"2014":82.6,"2015":82.6,"2016":86.1,"2017":85.9,"2018":88.6,"2019":88.7,"2021":93.3,"2022":92.2,"2023":95.2}};
+const ctx = document.getElementById('lineChart').getContext('2d');
+let chart;
+
+function renderChart(data) {
+  const labels = Object.keys(data);
+  const values = Object.values(data);
+
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: '% With Internet',
+        data: values,
+        fill: false,
+        borderColor: 'teal',
+        backgroundColor: 'teal',
+        tension: 0.3,
+        pointRadius: 4
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100,
+          title: { display: true, text: '% With Internet' }
+        },
+        x: {
+          title: { display: true, text: 'Year' }
+        }
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function(ctx) {
+              return ctx.parsed.y.toFixed(1) + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  renderChart(internetData[this.value]);
+});
+renderChart(internetData['Statewide']);</script>
+  </body>
+</html>
+</html>

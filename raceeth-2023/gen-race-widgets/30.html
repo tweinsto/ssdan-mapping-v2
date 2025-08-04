@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 30</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Beaverhead County, Montana">Beaverhead County, Montana</option>
+<option value="Big Horn County, Montana">Big Horn County, Montana</option>
+<option value="Blaine County, Montana">Blaine County, Montana</option>
+<option value="Broadwater County, Montana">Broadwater County, Montana</option>
+<option value="Carbon County, Montana">Carbon County, Montana</option>
+<option value="Carter County, Montana">Carter County, Montana</option>
+<option value="Cascade County, Montana">Cascade County, Montana</option>
+<option value="Chouteau County, Montana">Chouteau County, Montana</option>
+<option value="Custer County, Montana">Custer County, Montana</option>
+<option value="Daniels County, Montana">Daniels County, Montana</option>
+<option value="Dawson County, Montana">Dawson County, Montana</option>
+<option value="Deer Lodge County, Montana">Deer Lodge County, Montana</option>
+<option value="Fallon County, Montana">Fallon County, Montana</option>
+<option value="Fergus County, Montana">Fergus County, Montana</option>
+<option value="Flathead County, Montana">Flathead County, Montana</option>
+<option value="Gallatin County, Montana">Gallatin County, Montana</option>
+<option value="Garfield County, Montana">Garfield County, Montana</option>
+<option value="Glacier County, Montana">Glacier County, Montana</option>
+<option value="Golden Valley County, Montana">Golden Valley County, Montana</option>
+<option value="Granite County, Montana">Granite County, Montana</option>
+<option value="Hill County, Montana">Hill County, Montana</option>
+<option value="Jefferson County, Montana">Jefferson County, Montana</option>
+<option value="Judith Basin County, Montana">Judith Basin County, Montana</option>
+<option value="Lake County, Montana">Lake County, Montana</option>
+<option value="Lewis and Clark County, Montana">Lewis and Clark County, Montana</option>
+<option value="Liberty County, Montana">Liberty County, Montana</option>
+<option value="Lincoln County, Montana">Lincoln County, Montana</option>
+<option value="Madison County, Montana">Madison County, Montana</option>
+<option value="McCone County, Montana">McCone County, Montana</option>
+<option value="Meagher County, Montana">Meagher County, Montana</option>
+<option value="Mineral County, Montana">Mineral County, Montana</option>
+<option value="Missoula County, Montana">Missoula County, Montana</option>
+<option value="Musselshell County, Montana">Musselshell County, Montana</option>
+<option value="Park County, Montana">Park County, Montana</option>
+<option value="Petroleum County, Montana">Petroleum County, Montana</option>
+<option value="Phillips County, Montana">Phillips County, Montana</option>
+<option value="Pondera County, Montana">Pondera County, Montana</option>
+<option value="Powder River County, Montana">Powder River County, Montana</option>
+<option value="Powell County, Montana">Powell County, Montana</option>
+<option value="Prairie County, Montana">Prairie County, Montana</option>
+<option value="Ravalli County, Montana">Ravalli County, Montana</option>
+<option value="Richland County, Montana">Richland County, Montana</option>
+<option value="Roosevelt County, Montana">Roosevelt County, Montana</option>
+<option value="Rosebud County, Montana">Rosebud County, Montana</option>
+<option value="Sanders County, Montana">Sanders County, Montana</option>
+<option value="Sheridan County, Montana">Sheridan County, Montana</option>
+<option value="Silver Bow County, Montana">Silver Bow County, Montana</option>
+<option value="Stillwater County, Montana">Stillwater County, Montana</option>
+<option value="Sweet Grass County, Montana">Sweet Grass County, Montana</option>
+<option value="Teton County, Montana">Teton County, Montana</option>
+<option value="Toole County, Montana">Toole County, Montana</option>
+<option value="Treasure County, Montana">Treasure County, Montana</option>
+<option value="Valley County, Montana">Valley County, Montana</option>
+<option value="Wheatland County, Montana">Wheatland County, Montana</option>
+<option value="Wibaux County, Montana">Wibaux County, Montana</option>
+<option value="Yellowstone County, Montana">Yellowstone County, Montana</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":5.5,"Asian":0.81,"Black or African American":0.47,"Hispanic":4.39,"Pacific Islander":0.04,"Two or More Races":4.27,"White (non-Hispanic)":84.09},"Beaverhead County, Montana":{"American Indian / Alaska Native":1.66,"Asian":0.26,"Black or African American":0.56,"Hispanic":4.92,"Pacific Islander":0.01,"Two or More Races":2.87,"White (non-Hispanic)":89.66},"Big Horn County, Montana":{"American Indian / Alaska Native":65.34,"Asian":0.2,"Black or African American":0,"Hispanic":4.57,"Pacific Islander":0,"Two or More Races":2.85,"White (non-Hispanic)":27.04},"Blaine County, Montana":{"American Indian / Alaska Native":48.98,"Asian":0,"Black or African American":0.44,"Hispanic":2.74,"Pacific Islander":0,"Two or More Races":3.67,"White (non-Hispanic)":44.16},"Broadwater County, Montana":{"American Indian / Alaska Native":1.04,"Asian":0.42,"Black or African American":0.37,"Hispanic":1.79,"Pacific Islander":0,"Two or More Races":6.58,"White (non-Hispanic)":89.79},"Carbon County, Montana":{"American Indian / Alaska Native":0.35,"Asian":0.47,"Black or African American":0.46,"Hispanic":2.86,"Pacific Islander":0.09,"Two or More Races":3.26,"White (non-Hispanic)":91.59},"Carter County, Montana":{"American Indian / Alaska Native":0.73,"Asian":0,"Black or African American":0.07,"Hispanic":2.35,"Pacific Islander":0,"Two or More Races":4.78,"White (non-Hispanic)":91.99},"Cascade County, Montana":{"American Indian / Alaska Native":3.39,"Asian":1.13,"Black or African American":1.45,"Hispanic":5.06,"Pacific Islander":0.01,"Two or More Races":5.34,"White (non-Hispanic)":83.22},"Chouteau County, Montana":{"American Indian / Alaska Native":16.49,"Asian":0.12,"Black or African American":0.14,"Hispanic":3.02,"Pacific Islander":0,"Two or More Races":4.36,"White (non-Hispanic)":75.83},"Custer County, Montana":{"American Indian / Alaska Native":1.25,"Asian":0.4,"Black or African American":0.35,"Hispanic":3.31,"Pacific Islander":0.1,"Two or More Races":4.91,"White (non-Hispanic)":89.48},"Daniels County, Montana":{"American Indian / Alaska Native":3.08,"Asian":0.85,"Black or African American":0.26,"Hispanic":1.57,"Pacific Islander":0,"Two or More Races":3.48,"White (non-Hispanic)":89.57},"Dawson County, Montana":{"American Indian / Alaska Native":1.3,"Asian":0.03,"Black or African American":0.05,"Hispanic":3.38,"Pacific Islander":0.33,"Two or More Races":3.35,"White (non-Hispanic)":90.88},"Deer Lodge County, Montana":{"American Indian / Alaska Native":1.7,"Asian":0.69,"Black or African American":0.32,"Hispanic":3.36,"Pacific Islander":0.08,"Two or More Races":3.74,"White (non-Hispanic)":89.89},"Fallon County, Montana":{"American Indian / Alaska Native":2.41,"Asian":0,"Black or African American":0.04,"Hispanic":0.57,"Pacific Islander":0,"Two or More Races":4.22,"White (non-Hispanic)":92.76},"Fergus County, Montana":{"American Indian / Alaska Native":1.89,"Asian":0.88,"Black or African American":0.64,"Hispanic":2.21,"Pacific Islander":0,"Two or More Races":1.63,"White (non-Hispanic)":92.75},"Flathead County, Montana":{"American Indian / Alaska Native":0.9,"Asian":0.85,"Black or African American":0.23,"Hispanic":3.5,"Pacific Islander":0,"Two or More Races":3.5,"White (non-Hispanic)":90.67},"Gallatin County, Montana":{"American Indian / Alaska Native":0.62,"Asian":1.26,"Black or African American":0.49,"Hispanic":5.13,"Pacific Islander":0,"Two or More Races":3.53,"White (non-Hispanic)":88.27},"Garfield County, Montana":{"American Indian / Alaska Native":0.64,"Asian":0,"Black or African American":0.96,"Hispanic":0,"Pacific Islander":0,"Two or More Races":0.64,"White (non-Hispanic)":97.76},"Glacier County, Montana":{"American Indian / Alaska Native":63.14,"Asian":0.58,"Black or African American":0.17,"Hispanic":2.76,"Pacific Islander":0.2,"Two or More Races":2.81,"White (non-Hispanic)":29.32},"Golden Valley County, Montana":{"American Indian / Alaska Native":0.48,"Asian":0,"Black or African American":0.71,"Hispanic":6.55,"Pacific Islander":0.12,"Two or More Races":3.1,"White (non-Hispanic)":88.93},"Granite County, Montana":{"American Indian / Alaska Native":2.22,"Asian":0.64,"Black or African American":0.73,"Hispanic":1.93,"Pacific Islander":0.03,"Two or More Races":1.29,"White (non-Hispanic)":92.51},"Hill County, Montana":{"American Indian / Alaska Native":22.69,"Asian":0.2,"Black or African American":0.21,"Hispanic":3.39,"Pacific Islander":0.04,"Two or More Races":4.8,"White (non-Hispanic)":67.75},"Jefferson County, Montana":{"American Indian / Alaska Native":1.21,"Asian":0.41,"Black or African American":0.11,"Hispanic":2.71,"Pacific Islander":0,"Two or More Races":4.16,"White (non-Hispanic)":91.3},"Judith Basin County, Montana":{"American Indian / Alaska Native":1.22,"Asian":0,"Black or African American":0,"Hispanic":5.89,"Pacific Islander":0,"Two or More Races":1.32,"White (non-Hispanic)":91.43},"Lake County, Montana":{"American Indian / Alaska Native":20.14,"Asian":0.49,"Black or African American":0.21,"Hispanic":4.17,"Pacific Islander":0.08,"Two or More Races":10.17,"White (non-Hispanic)":64.49},"Lewis and Clark County, Montana":{"American Indian / Alaska Native":0.88,"Asian":0.64,"Black or African American":0.55,"Hispanic":3.9,"Pacific Islander":0,"Two or More Races":4.49,"White (non-Hispanic)":89.21},"Liberty County, Montana":{"American Indian / Alaska Native":1.42,"Asian":0,"Black or African American":0,"Hispanic":0,"Pacific Islander":0,"Two or More Races":2.24,"White (non-Hispanic)":95.93},"Lincoln County, Montana":{"American Indian / Alaska Native":1.31,"Asian":0.23,"Black or African American":0.07,"Hispanic":2.97,"Pacific Islander":0.14,"Two or More Races":4.24,"White (non-Hispanic)":90.8},"Madison County, Montana":{"American Indian / Alaska Native":0.32,"Asian":0.8,"Black or African American":0,"Hispanic":3.53,"Pacific Islander":0,"Two or More Races":2.85,"White (non-Hispanic)":91.54},"McCone County, Montana":{"American Indian / Alaska Native":3.69,"Asian":2.64,"Black or African American":0,"Hispanic":0,"Pacific Islander":0,"Two or More Races":2.42,"White (non-Hispanic)":91.25},"Meagher County, Montana":{"American Indian / Alaska Native":2.73,"Asian":0.3,"Black or African American":0.86,"Hispanic":3.18,"Pacific Islander":0,"Two or More Races":0.51,"White (non-Hispanic)":92.42},"Mineral County, Montana":{"American Indian / Alaska Native":1.33,"Asian":0.38,"Black or African American":0.67,"Hispanic":3.48,"Pacific Islander":0,"Two or More Races":4.34,"White (non-Hispanic)":89.64},"Missoula County, Montana":{"American Indian / Alaska Native":1.94,"Asian":1.59,"Black or African American":0.6,"Hispanic":4.93,"Pacific Islander":0.07,"Two or More Races":4.65,"White (non-Hispanic)":85.78},"Musselshell County, Montana":{"American Indian / Alaska Native":2.39,"Asian":0,"Black or African American":0,"Hispanic":3.69,"Pacific Islander":0,"Two or More Races":4.34,"White (non-Hispanic)":87.71},"Park County, Montana":{"American Indian / Alaska Native":0.65,"Asian":0.3,"Black or African American":0.19,"Hispanic":3.36,"Pacific Islander":0,"Two or More Races":3.79,"White (non-Hispanic)":91.72},"Petroleum County, Montana":{"American Indian / Alaska Native":0,"Asian":0.75,"Black or African American":0,"Hispanic":0,"Pacific Islander":0,"Two or More Races":0,"White (non-Hispanic)":99.25},"Phillips County, Montana":{"American Indian / Alaska Native":7.13,"Asian":0,"Black or African American":0.38,"Hispanic":1.37,"Pacific Islander":0.4,"Two or More Races":8.78,"White (non-Hispanic)":81.94},"Pondera County, Montana":{"American Indian / Alaska Native":15.98,"Asian":0.27,"Black or African American":0.03,"Hispanic":2.28,"Pacific Islander":0,"Two or More Races":2.46,"White (non-Hispanic)":78.98},"Powder River County, Montana":{"American Indian / Alaska Native":1.65,"Asian":1.53,"Black or African American":0,"Hispanic":1.7,"Pacific Islander":0,"Two or More Races":7.89,"White (non-Hispanic)":87.23},"Powell County, Montana":{"American Indian / Alaska Native":4.14,"Asian":1.89,"Black or African American":1.24,"Hispanic":2.28,"Pacific Islander":0,"Two or More Races":2.72,"White (non-Hispanic)":87.44},"Prairie County, Montana":{"American Indian / Alaska Native":0.08,"Asian":3.92,"Black or African American":0,"Hispanic":0.8,"Pacific Islander":0,"Two or More Races":1.36,"White (non-Hispanic)":89.37},"Ravalli County, Montana":{"American Indian / Alaska Native":0.53,"Asian":0.54,"Black or African American":0.24,"Hispanic":3.97,"Pacific Islander":0.02,"Two or More Races":5.01,"White (non-Hispanic)":89.23},"Richland County, Montana":{"American Indian / Alaska Native":0.25,"Asian":0.27,"Black or African American":0.25,"Hispanic":5.48,"Pacific Islander":0.87,"Two or More Races":5.06,"White (non-Hispanic)":87.61},"Roosevelt County, Montana":{"American Indian / Alaska Native":57.22,"Asian":0.8,"Black or African American":0.12,"Hispanic":2.71,"Pacific Islander":0.02,"Two or More Races":6.07,"White (non-Hispanic)":32.95},"Rosebud County, Montana":{"American Indian / Alaska Native":38.44,"Asian":0.51,"Black or African American":0.17,"Hispanic":3.46,"Pacific Islander":0.01,"Two or More Races":4.5,"White (non-Hispanic)":52.67},"Sanders County, Montana":{"American Indian / Alaska Native":2.37,"Asian":0.37,"Black or African American":0.53,"Hispanic":3.34,"Pacific Islander":0.12,"Two or More Races":4.14,"White (non-Hispanic)":89.05},"Sheridan County, Montana":{"American Indian / Alaska Native":1.66,"Asian":0.44,"Black or African American":0,"Hispanic":4.51,"Pacific Islander":0.33,"Two or More Races":3.54,"White (non-Hispanic)":89.23},"Silver Bow County, Montana":{"American Indian / Alaska Native":1.41,"Asian":0.32,"Black or African American":0.12,"Hispanic":4.61,"Pacific Islander":0.02,"Two or More Races":4.11,"White (non-Hispanic)":89.26},"Stillwater County, Montana":{"American Indian / Alaska Native":0.35,"Asian":0.36,"Black or African American":0.1,"Hispanic":3.37,"Pacific Islander":0,"Two or More Races":3.21,"White (non-Hispanic)":92.28},"Sweet Grass County, Montana":{"American Indian / Alaska Native":1.64,"Asian":0,"Black or African American":1.35,"Hispanic":1.78,"Pacific Islander":0,"Two or More Races":3.91,"White (non-Hispanic)":90.57},"Teton County, Montana":{"American Indian / Alaska Native":1.94,"Asian":0,"Black or African American":0.38,"Hispanic":1.88,"Pacific Islander":0,"Two or More Races":3.66,"White (non-Hispanic)":91.88},"Toole County, Montana":{"American Indian / Alaska Native":5.69,"Asian":0.72,"Black or African American":1.85,"Hispanic":4.32,"Pacific Islander":0,"Two or More Races":3.94,"White (non-Hispanic)":83.02},"Treasure County, Montana":{"American Indian / Alaska Native":0.13,"Asian":1.31,"Black or African American":0,"Hispanic":5.65,"Pacific Islander":0,"Two or More Races":0,"White (non-Hispanic)":92.9},"Valley County, Montana":{"American Indian / Alaska Native":7.52,"Asian":0.05,"Black or African American":0.61,"Hispanic":2.56,"Pacific Islander":0,"Two or More Races":4.16,"White (non-Hispanic)":84.77},"Wheatland County, Montana":{"American Indian / Alaska Native":0.49,"Asian":0,"Black or African American":1.32,"Hispanic":2.68,"Pacific Islander":0,"Two or More Races":0.88,"White (non-Hispanic)":94.63},"Wibaux County, Montana":{"American Indian / Alaska Native":0,"Asian":0.09,"Black or African American":0.87,"Hispanic":6.01,"Pacific Islander":0,"Two or More Races":0.52,"White (non-Hispanic)":90.51},"Yellowstone County, Montana":{"American Indian / Alaska Native":3.82,"Asian":0.77,"Black or African American":0.49,"Hispanic":6.4,"Pacific Islander":0.04,"Two or More Races":3.98,"White (non-Hispanic)":83.93}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 26</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Alcona County, Michigan">Alcona County, Michigan</option>
+<option value="Alger County, Michigan">Alger County, Michigan</option>
+<option value="Allegan County, Michigan">Allegan County, Michigan</option>
+<option value="Alpena County, Michigan">Alpena County, Michigan</option>
+<option value="Antrim County, Michigan">Antrim County, Michigan</option>
+<option value="Arenac County, Michigan">Arenac County, Michigan</option>
+<option value="Baraga County, Michigan">Baraga County, Michigan</option>
+<option value="Barry County, Michigan">Barry County, Michigan</option>
+<option value="Bay County, Michigan">Bay County, Michigan</option>
+<option value="Benzie County, Michigan">Benzie County, Michigan</option>
+<option value="Berrien County, Michigan">Berrien County, Michigan</option>
+<option value="Branch County, Michigan">Branch County, Michigan</option>
+<option value="Calhoun County, Michigan">Calhoun County, Michigan</option>
+<option value="Cass County, Michigan">Cass County, Michigan</option>
+<option value="Charlevoix County, Michigan">Charlevoix County, Michigan</option>
+<option value="Cheboygan County, Michigan">Cheboygan County, Michigan</option>
+<option value="Chippewa County, Michigan">Chippewa County, Michigan</option>
+<option value="Clare County, Michigan">Clare County, Michigan</option>
+<option value="Clinton County, Michigan">Clinton County, Michigan</option>
+<option value="Crawford County, Michigan">Crawford County, Michigan</option>
+<option value="Delta County, Michigan">Delta County, Michigan</option>
+<option value="Dickinson County, Michigan">Dickinson County, Michigan</option>
+<option value="Eaton County, Michigan">Eaton County, Michigan</option>
+<option value="Emmet County, Michigan">Emmet County, Michigan</option>
+<option value="Genesee County, Michigan">Genesee County, Michigan</option>
+<option value="Gladwin County, Michigan">Gladwin County, Michigan</option>
+<option value="Gogebic County, Michigan">Gogebic County, Michigan</option>
+<option value="Grand Traverse County, Michigan">Grand Traverse County, Michigan</option>
+<option value="Gratiot County, Michigan">Gratiot County, Michigan</option>
+<option value="Hillsdale County, Michigan">Hillsdale County, Michigan</option>
+<option value="Houghton County, Michigan">Houghton County, Michigan</option>
+<option value="Huron County, Michigan">Huron County, Michigan</option>
+<option value="Ingham County, Michigan">Ingham County, Michigan</option>
+<option value="Ionia County, Michigan">Ionia County, Michigan</option>
+<option value="Iosco County, Michigan">Iosco County, Michigan</option>
+<option value="Iron County, Michigan">Iron County, Michigan</option>
+<option value="Isabella County, Michigan">Isabella County, Michigan</option>
+<option value="Jackson County, Michigan">Jackson County, Michigan</option>
+<option value="Kalamazoo County, Michigan">Kalamazoo County, Michigan</option>
+<option value="Kalkaska County, Michigan">Kalkaska County, Michigan</option>
+<option value="Kent County, Michigan">Kent County, Michigan</option>
+<option value="Keweenaw County, Michigan">Keweenaw County, Michigan</option>
+<option value="Lake County, Michigan">Lake County, Michigan</option>
+<option value="Lapeer County, Michigan">Lapeer County, Michigan</option>
+<option value="Leelanau County, Michigan">Leelanau County, Michigan</option>
+<option value="Lenawee County, Michigan">Lenawee County, Michigan</option>
+<option value="Livingston County, Michigan">Livingston County, Michigan</option>
+<option value="Luce County, Michigan">Luce County, Michigan</option>
+<option value="Mackinac County, Michigan">Mackinac County, Michigan</option>
+<option value="Macomb County, Michigan">Macomb County, Michigan</option>
+<option value="Manistee County, Michigan">Manistee County, Michigan</option>
+<option value="Marquette County, Michigan">Marquette County, Michigan</option>
+<option value="Mason County, Michigan">Mason County, Michigan</option>
+<option value="Mecosta County, Michigan">Mecosta County, Michigan</option>
+<option value="Menominee County, Michigan">Menominee County, Michigan</option>
+<option value="Midland County, Michigan">Midland County, Michigan</option>
+<option value="Missaukee County, Michigan">Missaukee County, Michigan</option>
+<option value="Monroe County, Michigan">Monroe County, Michigan</option>
+<option value="Montcalm County, Michigan">Montcalm County, Michigan</option>
+<option value="Montmorency County, Michigan">Montmorency County, Michigan</option>
+<option value="Muskegon County, Michigan">Muskegon County, Michigan</option>
+<option value="Newaygo County, Michigan">Newaygo County, Michigan</option>
+<option value="Oakland County, Michigan">Oakland County, Michigan</option>
+<option value="Oceana County, Michigan">Oceana County, Michigan</option>
+<option value="Ogemaw County, Michigan">Ogemaw County, Michigan</option>
+<option value="Ontonagon County, Michigan">Ontonagon County, Michigan</option>
+<option value="Osceola County, Michigan">Osceola County, Michigan</option>
+<option value="Oscoda County, Michigan">Oscoda County, Michigan</option>
+<option value="Otsego County, Michigan">Otsego County, Michigan</option>
+<option value="Ottawa County, Michigan">Ottawa County, Michigan</option>
+<option value="Presque Isle County, Michigan">Presque Isle County, Michigan</option>
+<option value="Roscommon County, Michigan">Roscommon County, Michigan</option>
+<option value="Saginaw County, Michigan">Saginaw County, Michigan</option>
+<option value="Sanilac County, Michigan">Sanilac County, Michigan</option>
+<option value="Schoolcraft County, Michigan">Schoolcraft County, Michigan</option>
+<option value="Shiawassee County, Michigan">Shiawassee County, Michigan</option>
+<option value="St. Clair County, Michigan">St. Clair County, Michigan</option>
+<option value="St. Joseph County, Michigan">St. Joseph County, Michigan</option>
+<option value="Tuscola County, Michigan">Tuscola County, Michigan</option>
+<option value="Van Buren County, Michigan">Van Buren County, Michigan</option>
+<option value="Washtenaw County, Michigan">Washtenaw County, Michigan</option>
+<option value="Wayne County, Michigan">Wayne County, Michigan</option>
+<option value="Wexford County, Michigan">Wexford County, Michigan</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.33,"Asian":3.26,"Black or African American":13.23,"Hispanic":5.74,"Pacific Islander":0.02,"Two or More Races":4.07,"White (non-Hispanic)":72.96},"Alcona County, Michigan":{"American Indian / Alaska Native":0.56,"Asian":0.4,"Black or African American":0.27,"Hispanic":1.52,"Pacific Islander":0,"Two or More Races":3.04,"White (non-Hispanic)":93.85},"Alger County, Michigan":{"American Indian / Alaska Native":2.66,"Asian":0.28,"Black or African American":7.87,"Hispanic":1.67,"Pacific Islander":0,"Two or More Races":5.13,"White (non-Hispanic)":81.61},"Allegan County, Michigan":{"American Indian / Alaska Native":0.22,"Asian":0.69,"Black or African American":1.2,"Hispanic":8,"Pacific Islander":0.02,"Two or More Races":3.92,"White (non-Hispanic)":85.51},"Alpena County, Michigan":{"American Indian / Alaska Native":0.02,"Asian":0.49,"Black or African American":0.86,"Hispanic":1.58,"Pacific Islander":0,"Two or More Races":3.72,"White (non-Hispanic)":93},"Antrim County, Michigan":{"American Indian / Alaska Native":0.71,"Asian":0.39,"Black or African American":0.36,"Hispanic":2.12,"Pacific Islander":0,"Two or More Races":2.73,"White (non-Hispanic)":93.23},"Arenac County, Michigan":{"American Indian / Alaska Native":0.46,"Asian":0.15,"Black or African American":0.6,"Hispanic":2.13,"Pacific Islander":0,"Two or More Races":3.29,"White (non-Hispanic)":93.22},"Baraga County, Michigan":{"American Indian / Alaska Native":12.03,"Asian":0.61,"Black or African American":6.75,"Hispanic":1.7,"Pacific Islander":0.1,"Two or More Races":6.89,"White (non-Hispanic)":71.8},"Barry County, Michigan":{"American Indian / Alaska Native":0.11,"Asian":0.56,"Black or African American":0.4,"Hispanic":3.59,"Pacific Islander":0.02,"Two or More Races":3.03,"White (non-Hispanic)":92.09},"Bay County, Michigan":{"American Indian / Alaska Native":0.06,"Asian":0.39,"Black or African American":1.26,"Hispanic":5.83,"Pacific Islander":0.07,"Two or More Races":3.58,"White (non-Hispanic)":88.6},"Benzie County, Michigan":{"American Indian / Alaska Native":1.25,"Asian":0.37,"Black or African American":0.44,"Hispanic":2.42,"Pacific Islander":0,"Two or More Races":3.08,"White (non-Hispanic)":91.6},"Berrien County, Michigan":{"American Indian / Alaska Native":0.23,"Asian":1.71,"Black or African American":13.4,"Hispanic":6.12,"Pacific Islander":0.03,"Two or More Races":4.69,"White (non-Hispanic)":73.19},"Branch County, Michigan":{"American Indian / Alaska Native":0.13,"Asian":0.43,"Black or African American":1.85,"Hispanic":6.26,"Pacific Islander":0,"Two or More Races":3.58,"White (non-Hispanic)":87.59},"Calhoun County, Michigan":{"American Indian / Alaska Native":0.25,"Asian":2.58,"Black or African American":9.9,"Hispanic":5.74,"Pacific Islander":0.02,"Two or More Races":5.38,"White (non-Hispanic)":75.73},"Cass County, Michigan":{"American Indian / Alaska Native":0.87,"Asian":0.87,"Black or African American":4.27,"Hispanic":4.34,"Pacific Islander":0.01,"Two or More Races":4.3,"White (non-Hispanic)":84.54},"Charlevoix County, Michigan":{"American Indian / Alaska Native":0.73,"Asian":0.65,"Black or African American":0.52,"Hispanic":1.92,"Pacific Islander":0,"Two or More Races":3.28,"White (non-Hispanic)":92.74},"Cheboygan County, Michigan":{"American Indian / Alaska Native":2.27,"Asian":0.56,"Black or African American":0.87,"Hispanic":1.62,"Pacific Islander":0.01,"Two or More Races":4.66,"White (non-Hispanic)":89.73},"Chippewa County, Michigan":{"American Indian / Alaska Native":12.84,"Asian":0.92,"Black or African American":5.57,"Hispanic":2.2,"Pacific Islander":0.06,"Two or More Races":10.21,"White (non-Hispanic)":67.49},"Clare County, Michigan":{"American Indian / Alaska Native":0.43,"Asian":0.36,"Black or African American":0.41,"Hispanic":2.2,"Pacific Islander":0,"Two or More Races":2.74,"White (non-Hispanic)":93.67},"Clinton County, Michigan":{"American Indian / Alaska Native":0.18,"Asian":1.39,"Black or African American":1.59,"Hispanic":5.09,"Pacific Islander":0.01,"Two or More Races":3.38,"White (non-Hispanic)":87.93},"Crawford County, Michigan":{"American Indian / Alaska Native":0.23,"Asian":0.83,"Black or African American":0.3,"Hispanic":2.34,"Pacific Islander":0,"Two or More Races":3.64,"White (non-Hispanic)":92.37},"Delta County, Michigan":{"American Indian / Alaska Native":1.71,"Asian":0.28,"Black or African American":0.26,"Hispanic":1.5,"Pacific Islander":0,"Two or More Races":5.76,"White (non-Hispanic)":90.3},"Dickinson County, Michigan":{"American Indian / Alaska Native":0.37,"Asian":0.48,"Black or African American":0.83,"Hispanic":1.83,"Pacific Islander":0.18,"Two or More Races":2.73,"White (non-Hispanic)":92.98},"Eaton County, Michigan":{"American Indian / Alaska Native":0.21,"Asian":2.17,"Black or African American":6.81,"Hispanic":6.16,"Pacific Islander":0.01,"Two or More Races":3.61,"White (non-Hispanic)":80.58},"Emmet County, Michigan":{"American Indian / Alaska Native":1.74,"Asian":0.37,"Black or African American":0.65,"Hispanic":2,"Pacific Islander":0.04,"Two or More Races":5.35,"White (non-Hispanic)":89.3},"Genesee County, Michigan":{"American Indian / Alaska Native":0.24,"Asian":0.94,"Black or African American":19.19,"Hispanic":4.13,"Pacific Islander":0.01,"Two or More Races":4.43,"White (non-Hispanic)":70.6},"Gladwin County, Michigan":{"American Indian / Alaska Native":0.37,"Asian":0.4,"Black or African American":0.25,"Hispanic":2.13,"Pacific Islander":0.01,"Two or More Races":3.27,"White (non-Hispanic)":93.39},"Gogebic County, Michigan":{"American Indian / Alaska Native":2.53,"Asian":0.56,"Black or African American":0.82,"Hispanic":1.88,"Pacific Islander":0.17,"Two or More Races":2.6,"White (non-Hispanic)":91.34},"Grand Traverse County, Michigan":{"American Indian / Alaska Native":0.5,"Asian":0.67,"Black or African American":0.88,"Hispanic":3.28,"Pacific Islander":0.01,"Two or More Races":3.16,"White (non-Hispanic)":91.31},"Gratiot County, Michigan":{"American Indian / Alaska Native":0.29,"Asian":0.41,"Black or African American":5.42,"Hispanic":7.56,"Pacific Islander":0,"Two or More Races":2.5,"White (non-Hispanic)":83.57},"Hillsdale County, Michigan":{"American Indian / Alaska Native":0.07,"Asian":0.25,"Black or African American":0.72,"Hispanic":2.74,"Pacific Islander":0,"Two or More Races":3.05,"White (non-Hispanic)":92.77},"Houghton County, Michigan":{"American Indian / Alaska Native":0.5,"Asian":2.79,"Black or African American":1.13,"Hispanic":1.81,"Pacific Islander":0.01,"Two or More Races":1.65,"White (non-Hispanic)":91.21},"Huron County, Michigan":{"American Indian / Alaska Native":0.2,"Asian":0.59,"Black or African American":0.4,"Hispanic":2.74,"Pacific Islander":0.02,"Two or More Races":2.05,"White (non-Hispanic)":93.56},"Ingham County, Michigan":{"American Indian / Alaska Native":0.26,"Asian":6.24,"Black or African American":11.22,"Hispanic":8.65,"Pacific Islander":0.02,"Two or More Races":5.63,"White (non-Hispanic)":67.4},"Ionia County, Michigan":{"American Indian / Alaska Native":0.44,"Asian":0.53,"Black or African American":3.7,"Hispanic":5.2,"Pacific Islander":0.01,"Two or More Races":4.23,"White (non-Hispanic)":85.74},"Iosco County, Michigan":{"American Indian / Alaska Native":0.5,"Asian":0.69,"Black or African American":0.88,"Hispanic":2.72,"Pacific Islander":0,"Two or More Races":3.37,"White (non-Hispanic)":91.58},"Iron County, Michigan":{"American Indian / Alaska Native":1.12,"Asian":0.57,"Black or African American":0.84,"Hispanic":2.1,"Pacific Islander":0,"Two or More Races":2.58,"White (non-Hispanic)":92.48},"Isabella County, Michigan":{"American Indian / Alaska Native":2.58,"Asian":1.52,"Black or African American":2.67,"Hispanic":4.88,"Pacific Islander":0.01,"Two or More Races":4.35,"White (non-Hispanic)":83.65},"Jackson County, Michigan":{"American Indian / Alaska Native":0.17,"Asian":0.76,"Black or African American":7.59,"Hispanic":3.97,"Pacific Islander":0,"Two or More Races":4.82,"White (non-Hispanic)":82.47},"Kalamazoo County, Michigan":{"American Indian / Alaska Native":0.13,"Asian":2.67,"Black or African American":10.63,"Hispanic":5.78,"Pacific Islander":0.02,"Two or More Races":5.2,"White (non-Hispanic)":75.2},"Kalkaska County, Michigan":{"American Indian / Alaska Native":0.45,"Asian":0.49,"Black or African American":0.88,"Hispanic":2.22,"Pacific Islander":0,"Two or More Races":3.2,"White (non-Hispanic)":92.72},"Kent County, Michigan":{"American Indian / Alaska Native":0.18,"Asian":3.06,"Black or African American":9.16,"Hispanic":11.51,"Pacific Islander":0.01,"Two or More Races":4.54,"White (non-Hispanic)":71.05},"Keweenaw County, Michigan":{"American Indian / Alaska Native":0.43,"Asian":0,"Black or African American":0,"Hispanic":1.52,"Pacific Islander":0,"Two or More Races":2.47,"White (non-Hispanic)":95.58},"Lake County, Michigan":{"American Indian / Alaska Native":0.77,"Asian":0.44,"Black or African American":8.55,"Hispanic":9.25,"Pacific Islander":0.03,"Two or More Races":4.66,"White (non-Hispanic)":75.77},"Lapeer County, Michigan":{"American Indian / Alaska Native":0.09,"Asian":0.25,"Black or African American":1.15,"Hispanic":4.95,"Pacific Islander":0,"Two or More Races":3.06,"White (non-Hispanic)":90.16},"Leelanau County, Michigan":{"American Indian / Alaska Native":2.42,"Asian":0.6,"Black or African American":0.38,"Hispanic":4.26,"Pacific Islander":0.12,"Two or More Races":2.53,"White (non-Hispanic)":89.36},"Lenawee County, Michigan":{"American Indian / Alaska Native":0.09,"Asian":0.32,"Black or African American":2.17,"Hispanic":8.75,"Pacific Islander":0.04,"Two or More Races":3.33,"White (non-Hispanic)":85.16},"Livingston County, Michigan":{"American Indian / Alaska Native":0.2,"Asian":0.91,"Black or African American":0.51,"Hispanic":2.88,"Pacific Islander":0,"Two or More Races":2.47,"White (non-Hispanic)":92.79},"Luce County, Michigan":{"American Indian / Alaska Native":6.88,"Asian":0.27,"Black or African American":8.21,"Hispanic":1.82,"Pacific Islander":0.22,"Two or More Races":5.61,"White (non-Hispanic)":77},"Mackinac County, Michigan":{"American Indian / Alaska Native":14.1,"Asian":0.97,"Black or African American":4.1,"Hispanic":2.06,"Pacific Islander":0.06,"Two or More Races":6.66,"White (non-Hispanic)":71.77},"Macomb County, Michigan":{"American Indian / Alaska Native":0.13,"Asian":4.74,"Black or African American":12.4,"Hispanic":3.08,"Pacific Islander":0.07,"Two or More Races":4.1,"White (non-Hispanic)":75.2},"Manistee County, Michigan":{"American Indian / Alaska Native":1.24,"Asian":0.38,"Black or African American":3.28,"Hispanic":3.49,"Pacific Islander":0.02,"Two or More Races":3.82,"White (non-Hispanic)":87.66},"Marquette County, Michigan":{"American Indian / Alaska Native":0.93,"Asian":0.53,"Black or African American":1.45,"Hispanic":2.02,"Pacific Islander":0.02,"Two or More Races":3.97,"White (non-Hispanic)":90.93},"Mason County, Michigan":{"American Indian / Alaska Native":0.34,"Asian":0.41,"Black or African American":1.09,"Hispanic":4.76,"Pacific Islander":0,"Two or More Races":3.3,"White (non-Hispanic)":89.89},"Mecosta County, Michigan":{"American Indian / Alaska Native":0.65,"Asian":0.82,"Black or African American":2.2,"Hispanic":2.79,"Pacific Islander":0.01,"Two or More Races":3.35,"White (non-Hispanic)":90.02},"Menominee County, Michigan":{"American Indian / Alaska Native":2.18,"Asian":0.38,"Black or African American":0.56,"Hispanic":2.29,"Pacific Islander":0,"Two or More Races":2.94,"White (non-Hispanic)":91.51},"Midland County, Michigan":{"American Indian / Alaska Native":0.23,"Asian":2.17,"Black or African American":1.36,"Hispanic":3.33,"Pacific Islander":0.02,"Two or More Races":2.9,"White (non-Hispanic)":89.76},"Missaukee County, Michigan":{"American Indian / Alaska Native":0.2,"Asian":0.32,"Black or African American":0.48,"Hispanic":3.31,"Pacific Islander":0,"Two or More Races":4.04,"White (non-Hispanic)":91.43},"Monroe County, Michigan":{"American Indian / Alaska Native":0.07,"Asian":0.39,"Black or African American":2.22,"Hispanic":4.23,"Pacific Islander":0.03,"Two or More Races":3.55,"White (non-Hispanic)":89.24},"Montcalm County, Michigan":{"American Indian / Alaska Native":0.25,"Asian":0.24,"Black or African American":3.21,"Hispanic":4.21,"Pacific Islander":0,"Two or More Races":3.94,"White (non-Hispanic)":87.58},"Montmorency County, Michigan":{"American Indian / Alaska Native":0.43,"Asian":0.58,"Black or African American":0.16,"Hispanic":1.63,"Pacific Islander":0,"Two or More Races":3.48,"White (non-Hispanic)":93.68},"Muskegon County, Michigan":{"American Indian / Alaska Native":0.51,"Asian":0.57,"Black or African American":12.57,"Hispanic":6.08,"Pacific Islander":0.03,"Two or More Races":4.84,"White (non-Hispanic)":75.29},"Newaygo County, Michigan":{"American Indian / Alaska Native":0.31,"Asian":0.36,"Black or African American":0.74,"Hispanic":6.11,"Pacific Islander":0.07,"Two or More Races":3.73,"White (non-Hispanic)":88.19},"Oakland County, Michigan":{"American Indian / Alaska Native":0.11,"Asian":8.15,"Black or African American":12.86,"Hispanic":4.89,"Pacific Islander":0.03,"Two or More Races":4.28,"White (non-Hispanic)":69.15},"Oceana County, Michigan":{"American Indian / Alaska Native":0.49,"Asian":0.1,"Black or African American":0.93,"Hispanic":15.44,"Pacific Islander":0.01,"Two or More Races":2.63,"White (non-Hispanic)":80.26},"Ogemaw County, Michigan":{"American Indian / Alaska Native":0.26,"Asian":0.76,"Black or African American":0.59,"Hispanic":2.21,"Pacific Islander":0.02,"Two or More Races":2.9,"White (non-Hispanic)":93.18},"Ontonagon County, Michigan":{"American Indian / Alaska Native":0.29,"Asian":0.49,"Black or African American":0.8,"Hispanic":1.7,"Pacific Islander":0,"Two or More Races":3.34,"White (non-Hispanic)":93.1},"Osceola County, Michigan":{"American Indian / Alaska Native":0.34,"Asian":0.35,"Black or African American":1.03,"Hispanic":2,"Pacific Islander":0,"Two or More Races":3.24,"White (non-Hispanic)":92.41},"Oscoda County, Michigan":{"American Indian / Alaska Native":0.32,"Asian":0.16,"Black or African American":0.34,"Hispanic":2.04,"Pacific Islander":0,"Two or More Races":3.55,"White (non-Hispanic)":93.5},"Otsego County, Michigan":{"American Indian / Alaska Native":0.22,"Asian":0.63,"Black or African American":0.8,"Hispanic":1.93,"Pacific Islander":0.01,"Two or More Races":2.91,"White (non-Hispanic)":93.44},"Ottawa County, Michigan":{"American Indian / Alaska Native":0.11,"Asian":2.66,"Black or African American":1.46,"Hispanic":10.11,"Pacific Islander":0.01,"Two or More Races":2.84,"White (non-Hispanic)":82.43},"Presque Isle County, Michigan":{"American Indian / Alaska Native":0.15,"Asian":0.3,"Black or African American":0.22,"Hispanic":1.51,"Pacific Islander":0,"Two or More Races":2.84,"White (non-Hispanic)":94.73},"Roscommon County, Michigan":{"American Indian / Alaska Native":0.14,"Asian":0.45,"Black or African American":0.61,"Hispanic":1.99,"Pacific Islander":0,"Two or More Races":3.97,"White (non-Hispanic)":92.74},"Saginaw County, Michigan":{"American Indian / Alaska Native":0.18,"Asian":1.19,"Black or African American":18.46,"Hispanic":9.08,"Pacific Islander":0.04,"Two or More Races":2.78,"White (non-Hispanic)":68.15},"Sanilac County, Michigan":{"American Indian / Alaska Native":0.1,"Asian":0.18,"Black or African American":0.39,"Hispanic":4.18,"Pacific Islander":0,"Two or More Races":2.51,"White (non-Hispanic)":92.35},"Schoolcraft County, Michigan":{"American Indian / Alaska Native":6.34,"Asian":0.25,"Black or African American":0.46,"Hispanic":1.52,"Pacific Islander":0,"Two or More Races":7.15,"White (non-Hispanic)":84.22},"Shiawassee County, Michigan":{"American Indian / Alaska Native":0.18,"Asian":0.37,"Black or African American":0.59,"Hispanic":3.04,"Pacific Islander":0,"Two or More Races":2.49,"White (non-Hispanic)":93.06},"St. Clair County, Michigan":{"American Indian / Alaska Native":0.1,"Asian":0.47,"Black or African American":2.24,"Hispanic":3.59,"Pacific Islander":0,"Two or More Races":3.29,"White (non-Hispanic)":90.01},"St. Joseph County, Michigan":{"American Indian / Alaska Native":0.03,"Asian":0.57,"Black or African American":2.18,"Hispanic":9.12,"Pacific Islander":0,"Two or More Races":3.46,"White (non-Hispanic)":84.44},"Tuscola County, Michigan":{"American Indian / Alaska Native":0.26,"Asian":0.37,"Black or African American":0.98,"Hispanic":3.62,"Pacific Islander":0.02,"Two or More Races":2.64,"White (non-Hispanic)":91.97},"Van Buren County, Michigan":{"American Indian / Alaska Native":0.35,"Asian":0.55,"Black or African American":3.47,"Hispanic":12.22,"Pacific Islander":0,"Two or More Races":4.05,"White (non-Hispanic)":79.12},"Washtenaw County, Michigan":{"American Indian / Alaska Native":0.17,"Asian":8.84,"Black or African American":11.39,"Hispanic":5.64,"Pacific Islander":0.02,"Two or More Races":5.48,"White (non-Hispanic)":67.94},"Wayne County, Michigan":{"American Indian / Alaska Native":0.17,"Asian":3.47,"Black or African American":36.98,"Hispanic":6.71,"Pacific Islander":0.01,"Two or More Races":3.98,"White (non-Hispanic)":48.21},"Wexford County, Michigan":{"American Indian / Alaska Native":0.26,"Asian":0.49,"Black or African American":0.9,"Hispanic":2.49,"Pacific Islander":0.03,"Two or More Races":4.2,"White (non-Hispanic)":91.59}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

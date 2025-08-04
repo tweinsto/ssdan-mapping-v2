@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Internet Access Over Time –  Oregon</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>body { font-family: sans-serif; margin: 1rem 2rem; text-align: center; }
+                      h2 { margin-bottom: 0.25rem; font-size: 1.6rem; }
+                      select { padding: 0.4rem; font-size: 1rem; margin: 1rem 0; border-radius: 5px; border: 1px solid #999; }
+                      canvas { width: 100%; max-width: 850px; height: 450px; margin-top: 1rem; }</style>
+</head>
+<html>
+  <body>
+    <h2>Internet Access in  Oregon (2013–2023)</h2>
+    <label>Select County: </label>
+    <select id="countySelect"><option value='Statewide'>Statewide</option>
+<option value='Benton County, Oregon'>Benton County, Oregon</option>
+<option value='Clackamas County, Oregon'>Clackamas County, Oregon</option>
+<option value='Deschutes County, Oregon'>Deschutes County, Oregon</option>
+<option value='Douglas County, Oregon'>Douglas County, Oregon</option>
+<option value='Jackson County, Oregon'>Jackson County, Oregon</option>
+<option value='Josephine County, Oregon'>Josephine County, Oregon</option>
+<option value='Klamath County, Oregon'>Klamath County, Oregon</option>
+<option value='Lane County, Oregon'>Lane County, Oregon</option>
+<option value='Linn County, Oregon'>Linn County, Oregon</option>
+<option value='Marion County, Oregon'>Marion County, Oregon</option>
+<option value='Multnomah County, Oregon'>Multnomah County, Oregon</option>
+<option value='Polk County, Oregon'>Polk County, Oregon</option>
+<option value='Umatilla County, Oregon'>Umatilla County, Oregon</option>
+<option value='Washington County, Oregon'>Washington County, Oregon</option>
+<option value='Yamhill County, Oregon'>Yamhill County, Oregon</option></select>
+    <canvas id="lineChart" width="850" height="450"></canvas>
+    <script>const internetData = {"Statewide":{"2013":79.6,"2014":80.8,"2015":82.6,"2016":86.5,"2017":87.8,"2018":88.9,"2019":89.8,"2021":92.4,"2022":92.8,"2023":93.7},"Benton County, Oregon":{"2013":84.5,"2014":86.8,"2015":86.3,"2016":90.5,"2017":90.9,"2018":93.5,"2019":93.7,"2021":90.7,"2022":92.3,"2023":94.8},"Clackamas County, Oregon":{"2013":81.3,"2014":85,"2015":85.6,"2016":89.9,"2017":88.9,"2018":89.2,"2019":87.9,"2021":95,"2022":94.4,"2023":96},"Deschutes County, Oregon":{"2013":78,"2014":76.4,"2015":86,"2016":86.8,"2017":89.9,"2018":88.9,"2019":92.4,"2021":93.2,"2022":93.3,"2023":94.2},"Douglas County, Oregon":{"2013":69.8,"2014":74.6,"2015":75.2,"2016":81.9,"2017":81.6,"2018":84.2,"2019":87.6,"2021":87.3,"2022":89.1,"2023":91.4},"Jackson County, Oregon":{"2013":77,"2014":79.3,"2015":81,"2016":85.6,"2017":85.8,"2018":86.5,"2019":85.5,"2021":88.8,"2022":91.7,"2023":92.8},"Josephine County, Oregon":{"2013":73.9,"2014":77,"2015":79.5,"2016":78.6,"2017":79.1,"2018":81.4,"2019":86.1,"2021":89.8,"2022":93.3,"2023":91.5},"Klamath County, Oregon":{"2013":68,"2014":68,"2015":78.6,"2016":76.8,"2017":79.8,"2018":83.3,"2019":81.2,"2021":85.8,"2022":87.8,"2023":87.8},"Lane County, Oregon":{"2013":79,"2014":79,"2015":78.8,"2016":84.3,"2017":86.2,"2018":89.4,"2019":89.6,"2021":92.8,"2022":90.8,"2023":92.1},"Linn County, Oregon":{"2013":74.8,"2014":78.7,"2015":76.4,"2016":81.3,"2017":83.8,"2018":85.7,"2019":89.2,"2021":90.3,"2022":91,"2023":91.8},"Marion County, Oregon":{"2013":75.7,"2014":75.7,"2015":84,"2016":83.7,"2017":88.1,"2018":86.5,"2019":89.8,"2021":92.3,"2022":92.3,"2023":92.8},"Multnomah County, Oregon":{"2013":80.5,"2014":83.2,"2015":82.6,"2016":87.7,"2017":89.2,"2018":90.3,"2019":91.5,"2021":93.3,"2022":93.6,"2023":93.6},"Polk County, Oregon":{"2013":81.3,"2014":77.8,"2015":83.7,"2016":86.6,"2017":85.3,"2018":91.9,"2019":86.6,"2021":91.3,"2022":91.3,"2023":92.2},"Umatilla County, Oregon":{"2013":72.8,"2014":72.6,"2015":78.3,"2016":79.9,"2017":77.7,"2018":81.8,"2019":83.7,"2021":79.4,"2022":84.1,"2023":91.2},"Washington County, Oregon":{"2013":86.2,"2014":84.7,"2015":85.8,"2016":90.9,"2017":92.8,"2018":92.8,"2019":92.7,"2021":94.9,"2022":95.5,"2023":96.2},"Yamhill County, Oregon":{"2013":81.5,"2014":78.7,"2015":81.5,"2016":82.6,"2017":83.4,"2018":84.3,"2019":88.4,"2021":91,"2022":92.7,"2023":93.2}};
+const ctx = document.getElementById('lineChart').getContext('2d');
+let chart;
+
+function renderChart(data) {
+  const labels = Object.keys(data);
+  const values = Object.values(data);
+
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: '% With Internet',
+        data: values,
+        fill: false,
+        borderColor: 'teal',
+        backgroundColor: 'teal',
+        tension: 0.3,
+        pointRadius: 4
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100,
+          title: { display: true, text: '% With Internet' }
+        },
+        x: {
+          title: { display: true, text: 'Year' }
+        }
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function(ctx) {
+              return ctx.parsed.y.toFixed(1) + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  renderChart(internetData[this.value]);
+});
+renderChart(internetData['Statewide']);</script>
+  </body>
+</html>
+</html>

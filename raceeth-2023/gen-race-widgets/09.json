@@ -1,0 +1,335 @@
+{
+  "state": "Capitol Planning Region",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3236
+        },
+        {
+          "label": "Asian",
+          "value": 169312
+        },
+        {
+          "label": "Black or African American",
+          "value": 355413
+        },
+        {
+          "label": "Hispanic",
+          "value": 640668
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1102
+        },
+        {
+          "label": "Two or More Races",
+          "value": 136626
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2265780
+        }
+      ]
+    },
+    "Capitol Planning Region, Connecticut": {
+      "label": "Capitol Planning Region, Connecticut",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 747
+        },
+        {
+          "label": "Asian",
+          "value": 56485
+        },
+        {
+          "label": "Black or African American",
+          "value": 111597
+        },
+        {
+          "label": "Hispanic",
+          "value": 168439
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 384
+        },
+        {
+          "label": "Two or More Races",
+          "value": 34944
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 590481
+        }
+      ]
+    },
+    "Greater Bridgeport Planning Region, Connecticut": {
+      "label": "Greater Bridgeport Planning Region, Connecticut",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 266
+        },
+        {
+          "label": "Asian",
+          "value": 16949
+        },
+        {
+          "label": "Black or African American",
+          "value": 36215
+        },
+        {
+          "label": "Hispanic",
+          "value": 85034
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 34
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9372
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 174303
+        }
+      ]
+    },
+    "Lower Connecticut River Valley Planning Region, Connecticut": {
+      "label": "Lower Connecticut River Valley Planning Region, Connecticut",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 38
+        },
+        {
+          "label": "Asian",
+          "value": 6109
+        },
+        {
+          "label": "Black or African American",
+          "value": 7957
+        },
+        {
+          "label": "Hispanic",
+          "value": 13031
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 225
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7089
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 140056
+        }
+      ]
+    },
+    "Naugatuck Valley Planning Region, Connecticut": {
+      "label": "Naugatuck Valley Planning Region, Connecticut",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 196
+        },
+        {
+          "label": "Asian",
+          "value": 17989
+        },
+        {
+          "label": "Black or African American",
+          "value": 46541
+        },
+        {
+          "label": "Hispanic",
+          "value": 86804
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 87
+        },
+        {
+          "label": "Two or More Races",
+          "value": 20888
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 276403
+        }
+      ]
+    },
+    "Northeastern Connecticut Planning Region, Connecticut": {
+      "label": "Northeastern Connecticut Planning Region, Connecticut",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 56
+        },
+        {
+          "label": "Asian",
+          "value": 1304
+        },
+        {
+          "label": "Black or African American",
+          "value": 1611
+        },
+        {
+          "label": "Hispanic",
+          "value": 4839
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 86
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4067
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 83553
+        }
+      ]
+    },
+    "Northwest Hills Planning Region, Connecticut": {
+      "label": "Northwest Hills Planning Region, Connecticut",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 30
+        },
+        {
+          "label": "Asian",
+          "value": 2457
+        },
+        {
+          "label": "Black or African American",
+          "value": 2826
+        },
+        {
+          "label": "Hispanic",
+          "value": 9442
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4106
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 93305
+        }
+      ]
+    },
+    "South Central Connecticut Planning Region, Connecticut": {
+      "label": "South Central Connecticut Planning Region, Connecticut",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 390
+        },
+        {
+          "label": "Asian",
+          "value": 24651
+        },
+        {
+          "label": "Black or African American",
+          "value": 73955
+        },
+        {
+          "label": "Hispanic",
+          "value": 108273
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 102
+        },
+        {
+          "label": "Two or More Races",
+          "value": 17877
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 337620
+        }
+      ]
+    },
+    "Southeastern Connecticut Planning Region, Connecticut": {
+      "label": "Southeastern Connecticut Planning Region, Connecticut",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1011
+        },
+        {
+          "label": "Asian",
+          "value": 10292
+        },
+        {
+          "label": "Black or African American",
+          "value": 13847
+        },
+        {
+          "label": "Hispanic",
+          "value": 40941
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 12438
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 199002
+        }
+      ]
+    },
+    "Western Connecticut Planning Region, Connecticut": {
+      "label": "Western Connecticut Planning Region, Connecticut",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 502
+        },
+        {
+          "label": "Asian",
+          "value": 33076
+        },
+        {
+          "label": "Black or African American",
+          "value": 60864
+        },
+        {
+          "label": "Hispanic",
+          "value": 123865
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 184
+        },
+        {
+          "label": "Two or More Races",
+          "value": 25845
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 371057
+        }
+      ]
+    }
+  }
+}

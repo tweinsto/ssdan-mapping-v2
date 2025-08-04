@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 06</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Alameda County, California">Alameda County, California</option>
+<option value="Alpine County, California">Alpine County, California</option>
+<option value="Amador County, California">Amador County, California</option>
+<option value="Butte County, California">Butte County, California</option>
+<option value="Calaveras County, California">Calaveras County, California</option>
+<option value="Colusa County, California">Colusa County, California</option>
+<option value="Contra Costa County, California">Contra Costa County, California</option>
+<option value="Del Norte County, California">Del Norte County, California</option>
+<option value="El Dorado County, California">El Dorado County, California</option>
+<option value="Fresno County, California">Fresno County, California</option>
+<option value="Glenn County, California">Glenn County, California</option>
+<option value="Humboldt County, California">Humboldt County, California</option>
+<option value="Imperial County, California">Imperial County, California</option>
+<option value="Inyo County, California">Inyo County, California</option>
+<option value="Kern County, California">Kern County, California</option>
+<option value="Kings County, California">Kings County, California</option>
+<option value="Lake County, California">Lake County, California</option>
+<option value="Lassen County, California">Lassen County, California</option>
+<option value="Los Angeles County, California">Los Angeles County, California</option>
+<option value="Madera County, California">Madera County, California</option>
+<option value="Marin County, California">Marin County, California</option>
+<option value="Mariposa County, California">Mariposa County, California</option>
+<option value="Mendocino County, California">Mendocino County, California</option>
+<option value="Merced County, California">Merced County, California</option>
+<option value="Modoc County, California">Modoc County, California</option>
+<option value="Mono County, California">Mono County, California</option>
+<option value="Monterey County, California">Monterey County, California</option>
+<option value="Napa County, California">Napa County, California</option>
+<option value="Nevada County, California">Nevada County, California</option>
+<option value="Orange County, California">Orange County, California</option>
+<option value="Placer County, California">Placer County, California</option>
+<option value="Plumas County, California">Plumas County, California</option>
+<option value="Riverside County, California">Riverside County, California</option>
+<option value="Sacramento County, California">Sacramento County, California</option>
+<option value="San Benito County, California">San Benito County, California</option>
+<option value="San Bernardino County, California">San Bernardino County, California</option>
+<option value="San Diego County, California">San Diego County, California</option>
+<option value="San Francisco County, California">San Francisco County, California</option>
+<option value="San Joaquin County, California">San Joaquin County, California</option>
+<option value="San Luis Obispo County, California">San Luis Obispo County, California</option>
+<option value="San Mateo County, California">San Mateo County, California</option>
+<option value="Santa Barbara County, California">Santa Barbara County, California</option>
+<option value="Santa Clara County, California">Santa Clara County, California</option>
+<option value="Santa Cruz County, California">Santa Cruz County, California</option>
+<option value="Shasta County, California">Shasta County, California</option>
+<option value="Sierra County, California">Sierra County, California</option>
+<option value="Siskiyou County, California">Siskiyou County, California</option>
+<option value="Solano County, California">Solano County, California</option>
+<option value="Sonoma County, California">Sonoma County, California</option>
+<option value="Stanislaus County, California">Stanislaus County, California</option>
+<option value="Sutter County, California">Sutter County, California</option>
+<option value="Tehama County, California">Tehama County, California</option>
+<option value="Trinity County, California">Trinity County, California</option>
+<option value="Tulare County, California">Tulare County, California</option>
+<option value="Tuolumne County, California">Tuolumne County, California</option>
+<option value="Ventura County, California">Ventura County, California</option>
+<option value="Yolo County, California">Yolo County, California</option>
+<option value="Yuba County, California">Yuba County, California</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.27,"Asian":15.05,"Black or African American":5.29,"Hispanic":39.83,"Pacific Islander":0.34,"Two or More Races":4.09,"White (non-Hispanic)":34.59},"Alameda County, California":{"American Indian / Alaska Native":0.24,"Asian":31.99,"Black or African American":9.63,"Hispanic":23.32,"Pacific Islander":0.71,"Two or More Races":5.26,"White (non-Hispanic)":28.24},"Alpine County, California":{"American Indian / Alaska Native":24.6,"Asian":0.47,"Black or African American":0,"Hispanic":14.69,"Pacific Islander":0,"Two or More Races":1.3,"White (non-Hispanic)":58.58},"Amador County, California":{"American Indian / Alaska Native":0.97,"Asian":1.43,"Black or African American":1.9,"Hispanic":15.5,"Pacific Islander":0.06,"Two or More Races":5.25,"White (non-Hispanic)":73.69},"Butte County, California":{"American Indian / Alaska Native":0.77,"Asian":5.26,"Black or African American":1.69,"Hispanic":19.49,"Pacific Islander":0.26,"Two or More Races":5.4,"White (non-Hispanic)":66.61},"Calaveras County, California":{"American Indian / Alaska Native":0.92,"Asian":2.32,"Black or African American":1.15,"Hispanic":13.92,"Pacific Islander":0.05,"Two or More Races":4.23,"White (non-Hispanic)":77.4},"Colusa County, California":{"American Indian / Alaska Native":0.7,"Asian":0.46,"Black or African American":1.42,"Hispanic":62.29,"Pacific Islander":0.06,"Two or More Races":2.9,"White (non-Hispanic)":31.37},"Contra Costa County, California":{"American Indian / Alaska Native":0.16,"Asian":18.29,"Black or African American":8.17,"Hispanic":27.28,"Pacific Islander":0.44,"Two or More Races":5.76,"White (non-Hispanic)":39.26},"Del Norte County, California":{"American Indian / Alaska Native":6.18,"Asian":3.01,"Black or African American":2.95,"Hispanic":19.6,"Pacific Islander":0.44,"Two or More Races":6.07,"White (non-Hispanic)":61.07},"El Dorado County, California":{"American Indian / Alaska Native":0.43,"Asian":5.01,"Black or African American":0.79,"Hispanic":14.16,"Pacific Islander":0.11,"Two or More Races":4.88,"White (non-Hispanic)":74.13},"Fresno County, California":{"American Indian / Alaska Native":0.4,"Asian":10.75,"Black or African American":4.16,"Hispanic":54.11,"Pacific Islander":0.15,"Two or More Races":3.01,"White (non-Hispanic)":27},"Glenn County, California":{"American Indian / Alaska Native":0.71,"Asian":2.71,"Black or African American":0.55,"Hispanic":44.13,"Pacific Islander":0.08,"Two or More Races":3.06,"White (non-Hispanic)":48.63},"Humboldt County, California":{"American Indian / Alaska Native":3.04,"Asian":3.03,"Black or African American":1.12,"Hispanic":13.84,"Pacific Islander":0.23,"Two or More Races":7.83,"White (non-Hispanic)":70.24},"Imperial County, California":{"American Indian / Alaska Native":0.67,"Asian":1.28,"Black or African American":2.19,"Hispanic":85.58,"Pacific Islander":0.01,"Two or More Races":0.8,"White (non-Hispanic)":9.42},"Inyo County, California":{"American Indian / Alaska Native":8.15,"Asian":1.58,"Black or African American":0.6,"Hispanic":23.77,"Pacific Islander":0.89,"Two or More Races":5.42,"White (non-Hispanic)":59},"Kern County, California":{"American Indian / Alaska Native":0.31,"Asian":4.89,"Black or African American":4.83,"Hispanic":55.74,"Pacific Islander":0.12,"Two or More Races":2.98,"White (non-Hispanic)":30.65},"Kings County, California":{"American Indian / Alaska Native":0.72,"Asian":3.49,"Black or African American":5.98,"Hispanic":57.49,"Pacific Islander":0.19,"Two or More Races":3.16,"White (non-Hispanic)":28.78},"Lake County, California":{"American Indian / Alaska Native":2,"Asian":1.04,"Black or African American":1.93,"Hispanic":23.75,"Pacific Islander":0.34,"Two or More Races":5.5,"White (non-Hispanic)":65.25},"Lassen County, California":{"American Indian / Alaska Native":2.15,"Asian":1.59,"Black or African American":7.47,"Hispanic":22.54,"Pacific Islander":0.94,"Two or More Races":3.65,"White (non-Hispanic)":61.36},"Los Angeles County, California":{"American Indian / Alaska Native":0.18,"Asian":14.81,"Black or African American":7.54,"Hispanic":48.27,"Pacific Islander":0.19,"Two or More Races":3.27,"White (non-Hispanic)":25.15},"Madera County, California":{"American Indian / Alaska Native":0.52,"Asian":2.38,"Black or African American":2.42,"Hispanic":60.35,"Pacific Islander":0.1,"Two or More Races":3.08,"White (non-Hispanic)":30.85},"Marin County, California":{"American Indian / Alaska Native":0.07,"Asian":6.09,"Black or African American":2.14,"Hispanic":18.99,"Pacific Islander":0.16,"Two or More Races":5.2,"White (non-Hispanic)":66.57},"Mariposa County, California":{"American Indian / Alaska Native":1.6,"Asian":1.59,"Black or African American":1.27,"Hispanic":13.72,"Pacific Islander":0.04,"Two or More Races":4.48,"White (non-Hispanic)":76.38},"Mendocino County, California":{"American Indian / Alaska Native":2.72,"Asian":2.19,"Black or African American":0.83,"Hispanic":26.94,"Pacific Islander":0.09,"Two or More Races":4.4,"White (non-Hispanic)":62.12},"Merced County, California":{"American Indian / Alaska Native":0.23,"Asian":6.99,"Black or African American":2.72,"Hispanic":62.66,"Pacific Islander":0.25,"Two or More Races":2.54,"White (non-Hispanic)":24.26},"Modoc County, California":{"American Indian / Alaska Native":2.28,"Asian":1.19,"Black or African American":0.83,"Hispanic":15.28,"Pacific Islander":0,"Two or More Races":4.42,"White (non-Hispanic)":75.2},"Mono County, California":{"American Indian / Alaska Native":1.59,"Asian":2.21,"Black or African American":0.09,"Hispanic":26.68,"Pacific Islander":0,"Two or More Races":3.58,"White (non-Hispanic)":65.54},"Monterey County, California":{"American Indian / Alaska Native":0.13,"Asian":5.52,"Black or African American":2.02,"Hispanic":60.97,"Pacific Islander":0.42,"Two or More Races":2.94,"White (non-Hispanic)":27.6},"Napa County, California":{"American Indian / Alaska Native":0.19,"Asian":7.77,"Black or African American":1.79,"Hispanic":35.86,"Pacific Islander":0.29,"Two or More Races":4.25,"White (non-Hispanic)":49.41},"Nevada County, California":{"American Indian / Alaska Native":0.37,"Asian":1.51,"Black or African American":0.3,"Hispanic":10.47,"Pacific Islander":0.06,"Two or More Races":5.02,"White (non-Hispanic)":81.69},"Orange County, California":{"American Indian / Alaska Native":0.11,"Asian":21.74,"Black or African American":1.52,"Hispanic":34.15,"Pacific Islander":0.28,"Two or More Races":4.1,"White (non-Hispanic)":37.65},"Placer County, California":{"American Indian / Alaska Native":0.18,"Asian":8.88,"Black or African American":1.59,"Hispanic":15.38,"Pacific Islander":0.17,"Two or More Races":5.95,"White (non-Hispanic)":67.27},"Plumas County, California":{"American Indian / Alaska Native":1.16,"Asian":0.46,"Black or African American":0.67,"Hispanic":10.02,"Pacific Islander":0.29,"Two or More Races":5.44,"White (non-Hispanic)":81.8},"Riverside County, California":{"American Indian / Alaska Native":0.28,"Asian":6.83,"Black or African American":6.12,"Hispanic":50.6,"Pacific Islander":0.29,"Two or More Races":3.35,"White (non-Hispanic)":32.02},"Sacramento County, California":{"American Indian / Alaska Native":0.26,"Asian":17.21,"Black or African American":9.13,"Hispanic":23.97,"Pacific Islander":1.09,"Two or More Races":6.26,"White (non-Hispanic)":41.53},"San Benito County, California":{"American Indian / Alaska Native":0.25,"Asian":3.18,"Black or African American":0.86,"Hispanic":61.74,"Pacific Islander":0.21,"Two or More Races":3.43,"White (non-Hispanic)":30.26},"San Bernardino County, California":{"American Indian / Alaska Native":0.28,"Asian":7.87,"Black or African American":7.62,"Hispanic":54.56,"Pacific Islander":0.3,"Two or More Races":3.27,"White (non-Hispanic)":25.63},"San Diego County, California":{"American Indian / Alaska Native":0.26,"Asian":11.91,"Black or African American":4.44,"Hispanic":34.34,"Pacific Islander":0.37,"Two or More Races":4.97,"White (non-Hispanic)":43.18},"San Francisco County, California":{"American Indian / Alaska Native":0.2,"Asian":34.69,"Black or African American":4.81,"Hispanic":15.93,"Pacific Islander":0.34,"Two or More Races":5.76,"White (non-Hispanic)":37.49},"San Joaquin County, California":{"American Indian / Alaska Native":0.26,"Asian":17.49,"Black or African American":6.68,"Hispanic":42.23,"Pacific Islander":0.56,"Two or More Races":4.43,"White (non-Hispanic)":27.94},"San Luis Obispo County, California":{"American Indian / Alaska Native":0.18,"Asian":3.39,"Black or African American":1.1,"Hispanic":24.51,"Pacific Islander":0.16,"Two or More Races":4.61,"White (non-Hispanic)":65.43},"San Mateo County, California":{"American Indian / Alaska Native":0.12,"Asian":30.46,"Black or African American":2.06,"Hispanic":24.88,"Pacific Islander":1.09,"Two or More Races":4.79,"White (non-Hispanic)":35.76},"Santa Barbara County, California":{"American Indian / Alaska Native":0.23,"Asian":5.15,"Black or African American":1.54,"Hispanic":47.62,"Pacific Islander":0.09,"Two or More Races":3.48,"White (non-Hispanic)":41.52},"Santa Clara County, California":{"American Indian / Alaska Native":0.15,"Asian":39.31,"Black or African American":2.26,"Hispanic":25.09,"Pacific Islander":0.37,"Two or More Races":4.14,"White (non-Hispanic)":28.22},"Santa Cruz County, California":{"American Indian / Alaska Native":0.08,"Asian":4.51,"Black or African American":0.75,"Hispanic":35,"Pacific Islander":0.14,"Two or More Races":4.2,"White (non-Hispanic)":54.6},"Shasta County, California":{"American Indian / Alaska Native":1.44,"Asian":3.35,"Black or African American":0.88,"Hispanic":11.35,"Pacific Islander":0.13,"Two or More Races":6.03,"White (non-Hispanic)":76.46},"Sierra County, California":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":0.29,"Hispanic":9.59,"Pacific Islander":0,"Two or More Races":1.28,"White (non-Hispanic)":88.83},"Siskiyou County, California":{"American Indian / Alaska Native":2.82,"Asian":1.59,"Black or African American":1.65,"Hispanic":13.13,"Pacific Islander":0.39,"Two or More Races":5.99,"White (non-Hispanic)":74.21},"Solano County, California":{"American Indian / Alaska Native":0.28,"Asian":15.57,"Black or African American":12.6,"Hispanic":28.98,"Pacific Islander":0.81,"Two or More Races":6.57,"White (non-Hispanic)":34.33},"Sonoma County, California":{"American Indian / Alaska Native":0.31,"Asian":4.29,"Black or African American":1.45,"Hispanic":29.44,"Pacific Islander":0.31,"Two or More Races":4.58,"White (non-Hispanic)":59.14},"Stanislaus County, California":{"American Indian / Alaska Native":0.28,"Asian":5.73,"Black or African American":2.65,"Hispanic":49.21,"Pacific Islander":0.52,"Two or More Races":3.75,"White (non-Hispanic)":37.52},"Sutter County, California":{"American Indian / Alaska Native":0.68,"Asian":17.05,"Black or African American":1.59,"Hispanic":32.39,"Pacific Islander":0.35,"Two or More Races":4.86,"White (non-Hispanic)":41.99},"Tehama County, California":{"American Indian / Alaska Native":1.13,"Asian":1.79,"Black or African American":0.83,"Hispanic":28.17,"Pacific Islander":0.1,"Two or More Races":4.35,"White (non-Hispanic)":62.92},"Trinity County, California":{"American Indian / Alaska Native":2.08,"Asian":2.42,"Black or African American":0.92,"Hispanic":5.89,"Pacific Islander":0.52,"Two or More Races":5.61,"White (non-Hispanic)":79.28},"Tulare County, California":{"American Indian / Alaska Native":0.47,"Asian":3.41,"Black or African American":1.29,"Hispanic":66.05,"Pacific Islander":0.12,"Two or More Races":1.98,"White (non-Hispanic)":26.29},"Tuolumne County, California":{"American Indian / Alaska Native":0.98,"Asian":1.25,"Black or African American":1.61,"Hispanic":13.21,"Pacific Islander":0.3,"Two or More Races":3.49,"White (non-Hispanic)":78.58},"Ventura County, California":{"American Indian / Alaska Native":0.16,"Asian":7.07,"Black or African American":1.67,"Hispanic":43.84,"Pacific Islander":0.15,"Two or More Races":3.75,"White (non-Hispanic)":42.87},"Yolo County, California":{"American Indian / Alaska Native":0.41,"Asian":14.5,"Black or African American":2.46,"Hispanic":33.22,"Pacific Islander":0.39,"Two or More Races":5.45,"White (non-Hispanic)":43.03},"Yuba County, California":{"American Indian / Alaska Native":0.61,"Asian":7.46,"Black or African American":3.51,"Hispanic":29.96,"Pacific Islander":0.27,"Two or More Races":7.01,"White (non-Hispanic)":50.71}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

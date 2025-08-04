@@ -2,60 +2,78 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Minnesota Population Overview</title>
+  <title>State Page</title>
   <style>
     body {
       margin: 2rem;
       font-family: sans-serif;
+      background-color: #f1e7e7;
     }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+      color: #333;
+    }
+
     #wrapper {
       display: flex;
-      gap: 1rem;
+      gap: 1.5rem;
       align-items: flex-start;
     }
+
     iframe {
       border: none;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     }
+
     .map-column {
       width: 60%;
     }
+
     .chart-column {
       width: 40%;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    @media (max-width: 800px) {
+      #wrapper {
+        flex-direction: column;
+      }
+      .map-column, .chart-column {
+        width: 100%;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Minnesota – County Map and Population Growth 2000-2023</h1>
-
+  <h1>County Map and Population Growth Overview – 27</h1>
   <div id="wrapper">
     <div class="map-column">
       <iframe
         src="../maps/27_county_map.html"
         title="County Map"
-        style="width: 100%; height: 500px;">
+        style="width: 100%; height: 600px;">
       </iframe>
     </div>
 
     <div class="chart-column">
-      <iframe
-        src="../pop-charts/27_chart.html"
-        title="Population Chart"
-        style="width: 100%; height: 300px;">
-      </iframe>
-
-      <div style="padding-top: 1rem;">
-        <h3>State Notes</h3>
-        <p>Northeastern Minnesota, east of the Mississippi River and a line drawn northward from its source to Canada, was part of the Northwest Territory (1787) and later of Indiana Territory (1800), Illinois Territory (1809), Michigan Territory (1818), and Wisconsin Territory (1838).  Most of the rest of the State was part of the Louisiana Purchase of 1803, and included in Louisiana Territory (1805), renamed Missouri Territory in 1812.  Both these parts of the present State were included in Michigan Territory from 1834 to 1836, and then in Wisconsin Territory until 1838. The portion west of the Mississippi then became part of Iowa Territory, until Minnesota Territory was established in 1849, including the whole present-day State and the Dakotas generally east of the Missouri River. Minnesota was admitted as a State on May 11, 1858 with essentially its present boundaries.</p>
-      </div>
-
-      <div style="padding-top: 1rem;">
-        <h3>Population Rankings by County</h3>
+      <div style="padding: 1rem; background: white;">
         <iframe
-          src="../county_rankings/27_counties.html"
-          title="County Table"
-          style="width: 100%; height: 300px;">
+          src="../pop-charts-new/27_chart.html"
+          title="Population Growth"
+          style="width: 100%; height: 400px; border: none;">
         </iframe>
       </div>
+
+      <iframe
+        src="../maps/growth-rankings2000/rankings27_counties.html"
+        title="County Table"
+        style="width: 100%; height: 400px;">
+      </iframe>
     </div>
   </div>
 </body>

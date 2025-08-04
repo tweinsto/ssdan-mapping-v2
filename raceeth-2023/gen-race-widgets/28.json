@@ -1,0 +1,2744 @@
+{
+  "state": "Adams County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10332
+        },
+        {
+          "label": "Asian",
+          "value": 28472
+        },
+        {
+          "label": "Black or African American",
+          "value": 1088106
+        },
+        {
+          "label": "Hispanic",
+          "value": 106126
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1175
+        },
+        {
+          "label": "Two or More Races",
+          "value": 71530
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1636190
+        }
+      ]
+    },
+    "Adams County, Mississippi": {
+      "label": "Adams County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 72
+        },
+        {
+          "label": "Asian",
+          "value": 78
+        },
+        {
+          "label": "Black or African American",
+          "value": 16141
+        },
+        {
+          "label": "Hispanic",
+          "value": 1191
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 404
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10886
+        }
+      ]
+    },
+    "Alcorn County, Mississippi": {
+      "label": "Alcorn County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 16
+        },
+        {
+          "label": "Black or African American",
+          "value": 3657
+        },
+        {
+          "label": "Hispanic",
+          "value": 1273
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 60
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1715
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27707
+        }
+      ]
+    },
+    "Amite County, Mississippi": {
+      "label": "Amite County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 5053
+        },
+        {
+          "label": "Hispanic",
+          "value": 8
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 156
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7352
+        }
+      ]
+    },
+    "Attala County, Mississippi": {
+      "label": "Attala County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 46
+        },
+        {
+          "label": "Black or African American",
+          "value": 8028
+        },
+        {
+          "label": "Hispanic",
+          "value": 87
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 292
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9224
+        }
+      ]
+    },
+    "Benton County, Mississippi": {
+      "label": "Benton County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 31
+        },
+        {
+          "label": "Black or African American",
+          "value": 2600
+        },
+        {
+          "label": "Hispanic",
+          "value": 169
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 174
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4603
+        }
+      ]
+    },
+    "Bolivar County, Mississippi": {
+      "label": "Bolivar County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 287
+        },
+        {
+          "label": "Black or African American",
+          "value": 19071
+        },
+        {
+          "label": "Hispanic",
+          "value": 765
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 707
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9240
+        }
+      ]
+    },
+    "Calhoun County, Mississippi": {
+      "label": "Calhoun County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 3744
+        },
+        {
+          "label": "Hispanic",
+          "value": 773
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 163
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8343
+        }
+      ]
+    },
+    "Carroll County, Mississippi": {
+      "label": "Carroll County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 39
+        },
+        {
+          "label": "Black or African American",
+          "value": 3388
+        },
+        {
+          "label": "Hispanic",
+          "value": 24
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 175
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6190
+        }
+      ]
+    },
+    "Chickasaw County, Mississippi": {
+      "label": "Chickasaw County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 88
+        },
+        {
+          "label": "Black or African American",
+          "value": 7549
+        },
+        {
+          "label": "Hispanic",
+          "value": 688
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 262
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8403
+        }
+      ]
+    },
+    "Choctaw County, Mississippi": {
+      "label": "Choctaw County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 44
+        },
+        {
+          "label": "Black or African American",
+          "value": 2395
+        },
+        {
+          "label": "Hispanic",
+          "value": 144
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 81
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5476
+        }
+      ]
+    },
+    "Claiborne County, Mississippi": {
+      "label": "Claiborne County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 7666
+        },
+        {
+          "label": "Hispanic",
+          "value": 20
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 241
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 963
+        }
+      ]
+    },
+    "Clarke County, Mississippi": {
+      "label": "Clarke County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 20
+        },
+        {
+          "label": "Black or African American",
+          "value": 5300
+        },
+        {
+          "label": "Hispanic",
+          "value": 155
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 241
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9701
+        }
+      ]
+    },
+    "Clay County, Mississippi": {
+      "label": "Clay County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 60
+        },
+        {
+          "label": "Black or African American",
+          "value": 11095
+        },
+        {
+          "label": "Hispanic",
+          "value": 31
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 282
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6991
+        }
+      ]
+    },
+    "Coahoma County, Mississippi": {
+      "label": "Coahoma County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 94
+        },
+        {
+          "label": "Asian",
+          "value": 53
+        },
+        {
+          "label": "Black or African American",
+          "value": 15784
+        },
+        {
+          "label": "Hispanic",
+          "value": 444
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 396
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4023
+        }
+      ]
+    },
+    "Copiah County, Mississippi": {
+      "label": "Copiah County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 61
+        },
+        {
+          "label": "Black or African American",
+          "value": 14196
+        },
+        {
+          "label": "Hispanic",
+          "value": 1150
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 324
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12090
+        }
+      ]
+    },
+    "Covington County, Mississippi": {
+      "label": "Covington County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 61
+        },
+        {
+          "label": "Black or African American",
+          "value": 6313
+        },
+        {
+          "label": "Hispanic",
+          "value": 465
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 51
+        },
+        {
+          "label": "Two or More Races",
+          "value": 485
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10818
+        }
+      ]
+    },
+    "DeSoto County, Mississippi": {
+      "label": "DeSoto County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 127
+        },
+        {
+          "label": "Asian",
+          "value": 2538
+        },
+        {
+          "label": "Black or African American",
+          "value": 59997
+        },
+        {
+          "label": "Hispanic",
+          "value": 10612
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5459
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 109463
+        }
+      ]
+    },
+    "Forrest County, Mississippi": {
+      "label": "Forrest County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 60
+        },
+        {
+          "label": "Asian",
+          "value": 603
+        },
+        {
+          "label": "Black or African American",
+          "value": 27874
+        },
+        {
+          "label": "Hispanic",
+          "value": 3264
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 166
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2252
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 43674
+        }
+      ]
+    },
+    "Franklin County, Mississippi": {
+      "label": "Franklin County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 2678
+        },
+        {
+          "label": "Hispanic",
+          "value": 70
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 98
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4789
+        }
+      ]
+    },
+    "George County, Mississippi": {
+      "label": "George County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 67
+        },
+        {
+          "label": "Black or African American",
+          "value": 1933
+        },
+        {
+          "label": "Hispanic",
+          "value": 747
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 713
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21113
+        }
+      ]
+    },
+    "Greene County, Mississippi": {
+      "label": "Greene County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 113
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 3375
+        },
+        {
+          "label": "Hispanic",
+          "value": 181
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 255
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9670
+        }
+      ]
+    },
+    "Grenada County, Mississippi": {
+      "label": "Grenada County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 20
+        },
+        {
+          "label": "Black or African American",
+          "value": 9559
+        },
+        {
+          "label": "Hispanic",
+          "value": 64
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 637
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10902
+        }
+      ]
+    },
+    "Hancock County, Mississippi": {
+      "label": "Hancock County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 161
+        },
+        {
+          "label": "Asian",
+          "value": 287
+        },
+        {
+          "label": "Black or African American",
+          "value": 3087
+        },
+        {
+          "label": "Hispanic",
+          "value": 1924
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1835
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 38496
+        }
+      ]
+    },
+    "Harrison County, Mississippi": {
+      "label": "Harrison County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 275
+        },
+        {
+          "label": "Asian",
+          "value": 4916
+        },
+        {
+          "label": "Black or African American",
+          "value": 50134
+        },
+        {
+          "label": "Hispanic",
+          "value": 14023
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 81
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10788
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 128525
+        }
+      ]
+    },
+    "Hinds County, Mississippi": {
+      "label": "Hinds County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 147
+        },
+        {
+          "label": "Asian",
+          "value": 1773
+        },
+        {
+          "label": "Black or African American",
+          "value": 160576
+        },
+        {
+          "label": "Hispanic",
+          "value": 4500
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 15
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3496
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 51620
+        }
+      ]
+    },
+    "Holmes County, Mississippi": {
+      "label": "Holmes County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 38
+        },
+        {
+          "label": "Black or African American",
+          "value": 13591
+        },
+        {
+          "label": "Hispanic",
+          "value": 71
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 420
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2349
+        }
+      ]
+    },
+    "Humphreys County, Mississippi": {
+      "label": "Humphreys County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 12
+        },
+        {
+          "label": "Black or African American",
+          "value": 5966
+        },
+        {
+          "label": "Hispanic",
+          "value": 5
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 42
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1538
+        }
+      ]
+    },
+    "Issaquena County, Mississippi": {
+      "label": "Issaquena County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 768
+        },
+        {
+          "label": "Hispanic",
+          "value": 14
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 18
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 291
+        }
+      ]
+    },
+    "Itawamba County, Mississippi": {
+      "label": "Itawamba County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 112
+        },
+        {
+          "label": "Black or African American",
+          "value": 1867
+        },
+        {
+          "label": "Hispanic",
+          "value": 437
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 252
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21214
+        }
+      ]
+    },
+    "Jackson County, Mississippi": {
+      "label": "Jackson County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 211
+        },
+        {
+          "label": "Asian",
+          "value": 3043
+        },
+        {
+          "label": "Black or African American",
+          "value": 29474
+        },
+        {
+          "label": "Hispanic",
+          "value": 10560
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 23
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4388
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 96040
+        }
+      ]
+    },
+    "Jasper County, Mississippi": {
+      "label": "Jasper County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 2
+        },
+        {
+          "label": "Black or African American",
+          "value": 8630
+        },
+        {
+          "label": "Hispanic",
+          "value": 99
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 242
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7238
+        }
+      ]
+    },
+    "Jefferson County, Mississippi": {
+      "label": "Jefferson County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 57
+        },
+        {
+          "label": "Black or African American",
+          "value": 5773
+        },
+        {
+          "label": "Hispanic",
+          "value": 310
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 39
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 942
+        }
+      ]
+    },
+    "Jefferson Davis County, Mississippi": {
+      "label": "Jefferson Davis County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 6729
+        },
+        {
+          "label": "Hispanic",
+          "value": 19
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 189
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4237
+        }
+      ]
+    },
+    "Jones County, Mississippi": {
+      "label": "Jones County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 187
+        },
+        {
+          "label": "Asian",
+          "value": 256
+        },
+        {
+          "label": "Black or African American",
+          "value": 19059
+        },
+        {
+          "label": "Hispanic",
+          "value": 4071
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1016
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 42203
+        }
+      ]
+    },
+    "Kemper County, Mississippi": {
+      "label": "Kemper County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 313
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 5352
+        },
+        {
+          "label": "Hispanic",
+          "value": 64
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 164
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2959
+        }
+      ]
+    },
+    "Lafayette County, Mississippi": {
+      "label": "Lafayette County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 70
+        },
+        {
+          "label": "Asian",
+          "value": 1270
+        },
+        {
+          "label": "Black or African American",
+          "value": 13119
+        },
+        {
+          "label": "Hispanic",
+          "value": 2063
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1203
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 39100
+        }
+      ]
+    },
+    "Lamar County, Mississippi": {
+      "label": "Lamar County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 52
+        },
+        {
+          "label": "Asian",
+          "value": 620
+        },
+        {
+          "label": "Black or African American",
+          "value": 14030
+        },
+        {
+          "label": "Hispanic",
+          "value": 2366
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1409
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 46449
+        }
+      ]
+    },
+    "Lauderdale County, Mississippi": {
+      "label": "Lauderdale County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 141
+        },
+        {
+          "label": "Asian",
+          "value": 536
+        },
+        {
+          "label": "Black or African American",
+          "value": 30160
+        },
+        {
+          "label": "Hispanic",
+          "value": 1782
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2365
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 36521
+        }
+      ]
+    },
+    "Lawrence County, Mississippi": {
+      "label": "Lawrence County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 44
+        },
+        {
+          "label": "Asian",
+          "value": 36
+        },
+        {
+          "label": "Black or African American",
+          "value": 3775
+        },
+        {
+          "label": "Hispanic",
+          "value": 245
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 173
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7606
+        }
+      ]
+    },
+    "Leake County, Mississippi": {
+      "label": "Leake County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1262
+        },
+        {
+          "label": "Asian",
+          "value": 96
+        },
+        {
+          "label": "Black or African American",
+          "value": 8314
+        },
+        {
+          "label": "Hispanic",
+          "value": 1260
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 398
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9937
+        }
+      ]
+    },
+    "Lee County, Mississippi": {
+      "label": "Lee County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 890
+        },
+        {
+          "label": "Black or African American",
+          "value": 24824
+        },
+        {
+          "label": "Hispanic",
+          "value": 2835
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 219
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1834
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 52321
+        }
+      ]
+    },
+    "Leflore County, Mississippi": {
+      "label": "Leflore County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 143
+        },
+        {
+          "label": "Black or African American",
+          "value": 20432
+        },
+        {
+          "label": "Hispanic",
+          "value": 837
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 152
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5767
+        }
+      ]
+    },
+    "Lincoln County, Mississippi": {
+      "label": "Lincoln County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 25
+        },
+        {
+          "label": "Asian",
+          "value": 184
+        },
+        {
+          "label": "Black or African American",
+          "value": 10523
+        },
+        {
+          "label": "Hispanic",
+          "value": 443
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 286
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23355
+        }
+      ]
+    },
+    "Lowndes County, Mississippi": {
+      "label": "Lowndes County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 136
+        },
+        {
+          "label": "Asian",
+          "value": 597
+        },
+        {
+          "label": "Black or African American",
+          "value": 25478
+        },
+        {
+          "label": "Hispanic",
+          "value": 1305
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1317
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28955
+        }
+      ]
+    },
+    "Madison County, Mississippi": {
+      "label": "Madison County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 56
+        },
+        {
+          "label": "Asian",
+          "value": 3060
+        },
+        {
+          "label": "Black or African American",
+          "value": 41181
+        },
+        {
+          "label": "Hispanic",
+          "value": 4131
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 42
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1548
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 59963
+        }
+      ]
+    },
+    "Marion County, Mississippi": {
+      "label": "Marion County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 65
+        },
+        {
+          "label": "Asian",
+          "value": 23
+        },
+        {
+          "label": "Black or African American",
+          "value": 7740
+        },
+        {
+          "label": "Hispanic",
+          "value": 431
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 458
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15417
+        }
+      ]
+    },
+    "Marshall County, Mississippi": {
+      "label": "Marshall County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 56
+        },
+        {
+          "label": "Asian",
+          "value": 53
+        },
+        {
+          "label": "Black or African American",
+          "value": 14783
+        },
+        {
+          "label": "Hispanic",
+          "value": 1632
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 17
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1217
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15911
+        }
+      ]
+    },
+    "Monroe County, Mississippi": {
+      "label": "Monroe County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 89
+        },
+        {
+          "label": "Black or African American",
+          "value": 10242
+        },
+        {
+          "label": "Hispanic",
+          "value": 512
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 13
+        },
+        {
+          "label": "Two or More Races",
+          "value": 483
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22552
+        }
+      ]
+    },
+    "Montgomery County, Mississippi": {
+      "label": "Montgomery County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 4389
+        },
+        {
+          "label": "Hispanic",
+          "value": 27
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 218
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5071
+        }
+      ]
+    },
+    "Neshoba County, Mississippi": {
+      "label": "Neshoba County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4605
+        },
+        {
+          "label": "Asian",
+          "value": 174
+        },
+        {
+          "label": "Black or African American",
+          "value": 6201
+        },
+        {
+          "label": "Hispanic",
+          "value": 255
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 778
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16676
+        }
+      ]
+    },
+    "Newton County, Mississippi": {
+      "label": "Newton County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 515
+        },
+        {
+          "label": "Asian",
+          "value": 92
+        },
+        {
+          "label": "Black or African American",
+          "value": 6707
+        },
+        {
+          "label": "Hispanic",
+          "value": 385
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 357
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12446
+        }
+      ]
+    },
+    "Noxubee County, Mississippi": {
+      "label": "Noxubee County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 27
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 7485
+        },
+        {
+          "label": "Hispanic",
+          "value": 19
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 25
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2568
+        }
+      ]
+    },
+    "Oktibbeha County, Mississippi": {
+      "label": "Oktibbeha County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 86
+        },
+        {
+          "label": "Asian",
+          "value": 1478
+        },
+        {
+          "label": "Black or African American",
+          "value": 18571
+        },
+        {
+          "label": "Hispanic",
+          "value": 1220
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 17
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1626
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28414
+        }
+      ]
+    },
+    "Panola County, Mississippi": {
+      "label": "Panola County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 21
+        },
+        {
+          "label": "Asian",
+          "value": 117
+        },
+        {
+          "label": "Black or African American",
+          "value": 15826
+        },
+        {
+          "label": "Hispanic",
+          "value": 673
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 116
+        },
+        {
+          "label": "Two or More Races",
+          "value": 801
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15401
+        }
+      ]
+    },
+    "Pearl River County, Mississippi": {
+      "label": "Pearl River County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 55
+        },
+        {
+          "label": "Asian",
+          "value": 223
+        },
+        {
+          "label": "Black or African American",
+          "value": 7003
+        },
+        {
+          "label": "Hispanic",
+          "value": 2331
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1795
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 44998
+        }
+      ]
+    },
+    "Perry County, Mississippi": {
+      "label": "Perry County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 265
+        },
+        {
+          "label": "Black or African American",
+          "value": 1813
+        },
+        {
+          "label": "Hispanic",
+          "value": 200
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 18
+        },
+        {
+          "label": "Two or More Races",
+          "value": 294
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8865
+        }
+      ]
+    },
+    "Pike County, Mississippi": {
+      "label": "Pike County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 164
+        },
+        {
+          "label": "Asian",
+          "value": 223
+        },
+        {
+          "label": "Black or African American",
+          "value": 21584
+        },
+        {
+          "label": "Hispanic",
+          "value": 653
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 632
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16653
+        }
+      ]
+    },
+    "Pontotoc County, Mississippi": {
+      "label": "Pontotoc County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 4616
+        },
+        {
+          "label": "Hispanic",
+          "value": 2148
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1002
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23419
+        }
+      ]
+    },
+    "Prentiss County, Mississippi": {
+      "label": "Prentiss County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 605
+        },
+        {
+          "label": "Black or African American",
+          "value": 2855
+        },
+        {
+          "label": "Hispanic",
+          "value": 377
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 907
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19966
+        }
+      ]
+    },
+    "Quitman County, Mississippi": {
+      "label": "Quitman County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 4248
+        },
+        {
+          "label": "Hispanic",
+          "value": 26
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 139
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1469
+        }
+      ]
+    },
+    "Rankin County, Mississippi": {
+      "label": "Rankin County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 174
+        },
+        {
+          "label": "Asian",
+          "value": 1794
+        },
+        {
+          "label": "Black or African American",
+          "value": 34203
+        },
+        {
+          "label": "Hispanic",
+          "value": 5072
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 181
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2985
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 113207
+        }
+      ]
+    },
+    "Scott County, Mississippi": {
+      "label": "Scott County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 45
+        },
+        {
+          "label": "Black or African American",
+          "value": 9291
+        },
+        {
+          "label": "Hispanic",
+          "value": 4118
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 103
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1090
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12978
+        }
+      ]
+    },
+    "Sharkey County, Mississippi": {
+      "label": "Sharkey County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 2835
+        },
+        {
+          "label": "Hispanic",
+          "value": 20
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 984
+        }
+      ]
+    },
+    "Simpson County, Mississippi": {
+      "label": "Simpson County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 42
+        },
+        {
+          "label": "Asian",
+          "value": 120
+        },
+        {
+          "label": "Black or African American",
+          "value": 9156
+        },
+        {
+          "label": "Hispanic",
+          "value": 436
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 294
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15769
+        }
+      ]
+    },
+    "Smith County, Mississippi": {
+      "label": "Smith County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 25
+        },
+        {
+          "label": "Black or African American",
+          "value": 3421
+        },
+        {
+          "label": "Hispanic",
+          "value": 94
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 215
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10406
+        }
+      ]
+    },
+    "Stone County, Mississippi": {
+      "label": "Stone County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 75
+        },
+        {
+          "label": "Black or African American",
+          "value": 3248
+        },
+        {
+          "label": "Hispanic",
+          "value": 456
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 682
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14008
+        }
+      ]
+    },
+    "Sunflower County, Mississippi": {
+      "label": "Sunflower County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 50
+        },
+        {
+          "label": "Asian",
+          "value": 42
+        },
+        {
+          "label": "Black or African American",
+          "value": 18489
+        },
+        {
+          "label": "Hispanic",
+          "value": 646
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 182
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5890
+        }
+      ]
+    },
+    "Tallahatchie County, Mississippi": {
+      "label": "Tallahatchie County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 35
+        },
+        {
+          "label": "Asian",
+          "value": 5
+        },
+        {
+          "label": "Black or African American",
+          "value": 7667
+        },
+        {
+          "label": "Hispanic",
+          "value": 64
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 140
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4452
+        }
+      ]
+    },
+    "Tate County, Mississippi": {
+      "label": "Tate County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 20
+        },
+        {
+          "label": "Black or African American",
+          "value": 8413
+        },
+        {
+          "label": "Hispanic",
+          "value": 866
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 671
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18039
+        }
+      ]
+    },
+    "Tippah County, Mississippi": {
+      "label": "Tippah County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 37
+        },
+        {
+          "label": "Black or African American",
+          "value": 3183
+        },
+        {
+          "label": "Hispanic",
+          "value": 1096
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 14
+        },
+        {
+          "label": "Two or More Races",
+          "value": 791
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16421
+        }
+      ]
+    },
+    "Tishomingo County, Mississippi": {
+      "label": "Tishomingo County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 113
+        },
+        {
+          "label": "Asian",
+          "value": 56
+        },
+        {
+          "label": "Black or African American",
+          "value": 211
+        },
+        {
+          "label": "Hispanic",
+          "value": 578
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 644
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17046
+        }
+      ]
+    },
+    "Tunica County, Mississippi": {
+      "label": "Tunica County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 7602
+        },
+        {
+          "label": "Hispanic",
+          "value": 230
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1746
+        }
+      ]
+    },
+    "Union County, Mississippi": {
+      "label": "Union County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 32
+        },
+        {
+          "label": "Asian",
+          "value": 30
+        },
+        {
+          "label": "Black or African American",
+          "value": 4520
+        },
+        {
+          "label": "Hispanic",
+          "value": 1342
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 392
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21493
+        }
+      ]
+    },
+    "Walthall County, Mississippi": {
+      "label": "Walthall County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 32
+        },
+        {
+          "label": "Asian",
+          "value": 33
+        },
+        {
+          "label": "Black or African American",
+          "value": 5662
+        },
+        {
+          "label": "Hispanic",
+          "value": 248
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 535
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7354
+        }
+      ]
+    },
+    "Warren County, Mississippi": {
+      "label": "Warren County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 299
+        },
+        {
+          "label": "Black or African American",
+          "value": 21306
+        },
+        {
+          "label": "Hispanic",
+          "value": 898
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 718
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20281
+        }
+      ]
+    },
+    "Washington County, Mississippi": {
+      "label": "Washington County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 32
+        },
+        {
+          "label": "Asian",
+          "value": 350
+        },
+        {
+          "label": "Black or African American",
+          "value": 31460
+        },
+        {
+          "label": "Hispanic",
+          "value": 655
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 594
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10520
+        }
+      ]
+    },
+    "Wayne County, Mississippi": {
+      "label": "Wayne County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 20
+        },
+        {
+          "label": "Black or African American",
+          "value": 7318
+        },
+        {
+          "label": "Hispanic",
+          "value": 747
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 314
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11168
+        }
+      ]
+    },
+    "Webster County, Mississippi": {
+      "label": "Webster County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 52
+        },
+        {
+          "label": "Black or African American",
+          "value": 1845
+        },
+        {
+          "label": "Hispanic",
+          "value": 178
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 88
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7759
+        }
+      ]
+    },
+    "Wilkinson County, Mississippi": {
+      "label": "Wilkinson County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 5628
+        },
+        {
+          "label": "Hispanic",
+          "value": 75
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 182
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2327
+        }
+      ]
+    },
+    "Winston County, Mississippi": {
+      "label": "Winston County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 199
+        },
+        {
+          "label": "Asian",
+          "value": 12
+        },
+        {
+          "label": "Black or African American",
+          "value": 8319
+        },
+        {
+          "label": "Hispanic",
+          "value": 91
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 271
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8717
+        }
+      ]
+    },
+    "Yalobusha County, Mississippi": {
+      "label": "Yalobusha County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 55
+        },
+        {
+          "label": "Asian",
+          "value": 18
+        },
+        {
+          "label": "Black or African American",
+          "value": 4556
+        },
+        {
+          "label": "Hispanic",
+          "value": 202
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 435
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7173
+        }
+      ]
+    },
+    "Yazoo County, Mississippi": {
+      "label": "Yazoo County, Mississippi",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 65
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 15472
+        },
+        {
+          "label": "Hispanic",
+          "value": 1436
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 472
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9379
+        }
+      ]
+    }
+  }
+}

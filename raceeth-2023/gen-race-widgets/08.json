@@ -1,0 +1,2150 @@
+{
+  "state": "Adams County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 22372
+        },
+        {
+          "label": "Asian",
+          "value": 183336
+        },
+        {
+          "label": "Black or African American",
+          "value": 220577
+        },
+        {
+          "label": "Hispanic",
+          "value": 1291078
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7682
+        },
+        {
+          "label": "Two or More Races",
+          "value": 244702
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3814910
+        }
+      ]
+    },
+    "Adams County, Colorado": {
+      "label": "Adams County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1678
+        },
+        {
+          "label": "Asian",
+          "value": 20450
+        },
+        {
+          "label": "Black or African American",
+          "value": 17207
+        },
+        {
+          "label": "Hispanic",
+          "value": 221633
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 798
+        },
+        {
+          "label": "Two or More Races",
+          "value": 17337
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 242505
+        }
+      ]
+    },
+    "Alamosa County, Colorado": {
+      "label": "Alamosa County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 176
+        },
+        {
+          "label": "Asian",
+          "value": 69
+        },
+        {
+          "label": "Black or African American",
+          "value": 280
+        },
+        {
+          "label": "Hispanic",
+          "value": 7900
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 25
+        },
+        {
+          "label": "Two or More Races",
+          "value": 430
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7564
+        }
+      ]
+    },
+    "Arapahoe County, Colorado": {
+      "label": "Arapahoe County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1712
+        },
+        {
+          "label": "Asian",
+          "value": 38929
+        },
+        {
+          "label": "Black or African American",
+          "value": 68630
+        },
+        {
+          "label": "Hispanic",
+          "value": 138906
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1646
+        },
+        {
+          "label": "Two or More Races",
+          "value": 32861
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 369965
+        }
+      ]
+    },
+    "Archuleta County, Colorado": {
+      "label": "Archuleta County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 94
+        },
+        {
+          "label": "Asian",
+          "value": 48
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 2255
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 39
+        },
+        {
+          "label": "Two or More Races",
+          "value": 567
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10611
+        }
+      ]
+    },
+    "Baca County, Colorado": {
+      "label": "Baca County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 87
+        },
+        {
+          "label": "Black or African American",
+          "value": 11
+        },
+        {
+          "label": "Hispanic",
+          "value": 370
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 83
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2891
+        }
+      ]
+    },
+    "Bent County, Colorado": {
+      "label": "Bent County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 77
+        },
+        {
+          "label": "Asian",
+          "value": 44
+        },
+        {
+          "label": "Black or African American",
+          "value": 192
+        },
+        {
+          "label": "Hispanic",
+          "value": 1780
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 405
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3021
+        }
+      ]
+    },
+    "Boulder County, Colorado": {
+      "label": "Boulder County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 531
+        },
+        {
+          "label": "Asian",
+          "value": 15205
+        },
+        {
+          "label": "Black or African American",
+          "value": 2462
+        },
+        {
+          "label": "Hispanic",
+          "value": 47948
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 203
+        },
+        {
+          "label": "Two or More Races",
+          "value": 13685
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 247322
+        }
+      ]
+    },
+    "Broomfield County, Colorado": {
+      "label": "Broomfield County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 113
+        },
+        {
+          "label": "Asian",
+          "value": 5051
+        },
+        {
+          "label": "Black or African American",
+          "value": 830
+        },
+        {
+          "label": "Hispanic",
+          "value": 10381
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3490
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 54984
+        }
+      ]
+    },
+    "Chaffee County, Colorado": {
+      "label": "Chaffee County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 62
+        },
+        {
+          "label": "Asian",
+          "value": 147
+        },
+        {
+          "label": "Black or African American",
+          "value": 191
+        },
+        {
+          "label": "Hispanic",
+          "value": 1933
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 47
+        },
+        {
+          "label": "Two or More Races",
+          "value": 686
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16802
+        }
+      ]
+    },
+    "Cheyenne County, Colorado": {
+      "label": "Cheyenne County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 5
+        },
+        {
+          "label": "Black or African American",
+          "value": 19
+        },
+        {
+          "label": "Hispanic",
+          "value": 219
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 114
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1366
+        }
+      ]
+    },
+    "Clear Creek County, Colorado": {
+      "label": "Clear Creek County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 60
+        },
+        {
+          "label": "Asian",
+          "value": 106
+        },
+        {
+          "label": "Black or African American",
+          "value": 104
+        },
+        {
+          "label": "Hispanic",
+          "value": 708
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 215
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8085
+        }
+      ]
+    },
+    "Conejos County, Colorado": {
+      "label": "Conejos County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 82
+        },
+        {
+          "label": "Asian",
+          "value": 23
+        },
+        {
+          "label": "Black or African American",
+          "value": 12
+        },
+        {
+          "label": "Hispanic",
+          "value": 3773
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 108
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3483
+        }
+      ]
+    },
+    "Costilla County, Colorado": {
+      "label": "Costilla County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 42
+        },
+        {
+          "label": "Black or African American",
+          "value": 78
+        },
+        {
+          "label": "Hispanic",
+          "value": 1985
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 144
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1317
+        }
+      ]
+    },
+    "Crowley County, Colorado": {
+      "label": "Crowley County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 225
+        },
+        {
+          "label": "Asian",
+          "value": 48
+        },
+        {
+          "label": "Black or African American",
+          "value": 342
+        },
+        {
+          "label": "Hispanic",
+          "value": 1644
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 20
+        },
+        {
+          "label": "Two or More Races",
+          "value": 245
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3210
+        }
+      ]
+    },
+    "Custer County, Colorado": {
+      "label": "Custer County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 57
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 92
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 87
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4723
+        }
+      ]
+    },
+    "Delta County, Colorado": {
+      "label": "Delta County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 109
+        },
+        {
+          "label": "Asian",
+          "value": 191
+        },
+        {
+          "label": "Black or African American",
+          "value": 245
+        },
+        {
+          "label": "Hispanic",
+          "value": 4460
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 776
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25243
+        }
+      ]
+    },
+    "Denver County, Colorado": {
+      "label": "Denver County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2015
+        },
+        {
+          "label": "Asian",
+          "value": 25209
+        },
+        {
+          "label": "Black or African American",
+          "value": 60519
+        },
+        {
+          "label": "Hispanic",
+          "value": 199425
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 949
+        },
+        {
+          "label": "Two or More Races",
+          "value": 32778
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 389451
+        }
+      ]
+    },
+    "Dolores County, Colorado": {
+      "label": "Dolores County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 108
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 296
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 104
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1870
+        }
+      ]
+    },
+    "Douglas County, Colorado": {
+      "label": "Douglas County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 625
+        },
+        {
+          "label": "Asian",
+          "value": 20365
+        },
+        {
+          "label": "Black or African American",
+          "value": 4789
+        },
+        {
+          "label": "Hispanic",
+          "value": 36431
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 212
+        },
+        {
+          "label": "Two or More Races",
+          "value": 15900
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 288358
+        }
+      ]
+    },
+    "Eagle County, Colorado": {
+      "label": "Eagle County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 42
+        },
+        {
+          "label": "Asian",
+          "value": 703
+        },
+        {
+          "label": "Black or African American",
+          "value": 524
+        },
+        {
+          "label": "Hispanic",
+          "value": 16729
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 51
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2277
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 34931
+        }
+      ]
+    },
+    "El Paso County, Colorado": {
+      "label": "El Paso County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1732
+        },
+        {
+          "label": "Asian",
+          "value": 20290
+        },
+        {
+          "label": "Black or African American",
+          "value": 40725
+        },
+        {
+          "label": "Hispanic",
+          "value": 134942
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1802
+        },
+        {
+          "label": "Two or More Races",
+          "value": 43877
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 488925
+        }
+      ]
+    },
+    "Elbert County, Colorado": {
+      "label": "Elbert County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 66
+        },
+        {
+          "label": "Asian",
+          "value": 238
+        },
+        {
+          "label": "Black or African American",
+          "value": 144
+        },
+        {
+          "label": "Hispanic",
+          "value": 2337
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 90
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1460
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22697
+        }
+      ]
+    },
+    "Fremont County, Colorado": {
+      "label": "Fremont County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 482
+        },
+        {
+          "label": "Asian",
+          "value": 399
+        },
+        {
+          "label": "Black or African American",
+          "value": 1754
+        },
+        {
+          "label": "Hispanic",
+          "value": 6399
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 37
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1303
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 38759
+        }
+      ]
+    },
+    "Garfield County, Colorado": {
+      "label": "Garfield County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 116
+        },
+        {
+          "label": "Asian",
+          "value": 506
+        },
+        {
+          "label": "Black or African American",
+          "value": 274
+        },
+        {
+          "label": "Hispanic",
+          "value": 19867
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 81
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2060
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 38810
+        }
+      ]
+    },
+    "Gilpin County, Colorado": {
+      "label": "Gilpin County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 32
+        },
+        {
+          "label": "Asian",
+          "value": 35
+        },
+        {
+          "label": "Black or African American",
+          "value": 65
+        },
+        {
+          "label": "Hispanic",
+          "value": 413
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 324
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4999
+        }
+      ]
+    },
+    "Grand County, Colorado": {
+      "label": "Grand County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 70
+        },
+        {
+          "label": "Asian",
+          "value": 42
+        },
+        {
+          "label": "Black or African American",
+          "value": 50
+        },
+        {
+          "label": "Hispanic",
+          "value": 1573
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1568
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12439
+        }
+      ]
+    },
+    "Gunnison County, Colorado": {
+      "label": "Gunnison County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 25
+        },
+        {
+          "label": "Asian",
+          "value": 103
+        },
+        {
+          "label": "Black or African American",
+          "value": 80
+        },
+        {
+          "label": "Hispanic",
+          "value": 1691
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 18
+        },
+        {
+          "label": "Two or More Races",
+          "value": 605
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14525
+        }
+      ]
+    },
+    "Hinsdale County, Colorado": {
+      "label": "Hinsdale County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 26
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 19
+        },
+        {
+          "label": "Hispanic",
+          "value": 29
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 59
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 806
+        }
+      ]
+    },
+    "Huerfano County, Colorado": {
+      "label": "Huerfano County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 114
+        },
+        {
+          "label": "Asian",
+          "value": 19
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 2141
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 229
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4434
+        }
+      ]
+    },
+    "Jackson County, Colorado": {
+      "label": "Jackson County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 15
+        },
+        {
+          "label": "Hispanic",
+          "value": 189
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 16
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1199
+        }
+      ]
+    },
+    "Jefferson County, Colorado": {
+      "label": "Jefferson County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1714
+        },
+        {
+          "label": "Asian",
+          "value": 16108
+        },
+        {
+          "label": "Black or African American",
+          "value": 6110
+        },
+        {
+          "label": "Hispanic",
+          "value": 92162
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 356
+        },
+        {
+          "label": "Two or More Races",
+          "value": 21281
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 440240
+        }
+      ]
+    },
+    "Kiowa County, Colorado": {
+      "label": "Kiowa County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 133
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 21
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1196
+        }
+      ]
+    },
+    "Kit Carson County, Colorado": {
+      "label": "Kit Carson County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 23
+        },
+        {
+          "label": "Black or African American",
+          "value": 4
+        },
+        {
+          "label": "Hispanic",
+          "value": 1383
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 253
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5305
+        }
+      ]
+    },
+    "La Plata County, Colorado": {
+      "label": "La Plata County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3021
+        },
+        {
+          "label": "Asian",
+          "value": 442
+        },
+        {
+          "label": "Black or African American",
+          "value": 88
+        },
+        {
+          "label": "Hispanic",
+          "value": 7149
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1837
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 42940
+        }
+      ]
+    },
+    "Lake County, Colorado": {
+      "label": "Lake County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 49
+        },
+        {
+          "label": "Asian",
+          "value": 17
+        },
+        {
+          "label": "Black or African American",
+          "value": 7
+        },
+        {
+          "label": "Hispanic",
+          "value": 2606
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 428
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4248
+        }
+      ]
+    },
+    "Larimer County, Colorado": {
+      "label": "Larimer County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1013
+        },
+        {
+          "label": "Asian",
+          "value": 7519
+        },
+        {
+          "label": "Black or African American",
+          "value": 3301
+        },
+        {
+          "label": "Hispanic",
+          "value": 46167
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 306
+        },
+        {
+          "label": "Two or More Races",
+          "value": 12764
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 290514
+        }
+      ]
+    },
+    "Las Animas County, Colorado": {
+      "label": "Las Animas County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 125
+        },
+        {
+          "label": "Asian",
+          "value": 184
+        },
+        {
+          "label": "Black or African American",
+          "value": 235
+        },
+        {
+          "label": "Hispanic",
+          "value": 5614
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 358
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7833
+        }
+      ]
+    },
+    "Lincoln County, Colorado": {
+      "label": "Lincoln County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 50
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 315
+        },
+        {
+          "label": "Hispanic",
+          "value": 827
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 183
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4183
+        }
+      ]
+    },
+    "Logan County, Colorado": {
+      "label": "Logan County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 114
+        },
+        {
+          "label": "Asian",
+          "value": 112
+        },
+        {
+          "label": "Black or African American",
+          "value": 334
+        },
+        {
+          "label": "Hispanic",
+          "value": 3530
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 317
+        },
+        {
+          "label": "Two or More Races",
+          "value": 537
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16070
+        }
+      ]
+    },
+    "Mesa County, Colorado": {
+      "label": "Mesa County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 662
+        },
+        {
+          "label": "Asian",
+          "value": 1452
+        },
+        {
+          "label": "Black or African American",
+          "value": 889
+        },
+        {
+          "label": "Hispanic",
+          "value": 23957
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 78
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5141
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 124328
+        }
+      ]
+    },
+    "Mineral County, Colorado": {
+      "label": "Mineral County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 7
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 19
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 53
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 719
+        }
+      ]
+    },
+    "Moffat County, Colorado": {
+      "label": "Moffat County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 85
+        },
+        {
+          "label": "Asian",
+          "value": 40
+        },
+        {
+          "label": "Black or African American",
+          "value": 17
+        },
+        {
+          "label": "Hispanic",
+          "value": 2178
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 35
+        },
+        {
+          "label": "Two or More Races",
+          "value": 588
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10188
+        }
+      ]
+    },
+    "Montezuma County, Colorado": {
+      "label": "Montezuma County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2262
+        },
+        {
+          "label": "Asian",
+          "value": 240
+        },
+        {
+          "label": "Black or African American",
+          "value": 321
+        },
+        {
+          "label": "Hispanic",
+          "value": 3243
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1316
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18687
+        }
+      ]
+    },
+    "Montrose County, Colorado": {
+      "label": "Montrose County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 277
+        },
+        {
+          "label": "Asian",
+          "value": 232
+        },
+        {
+          "label": "Black or African American",
+          "value": 129
+        },
+        {
+          "label": "Hispanic",
+          "value": 9195
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1291
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32028
+        }
+      ]
+    },
+    "Morgan County, Colorado": {
+      "label": "Morgan County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 43
+        },
+        {
+          "label": "Asian",
+          "value": 177
+        },
+        {
+          "label": "Black or African American",
+          "value": 890
+        },
+        {
+          "label": "Hispanic",
+          "value": 10918
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 19
+        },
+        {
+          "label": "Two or More Races",
+          "value": 725
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16373
+        }
+      ]
+    },
+    "Otero County, Colorado": {
+      "label": "Otero County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 74
+        },
+        {
+          "label": "Asian",
+          "value": 134
+        },
+        {
+          "label": "Black or African American",
+          "value": 181
+        },
+        {
+          "label": "Hispanic",
+          "value": 7698
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 497
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9627
+        }
+      ]
+    },
+    "Ouray County, Colorado": {
+      "label": "Ouray County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 20
+        },
+        {
+          "label": "Black or African American",
+          "value": 40
+        },
+        {
+          "label": "Hispanic",
+          "value": 238
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 227
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4489
+        }
+      ]
+    },
+    "Park County, Colorado": {
+      "label": "Park County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 66
+        },
+        {
+          "label": "Asian",
+          "value": 193
+        },
+        {
+          "label": "Black or African American",
+          "value": 142
+        },
+        {
+          "label": "Hispanic",
+          "value": 1315
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 593
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15393
+        }
+      ]
+    },
+    "Phillips County, Colorado": {
+      "label": "Phillips County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 6
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 1214
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 44
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3207
+        }
+      ]
+    },
+    "Pitkin County, Colorado": {
+      "label": "Pitkin County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 54
+        },
+        {
+          "label": "Asian",
+          "value": 401
+        },
+        {
+          "label": "Black or African American",
+          "value": 63
+        },
+        {
+          "label": "Hispanic",
+          "value": 1904
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 879
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13778
+        }
+      ]
+    },
+    "Prowers County, Colorado": {
+      "label": "Prowers County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 62
+        },
+        {
+          "label": "Black or African American",
+          "value": 84
+        },
+        {
+          "label": "Hispanic",
+          "value": 4750
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 329
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6679
+        }
+      ]
+    },
+    "Pueblo County, Colorado": {
+      "label": "Pueblo County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 957
+        },
+        {
+          "label": "Asian",
+          "value": 1250
+        },
+        {
+          "label": "Black or African American",
+          "value": 3040
+        },
+        {
+          "label": "Hispanic",
+          "value": 70812
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 97
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4767
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 87111
+        }
+      ]
+    },
+    "Rio Blanco County, Colorado": {
+      "label": "Rio Blanco County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 53
+        },
+        {
+          "label": "Asian",
+          "value": 23
+        },
+        {
+          "label": "Black or African American",
+          "value": 6
+        },
+        {
+          "label": "Hispanic",
+          "value": 685
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 381
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5370
+        }
+      ]
+    },
+    "Rio Grande County, Colorado": {
+      "label": "Rio Grande County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 159
+        },
+        {
+          "label": "Asian",
+          "value": 11
+        },
+        {
+          "label": "Black or African American",
+          "value": 46
+        },
+        {
+          "label": "Hispanic",
+          "value": 4630
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 243
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6284
+        }
+      ]
+    },
+    "Routt County, Colorado": {
+      "label": "Routt County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 93
+        },
+        {
+          "label": "Asian",
+          "value": 211
+        },
+        {
+          "label": "Black or African American",
+          "value": 36
+        },
+        {
+          "label": "Hispanic",
+          "value": 2180
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 35
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1925
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20351
+        }
+      ]
+    },
+    "Saguache County, Colorado": {
+      "label": "Saguache County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 53
+        },
+        {
+          "label": "Black or African American",
+          "value": 48
+        },
+        {
+          "label": "Hispanic",
+          "value": 2404
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 331
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3652
+        }
+      ]
+    },
+    "San Juan County, Colorado": {
+      "label": "San Juan County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 112
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 26
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 544
+        }
+      ]
+    },
+    "San Miguel County, Colorado": {
+      "label": "San Miguel County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 54
+        },
+        {
+          "label": "Asian",
+          "value": 19
+        },
+        {
+          "label": "Black or African American",
+          "value": 56
+        },
+        {
+          "label": "Hispanic",
+          "value": 906
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 187
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6790
+        }
+      ]
+    },
+    "Sedgwick County, Colorado": {
+      "label": "Sedgwick County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 37
+        },
+        {
+          "label": "Black or African American",
+          "value": 21
+        },
+        {
+          "label": "Hispanic",
+          "value": 437
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 64
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1769
+        }
+      ]
+    },
+    "Summit County, Colorado": {
+      "label": "Summit County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 92
+        },
+        {
+          "label": "Asian",
+          "value": 461
+        },
+        {
+          "label": "Black or African American",
+          "value": 115
+        },
+        {
+          "label": "Hispanic",
+          "value": 5218
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 158
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1648
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23120
+        }
+      ]
+    },
+    "Teller County, Colorado": {
+      "label": "Teller County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 102
+        },
+        {
+          "label": "Black or African American",
+          "value": 236
+        },
+        {
+          "label": "Hispanic",
+          "value": 1831
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1533
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20922
+        }
+      ]
+    },
+    "Washington County, Colorado": {
+      "label": "Washington County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 19
+        },
+        {
+          "label": "Black or African American",
+          "value": 54
+        },
+        {
+          "label": "Hispanic",
+          "value": 548
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 104
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4101
+        }
+      ]
+    },
+    "Weld County, Colorado": {
+      "label": "Weld County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 766
+        },
+        {
+          "label": "Asian",
+          "value": 5370
+        },
+        {
+          "label": "Black or African American",
+          "value": 4194
+        },
+        {
+          "label": "Hispanic",
+          "value": 103804
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 215
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10207
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 214808
+        }
+      ]
+    },
+    "Yuma County, Colorado": {
+      "label": "Yuma County, Colorado",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 84
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 12
+        },
+        {
+          "label": "Hispanic",
+          "value": 2862
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 148
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6768
+        }
+      ]
+    }
+  }
+}

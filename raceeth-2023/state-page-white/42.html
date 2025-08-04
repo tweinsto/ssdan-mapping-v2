@@ -1,52 +1,71 @@
-<h2 style='margin-bottom: 1.5rem; margin-left: .5rem; margin-top: 1rem;'>White Population (%) in Pennsylvania</h2>
-<div style='margin-top: 1rem'></div>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>White in State 42</title>
-  
-    
-    
-    <style>
-      body {
-        margin: 0;
-        font-family: sans-serif;
-      }
-      .container {
-        display: flex;
-        width: 100%;
-        max-height: 600px;
-      }
-      .map, .chart {
-        flex: 1;
-      }
-      .chart-wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-      }
-      .chart-wrapper iframe {
-        width: 80%;
-        height: 65%;
-        border: none;
-      }
-      .map iframe {
-        width: 100%;
-        height: 600px;
-        border: none;
-      }
-    </style>
+  <title>White Composition in Pennsylvania</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: sans-serif;
+      background: #f9f9f9;
+    }
+    .header {
+      padding: 1rem;
+      text-align: center;
+      background-color: #ffffff;
+      border-bottom: 1px solid #ccc;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+      color: #333;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      height: calc(100% - 80px); /* header height offset */
+      width: 100%;
+    }
+    .map, .chart {
+      flex: 1;
+      height: 100%;
+      border: 1px solid black;
+  box-sizing: border-box;
+  background-color: white;
+    }
+    .chart-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    .chart-wrapper iframe {
+      width: 80%;
+      height: 90%;
+      border: none;
+    }
+    .map iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
 </head>
-<body><div class="container">
-  <div class="map">
-    <iframe src="../state-maps-white/42.html"></iframe>
+<body>
+  <div class="header">
+    <h1>White Composition in Pennsylvania</h1>
   </div>
-  <div class="chart">
-    <div class="chart-wrapper">
-      <iframe src="../white-educ-charts/42.html"></iframe>
+  <div class="container">
+    <div class="map">
+      <iframe src="../state-maps-white/42.html"></iframe>
+    </div>
+    <div class="chart">
+      <div class="chart-wrapper">
+        <iframe src="../gen-race-widgets/42.html"></iframe>
+      </div>
     </div>
   </div>
-</div></body>
+</body>
 </html>

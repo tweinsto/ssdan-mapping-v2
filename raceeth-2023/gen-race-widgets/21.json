@@ -1,0 +1,3998 @@
+{
+  "state": "Adair County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3527
+        },
+        {
+          "label": "Asian",
+          "value": 67774
+        },
+        {
+          "label": "Black or African American",
+          "value": 350442
+        },
+        {
+          "label": "Hispanic",
+          "value": 212163
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3337
+        },
+        {
+          "label": "Two or More Races",
+          "value": 148773
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3712826
+        }
+      ]
+    },
+    "Adair County, Kentucky": {
+      "label": "Adair County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 53
+        },
+        {
+          "label": "Black or African American",
+          "value": 342
+        },
+        {
+          "label": "Hispanic",
+          "value": 626
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 53
+        },
+        {
+          "label": "Two or More Races",
+          "value": 677
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17258
+        }
+      ]
+    },
+    "Allen County, Kentucky": {
+      "label": "Allen County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 96
+        },
+        {
+          "label": "Hispanic",
+          "value": 584
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 600
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19672
+        }
+      ]
+    },
+    "Anderson County, Kentucky": {
+      "label": "Anderson County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 31
+        },
+        {
+          "label": "Black or African American",
+          "value": 679
+        },
+        {
+          "label": "Hispanic",
+          "value": 578
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 542
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22214
+        }
+      ]
+    },
+    "Ballard County, Kentucky": {
+      "label": "Ballard County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 16
+        },
+        {
+          "label": "Black or African American",
+          "value": 279
+        },
+        {
+          "label": "Hispanic",
+          "value": 110
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 245
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7028
+        }
+      ]
+    },
+    "Barren County, Kentucky": {
+      "label": "Barren County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 348
+        },
+        {
+          "label": "Black or African American",
+          "value": 1630
+        },
+        {
+          "label": "Hispanic",
+          "value": 1904
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1267
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 39349
+        }
+      ]
+    },
+    "Bath County, Kentucky": {
+      "label": "Bath County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 6
+        },
+        {
+          "label": "Black or African American",
+          "value": 225
+        },
+        {
+          "label": "Hispanic",
+          "value": 227
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 193
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12148
+        }
+      ]
+    },
+    "Bell County, Kentucky": {
+      "label": "Bell County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 21
+        },
+        {
+          "label": "Asian",
+          "value": 33
+        },
+        {
+          "label": "Black or African American",
+          "value": 533
+        },
+        {
+          "label": "Hispanic",
+          "value": 177
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 781
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22255
+        }
+      ]
+    },
+    "Boone County, Kentucky": {
+      "label": "Boone County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 58
+        },
+        {
+          "label": "Asian",
+          "value": 3246
+        },
+        {
+          "label": "Black or African American",
+          "value": 5240
+        },
+        {
+          "label": "Hispanic",
+          "value": 7827
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 315
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4989
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 115033
+        }
+      ]
+    },
+    "Bourbon County, Kentucky": {
+      "label": "Bourbon County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 35
+        },
+        {
+          "label": "Black or African American",
+          "value": 950
+        },
+        {
+          "label": "Hispanic",
+          "value": 1523
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 697
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16947
+        }
+      ]
+    },
+    "Boyd County, Kentucky": {
+      "label": "Boyd County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 37
+        },
+        {
+          "label": "Asian",
+          "value": 159
+        },
+        {
+          "label": "Black or African American",
+          "value": 996
+        },
+        {
+          "label": "Hispanic",
+          "value": 816
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 13
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1575
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 44397
+        }
+      ]
+    },
+    "Boyle County, Kentucky": {
+      "label": "Boyle County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 251
+        },
+        {
+          "label": "Black or African American",
+          "value": 2260
+        },
+        {
+          "label": "Hispanic",
+          "value": 1438
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1064
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25485
+        }
+      ]
+    },
+    "Bracken County, Kentucky": {
+      "label": "Bracken County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 91
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 102
+        },
+        {
+          "label": "Hispanic",
+          "value": 78
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 185
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7971
+        }
+      ]
+    },
+    "Breathitt County, Kentucky": {
+      "label": "Breathitt County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 102
+        },
+        {
+          "label": "Black or African American",
+          "value": 73
+        },
+        {
+          "label": "Hispanic",
+          "value": 155
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 156
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12933
+        }
+      ]
+    },
+    "Breckinridge County, Kentucky": {
+      "label": "Breckinridge County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 332
+        },
+        {
+          "label": "Hispanic",
+          "value": 327
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 654
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19305
+        }
+      ]
+    },
+    "Bullitt County, Kentucky": {
+      "label": "Bullitt County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 21
+        },
+        {
+          "label": "Asian",
+          "value": 556
+        },
+        {
+          "label": "Black or African American",
+          "value": 954
+        },
+        {
+          "label": "Hispanic",
+          "value": 2401
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2615
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 76290
+        }
+      ]
+    },
+    "Butler County, Kentucky": {
+      "label": "Butler County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 29
+        },
+        {
+          "label": "Black or African American",
+          "value": 27
+        },
+        {
+          "label": "Hispanic",
+          "value": 616
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 250
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11436
+        }
+      ]
+    },
+    "Caldwell County, Kentucky": {
+      "label": "Caldwell County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 627
+        },
+        {
+          "label": "Hispanic",
+          "value": 299
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 296
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11375
+        }
+      ]
+    },
+    "Calloway County, Kentucky": {
+      "label": "Calloway County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 88
+        },
+        {
+          "label": "Asian",
+          "value": 593
+        },
+        {
+          "label": "Black or African American",
+          "value": 1380
+        },
+        {
+          "label": "Hispanic",
+          "value": 1314
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 151
+        },
+        {
+          "label": "Two or More Races",
+          "value": 974
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33220
+        }
+      ]
+    },
+    "Campbell County, Kentucky": {
+      "label": "Campbell County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 892
+        },
+        {
+          "label": "Black or African American",
+          "value": 2596
+        },
+        {
+          "label": "Hispanic",
+          "value": 2362
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 14
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2534
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 84518
+        }
+      ]
+    },
+    "Carlisle County, Kentucky": {
+      "label": "Carlisle County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 15
+        },
+        {
+          "label": "Black or African American",
+          "value": 67
+        },
+        {
+          "label": "Hispanic",
+          "value": 133
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 194
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4333
+        }
+      ]
+    },
+    "Carroll County, Kentucky": {
+      "label": "Carroll County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 255
+        },
+        {
+          "label": "Hispanic",
+          "value": 796
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 380
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9444
+        }
+      ]
+    },
+    "Carter County, Kentucky": {
+      "label": "Carter County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 42
+        },
+        {
+          "label": "Black or African American",
+          "value": 85
+        },
+        {
+          "label": "Hispanic",
+          "value": 289
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 811
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25254
+        }
+      ]
+    },
+    "Casey County, Kentucky": {
+      "label": "Casey County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 8
+        },
+        {
+          "label": "Black or African American",
+          "value": 84
+        },
+        {
+          "label": "Hispanic",
+          "value": 532
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 329
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14960
+        }
+      ]
+    },
+    "Christian County, Kentucky": {
+      "label": "Christian County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 72
+        },
+        {
+          "label": "Asian",
+          "value": 904
+        },
+        {
+          "label": "Black or African American",
+          "value": 13823
+        },
+        {
+          "label": "Hispanic",
+          "value": 6120
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 266
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4476
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 46719
+        }
+      ]
+    },
+    "Clark County, Kentucky": {
+      "label": "Clark County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 27
+        },
+        {
+          "label": "Asian",
+          "value": 298
+        },
+        {
+          "label": "Black or African American",
+          "value": 1575
+        },
+        {
+          "label": "Hispanic",
+          "value": 1493
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 871
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32678
+        }
+      ]
+    },
+    "Clay County, Kentucky": {
+      "label": "Clay County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 919
+        },
+        {
+          "label": "Hispanic",
+          "value": 244
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 547
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18374
+        }
+      ]
+    },
+    "Clinton County, Kentucky": {
+      "label": "Clinton County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 37
+        },
+        {
+          "label": "Asian",
+          "value": 19
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 280
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 209
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8670
+        }
+      ]
+    },
+    "Crittenden County, Kentucky": {
+      "label": "Crittenden County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 23
+        },
+        {
+          "label": "Black or African American",
+          "value": 46
+        },
+        {
+          "label": "Hispanic",
+          "value": 216
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 172
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8461
+        }
+      ]
+    },
+    "Cumberland County, Kentucky": {
+      "label": "Cumberland County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 42
+        },
+        {
+          "label": "Asian",
+          "value": 38
+        },
+        {
+          "label": "Black or African American",
+          "value": 98
+        },
+        {
+          "label": "Hispanic",
+          "value": 107
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 144
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5519
+        }
+      ]
+    },
+    "Daviess County, Kentucky": {
+      "label": "Daviess County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 184
+        },
+        {
+          "label": "Asian",
+          "value": 2244
+        },
+        {
+          "label": "Black or African American",
+          "value": 4401
+        },
+        {
+          "label": "Hispanic",
+          "value": 4175
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 34
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3253
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 88226
+        }
+      ]
+    },
+    "Edmonson County, Kentucky": {
+      "label": "Edmonson County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 56
+        },
+        {
+          "label": "Black or African American",
+          "value": 82
+        },
+        {
+          "label": "Hispanic",
+          "value": 195
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 253
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11620
+        }
+      ]
+    },
+    "Elliott County, Kentucky": {
+      "label": "Elliott County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 35
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 216
+        },
+        {
+          "label": "Hispanic",
+          "value": 148
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 118
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6819
+        }
+      ]
+    },
+    "Estill County, Kentucky": {
+      "label": "Estill County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 136
+        },
+        {
+          "label": "Black or African American",
+          "value": 16
+        },
+        {
+          "label": "Hispanic",
+          "value": 131
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 238
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13554
+        }
+      ]
+    },
+    "Fayette County, Kentucky": {
+      "label": "Fayette County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 159
+        },
+        {
+          "label": "Asian",
+          "value": 13297
+        },
+        {
+          "label": "Black or African American",
+          "value": 45939
+        },
+        {
+          "label": "Hispanic",
+          "value": 29571
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 25
+        },
+        {
+          "label": "Two or More Races",
+          "value": 13657
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 217678
+        }
+      ]
+    },
+    "Fleming County, Kentucky": {
+      "label": "Fleming County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 89
+        },
+        {
+          "label": "Black or African American",
+          "value": 166
+        },
+        {
+          "label": "Hispanic",
+          "value": 238
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 329
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14361
+        }
+      ]
+    },
+    "Floyd County, Kentucky": {
+      "label": "Floyd County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 126
+        },
+        {
+          "label": "Black or African American",
+          "value": 190
+        },
+        {
+          "label": "Hispanic",
+          "value": 330
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 15
+        },
+        {
+          "label": "Two or More Races",
+          "value": 607
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 34027
+        }
+      ]
+    },
+    "Franklin County, Kentucky": {
+      "label": "Franklin County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 26
+        },
+        {
+          "label": "Asian",
+          "value": 966
+        },
+        {
+          "label": "Black or African American",
+          "value": 4757
+        },
+        {
+          "label": "Hispanic",
+          "value": 2109
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 116
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1835
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 41700
+        }
+      ]
+    },
+    "Fulton County, Kentucky": {
+      "label": "Fulton County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 25
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 1567
+        },
+        {
+          "label": "Hispanic",
+          "value": 86
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 54
+        },
+        {
+          "label": "Two or More Races",
+          "value": 244
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4464
+        }
+      ]
+    },
+    "Gallatin County, Kentucky": {
+      "label": "Gallatin County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 39
+        },
+        {
+          "label": "Black or African American",
+          "value": 238
+        },
+        {
+          "label": "Hispanic",
+          "value": 472
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 199
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7774
+        }
+      ]
+    },
+    "Garrard County, Kentucky": {
+      "label": "Garrard County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 384
+        },
+        {
+          "label": "Hispanic",
+          "value": 468
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 358
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15977
+        }
+      ]
+    },
+    "Grant County, Kentucky": {
+      "label": "Grant County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 58
+        },
+        {
+          "label": "Black or African American",
+          "value": 208
+        },
+        {
+          "label": "Hispanic",
+          "value": 799
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 799
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23341
+        }
+      ]
+    },
+    "Graves County, Kentucky": {
+      "label": "Graves County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 158
+        },
+        {
+          "label": "Black or African American",
+          "value": 1493
+        },
+        {
+          "label": "Hispanic",
+          "value": 2838
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1077
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30933
+        }
+      ]
+    },
+    "Grayson County, Kentucky": {
+      "label": "Grayson County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 96
+        },
+        {
+          "label": "Black or African American",
+          "value": 264
+        },
+        {
+          "label": "Hispanic",
+          "value": 409
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 530
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25216
+        }
+      ]
+    },
+    "Green County, Kentucky": {
+      "label": "Green County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 136
+        },
+        {
+          "label": "Hispanic",
+          "value": 260
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 281
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10589
+        }
+      ]
+    },
+    "Greenup County, Kentucky": {
+      "label": "Greenup County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 26
+        },
+        {
+          "label": "Asian",
+          "value": 214
+        },
+        {
+          "label": "Black or African American",
+          "value": 196
+        },
+        {
+          "label": "Hispanic",
+          "value": 386
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 871
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33926
+        }
+      ]
+    },
+    "Hancock County, Kentucky": {
+      "label": "Hancock County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 100
+        },
+        {
+          "label": "Hispanic",
+          "value": 63
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 272
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8511
+        }
+      ]
+    },
+    "Hardin County, Kentucky": {
+      "label": "Hardin County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 202
+        },
+        {
+          "label": "Asian",
+          "value": 2114
+        },
+        {
+          "label": "Black or African American",
+          "value": 12206
+        },
+        {
+          "label": "Hispanic",
+          "value": 7007
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 349
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5846
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 83392
+        }
+      ]
+    },
+    "Harlan County, Kentucky": {
+      "label": "Harlan County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 63
+        },
+        {
+          "label": "Black or African American",
+          "value": 387
+        },
+        {
+          "label": "Hispanic",
+          "value": 40
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 926
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24675
+        }
+      ]
+    },
+    "Harrison County, Kentucky": {
+      "label": "Harrison County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 354
+        },
+        {
+          "label": "Hispanic",
+          "value": 420
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 422
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17747
+        }
+      ]
+    },
+    "Hart County, Kentucky": {
+      "label": "Hart County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 107
+        },
+        {
+          "label": "Black or African American",
+          "value": 897
+        },
+        {
+          "label": "Hispanic",
+          "value": 384
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 375
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17625
+        }
+      ]
+    },
+    "Henderson County, Kentucky": {
+      "label": "Henderson County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 148
+        },
+        {
+          "label": "Asian",
+          "value": 104
+        },
+        {
+          "label": "Black or African American",
+          "value": 3032
+        },
+        {
+          "label": "Hispanic",
+          "value": 1436
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 83
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2124
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 37548
+        }
+      ]
+    },
+    "Henry County, Kentucky": {
+      "label": "Henry County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 83
+        },
+        {
+          "label": "Black or African American",
+          "value": 425
+        },
+        {
+          "label": "Hispanic",
+          "value": 606
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 416
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14214
+        }
+      ]
+    },
+    "Hickman County, Kentucky": {
+      "label": "Hickman County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 412
+        },
+        {
+          "label": "Hispanic",
+          "value": 108
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 104
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3839
+        }
+      ]
+    },
+    "Hopkins County, Kentucky": {
+      "label": "Hopkins County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 53
+        },
+        {
+          "label": "Asian",
+          "value": 225
+        },
+        {
+          "label": "Black or African American",
+          "value": 2736
+        },
+        {
+          "label": "Hispanic",
+          "value": 1140
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1537
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 39423
+        }
+      ]
+    },
+    "Jackson County, Kentucky": {
+      "label": "Jackson County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 14
+        },
+        {
+          "label": "Black or African American",
+          "value": 24
+        },
+        {
+          "label": "Hispanic",
+          "value": 125
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 266
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12546
+        }
+      ]
+    },
+    "Jefferson County, Kentucky": {
+      "label": "Jefferson County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 338
+        },
+        {
+          "label": "Asian",
+          "value": 22503
+        },
+        {
+          "label": "Black or African American",
+          "value": 168473
+        },
+        {
+          "label": "Hispanic",
+          "value": 60873
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 304
+        },
+        {
+          "label": "Two or More Races",
+          "value": 29829
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 492366
+        }
+      ]
+    },
+    "Jessamine County, Kentucky": {
+      "label": "Jessamine County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 21
+        },
+        {
+          "label": "Asian",
+          "value": 875
+        },
+        {
+          "label": "Black or African American",
+          "value": 2088
+        },
+        {
+          "label": "Hispanic",
+          "value": 2467
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 16
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1669
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 46434
+        }
+      ]
+    },
+    "Johnson County, Kentucky": {
+      "label": "Johnson County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 26
+        },
+        {
+          "label": "Asian",
+          "value": 251
+        },
+        {
+          "label": "Black or African American",
+          "value": 126
+        },
+        {
+          "label": "Hispanic",
+          "value": 120
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 517
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21416
+        }
+      ]
+    },
+    "Kenton County, Kentucky": {
+      "label": "Kenton County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 94
+        },
+        {
+          "label": "Asian",
+          "value": 2015
+        },
+        {
+          "label": "Black or African American",
+          "value": 7106
+        },
+        {
+          "label": "Hispanic",
+          "value": 7758
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 29
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6320
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 146110
+        }
+      ]
+    },
+    "Knott County, Kentucky": {
+      "label": "Knott County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 24
+        },
+        {
+          "label": "Asian",
+          "value": 35
+        },
+        {
+          "label": "Black or African American",
+          "value": 134
+        },
+        {
+          "label": "Hispanic",
+          "value": 120
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 164
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13562
+        }
+      ]
+    },
+    "Knox County, Kentucky": {
+      "label": "Knox County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 30
+        },
+        {
+          "label": "Black or African American",
+          "value": 252
+        },
+        {
+          "label": "Hispanic",
+          "value": 365
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 21
+        },
+        {
+          "label": "Two or More Races",
+          "value": 803
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28563
+        }
+      ]
+    },
+    "Larue County, Kentucky": {
+      "label": "Larue County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 300
+        },
+        {
+          "label": "Hispanic",
+          "value": 495
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 522
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13606
+        }
+      ]
+    },
+    "Laurel County, Kentucky": {
+      "label": "Laurel County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 190
+        },
+        {
+          "label": "Black or African American",
+          "value": 297
+        },
+        {
+          "label": "Hispanic",
+          "value": 1039
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 130
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1334
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 59665
+        }
+      ]
+    },
+    "Lawrence County, Kentucky": {
+      "label": "Lawrence County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 190
+        },
+        {
+          "label": "Black or African American",
+          "value": 8
+        },
+        {
+          "label": "Hispanic",
+          "value": 105
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 218
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15649
+        }
+      ]
+    },
+    "Lee County, Kentucky": {
+      "label": "Lee County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 158
+        },
+        {
+          "label": "Hispanic",
+          "value": 72
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 220
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6917
+        }
+      ]
+    },
+    "Leslie County, Kentucky": {
+      "label": "Leslie County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 35
+        },
+        {
+          "label": "Black or African American",
+          "value": 54
+        },
+        {
+          "label": "Hispanic",
+          "value": 51
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 191
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9930
+        }
+      ]
+    },
+    "Letcher County, Kentucky": {
+      "label": "Letcher County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 45
+        },
+        {
+          "label": "Black or African American",
+          "value": 157
+        },
+        {
+          "label": "Hispanic",
+          "value": 159
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 259
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20459
+        }
+      ]
+    },
+    "Lewis County, Kentucky": {
+      "label": "Lewis County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 19
+        },
+        {
+          "label": "Black or African American",
+          "value": 4
+        },
+        {
+          "label": "Hispanic",
+          "value": 11
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 32
+        },
+        {
+          "label": "Two or More Races",
+          "value": 293
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12641
+        }
+      ]
+    },
+    "Lincoln County, Kentucky": {
+      "label": "Lincoln County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 73
+        },
+        {
+          "label": "Black or African American",
+          "value": 409
+        },
+        {
+          "label": "Hispanic",
+          "value": 498
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 585
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22608
+        }
+      ]
+    },
+    "Livingston County, Kentucky": {
+      "label": "Livingston County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 2
+        },
+        {
+          "label": "Black or African American",
+          "value": 10
+        },
+        {
+          "label": "Hispanic",
+          "value": 218
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 272
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8439
+        }
+      ]
+    },
+    "Logan County, Kentucky": {
+      "label": "Logan County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 60
+        },
+        {
+          "label": "Asian",
+          "value": 113
+        },
+        {
+          "label": "Black or African American",
+          "value": 1274
+        },
+        {
+          "label": "Hispanic",
+          "value": 937
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 950
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24322
+        }
+      ]
+    },
+    "Lyon County, Kentucky": {
+      "label": "Lyon County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 86
+        },
+        {
+          "label": "Black or African American",
+          "value": 609
+        },
+        {
+          "label": "Hispanic",
+          "value": 94
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 238
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7750
+        }
+      ]
+    },
+    "Madison County, Kentucky": {
+      "label": "Madison County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 92
+        },
+        {
+          "label": "Asian",
+          "value": 820
+        },
+        {
+          "label": "Black or African American",
+          "value": 3308
+        },
+        {
+          "label": "Hispanic",
+          "value": 3180
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 230
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3406
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 82786
+        }
+      ]
+    },
+    "Magoffin County, Kentucky": {
+      "label": "Magoffin County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 22
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 6
+        },
+        {
+          "label": "Hispanic",
+          "value": 150
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 84
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11220
+        }
+      ]
+    },
+    "Marion County, Kentucky": {
+      "label": "Marion County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 123
+        },
+        {
+          "label": "Black or African American",
+          "value": 1415
+        },
+        {
+          "label": "Hispanic",
+          "value": 696
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 370
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17052
+        }
+      ]
+    },
+    "Marshall County, Kentucky": {
+      "label": "Marshall County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 79
+        },
+        {
+          "label": "Asian",
+          "value": 119
+        },
+        {
+          "label": "Black or African American",
+          "value": 209
+        },
+        {
+          "label": "Hispanic",
+          "value": 600
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 393
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30324
+        }
+      ]
+    },
+    "Martin County, Kentucky": {
+      "label": "Martin County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 53
+        },
+        {
+          "label": "Asian",
+          "value": 8
+        },
+        {
+          "label": "Black or African American",
+          "value": 817
+        },
+        {
+          "label": "Hispanic",
+          "value": 213
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 13
+        },
+        {
+          "label": "Two or More Races",
+          "value": 395
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9682
+        }
+      ]
+    },
+    "Mason County, Kentucky": {
+      "label": "Mason County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 98
+        },
+        {
+          "label": "Black or African American",
+          "value": 1052
+        },
+        {
+          "label": "Hispanic",
+          "value": 384
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 598
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14854
+        }
+      ]
+    },
+    "McCracken County, Kentucky": {
+      "label": "McCracken County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 82
+        },
+        {
+          "label": "Asian",
+          "value": 632
+        },
+        {
+          "label": "Black or African American",
+          "value": 6730
+        },
+        {
+          "label": "Hispanic",
+          "value": 2210
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2572
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 55068
+        }
+      ]
+    },
+    "McCreary County, Kentucky": {
+      "label": "McCreary County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 1121
+        },
+        {
+          "label": "Hispanic",
+          "value": 296
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 406
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15042
+        }
+      ]
+    },
+    "McLean County, Kentucky": {
+      "label": "McLean County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 22
+        },
+        {
+          "label": "Asian",
+          "value": 17
+        },
+        {
+          "label": "Black or African American",
+          "value": 69
+        },
+        {
+          "label": "Hispanic",
+          "value": 186
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 191
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8640
+        }
+      ]
+    },
+    "Meade County, Kentucky": {
+      "label": "Meade County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 198
+        },
+        {
+          "label": "Black or African American",
+          "value": 1013
+        },
+        {
+          "label": "Hispanic",
+          "value": 1213
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 103
+        },
+        {
+          "label": "Two or More Races",
+          "value": 900
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26550
+        }
+      ]
+    },
+    "Menifee County, Kentucky": {
+      "label": "Menifee County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 15
+        },
+        {
+          "label": "Hispanic",
+          "value": 154
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 89
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5945
+        }
+      ]
+    },
+    "Mercer County, Kentucky": {
+      "label": "Mercer County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 60
+        },
+        {
+          "label": "Black or African American",
+          "value": 813
+        },
+        {
+          "label": "Hispanic",
+          "value": 730
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 574
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20606
+        }
+      ]
+    },
+    "Metcalfe County, Kentucky": {
+      "label": "Metcalfe County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 229
+        },
+        {
+          "label": "Hispanic",
+          "value": 233
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 135
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9761
+        }
+      ]
+    },
+    "Monroe County, Kentucky": {
+      "label": "Monroe County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 21
+        },
+        {
+          "label": "Black or African American",
+          "value": 292
+        },
+        {
+          "label": "Hispanic",
+          "value": 500
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 134
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10364
+        }
+      ]
+    },
+    "Montgomery County, Kentucky": {
+      "label": "Montgomery County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 129
+        },
+        {
+          "label": "Black or African American",
+          "value": 749
+        },
+        {
+          "label": "Hispanic",
+          "value": 942
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 304
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26033
+        }
+      ]
+    },
+    "Morgan County, Kentucky": {
+      "label": "Morgan County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 102
+        },
+        {
+          "label": "Black or African American",
+          "value": 570
+        },
+        {
+          "label": "Hispanic",
+          "value": 440
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 295
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12528
+        }
+      ]
+    },
+    "Muhlenberg County, Kentucky": {
+      "label": "Muhlenberg County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 47
+        },
+        {
+          "label": "Asian",
+          "value": 299
+        },
+        {
+          "label": "Black or African American",
+          "value": 645
+        },
+        {
+          "label": "Hispanic",
+          "value": 595
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 808
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28310
+        }
+      ]
+    },
+    "Nelson County, Kentucky": {
+      "label": "Nelson County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 22
+        },
+        {
+          "label": "Asian",
+          "value": 228
+        },
+        {
+          "label": "Black or African American",
+          "value": 2400
+        },
+        {
+          "label": "Hispanic",
+          "value": 1278
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 987
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 42165
+        }
+      ]
+    },
+    "Nicholas County, Kentucky": {
+      "label": "Nicholas County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 76
+        },
+        {
+          "label": "Hispanic",
+          "value": 78
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 177
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7324
+        }
+      ]
+    },
+    "Ohio County, Kentucky": {
+      "label": "Ohio County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 41
+        },
+        {
+          "label": "Black or African American",
+          "value": 256
+        },
+        {
+          "label": "Hispanic",
+          "value": 1007
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 395
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21932
+        }
+      ]
+    },
+    "Oldham County, Kentucky": {
+      "label": "Oldham County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 1078
+        },
+        {
+          "label": "Black or African American",
+          "value": 2494
+        },
+        {
+          "label": "Hispanic",
+          "value": 3301
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2090
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 59194
+        }
+      ]
+    },
+    "Owen County, Kentucky": {
+      "label": "Owen County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 41
+        },
+        {
+          "label": "Hispanic",
+          "value": 278
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 307
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10603
+        }
+      ]
+    },
+    "Owsley County, Kentucky": {
+      "label": "Owsley County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 0
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 205
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3751
+        }
+      ]
+    },
+    "Pendleton County, Kentucky": {
+      "label": "Pendleton County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 56
+        },
+        {
+          "label": "Black or African American",
+          "value": 86
+        },
+        {
+          "label": "Hispanic",
+          "value": 230
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 685
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13575
+        }
+      ]
+    },
+    "Perry County, Kentucky": {
+      "label": "Perry County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 92
+        },
+        {
+          "label": "Asian",
+          "value": 222
+        },
+        {
+          "label": "Black or African American",
+          "value": 276
+        },
+        {
+          "label": "Hispanic",
+          "value": 90
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 58
+        },
+        {
+          "label": "Two or More Races",
+          "value": 876
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26231
+        }
+      ]
+    },
+    "Pike County, Kentucky": {
+      "label": "Pike County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 291
+        },
+        {
+          "label": "Black or African American",
+          "value": 348
+        },
+        {
+          "label": "Hispanic",
+          "value": 701
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 61
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1640
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 54397
+        }
+      ]
+    },
+    "Powell County, Kentucky": {
+      "label": "Powell County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 224
+        },
+        {
+          "label": "Hispanic",
+          "value": 179
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 334
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12250
+        }
+      ]
+    },
+    "Pulaski County, Kentucky": {
+      "label": "Pulaski County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 69
+        },
+        {
+          "label": "Asian",
+          "value": 556
+        },
+        {
+          "label": "Black or African American",
+          "value": 574
+        },
+        {
+          "label": "Hispanic",
+          "value": 1948
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1547
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 60709
+        }
+      ]
+    },
+    "Robertson County, Kentucky": {
+      "label": "Robertson County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 46
+        },
+        {
+          "label": "Hispanic",
+          "value": 15
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 55
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2114
+        }
+      ]
+    },
+    "Rockcastle County, Kentucky": {
+      "label": "Rockcastle County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 50
+        },
+        {
+          "label": "Black or African American",
+          "value": 101
+        },
+        {
+          "label": "Hispanic",
+          "value": 190
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 296
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15474
+        }
+      ]
+    },
+    "Rowan County, Kentucky": {
+      "label": "Rowan County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 219
+        },
+        {
+          "label": "Black or African American",
+          "value": 451
+        },
+        {
+          "label": "Hispanic",
+          "value": 543
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 290
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23008
+        }
+      ]
+    },
+    "Russell County, Kentucky": {
+      "label": "Russell County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 2
+        },
+        {
+          "label": "Black or African American",
+          "value": 175
+        },
+        {
+          "label": "Hispanic",
+          "value": 791
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 447
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16679
+        }
+      ]
+    },
+    "Scott County, Kentucky": {
+      "label": "Scott County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 543
+        },
+        {
+          "label": "Black or African American",
+          "value": 2763
+        },
+        {
+          "label": "Hispanic",
+          "value": 3192
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2248
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 49332
+        }
+      ]
+    },
+    "Shelby County, Kentucky": {
+      "label": "Shelby County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 50
+        },
+        {
+          "label": "Asian",
+          "value": 530
+        },
+        {
+          "label": "Black or African American",
+          "value": 2211
+        },
+        {
+          "label": "Hispanic",
+          "value": 5239
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2437
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 37952
+        }
+      ]
+    },
+    "Simpson County, Kentucky": {
+      "label": "Simpson County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 33
+        },
+        {
+          "label": "Black or African American",
+          "value": 1360
+        },
+        {
+          "label": "Hispanic",
+          "value": 679
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1028
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16659
+        }
+      ]
+    },
+    "Spencer County, Kentucky": {
+      "label": "Spencer County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 88
+        },
+        {
+          "label": "Black or African American",
+          "value": 181
+        },
+        {
+          "label": "Hispanic",
+          "value": 510
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 501
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18515
+        }
+      ]
+    },
+    "Taylor County, Kentucky": {
+      "label": "Taylor County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 243
+        },
+        {
+          "label": "Black or African American",
+          "value": 1205
+        },
+        {
+          "label": "Hispanic",
+          "value": 753
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 704
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23284
+        }
+      ]
+    },
+    "Todd County, Kentucky": {
+      "label": "Todd County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 880
+        },
+        {
+          "label": "Hispanic",
+          "value": 624
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 328
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10445
+        }
+      ]
+    },
+    "Trigg County, Kentucky": {
+      "label": "Trigg County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 41
+        },
+        {
+          "label": "Black or African American",
+          "value": 913
+        },
+        {
+          "label": "Hispanic",
+          "value": 366
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 556
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12280
+        }
+      ]
+    },
+    "Trimble County, Kentucky": {
+      "label": "Trimble County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 12
+        },
+        {
+          "label": "Black or African American",
+          "value": 70
+        },
+        {
+          "label": "Hispanic",
+          "value": 234
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 238
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7896
+        }
+      ]
+    },
+    "Union County, Kentucky": {
+      "label": "Union County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 43
+        },
+        {
+          "label": "Black or African American",
+          "value": 1078
+        },
+        {
+          "label": "Hispanic",
+          "value": 220
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 242
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11793
+        }
+      ]
+    },
+    "Warren County, Kentucky": {
+      "label": "Warren County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 101
+        },
+        {
+          "label": "Asian",
+          "value": 6243
+        },
+        {
+          "label": "Black or African American",
+          "value": 11732
+        },
+        {
+          "label": "Hispanic",
+          "value": 9543
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 687
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5894
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 103151
+        }
+      ]
+    },
+    "Washington County, Kentucky": {
+      "label": "Washington County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 47
+        },
+        {
+          "label": "Black or African American",
+          "value": 629
+        },
+        {
+          "label": "Hispanic",
+          "value": 55
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 737
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10614
+        }
+      ]
+    },
+    "Wayne County, Kentucky": {
+      "label": "Wayne County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 90
+        },
+        {
+          "label": "Asian",
+          "value": 6
+        },
+        {
+          "label": "Black or African American",
+          "value": 266
+        },
+        {
+          "label": "Hispanic",
+          "value": 861
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 346
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18023
+        }
+      ]
+    },
+    "Webster County, Kentucky": {
+      "label": "Webster County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 5
+        },
+        {
+          "label": "Black or African American",
+          "value": 549
+        },
+        {
+          "label": "Hispanic",
+          "value": 841
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 27
+        },
+        {
+          "label": "Two or More Races",
+          "value": 215
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11230
+        }
+      ]
+    },
+    "Whitley County, Kentucky": {
+      "label": "Whitley County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 30
+        },
+        {
+          "label": "Asian",
+          "value": 66
+        },
+        {
+          "label": "Black or African American",
+          "value": 390
+        },
+        {
+          "label": "Hispanic",
+          "value": 712
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 643
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 34857
+        }
+      ]
+    },
+    "Wolfe County, Kentucky": {
+      "label": "Wolfe County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 14
+        },
+        {
+          "label": "Hispanic",
+          "value": 102
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 102
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6231
+        }
+      ]
+    },
+    "Woodford County, Kentucky": {
+      "label": "Woodford County, Kentucky",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 103
+        },
+        {
+          "label": "Black or African American",
+          "value": 1042
+        },
+        {
+          "label": "Hispanic",
+          "value": 1983
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 821
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22985
+        }
+      ]
+    }
+  }
+}

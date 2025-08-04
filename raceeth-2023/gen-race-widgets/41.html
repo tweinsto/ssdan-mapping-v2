@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 41</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Baker County, Oregon">Baker County, Oregon</option>
+<option value="Benton County, Oregon">Benton County, Oregon</option>
+<option value="Clackamas County, Oregon">Clackamas County, Oregon</option>
+<option value="Clatsop County, Oregon">Clatsop County, Oregon</option>
+<option value="Columbia County, Oregon">Columbia County, Oregon</option>
+<option value="Coos County, Oregon">Coos County, Oregon</option>
+<option value="Crook County, Oregon">Crook County, Oregon</option>
+<option value="Curry County, Oregon">Curry County, Oregon</option>
+<option value="Deschutes County, Oregon">Deschutes County, Oregon</option>
+<option value="Douglas County, Oregon">Douglas County, Oregon</option>
+<option value="Gilliam County, Oregon">Gilliam County, Oregon</option>
+<option value="Grant County, Oregon">Grant County, Oregon</option>
+<option value="Harney County, Oregon">Harney County, Oregon</option>
+<option value="Hood River County, Oregon">Hood River County, Oregon</option>
+<option value="Jackson County, Oregon">Jackson County, Oregon</option>
+<option value="Jefferson County, Oregon">Jefferson County, Oregon</option>
+<option value="Josephine County, Oregon">Josephine County, Oregon</option>
+<option value="Klamath County, Oregon">Klamath County, Oregon</option>
+<option value="Lake County, Oregon">Lake County, Oregon</option>
+<option value="Lane County, Oregon">Lane County, Oregon</option>
+<option value="Lincoln County, Oregon">Lincoln County, Oregon</option>
+<option value="Linn County, Oregon">Linn County, Oregon</option>
+<option value="Malheur County, Oregon">Malheur County, Oregon</option>
+<option value="Marion County, Oregon">Marion County, Oregon</option>
+<option value="Morrow County, Oregon">Morrow County, Oregon</option>
+<option value="Multnomah County, Oregon">Multnomah County, Oregon</option>
+<option value="Polk County, Oregon">Polk County, Oregon</option>
+<option value="Sherman County, Oregon">Sherman County, Oregon</option>
+<option value="Tillamook County, Oregon">Tillamook County, Oregon</option>
+<option value="Umatilla County, Oregon">Umatilla County, Oregon</option>
+<option value="Union County, Oregon">Union County, Oregon</option>
+<option value="Wallowa County, Oregon">Wallowa County, Oregon</option>
+<option value="Wasco County, Oregon">Wasco County, Oregon</option>
+<option value="Washington County, Oregon">Washington County, Oregon</option>
+<option value="Wheeler County, Oregon">Wheeler County, Oregon</option>
+<option value="Yamhill County, Oregon">Yamhill County, Oregon</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.67,"Asian":4.38,"Black or African American":1.84,"Hispanic":14.28,"Pacific Islander":0.38,"Two or More Races":5.64,"White (non-Hispanic)":72.32},"Baker County, Oregon":{"American Indian / Alaska Native":0.91,"Asian":0.17,"Black or African American":1.22,"Hispanic":5.01,"Pacific Islander":0.33,"Two or More Races":3.42,"White (non-Hispanic)":88.7},"Benton County, Oregon":{"American Indian / Alaska Native":0.44,"Asian":6.55,"Black or African American":1.21,"Hispanic":9.08,"Pacific Islander":0.18,"Two or More Races":4.91,"White (non-Hispanic)":77.15},"Clackamas County, Oregon":{"American Indian / Alaska Native":0.35,"Asian":4.92,"Black or African American":1.01,"Hispanic":9.78,"Pacific Islander":0.19,"Two or More Races":5.57,"White (non-Hispanic)":77.66},"Clatsop County, Oregon":{"American Indian / Alaska Native":0.3,"Asian":1.16,"Black or African American":0.94,"Hispanic":9.72,"Pacific Islander":0.09,"Two or More Races":6.44,"White (non-Hispanic)":81.22},"Columbia County, Oregon":{"American Indian / Alaska Native":0.85,"Asian":0.64,"Black or African American":0.57,"Hispanic":6.37,"Pacific Islander":0.39,"Two or More Races":5.9,"White (non-Hispanic)":84.98},"Coos County, Oregon":{"American Indian / Alaska Native":1.66,"Asian":1.14,"Black or African American":0.39,"Hispanic":7,"Pacific Islander":0.02,"Two or More Races":6.52,"White (non-Hispanic)":82.97},"Crook County, Oregon":{"American Indian / Alaska Native":1.04,"Asian":0.24,"Black or African American":0.25,"Hispanic":7.64,"Pacific Islander":0,"Two or More Races":3.9,"White (non-Hispanic)":86.82},"Curry County, Oregon":{"American Indian / Alaska Native":1.28,"Asian":0.71,"Black or African American":0.26,"Hispanic":7.54,"Pacific Islander":0.33,"Two or More Races":6.3,"White (non-Hispanic)":83.13},"Deschutes County, Oregon":{"American Indian / Alaska Native":0.41,"Asian":1.07,"Black or African American":0.34,"Hispanic":8.93,"Pacific Islander":0.13,"Two or More Races":4.41,"White (non-Hispanic)":84.26},"Douglas County, Oregon":{"American Indian / Alaska Native":0.78,"Asian":0.9,"Black or African American":0.34,"Hispanic":6.38,"Pacific Islander":0.13,"Two or More Races":5.73,"White (non-Hispanic)":85.05},"Gilliam County, Oregon":{"American Indian / Alaska Native":0.9,"Asian":0.4,"Black or African American":0,"Hispanic":8.69,"Pacific Islander":0,"Two or More Races":6.74,"White (non-Hispanic)":82.07},"Grant County, Oregon":{"American Indian / Alaska Native":0.54,"Asian":0.73,"Black or African American":0.11,"Hispanic":4.23,"Pacific Islander":0.21,"Two or More Races":5.61,"White (non-Hispanic)":88.01},"Harney County, Oregon":{"American Indian / Alaska Native":1.66,"Asian":0,"Black or African American":0.21,"Hispanic":5.48,"Pacific Islander":0.36,"Two or More Races":6.89,"White (non-Hispanic)":85.34},"Hood River County, Oregon":{"American Indian / Alaska Native":0.22,"Asian":1.06,"Black or African American":0.82,"Hispanic":30.3,"Pacific Islander":0.05,"Two or More Races":4.16,"White (non-Hispanic)":62.46},"Jackson County, Oregon":{"American Indian / Alaska Native":0.39,"Asian":1.1,"Black or African American":0.64,"Hispanic":14.21,"Pacific Islander":0.2,"Two or More Races":5.46,"White (non-Hispanic)":77.54},"Jefferson County, Oregon":{"American Indian / Alaska Native":11.14,"Asian":0.58,"Black or African American":0.7,"Hispanic":20.97,"Pacific Islander":0.07,"Two or More Races":8.43,"White (non-Hispanic)":57.26},"Josephine County, Oregon":{"American Indian / Alaska Native":0.44,"Asian":0.8,"Black or African American":0.5,"Hispanic":8.44,"Pacific Islander":0.14,"Two or More Races":5.14,"White (non-Hispanic)":83.78},"Klamath County, Oregon":{"American Indian / Alaska Native":2.72,"Asian":0.77,"Black or African American":0.66,"Hispanic":13.45,"Pacific Islander":0.23,"Two or More Races":6.37,"White (non-Hispanic)":75.39},"Lake County, Oregon":{"American Indian / Alaska Native":2.01,"Asian":0.33,"Black or African American":0.52,"Hispanic":10.33,"Pacific Islander":0,"Two or More Races":5.2,"White (non-Hispanic)":80.64},"Lane County, Oregon":{"American Indian / Alaska Native":0.66,"Asian":2.55,"Black or African American":1.06,"Hispanic":10.2,"Pacific Islander":0.21,"Two or More Races":6,"White (non-Hispanic)":78.92},"Lincoln County, Oregon":{"American Indian / Alaska Native":2.02,"Asian":1.25,"Black or African American":0.3,"Hispanic":9.95,"Pacific Islander":0.1,"Two or More Races":6.41,"White (non-Hispanic)":79.41},"Linn County, Oregon":{"American Indian / Alaska Native":0.39,"Asian":0.95,"Black or African American":0.33,"Hispanic":10.28,"Pacific Islander":0.16,"Two or More Races":5.37,"White (non-Hispanic)":82.25},"Malheur County, Oregon":{"American Indian / Alaska Native":0.62,"Asian":1.35,"Black or African American":0.96,"Hispanic":33.53,"Pacific Islander":0.19,"Two or More Races":2.33,"White (non-Hispanic)":60.85},"Marion County, Oregon":{"American Indian / Alaska Native":0.54,"Asian":2.06,"Black or African American":1.08,"Hispanic":28.32,"Pacific Islander":1.08,"Two or More Races":4.65,"White (non-Hispanic)":61.76},"Morrow County, Oregon":{"American Indian / Alaska Native":0.07,"Asian":0.11,"Black or African American":1,"Hispanic":41.23,"Pacific Islander":0.26,"Two or More Races":3.43,"White (non-Hispanic)":53.65},"Multnomah County, Oregon":{"American Indian / Alaska Native":0.46,"Asian":7.37,"Black or African American":5.35,"Hispanic":13.09,"Pacific Islander":0.59,"Two or More Races":6.43,"White (non-Hispanic)":66.19},"Polk County, Oregon":{"American Indian / Alaska Native":1.09,"Asian":1.77,"Black or African American":0.52,"Hispanic":15.2,"Pacific Islander":0.41,"Two or More Races":5.59,"White (non-Hispanic)":74.94},"Sherman County, Oregon":{"American Indian / Alaska Native":0.31,"Asian":0.31,"Black or African American":0.37,"Hispanic":4.82,"Pacific Islander":0.37,"Two or More Races":7.23,"White (non-Hispanic)":86.22},"Tillamook County, Oregon":{"American Indian / Alaska Native":0.61,"Asian":0.63,"Black or African American":0.59,"Hispanic":11.01,"Pacific Islander":0.07,"Two or More Races":4.65,"White (non-Hispanic)":82.08},"Umatilla County, Oregon":{"American Indian / Alaska Native":2.17,"Asian":0.58,"Black or African American":0.74,"Hispanic":28.95,"Pacific Islander":0.13,"Two or More Races":4.7,"White (non-Hispanic)":62},"Union County, Oregon":{"American Indian / Alaska Native":0.68,"Asian":1.31,"Black or African American":0.79,"Hispanic":5.35,"Pacific Islander":1.06,"Two or More Races":3.72,"White (non-Hispanic)":86.37},"Wallowa County, Oregon":{"American Indian / Alaska Native":0.19,"Asian":0.32,"Black or African American":1.22,"Hispanic":3.96,"Pacific Islander":0.03,"Two or More Races":3.66,"White (non-Hispanic)":89.63},"Wasco County, Oregon":{"American Indian / Alaska Native":1.79,"Asian":0.85,"Black or African American":0.42,"Hispanic":19.77,"Pacific Islander":0.51,"Two or More Races":4.25,"White (non-Hispanic)":72.26},"Washington County, Oregon":{"American Indian / Alaska Native":0.28,"Asian":11.06,"Black or African American":2.17,"Hispanic":18.19,"Pacific Islander":0.45,"Two or More Races":6.04,"White (non-Hispanic)":61.27},"Wheeler County, Oregon":{"American Indian / Alaska Native":0.07,"Asian":0.49,"Black or African American":0,"Hispanic":4.53,"Pacific Islander":0.14,"Two or More Races":8.93,"White (non-Hispanic)":84.73},"Yamhill County, Oregon":{"American Indian / Alaska Native":0.7,"Asian":1.79,"Black or African American":0.7,"Hispanic":17.1,"Pacific Islander":0.21,"Two or More Races":5.2,"White (non-Hispanic)":73.87}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

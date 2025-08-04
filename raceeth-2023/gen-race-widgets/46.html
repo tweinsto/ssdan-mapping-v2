@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 46</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Aurora County, South Dakota">Aurora County, South Dakota</option>
+<option value="Beadle County, South Dakota">Beadle County, South Dakota</option>
+<option value="Bennett County, South Dakota">Bennett County, South Dakota</option>
+<option value="Bon Homme County, South Dakota">Bon Homme County, South Dakota</option>
+<option value="Brookings County, South Dakota">Brookings County, South Dakota</option>
+<option value="Brown County, South Dakota">Brown County, South Dakota</option>
+<option value="Brule County, South Dakota">Brule County, South Dakota</option>
+<option value="Buffalo County, South Dakota">Buffalo County, South Dakota</option>
+<option value="Butte County, South Dakota">Butte County, South Dakota</option>
+<option value="Campbell County, South Dakota">Campbell County, South Dakota</option>
+<option value="Charles Mix County, South Dakota">Charles Mix County, South Dakota</option>
+<option value="Clark County, South Dakota">Clark County, South Dakota</option>
+<option value="Clay County, South Dakota">Clay County, South Dakota</option>
+<option value="Codington County, South Dakota">Codington County, South Dakota</option>
+<option value="Corson County, South Dakota">Corson County, South Dakota</option>
+<option value="Custer County, South Dakota">Custer County, South Dakota</option>
+<option value="Davison County, South Dakota">Davison County, South Dakota</option>
+<option value="Day County, South Dakota">Day County, South Dakota</option>
+<option value="Deuel County, South Dakota">Deuel County, South Dakota</option>
+<option value="Dewey County, South Dakota">Dewey County, South Dakota</option>
+<option value="Douglas County, South Dakota">Douglas County, South Dakota</option>
+<option value="Edmunds County, South Dakota">Edmunds County, South Dakota</option>
+<option value="Fall River County, South Dakota">Fall River County, South Dakota</option>
+<option value="Faulk County, South Dakota">Faulk County, South Dakota</option>
+<option value="Grant County, South Dakota">Grant County, South Dakota</option>
+<option value="Gregory County, South Dakota">Gregory County, South Dakota</option>
+<option value="Haakon County, South Dakota">Haakon County, South Dakota</option>
+<option value="Hamlin County, South Dakota">Hamlin County, South Dakota</option>
+<option value="Hand County, South Dakota">Hand County, South Dakota</option>
+<option value="Hanson County, South Dakota">Hanson County, South Dakota</option>
+<option value="Harding County, South Dakota">Harding County, South Dakota</option>
+<option value="Hughes County, South Dakota">Hughes County, South Dakota</option>
+<option value="Hutchinson County, South Dakota">Hutchinson County, South Dakota</option>
+<option value="Hyde County, South Dakota">Hyde County, South Dakota</option>
+<option value="Jackson County, South Dakota">Jackson County, South Dakota</option>
+<option value="Jerauld County, South Dakota">Jerauld County, South Dakota</option>
+<option value="Jones County, South Dakota">Jones County, South Dakota</option>
+<option value="Kingsbury County, South Dakota">Kingsbury County, South Dakota</option>
+<option value="Lake County, South Dakota">Lake County, South Dakota</option>
+<option value="Lawrence County, South Dakota">Lawrence County, South Dakota</option>
+<option value="Lincoln County, South Dakota">Lincoln County, South Dakota</option>
+<option value="Lyman County, South Dakota">Lyman County, South Dakota</option>
+<option value="Marshall County, South Dakota">Marshall County, South Dakota</option>
+<option value="McCook County, South Dakota">McCook County, South Dakota</option>
+<option value="McPherson County, South Dakota">McPherson County, South Dakota</option>
+<option value="Meade County, South Dakota">Meade County, South Dakota</option>
+<option value="Mellette County, South Dakota">Mellette County, South Dakota</option>
+<option value="Miner County, South Dakota">Miner County, South Dakota</option>
+<option value="Minnehaha County, South Dakota">Minnehaha County, South Dakota</option>
+<option value="Moody County, South Dakota">Moody County, South Dakota</option>
+<option value="Oglala Lakota County, South Dakota">Oglala Lakota County, South Dakota</option>
+<option value="Pennington County, South Dakota">Pennington County, South Dakota</option>
+<option value="Perkins County, South Dakota">Perkins County, South Dakota</option>
+<option value="Potter County, South Dakota">Potter County, South Dakota</option>
+<option value="Roberts County, South Dakota">Roberts County, South Dakota</option>
+<option value="Sanborn County, South Dakota">Sanborn County, South Dakota</option>
+<option value="Spink County, South Dakota">Spink County, South Dakota</option>
+<option value="Stanley County, South Dakota">Stanley County, South Dakota</option>
+<option value="Sully County, South Dakota">Sully County, South Dakota</option>
+<option value="Todd County, South Dakota">Todd County, South Dakota</option>
+<option value="Tripp County, South Dakota">Tripp County, South Dakota</option>
+<option value="Turner County, South Dakota">Turner County, South Dakota</option>
+<option value="Union County, South Dakota">Union County, South Dakota</option>
+<option value="Walworth County, South Dakota">Walworth County, South Dakota</option>
+<option value="Yankton County, South Dakota">Yankton County, South Dakota</option>
+<option value="Ziebach County, South Dakota">Ziebach County, South Dakota</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":7.38,"Asian":1.39,"Black or African American":2.16,"Hispanic":4.59,"Pacific Islander":0.07,"Two or More Races":3.85,"White (non-Hispanic)":80.26},"Aurora County, South Dakota":{"American Indian / Alaska Native":0.54,"Asian":0.51,"Black or African American":1.05,"Hispanic":6.37,"Pacific Islander":0,"Two or More Races":1.75,"White (non-Hispanic)":89.78},"Beadle County, South Dakota":{"American Indian / Alaska Native":1.02,"Asian":8.95,"Black or African American":1.07,"Hispanic":14.38,"Pacific Islander":1.26,"Two or More Races":4.11,"White (non-Hispanic)":68.87},"Bennett County, South Dakota":{"American Indian / Alaska Native":55.69,"Asian":1.61,"Black or African American":0.18,"Hispanic":4.65,"Pacific Islander":0,"Two or More Races":2.36,"White (non-Hispanic)":35.51},"Bon Homme County, South Dakota":{"American Indian / Alaska Native":6.49,"Asian":0.11,"Black or African American":1.88,"Hispanic":2.31,"Pacific Islander":0,"Two or More Races":2.46,"White (non-Hispanic)":86.49},"Brookings County, South Dakota":{"American Indian / Alaska Native":0.73,"Asian":3.4,"Black or African American":1.12,"Hispanic":4.3,"Pacific Islander":0,"Two or More Races":2.55,"White (non-Hispanic)":87.86},"Brown County, South Dakota":{"American Indian / Alaska Native":4.21,"Asian":3.02,"Black or African American":0.21,"Hispanic":4.43,"Pacific Islander":0.08,"Two or More Races":3.11,"White (non-Hispanic)":84.85},"Brule County, South Dakota":{"American Indian / Alaska Native":11.12,"Asian":0,"Black or African American":1.44,"Hispanic":1.54,"Pacific Islander":0,"Two or More Races":4.3,"White (non-Hispanic)":81.6},"Buffalo County, South Dakota":{"American Indian / Alaska Native":73.42,"Asian":0,"Black or African American":0,"Hispanic":3.3,"Pacific Islander":0,"Two or More Races":1.14,"White (non-Hispanic)":21.17},"Butte County, South Dakota":{"American Indian / Alaska Native":1.67,"Asian":0.41,"Black or African American":0,"Hispanic":4.19,"Pacific Islander":0.1,"Two or More Races":5.11,"White (non-Hispanic)":88.02},"Campbell County, South Dakota":{"American Indian / Alaska Native":0.41,"Asian":0.07,"Black or African American":0,"Hispanic":5.87,"Pacific Islander":0,"Two or More Races":1.96,"White (non-Hispanic)":91.69},"Charles Mix County, South Dakota":{"American Indian / Alaska Native":27.13,"Asian":0.52,"Black or African American":0.13,"Hispanic":2.69,"Pacific Islander":0.05,"Two or More Races":5.47,"White (non-Hispanic)":63.81},"Clark County, South Dakota":{"American Indian / Alaska Native":0.59,"Asian":0.72,"Black or African American":0.54,"Hispanic":4.59,"Pacific Islander":0,"Two or More Races":1.63,"White (non-Hispanic)":91.77},"Clay County, South Dakota":{"American Indian / Alaska Native":2.56,"Asian":3.02,"Black or African American":2.01,"Hispanic":3.22,"Pacific Islander":0.04,"Two or More Races":2.69,"White (non-Hispanic)":86.41},"Codington County, South Dakota":{"American Indian / Alaska Native":1.92,"Asian":0.58,"Black or African American":0.74,"Hispanic":2.99,"Pacific Islander":0,"Two or More Races":2.41,"White (non-Hispanic)":90.91},"Corson County, South Dakota":{"American Indian / Alaska Native":66.73,"Asian":0,"Black or African American":0.1,"Hispanic":0.36,"Pacific Islander":0,"Two or More Races":2.69,"White (non-Hispanic)":30.11},"Custer County, South Dakota":{"American Indian / Alaska Native":1.83,"Asian":0.36,"Black or African American":0.37,"Hispanic":2.89,"Pacific Islander":0,"Two or More Races":4.54,"White (non-Hispanic)":89.93},"Davison County, South Dakota":{"American Indian / Alaska Native":2.98,"Asian":0.52,"Black or African American":0.56,"Hispanic":4.72,"Pacific Islander":0,"Two or More Races":1.94,"White (non-Hispanic)":88.76},"Day County, South Dakota":{"American Indian / Alaska Native":9.52,"Asian":0.16,"Black or African American":0.05,"Hispanic":2.66,"Pacific Islander":0,"Two or More Races":3.68,"White (non-Hispanic)":83.86},"Deuel County, South Dakota":{"American Indian / Alaska Native":0.09,"Asian":0.16,"Black or African American":0.35,"Hispanic":3.22,"Pacific Islander":0,"Two or More Races":2.34,"White (non-Hispanic)":93.84},"Dewey County, South Dakota":{"American Indian / Alaska Native":74.53,"Asian":0.06,"Black or African American":0.4,"Hispanic":1.51,"Pacific Islander":0.59,"Two or More Races":2.72,"White (non-Hispanic)":20.19},"Douglas County, South Dakota":{"American Indian / Alaska Native":1.17,"Asian":0,"Black or African American":1.49,"Hispanic":2.41,"Pacific Islander":0,"Two or More Races":2.09,"White (non-Hispanic)":92.81},"Edmunds County, South Dakota":{"American Indian / Alaska Native":0.47,"Asian":0.22,"Black or African American":0.82,"Hispanic":2.03,"Pacific Islander":0,"Two or More Races":2.11,"White (non-Hispanic)":94.27},"Fall River County, South Dakota":{"American Indian / Alaska Native":7.15,"Asian":0.57,"Black or African American":0,"Hispanic":3.3,"Pacific Islander":0.78,"Two or More Races":3.79,"White (non-Hispanic)":84.4},"Faulk County, South Dakota":{"American Indian / Alaska Native":0.19,"Asian":0,"Black or African American":0,"Hispanic":2.39,"Pacific Islander":0,"Two or More Races":2.11,"White (non-Hispanic)":95.32},"Grant County, South Dakota":{"American Indian / Alaska Native":0.41,"Asian":0.61,"Black or African American":0.58,"Hispanic":6.71,"Pacific Islander":0,"Two or More Races":1.7,"White (non-Hispanic)":89.99},"Gregory County, South Dakota":{"American Indian / Alaska Native":5.61,"Asian":0.13,"Black or African American":1,"Hispanic":1.08,"Pacific Islander":0.33,"Two or More Races":5.16,"White (non-Hispanic)":86.7},"Haakon County, South Dakota":{"American Indian / Alaska Native":7.2,"Asian":0,"Black or African American":1.41,"Hispanic":0.06,"Pacific Islander":0,"Two or More Races":2.22,"White (non-Hispanic)":88.29},"Hamlin County, South Dakota":{"American Indian / Alaska Native":0.19,"Asian":0.22,"Black or African American":0.3,"Hispanic":5.42,"Pacific Islander":0,"Two or More Races":1.91,"White (non-Hispanic)":91.78},"Hand County, South Dakota":{"American Indian / Alaska Native":1.05,"Asian":0.53,"Black or African American":0.36,"Hispanic":1.87,"Pacific Islander":0,"Two or More Races":1.08,"White (non-Hispanic)":93.2},"Hanson County, South Dakota":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":0.37,"Hispanic":1.24,"Pacific Islander":0,"Two or More Races":5.3,"White (non-Hispanic)":93.09},"Harding County, South Dakota":{"American Indian / Alaska Native":1.28,"Asian":0,"Black or African American":1.65,"Hispanic":1.92,"Pacific Islander":0,"Two or More Races":6.87,"White (non-Hispanic)":87.36},"Hughes County, South Dakota":{"American Indian / Alaska Native":11.06,"Asian":0.77,"Black or African American":0.02,"Hispanic":3.06,"Pacific Islander":0,"Two or More Races":4.39,"White (non-Hispanic)":80.69},"Hutchinson County, South Dakota":{"American Indian / Alaska Native":0.73,"Asian":0.38,"Black or African American":0.07,"Hispanic":2.61,"Pacific Islander":0,"Two or More Races":4.99,"White (non-Hispanic)":91.15},"Hyde County, South Dakota":{"American Indian / Alaska Native":0.61,"Asian":0,"Black or African American":0,"Hispanic":1.46,"Pacific Islander":0,"Two or More Races":11.19,"White (non-Hispanic)":86.74},"Jackson County, South Dakota":{"American Indian / Alaska Native":62.28,"Asian":0,"Black or African American":0.18,"Hispanic":0.42,"Pacific Islander":0,"Two or More Races":0.92,"White (non-Hispanic)":36.2},"Jerauld County, South Dakota":{"American Indian / Alaska Native":0.7,"Asian":0,"Black or African American":0,"Hispanic":7.59,"Pacific Islander":0,"Two or More Races":5.42,"White (non-Hispanic)":86.18},"Jones County, South Dakota":{"American Indian / Alaska Native":13.88,"Asian":0,"Black or African American":0.78,"Hispanic":1.07,"Pacific Islander":0,"Two or More Races":1.07,"White (non-Hispanic)":82.91},"Kingsbury County, South Dakota":{"American Indian / Alaska Native":0.69,"Asian":0.08,"Black or African American":0,"Hispanic":2.73,"Pacific Islander":0,"Two or More Races":3.07,"White (non-Hispanic)":93.11},"Lake County, South Dakota":{"American Indian / Alaska Native":2.34,"Asian":0.59,"Black or African American":0.5,"Hispanic":5.07,"Pacific Islander":0.05,"Two or More Races":1.65,"White (non-Hispanic)":89.71},"Lawrence County, South Dakota":{"American Indian / Alaska Native":2.28,"Asian":0.53,"Black or African American":0.38,"Hispanic":3.67,"Pacific Islander":0.08,"Two or More Races":3.39,"White (non-Hispanic)":89.34},"Lincoln County, South Dakota":{"American Indian / Alaska Native":0.22,"Asian":1.59,"Black or African American":2.15,"Hispanic":2.88,"Pacific Islander":0,"Two or More Races":2.86,"White (non-Hispanic)":89.76},"Lyman County, South Dakota":{"American Indian / Alaska Native":40.27,"Asian":0.03,"Black or African American":0,"Hispanic":0.75,"Pacific Islander":0,"Two or More Races":1.53,"White (non-Hispanic)":57.38},"Marshall County, South Dakota":{"American Indian / Alaska Native":6.45,"Asian":0,"Black or African American":0.14,"Hispanic":6.11,"Pacific Islander":0,"Two or More Races":2.92,"White (non-Hispanic)":84.29},"McCook County, South Dakota":{"American Indian / Alaska Native":0.51,"Asian":0,"Black or African American":0.28,"Hispanic":3.42,"Pacific Islander":0,"Two or More Races":2.49,"White (non-Hispanic)":93.3},"McPherson County, South Dakota":{"American Indian / Alaska Native":0.13,"Asian":0,"Black or African American":1.67,"Hispanic":1.23,"Pacific Islander":0.13,"Two or More Races":1.4,"White (non-Hispanic)":95.43},"Meade County, South Dakota":{"American Indian / Alaska Native":1.59,"Asian":0.78,"Black or African American":1.66,"Hispanic":4.68,"Pacific Islander":0.15,"Two or More Races":4.98,"White (non-Hispanic)":85.7},"Mellette County, South Dakota":{"American Indian / Alaska Native":61.72,"Asian":0,"Black or African American":0.24,"Hispanic":0.34,"Pacific Islander":0.29,"Two or More Races":5.53,"White (non-Hispanic)":31.57},"Miner County, South Dakota":{"American Indian / Alaska Native":1.78,"Asian":0.17,"Black or African American":1,"Hispanic":1.78,"Pacific Islander":0,"Two or More Races":0.96,"White (non-Hispanic)":94.3},"Minnehaha County, South Dakota":{"American Indian / Alaska Native":1.8,"Asian":1.77,"Black or African American":6.47,"Hispanic":6.36,"Pacific Islander":0.03,"Two or More Races":4.26,"White (non-Hispanic)":79.08},"Moody County, South Dakota":{"American Indian / Alaska Native":11.66,"Asian":1.7,"Black or African American":1.1,"Hispanic":5.38,"Pacific Islander":0.05,"Two or More Races":5.24,"White (non-Hispanic)":74.87},"Oglala Lakota County, South Dakota":{"American Indian / Alaska Native":91.35,"Asian":0,"Black or African American":0.06,"Hispanic":1.71,"Pacific Islander":0,"Two or More Races":0.25,"White (non-Hispanic)":6.63},"Pennington County, South Dakota":{"American Indian / Alaska Native":6.32,"Asian":1.1,"Black or African American":1.25,"Hispanic":5.5,"Pacific Islander":0.02,"Two or More Races":6.8,"White (non-Hispanic)":78.32},"Perkins County, South Dakota":{"American Indian / Alaska Native":2.49,"Asian":0.59,"Black or African American":0,"Hispanic":0.85,"Pacific Islander":0,"Two or More Races":1.73,"White (non-Hispanic)":94.02},"Potter County, South Dakota":{"American Indian / Alaska Native":1.03,"Asian":0.91,"Black or African American":1.93,"Hispanic":0,"Pacific Islander":0,"Two or More Races":4.61,"White (non-Hispanic)":90.37},"Roberts County, South Dakota":{"American Indian / Alaska Native":35.94,"Asian":0.19,"Black or African American":0.33,"Hispanic":2.38,"Pacific Islander":0,"Two or More Races":4.04,"White (non-Hispanic)":56.91},"Sanborn County, South Dakota":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":0,"Hispanic":4.22,"Pacific Islander":0,"Two or More Races":2.66,"White (non-Hispanic)":93.12},"Spink County, South Dakota":{"American Indian / Alaska Native":0.24,"Asian":0,"Black or African American":0.91,"Hispanic":2.63,"Pacific Islander":0,"Two or More Races":1.8,"White (non-Hispanic)":94.37},"Stanley County, South Dakota":{"American Indian / Alaska Native":2.52,"Asian":0,"Black or African American":0,"Hispanic":2.03,"Pacific Islander":0,"Two or More Races":4.78,"White (non-Hispanic)":89.97},"Sully County, South Dakota":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":5,"Hispanic":0,"Pacific Islander":0,"Two or More Races":1.96,"White (non-Hispanic)":92.51},"Todd County, South Dakota":{"American Indian / Alaska Native":83.14,"Asian":3.19,"Black or African American":0.3,"Hispanic":2.28,"Pacific Islander":0.04,"Two or More Races":2.77,"White (non-Hispanic)":8.12},"Tripp County, South Dakota":{"American Indian / Alaska Native":12.41,"Asian":0.93,"Black or African American":0.64,"Hispanic":1.64,"Pacific Islander":0,"Two or More Races":3.55,"White (non-Hispanic)":80.67},"Turner County, South Dakota":{"American Indian / Alaska Native":0.5,"Asian":0.4,"Black or African American":0.78,"Hispanic":3.25,"Pacific Islander":0.13,"Two or More Races":1.24,"White (non-Hispanic)":93.71},"Union County, South Dakota":{"American Indian / Alaska Native":0.87,"Asian":1.41,"Black or African American":0.84,"Hispanic":4.42,"Pacific Islander":0.07,"Two or More Races":3.16,"White (non-Hispanic)":89.01},"Walworth County, South Dakota":{"American Indian / Alaska Native":10.15,"Asian":0.11,"Black or African American":0.3,"Hispanic":1.19,"Pacific Islander":0,"Two or More Races":9.21,"White (non-Hispanic)":78.88},"Yankton County, South Dakota":{"American Indian / Alaska Native":2.24,"Asian":0.29,"Black or African American":1.54,"Hispanic":5.6,"Pacific Islander":0,"Two or More Races":3,"White (non-Hispanic)":87.33},"Ziebach County, South Dakota":{"American Indian / Alaska Native":70.17,"Asian":0,"Black or African American":0,"Hispanic":1.24,"Pacific Islander":0.33,"Two or More Races":1.16,"White (non-Hispanic)":27.1}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

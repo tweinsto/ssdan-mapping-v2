@@ -1,0 +1,2777 @@
+{
+  "state": "Alcona County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 32996
+        },
+        {
+          "label": "Asian",
+          "value": 327211
+        },
+        {
+          "label": "Black or African American",
+          "value": 1329998
+        },
+        {
+          "label": "Hispanic",
+          "value": 576808
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2322
+        },
+        {
+          "label": "Two or More Races",
+          "value": 409040
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7333936
+        }
+      ]
+    },
+    "Alcona County, Michigan": {
+      "label": "Alcona County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 58
+        },
+        {
+          "label": "Asian",
+          "value": 41
+        },
+        {
+          "label": "Black or African American",
+          "value": 28
+        },
+        {
+          "label": "Hispanic",
+          "value": 157
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 313
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9676
+        }
+      ]
+    },
+    "Alger County, Michigan": {
+      "label": "Alger County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 234
+        },
+        {
+          "label": "Asian",
+          "value": 25
+        },
+        {
+          "label": "Black or African American",
+          "value": 694
+        },
+        {
+          "label": "Hispanic",
+          "value": 147
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 452
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7192
+        }
+      ]
+    },
+    "Allegan County, Michigan": {
+      "label": "Allegan County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 263
+        },
+        {
+          "label": "Asian",
+          "value": 831
+        },
+        {
+          "label": "Black or African American",
+          "value": 1450
+        },
+        {
+          "label": "Hispanic",
+          "value": 9674
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 27
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4742
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 103389
+        }
+      ]
+    },
+    "Alpena County, Michigan": {
+      "label": "Alpena County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 142
+        },
+        {
+          "label": "Black or African American",
+          "value": 249
+        },
+        {
+          "label": "Hispanic",
+          "value": 458
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1074
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26884
+        }
+      ]
+    },
+    "Antrim County, Michigan": {
+      "label": "Antrim County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 169
+        },
+        {
+          "label": "Asian",
+          "value": 94
+        },
+        {
+          "label": "Black or African American",
+          "value": 85
+        },
+        {
+          "label": "Hispanic",
+          "value": 507
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 653
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22259
+        }
+      ]
+    },
+    "Arenac County, Michigan": {
+      "label": "Arenac County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 70
+        },
+        {
+          "label": "Asian",
+          "value": 22
+        },
+        {
+          "label": "Black or African American",
+          "value": 91
+        },
+        {
+          "label": "Hispanic",
+          "value": 321
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 496
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14034
+        }
+      ]
+    },
+    "Baraga County, Michigan": {
+      "label": "Baraga County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 992
+        },
+        {
+          "label": "Asian",
+          "value": 50
+        },
+        {
+          "label": "Black or African American",
+          "value": 557
+        },
+        {
+          "label": "Hispanic",
+          "value": 140
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 568
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5923
+        }
+      ]
+    },
+    "Barry County, Michigan": {
+      "label": "Barry County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 68
+        },
+        {
+          "label": "Asian",
+          "value": 354
+        },
+        {
+          "label": "Black or African American",
+          "value": 255
+        },
+        {
+          "label": "Hispanic",
+          "value": 2264
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 15
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1906
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 58003
+        }
+      ]
+    },
+    "Bay County, Michigan": {
+      "label": "Bay County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 61
+        },
+        {
+          "label": "Asian",
+          "value": 400
+        },
+        {
+          "label": "Black or African American",
+          "value": 1300
+        },
+        {
+          "label": "Hispanic",
+          "value": 6023
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 75
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3691
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 91469
+        }
+      ]
+    },
+    "Benzie County, Michigan": {
+      "label": "Benzie County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 228
+        },
+        {
+          "label": "Asian",
+          "value": 67
+        },
+        {
+          "label": "Black or African American",
+          "value": 80
+        },
+        {
+          "label": "Hispanic",
+          "value": 440
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 559
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16651
+        }
+      ]
+    },
+    "Berrien County, Michigan": {
+      "label": "Berrien County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 355
+        },
+        {
+          "label": "Asian",
+          "value": 2629
+        },
+        {
+          "label": "Black or African American",
+          "value": 20559
+        },
+        {
+          "label": "Hispanic",
+          "value": 9396
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 47
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7199
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 112283
+        }
+      ]
+    },
+    "Branch County, Michigan": {
+      "label": "Branch County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 60
+        },
+        {
+          "label": "Asian",
+          "value": 191
+        },
+        {
+          "label": "Black or African American",
+          "value": 831
+        },
+        {
+          "label": "Hispanic",
+          "value": 2811
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1610
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 39341
+        }
+      ]
+    },
+    "Calhoun County, Michigan": {
+      "label": "Calhoun County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 340
+        },
+        {
+          "label": "Asian",
+          "value": 3459
+        },
+        {
+          "label": "Black or African American",
+          "value": 13255
+        },
+        {
+          "label": "Hispanic",
+          "value": 7678
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 29
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7199
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 101362
+        }
+      ]
+    },
+    "Cass County, Michigan": {
+      "label": "Cass County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 450
+        },
+        {
+          "label": "Asian",
+          "value": 447
+        },
+        {
+          "label": "Black or African American",
+          "value": 2202
+        },
+        {
+          "label": "Hispanic",
+          "value": 2240
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2221
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 43627
+        }
+      ]
+    },
+    "Charlevoix County, Michigan": {
+      "label": "Charlevoix County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 191
+        },
+        {
+          "label": "Asian",
+          "value": 169
+        },
+        {
+          "label": "Black or African American",
+          "value": 135
+        },
+        {
+          "label": "Hispanic",
+          "value": 503
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 857
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24244
+        }
+      ]
+    },
+    "Cheboygan County, Michigan": {
+      "label": "Cheboygan County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 584
+        },
+        {
+          "label": "Asian",
+          "value": 145
+        },
+        {
+          "label": "Black or African American",
+          "value": 225
+        },
+        {
+          "label": "Hispanic",
+          "value": 417
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1202
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23130
+        }
+      ]
+    },
+    "Chippewa County, Michigan": {
+      "label": "Chippewa County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4681
+        },
+        {
+          "label": "Asian",
+          "value": 334
+        },
+        {
+          "label": "Black or African American",
+          "value": 2031
+        },
+        {
+          "label": "Hispanic",
+          "value": 802
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 23
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3721
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24598
+        }
+      ]
+    },
+    "Clare County, Michigan": {
+      "label": "Clare County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 134
+        },
+        {
+          "label": "Asian",
+          "value": 111
+        },
+        {
+          "label": "Black or African American",
+          "value": 127
+        },
+        {
+          "label": "Hispanic",
+          "value": 684
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 853
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29141
+        }
+      ]
+    },
+    "Clinton County, Michigan": {
+      "label": "Clinton County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 139
+        },
+        {
+          "label": "Asian",
+          "value": 1107
+        },
+        {
+          "label": "Black or African American",
+          "value": 1265
+        },
+        {
+          "label": "Hispanic",
+          "value": 4042
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2686
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 69833
+        }
+      ]
+    },
+    "Crawford County, Michigan": {
+      "label": "Crawford County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 30
+        },
+        {
+          "label": "Asian",
+          "value": 110
+        },
+        {
+          "label": "Black or African American",
+          "value": 40
+        },
+        {
+          "label": "Hispanic",
+          "value": 311
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 483
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12258
+        }
+      ]
+    },
+    "Delta County, Michigan": {
+      "label": "Delta County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 631
+        },
+        {
+          "label": "Asian",
+          "value": 103
+        },
+        {
+          "label": "Black or African American",
+          "value": 96
+        },
+        {
+          "label": "Hispanic",
+          "value": 552
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2122
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33257
+        }
+      ]
+    },
+    "Dickinson County, Michigan": {
+      "label": "Dickinson County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 95
+        },
+        {
+          "label": "Asian",
+          "value": 125
+        },
+        {
+          "label": "Black or African American",
+          "value": 216
+        },
+        {
+          "label": "Hispanic",
+          "value": 475
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 46
+        },
+        {
+          "label": "Two or More Races",
+          "value": 707
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24118
+        }
+      ]
+    },
+    "Eaton County, Michigan": {
+      "label": "Eaton County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 230
+        },
+        {
+          "label": "Asian",
+          "value": 2365
+        },
+        {
+          "label": "Black or African American",
+          "value": 7424
+        },
+        {
+          "label": "Hispanic",
+          "value": 6718
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 15
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3931
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 87830
+        }
+      ]
+    },
+    "Emmet County, Michigan": {
+      "label": "Emmet County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 595
+        },
+        {
+          "label": "Asian",
+          "value": 125
+        },
+        {
+          "label": "Black or African American",
+          "value": 222
+        },
+        {
+          "label": "Hispanic",
+          "value": 683
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 14
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1829
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30504
+        }
+      ]
+    },
+    "Genesee County, Michigan": {
+      "label": "Genesee County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 958
+        },
+        {
+          "label": "Asian",
+          "value": 3806
+        },
+        {
+          "label": "Black or African American",
+          "value": 77538
+        },
+        {
+          "label": "Hispanic",
+          "value": 16683
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 55
+        },
+        {
+          "label": "Two or More Races",
+          "value": 17902
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 285283
+        }
+      ]
+    },
+    "Gladwin County, Michigan": {
+      "label": "Gladwin County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 95
+        },
+        {
+          "label": "Asian",
+          "value": 102
+        },
+        {
+          "label": "Black or African American",
+          "value": 65
+        },
+        {
+          "label": "Hispanic",
+          "value": 543
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 836
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23854
+        }
+      ]
+    },
+    "Gogebic County, Michigan": {
+      "label": "Gogebic County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 363
+        },
+        {
+          "label": "Asian",
+          "value": 80
+        },
+        {
+          "label": "Black or African American",
+          "value": 117
+        },
+        {
+          "label": "Hispanic",
+          "value": 270
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 25
+        },
+        {
+          "label": "Two or More Races",
+          "value": 373
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13105
+        }
+      ]
+    },
+    "Grand Traverse County, Michigan": {
+      "label": "Grand Traverse County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 483
+        },
+        {
+          "label": "Asian",
+          "value": 637
+        },
+        {
+          "label": "Black or African American",
+          "value": 845
+        },
+        {
+          "label": "Hispanic",
+          "value": 3138
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 13
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3028
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 87440
+        }
+      ]
+    },
+    "Gratiot County, Michigan": {
+      "label": "Gratiot County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 121
+        },
+        {
+          "label": "Asian",
+          "value": 168
+        },
+        {
+          "label": "Black or African American",
+          "value": 2248
+        },
+        {
+          "label": "Hispanic",
+          "value": 3134
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1039
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 34663
+        }
+      ]
+    },
+    "Hillsdale County, Michigan": {
+      "label": "Hillsdale County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 32
+        },
+        {
+          "label": "Asian",
+          "value": 113
+        },
+        {
+          "label": "Black or African American",
+          "value": 327
+        },
+        {
+          "label": "Hispanic",
+          "value": 1249
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1391
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 42357
+        }
+      ]
+    },
+    "Houghton County, Michigan": {
+      "label": "Houghton County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 189
+        },
+        {
+          "label": "Asian",
+          "value": 1044
+        },
+        {
+          "label": "Black or African American",
+          "value": 423
+        },
+        {
+          "label": "Hispanic",
+          "value": 676
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 619
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 34138
+        }
+      ]
+    },
+    "Huron County, Michigan": {
+      "label": "Huron County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 64
+        },
+        {
+          "label": "Asian",
+          "value": 184
+        },
+        {
+          "label": "Black or African American",
+          "value": 126
+        },
+        {
+          "label": "Hispanic",
+          "value": 855
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 642
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29245
+        }
+      ]
+    },
+    "Ingham County, Michigan": {
+      "label": "Ingham County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 743
+        },
+        {
+          "label": "Asian",
+          "value": 17584
+        },
+        {
+          "label": "Black or African American",
+          "value": 31654
+        },
+        {
+          "label": "Hispanic",
+          "value": 24396
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 50
+        },
+        {
+          "label": "Two or More Races",
+          "value": 15875
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 190072
+        }
+      ]
+    },
+    "Ionia County, Michigan": {
+      "label": "Ionia County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 292
+        },
+        {
+          "label": "Asian",
+          "value": 351
+        },
+        {
+          "label": "Black or African American",
+          "value": 2466
+        },
+        {
+          "label": "Hispanic",
+          "value": 3466
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2824
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 57197
+        }
+      ]
+    },
+    "Iosco County, Michigan": {
+      "label": "Iosco County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 126
+        },
+        {
+          "label": "Asian",
+          "value": 176
+        },
+        {
+          "label": "Black or African American",
+          "value": 224
+        },
+        {
+          "label": "Hispanic",
+          "value": 688
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 854
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23201
+        }
+      ]
+    },
+    "Iron County, Michigan": {
+      "label": "Iron County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 131
+        },
+        {
+          "label": "Asian",
+          "value": 66
+        },
+        {
+          "label": "Black or African American",
+          "value": 98
+        },
+        {
+          "label": "Hispanic",
+          "value": 245
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 301
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10774
+        }
+      ]
+    },
+    "Isabella County, Michigan": {
+      "label": "Isabella County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1665
+        },
+        {
+          "label": "Asian",
+          "value": 981
+        },
+        {
+          "label": "Black or African American",
+          "value": 1721
+        },
+        {
+          "label": "Hispanic",
+          "value": 3144
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2804
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 53932
+        }
+      ]
+    },
+    "Jackson County, Michigan": {
+      "label": "Jackson County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 277
+        },
+        {
+          "label": "Asian",
+          "value": 1214
+        },
+        {
+          "label": "Black or African American",
+          "value": 12165
+        },
+        {
+          "label": "Hispanic",
+          "value": 6352
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7727
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 132110
+        }
+      ]
+    },
+    "Kalamazoo County, Michigan": {
+      "label": "Kalamazoo County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 330
+        },
+        {
+          "label": "Asian",
+          "value": 6971
+        },
+        {
+          "label": "Black or African American",
+          "value": 27782
+        },
+        {
+          "label": "Hispanic",
+          "value": 15121
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 55
+        },
+        {
+          "label": "Two or More Races",
+          "value": 13597
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 196605
+        }
+      ]
+    },
+    "Kalkaska County, Michigan": {
+      "label": "Kalkaska County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 82
+        },
+        {
+          "label": "Asian",
+          "value": 88
+        },
+        {
+          "label": "Black or African American",
+          "value": 160
+        },
+        {
+          "label": "Hispanic",
+          "value": 402
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 580
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16797
+        }
+      ]
+    },
+    "Kent County, Michigan": {
+      "label": "Kent County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1165
+        },
+        {
+          "label": "Asian",
+          "value": 20156
+        },
+        {
+          "label": "Black or African American",
+          "value": 60320
+        },
+        {
+          "label": "Hispanic",
+          "value": 75849
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 80
+        },
+        {
+          "label": "Two or More Races",
+          "value": 29899
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 468130
+        }
+      ]
+    },
+    "Keweenaw County, Michigan": {
+      "label": "Keweenaw County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 32
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 52
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2013
+        }
+      ]
+    },
+    "Lake County, Michigan": {
+      "label": "Lake County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 96
+        },
+        {
+          "label": "Asian",
+          "value": 55
+        },
+        {
+          "label": "Black or African American",
+          "value": 1059
+        },
+        {
+          "label": "Hispanic",
+          "value": 1146
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 577
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9390
+        }
+      ]
+    },
+    "Lapeer County, Michigan": {
+      "label": "Lapeer County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 77
+        },
+        {
+          "label": "Asian",
+          "value": 226
+        },
+        {
+          "label": "Black or African American",
+          "value": 1017
+        },
+        {
+          "label": "Hispanic",
+          "value": 4394
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2714
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 79979
+        }
+      ]
+    },
+    "Leelanau County, Michigan": {
+      "label": "Leelanau County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 547
+        },
+        {
+          "label": "Asian",
+          "value": 135
+        },
+        {
+          "label": "Black or African American",
+          "value": 85
+        },
+        {
+          "label": "Hispanic",
+          "value": 964
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 28
+        },
+        {
+          "label": "Two or More Races",
+          "value": 573
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20202
+        }
+      ]
+    },
+    "Lenawee County, Michigan": {
+      "label": "Lenawee County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 92
+        },
+        {
+          "label": "Asian",
+          "value": 314
+        },
+        {
+          "label": "Black or African American",
+          "value": 2147
+        },
+        {
+          "label": "Hispanic",
+          "value": 8650
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 41
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3287
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 84155
+        }
+      ]
+    },
+    "Livingston County, Michigan": {
+      "label": "Livingston County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 381
+        },
+        {
+          "label": "Asian",
+          "value": 1770
+        },
+        {
+          "label": "Black or African American",
+          "value": 997
+        },
+        {
+          "label": "Hispanic",
+          "value": 5615
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4820
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 181066
+        }
+      ]
+    },
+    "Luce County, Michigan": {
+      "label": "Luce County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 435
+        },
+        {
+          "label": "Asian",
+          "value": 17
+        },
+        {
+          "label": "Black or African American",
+          "value": 519
+        },
+        {
+          "label": "Hispanic",
+          "value": 115
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 14
+        },
+        {
+          "label": "Two or More Races",
+          "value": 355
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4870
+        }
+      ]
+    },
+    "Mackinac County, Michigan": {
+      "label": "Mackinac County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1532
+        },
+        {
+          "label": "Asian",
+          "value": 105
+        },
+        {
+          "label": "Black or African American",
+          "value": 445
+        },
+        {
+          "label": "Hispanic",
+          "value": 224
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 724
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7798
+        }
+      ]
+    },
+    "Macomb County, Michigan": {
+      "label": "Macomb County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1175
+        },
+        {
+          "label": "Asian",
+          "value": 41625
+        },
+        {
+          "label": "Black or African American",
+          "value": 108860
+        },
+        {
+          "label": "Hispanic",
+          "value": 27006
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 630
+        },
+        {
+          "label": "Two or More Races",
+          "value": 36002
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 659952
+        }
+      ]
+    },
+    "Manistee County, Michigan": {
+      "label": "Manistee County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 312
+        },
+        {
+          "label": "Asian",
+          "value": 95
+        },
+        {
+          "label": "Black or African American",
+          "value": 829
+        },
+        {
+          "label": "Hispanic",
+          "value": 882
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 964
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22131
+        }
+      ]
+    },
+    "Marquette County, Michigan": {
+      "label": "Marquette County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 621
+        },
+        {
+          "label": "Asian",
+          "value": 355
+        },
+        {
+          "label": "Black or African American",
+          "value": 966
+        },
+        {
+          "label": "Hispanic",
+          "value": 1345
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2636
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 60406
+        }
+      ]
+    },
+    "Mason County, Michigan": {
+      "label": "Mason County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 98
+        },
+        {
+          "label": "Asian",
+          "value": 121
+        },
+        {
+          "label": "Black or African American",
+          "value": 319
+        },
+        {
+          "label": "Hispanic",
+          "value": 1389
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 963
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26226
+        }
+      ]
+    },
+    "Mecosta County, Michigan": {
+      "label": "Mecosta County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 264
+        },
+        {
+          "label": "Asian",
+          "value": 330
+        },
+        {
+          "label": "Black or African American",
+          "value": 889
+        },
+        {
+          "label": "Hispanic",
+          "value": 1125
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1351
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 36297
+        }
+      ]
+    },
+    "Menominee County, Michigan": {
+      "label": "Menominee County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 507
+        },
+        {
+          "label": "Asian",
+          "value": 88
+        },
+        {
+          "label": "Black or African American",
+          "value": 130
+        },
+        {
+          "label": "Hispanic",
+          "value": 534
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 686
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21317
+        }
+      ]
+    },
+    "Midland County, Michigan": {
+      "label": "Midland County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 195
+        },
+        {
+          "label": "Asian",
+          "value": 1811
+        },
+        {
+          "label": "Black or African American",
+          "value": 1134
+        },
+        {
+          "label": "Hispanic",
+          "value": 2784
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 14
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2427
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 75072
+        }
+      ]
+    },
+    "Missaukee County, Michigan": {
+      "label": "Missaukee County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 49
+        },
+        {
+          "label": "Black or African American",
+          "value": 72
+        },
+        {
+          "label": "Hispanic",
+          "value": 501
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 613
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13857
+        }
+      ]
+    },
+    "Monroe County, Michigan": {
+      "label": "Monroe County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 109
+        },
+        {
+          "label": "Asian",
+          "value": 611
+        },
+        {
+          "label": "Black or African American",
+          "value": 3434
+        },
+        {
+          "label": "Hispanic",
+          "value": 6559
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 46
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5501
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 138322
+        }
+      ]
+    },
+    "Montcalm County, Michigan": {
+      "label": "Montcalm County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 171
+        },
+        {
+          "label": "Asian",
+          "value": 158
+        },
+        {
+          "label": "Black or African American",
+          "value": 2158
+        },
+        {
+          "label": "Hispanic",
+          "value": 2826
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2647
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 58834
+        }
+      ]
+    },
+    "Montmorency County, Michigan": {
+      "label": "Montmorency County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 40
+        },
+        {
+          "label": "Asian",
+          "value": 54
+        },
+        {
+          "label": "Black or African American",
+          "value": 15
+        },
+        {
+          "label": "Hispanic",
+          "value": 153
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 326
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8780
+        }
+      ]
+    },
+    "Muskegon County, Michigan": {
+      "label": "Muskegon County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 888
+        },
+        {
+          "label": "Asian",
+          "value": 992
+        },
+        {
+          "label": "Black or African American",
+          "value": 22039
+        },
+        {
+          "label": "Hispanic",
+          "value": 10671
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 51
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8493
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 132043
+        }
+      ]
+    },
+    "Newaygo County, Michigan": {
+      "label": "Newaygo County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 155
+        },
+        {
+          "label": "Asian",
+          "value": 184
+        },
+        {
+          "label": "Black or African American",
+          "value": 371
+        },
+        {
+          "label": "Hispanic",
+          "value": 3079
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 35
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1880
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 44458
+        }
+      ]
+    },
+    "Oakland County, Michigan": {
+      "label": "Oakland County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1403
+        },
+        {
+          "label": "Asian",
+          "value": 103733
+        },
+        {
+          "label": "Black or African American",
+          "value": 163653
+        },
+        {
+          "label": "Hispanic",
+          "value": 62197
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 382
+        },
+        {
+          "label": "Two or More Races",
+          "value": 54417
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 879832
+        }
+      ]
+    },
+    "Oceana County, Michigan": {
+      "label": "Oceana County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 131
+        },
+        {
+          "label": "Asian",
+          "value": 28
+        },
+        {
+          "label": "Black or African American",
+          "value": 248
+        },
+        {
+          "label": "Hispanic",
+          "value": 4135
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 705
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21499
+        }
+      ]
+    },
+    "Ogemaw County, Michigan": {
+      "label": "Ogemaw County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 55
+        },
+        {
+          "label": "Asian",
+          "value": 158
+        },
+        {
+          "label": "Black or African American",
+          "value": 122
+        },
+        {
+          "label": "Hispanic",
+          "value": 461
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 605
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19430
+        }
+      ]
+    },
+    "Ontonagon County, Michigan": {
+      "label": "Ontonagon County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 29
+        },
+        {
+          "label": "Black or African American",
+          "value": 47
+        },
+        {
+          "label": "Hispanic",
+          "value": 100
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 196
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5465
+        }
+      ]
+    },
+    "Osceola County, Michigan": {
+      "label": "Osceola County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 78
+        },
+        {
+          "label": "Asian",
+          "value": 82
+        },
+        {
+          "label": "Black or African American",
+          "value": 239
+        },
+        {
+          "label": "Hispanic",
+          "value": 463
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 749
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21368
+        }
+      ]
+    },
+    "Oscoda County, Michigan": {
+      "label": "Oscoda County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 27
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 28
+        },
+        {
+          "label": "Hispanic",
+          "value": 170
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 296
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7796
+        }
+      ]
+    },
+    "Otsego County, Michigan": {
+      "label": "Otsego County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 56
+        },
+        {
+          "label": "Asian",
+          "value": 159
+        },
+        {
+          "label": "Black or African American",
+          "value": 203
+        },
+        {
+          "label": "Hispanic",
+          "value": 490
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 738
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23688
+        }
+      ]
+    },
+    "Ottawa County, Michigan": {
+      "label": "Ottawa County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 327
+        },
+        {
+          "label": "Asian",
+          "value": 7947
+        },
+        {
+          "label": "Black or African American",
+          "value": 4352
+        },
+        {
+          "label": "Hispanic",
+          "value": 30177
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 31
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8478
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 246143
+        }
+      ]
+    },
+    "Presque Isle County, Michigan": {
+      "label": "Presque Isle County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 39
+        },
+        {
+          "label": "Black or African American",
+          "value": 29
+        },
+        {
+          "label": "Hispanic",
+          "value": 198
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 373
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12450
+        }
+      ]
+    },
+    "Roscommon County, Michigan": {
+      "label": "Roscommon County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 32
+        },
+        {
+          "label": "Asian",
+          "value": 106
+        },
+        {
+          "label": "Black or African American",
+          "value": 145
+        },
+        {
+          "label": "Hispanic",
+          "value": 471
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 939
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21923
+        }
+      ]
+    },
+    "Saginaw County, Michigan": {
+      "label": "Saginaw County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 332
+        },
+        {
+          "label": "Asian",
+          "value": 2257
+        },
+        {
+          "label": "Black or African American",
+          "value": 34937
+        },
+        {
+          "label": "Hispanic",
+          "value": 17188
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 73
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5256
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 128940
+        }
+      ]
+    },
+    "Sanilac County, Michigan": {
+      "label": "Sanilac County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 40
+        },
+        {
+          "label": "Asian",
+          "value": 72
+        },
+        {
+          "label": "Black or African American",
+          "value": 157
+        },
+        {
+          "label": "Hispanic",
+          "value": 1697
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1020
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 37472
+        }
+      ]
+    },
+    "Schoolcraft County, Michigan": {
+      "label": "Schoolcraft County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 513
+        },
+        {
+          "label": "Asian",
+          "value": 20
+        },
+        {
+          "label": "Black or African American",
+          "value": 37
+        },
+        {
+          "label": "Hispanic",
+          "value": 123
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 579
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6816
+        }
+      ]
+    },
+    "Shiawassee County, Michigan": {
+      "label": "Shiawassee County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 121
+        },
+        {
+          "label": "Asian",
+          "value": 252
+        },
+        {
+          "label": "Black or African American",
+          "value": 402
+        },
+        {
+          "label": "Hispanic",
+          "value": 2071
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1696
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 63336
+        }
+      ]
+    },
+    "St. Clair County, Michigan": {
+      "label": "St. Clair County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 168
+        },
+        {
+          "label": "Asian",
+          "value": 752
+        },
+        {
+          "label": "Black or African American",
+          "value": 3588
+        },
+        {
+          "label": "Hispanic",
+          "value": 5753
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5263
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 144094
+        }
+      ]
+    },
+    "St. Joseph County, Michigan": {
+      "label": "St. Joseph County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 348
+        },
+        {
+          "label": "Black or African American",
+          "value": 1324
+        },
+        {
+          "label": "Hispanic",
+          "value": 5553
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2108
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 51400
+        }
+      ]
+    },
+    "Tuscola County, Michigan": {
+      "label": "Tuscola County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 140
+        },
+        {
+          "label": "Asian",
+          "value": 194
+        },
+        {
+          "label": "Black or African American",
+          "value": 518
+        },
+        {
+          "label": "Hispanic",
+          "value": 1923
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1402
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 48812
+        }
+      ]
+    },
+    "Van Buren County, Michigan": {
+      "label": "Van Buren County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 262
+        },
+        {
+          "label": "Asian",
+          "value": 416
+        },
+        {
+          "label": "Black or African American",
+          "value": 2625
+        },
+        {
+          "label": "Hispanic",
+          "value": 9248
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3063
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 59877
+        }
+      ]
+    },
+    "Washtenaw County, Michigan": {
+      "label": "Washtenaw County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 643
+        },
+        {
+          "label": "Asian",
+          "value": 32548
+        },
+        {
+          "label": "Black or African American",
+          "value": 41945
+        },
+        {
+          "label": "Hispanic",
+          "value": 20789
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 82
+        },
+        {
+          "label": "Two or More Races",
+          "value": 20184
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 250289
+        }
+      ]
+    },
+    "Wayne County, Michigan": {
+      "label": "Wayne County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3010
+        },
+        {
+          "label": "Asian",
+          "value": 61631
+        },
+        {
+          "label": "Black or African American",
+          "value": 655912
+        },
+        {
+          "label": "Hispanic",
+          "value": 119108
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 199
+        },
+        {
+          "label": "Two or More Races",
+          "value": 70594
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 855209
+        }
+      ]
+    },
+    "Wexford County, Michigan": {
+      "label": "Wexford County, Michigan",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 88
+        },
+        {
+          "label": "Asian",
+          "value": 165
+        },
+        {
+          "label": "Black or African American",
+          "value": 306
+        },
+        {
+          "label": "Hispanic",
+          "value": 845
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1423
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 31020
+        }
+      ]
+    }
+  }
+}

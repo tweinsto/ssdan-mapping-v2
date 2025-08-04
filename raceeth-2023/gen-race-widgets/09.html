@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 09</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Capitol Planning Region, Connecticut">Capitol Planning Region, Connecticut</option>
+<option value="Greater Bridgeport Planning Region, Connecticut">Greater Bridgeport Planning Region, Connecticut</option>
+<option value="Lower Connecticut River Valley Planning Region, Connecticut">Lower Connecticut River Valley Planning Region, Connecticut</option>
+<option value="Naugatuck Valley Planning Region, Connecticut">Naugatuck Valley Planning Region, Connecticut</option>
+<option value="Northeastern Connecticut Planning Region, Connecticut">Northeastern Connecticut Planning Region, Connecticut</option>
+<option value="Northwest Hills Planning Region, Connecticut">Northwest Hills Planning Region, Connecticut</option>
+<option value="South Central Connecticut Planning Region, Connecticut">South Central Connecticut Planning Region, Connecticut</option>
+<option value="Southeastern Connecticut Planning Region, Connecticut">Southeastern Connecticut Planning Region, Connecticut</option>
+<option value="Western Connecticut Planning Region, Connecticut">Western Connecticut Planning Region, Connecticut</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.09,"Asian":4.71,"Black or African American":9.88,"Hispanic":17.8,"Pacific Islander":0.03,"Two or More Races":3.8,"White (non-Hispanic)":62.97},"Capitol Planning Region, Connecticut":{"American Indian / Alaska Native":0.08,"Asian":5.83,"Black or African American":11.52,"Hispanic":17.38,"Pacific Islander":0.04,"Two or More Races":3.61,"White (non-Hispanic)":60.94},"Greater Bridgeport Planning Region, Connecticut":{"American Indian / Alaska Native":0.08,"Asian":5.19,"Black or African American":11.1,"Hispanic":26.06,"Pacific Islander":0.01,"Two or More Races":2.87,"White (non-Hispanic)":53.42},"Lower Connecticut River Valley Planning Region, Connecticut":{"American Indian / Alaska Native":0.02,"Asian":3.49,"Black or African American":4.55,"Hispanic":7.45,"Pacific Islander":0.13,"Two or More Races":4.05,"White (non-Hispanic)":80.04},"Naugatuck Valley Planning Region, Connecticut":{"American Indian / Alaska Native":0.04,"Asian":3.98,"Black or African American":10.29,"Hispanic":19.19,"Pacific Islander":0.02,"Two or More Races":4.62,"White (non-Hispanic)":61.11},"Northeastern Connecticut Planning Region, Connecticut":{"American Indian / Alaska Native":0.06,"Asian":1.36,"Black or African American":1.68,"Hispanic":5.05,"Pacific Islander":0.09,"Two or More Races":4.24,"White (non-Hispanic)":87.19},"Northwest Hills Planning Region, Connecticut":{"American Indian / Alaska Native":0.03,"Asian":2.18,"Black or African American":2.5,"Hispanic":8.37,"Pacific Islander":0,"Two or More Races":3.64,"White (non-Hispanic)":82.68},"South Central Connecticut Planning Region, Connecticut":{"American Indian / Alaska Native":0.07,"Asian":4.35,"Black or African American":13.05,"Hispanic":19.1,"Pacific Islander":0.02,"Two or More Races":3.15,"White (non-Hispanic)":59.57},"Southeastern Connecticut Planning Region, Connecticut":{"American Indian / Alaska Native":0.36,"Asian":3.69,"Black or African American":4.96,"Hispanic":14.67,"Pacific Islander":0,"Two or More Races":4.46,"White (non-Hispanic)":71.32},"Western Connecticut Planning Region, Connecticut":{"American Indian / Alaska Native":0.08,"Asian":5.32,"Black or African American":9.8,"Hispanic":19.94,"Pacific Islander":0.03,"Two or More Races":4.16,"White (non-Hispanic)":59.73}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

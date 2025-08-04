@@ -1,0 +1,3107 @@
+{
+  "state": "Adams County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11521
+        },
+        {
+          "label": "Asian",
+          "value": 48746
+        },
+        {
+          "label": "Black or African American",
+          "value": 90735
+        },
+        {
+          "label": "Hispanic",
+          "value": 242226
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 820
+        },
+        {
+          "label": "Two or More Races",
+          "value": 67726
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1498458
+        }
+      ]
+    },
+    "Adams County, Nebraska": {
+      "label": "Adams County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 47
+        },
+        {
+          "label": "Asian",
+          "value": 317
+        },
+        {
+          "label": "Black or African American",
+          "value": 371
+        },
+        {
+          "label": "Hispanic",
+          "value": 3739
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 567
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25887
+        }
+      ]
+    },
+    "Antelope County, Nebraska": {
+      "label": "Antelope County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 56
+        },
+        {
+          "label": "Hispanic",
+          "value": 237
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 62
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5889
+        }
+      ]
+    },
+    "Arthur County, Nebraska": {
+      "label": "Arthur County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 3
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 36
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 500
+        }
+      ]
+    },
+    "Banner County, Nebraska": {
+      "label": "Banner County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 7
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 29
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 14
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 607
+        }
+      ]
+    },
+    "Blaine County, Nebraska": {
+      "label": "Blaine County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 0
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 0
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 385
+        }
+      ]
+    },
+    "Boone County, Nebraska": {
+      "label": "Boone County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 17
+        },
+        {
+          "label": "Black or African American",
+          "value": 1
+        },
+        {
+          "label": "Hispanic",
+          "value": 207
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 79
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5058
+        }
+      ]
+    },
+    "Box Butte County, Nebraska": {
+      "label": "Box Butte County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 97
+        },
+        {
+          "label": "Asian",
+          "value": 101
+        },
+        {
+          "label": "Black or African American",
+          "value": 365
+        },
+        {
+          "label": "Hispanic",
+          "value": 1321
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 197
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8673
+        }
+      ]
+    },
+    "Boyd County, Nebraska": {
+      "label": "Boyd County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 50
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 5
+        },
+        {
+          "label": "Hispanic",
+          "value": 67
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1570
+        }
+      ]
+    },
+    "Brown County, Nebraska": {
+      "label": "Brown County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 1
+        },
+        {
+          "label": "Hispanic",
+          "value": 158
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 116
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2441
+        }
+      ]
+    },
+    "Buffalo County, Nebraska": {
+      "label": "Buffalo County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 127
+        },
+        {
+          "label": "Asian",
+          "value": 813
+        },
+        {
+          "label": "Black or African American",
+          "value": 410
+        },
+        {
+          "label": "Hispanic",
+          "value": 5219
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1048
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 42591
+        }
+      ]
+    },
+    "Burt County, Nebraska": {
+      "label": "Burt County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 48
+        },
+        {
+          "label": "Asian",
+          "value": 28
+        },
+        {
+          "label": "Black or African American",
+          "value": 30
+        },
+        {
+          "label": "Hispanic",
+          "value": 218
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 226
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6132
+        }
+      ]
+    },
+    "Butler County, Nebraska": {
+      "label": "Butler County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 24
+        },
+        {
+          "label": "Hispanic",
+          "value": 504
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 252
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7606
+        }
+      ]
+    },
+    "Cass County, Nebraska": {
+      "label": "Cass County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 75
+        },
+        {
+          "label": "Asian",
+          "value": 68
+        },
+        {
+          "label": "Black or African American",
+          "value": 44
+        },
+        {
+          "label": "Hispanic",
+          "value": 1062
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 861
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24575
+        }
+      ]
+    },
+    "Cedar County, Nebraska": {
+      "label": "Cedar County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 26
+        },
+        {
+          "label": "Asian",
+          "value": 19
+        },
+        {
+          "label": "Black or African American",
+          "value": 13
+        },
+        {
+          "label": "Hispanic",
+          "value": 203
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 123
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7954
+        }
+      ]
+    },
+    "Chase County, Nebraska": {
+      "label": "Chase County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 81
+        },
+        {
+          "label": "Black or African American",
+          "value": 16
+        },
+        {
+          "label": "Hispanic",
+          "value": 668
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 71
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2803
+        }
+      ]
+    },
+    "Cherry County, Nebraska": {
+      "label": "Cherry County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 143
+        },
+        {
+          "label": "Asian",
+          "value": 63
+        },
+        {
+          "label": "Black or African American",
+          "value": 53
+        },
+        {
+          "label": "Hispanic",
+          "value": 164
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 360
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4656
+        }
+      ]
+    },
+    "Cheyenne County, Nebraska": {
+      "label": "Cheyenne County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 62
+        },
+        {
+          "label": "Black or African American",
+          "value": 196
+        },
+        {
+          "label": "Hispanic",
+          "value": 790
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 14
+        },
+        {
+          "label": "Two or More Races",
+          "value": 107
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8283
+        }
+      ]
+    },
+    "Clay County, Nebraska": {
+      "label": "Clay County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 2
+        },
+        {
+          "label": "Black or African American",
+          "value": 41
+        },
+        {
+          "label": "Hispanic",
+          "value": 570
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 110
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5346
+        }
+      ]
+    },
+    "Colfax County, Nebraska": {
+      "label": "Colfax County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 218
+        },
+        {
+          "label": "Asian",
+          "value": 2
+        },
+        {
+          "label": "Black or African American",
+          "value": 359
+        },
+        {
+          "label": "Hispanic",
+          "value": 4983
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 167
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4812
+        }
+      ]
+    },
+    "Cuming County, Nebraska": {
+      "label": "Cuming County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 49
+        },
+        {
+          "label": "Asian",
+          "value": 20
+        },
+        {
+          "label": "Black or African American",
+          "value": 39
+        },
+        {
+          "label": "Hispanic",
+          "value": 1095
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 98
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7671
+        }
+      ]
+    },
+    "Custer County, Nebraska": {
+      "label": "Custer County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 64
+        },
+        {
+          "label": "Asian",
+          "value": 12
+        },
+        {
+          "label": "Black or African American",
+          "value": 54
+        },
+        {
+          "label": "Hispanic",
+          "value": 396
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 222
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9744
+        }
+      ]
+    },
+    "Dakota County, Nebraska": {
+      "label": "Dakota County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 415
+        },
+        {
+          "label": "Asian",
+          "value": 600
+        },
+        {
+          "label": "Black or African American",
+          "value": 1733
+        },
+        {
+          "label": "Hispanic",
+          "value": 8780
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 551
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9227
+        }
+      ]
+    },
+    "Dawes County, Nebraska": {
+      "label": "Dawes County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 147
+        },
+        {
+          "label": "Asian",
+          "value": 82
+        },
+        {
+          "label": "Black or African American",
+          "value": 111
+        },
+        {
+          "label": "Hispanic",
+          "value": 391
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 382
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7099
+        }
+      ]
+    },
+    "Dawson County, Nebraska": {
+      "label": "Dawson County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 27
+        },
+        {
+          "label": "Asian",
+          "value": 140
+        },
+        {
+          "label": "Black or African American",
+          "value": 1506
+        },
+        {
+          "label": "Hispanic",
+          "value": 8720
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 84
+        },
+        {
+          "label": "Two or More Races",
+          "value": 503
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12957
+        }
+      ]
+    },
+    "Deuel County, Nebraska": {
+      "label": "Deuel County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 188
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 40
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1609
+        }
+      ]
+    },
+    "Dixon County, Nebraska": {
+      "label": "Dixon County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 57
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 838
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 78
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4562
+        }
+      ]
+    },
+    "Dodge County, Nebraska": {
+      "label": "Dodge County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 38
+        },
+        {
+          "label": "Asian",
+          "value": 160
+        },
+        {
+          "label": "Black or African American",
+          "value": 195
+        },
+        {
+          "label": "Hispanic",
+          "value": 6350
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1002
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29266
+        }
+      ]
+    },
+    "Douglas County, Nebraska": {
+      "label": "Douglas County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1425
+        },
+        {
+          "label": "Asian",
+          "value": 24443
+        },
+        {
+          "label": "Black or African American",
+          "value": 60395
+        },
+        {
+          "label": "Hispanic",
+          "value": 82687
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 206
+        },
+        {
+          "label": "Two or More Races",
+          "value": 24404
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 390024
+        }
+      ]
+    },
+    "Dundy County, Nebraska": {
+      "label": "Dundy County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 6
+        },
+        {
+          "label": "Hispanic",
+          "value": 44
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 20
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1741
+        }
+      ]
+    },
+    "Fillmore County, Nebraska": {
+      "label": "Fillmore County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 15
+        },
+        {
+          "label": "Hispanic",
+          "value": 204
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 139
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5164
+        }
+      ]
+    },
+    "Franklin County, Nebraska": {
+      "label": "Franklin County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 6
+        },
+        {
+          "label": "Hispanic",
+          "value": 90
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 79
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2675
+        }
+      ]
+    },
+    "Frontier County, Nebraska": {
+      "label": "Frontier County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 26
+        },
+        {
+          "label": "Hispanic",
+          "value": 96
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 70
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2366
+        }
+      ]
+    },
+    "Furnas County, Nebraska": {
+      "label": "Furnas County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 44
+        },
+        {
+          "label": "Asian",
+          "value": 5
+        },
+        {
+          "label": "Black or African American",
+          "value": 13
+        },
+        {
+          "label": "Hispanic",
+          "value": 233
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 85
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4225
+        }
+      ]
+    },
+    "Gage County, Nebraska": {
+      "label": "Gage County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 70
+        },
+        {
+          "label": "Asian",
+          "value": 128
+        },
+        {
+          "label": "Black or African American",
+          "value": 144
+        },
+        {
+          "label": "Hispanic",
+          "value": 695
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 482
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20104
+        }
+      ]
+    },
+    "Garden County, Nebraska": {
+      "label": "Garden County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 1
+        },
+        {
+          "label": "Hispanic",
+          "value": 53
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 23
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1532
+        }
+      ]
+    },
+    "Garfield County, Nebraska": {
+      "label": "Garfield County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 7
+        },
+        {
+          "label": "Hispanic",
+          "value": 38
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 19
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1733
+        }
+      ]
+    },
+    "Gosper County, Nebraska": {
+      "label": "Gosper County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 123
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 25
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1766
+        }
+      ]
+    },
+    "Grant County, Nebraska": {
+      "label": "Grant County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 5
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 1
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 13
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 657
+        }
+      ]
+    },
+    "Greeley County, Nebraska": {
+      "label": "Greeley County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 14
+        },
+        {
+          "label": "Hispanic",
+          "value": 48
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 89
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2046
+        }
+      ]
+    },
+    "Hall County, Nebraska": {
+      "label": "Hall County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 220
+        },
+        {
+          "label": "Asian",
+          "value": 649
+        },
+        {
+          "label": "Black or African American",
+          "value": 1987
+        },
+        {
+          "label": "Hispanic",
+          "value": 19563
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 26
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1125
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 38763
+        }
+      ]
+    },
+    "Hamilton County, Nebraska": {
+      "label": "Hamilton County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 36
+        },
+        {
+          "label": "Black or African American",
+          "value": 14
+        },
+        {
+          "label": "Hispanic",
+          "value": 384
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 230
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8755
+        }
+      ]
+    },
+    "Harlan County, Nebraska": {
+      "label": "Harlan County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 40
+        },
+        {
+          "label": "Black or African American",
+          "value": 6
+        },
+        {
+          "label": "Hispanic",
+          "value": 70
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 77
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2813
+        }
+      ]
+    },
+    "Hayes County, Nebraska": {
+      "label": "Hayes County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 55
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 789
+        }
+      ]
+    },
+    "Hitchcock County, Nebraska": {
+      "label": "Hitchcock County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 8
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 101
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 71
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2409
+        }
+      ]
+    },
+    "Holt County, Nebraska": {
+      "label": "Holt County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 21
+        },
+        {
+          "label": "Asian",
+          "value": 46
+        },
+        {
+          "label": "Black or African American",
+          "value": 32
+        },
+        {
+          "label": "Hispanic",
+          "value": 556
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 166
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9248
+        }
+      ]
+    },
+    "Hooker County, Nebraska": {
+      "label": "Hooker County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 11
+        },
+        {
+          "label": "Hispanic",
+          "value": 0
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 49
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 534
+        }
+      ]
+    },
+    "Howard County, Nebraska": {
+      "label": "Howard County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 33
+        },
+        {
+          "label": "Hispanic",
+          "value": 194
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 305
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5958
+        }
+      ]
+    },
+    "Jefferson County, Nebraska": {
+      "label": "Jefferson County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 2
+        },
+        {
+          "label": "Black or African American",
+          "value": 45
+        },
+        {
+          "label": "Hispanic",
+          "value": 379
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 189
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6521
+        }
+      ]
+    },
+    "Johnson County, Nebraska": {
+      "label": "Johnson County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 71
+        },
+        {
+          "label": "Asian",
+          "value": 56
+        },
+        {
+          "label": "Black or African American",
+          "value": 245
+        },
+        {
+          "label": "Hispanic",
+          "value": 615
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 163
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4113
+        }
+      ]
+    },
+    "Kearney County, Nebraska": {
+      "label": "Kearney County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 41
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 434
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 74
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6113
+        }
+      ]
+    },
+    "Keith County, Nebraska": {
+      "label": "Keith County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 51
+        },
+        {
+          "label": "Black or African American",
+          "value": 109
+        },
+        {
+          "label": "Hispanic",
+          "value": 741
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 247
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7091
+        }
+      ]
+    },
+    "Keya Paha County, Nebraska": {
+      "label": "Keya Paha County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 1
+        },
+        {
+          "label": "Hispanic",
+          "value": 34
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 881
+        }
+      ]
+    },
+    "Kimball County, Nebraska": {
+      "label": "Kimball County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 54
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 44
+        },
+        {
+          "label": "Hispanic",
+          "value": 332
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 104
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2801
+        }
+      ]
+    },
+    "Knox County, Nebraska": {
+      "label": "Knox County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 719
+        },
+        {
+          "label": "Asian",
+          "value": 36
+        },
+        {
+          "label": "Black or African American",
+          "value": 50
+        },
+        {
+          "label": "Hispanic",
+          "value": 233
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 213
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7103
+        }
+      ]
+    },
+    "Lancaster County, Nebraska": {
+      "label": "Lancaster County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1002
+        },
+        {
+          "label": "Asian",
+          "value": 13109
+        },
+        {
+          "label": "Black or African American",
+          "value": 11895
+        },
+        {
+          "label": "Hispanic",
+          "value": 26670
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 136
+        },
+        {
+          "label": "Two or More Races",
+          "value": 15049
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 254881
+        }
+      ]
+    },
+    "Lincoln County, Nebraska": {
+      "label": "Lincoln County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 196
+        },
+        {
+          "label": "Asian",
+          "value": 253
+        },
+        {
+          "label": "Black or African American",
+          "value": 282
+        },
+        {
+          "label": "Hispanic",
+          "value": 3099
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 580
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29593
+        }
+      ]
+    },
+    "Logan County, Nebraska": {
+      "label": "Logan County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 13
+        },
+        {
+          "label": "Hispanic",
+          "value": 11
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 49
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 727
+        }
+      ]
+    },
+    "Loup County, Nebraska": {
+      "label": "Loup County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 53
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 20
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 486
+        }
+      ]
+    },
+    "Madison County, Nebraska": {
+      "label": "Madison County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 291
+        },
+        {
+          "label": "Asian",
+          "value": 430
+        },
+        {
+          "label": "Black or African American",
+          "value": 307
+        },
+        {
+          "label": "Hispanic",
+          "value": 5658
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1072
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27777
+        }
+      ]
+    },
+    "McPherson County, Nebraska": {
+      "label": "McPherson County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 0
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 460
+        }
+      ]
+    },
+    "Merrick County, Nebraska": {
+      "label": "Merrick County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 64
+        },
+        {
+          "label": "Black or African American",
+          "value": 3
+        },
+        {
+          "label": "Hispanic",
+          "value": 417
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 197
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7014
+        }
+      ]
+    },
+    "Morrill County, Nebraska": {
+      "label": "Morrill County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 48
+        },
+        {
+          "label": "Black or African American",
+          "value": 4
+        },
+        {
+          "label": "Hispanic",
+          "value": 658
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 96
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3693
+        }
+      ]
+    },
+    "Nance County, Nebraska": {
+      "label": "Nance County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 21
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 11
+        },
+        {
+          "label": "Hispanic",
+          "value": 78
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 54
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3163
+        }
+      ]
+    },
+    "Nemaha County, Nebraska": {
+      "label": "Nemaha County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 17
+        },
+        {
+          "label": "Black or African American",
+          "value": 79
+        },
+        {
+          "label": "Hispanic",
+          "value": 219
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 384
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6308
+        }
+      ]
+    },
+    "Nuckolls County, Nebraska": {
+      "label": "Nuckolls County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 8
+        },
+        {
+          "label": "Hispanic",
+          "value": 141
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 131
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3788
+        }
+      ]
+    },
+    "Otoe County, Nebraska": {
+      "label": "Otoe County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 129
+        },
+        {
+          "label": "Hispanic",
+          "value": 1331
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 666
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13908
+        }
+      ]
+    },
+    "Pawnee County, Nebraska": {
+      "label": "Pawnee County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 6
+        },
+        {
+          "label": "Hispanic",
+          "value": 47
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 99
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2387
+        }
+      ]
+    },
+    "Perkins County, Nebraska": {
+      "label": "Perkins County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 18
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 144
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 87
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2580
+        }
+      ]
+    },
+    "Phelps County, Nebraska": {
+      "label": "Phelps County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 6
+        },
+        {
+          "label": "Black or African American",
+          "value": 73
+        },
+        {
+          "label": "Hispanic",
+          "value": 581
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 195
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8091
+        }
+      ]
+    },
+    "Pierce County, Nebraska": {
+      "label": "Pierce County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 30
+        },
+        {
+          "label": "Asian",
+          "value": 16
+        },
+        {
+          "label": "Black or African American",
+          "value": 29
+        },
+        {
+          "label": "Hispanic",
+          "value": 181
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 139
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6912
+        }
+      ]
+    },
+    "Platte County, Nebraska": {
+      "label": "Platte County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 71
+        },
+        {
+          "label": "Asian",
+          "value": 124
+        },
+        {
+          "label": "Black or African American",
+          "value": 279
+        },
+        {
+          "label": "Hispanic",
+          "value": 7642
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 681
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25526
+        }
+      ]
+    },
+    "Polk County, Nebraska": {
+      "label": "Polk County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 4
+        },
+        {
+          "label": "Hispanic",
+          "value": 301
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 156
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4738
+        }
+      ]
+    },
+    "Red Willow County, Nebraska": {
+      "label": "Red Willow County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 40
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 90
+        },
+        {
+          "label": "Hispanic",
+          "value": 655
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 269
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9557
+        }
+      ]
+    },
+    "Richardson County, Nebraska": {
+      "label": "Richardson County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 93
+        },
+        {
+          "label": "Asian",
+          "value": 2
+        },
+        {
+          "label": "Black or African American",
+          "value": 16
+        },
+        {
+          "label": "Hispanic",
+          "value": 171
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 427
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7088
+        }
+      ]
+    },
+    "Rock County, Nebraska": {
+      "label": "Rock County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 6
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1314
+        }
+      ]
+    },
+    "Saline County, Nebraska": {
+      "label": "Saline County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 423
+        },
+        {
+          "label": "Black or African American",
+          "value": 68
+        },
+        {
+          "label": "Hispanic",
+          "value": 4203
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 296
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9617
+        }
+      ]
+    },
+    "Sarpy County, Nebraska": {
+      "label": "Sarpy County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 412
+        },
+        {
+          "label": "Asian",
+          "value": 5263
+        },
+        {
+          "label": "Black or African American",
+          "value": 7725
+        },
+        {
+          "label": "Hispanic",
+          "value": 21466
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 231
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7259
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 150497
+        }
+      ]
+    },
+    "Saunders County, Nebraska": {
+      "label": "Saunders County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 30
+        },
+        {
+          "label": "Asian",
+          "value": 51
+        },
+        {
+          "label": "Black or African American",
+          "value": 149
+        },
+        {
+          "label": "Hispanic",
+          "value": 617
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 710
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21162
+        }
+      ]
+    },
+    "Scotts Bluff County, Nebraska": {
+      "label": "Scotts Bluff County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 418
+        },
+        {
+          "label": "Asian",
+          "value": 235
+        },
+        {
+          "label": "Black or African American",
+          "value": 202
+        },
+        {
+          "label": "Hispanic",
+          "value": 8420
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 812
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25721
+        }
+      ]
+    },
+    "Seward County, Nebraska": {
+      "label": "Seward County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 82
+        },
+        {
+          "label": "Black or African American",
+          "value": 119
+        },
+        {
+          "label": "Hispanic",
+          "value": 497
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 338
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16579
+        }
+      ]
+    },
+    "Sheridan County, Nebraska": {
+      "label": "Sheridan County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 469
+        },
+        {
+          "label": "Asian",
+          "value": 67
+        },
+        {
+          "label": "Black or African American",
+          "value": 22
+        },
+        {
+          "label": "Hispanic",
+          "value": 260
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 123
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4106
+        }
+      ]
+    },
+    "Sherman County, Nebraska": {
+      "label": "Sherman County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 10
+        },
+        {
+          "label": "Black or African American",
+          "value": 19
+        },
+        {
+          "label": "Hispanic",
+          "value": 78
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 107
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2757
+        }
+      ]
+    },
+    "Sioux County, Nebraska": {
+      "label": "Sioux County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 4
+        },
+        {
+          "label": "Hispanic",
+          "value": 46
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 15
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1125
+        }
+      ]
+    },
+    "Stanton County, Nebraska": {
+      "label": "Stanton County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 17
+        },
+        {
+          "label": "Black or African American",
+          "value": 12
+        },
+        {
+          "label": "Hispanic",
+          "value": 388
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 177
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5232
+        }
+      ]
+    },
+    "Thayer County, Nebraska": {
+      "label": "Thayer County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 27
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 5
+        },
+        {
+          "label": "Hispanic",
+          "value": 153
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 132
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4612
+        }
+      ]
+    },
+    "Thomas County, Nebraska": {
+      "label": "Thomas County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 8
+        },
+        {
+          "label": "Hispanic",
+          "value": 25
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 41
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 552
+        }
+      ]
+    },
+    "Thurston County, Nebraska": {
+      "label": "Thurston County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3653
+        },
+        {
+          "label": "Asian",
+          "value": 62
+        },
+        {
+          "label": "Black or African American",
+          "value": 10
+        },
+        {
+          "label": "Hispanic",
+          "value": 293
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 199
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2424
+        }
+      ]
+    },
+    "Valley County, Nebraska": {
+      "label": "Valley County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 11
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 107
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 32
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3916
+        }
+      ]
+    },
+    "Washington County, Nebraska": {
+      "label": "Washington County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 30
+        },
+        {
+          "label": "Asian",
+          "value": 52
+        },
+        {
+          "label": "Black or African American",
+          "value": 51
+        },
+        {
+          "label": "Hispanic",
+          "value": 663
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 585
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19590
+        }
+      ]
+    },
+    "Wayne County, Nebraska": {
+      "label": "Wayne County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 34
+        },
+        {
+          "label": "Black or African American",
+          "value": 99
+        },
+        {
+          "label": "Hispanic",
+          "value": 984
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 263
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8376
+        }
+      ]
+    },
+    "Webster County, Nebraska": {
+      "label": "Webster County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 5
+        },
+        {
+          "label": "Hispanic",
+          "value": 186
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 138
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3019
+        }
+      ]
+    },
+    "Wheeler County, Nebraska": {
+      "label": "Wheeler County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 15
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 760
+        }
+      ]
+    },
+    "York County, Nebraska": {
+      "label": "York County, Nebraska",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 75
+        },
+        {
+          "label": "Asian",
+          "value": 77
+        },
+        {
+          "label": "Black or African American",
+          "value": 172
+        },
+        {
+          "label": "Hispanic",
+          "value": 859
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 386
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12594
+        }
+      ]
+    }
+  }
+}

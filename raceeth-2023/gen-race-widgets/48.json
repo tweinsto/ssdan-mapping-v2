@@ -1,0 +1,8420 @@
+{
+  "state": "Anderson County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 44974
+        },
+        {
+          "label": "Asian",
+          "value": 1557270
+        },
+        {
+          "label": "Black or African American",
+          "value": 3528533
+        },
+        {
+          "label": "Hispanic",
+          "value": 11697134
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 24165
+        },
+        {
+          "label": "Two or More Races",
+          "value": 850002
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11832668
+        }
+      ]
+    },
+    "Anderson County, Texas": {
+      "label": "Anderson County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 440
+        },
+        {
+          "label": "Asian",
+          "value": 330
+        },
+        {
+          "label": "Black or African American",
+          "value": 10519
+        },
+        {
+          "label": "Hispanic",
+          "value": 11182
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 58
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2894
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32271
+        }
+      ]
+    },
+    "Andrews County, Texas": {
+      "label": "Andrews County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 37
+        },
+        {
+          "label": "Asian",
+          "value": 77
+        },
+        {
+          "label": "Black or African American",
+          "value": 347
+        },
+        {
+          "label": "Hispanic",
+          "value": 10525
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 184
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7322
+        }
+      ]
+    },
+    "Angelina County, Texas": {
+      "label": "Angelina County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 163
+        },
+        {
+          "label": "Asian",
+          "value": 824
+        },
+        {
+          "label": "Black or African American",
+          "value": 10603
+        },
+        {
+          "label": "Hispanic",
+          "value": 20104
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3699
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 51241
+        }
+      ]
+    },
+    "Aransas County, Texas": {
+      "label": "Aransas County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 147
+        },
+        {
+          "label": "Asian",
+          "value": 267
+        },
+        {
+          "label": "Black or African American",
+          "value": 273
+        },
+        {
+          "label": "Hispanic",
+          "value": 6542
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 683
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16525
+        }
+      ]
+    },
+    "Archer County, Texas": {
+      "label": "Archer County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 18
+        },
+        {
+          "label": "Black or African American",
+          "value": 67
+        },
+        {
+          "label": "Hispanic",
+          "value": 787
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 285
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7547
+        }
+      ]
+    },
+    "Armstrong County, Texas": {
+      "label": "Armstrong County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 23
+        },
+        {
+          "label": "Black or African American",
+          "value": 10
+        },
+        {
+          "label": "Hispanic",
+          "value": 180
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 30
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1622
+        }
+      ]
+    },
+    "Atascosa County, Texas": {
+      "label": "Atascosa County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 24
+        },
+        {
+          "label": "Asian",
+          "value": 278
+        },
+        {
+          "label": "Black or African American",
+          "value": 601
+        },
+        {
+          "label": "Hispanic",
+          "value": 32389
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 704
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15926
+        }
+      ]
+    },
+    "Austin County, Texas": {
+      "label": "Austin County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 234
+        },
+        {
+          "label": "Black or African American",
+          "value": 2690
+        },
+        {
+          "label": "Hispanic",
+          "value": 8359
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 549
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18717
+        }
+      ]
+    },
+    "Bailey County, Texas": {
+      "label": "Bailey County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 50
+        },
+        {
+          "label": "Black or African American",
+          "value": 30
+        },
+        {
+          "label": "Hispanic",
+          "value": 4548
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 211
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2205
+        }
+      ]
+    },
+    "Bandera County, Texas": {
+      "label": "Bandera County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 86
+        },
+        {
+          "label": "Asian",
+          "value": 78
+        },
+        {
+          "label": "Black or African American",
+          "value": 232
+        },
+        {
+          "label": "Hispanic",
+          "value": 4366
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 735
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15956
+        }
+      ]
+    },
+    "Bastrop County, Texas": {
+      "label": "Bastrop County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 103
+        },
+        {
+          "label": "Asian",
+          "value": 689
+        },
+        {
+          "label": "Black or African American",
+          "value": 5854
+        },
+        {
+          "label": "Hispanic",
+          "value": 45026
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3539
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 46827
+        }
+      ]
+    },
+    "Baylor County, Texas": {
+      "label": "Baylor County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 26
+        },
+        {
+          "label": "Hispanic",
+          "value": 473
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 47
+        },
+        {
+          "label": "Two or More Races",
+          "value": 249
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2630
+        }
+      ]
+    },
+    "Bee County, Texas": {
+      "label": "Bee County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 81
+        },
+        {
+          "label": "Asian",
+          "value": 181
+        },
+        {
+          "label": "Black or African American",
+          "value": 1852
+        },
+        {
+          "label": "Hispanic",
+          "value": 19187
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 999
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8641
+        }
+      ]
+    },
+    "Bell County, Texas": {
+      "label": "Bell County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 475
+        },
+        {
+          "label": "Asian",
+          "value": 10947
+        },
+        {
+          "label": "Black or African American",
+          "value": 82125
+        },
+        {
+          "label": "Hispanic",
+          "value": 98037
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2448
+        },
+        {
+          "label": "Two or More Races",
+          "value": 20623
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 163585
+        }
+      ]
+    },
+    "Bexar County, Texas": {
+      "label": "Bexar County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2632
+        },
+        {
+          "label": "Asian",
+          "value": 62508
+        },
+        {
+          "label": "Black or African American",
+          "value": 149264
+        },
+        {
+          "label": "Hispanic",
+          "value": 1212855
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2323
+        },
+        {
+          "label": "Two or More Races",
+          "value": 54299
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 544259
+        }
+      ]
+    },
+    "Blanco County, Texas": {
+      "label": "Blanco County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 22
+        },
+        {
+          "label": "Asian",
+          "value": 44
+        },
+        {
+          "label": "Black or African American",
+          "value": 92
+        },
+        {
+          "label": "Hispanic",
+          "value": 2209
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 520
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9121
+        }
+      ]
+    },
+    "Borden County, Texas": {
+      "label": "Borden County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 11
+        },
+        {
+          "label": "Hispanic",
+          "value": 110
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 22
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 580
+        }
+      ]
+    },
+    "Bosque County, Texas": {
+      "label": "Bosque County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 22
+        },
+        {
+          "label": "Asian",
+          "value": 89
+        },
+        {
+          "label": "Black or African American",
+          "value": 217
+        },
+        {
+          "label": "Hispanic",
+          "value": 3492
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 584
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14013
+        }
+      ]
+    },
+    "Bowie County, Texas": {
+      "label": "Bowie County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 345
+        },
+        {
+          "label": "Asian",
+          "value": 1162
+        },
+        {
+          "label": "Black or African American",
+          "value": 22837
+        },
+        {
+          "label": "Hispanic",
+          "value": 7726
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 119
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3106
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 56874
+        }
+      ]
+    },
+    "Brazoria County, Texas": {
+      "label": "Brazoria County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 613
+        },
+        {
+          "label": "Asian",
+          "value": 27626
+        },
+        {
+          "label": "Black or African American",
+          "value": 59286
+        },
+        {
+          "label": "Hispanic",
+          "value": 119727
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 66
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9581
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 163852
+        }
+      ]
+    },
+    "Brazos County, Texas": {
+      "label": "Brazos County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 173
+        },
+        {
+          "label": "Asian",
+          "value": 13388
+        },
+        {
+          "label": "Black or African American",
+          "value": 24510
+        },
+        {
+          "label": "Hispanic",
+          "value": 64536
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 184
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6894
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 127348
+        }
+      ]
+    },
+    "Brewster County, Texas": {
+      "label": "Brewster County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 114
+        },
+        {
+          "label": "Black or African American",
+          "value": 27
+        },
+        {
+          "label": "Hispanic",
+          "value": 3980
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 16
+        },
+        {
+          "label": "Two or More Races",
+          "value": 81
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5246
+        }
+      ]
+    },
+    "Briscoe County, Texas": {
+      "label": "Briscoe County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 45
+        },
+        {
+          "label": "Hispanic",
+          "value": 321
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 840
+        }
+      ]
+    },
+    "Brooks County, Texas": {
+      "label": "Brooks County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 54
+        },
+        {
+          "label": "Hispanic",
+          "value": 6290
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 16
+        },
+        {
+          "label": "Two or More Races",
+          "value": 55
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 572
+        }
+      ]
+    },
+    "Brown County, Texas": {
+      "label": "Brown County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 22
+        },
+        {
+          "label": "Asian",
+          "value": 213
+        },
+        {
+          "label": "Black or African American",
+          "value": 1235
+        },
+        {
+          "label": "Hispanic",
+          "value": 8503
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1034
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27004
+        }
+      ]
+    },
+    "Burleson County, Texas": {
+      "label": "Burleson County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 67
+        },
+        {
+          "label": "Black or African American",
+          "value": 2119
+        },
+        {
+          "label": "Hispanic",
+          "value": 4003
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 506
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11552
+        }
+      ]
+    },
+    "Burnet County, Texas": {
+      "label": "Burnet County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 91
+        },
+        {
+          "label": "Asian",
+          "value": 323
+        },
+        {
+          "label": "Black or African American",
+          "value": 636
+        },
+        {
+          "label": "Hispanic",
+          "value": 11782
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 59
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1610
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 36432
+        }
+      ]
+    },
+    "Caldwell County, Texas": {
+      "label": "Caldwell County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 321
+        },
+        {
+          "label": "Black or African American",
+          "value": 1914
+        },
+        {
+          "label": "Hispanic",
+          "value": 26565
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1538
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16787
+        }
+      ]
+    },
+    "Calhoun County, Texas": {
+      "label": "Calhoun County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 37
+        },
+        {
+          "label": "Asian",
+          "value": 1054
+        },
+        {
+          "label": "Black or African American",
+          "value": 467
+        },
+        {
+          "label": "Hispanic",
+          "value": 9816
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 305
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8242
+        }
+      ]
+    },
+    "Callahan County, Texas": {
+      "label": "Callahan County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 77
+        },
+        {
+          "label": "Black or African American",
+          "value": 245
+        },
+        {
+          "label": "Hispanic",
+          "value": 1487
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 28
+        },
+        {
+          "label": "Two or More Races",
+          "value": 547
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11528
+        }
+      ]
+    },
+    "Cameron County, Texas": {
+      "label": "Cameron County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 409
+        },
+        {
+          "label": "Asian",
+          "value": 3116
+        },
+        {
+          "label": "Black or African American",
+          "value": 1872
+        },
+        {
+          "label": "Hispanic",
+          "value": 378059
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 104
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1781
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 37309
+        }
+      ]
+    },
+    "Camp County, Texas": {
+      "label": "Camp County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 143
+        },
+        {
+          "label": "Black or African American",
+          "value": 1786
+        },
+        {
+          "label": "Hispanic",
+          "value": 3377
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 581
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6754
+        }
+      ]
+    },
+    "Carson County, Texas": {
+      "label": "Carson County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 126
+        },
+        {
+          "label": "Asian",
+          "value": 8
+        },
+        {
+          "label": "Black or African American",
+          "value": 35
+        },
+        {
+          "label": "Hispanic",
+          "value": 608
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 49
+        },
+        {
+          "label": "Two or More Races",
+          "value": 176
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4773
+        }
+      ]
+    },
+    "Cass County, Texas": {
+      "label": "Cass County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 44
+        },
+        {
+          "label": "Asian",
+          "value": 208
+        },
+        {
+          "label": "Black or African American",
+          "value": 4781
+        },
+        {
+          "label": "Hispanic",
+          "value": 1467
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 603
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21369
+        }
+      ]
+    },
+    "Castro County, Texas": {
+      "label": "Castro County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 49
+        },
+        {
+          "label": "Asian",
+          "value": 91
+        },
+        {
+          "label": "Black or African American",
+          "value": 86
+        },
+        {
+          "label": "Hispanic",
+          "value": 4783
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 118
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2199
+        }
+      ]
+    },
+    "Chambers County, Texas": {
+      "label": "Chambers County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 60
+        },
+        {
+          "label": "Asian",
+          "value": 742
+        },
+        {
+          "label": "Black or African American",
+          "value": 3554
+        },
+        {
+          "label": "Hispanic",
+          "value": 12418
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1327
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 31031
+        }
+      ]
+    },
+    "Cherokee County, Texas": {
+      "label": "Cherokee County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 37
+        },
+        {
+          "label": "Asian",
+          "value": 311
+        },
+        {
+          "label": "Black or African American",
+          "value": 6638
+        },
+        {
+          "label": "Hispanic",
+          "value": 12143
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1836
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30049
+        }
+      ]
+    },
+    "Childress County, Texas": {
+      "label": "Childress County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 8
+        },
+        {
+          "label": "Black or African American",
+          "value": 451
+        },
+        {
+          "label": "Hispanic",
+          "value": 2305
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 337
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3663
+        }
+      ]
+    },
+    "Clay County, Texas": {
+      "label": "Clay County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 61
+        },
+        {
+          "label": "Asian",
+          "value": 91
+        },
+        {
+          "label": "Black or African American",
+          "value": 117
+        },
+        {
+          "label": "Hispanic",
+          "value": 705
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 307
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9116
+        }
+      ]
+    },
+    "Cochran County, Texas": {
+      "label": "Cochran County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 127
+        },
+        {
+          "label": "Hispanic",
+          "value": 1501
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 25
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 861
+        }
+      ]
+    },
+    "Coke County, Texas": {
+      "label": "Coke County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 57
+        },
+        {
+          "label": "Hispanic",
+          "value": 691
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 62
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2501
+        }
+      ]
+    },
+    "Coleman County, Texas": {
+      "label": "Coleman County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 68
+        },
+        {
+          "label": "Black or African American",
+          "value": 302
+        },
+        {
+          "label": "Hispanic",
+          "value": 1252
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 122
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5993
+        }
+      ]
+    },
+    "Collin County, Texas": {
+      "label": "Collin County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2225
+        },
+        {
+          "label": "Asian",
+          "value": 196106
+        },
+        {
+          "label": "Black or African American",
+          "value": 117821
+        },
+        {
+          "label": "Hispanic",
+          "value": 178350
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 571
+        },
+        {
+          "label": "Two or More Races",
+          "value": 42886
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 572361
+        }
+      ]
+    },
+    "Collingsworth County, Texas": {
+      "label": "Collingsworth County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 216
+        },
+        {
+          "label": "Hispanic",
+          "value": 891
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 23
+        },
+        {
+          "label": "Two or More Races",
+          "value": 128
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1471
+        }
+      ]
+    },
+    "Colorado County, Texas": {
+      "label": "Colorado County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 100
+        },
+        {
+          "label": "Black or African American",
+          "value": 2550
+        },
+        {
+          "label": "Hispanic",
+          "value": 6218
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 301
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11493
+        }
+      ]
+    },
+    "Comal County, Texas": {
+      "label": "Comal County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 133
+        },
+        {
+          "label": "Asian",
+          "value": 2247
+        },
+        {
+          "label": "Black or African American",
+          "value": 4271
+        },
+        {
+          "label": "Hispanic",
+          "value": 48664
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 72
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4869
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 113270
+        }
+      ]
+    },
+    "Comanche County, Texas": {
+      "label": "Comanche County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 25
+        },
+        {
+          "label": "Asian",
+          "value": 63
+        },
+        {
+          "label": "Black or African American",
+          "value": 70
+        },
+        {
+          "label": "Hispanic",
+          "value": 4002
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 412
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9196
+        }
+      ]
+    },
+    "Concho County, Texas": {
+      "label": "Concho County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 54
+        },
+        {
+          "label": "Black or African American",
+          "value": 122
+        },
+        {
+          "label": "Hispanic",
+          "value": 1024
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 74
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2019
+        }
+      ]
+    },
+    "Cooke County, Texas": {
+      "label": "Cooke County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 175
+        },
+        {
+          "label": "Asian",
+          "value": 294
+        },
+        {
+          "label": "Black or African American",
+          "value": 1411
+        },
+        {
+          "label": "Hispanic",
+          "value": 8719
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1391
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30431
+        }
+      ]
+    },
+    "Coryell County, Texas": {
+      "label": "Coryell County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 187
+        },
+        {
+          "label": "Asian",
+          "value": 1664
+        },
+        {
+          "label": "Black or African American",
+          "value": 10658
+        },
+        {
+          "label": "Hispanic",
+          "value": 16992
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 617
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7161
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 46233
+        }
+      ]
+    },
+    "Cottle County, Texas": {
+      "label": "Cottle County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 64
+        },
+        {
+          "label": "Hispanic",
+          "value": 338
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 118
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 769
+        }
+      ]
+    },
+    "Crane County, Texas": {
+      "label": "Crane County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 113
+        },
+        {
+          "label": "Black or African American",
+          "value": 74
+        },
+        {
+          "label": "Hispanic",
+          "value": 3160
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 37
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1222
+        }
+      ]
+    },
+    "Crockett County, Texas": {
+      "label": "Crockett County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 17
+        },
+        {
+          "label": "Hispanic",
+          "value": 1795
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1067
+        }
+      ]
+    },
+    "Crosby County, Texas": {
+      "label": "Crosby County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 50
+        },
+        {
+          "label": "Black or African American",
+          "value": 112
+        },
+        {
+          "label": "Hispanic",
+          "value": 2831
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 93
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1976
+        }
+      ]
+    },
+    "Culberson County, Texas": {
+      "label": "Culberson County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 61
+        },
+        {
+          "label": "Asian",
+          "value": 23
+        },
+        {
+          "label": "Black or African American",
+          "value": 4
+        },
+        {
+          "label": "Hispanic",
+          "value": 1899
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 0
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 194
+        }
+      ]
+    },
+    "Dallam County, Texas": {
+      "label": "Dallam County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 14
+        },
+        {
+          "label": "Hispanic",
+          "value": 3781
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 260
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3040
+        }
+      ]
+    },
+    "Dallas County, Texas": {
+      "label": "Dallas County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3947
+        },
+        {
+          "label": "Asian",
+          "value": 176404
+        },
+        {
+          "label": "Black or African American",
+          "value": 578968
+        },
+        {
+          "label": "Hispanic",
+          "value": 1061995
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1204
+        },
+        {
+          "label": "Two or More Races",
+          "value": 67703
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 705258
+        }
+      ]
+    },
+    "Dawson County, Texas": {
+      "label": "Dawson County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 51
+        },
+        {
+          "label": "Black or African American",
+          "value": 803
+        },
+        {
+          "label": "Hispanic",
+          "value": 6815
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 246
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4381
+        }
+      ]
+    },
+    "Deaf Smith County, Texas": {
+      "label": "Deaf Smith County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 190
+        },
+        {
+          "label": "Asian",
+          "value": 8
+        },
+        {
+          "label": "Black or African American",
+          "value": 148
+        },
+        {
+          "label": "Hispanic",
+          "value": 14000
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 103
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4038
+        }
+      ]
+    },
+    "Delta County, Texas": {
+      "label": "Delta County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 446
+        },
+        {
+          "label": "Hispanic",
+          "value": 466
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 193
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4194
+        }
+      ]
+    },
+    "Denton County, Texas": {
+      "label": "Denton County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1385
+        },
+        {
+          "label": "Asian",
+          "value": 97075
+        },
+        {
+          "label": "Black or African American",
+          "value": 99365
+        },
+        {
+          "label": "Hispanic",
+          "value": 191815
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 806
+        },
+        {
+          "label": "Two or More Races",
+          "value": 40506
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 511104
+        }
+      ]
+    },
+    "DeWitt County, Texas": {
+      "label": "DeWitt County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 35
+        },
+        {
+          "label": "Asian",
+          "value": 91
+        },
+        {
+          "label": "Black or African American",
+          "value": 1452
+        },
+        {
+          "label": "Hispanic",
+          "value": 7017
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 548
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10653
+        }
+      ]
+    },
+    "Dickens County, Texas": {
+      "label": "Dickens County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 24
+        },
+        {
+          "label": "Hispanic",
+          "value": 558
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 11
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1044
+        }
+      ]
+    },
+    "Dimmit County, Texas": {
+      "label": "Dimmit County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 99
+        },
+        {
+          "label": "Asian",
+          "value": 15
+        },
+        {
+          "label": "Black or African American",
+          "value": 60
+        },
+        {
+          "label": "Hispanic",
+          "value": 7403
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 72
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 804
+        }
+      ]
+    },
+    "Donley County, Texas": {
+      "label": "Donley County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 82
+        },
+        {
+          "label": "Black or African American",
+          "value": 177
+        },
+        {
+          "label": "Hispanic",
+          "value": 399
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 34
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2572
+        }
+      ]
+    },
+    "Duval County, Texas": {
+      "label": "Duval County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 69
+        },
+        {
+          "label": "Hispanic",
+          "value": 8038
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 81
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1636
+        }
+      ]
+    },
+    "Eastland County, Texas": {
+      "label": "Eastland County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 54
+        },
+        {
+          "label": "Asian",
+          "value": 62
+        },
+        {
+          "label": "Black or African American",
+          "value": 401
+        },
+        {
+          "label": "Hispanic",
+          "value": 3013
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 459
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13818
+        }
+      ]
+    },
+    "Ector County, Texas": {
+      "label": "Ector County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 311
+        },
+        {
+          "label": "Asian",
+          "value": 1769
+        },
+        {
+          "label": "Black or African American",
+          "value": 7650
+        },
+        {
+          "label": "Hispanic",
+          "value": 101602
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 32
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2765
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 48982
+        }
+      ]
+    },
+    "Edwards County, Texas": {
+      "label": "Edwards County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 22
+        },
+        {
+          "label": "Hispanic",
+          "value": 610
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 21
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 737
+        }
+      ]
+    },
+    "El Paso County, Texas": {
+      "label": "El Paso County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2212
+        },
+        {
+          "label": "Asian",
+          "value": 9787
+        },
+        {
+          "label": "Black or African American",
+          "value": 25346
+        },
+        {
+          "label": "Hispanic",
+          "value": 716543
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1317
+        },
+        {
+          "label": "Two or More Races",
+          "value": 12017
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 97259
+        }
+      ]
+    },
+    "Ellis County, Texas": {
+      "label": "Ellis County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 266
+        },
+        {
+          "label": "Asian",
+          "value": 1583
+        },
+        {
+          "label": "Black or African American",
+          "value": 26896
+        },
+        {
+          "label": "Hispanic",
+          "value": 56354
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 213
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6230
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 111619
+        }
+      ]
+    },
+    "Erath County, Texas": {
+      "label": "Erath County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 114
+        },
+        {
+          "label": "Asian",
+          "value": 402
+        },
+        {
+          "label": "Black or African American",
+          "value": 595
+        },
+        {
+          "label": "Hispanic",
+          "value": 9508
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 112
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1012
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 31390
+        }
+      ]
+    },
+    "Falls County, Texas": {
+      "label": "Falls County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 201
+        },
+        {
+          "label": "Black or African American",
+          "value": 3387
+        },
+        {
+          "label": "Hispanic",
+          "value": 4166
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 775
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8524
+        }
+      ]
+    },
+    "Fannin County, Texas": {
+      "label": "Fannin County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 109
+        },
+        {
+          "label": "Asian",
+          "value": 198
+        },
+        {
+          "label": "Black or African American",
+          "value": 2299
+        },
+        {
+          "label": "Hispanic",
+          "value": 4616
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1216
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27808
+        }
+      ]
+    },
+    "Fayette County, Texas": {
+      "label": "Fayette County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 82
+        },
+        {
+          "label": "Black or African American",
+          "value": 1431
+        },
+        {
+          "label": "Hispanic",
+          "value": 5355
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 522
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17308
+        }
+      ]
+    },
+    "Fisher County, Texas": {
+      "label": "Fisher County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 140
+        },
+        {
+          "label": "Hispanic",
+          "value": 965
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 130
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2410
+        }
+      ]
+    },
+    "Floyd County, Texas": {
+      "label": "Floyd County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 126
+        },
+        {
+          "label": "Hispanic",
+          "value": 3051
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 131
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1973
+        }
+      ]
+    },
+    "Foard County, Texas": {
+      "label": "Foard County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 3
+        },
+        {
+          "label": "Hispanic",
+          "value": 118
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 195
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 755
+        }
+      ]
+    },
+    "Fort Bend County, Texas": {
+      "label": "Fort Bend County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 866
+        },
+        {
+          "label": "Asian",
+          "value": 186089
+        },
+        {
+          "label": "Black or African American",
+          "value": 174209
+        },
+        {
+          "label": "Hispanic",
+          "value": 210272
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 369
+        },
+        {
+          "label": "Two or More Races",
+          "value": 29375
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 256176
+        }
+      ]
+    },
+    "Franklin County, Texas": {
+      "label": "Franklin County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 20
+        },
+        {
+          "label": "Black or African American",
+          "value": 537
+        },
+        {
+          "label": "Hispanic",
+          "value": 1500
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 245
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8173
+        }
+      ]
+    },
+    "Freestone County, Texas": {
+      "label": "Freestone County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 25
+        },
+        {
+          "label": "Black or African American",
+          "value": 2903
+        },
+        {
+          "label": "Hispanic",
+          "value": 3321
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 930
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12582
+        }
+      ]
+    },
+    "Frio County, Texas": {
+      "label": "Frio County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 340
+        },
+        {
+          "label": "Black or African American",
+          "value": 749
+        },
+        {
+          "label": "Hispanic",
+          "value": 13977
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 190
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2731
+        }
+      ]
+    },
+    "Gaines County, Texas": {
+      "label": "Gaines County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 6
+        },
+        {
+          "label": "Black or African American",
+          "value": 541
+        },
+        {
+          "label": "Hispanic",
+          "value": 8723
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 139
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12465
+        }
+      ]
+    },
+    "Galveston County, Texas": {
+      "label": "Galveston County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 521
+        },
+        {
+          "label": "Asian",
+          "value": 11677
+        },
+        {
+          "label": "Black or African American",
+          "value": 42681
+        },
+        {
+          "label": "Hispanic",
+          "value": 91727
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 111
+        },
+        {
+          "label": "Two or More Races",
+          "value": 12032
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 194511
+        }
+      ]
+    },
+    "Garza County, Texas": {
+      "label": "Garza County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 14
+        },
+        {
+          "label": "Black or African American",
+          "value": 558
+        },
+        {
+          "label": "Hispanic",
+          "value": 2717
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 108
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2023
+        }
+      ]
+    },
+    "Gillespie County, Texas": {
+      "label": "Gillespie County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 91
+        },
+        {
+          "label": "Black or African American",
+          "value": 51
+        },
+        {
+          "label": "Hispanic",
+          "value": 6092
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 77
+        },
+        {
+          "label": "Two or More Races",
+          "value": 611
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20185
+        }
+      ]
+    },
+    "Glasscock County, Texas": {
+      "label": "Glasscock County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 290
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 71
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 709
+        }
+      ]
+    },
+    "Goliad County, Texas": {
+      "label": "Goliad County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 30
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 339
+        },
+        {
+          "label": "Hispanic",
+          "value": 2288
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 151
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4287
+        }
+      ]
+    },
+    "Gonzales County, Texas": {
+      "label": "Gonzales County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 99
+        },
+        {
+          "label": "Black or African American",
+          "value": 1187
+        },
+        {
+          "label": "Hispanic",
+          "value": 10035
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 97
+        },
+        {
+          "label": "Two or More Races",
+          "value": 227
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8105
+        }
+      ]
+    },
+    "Gray County, Texas": {
+      "label": "Gray County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 141
+        },
+        {
+          "label": "Asian",
+          "value": 173
+        },
+        {
+          "label": "Black or African American",
+          "value": 930
+        },
+        {
+          "label": "Hispanic",
+          "value": 6499
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 36
+        },
+        {
+          "label": "Two or More Races",
+          "value": 427
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12799
+        }
+      ]
+    },
+    "Grayson County, Texas": {
+      "label": "Grayson County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 532
+        },
+        {
+          "label": "Asian",
+          "value": 1808
+        },
+        {
+          "label": "Black or African American",
+          "value": 7441
+        },
+        {
+          "label": "Hispanic",
+          "value": 22190
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 105
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6398
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 100814
+        }
+      ]
+    },
+    "Gregg County, Texas": {
+      "label": "Gregg County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 150
+        },
+        {
+          "label": "Asian",
+          "value": 1651
+        },
+        {
+          "label": "Black or African American",
+          "value": 23969
+        },
+        {
+          "label": "Hispanic",
+          "value": 24748
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 29
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5070
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 69011
+        }
+      ]
+    },
+    "Grimes County, Texas": {
+      "label": "Grimes County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 128
+        },
+        {
+          "label": "Asian",
+          "value": 124
+        },
+        {
+          "label": "Black or African American",
+          "value": 3491
+        },
+        {
+          "label": "Hispanic",
+          "value": 7691
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1239
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17247
+        }
+      ]
+    },
+    "Guadalupe County, Texas": {
+      "label": "Guadalupe County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 135
+        },
+        {
+          "label": "Asian",
+          "value": 2761
+        },
+        {
+          "label": "Black or African American",
+          "value": 13040
+        },
+        {
+          "label": "Hispanic",
+          "value": 68626
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 84
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6947
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 85530
+        }
+      ]
+    },
+    "Hale County, Texas": {
+      "label": "Hale County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 45
+        },
+        {
+          "label": "Asian",
+          "value": 193
+        },
+        {
+          "label": "Black or African American",
+          "value": 1297
+        },
+        {
+          "label": "Hispanic",
+          "value": 19597
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 17
+        },
+        {
+          "label": "Two or More Races",
+          "value": 612
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10343
+        }
+      ]
+    },
+    "Hall County, Texas": {
+      "label": "Hall County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 12
+        },
+        {
+          "label": "Black or African American",
+          "value": 140
+        },
+        {
+          "label": "Hispanic",
+          "value": 975
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 129
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1542
+        }
+      ]
+    },
+    "Hamilton County, Texas": {
+      "label": "Hamilton County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 5
+        },
+        {
+          "label": "Black or African American",
+          "value": 158
+        },
+        {
+          "label": "Hispanic",
+          "value": 1129
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 95
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6900
+        }
+      ]
+    },
+    "Hansford County, Texas": {
+      "label": "Hansford County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 38
+        },
+        {
+          "label": "Asian",
+          "value": 6
+        },
+        {
+          "label": "Black or African American",
+          "value": 11
+        },
+        {
+          "label": "Hispanic",
+          "value": 2575
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 81
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2471
+        }
+      ]
+    },
+    "Hardeman County, Texas": {
+      "label": "Hardeman County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 44
+        },
+        {
+          "label": "Black or African American",
+          "value": 121
+        },
+        {
+          "label": "Hispanic",
+          "value": 949
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 86
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2313
+        }
+      ]
+    },
+    "Hardin County, Texas": {
+      "label": "Hardin County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 277
+        },
+        {
+          "label": "Black or African American",
+          "value": 3183
+        },
+        {
+          "label": "Hispanic",
+          "value": 3723
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2269
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 47568
+        }
+      ]
+    },
+    "Harris County, Texas": {
+      "label": "Harris County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5099
+        },
+        {
+          "label": "Asian",
+          "value": 339625
+        },
+        {
+          "label": "Black or African American",
+          "value": 890273
+        },
+        {
+          "label": "Hispanic",
+          "value": 2065668
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2552
+        },
+        {
+          "label": "Two or More Races",
+          "value": 131668
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1303071
+        }
+      ]
+    },
+    "Harrison County, Texas": {
+      "label": "Harrison County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 177
+        },
+        {
+          "label": "Asian",
+          "value": 402
+        },
+        {
+          "label": "Black or African American",
+          "value": 14210
+        },
+        {
+          "label": "Hispanic",
+          "value": 10129
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2248
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 42240
+        }
+      ]
+    },
+    "Hartley County, Texas": {
+      "label": "Hartley County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 16
+        },
+        {
+          "label": "Black or African American",
+          "value": 355
+        },
+        {
+          "label": "Hispanic",
+          "value": 1629
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 237
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3017
+        }
+      ]
+    },
+    "Haskell County, Texas": {
+      "label": "Haskell County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 317
+        },
+        {
+          "label": "Hispanic",
+          "value": 1402
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 93
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3565
+        }
+      ]
+    },
+    "Hays County, Texas": {
+      "label": "Hays County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 271
+        },
+        {
+          "label": "Asian",
+          "value": 4679
+        },
+        {
+          "label": "Black or African American",
+          "value": 9766
+        },
+        {
+          "label": "Hispanic",
+          "value": 100152
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 123
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7550
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 131514
+        }
+      ]
+    },
+    "Hemphill County, Texas": {
+      "label": "Hemphill County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 11
+        },
+        {
+          "label": "Hispanic",
+          "value": 1099
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 93
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2094
+        }
+      ]
+    },
+    "Henderson County, Texas": {
+      "label": "Henderson County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 190
+        },
+        {
+          "label": "Asian",
+          "value": 589
+        },
+        {
+          "label": "Black or African American",
+          "value": 4408
+        },
+        {
+          "label": "Hispanic",
+          "value": 11964
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 87
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3431
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 62931
+        }
+      ]
+    },
+    "Hidalgo County, Texas": {
+      "label": "Hidalgo County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 630
+        },
+        {
+          "label": "Asian",
+          "value": 8750
+        },
+        {
+          "label": "Black or African American",
+          "value": 4814
+        },
+        {
+          "label": "Hispanic",
+          "value": 809705
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 169
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2026
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 53536
+        }
+      ]
+    },
+    "Hill County, Texas": {
+      "label": "Hill County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 54
+        },
+        {
+          "label": "Asian",
+          "value": 197
+        },
+        {
+          "label": "Black or African American",
+          "value": 2102
+        },
+        {
+          "label": "Hispanic",
+          "value": 8284
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 924
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24992
+        }
+      ]
+    },
+    "Hockley County, Texas": {
+      "label": "Hockley County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 48
+        },
+        {
+          "label": "Asian",
+          "value": 49
+        },
+        {
+          "label": "Black or African American",
+          "value": 611
+        },
+        {
+          "label": "Hispanic",
+          "value": 10644
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 472
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9631
+        }
+      ]
+    },
+    "Hood County, Texas": {
+      "label": "Hood County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 172
+        },
+        {
+          "label": "Asian",
+          "value": 421
+        },
+        {
+          "label": "Black or African American",
+          "value": 657
+        },
+        {
+          "label": "Hispanic",
+          "value": 8569
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 23
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1934
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 52062
+        }
+      ]
+    },
+    "Hopkins County, Texas": {
+      "label": "Hopkins County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 103
+        },
+        {
+          "label": "Asian",
+          "value": 338
+        },
+        {
+          "label": "Black or African American",
+          "value": 2641
+        },
+        {
+          "label": "Hispanic",
+          "value": 6812
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 41
+        },
+        {
+          "label": "Two or More Races",
+          "value": 691
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26594
+        }
+      ]
+    },
+    "Houston County, Texas": {
+      "label": "Houston County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 70
+        },
+        {
+          "label": "Asian",
+          "value": 152
+        },
+        {
+          "label": "Black or African American",
+          "value": 4750
+        },
+        {
+          "label": "Hispanic",
+          "value": 3096
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1041
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12907
+        }
+      ]
+    },
+    "Howard County, Texas": {
+      "label": "Howard County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 109
+        },
+        {
+          "label": "Asian",
+          "value": 336
+        },
+        {
+          "label": "Black or African American",
+          "value": 1615
+        },
+        {
+          "label": "Hispanic",
+          "value": 15547
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 33
+        },
+        {
+          "label": "Two or More Races",
+          "value": 818
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14579
+        }
+      ]
+    },
+    "Hudspeth County, Texas": {
+      "label": "Hudspeth County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 25
+        },
+        {
+          "label": "Hispanic",
+          "value": 2181
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 128
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 997
+        }
+      ]
+    },
+    "Hunt County, Texas": {
+      "label": "Hunt County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 470
+        },
+        {
+          "label": "Asian",
+          "value": 1066
+        },
+        {
+          "label": "Black or African American",
+          "value": 8053
+        },
+        {
+          "label": "Hispanic",
+          "value": 21575
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3712
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 69771
+        }
+      ]
+    },
+    "Hutchinson County, Texas": {
+      "label": "Hutchinson County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 178
+        },
+        {
+          "label": "Asian",
+          "value": 137
+        },
+        {
+          "label": "Black or African American",
+          "value": 486
+        },
+        {
+          "label": "Hispanic",
+          "value": 5011
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 42
+        },
+        {
+          "label": "Two or More Races",
+          "value": 591
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13897
+        }
+      ]
+    },
+    "Irion County, Texas": {
+      "label": "Irion County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 428
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 12
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 988
+        }
+      ]
+    },
+    "Jack County, Texas": {
+      "label": "Jack County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 52
+        },
+        {
+          "label": "Black or African American",
+          "value": 293
+        },
+        {
+          "label": "Hispanic",
+          "value": 1589
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 170
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6517
+        }
+      ]
+    },
+    "Jackson County, Texas": {
+      "label": "Jackson County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 305
+        },
+        {
+          "label": "Black or African American",
+          "value": 894
+        },
+        {
+          "label": "Hispanic",
+          "value": 4948
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 214
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8705
+        }
+      ]
+    },
+    "Jasper County, Texas": {
+      "label": "Jasper County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 158
+        },
+        {
+          "label": "Black or African American",
+          "value": 5061
+        },
+        {
+          "label": "Hispanic",
+          "value": 2248
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1114
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24190
+        }
+      ]
+    },
+    "Jeff Davis County, Texas": {
+      "label": "Jeff Davis County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 11
+        },
+        {
+          "label": "Hispanic",
+          "value": 540
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 29
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1160
+        }
+      ]
+    },
+    "Jefferson County, Texas": {
+      "label": "Jefferson County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 381
+        },
+        {
+          "label": "Asian",
+          "value": 9503
+        },
+        {
+          "label": "Black or African American",
+          "value": 83512
+        },
+        {
+          "label": "Hispanic",
+          "value": 59759
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 150
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5203
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 94924
+        }
+      ]
+    },
+    "Jim Hogg County, Texas": {
+      "label": "Jim Hogg County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 11
+        },
+        {
+          "label": "Black or African American",
+          "value": 5
+        },
+        {
+          "label": "Hispanic",
+          "value": 3757
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 0
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1024
+        }
+      ]
+    },
+    "Jim Wells County, Texas": {
+      "label": "Jim Wells County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 35
+        },
+        {
+          "label": "Asian",
+          "value": 190
+        },
+        {
+          "label": "Black or African American",
+          "value": 231
+        },
+        {
+          "label": "Hispanic",
+          "value": 30860
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 77
+        },
+        {
+          "label": "Two or More Races",
+          "value": 264
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7206
+        }
+      ]
+    },
+    "Johnson County, Texas": {
+      "label": "Johnson County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 371
+        },
+        {
+          "label": "Asian",
+          "value": 1847
+        },
+        {
+          "label": "Black or African American",
+          "value": 8914
+        },
+        {
+          "label": "Hispanic",
+          "value": 46403
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 188
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5293
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 125257
+        }
+      ]
+    },
+    "Jones County, Texas": {
+      "label": "Jones County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 21
+        },
+        {
+          "label": "Asian",
+          "value": 92
+        },
+        {
+          "label": "Black or African American",
+          "value": 2055
+        },
+        {
+          "label": "Hispanic",
+          "value": 5671
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 793
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11250
+        }
+      ]
+    },
+    "Karnes County, Texas": {
+      "label": "Karnes County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 243
+        },
+        {
+          "label": "Black or African American",
+          "value": 1027
+        },
+        {
+          "label": "Hispanic",
+          "value": 7863
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 473
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5198
+        }
+      ]
+    },
+    "Kaufman County, Texas": {
+      "label": "Kaufman County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 312
+        },
+        {
+          "label": "Asian",
+          "value": 2667
+        },
+        {
+          "label": "Black or African American",
+          "value": 26783
+        },
+        {
+          "label": "Hispanic",
+          "value": 42372
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 17
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4676
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 83554
+        }
+      ]
+    },
+    "Kendall County, Texas": {
+      "label": "Kendall County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 484
+        },
+        {
+          "label": "Black or African American",
+          "value": 388
+        },
+        {
+          "label": "Hispanic",
+          "value": 11114
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 32
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1467
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33365
+        }
+      ]
+    },
+    "Kenedy County, Texas": {
+      "label": "Kenedy County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 47
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2
+        }
+      ]
+    },
+    "Kent County, Texas": {
+      "label": "Kent County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 6
+        },
+        {
+          "label": "Hispanic",
+          "value": 86
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 29
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 606
+        }
+      ]
+    },
+    "Kerr County, Texas": {
+      "label": "Kerr County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 58
+        },
+        {
+          "label": "Asian",
+          "value": 489
+        },
+        {
+          "label": "Black or African American",
+          "value": 813
+        },
+        {
+          "label": "Hispanic",
+          "value": 14049
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1297
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 36100
+        }
+      ]
+    },
+    "Kimble County, Texas": {
+      "label": "Kimble County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 84
+        },
+        {
+          "label": "Hispanic",
+          "value": 1114
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 53
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3092
+        }
+      ]
+    },
+    "King County, Texas": {
+      "label": "King County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 49
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 13
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 127
+        }
+      ]
+    },
+    "Kinney County, Texas": {
+      "label": "Kinney County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 3
+        },
+        {
+          "label": "Hispanic",
+          "value": 1678
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 17
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1401
+        }
+      ]
+    },
+    "Kleberg County, Texas": {
+      "label": "Kleberg County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 203
+        },
+        {
+          "label": "Asian",
+          "value": 395
+        },
+        {
+          "label": "Black or African American",
+          "value": 995
+        },
+        {
+          "label": "Hispanic",
+          "value": 21830
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 688
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6436
+        }
+      ]
+    },
+    "Knox County, Texas": {
+      "label": "Knox County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 58
+        },
+        {
+          "label": "Black or African American",
+          "value": 100
+        },
+        {
+          "label": "Hispanic",
+          "value": 1124
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 133
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1897
+        }
+      ]
+    },
+    "La Salle County, Texas": {
+      "label": "La Salle County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 53
+        },
+        {
+          "label": "Asian",
+          "value": 6
+        },
+        {
+          "label": "Black or African American",
+          "value": 240
+        },
+        {
+          "label": "Hispanic",
+          "value": 5629
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 67
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 951
+        }
+      ]
+    },
+    "Lamar County, Texas": {
+      "label": "Lamar County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 357
+        },
+        {
+          "label": "Asian",
+          "value": 446
+        },
+        {
+          "label": "Black or African American",
+          "value": 6239
+        },
+        {
+          "label": "Hispanic",
+          "value": 4659
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 117
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2401
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 36181
+        }
+      ]
+    },
+    "Lamb County, Texas": {
+      "label": "Lamb County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 105
+        },
+        {
+          "label": "Black or African American",
+          "value": 353
+        },
+        {
+          "label": "Hispanic",
+          "value": 7445
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 36
+        },
+        {
+          "label": "Two or More Races",
+          "value": 224
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4752
+        }
+      ]
+    },
+    "Lampasas County, Texas": {
+      "label": "Lampasas County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 36
+        },
+        {
+          "label": "Asian",
+          "value": 245
+        },
+        {
+          "label": "Black or African American",
+          "value": 822
+        },
+        {
+          "label": "Hispanic",
+          "value": 4477
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 998
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15640
+        }
+      ]
+    },
+    "Lavaca County, Texas": {
+      "label": "Lavaca County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 104
+        },
+        {
+          "label": "Black or African American",
+          "value": 817
+        },
+        {
+          "label": "Hispanic",
+          "value": 4046
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 791
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14688
+        }
+      ]
+    },
+    "Lee County, Texas": {
+      "label": "Lee County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 5
+        },
+        {
+          "label": "Black or African American",
+          "value": 1841
+        },
+        {
+          "label": "Hispanic",
+          "value": 4649
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 479
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10692
+        }
+      ]
+    },
+    "Leon County, Texas": {
+      "label": "Leon County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 35
+        },
+        {
+          "label": "Asian",
+          "value": 32
+        },
+        {
+          "label": "Black or African American",
+          "value": 1172
+        },
+        {
+          "label": "Hispanic",
+          "value": 2594
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 504
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11721
+        }
+      ]
+    },
+    "Liberty County, Texas": {
+      "label": "Liberty County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 155
+        },
+        {
+          "label": "Asian",
+          "value": 522
+        },
+        {
+          "label": "Black or African American",
+          "value": 7806
+        },
+        {
+          "label": "Hispanic",
+          "value": 36192
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 17
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2426
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 50752
+        }
+      ]
+    },
+    "Limestone County, Texas": {
+      "label": "Limestone County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 35
+        },
+        {
+          "label": "Asian",
+          "value": 201
+        },
+        {
+          "label": "Black or African American",
+          "value": 3770
+        },
+        {
+          "label": "Hispanic",
+          "value": 5126
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 711
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12308
+        }
+      ]
+    },
+    "Lipscomb County, Texas": {
+      "label": "Lipscomb County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 12
+        },
+        {
+          "label": "Hispanic",
+          "value": 1095
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 14
+        },
+        {
+          "label": "Two or More Races",
+          "value": 162
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1670
+        }
+      ]
+    },
+    "Live Oak County, Texas": {
+      "label": "Live Oak County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 57
+        },
+        {
+          "label": "Black or African American",
+          "value": 238
+        },
+        {
+          "label": "Hispanic",
+          "value": 4815
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 56
+        },
+        {
+          "label": "Two or More Races",
+          "value": 733
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5545
+        }
+      ]
+    },
+    "Llano County, Texas": {
+      "label": "Llano County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 38
+        },
+        {
+          "label": "Asian",
+          "value": 122
+        },
+        {
+          "label": "Black or African American",
+          "value": 231
+        },
+        {
+          "label": "Hispanic",
+          "value": 2787
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 428
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18309
+        }
+      ]
+    },
+    "Loving County, Texas": {
+      "label": "Loving County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 5
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 0
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 0
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 49
+        }
+      ]
+    },
+    "Lubbock County, Texas": {
+      "label": "Lubbock County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 488
+        },
+        {
+          "label": "Asian",
+          "value": 7365
+        },
+        {
+          "label": "Black or African American",
+          "value": 21230
+        },
+        {
+          "label": "Hispanic",
+          "value": 112607
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 194
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7934
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 164080
+        }
+      ]
+    },
+    "Lynn County, Texas": {
+      "label": "Lynn County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 27
+        },
+        {
+          "label": "Black or African American",
+          "value": 88
+        },
+        {
+          "label": "Hispanic",
+          "value": 2356
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 103
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3082
+        }
+      ]
+    },
+    "Madison County, Texas": {
+      "label": "Madison County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 25
+        },
+        {
+          "label": "Asian",
+          "value": 113
+        },
+        {
+          "label": "Black or African American",
+          "value": 2086
+        },
+        {
+          "label": "Hispanic",
+          "value": 3509
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 686
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7137
+        }
+      ]
+    },
+    "Marion County, Texas": {
+      "label": "Marion County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 83
+        },
+        {
+          "label": "Asian",
+          "value": 37
+        },
+        {
+          "label": "Black or African American",
+          "value": 2079
+        },
+        {
+          "label": "Hispanic",
+          "value": 436
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 18
+        },
+        {
+          "label": "Two or More Races",
+          "value": 199
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6773
+        }
+      ]
+    },
+    "Martin County, Texas": {
+      "label": "Martin County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 64
+        },
+        {
+          "label": "Hispanic",
+          "value": 2383
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 203
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2510
+        }
+      ]
+    },
+    "Mason County, Texas": {
+      "label": "Mason County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 29
+        },
+        {
+          "label": "Black or African American",
+          "value": 3
+        },
+        {
+          "label": "Hispanic",
+          "value": 826
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 31
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3062
+        }
+      ]
+    },
+    "Matagorda County, Texas": {
+      "label": "Matagorda County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 42
+        },
+        {
+          "label": "Asian",
+          "value": 602
+        },
+        {
+          "label": "Black or African American",
+          "value": 3669
+        },
+        {
+          "label": "Hispanic",
+          "value": 15678
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 58
+        },
+        {
+          "label": "Two or More Races",
+          "value": 726
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15269
+        }
+      ]
+    },
+    "Maverick County, Texas": {
+      "label": "Maverick County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 791
+        },
+        {
+          "label": "Asian",
+          "value": 282
+        },
+        {
+          "label": "Black or African American",
+          "value": 133
+        },
+        {
+          "label": "Hispanic",
+          "value": 54797
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 32
+        },
+        {
+          "label": "Two or More Races",
+          "value": 93
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1642
+        }
+      ]
+    },
+    "McCulloch County, Texas": {
+      "label": "McCulloch County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 35
+        },
+        {
+          "label": "Black or African American",
+          "value": 58
+        },
+        {
+          "label": "Hispanic",
+          "value": 2325
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 327
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4813
+        }
+      ]
+    },
+    "McLennan County, Texas": {
+      "label": "McLennan County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 458
+        },
+        {
+          "label": "Asian",
+          "value": 4123
+        },
+        {
+          "label": "Black or African American",
+          "value": 35935
+        },
+        {
+          "label": "Hispanic",
+          "value": 70219
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 64
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7744
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 144220
+        }
+      ]
+    },
+    "McMullen County, Texas": {
+      "label": "McMullen County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 339
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 278
+        }
+      ]
+    },
+    "Medina County, Texas": {
+      "label": "Medina County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 66
+        },
+        {
+          "label": "Asian",
+          "value": 256
+        },
+        {
+          "label": "Black or African American",
+          "value": 1471
+        },
+        {
+          "label": "Hispanic",
+          "value": 26780
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1288
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22155
+        }
+      ]
+    },
+    "Menard County, Texas": {
+      "label": "Menard County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 8
+        },
+        {
+          "label": "Hispanic",
+          "value": 549
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 64
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1343
+        }
+      ]
+    },
+    "Midland County, Texas": {
+      "label": "Midland County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 322
+        },
+        {
+          "label": "Asian",
+          "value": 3715
+        },
+        {
+          "label": "Black or African American",
+          "value": 10995
+        },
+        {
+          "label": "Hispanic",
+          "value": 76792
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 14
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4060
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 75381
+        }
+      ]
+    },
+    "Milam County, Texas": {
+      "label": "Milam County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 32
+        },
+        {
+          "label": "Asian",
+          "value": 45
+        },
+        {
+          "label": "Black or African American",
+          "value": 2341
+        },
+        {
+          "label": "Hispanic",
+          "value": 6466
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 672
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15695
+        }
+      ]
+    },
+    "Mills County, Texas": {
+      "label": "Mills County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 27
+        },
+        {
+          "label": "Hispanic",
+          "value": 851
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 179
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3417
+        }
+      ]
+    },
+    "Mitchell County, Texas": {
+      "label": "Mitchell County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 43
+        },
+        {
+          "label": "Asian",
+          "value": 136
+        },
+        {
+          "label": "Black or African American",
+          "value": 509
+        },
+        {
+          "label": "Hispanic",
+          "value": 3481
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 591
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4212
+        }
+      ]
+    },
+    "Montague County, Texas": {
+      "label": "Montague County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 104
+        },
+        {
+          "label": "Asian",
+          "value": 47
+        },
+        {
+          "label": "Black or African American",
+          "value": 10
+        },
+        {
+          "label": "Hispanic",
+          "value": 2463
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 650
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17324
+        }
+      ]
+    },
+    "Montgomery County, Texas": {
+      "label": "Montgomery County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 670
+        },
+        {
+          "label": "Asian",
+          "value": 20779
+        },
+        {
+          "label": "Black or African American",
+          "value": 37118
+        },
+        {
+          "label": "Hispanic",
+          "value": 177581
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 446
+        },
+        {
+          "label": "Two or More Races",
+          "value": 20976
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 395015
+        }
+      ]
+    },
+    "Moore County, Texas": {
+      "label": "Moore County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 34
+        },
+        {
+          "label": "Asian",
+          "value": 500
+        },
+        {
+          "label": "Black or African American",
+          "value": 971
+        },
+        {
+          "label": "Hispanic",
+          "value": 12743
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 788
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6159
+        }
+      ]
+    },
+    "Morris County, Texas": {
+      "label": "Morris County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 71
+        },
+        {
+          "label": "Asian",
+          "value": 121
+        },
+        {
+          "label": "Black or African American",
+          "value": 2207
+        },
+        {
+          "label": "Hispanic",
+          "value": 1288
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 734
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7533
+        }
+      ]
+    },
+    "Motley County, Texas": {
+      "label": "Motley County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 33
+        },
+        {
+          "label": "Hispanic",
+          "value": 102
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 64
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1056
+        }
+      ]
+    },
+    "Nacogdoches County, Texas": {
+      "label": "Nacogdoches County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 86
+        },
+        {
+          "label": "Asian",
+          "value": 489
+        },
+        {
+          "label": "Black or African American",
+          "value": 11063
+        },
+        {
+          "label": "Hispanic",
+          "value": 13825
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 26
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1759
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 37520
+        }
+      ]
+    },
+    "Navarro County, Texas": {
+      "label": "Navarro County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 432
+        },
+        {
+          "label": "Black or African American",
+          "value": 5704
+        },
+        {
+          "label": "Hispanic",
+          "value": 16796
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 408
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3010
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27289
+        }
+      ]
+    },
+    "Newton County, Texas": {
+      "label": "Newton County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 84
+        },
+        {
+          "label": "Black or African American",
+          "value": 2185
+        },
+        {
+          "label": "Hispanic",
+          "value": 415
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 20
+        },
+        {
+          "label": "Two or More Races",
+          "value": 274
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9168
+        }
+      ]
+    },
+    "Nolan County, Texas": {
+      "label": "Nolan County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 25
+        },
+        {
+          "label": "Asian",
+          "value": 14
+        },
+        {
+          "label": "Black or African American",
+          "value": 573
+        },
+        {
+          "label": "Hispanic",
+          "value": 5396
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 618
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7873
+        }
+      ]
+    },
+    "Nueces County, Texas": {
+      "label": "Nueces County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 456
+        },
+        {
+          "label": "Asian",
+          "value": 8151
+        },
+        {
+          "label": "Black or African American",
+          "value": 13160
+        },
+        {
+          "label": "Hispanic",
+          "value": 219138
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 61
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5621
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 105486
+        }
+      ]
+    },
+    "Ochiltree County, Texas": {
+      "label": "Ochiltree County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 57
+        },
+        {
+          "label": "Asian",
+          "value": 27
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 5484
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 138
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4131
+        }
+      ]
+    },
+    "Oldham County, Texas": {
+      "label": "Oldham County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 153
+        },
+        {
+          "label": "Hispanic",
+          "value": 513
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 19
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1407
+        }
+      ]
+    },
+    "Orange County, Texas": {
+      "label": "Orange County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 97
+        },
+        {
+          "label": "Asian",
+          "value": 662
+        },
+        {
+          "label": "Black or African American",
+          "value": 7153
+        },
+        {
+          "label": "Hispanic",
+          "value": 7763
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 67
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2854
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 66245
+        }
+      ]
+    },
+    "Palo Pinto County, Texas": {
+      "label": "Palo Pinto County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 42
+        },
+        {
+          "label": "Asian",
+          "value": 250
+        },
+        {
+          "label": "Black or African American",
+          "value": 737
+        },
+        {
+          "label": "Hispanic",
+          "value": 5846
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 733
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21205
+        }
+      ]
+    },
+    "Panola County, Texas": {
+      "label": "Panola County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 91
+        },
+        {
+          "label": "Black or African American",
+          "value": 2577
+        },
+        {
+          "label": "Hispanic",
+          "value": 2266
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1311
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16231
+        }
+      ]
+    },
+    "Parker County, Texas": {
+      "label": "Parker County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 211
+        },
+        {
+          "label": "Asian",
+          "value": 1204
+        },
+        {
+          "label": "Black or African American",
+          "value": 2183
+        },
+        {
+          "label": "Hispanic",
+          "value": 22268
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 66
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5372
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 126490
+        }
+      ]
+    },
+    "Parmer County, Texas": {
+      "label": "Parmer County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 35
+        },
+        {
+          "label": "Hispanic",
+          "value": 6446
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 230
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3027
+        }
+      ]
+    },
+    "Pecos County, Texas": {
+      "label": "Pecos County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 331
+        },
+        {
+          "label": "Black or African American",
+          "value": 534
+        },
+        {
+          "label": "Hispanic",
+          "value": 10666
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 51
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3379
+        }
+      ]
+    },
+    "Polk County, Texas": {
+      "label": "Polk County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 540
+        },
+        {
+          "label": "Asian",
+          "value": 317
+        },
+        {
+          "label": "Black or African American",
+          "value": 4057
+        },
+        {
+          "label": "Hispanic",
+          "value": 7799
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2052
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 36983
+        }
+      ]
+    },
+    "Potter County, Texas": {
+      "label": "Potter County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 311
+        },
+        {
+          "label": "Asian",
+          "value": 5827
+        },
+        {
+          "label": "Black or African American",
+          "value": 11919
+        },
+        {
+          "label": "Hispanic",
+          "value": 45218
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 53
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3000
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 50076
+        }
+      ]
+    },
+    "Presidio County, Texas": {
+      "label": "Presidio County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 150
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 4622
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 99
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1171
+        }
+      ]
+    },
+    "Rains County, Texas": {
+      "label": "Rains County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 60
+        },
+        {
+          "label": "Asian",
+          "value": 96
+        },
+        {
+          "label": "Black or African American",
+          "value": 357
+        },
+        {
+          "label": "Hispanic",
+          "value": 1228
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 346
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10383
+        }
+      ]
+    },
+    "Randall County, Texas": {
+      "label": "Randall County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 266
+        },
+        {
+          "label": "Asian",
+          "value": 2509
+        },
+        {
+          "label": "Black or African American",
+          "value": 4639
+        },
+        {
+          "label": "Hispanic",
+          "value": 34127
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 42
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4105
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 97639
+        }
+      ]
+    },
+    "Reagan County, Texas": {
+      "label": "Reagan County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 64
+        },
+        {
+          "label": "Black or African American",
+          "value": 159
+        },
+        {
+          "label": "Hispanic",
+          "value": 2186
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 79
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 771
+        }
+      ]
+    },
+    "Real County, Texas": {
+      "label": "Real County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 39
+        },
+        {
+          "label": "Hispanic",
+          "value": 664
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 12
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2106
+        }
+      ]
+    },
+    "Red River County, Texas": {
+      "label": "Red River County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 105
+        },
+        {
+          "label": "Asian",
+          "value": 48
+        },
+        {
+          "label": "Black or African American",
+          "value": 1903
+        },
+        {
+          "label": "Hispanic",
+          "value": 826
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 165
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8548
+        }
+      ]
+    },
+    "Reeves County, Texas": {
+      "label": "Reeves County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 50
+        },
+        {
+          "label": "Black or African American",
+          "value": 188
+        },
+        {
+          "label": "Hispanic",
+          "value": 11206
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 15
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1619
+        }
+      ]
+    },
+    "Refugio County, Texas": {
+      "label": "Refugio County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 15
+        },
+        {
+          "label": "Black or African American",
+          "value": 411
+        },
+        {
+          "label": "Hispanic",
+          "value": 3354
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 126
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2766
+        }
+      ]
+    },
+    "Roberts County, Texas": {
+      "label": "Roberts County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 83
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 21
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 679
+        }
+      ]
+    },
+    "Robertson County, Texas": {
+      "label": "Robertson County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 50
+        },
+        {
+          "label": "Black or African American",
+          "value": 3385
+        },
+        {
+          "label": "Hispanic",
+          "value": 3712
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 452
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9351
+        }
+      ]
+    },
+    "Rockwall County, Texas": {
+      "label": "Rockwall County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 171
+        },
+        {
+          "label": "Asian",
+          "value": 3917
+        },
+        {
+          "label": "Black or African American",
+          "value": 9679
+        },
+        {
+          "label": "Hispanic",
+          "value": 23581
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 120
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3098
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 75874
+        }
+      ]
+    },
+    "Runnels County, Texas": {
+      "label": "Runnels County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 296
+        },
+        {
+          "label": "Hispanic",
+          "value": 3402
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 200
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5980
+        }
+      ]
+    },
+    "Rusk County, Texas": {
+      "label": "Rusk County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 91
+        },
+        {
+          "label": "Asian",
+          "value": 187
+        },
+        {
+          "label": "Black or African American",
+          "value": 6920
+        },
+        {
+          "label": "Hispanic",
+          "value": 9839
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 45
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2975
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32552
+        }
+      ]
+    },
+    "Sabine County, Texas": {
+      "label": "Sabine County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 151
+        },
+        {
+          "label": "Black or African American",
+          "value": 459
+        },
+        {
+          "label": "Hispanic",
+          "value": 417
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 44
+        },
+        {
+          "label": "Two or More Races",
+          "value": 363
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8457
+        }
+      ]
+    },
+    "San Augustine County, Texas": {
+      "label": "San Augustine County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 59
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 1746
+        },
+        {
+          "label": "Hispanic",
+          "value": 643
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 35
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5406
+        }
+      ]
+    },
+    "San Jacinto County, Texas": {
+      "label": "San Jacinto County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 54
+        },
+        {
+          "label": "Black or African American",
+          "value": 2274
+        },
+        {
+          "label": "Hispanic",
+          "value": 5129
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1001
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19494
+        }
+      ]
+    },
+    "San Patricio County, Texas": {
+      "label": "San Patricio County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 35
+        },
+        {
+          "label": "Asian",
+          "value": 674
+        },
+        {
+          "label": "Black or African American",
+          "value": 1000
+        },
+        {
+          "label": "Hispanic",
+          "value": 39012
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 137
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1494
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26720
+        }
+      ]
+    },
+    "San Saba County, Texas": {
+      "label": "San Saba County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 12
+        },
+        {
+          "label": "Black or African American",
+          "value": 141
+        },
+        {
+          "label": "Hispanic",
+          "value": 1753
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 235
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3639
+        }
+      ]
+    },
+    "Schleicher County, Texas": {
+      "label": "Schleicher County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 18
+        },
+        {
+          "label": "Hispanic",
+          "value": 1282
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 40
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1077
+        }
+      ]
+    },
+    "Scurry County, Texas": {
+      "label": "Scurry County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 206
+        },
+        {
+          "label": "Asian",
+          "value": 104
+        },
+        {
+          "label": "Black or African American",
+          "value": 445
+        },
+        {
+          "label": "Hispanic",
+          "value": 7089
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 410
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8256
+        }
+      ]
+    },
+    "Shackelford County, Texas": {
+      "label": "Shackelford County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 6
+        },
+        {
+          "label": "Black or African American",
+          "value": 37
+        },
+        {
+          "label": "Hispanic",
+          "value": 401
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 111
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2614
+        }
+      ]
+    },
+    "Shelby County, Texas": {
+      "label": "Shelby County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 185
+        },
+        {
+          "label": "Asian",
+          "value": 35
+        },
+        {
+          "label": "Black or African American",
+          "value": 3751
+        },
+        {
+          "label": "Hispanic",
+          "value": 4736
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 212
+        },
+        {
+          "label": "Two or More Races",
+          "value": 693
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14466
+        }
+      ]
+    },
+    "Sherman County, Texas": {
+      "label": "Sherman County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 28
+        },
+        {
+          "label": "Black or African American",
+          "value": 4
+        },
+        {
+          "label": "Hispanic",
+          "value": 1149
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 27
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1223
+        }
+      ]
+    },
+    "Smith County, Texas": {
+      "label": "Smith County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 146
+        },
+        {
+          "label": "Asian",
+          "value": 3855
+        },
+        {
+          "label": "Black or African American",
+          "value": 39597
+        },
+        {
+          "label": "Hispanic",
+          "value": 49012
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 194
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6629
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 137969
+        }
+      ]
+    },
+    "Somervell County, Texas": {
+      "label": "Somervell County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 183
+        },
+        {
+          "label": "Hispanic",
+          "value": 1719
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 213
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7328
+        }
+      ]
+    },
+    "Starr County, Texas": {
+      "label": "Starr County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 17
+        },
+        {
+          "label": "Black or African American",
+          "value": 164
+        },
+        {
+          "label": "Hispanic",
+          "value": 64036
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 58
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1417
+        }
+      ]
+    },
+    "Stephens County, Texas": {
+      "label": "Stephens County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 91
+        },
+        {
+          "label": "Black or African American",
+          "value": 290
+        },
+        {
+          "label": "Hispanic",
+          "value": 2308
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 186
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6379
+        }
+      ]
+    },
+    "Sterling County, Texas": {
+      "label": "Sterling County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 2
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 447
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 932
+        }
+      ]
+    },
+    "Stonewall County, Texas": {
+      "label": "Stonewall County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 7
+        },
+        {
+          "label": "Hispanic",
+          "value": 283
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 16
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 938
+        }
+      ]
+    },
+    "Sutton County, Texas": {
+      "label": "Sutton County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 4
+        },
+        {
+          "label": "Hispanic",
+          "value": 2162
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 43
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1065
+        }
+      ]
+    },
+    "Swisher County, Texas": {
+      "label": "Swisher County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 34
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 544
+        },
+        {
+          "label": "Hispanic",
+          "value": 3194
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 184
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2860
+        }
+      ]
+    },
+    "Tarrant County, Texas": {
+      "label": "Tarrant County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3221
+        },
+        {
+          "label": "Asian",
+          "value": 124187
+        },
+        {
+          "label": "Black or African American",
+          "value": 366947
+        },
+        {
+          "label": "Hispanic",
+          "value": 637594
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4252
+        },
+        {
+          "label": "Two or More Races",
+          "value": 68832
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 921922
+        }
+      ]
+    },
+    "Taylor County, Texas": {
+      "label": "Taylor County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 215
+        },
+        {
+          "label": "Asian",
+          "value": 3143
+        },
+        {
+          "label": "Black or African American",
+          "value": 11066
+        },
+        {
+          "label": "Hispanic",
+          "value": 35709
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 228
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3867
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 89142
+        }
+      ]
+    },
+    "Terrell County, Texas": {
+      "label": "Terrell County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 364
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 0
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 487
+        }
+      ]
+    },
+    "Terry County, Texas": {
+      "label": "Terry County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 38
+        },
+        {
+          "label": "Asian",
+          "value": 20
+        },
+        {
+          "label": "Black or African American",
+          "value": 461
+        },
+        {
+          "label": "Hispanic",
+          "value": 6574
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 125
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4481
+        }
+      ]
+    },
+    "Throckmorton County, Texas": {
+      "label": "Throckmorton County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 6
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 124
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 31
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1428
+        }
+      ]
+    },
+    "Titus County, Texas": {
+      "label": "Titus County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 71
+        },
+        {
+          "label": "Asian",
+          "value": 380
+        },
+        {
+          "label": "Black or African American",
+          "value": 2963
+        },
+        {
+          "label": "Hispanic",
+          "value": 13887
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 486
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13488
+        }
+      ]
+    },
+    "Tom Green County, Texas": {
+      "label": "Tom Green County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 88
+        },
+        {
+          "label": "Asian",
+          "value": 1528
+        },
+        {
+          "label": "Black or African American",
+          "value": 4009
+        },
+        {
+          "label": "Hispanic",
+          "value": 47877
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 110
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3224
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 62009
+        }
+      ]
+    },
+    "Travis County, Texas": {
+      "label": "Travis County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1638
+        },
+        {
+          "label": "Asian",
+          "value": 97051
+        },
+        {
+          "label": "Black or African American",
+          "value": 102188
+        },
+        {
+          "label": "Hispanic",
+          "value": 425105
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 637
+        },
+        {
+          "label": "Two or More Races",
+          "value": 50964
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 624387
+        }
+      ]
+    },
+    "Trinity County, Texas": {
+      "label": "Trinity County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 12
+        },
+        {
+          "label": "Black or African American",
+          "value": 1202
+        },
+        {
+          "label": "Hispanic",
+          "value": 1480
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 428
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10711
+        }
+      ]
+    },
+    "Tyler County, Texas": {
+      "label": "Tyler County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 24
+        },
+        {
+          "label": "Asian",
+          "value": 100
+        },
+        {
+          "label": "Black or African American",
+          "value": 2130
+        },
+        {
+          "label": "Hispanic",
+          "value": 1614
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 691
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15478
+        }
+      ]
+    },
+    "Upshur County, Texas": {
+      "label": "Upshur County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 181
+        },
+        {
+          "label": "Black or African American",
+          "value": 2995
+        },
+        {
+          "label": "Hispanic",
+          "value": 4219
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 15
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1629
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32744
+        }
+      ]
+    },
+    "Upton County, Texas": {
+      "label": "Upton County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 11
+        },
+        {
+          "label": "Black or African American",
+          "value": 30
+        },
+        {
+          "label": "Hispanic",
+          "value": 1812
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 19
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1344
+        }
+      ]
+    },
+    "Uvalde County, Texas": {
+      "label": "Uvalde County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 44
+        },
+        {
+          "label": "Asian",
+          "value": 277
+        },
+        {
+          "label": "Black or African American",
+          "value": 154
+        },
+        {
+          "label": "Hispanic",
+          "value": 17548
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 291
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6406
+        }
+      ]
+    },
+    "Val Verde County, Texas": {
+      "label": "Val Verde County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 58
+        },
+        {
+          "label": "Asian",
+          "value": 287
+        },
+        {
+          "label": "Black or African American",
+          "value": 573
+        },
+        {
+          "label": "Hispanic",
+          "value": 38580
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 587
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7465
+        }
+      ]
+    },
+    "Van Zandt County, Texas": {
+      "label": "Van Zandt County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 184
+        },
+        {
+          "label": "Asian",
+          "value": 282
+        },
+        {
+          "label": "Black or African American",
+          "value": 1667
+        },
+        {
+          "label": "Hispanic",
+          "value": 7835
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1318
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 49913
+        }
+      ]
+    },
+    "Victoria County, Texas": {
+      "label": "Victoria County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 99
+        },
+        {
+          "label": "Asian",
+          "value": 1108
+        },
+        {
+          "label": "Black or African American",
+          "value": 4999
+        },
+        {
+          "label": "Hispanic",
+          "value": 43432
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 54
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1959
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 39294
+        }
+      ]
+    },
+    "Walker County, Texas": {
+      "label": "Walker County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 95
+        },
+        {
+          "label": "Asian",
+          "value": 845
+        },
+        {
+          "label": "Black or African American",
+          "value": 15506
+        },
+        {
+          "label": "Hispanic",
+          "value": 16931
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 286
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2784
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 41681
+        }
+      ]
+    },
+    "Waller County, Texas": {
+      "label": "Waller County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 55
+        },
+        {
+          "label": "Asian",
+          "value": 996
+        },
+        {
+          "label": "Black or African American",
+          "value": 13895
+        },
+        {
+          "label": "Hispanic",
+          "value": 19593
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 17
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1518
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23095
+        }
+      ]
+    },
+    "Ward County, Texas": {
+      "label": "Ward County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 178
+        },
+        {
+          "label": "Black or African American",
+          "value": 538
+        },
+        {
+          "label": "Hispanic",
+          "value": 6238
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 70
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4222
+        }
+      ]
+    },
+    "Washington County, Texas": {
+      "label": "Washington County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 37
+        },
+        {
+          "label": "Asian",
+          "value": 493
+        },
+        {
+          "label": "Black or African American",
+          "value": 5470
+        },
+        {
+          "label": "Hispanic",
+          "value": 6557
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1192
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22304
+        }
+      ]
+    },
+    "Webb County, Texas": {
+      "label": "Webb County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 112
+        },
+        {
+          "label": "Asian",
+          "value": 1222
+        },
+        {
+          "label": "Black or African American",
+          "value": 995
+        },
+        {
+          "label": "Hispanic",
+          "value": 254619
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 682
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9554
+        }
+      ]
+    },
+    "Wharton County, Texas": {
+      "label": "Wharton County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 196
+        },
+        {
+          "label": "Black or African American",
+          "value": 5167
+        },
+        {
+          "label": "Hispanic",
+          "value": 17294
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 638
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18297
+        }
+      ]
+    },
+    "Wheeler County, Texas": {
+      "label": "Wheeler County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 70
+        },
+        {
+          "label": "Black or African American",
+          "value": 81
+        },
+        {
+          "label": "Hispanic",
+          "value": 1224
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 124
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3383
+        }
+      ]
+    },
+    "Wichita County, Texas": {
+      "label": "Wichita County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 345
+        },
+        {
+          "label": "Asian",
+          "value": 2896
+        },
+        {
+          "label": "Black or African American",
+          "value": 13037
+        },
+        {
+          "label": "Hispanic",
+          "value": 26409
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 155
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4702
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 82146
+        }
+      ]
+    },
+    "Wilbarger County, Texas": {
+      "label": "Wilbarger County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 365
+        },
+        {
+          "label": "Black or African American",
+          "value": 770
+        },
+        {
+          "label": "Hispanic",
+          "value": 3798
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 714
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7045
+        }
+      ]
+    },
+    "Willacy County, Texas": {
+      "label": "Willacy County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 293
+        },
+        {
+          "label": "Hispanic",
+          "value": 17623
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 184
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2118
+        }
+      ]
+    },
+    "Williamson County, Texas": {
+      "label": "Williamson County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 727
+        },
+        {
+          "label": "Asian",
+          "value": 57181
+        },
+        {
+          "label": "Black or African American",
+          "value": 42712
+        },
+        {
+          "label": "Hispanic",
+          "value": 157980
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 686
+        },
+        {
+          "label": "Two or More Races",
+          "value": 26478
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 354615
+        }
+      ]
+    },
+    "Wilson County, Texas": {
+      "label": "Wilson County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 35
+        },
+        {
+          "label": "Asian",
+          "value": 267
+        },
+        {
+          "label": "Black or African American",
+          "value": 912
+        },
+        {
+          "label": "Hispanic",
+          "value": 20354
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 993
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28649
+        }
+      ]
+    },
+    "Winkler County, Texas": {
+      "label": "Winkler County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 65
+        },
+        {
+          "label": "Black or African American",
+          "value": 275
+        },
+        {
+          "label": "Hispanic",
+          "value": 4660
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 26
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2454
+        }
+      ]
+    },
+    "Wise County, Texas": {
+      "label": "Wise County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 234
+        },
+        {
+          "label": "Asian",
+          "value": 484
+        },
+        {
+          "label": "Black or African American",
+          "value": 1009
+        },
+        {
+          "label": "Hispanic",
+          "value": 14878
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2090
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 53380
+        }
+      ]
+    },
+    "Wood County, Texas": {
+      "label": "Wood County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 255
+        },
+        {
+          "label": "Black or African American",
+          "value": 1844
+        },
+        {
+          "label": "Hispanic",
+          "value": 5153
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1214
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 37458
+        }
+      ]
+    },
+    "Yoakum County, Texas": {
+      "label": "Yoakum County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 66
+        },
+        {
+          "label": "Black or African American",
+          "value": 11
+        },
+        {
+          "label": "Hispanic",
+          "value": 4950
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 170
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2392
+        }
+      ]
+    },
+    "Young County, Texas": {
+      "label": "Young County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 54
+        },
+        {
+          "label": "Asian",
+          "value": 35
+        },
+        {
+          "label": "Black or African American",
+          "value": 254
+        },
+        {
+          "label": "Hispanic",
+          "value": 3621
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 322
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13584
+        }
+      ]
+    },
+    "Zapata County, Texas": {
+      "label": "Zapata County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 109
+        },
+        {
+          "label": "Black or African American",
+          "value": 37
+        },
+        {
+          "label": "Hispanic",
+          "value": 13014
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 62
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 633
+        }
+      ]
+    },
+    "Zavala County, Texas": {
+      "label": "Zavala County, Texas",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 40
+        },
+        {
+          "label": "Black or African American",
+          "value": 79
+        },
+        {
+          "label": "Hispanic",
+          "value": 8831
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 0
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 582
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,995 @@
+{
+  "state": "Beaver County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 22765
+        },
+        {
+          "label": "Asian",
+          "value": 77221
+        },
+        {
+          "label": "Black or African American",
+          "value": 34607
+        },
+        {
+          "label": "Hispanic",
+          "value": 513013
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 30359
+        },
+        {
+          "label": "Two or More Races",
+          "value": 119249
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2521945
+        }
+      ]
+    },
+    "Beaver County, Utah": {
+      "label": "Beaver County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 11
+        },
+        {
+          "label": "Hispanic",
+          "value": 1057
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 54
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6031
+        }
+      ]
+    },
+    "Box Elder County, Utah": {
+      "label": "Box Elder County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 249
+        },
+        {
+          "label": "Asian",
+          "value": 440
+        },
+        {
+          "label": "Black or African American",
+          "value": 209
+        },
+        {
+          "label": "Hispanic",
+          "value": 5929
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 124
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1227
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 51512
+        }
+      ]
+    },
+    "Cache County, Utah": {
+      "label": "Cache County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 103
+        },
+        {
+          "label": "Asian",
+          "value": 2526
+        },
+        {
+          "label": "Black or African American",
+          "value": 900
+        },
+        {
+          "label": "Hispanic",
+          "value": 15806
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 521
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4590
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 112281
+        }
+      ]
+    },
+    "Carbon County, Utah": {
+      "label": "Carbon County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 118
+        },
+        {
+          "label": "Asian",
+          "value": 63
+        },
+        {
+          "label": "Black or African American",
+          "value": 107
+        },
+        {
+          "label": "Hispanic",
+          "value": 2701
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 70
+        },
+        {
+          "label": "Two or More Races",
+          "value": 499
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16832
+        }
+      ]
+    },
+    "Daggett County, Utah": {
+      "label": "Daggett County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 22
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 24
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 689
+        }
+      ]
+    },
+    "Davis County, Utah": {
+      "label": "Davis County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1111
+        },
+        {
+          "label": "Asian",
+          "value": 6908
+        },
+        {
+          "label": "Black or African American",
+          "value": 4193
+        },
+        {
+          "label": "Hispanic",
+          "value": 41283
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2967
+        },
+        {
+          "label": "Two or More Races",
+          "value": 12418
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 295736
+        }
+      ]
+    },
+    "Duchesne County, Utah": {
+      "label": "Duchesne County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 695
+        },
+        {
+          "label": "Asian",
+          "value": 104
+        },
+        {
+          "label": "Black or African American",
+          "value": 15
+        },
+        {
+          "label": "Hispanic",
+          "value": 1416
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 94
+        },
+        {
+          "label": "Two or More Races",
+          "value": 580
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17008
+        }
+      ]
+    },
+    "Emery County, Utah": {
+      "label": "Emery County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 76
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 4
+        },
+        {
+          "label": "Hispanic",
+          "value": 730
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 54
+        },
+        {
+          "label": "Two or More Races",
+          "value": 176
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8920
+        }
+      ]
+    },
+    "Garfield County, Utah": {
+      "label": "Garfield County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 100
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 4
+        },
+        {
+          "label": "Hispanic",
+          "value": 361
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 25
+        },
+        {
+          "label": "Two or More Races",
+          "value": 61
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4619
+        }
+      ]
+    },
+    "Grand County, Utah": {
+      "label": "Grand County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 382
+        },
+        {
+          "label": "Asian",
+          "value": 107
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 1212
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 138
+        },
+        {
+          "label": "Two or More Races",
+          "value": 215
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7631
+        }
+      ]
+    },
+    "Iron County, Utah": {
+      "label": "Iron County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 738
+        },
+        {
+          "label": "Asian",
+          "value": 598
+        },
+        {
+          "label": "Black or African American",
+          "value": 380
+        },
+        {
+          "label": "Hispanic",
+          "value": 6070
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 192
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1648
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 50465
+        }
+      ]
+    },
+    "Juab County, Utah": {
+      "label": "Juab County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 129
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 80
+        },
+        {
+          "label": "Hispanic",
+          "value": 641
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 254
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11168
+        }
+      ]
+    },
+    "Kane County, Utah": {
+      "label": "Kane County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 167
+        },
+        {
+          "label": "Asian",
+          "value": 11
+        },
+        {
+          "label": "Black or African American",
+          "value": 18
+        },
+        {
+          "label": "Hispanic",
+          "value": 384
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 267
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7094
+        }
+      ]
+    },
+    "Millard County, Utah": {
+      "label": "Millard County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 179
+        },
+        {
+          "label": "Asian",
+          "value": 225
+        },
+        {
+          "label": "Black or African American",
+          "value": 28
+        },
+        {
+          "label": "Hispanic",
+          "value": 1755
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 19
+        },
+        {
+          "label": "Two or More Races",
+          "value": 159
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10801
+        }
+      ]
+    },
+    "Morgan County, Utah": {
+      "label": "Morgan County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 23
+        },
+        {
+          "label": "Black or African American",
+          "value": 20
+        },
+        {
+          "label": "Hispanic",
+          "value": 363
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 48
+        },
+        {
+          "label": "Two or More Races",
+          "value": 278
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11669
+        }
+      ]
+    },
+    "Piute County, Utah": {
+      "label": "Piute County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 75
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 0
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1628
+        }
+      ]
+    },
+    "Rich County, Utah": {
+      "label": "Rich County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 180
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 81
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2315
+        }
+      ]
+    },
+    "Salt Lake County, Utah": {
+      "label": "Salt Lake County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5757
+        },
+        {
+          "label": "Asian",
+          "value": 48154
+        },
+        {
+          "label": "Black or African American",
+          "value": 19552
+        },
+        {
+          "label": "Hispanic",
+          "value": 236654
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 17828
+        },
+        {
+          "label": "Two or More Races",
+          "value": 47594
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 804254
+        }
+      ]
+    },
+    "San Juan County, Utah": {
+      "label": "San Juan County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6548
+        },
+        {
+          "label": "Asian",
+          "value": 72
+        },
+        {
+          "label": "Black or African American",
+          "value": 10
+        },
+        {
+          "label": "Hispanic",
+          "value": 804
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 59
+        },
+        {
+          "label": "Two or More Races",
+          "value": 380
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6496
+        }
+      ]
+    },
+    "Sanpete County, Utah": {
+      "label": "Sanpete County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 176
+        },
+        {
+          "label": "Asian",
+          "value": 249
+        },
+        {
+          "label": "Black or African American",
+          "value": 258
+        },
+        {
+          "label": "Hispanic",
+          "value": 3057
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 137
+        },
+        {
+          "label": "Two or More Races",
+          "value": 594
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24679
+        }
+      ]
+    },
+    "Sevier County, Utah": {
+      "label": "Sevier County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 96
+        },
+        {
+          "label": "Asian",
+          "value": 64
+        },
+        {
+          "label": "Black or African American",
+          "value": 43
+        },
+        {
+          "label": "Hispanic",
+          "value": 1139
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 41
+        },
+        {
+          "label": "Two or More Races",
+          "value": 465
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19957
+        }
+      ]
+    },
+    "Summit County, Utah": {
+      "label": "Summit County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 27
+        },
+        {
+          "label": "Asian",
+          "value": 736
+        },
+        {
+          "label": "Black or African American",
+          "value": 166
+        },
+        {
+          "label": "Hispanic",
+          "value": 4762
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 64
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1339
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 35545
+        }
+      ]
+    },
+    "Tooele County, Utah": {
+      "label": "Tooele County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 173
+        },
+        {
+          "label": "Asian",
+          "value": 550
+        },
+        {
+          "label": "Black or African American",
+          "value": 624
+        },
+        {
+          "label": "Hispanic",
+          "value": 10922
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 658
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2614
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 60669
+        }
+      ]
+    },
+    "Uintah County, Utah": {
+      "label": "Uintah County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1861
+        },
+        {
+          "label": "Asian",
+          "value": 265
+        },
+        {
+          "label": "Black or African American",
+          "value": 181
+        },
+        {
+          "label": "Hispanic",
+          "value": 3069
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 42
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1659
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29307
+        }
+      ]
+    },
+    "Utah County, Utah": {
+      "label": "Utah County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1689
+        },
+        {
+          "label": "Asian",
+          "value": 9805
+        },
+        {
+          "label": "Black or African American",
+          "value": 4093
+        },
+        {
+          "label": "Hispanic",
+          "value": 94727
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5390
+        },
+        {
+          "label": "Two or More Races",
+          "value": 26693
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 539347
+        }
+      ]
+    },
+    "Wasatch County, Utah": {
+      "label": "Wasatch County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 84
+        },
+        {
+          "label": "Asian",
+          "value": 503
+        },
+        {
+          "label": "Black or African American",
+          "value": 20
+        },
+        {
+          "label": "Hispanic",
+          "value": 5146
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 42
+        },
+        {
+          "label": "Two or More Races",
+          "value": 703
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29198
+        }
+      ]
+    },
+    "Washington County, Utah": {
+      "label": "Washington County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1263
+        },
+        {
+          "label": "Asian",
+          "value": 1992
+        },
+        {
+          "label": "Black or African American",
+          "value": 885
+        },
+        {
+          "label": "Hispanic",
+          "value": 22296
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1255
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6251
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 155308
+        }
+      ]
+    },
+    "Wayne County, Utah": {
+      "label": "Wayne County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 98
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 132
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2327
+        }
+      ]
+    },
+    "Weber County, Utah": {
+      "label": "Weber County, Utah",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 998
+        },
+        {
+          "label": "Asian",
+          "value": 3826
+        },
+        {
+          "label": "Black or African American",
+          "value": 2802
+        },
+        {
+          "label": "Hispanic",
+          "value": 50354
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 573
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8294
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 198459
+        }
+      ]
+    }
+  }
+}

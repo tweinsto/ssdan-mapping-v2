@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Internet Access Over Time –  Louisiana</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>body { font-family: sans-serif; margin: 1rem 2rem; text-align: center; }
+                      h2 { margin-bottom: 0.25rem; font-size: 1.6rem; }
+                      select { padding: 0.4rem; font-size: 1rem; margin: 1rem 0; border-radius: 5px; border: 1px solid #999; }
+                      canvas { width: 100%; max-width: 850px; height: 450px; margin-top: 1rem; }</style>
+</head>
+<html>
+  <body>
+    <h2>Internet Access in  Louisiana (2013–2023)</h2>
+    <label>Select County: </label>
+    <select id="countySelect"><option value='Statewide'>Statewide</option>
+<option value='Ascension Parish, Louisiana'>Ascension Parish, Louisiana</option>
+<option value='Bossier Parish, Louisiana'>Bossier Parish, Louisiana</option>
+<option value='Caddo Parish, Louisiana'>Caddo Parish, Louisiana</option>
+<option value='Calcasieu Parish, Louisiana'>Calcasieu Parish, Louisiana</option>
+<option value='East Baton Rouge Parish, Louisiana'>East Baton Rouge Parish, Louisiana</option>
+<option value='Iberia Parish, Louisiana'>Iberia Parish, Louisiana</option>
+<option value='Jefferson Parish, Louisiana'>Jefferson Parish, Louisiana</option>
+<option value='Lafayette Parish, Louisiana'>Lafayette Parish, Louisiana</option>
+<option value='Lafourche Parish, Louisiana'>Lafourche Parish, Louisiana</option>
+<option value='Livingston Parish, Louisiana'>Livingston Parish, Louisiana</option>
+<option value='Orleans Parish, Louisiana'>Orleans Parish, Louisiana</option>
+<option value='Ouachita Parish, Louisiana'>Ouachita Parish, Louisiana</option>
+<option value='Rapides Parish, Louisiana'>Rapides Parish, Louisiana</option>
+<option value='St. Landry Parish, Louisiana'>St. Landry Parish, Louisiana</option>
+<option value='St. Tammany Parish, Louisiana'>St. Tammany Parish, Louisiana</option>
+<option value='Tangipahoa Parish, Louisiana'>Tangipahoa Parish, Louisiana</option>
+<option value='Terrebonne Parish, Louisiana'>Terrebonne Parish, Louisiana</option></select>
+    <canvas id="lineChart" width="850" height="450"></canvas>
+    <script>const internetData = {"Statewide":{"2013":68.8,"2014":70.3,"2015":72.5,"2016":76.6,"2017":77.6,"2018":80.2,"2019":82.4,"2021":86.9,"2022":87.5,"2023":89.7},"Ascension Parish, Louisiana":{"2013":76.8,"2014":79,"2015":85.1,"2016":88.4,"2017":86.5,"2018":89.1,"2019":88.3,"2021":90.3,"2022":87.8,"2023":94},"Bossier Parish, Louisiana":{"2013":65.5,"2014":72.5,"2015":74.2,"2016":69.9,"2017":58.7,"2018":60.4,"2019":71.8,"2021":82.5,"2022":86.8,"2023":91.4},"Caddo Parish, Louisiana":{"2013":65.7,"2014":68.5,"2015":68.1,"2016":69.5,"2017":68.1,"2018":67,"2019":72.6,"2021":84.1,"2022":86.8,"2023":83.9},"Calcasieu Parish, Louisiana":{"2013":67.1,"2014":69,"2015":69,"2016":71.6,"2017":76.9,"2018":77.4,"2019":82.6,"2021":83.3,"2022":85.7,"2023":87.2},"East Baton Rouge Parish, Louisiana":{"2013":72.6,"2014":72.1,"2015":78.5,"2016":81.5,"2017":82.6,"2018":87,"2019":88.4,"2021":89.2,"2022":91.6,"2023":92.1},"Iberia Parish, Louisiana":{"2013":63.6,"2014":66.7,"2015":64.5,"2016":73.5,"2017":77.1,"2018":81.3,"2019":86.4,"2021":84.5,"2022":79.6,"2023":85.5},"Jefferson Parish, Louisiana":{"2013":69.4,"2014":70.5,"2015":71.9,"2016":75.2,"2017":78.5,"2018":81.1,"2019":84.9,"2021":87.8,"2022":86.5,"2023":90.7},"Lafayette Parish, Louisiana":{"2013":76.3,"2014":78.2,"2015":80.1,"2016":84.8,"2017":81.6,"2018":87.5,"2019":89.4,"2021":91.7,"2022":92.2,"2023":93.2},"Lafourche Parish, Louisiana":{"2013":66.4,"2014":67.6,"2015":73.6,"2016":75.4,"2017":80.9,"2018":79.6,"2019":80.2,"2021":85.3,"2022":85.8,"2023":90},"Livingston Parish, Louisiana":{"2013":72.3,"2014":73.1,"2015":73.5,"2016":77.1,"2017":82.1,"2018":87.6,"2019":80.5,"2021":95.8,"2022":91.4,"2023":94.3},"Orleans Parish, Louisiana":{"2013":60.1,"2014":59.9,"2015":62.8,"2016":73.8,"2017":75.3,"2018":78,"2019":78.8,"2021":83.8,"2022":83.7,"2023":89.3},"Ouachita Parish, Louisiana":{"2013":65.6,"2014":70.2,"2015":67.5,"2016":70.3,"2017":71.2,"2018":76.3,"2019":78.7,"2021":84.6,"2022":79.4,"2023":82.7},"Rapides Parish, Louisiana":{"2013":69.5,"2014":68,"2015":70.6,"2016":75.8,"2017":78.6,"2018":84.3,"2019":80.8,"2021":86.4,"2022":88.3,"2023":86.7},"St. Landry Parish, Louisiana":{"2013":55.9,"2014":65.3,"2015":67.9,"2016":64.3,"2017":67.6,"2018":58.1,"2019":59,"2021":74.2,"2022":71.3,"2023":69.6},"St. Tammany Parish, Louisiana":{"2013":80.4,"2014":79.7,"2015":83.5,"2016":85.5,"2017":88,"2018":86.8,"2019":88.7,"2021":92,"2022":94.1,"2023":94.3},"Tangipahoa Parish, Louisiana":{"2013":63.1,"2014":72.6,"2015":70.5,"2016":80.9,"2017":77.6,"2018":81.8,"2019":82.1,"2021":87.4,"2022":88.1,"2023":94.1},"Terrebonne Parish, Louisiana":{"2013":70.8,"2014":63.9,"2015":66.8,"2016":75.1,"2017":74.4,"2018":83.8,"2019":86,"2021":80.9,"2022":90.9,"2023":89.6}};
+const ctx = document.getElementById('lineChart').getContext('2d');
+let chart;
+
+function renderChart(data) {
+  const labels = Object.keys(data);
+  const values = Object.values(data);
+
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: '% With Internet',
+        data: values,
+        fill: false,
+        borderColor: 'teal',
+        backgroundColor: 'teal',
+        tension: 0.3,
+        pointRadius: 4
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100,
+          title: { display: true, text: '% With Internet' }
+        },
+        x: {
+          title: { display: true, text: 'Year' }
+        }
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function(ctx) {
+              return ctx.parsed.y.toFixed(1) + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  renderChart(internetData[this.value]);
+});
+renderChart(internetData['Statewide']);</script>
+  </body>
+</html>
+</html>

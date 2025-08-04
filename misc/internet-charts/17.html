@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Internet Access Over Time –  Illinois</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>body { font-family: sans-serif; margin: 1rem 2rem; text-align: center; }
+                      h2 { margin-bottom: 0.25rem; font-size: 1.6rem; }
+                      select { padding: 0.4rem; font-size: 1rem; margin: 1rem 0; border-radius: 5px; border: 1px solid #999; }
+                      canvas { width: 100%; max-width: 850px; height: 450px; margin-top: 1rem; }</style>
+</head>
+<html>
+  <body>
+    <h2>Internet Access in  Illinois (2013–2023)</h2>
+    <label>Select County: </label>
+    <select id="countySelect"><option value='Statewide'>Statewide</option>
+<option value='Adams County, Illinois'>Adams County, Illinois</option>
+<option value='Champaign County, Illinois'>Champaign County, Illinois</option>
+<option value='Cook County, Illinois'>Cook County, Illinois</option>
+<option value='DeKalb County, Illinois'>DeKalb County, Illinois</option>
+<option value='DuPage County, Illinois'>DuPage County, Illinois</option>
+<option value='Kane County, Illinois'>Kane County, Illinois</option>
+<option value='Kankakee County, Illinois'>Kankakee County, Illinois</option>
+<option value='Kendall County, Illinois'>Kendall County, Illinois</option>
+<option value='Lake County, Illinois'>Lake County, Illinois</option>
+<option value='LaSalle County, Illinois'>LaSalle County, Illinois</option>
+<option value='Macon County, Illinois'>Macon County, Illinois</option>
+<option value='Madison County, Illinois'>Madison County, Illinois</option>
+<option value='McHenry County, Illinois'>McHenry County, Illinois</option>
+<option value='McLean County, Illinois'>McLean County, Illinois</option>
+<option value='Peoria County, Illinois'>Peoria County, Illinois</option>
+<option value='Rock Island County, Illinois'>Rock Island County, Illinois</option>
+<option value='Sangamon County, Illinois'>Sangamon County, Illinois</option>
+<option value='St. Clair County, Illinois'>St. Clair County, Illinois</option>
+<option value='Tazewell County, Illinois'>Tazewell County, Illinois</option>
+<option value='Vermilion County, Illinois'>Vermilion County, Illinois</option>
+<option value='Will County, Illinois'>Will County, Illinois</option>
+<option value='Williamson County, Illinois'>Williamson County, Illinois</option>
+<option value='Winnebago County, Illinois'>Winnebago County, Illinois</option></select>
+    <canvas id="lineChart" width="850" height="450"></canvas>
+    <script>const internetData = {"Statewide":{"2013":76,"2014":77.2,"2015":78.6,"2016":83.3,"2017":84.7,"2018":86.1,"2019":87,"2021":90.7,"2022":91.5,"2023":92.5},"Adams County, Illinois":{"2013":69,"2014":69.3,"2015":69.1,"2016":76.9,"2017":81.5,"2018":82.4,"2019":81.6},"Champaign County, Illinois":{"2013":80.5,"2014":79.1,"2015":78.9,"2016":81.6,"2017":84.4,"2018":84.5,"2019":84.4,"2021":91.1,"2022":89.7,"2023":93.9},"Cook County, Illinois":{"2013":73.4,"2014":74,"2015":75.4,"2016":80.9,"2017":82.1,"2018":84.4,"2019":85.6,"2021":89.6,"2022":90.3,"2023":91.6},"DeKalb County, Illinois":{"2013":80.7,"2014":84.7,"2015":84,"2016":88.6,"2017":85.5,"2018":90.5,"2019":92.6,"2021":92.9,"2022":93.3,"2023":93.8},"DuPage County, Illinois":{"2013":83.2,"2014":84.7,"2015":87,"2016":90.5,"2017":91.9,"2018":92.1,"2019":93.1,"2021":94.6,"2022":94.5,"2023":95.6},"Kane County, Illinois":{"2013":81.6,"2014":84.6,"2015":85.5,"2016":87,"2017":89.6,"2018":89.1,"2019":89.2,"2021":93.8,"2022":93.4,"2023":93.3},"Kankakee County, Illinois":{"2013":70.2,"2014":75.9,"2015":72.5,"2016":79.4,"2017":78.2,"2018":79.5,"2019":80.3,"2021":87.6,"2022":92.9,"2023":87.8},"Kendall County, Illinois":{"2013":93.7,"2014":89,"2015":94,"2016":91.9,"2017":91.3,"2018":91.8,"2019":92.9,"2021":95.1,"2022":95.7,"2023":95.6},"Lake County, Illinois":{"2013":82.9,"2014":86.2,"2015":87.4,"2016":89.3,"2017":90.8,"2018":91.3,"2019":91.8,"2021":93.8,"2022":93.7,"2023":94.9},"LaSalle County, Illinois":{"2013":70.9,"2014":76.2,"2015":76.1,"2016":80.9,"2017":86,"2018":84.9,"2019":83.3,"2021":85.1,"2022":86.3,"2023":89.7},"Macon County, Illinois":{"2013":69.7,"2014":73,"2015":71.6,"2016":81,"2017":81.2,"2018":82.2,"2019":76.2,"2021":83.4,"2022":90.1,"2023":91.7},"Madison County, Illinois":{"2013":75.6,"2014":77.2,"2015":79.2,"2016":83.6,"2017":82.8,"2018":87.1,"2019":87.3,"2021":90.2,"2022":90.6,"2023":92.6},"McHenry County, Illinois":{"2013":85.6,"2014":87.4,"2015":88.3,"2016":92.2,"2017":94.3,"2018":93.7,"2019":94.8,"2021":95.3,"2022":95.2,"2023":95.8},"McLean County, Illinois":{"2013":80,"2014":78.1,"2015":80.2,"2016":83.5,"2017":84.4,"2018":85,"2019":83,"2021":88.3,"2022":89.7,"2023":90.9},"Peoria County, Illinois":{"2013":69.5,"2014":72.1,"2015":71.7,"2016":77.7,"2017":78.8,"2018":83,"2019":84.4,"2021":91.6,"2022":88.2,"2023":90.8},"Rock Island County, Illinois":{"2013":74.3,"2014":72.2,"2015":72.8,"2016":82.3,"2017":81.9,"2018":84,"2019":86.7,"2021":88.7,"2022":89.1,"2023":91.1},"Sangamon County, Illinois":{"2013":78.7,"2014":76.3,"2015":78,"2016":81.6,"2017":81.7,"2018":80.6,"2019":80.3,"2021":87.9,"2022":94,"2023":95.2},"St. Clair County, Illinois":{"2013":64.9,"2014":65.5,"2015":70.3,"2016":75.7,"2017":80.4,"2018":77.4,"2019":83.5,"2021":90.9,"2022":91.3,"2023":89.6},"Tazewell County, Illinois":{"2013":74,"2014":78.5,"2015":76,"2016":83.1,"2017":82.8,"2018":84.6,"2019":82.2,"2021":87.4,"2022":92.5,"2023":89.2},"Vermilion County, Illinois":{"2013":58.6,"2014":60.1,"2015":71.8,"2016":76.9,"2017":75.9,"2018":76.5,"2019":80.4,"2021":84,"2022":91.2,"2023":88.4},"Will County, Illinois":{"2013":81.4,"2014":84.6,"2015":85.4,"2016":89.1,"2017":90.1,"2018":90.4,"2019":90.9,"2021":93.4,"2022":94,"2023":94.5},"Williamson County, Illinois":{"2013":66.9,"2014":72.9,"2015":69.8,"2016":75.5,"2017":79,"2018":76.5,"2019":82.9,"2021":85.6,"2022":90.4,"2023":88.7},"Winnebago County, Illinois":{"2013":74,"2014":72.5,"2015":76.9,"2016":82,"2017":84.6,"2018":86.9,"2019":86.9,"2021":88.5,"2022":90.3,"2023":91.7}};
+const ctx = document.getElementById('lineChart').getContext('2d');
+let chart;
+
+function renderChart(data) {
+  const labels = Object.keys(data);
+  const values = Object.values(data);
+
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: '% With Internet',
+        data: values,
+        fill: false,
+        borderColor: 'teal',
+        backgroundColor: 'teal',
+        tension: 0.3,
+        pointRadius: 4
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100,
+          title: { display: true, text: '% With Internet' }
+        },
+        x: {
+          title: { display: true, text: 'Year' }
+        }
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function(ctx) {
+              return ctx.parsed.y.toFixed(1) + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  renderChart(internetData[this.value]);
+});
+renderChart(internetData['Statewide']);</script>
+  </body>
+</html>
+</html>

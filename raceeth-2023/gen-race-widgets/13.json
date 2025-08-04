@@ -1,0 +1,5285 @@
+{
+  "state": "Appling County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10235
+        },
+        {
+          "label": "Asian",
+          "value": 468448
+        },
+        {
+          "label": "Black or African American",
+          "value": 3350394
+        },
+        {
+          "label": "Hispanic",
+          "value": 1158299
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5526
+        },
+        {
+          "label": "Two or More Races",
+          "value": 378591
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5394071
+        }
+      ]
+    },
+    "Appling County, Georgia": {
+      "label": "Appling County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 87
+        },
+        {
+          "label": "Black or African American",
+          "value": 3260
+        },
+        {
+          "label": "Hispanic",
+          "value": 1909
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 601
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12482
+        }
+      ]
+    },
+    "Atkinson County, Georgia": {
+      "label": "Atkinson County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 1255
+        },
+        {
+          "label": "Hispanic",
+          "value": 2177
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 302
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4527
+        }
+      ]
+    },
+    "Bacon County, Georgia": {
+      "label": "Bacon County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 77
+        },
+        {
+          "label": "Black or African American",
+          "value": 1671
+        },
+        {
+          "label": "Hispanic",
+          "value": 929
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 351
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8101
+        }
+      ]
+    },
+    "Baker County, Georgia": {
+      "label": "Baker County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 161
+        },
+        {
+          "label": "Black or African American",
+          "value": 1148
+        },
+        {
+          "label": "Hispanic",
+          "value": 73
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 68
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1380
+        }
+      ]
+    },
+    "Baldwin County, Georgia": {
+      "label": "Baldwin County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 27
+        },
+        {
+          "label": "Asian",
+          "value": 735
+        },
+        {
+          "label": "Black or African American",
+          "value": 18188
+        },
+        {
+          "label": "Hispanic",
+          "value": 1206
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 108
+        },
+        {
+          "label": "Two or More Races",
+          "value": 817
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22565
+        }
+      ]
+    },
+    "Banks County, Georgia": {
+      "label": "Banks County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 261
+        },
+        {
+          "label": "Black or African American",
+          "value": 311
+        },
+        {
+          "label": "Hispanic",
+          "value": 1299
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 626
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16244
+        }
+      ]
+    },
+    "Barrow County, Georgia": {
+      "label": "Barrow County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 46
+        },
+        {
+          "label": "Asian",
+          "value": 3547
+        },
+        {
+          "label": "Black or African American",
+          "value": 11376
+        },
+        {
+          "label": "Hispanic",
+          "value": 12347
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2976
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 56544
+        }
+      ]
+    },
+    "Bartow County, Georgia": {
+      "label": "Bartow County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 911
+        },
+        {
+          "label": "Black or African American",
+          "value": 11776
+        },
+        {
+          "label": "Hispanic",
+          "value": 11401
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 131
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3580
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 82365
+        }
+      ]
+    },
+    "Ben Hill County, Georgia": {
+      "label": "Ben Hill County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 44
+        },
+        {
+          "label": "Asian",
+          "value": 62
+        },
+        {
+          "label": "Black or African American",
+          "value": 6468
+        },
+        {
+          "label": "Hispanic",
+          "value": 1108
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 227
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9219
+        }
+      ]
+    },
+    "Berrien County, Georgia": {
+      "label": "Berrien County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 192
+        },
+        {
+          "label": "Black or African American",
+          "value": 1929
+        },
+        {
+          "label": "Hispanic",
+          "value": 1079
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 24
+        },
+        {
+          "label": "Two or More Races",
+          "value": 532
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14495
+        }
+      ]
+    },
+    "Bibb County, Georgia": {
+      "label": "Bibb County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 72
+        },
+        {
+          "label": "Asian",
+          "value": 3450
+        },
+        {
+          "label": "Black or African American",
+          "value": 85004
+        },
+        {
+          "label": "Hispanic",
+          "value": 6967
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 102
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4868
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 54627
+        }
+      ]
+    },
+    "Bleckley County, Georgia": {
+      "label": "Bleckley County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 21
+        },
+        {
+          "label": "Asian",
+          "value": 89
+        },
+        {
+          "label": "Black or African American",
+          "value": 3225
+        },
+        {
+          "label": "Hispanic",
+          "value": 464
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 177
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8438
+        }
+      ]
+    },
+    "Brantley County, Georgia": {
+      "label": "Brantley County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 120
+        },
+        {
+          "label": "Black or African American",
+          "value": 535
+        },
+        {
+          "label": "Hispanic",
+          "value": 378
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 556
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16582
+        }
+      ]
+    },
+    "Brooks County, Georgia": {
+      "label": "Brooks County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 143
+        },
+        {
+          "label": "Black or African American",
+          "value": 5542
+        },
+        {
+          "label": "Hispanic",
+          "value": 1048
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 495
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8827
+        }
+      ]
+    },
+    "Bryan County, Georgia": {
+      "label": "Bryan County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 44
+        },
+        {
+          "label": "Asian",
+          "value": 1001
+        },
+        {
+          "label": "Black or African American",
+          "value": 6516
+        },
+        {
+          "label": "Hispanic",
+          "value": 3672
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 17
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2453
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32819
+        }
+      ]
+    },
+    "Bulloch County, Georgia": {
+      "label": "Bulloch County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 105
+        },
+        {
+          "label": "Asian",
+          "value": 1142
+        },
+        {
+          "label": "Black or African American",
+          "value": 22920
+        },
+        {
+          "label": "Hispanic",
+          "value": 4105
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 20
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2623
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 50269
+        }
+      ]
+    },
+    "Burke County, Georgia": {
+      "label": "Burke County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 24
+        },
+        {
+          "label": "Asian",
+          "value": 127
+        },
+        {
+          "label": "Black or African American",
+          "value": 10987
+        },
+        {
+          "label": "Hispanic",
+          "value": 841
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 732
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11716
+        }
+      ]
+    },
+    "Butts County, Georgia": {
+      "label": "Butts County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 34
+        },
+        {
+          "label": "Black or African American",
+          "value": 7179
+        },
+        {
+          "label": "Hispanic",
+          "value": 941
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 854
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16910
+        }
+      ]
+    },
+    "Calhoun County, Georgia": {
+      "label": "Calhoun County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 16
+        },
+        {
+          "label": "Black or African American",
+          "value": 3293
+        },
+        {
+          "label": "Hispanic",
+          "value": 267
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 129
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1821
+        }
+      ]
+    },
+    "Camden County, Georgia": {
+      "label": "Camden County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 54
+        },
+        {
+          "label": "Asian",
+          "value": 879
+        },
+        {
+          "label": "Black or African American",
+          "value": 9881
+        },
+        {
+          "label": "Hispanic",
+          "value": 4106
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 51
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2398
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 38475
+        }
+      ]
+    },
+    "Candler County, Georgia": {
+      "label": "Candler County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 22
+        },
+        {
+          "label": "Asian",
+          "value": 66
+        },
+        {
+          "label": "Black or African American",
+          "value": 2485
+        },
+        {
+          "label": "Hispanic",
+          "value": 1398
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 417
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6575
+        }
+      ]
+    },
+    "Carroll County, Georgia": {
+      "label": "Carroll County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 130
+        },
+        {
+          "label": "Asian",
+          "value": 1061
+        },
+        {
+          "label": "Black or African American",
+          "value": 24762
+        },
+        {
+          "label": "Hispanic",
+          "value": 10112
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2447
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 82284
+        }
+      ]
+    },
+    "Catoosa County, Georgia": {
+      "label": "Catoosa County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 1071
+        },
+        {
+          "label": "Black or African American",
+          "value": 1524
+        },
+        {
+          "label": "Hispanic",
+          "value": 2595
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 37
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2284
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 60420
+        }
+      ]
+    },
+    "Charlton County, Georgia": {
+      "label": "Charlton County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 75
+        },
+        {
+          "label": "Asian",
+          "value": 108
+        },
+        {
+          "label": "Black or African American",
+          "value": 3171
+        },
+        {
+          "label": "Hispanic",
+          "value": 1967
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 479
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6911
+        }
+      ]
+    },
+    "Chatham County, Georgia": {
+      "label": "Chatham County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 168
+        },
+        {
+          "label": "Asian",
+          "value": 8358
+        },
+        {
+          "label": "Black or African American",
+          "value": 115594
+        },
+        {
+          "label": "Hispanic",
+          "value": 23945
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 397
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10625
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 136229
+        }
+      ]
+    },
+    "Chattahoochee County, Georgia": {
+      "label": "Chattahoochee County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 37
+        },
+        {
+          "label": "Asian",
+          "value": 273
+        },
+        {
+          "label": "Black or African American",
+          "value": 1650
+        },
+        {
+          "label": "Hispanic",
+          "value": 1600
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 60
+        },
+        {
+          "label": "Two or More Races",
+          "value": 426
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4965
+        }
+      ]
+    },
+    "Chattooga County, Georgia": {
+      "label": "Chattooga County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 20
+        },
+        {
+          "label": "Black or African American",
+          "value": 2356
+        },
+        {
+          "label": "Hispanic",
+          "value": 1361
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 880
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20345
+        }
+      ]
+    },
+    "Cherokee County, Georgia": {
+      "label": "Cherokee County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 114
+        },
+        {
+          "label": "Asian",
+          "value": 5775
+        },
+        {
+          "label": "Black or African American",
+          "value": 19244
+        },
+        {
+          "label": "Hispanic",
+          "value": 33341
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 84
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9283
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 204916
+        }
+      ]
+    },
+    "Clarke County, Georgia": {
+      "label": "Clarke County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 195
+        },
+        {
+          "label": "Asian",
+          "value": 5386
+        },
+        {
+          "label": "Black or African American",
+          "value": 33824
+        },
+        {
+          "label": "Hispanic",
+          "value": 14751
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4291
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 70365
+        }
+      ]
+    },
+    "Clay County, Georgia": {
+      "label": "Clay County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 1698
+        },
+        {
+          "label": "Hispanic",
+          "value": 4
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 20
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1131
+        }
+      ]
+    },
+    "Clayton County, Georgia": {
+      "label": "Clayton County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 325
+        },
+        {
+          "label": "Asian",
+          "value": 14676
+        },
+        {
+          "label": "Black or African American",
+          "value": 205375
+        },
+        {
+          "label": "Hispanic",
+          "value": 42738
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 228
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9062
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24600
+        }
+      ]
+    },
+    "Clinch County, Georgia": {
+      "label": "Clinch County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 80
+        },
+        {
+          "label": "Asian",
+          "value": 14
+        },
+        {
+          "label": "Black or African American",
+          "value": 1718
+        },
+        {
+          "label": "Hispanic",
+          "value": 377
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 221
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4312
+        }
+      ]
+    },
+    "Cobb County, Georgia": {
+      "label": "Cobb County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 449
+        },
+        {
+          "label": "Asian",
+          "value": 41464
+        },
+        {
+          "label": "Black or African American",
+          "value": 203535
+        },
+        {
+          "label": "Hispanic",
+          "value": 112882
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 230
+        },
+        {
+          "label": "Two or More Races",
+          "value": 35434
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 367833
+        }
+      ]
+    },
+    "Coffee County, Georgia": {
+      "label": "Coffee County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 45
+        },
+        {
+          "label": "Asian",
+          "value": 292
+        },
+        {
+          "label": "Black or African American",
+          "value": 12099
+        },
+        {
+          "label": "Hispanic",
+          "value": 5576
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 758
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24287
+        }
+      ]
+    },
+    "Colquitt County, Georgia": {
+      "label": "Colquitt County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 386
+        },
+        {
+          "label": "Black or African American",
+          "value": 10450
+        },
+        {
+          "label": "Hispanic",
+          "value": 9066
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1004
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24938
+        }
+      ]
+    },
+    "Columbia County, Georgia": {
+      "label": "Columbia County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 63
+        },
+        {
+          "label": "Asian",
+          "value": 6992
+        },
+        {
+          "label": "Black or African American",
+          "value": 28398
+        },
+        {
+          "label": "Hispanic",
+          "value": 12474
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7860
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 102675
+        }
+      ]
+    },
+    "Cook County, Georgia": {
+      "label": "Cook County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 43
+        },
+        {
+          "label": "Black or African American",
+          "value": 4840
+        },
+        {
+          "label": "Hispanic",
+          "value": 1216
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 488
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10726
+        }
+      ]
+    },
+    "Coweta County, Georgia": {
+      "label": "Coweta County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 66
+        },
+        {
+          "label": "Asian",
+          "value": 3090
+        },
+        {
+          "label": "Black or African American",
+          "value": 27341
+        },
+        {
+          "label": "Hispanic",
+          "value": 11859
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4872
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 102423
+        }
+      ]
+    },
+    "Crawford County, Georgia": {
+      "label": "Crawford County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 72
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 2620
+        },
+        {
+          "label": "Hispanic",
+          "value": 466
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 222
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8803
+        }
+      ]
+    },
+    "Crisp County, Georgia": {
+      "label": "Crisp County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 207
+        },
+        {
+          "label": "Black or African American",
+          "value": 8999
+        },
+        {
+          "label": "Hispanic",
+          "value": 690
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 337
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9688
+        }
+      ]
+    },
+    "Dade County, Georgia": {
+      "label": "Dade County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 173
+        },
+        {
+          "label": "Black or African American",
+          "value": 260
+        },
+        {
+          "label": "Hispanic",
+          "value": 374
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 485
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14868
+        }
+      ]
+    },
+    "Dawson County, Georgia": {
+      "label": "Dawson County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 257
+        },
+        {
+          "label": "Black or African American",
+          "value": 462
+        },
+        {
+          "label": "Hispanic",
+          "value": 1926
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 902
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25032
+        }
+      ]
+    },
+    "Decatur County, Georgia": {
+      "label": "Decatur County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 208
+        },
+        {
+          "label": "Black or African American",
+          "value": 12155
+        },
+        {
+          "label": "Hispanic",
+          "value": 1972
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 484
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14269
+        }
+      ]
+    },
+    "DeKalb County, Georgia": {
+      "label": "DeKalb County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 864
+        },
+        {
+          "label": "Asian",
+          "value": 46237
+        },
+        {
+          "label": "Black or African American",
+          "value": 389138
+        },
+        {
+          "label": "Hispanic",
+          "value": 79372
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 453
+        },
+        {
+          "label": "Two or More Races",
+          "value": 27785
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 214181
+        }
+      ]
+    },
+    "Dodge County, Georgia": {
+      "label": "Dodge County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 34
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 6122
+        },
+        {
+          "label": "Hispanic",
+          "value": 680
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 267
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12690
+        }
+      ]
+    },
+    "Dooly County, Georgia": {
+      "label": "Dooly County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 5262
+        },
+        {
+          "label": "Hispanic",
+          "value": 845
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 356
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4511
+        }
+      ]
+    },
+    "Dougherty County, Georgia": {
+      "label": "Dougherty County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 51
+        },
+        {
+          "label": "Asian",
+          "value": 626
+        },
+        {
+          "label": "Black or African American",
+          "value": 58868
+        },
+        {
+          "label": "Hispanic",
+          "value": 2561
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1909
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19583
+        }
+      ]
+    },
+    "Douglas County, Georgia": {
+      "label": "Douglas County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 170
+        },
+        {
+          "label": "Asian",
+          "value": 2727
+        },
+        {
+          "label": "Black or African American",
+          "value": 70867
+        },
+        {
+          "label": "Hispanic",
+          "value": 17076
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 18
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5745
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 47990
+        }
+      ]
+    },
+    "Early County, Georgia": {
+      "label": "Early County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 31
+        },
+        {
+          "label": "Black or African American",
+          "value": 5509
+        },
+        {
+          "label": "Hispanic",
+          "value": 225
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 281
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4628
+        }
+      ]
+    },
+    "Echols County, Georgia": {
+      "label": "Echols County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 233
+        },
+        {
+          "label": "Black or African American",
+          "value": 157
+        },
+        {
+          "label": "Hispanic",
+          "value": 1012
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 167
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2133
+        }
+      ]
+    },
+    "Effingham County, Georgia": {
+      "label": "Effingham County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 72
+        },
+        {
+          "label": "Asian",
+          "value": 474
+        },
+        {
+          "label": "Black or African American",
+          "value": 9554
+        },
+        {
+          "label": "Hispanic",
+          "value": 4128
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 84
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2821
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 49859
+        }
+      ]
+    },
+    "Elbert County, Georgia": {
+      "label": "Elbert County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 138
+        },
+        {
+          "label": "Asian",
+          "value": 239
+        },
+        {
+          "label": "Black or African American",
+          "value": 5040
+        },
+        {
+          "label": "Hispanic",
+          "value": 1110
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 764
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12390
+        }
+      ]
+    },
+    "Emanuel County, Georgia": {
+      "label": "Emanuel County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 51
+        },
+        {
+          "label": "Asian",
+          "value": 186
+        },
+        {
+          "label": "Black or African American",
+          "value": 7392
+        },
+        {
+          "label": "Hispanic",
+          "value": 1067
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 892
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13366
+        }
+      ]
+    },
+    "Evans County, Georgia": {
+      "label": "Evans County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 106
+        },
+        {
+          "label": "Black or African American",
+          "value": 2932
+        },
+        {
+          "label": "Hispanic",
+          "value": 1296
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 457
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5932
+        }
+      ]
+    },
+    "Fannin County, Georgia": {
+      "label": "Fannin County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 86
+        },
+        {
+          "label": "Black or African American",
+          "value": 182
+        },
+        {
+          "label": "Hispanic",
+          "value": 794
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 848
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23554
+        }
+      ]
+    },
+    "Fayette County, Georgia": {
+      "label": "Fayette County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 132
+        },
+        {
+          "label": "Asian",
+          "value": 5626
+        },
+        {
+          "label": "Black or African American",
+          "value": 30420
+        },
+        {
+          "label": "Hispanic",
+          "value": 9978
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 119
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3922
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 68654
+        }
+      ]
+    },
+    "Floyd County, Georgia": {
+      "label": "Floyd County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 39
+        },
+        {
+          "label": "Asian",
+          "value": 1273
+        },
+        {
+          "label": "Black or African American",
+          "value": 13381
+        },
+        {
+          "label": "Hispanic",
+          "value": 11878
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 98
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3429
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 68671
+        }
+      ]
+    },
+    "Forsyth County, Georgia": {
+      "label": "Forsyth County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 159
+        },
+        {
+          "label": "Asian",
+          "value": 46654
+        },
+        {
+          "label": "Black or African American",
+          "value": 10440
+        },
+        {
+          "label": "Hispanic",
+          "value": 26070
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9242
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 165972
+        }
+      ]
+    },
+    "Franklin County, Georgia": {
+      "label": "Franklin County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 373
+        },
+        {
+          "label": "Black or African American",
+          "value": 1996
+        },
+        {
+          "label": "Hispanic",
+          "value": 1244
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 689
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19432
+        }
+      ]
+    },
+    "Fulton County, Georgia": {
+      "label": "Fulton County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1097
+        },
+        {
+          "label": "Asian",
+          "value": 80493
+        },
+        {
+          "label": "Black or African American",
+          "value": 455582
+        },
+        {
+          "label": "Hispanic",
+          "value": 86110
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 222
+        },
+        {
+          "label": "Two or More Races",
+          "value": 37491
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 399326
+        }
+      ]
+    },
+    "Gilmer County, Georgia": {
+      "label": "Gilmer County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 86
+        },
+        {
+          "label": "Asian",
+          "value": 141
+        },
+        {
+          "label": "Black or African American",
+          "value": 139
+        },
+        {
+          "label": "Hispanic",
+          "value": 3839
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 676
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27037
+        }
+      ]
+    },
+    "Glascock County, Georgia": {
+      "label": "Glascock County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 343
+        },
+        {
+          "label": "Hispanic",
+          "value": 21
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 19
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2530
+        }
+      ]
+    },
+    "Glynn County, Georgia": {
+      "label": "Glynn County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 132
+        },
+        {
+          "label": "Asian",
+          "value": 1045
+        },
+        {
+          "label": "Black or African American",
+          "value": 20787
+        },
+        {
+          "label": "Hispanic",
+          "value": 6400
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 64
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3647
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 52808
+        }
+      ]
+    },
+    "Gordon County, Georgia": {
+      "label": "Gordon County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 45
+        },
+        {
+          "label": "Asian",
+          "value": 636
+        },
+        {
+          "label": "Black or African American",
+          "value": 1985
+        },
+        {
+          "label": "Hispanic",
+          "value": 9371
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 57
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1574
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 44513
+        }
+      ]
+    },
+    "Grady County, Georgia": {
+      "label": "Grady County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 37
+        },
+        {
+          "label": "Asian",
+          "value": 6
+        },
+        {
+          "label": "Black or African American",
+          "value": 7627
+        },
+        {
+          "label": "Hispanic",
+          "value": 3366
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 298
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14701
+        }
+      ]
+    },
+    "Greene County, Georgia": {
+      "label": "Greene County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 239
+        },
+        {
+          "label": "Black or African American",
+          "value": 5948
+        },
+        {
+          "label": "Hispanic",
+          "value": 1360
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 387
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11552
+        }
+      ]
+    },
+    "Gwinnett County, Georgia": {
+      "label": "Gwinnett County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1236
+        },
+        {
+          "label": "Asian",
+          "value": 124070
+        },
+        {
+          "label": "Black or African American",
+          "value": 268853
+        },
+        {
+          "label": "Hispanic",
+          "value": 224818
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 241
+        },
+        {
+          "label": "Two or More Races",
+          "value": 34802
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 309200
+        }
+      ]
+    },
+    "Habersham County, Georgia": {
+      "label": "Habersham County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 50
+        },
+        {
+          "label": "Asian",
+          "value": 1004
+        },
+        {
+          "label": "Black or African American",
+          "value": 1597
+        },
+        {
+          "label": "Hispanic",
+          "value": 7315
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1215
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 35692
+        }
+      ]
+    },
+    "Hall County, Georgia": {
+      "label": "Hall County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 98
+        },
+        {
+          "label": "Asian",
+          "value": 4334
+        },
+        {
+          "label": "Black or African American",
+          "value": 13834
+        },
+        {
+          "label": "Hispanic",
+          "value": 59586
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6627
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 122828
+        }
+      ]
+    },
+    "Hancock County, Georgia": {
+      "label": "Hancock County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 47
+        },
+        {
+          "label": "Black or African American",
+          "value": 6161
+        },
+        {
+          "label": "Hispanic",
+          "value": 55
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 87
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2280
+        }
+      ]
+    },
+    "Haralson County, Georgia": {
+      "label": "Haralson County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 171
+        },
+        {
+          "label": "Black or African American",
+          "value": 1458
+        },
+        {
+          "label": "Hispanic",
+          "value": 589
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 744
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27576
+        }
+      ]
+    },
+    "Harris County, Georgia": {
+      "label": "Harris County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 196
+        },
+        {
+          "label": "Black or African American",
+          "value": 5592
+        },
+        {
+          "label": "Hispanic",
+          "value": 1657
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1364
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26600
+        }
+      ]
+    },
+    "Hart County, Georgia": {
+      "label": "Hart County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 63
+        },
+        {
+          "label": "Asian",
+          "value": 358
+        },
+        {
+          "label": "Black or African American",
+          "value": 4504
+        },
+        {
+          "label": "Hispanic",
+          "value": 1050
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 906
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19582
+        }
+      ]
+    },
+    "Heard County, Georgia": {
+      "label": "Heard County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 88
+        },
+        {
+          "label": "Black or African American",
+          "value": 919
+        },
+        {
+          "label": "Hispanic",
+          "value": 302
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 479
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9811
+        }
+      ]
+    },
+    "Henry County, Georgia": {
+      "label": "Henry County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 216
+        },
+        {
+          "label": "Asian",
+          "value": 7906
+        },
+        {
+          "label": "Black or African American",
+          "value": 122305
+        },
+        {
+          "label": "Hispanic",
+          "value": 19620
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 102
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9022
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 84858
+        }
+      ]
+    },
+    "Houston County, Georgia": {
+      "label": "Houston County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 147
+        },
+        {
+          "label": "Asian",
+          "value": 4929
+        },
+        {
+          "label": "Black or African American",
+          "value": 52252
+        },
+        {
+          "label": "Hispanic",
+          "value": 12228
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 257
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8766
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 87786
+        }
+      ]
+    },
+    "Irwin County, Georgia": {
+      "label": "Irwin County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 17
+        },
+        {
+          "label": "Black or African American",
+          "value": 2375
+        },
+        {
+          "label": "Hispanic",
+          "value": 658
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 119
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6189
+        }
+      ]
+    },
+    "Jackson County, Georgia": {
+      "label": "Jackson County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 1679
+        },
+        {
+          "label": "Black or African American",
+          "value": 6202
+        },
+        {
+          "label": "Hispanic",
+          "value": 7989
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 34
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2143
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 62206
+        }
+      ]
+    },
+    "Jasper County, Georgia": {
+      "label": "Jasper County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 35
+        },
+        {
+          "label": "Black or African American",
+          "value": 2617
+        },
+        {
+          "label": "Hispanic",
+          "value": 739
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 472
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11377
+        }
+      ]
+    },
+    "Jeff Davis County, Georgia": {
+      "label": "Jeff Davis County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 19
+        },
+        {
+          "label": "Black or African American",
+          "value": 2056
+        },
+        {
+          "label": "Hispanic",
+          "value": 2033
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 70
+        },
+        {
+          "label": "Two or More Races",
+          "value": 437
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10208
+        }
+      ]
+    },
+    "Jefferson County, Georgia": {
+      "label": "Jefferson County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 72
+        },
+        {
+          "label": "Black or African American",
+          "value": 8091
+        },
+        {
+          "label": "Hispanic",
+          "value": 521
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 214
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6490
+        }
+      ]
+    },
+    "Jenkins County, Georgia": {
+      "label": "Jenkins County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 2
+        },
+        {
+          "label": "Black or African American",
+          "value": 3294
+        },
+        {
+          "label": "Hispanic",
+          "value": 365
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 91
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4920
+        }
+      ]
+    },
+    "Johnson County, Georgia": {
+      "label": "Johnson County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 3070
+        },
+        {
+          "label": "Hispanic",
+          "value": 194
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 235
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5681
+        }
+      ]
+    },
+    "Jones County, Georgia": {
+      "label": "Jones County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 94
+        },
+        {
+          "label": "Black or African American",
+          "value": 7153
+        },
+        {
+          "label": "Hispanic",
+          "value": 571
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 654
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19912
+        }
+      ]
+    },
+    "Lamar County, Georgia": {
+      "label": "Lamar County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 130
+        },
+        {
+          "label": "Black or African American",
+          "value": 5436
+        },
+        {
+          "label": "Hispanic",
+          "value": 159
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 707
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12638
+        }
+      ]
+    },
+    "Lanier County, Georgia": {
+      "label": "Lanier County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 104
+        },
+        {
+          "label": "Black or African American",
+          "value": 2466
+        },
+        {
+          "label": "Hispanic",
+          "value": 679
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 112
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6646
+        }
+      ]
+    },
+    "Laurens County, Georgia": {
+      "label": "Laurens County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 119
+        },
+        {
+          "label": "Asian",
+          "value": 453
+        },
+        {
+          "label": "Black or African American",
+          "value": 18593
+        },
+        {
+          "label": "Hispanic",
+          "value": 1530
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 140
+        },
+        {
+          "label": "Two or More Races",
+          "value": 619
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28055
+        }
+      ]
+    },
+    "Lee County, Georgia": {
+      "label": "Lee County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 780
+        },
+        {
+          "label": "Black or African American",
+          "value": 7731
+        },
+        {
+          "label": "Hispanic",
+          "value": 1077
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 37
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1057
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22581
+        }
+      ]
+    },
+    "Liberty County, Georgia": {
+      "label": "Liberty County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 135
+        },
+        {
+          "label": "Asian",
+          "value": 1171
+        },
+        {
+          "label": "Black or African American",
+          "value": 27652
+        },
+        {
+          "label": "Hispanic",
+          "value": 8298
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 295
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4070
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24966
+        }
+      ]
+    },
+    "Lincoln County, Georgia": {
+      "label": "Lincoln County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 8
+        },
+        {
+          "label": "Black or African American",
+          "value": 2121
+        },
+        {
+          "label": "Hispanic",
+          "value": 103
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 253
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5279
+        }
+      ]
+    },
+    "Long County, Georgia": {
+      "label": "Long County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 27
+        },
+        {
+          "label": "Black or African American",
+          "value": 4309
+        },
+        {
+          "label": "Hispanic",
+          "value": 2232
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 81
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1171
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9478
+        }
+      ]
+    },
+    "Lowndes County, Georgia": {
+      "label": "Lowndes County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 116
+        },
+        {
+          "label": "Asian",
+          "value": 2039
+        },
+        {
+          "label": "Black or African American",
+          "value": 44023
+        },
+        {
+          "label": "Hispanic",
+          "value": 8169
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 63
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3738
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 60666
+        }
+      ]
+    },
+    "Lumpkin County, Georgia": {
+      "label": "Lumpkin County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 99
+        },
+        {
+          "label": "Asian",
+          "value": 306
+        },
+        {
+          "label": "Black or African American",
+          "value": 538
+        },
+        {
+          "label": "Hispanic",
+          "value": 1916
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 50
+        },
+        {
+          "label": "Two or More Races",
+          "value": 781
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30207
+        }
+      ]
+    },
+    "Macon County, Georgia": {
+      "label": "Macon County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 21
+        },
+        {
+          "label": "Asian",
+          "value": 188
+        },
+        {
+          "label": "Black or African American",
+          "value": 7062
+        },
+        {
+          "label": "Hispanic",
+          "value": 524
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 174
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3916
+        }
+      ]
+    },
+    "Madison County, Georgia": {
+      "label": "Madison County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 600
+        },
+        {
+          "label": "Black or African American",
+          "value": 2853
+        },
+        {
+          "label": "Hispanic",
+          "value": 2127
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 861
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24274
+        }
+      ]
+    },
+    "Marion County, Georgia": {
+      "label": "Marion County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 60
+        },
+        {
+          "label": "Black or African American",
+          "value": 2133
+        },
+        {
+          "label": "Hispanic",
+          "value": 588
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 345
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4322
+        }
+      ]
+    },
+    "McDuffie County, Georgia": {
+      "label": "McDuffie County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 96
+        },
+        {
+          "label": "Black or African American",
+          "value": 8900
+        },
+        {
+          "label": "Hispanic",
+          "value": 777
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 415
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11499
+        }
+      ]
+    },
+    "McIntosh County, Georgia": {
+      "label": "McIntosh County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 36
+        },
+        {
+          "label": "Black or African American",
+          "value": 3326
+        },
+        {
+          "label": "Hispanic",
+          "value": 282
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 506
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7022
+        }
+      ]
+    },
+    "Meriwether County, Georgia": {
+      "label": "Meriwether County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 62
+        },
+        {
+          "label": "Black or African American",
+          "value": 7926
+        },
+        {
+          "label": "Hispanic",
+          "value": 569
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 380
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11757
+        }
+      ]
+    },
+    "Miller County, Georgia": {
+      "label": "Miller County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 43
+        },
+        {
+          "label": "Asian",
+          "value": 39
+        },
+        {
+          "label": "Black or African American",
+          "value": 1604
+        },
+        {
+          "label": "Hispanic",
+          "value": 183
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 43
+        },
+        {
+          "label": "Two or More Races",
+          "value": 76
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3854
+        }
+      ]
+    },
+    "Mitchell County, Georgia": {
+      "label": "Mitchell County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 68
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 9800
+        },
+        {
+          "label": "Hispanic",
+          "value": 1072
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 502
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9799
+        }
+      ]
+    },
+    "Monroe County, Georgia": {
+      "label": "Monroe County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 48
+        },
+        {
+          "label": "Asian",
+          "value": 313
+        },
+        {
+          "label": "Black or African American",
+          "value": 6250
+        },
+        {
+          "label": "Hispanic",
+          "value": 782
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 640
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20849
+        }
+      ]
+    },
+    "Montgomery County, Georgia": {
+      "label": "Montgomery County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 53
+        },
+        {
+          "label": "Black or African American",
+          "value": 1979
+        },
+        {
+          "label": "Hispanic",
+          "value": 618
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 331
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5675
+        }
+      ]
+    },
+    "Morgan County, Georgia": {
+      "label": "Morgan County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 105
+        },
+        {
+          "label": "Black or African American",
+          "value": 4350
+        },
+        {
+          "label": "Hispanic",
+          "value": 739
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 329
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15091
+        }
+      ]
+    },
+    "Murray County, Georgia": {
+      "label": "Murray County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 151
+        },
+        {
+          "label": "Black or African American",
+          "value": 193
+        },
+        {
+          "label": "Hispanic",
+          "value": 6287
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 136
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1026
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32351
+        }
+      ]
+    },
+    "Muscogee County, Georgia": {
+      "label": "Muscogee County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 140
+        },
+        {
+          "label": "Asian",
+          "value": 5111
+        },
+        {
+          "label": "Black or African American",
+          "value": 93760
+        },
+        {
+          "label": "Hispanic",
+          "value": 16884
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 307
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10642
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 76497
+        }
+      ]
+    },
+    "Newton County, Georgia": {
+      "label": "Newton County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 89
+        },
+        {
+          "label": "Asian",
+          "value": 1630
+        },
+        {
+          "label": "Black or African American",
+          "value": 54367
+        },
+        {
+          "label": "Hispanic",
+          "value": 7813
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4804
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 46630
+        }
+      ]
+    },
+    "Oconee County, Georgia": {
+      "label": "Oconee County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 110
+        },
+        {
+          "label": "Asian",
+          "value": 1812
+        },
+        {
+          "label": "Black or African American",
+          "value": 1343
+        },
+        {
+          "label": "Hispanic",
+          "value": 2466
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 38
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1644
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 35334
+        }
+      ]
+    },
+    "Oglethorpe County, Georgia": {
+      "label": "Oglethorpe County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 121
+        },
+        {
+          "label": "Black or African American",
+          "value": 2421
+        },
+        {
+          "label": "Hispanic",
+          "value": 966
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 480
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11208
+        }
+      ]
+    },
+    "Paulding County, Georgia": {
+      "label": "Paulding County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 91
+        },
+        {
+          "label": "Asian",
+          "value": 2391
+        },
+        {
+          "label": "Black or African American",
+          "value": 37822
+        },
+        {
+          "label": "Hispanic",
+          "value": 14256
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 149
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8534
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 110767
+        }
+      ]
+    },
+    "Peach County, Georgia": {
+      "label": "Peach County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 93
+        },
+        {
+          "label": "Black or African American",
+          "value": 12125
+        },
+        {
+          "label": "Hispanic",
+          "value": 2585
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 73
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1085
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12273
+        }
+      ]
+    },
+    "Pickens County, Georgia": {
+      "label": "Pickens County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 54
+        },
+        {
+          "label": "Asian",
+          "value": 158
+        },
+        {
+          "label": "Black or African American",
+          "value": 168
+        },
+        {
+          "label": "Hispanic",
+          "value": 1294
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 957
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 31507
+        }
+      ]
+    },
+    "Pierce County, Georgia": {
+      "label": "Pierce County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 48
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 1965
+        },
+        {
+          "label": "Hispanic",
+          "value": 1035
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 533
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16409
+        }
+      ]
+    },
+    "Pike County, Georgia": {
+      "label": "Pike County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 86
+        },
+        {
+          "label": "Black or African American",
+          "value": 1665
+        },
+        {
+          "label": "Hispanic",
+          "value": 412
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 400
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16884
+        }
+      ]
+    },
+    "Polk County, Georgia": {
+      "label": "Polk County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 444
+        },
+        {
+          "label": "Black or African American",
+          "value": 5144
+        },
+        {
+          "label": "Hispanic",
+          "value": 5843
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 895
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30699
+        }
+      ]
+    },
+    "Pulaski County, Georgia": {
+      "label": "Pulaski County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 127
+        },
+        {
+          "label": "Black or African American",
+          "value": 3261
+        },
+        {
+          "label": "Hispanic",
+          "value": 641
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 179
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5678
+        }
+      ]
+    },
+    "Putnam County, Georgia": {
+      "label": "Putnam County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 105
+        },
+        {
+          "label": "Black or African American",
+          "value": 5757
+        },
+        {
+          "label": "Hispanic",
+          "value": 1568
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 77
+        },
+        {
+          "label": "Two or More Races",
+          "value": 367
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14580
+        }
+      ]
+    },
+    "Quitman County, Georgia": {
+      "label": "Quitman County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 1044
+        },
+        {
+          "label": "Hispanic",
+          "value": 25
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 22
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1001
+        }
+      ]
+    },
+    "Rabun County, Georgia": {
+      "label": "Rabun County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 136
+        },
+        {
+          "label": "Black or African American",
+          "value": 148
+        },
+        {
+          "label": "Hispanic",
+          "value": 1481
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 424
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14916
+        }
+      ]
+    },
+    "Randolph County, Georgia": {
+      "label": "Randolph County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 4246
+        },
+        {
+          "label": "Hispanic",
+          "value": 223
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 72
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1709
+        }
+      ]
+    },
+    "Richmond County, Georgia": {
+      "label": "Richmond County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 141
+        },
+        {
+          "label": "Asian",
+          "value": 3343
+        },
+        {
+          "label": "Black or African American",
+          "value": 113995
+        },
+        {
+          "label": "Hispanic",
+          "value": 11627
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 314
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9115
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 65767
+        }
+      ]
+    },
+    "Rockdale County, Georgia": {
+      "label": "Rockdale County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 80
+        },
+        {
+          "label": "Asian",
+          "value": 1655
+        },
+        {
+          "label": "Black or African American",
+          "value": 53816
+        },
+        {
+          "label": "Hispanic",
+          "value": 9994
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 115
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4029
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23941
+        }
+      ]
+    },
+    "Schley County, Georgia": {
+      "label": "Schley County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 779
+        },
+        {
+          "label": "Hispanic",
+          "value": 96
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 128
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3536
+        }
+      ]
+    },
+    "Screven County, Georgia": {
+      "label": "Screven County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 5546
+        },
+        {
+          "label": "Hispanic",
+          "value": 348
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 408
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7752
+        }
+      ]
+    },
+    "Seminole County, Georgia": {
+      "label": "Seminole County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 38
+        },
+        {
+          "label": "Black or African American",
+          "value": 3052
+        },
+        {
+          "label": "Hispanic",
+          "value": 267
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 111
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5642
+        }
+      ]
+    },
+    "Spalding County, Georgia": {
+      "label": "Spalding County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 63
+        },
+        {
+          "label": "Asian",
+          "value": 485
+        },
+        {
+          "label": "Black or African American",
+          "value": 24113
+        },
+        {
+          "label": "Hispanic",
+          "value": 3943
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 33
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2011
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 37278
+        }
+      ]
+    },
+    "Stephens County, Georgia": {
+      "label": "Stephens County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 279
+        },
+        {
+          "label": "Black or African American",
+          "value": 2857
+        },
+        {
+          "label": "Hispanic",
+          "value": 987
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 49
+        },
+        {
+          "label": "Two or More Races",
+          "value": 928
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21737
+        }
+      ]
+    },
+    "Stewart County, Georgia": {
+      "label": "Stewart County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 85
+        },
+        {
+          "label": "Black or African American",
+          "value": 2972
+        },
+        {
+          "label": "Hispanic",
+          "value": 538
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 120
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1223
+        }
+      ]
+    },
+    "Sumter County, Georgia": {
+      "label": "Sumter County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 51
+        },
+        {
+          "label": "Asian",
+          "value": 393
+        },
+        {
+          "label": "Black or African American",
+          "value": 14531
+        },
+        {
+          "label": "Hispanic",
+          "value": 1799
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1091
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11271
+        }
+      ]
+    },
+    "Talbot County, Georgia": {
+      "label": "Talbot County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 3176
+        },
+        {
+          "label": "Hispanic",
+          "value": 65
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 161
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2310
+        }
+      ]
+    },
+    "Taliaferro County, Georgia": {
+      "label": "Taliaferro County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 777
+        },
+        {
+          "label": "Hispanic",
+          "value": 101
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 97
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 698
+        }
+      ]
+    },
+    "Tattnall County, Georgia": {
+      "label": "Tattnall County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 53
+        },
+        {
+          "label": "Asian",
+          "value": 112
+        },
+        {
+          "label": "Black or African American",
+          "value": 6624
+        },
+        {
+          "label": "Hispanic",
+          "value": 2552
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 784
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13886
+        }
+      ]
+    },
+    "Taylor County, Georgia": {
+      "label": "Taylor County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 54
+        },
+        {
+          "label": "Black or African American",
+          "value": 3014
+        },
+        {
+          "label": "Hispanic",
+          "value": 61
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 106
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4545
+        }
+      ]
+    },
+    "Telfair County, Georgia": {
+      "label": "Telfair County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 19
+        },
+        {
+          "label": "Black or African American",
+          "value": 4347
+        },
+        {
+          "label": "Hispanic",
+          "value": 1884
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 122
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5785
+        }
+      ]
+    },
+    "Terrell County, Georgia": {
+      "label": "Terrell County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 108
+        },
+        {
+          "label": "Black or African American",
+          "value": 5326
+        },
+        {
+          "label": "Hispanic",
+          "value": 219
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 31
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3252
+        }
+      ]
+    },
+    "Thomas County, Georgia": {
+      "label": "Thomas County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 110
+        },
+        {
+          "label": "Asian",
+          "value": 395
+        },
+        {
+          "label": "Black or African American",
+          "value": 16312
+        },
+        {
+          "label": "Hispanic",
+          "value": 1730
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 16
+        },
+        {
+          "label": "Two or More Races",
+          "value": 923
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26125
+        }
+      ]
+    },
+    "Tift County, Georgia": {
+      "label": "Tift County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 51
+        },
+        {
+          "label": "Asian",
+          "value": 464
+        },
+        {
+          "label": "Black or African American",
+          "value": 11913
+        },
+        {
+          "label": "Hispanic",
+          "value": 5334
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1412
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22101
+        }
+      ]
+    },
+    "Toombs County, Georgia": {
+      "label": "Toombs County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 105
+        },
+        {
+          "label": "Asian",
+          "value": 229
+        },
+        {
+          "label": "Black or African American",
+          "value": 6383
+        },
+        {
+          "label": "Hispanic",
+          "value": 3154
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1376
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15661
+        }
+      ]
+    },
+    "Towns County, Georgia": {
+      "label": "Towns County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 5
+        },
+        {
+          "label": "Black or African American",
+          "value": 190
+        },
+        {
+          "label": "Hispanic",
+          "value": 419
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 248
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11847
+        }
+      ]
+    },
+    "Treutlen County, Georgia": {
+      "label": "Treutlen County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 1997
+        },
+        {
+          "label": "Hispanic",
+          "value": 39
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 252
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4094
+        }
+      ]
+    },
+    "Troup County, Georgia": {
+      "label": "Troup County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 75
+        },
+        {
+          "label": "Asian",
+          "value": 1678
+        },
+        {
+          "label": "Black or African American",
+          "value": 25454
+        },
+        {
+          "label": "Hispanic",
+          "value": 3077
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1465
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 37852
+        }
+      ]
+    },
+    "Turner County, Georgia": {
+      "label": "Turner County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 3356
+        },
+        {
+          "label": "Hispanic",
+          "value": 415
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 280
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4834
+        }
+      ]
+    },
+    "Twiggs County, Georgia": {
+      "label": "Twiggs County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 27
+        },
+        {
+          "label": "Asian",
+          "value": 55
+        },
+        {
+          "label": "Black or African American",
+          "value": 3195
+        },
+        {
+          "label": "Hispanic",
+          "value": 61
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 165
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4325
+        }
+      ]
+    },
+    "Union County, Georgia": {
+      "label": "Union County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 44
+        },
+        {
+          "label": "Black or African American",
+          "value": 186
+        },
+        {
+          "label": "Hispanic",
+          "value": 920
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 679
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23754
+        }
+      ]
+    },
+    "Upson County, Georgia": {
+      "label": "Upson County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 73
+        },
+        {
+          "label": "Asian",
+          "value": 105
+        },
+        {
+          "label": "Black or African American",
+          "value": 7382
+        },
+        {
+          "label": "Hispanic",
+          "value": 702
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 18
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1073
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18482
+        }
+      ]
+    },
+    "Walker County, Georgia": {
+      "label": "Walker County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 81
+        },
+        {
+          "label": "Asian",
+          "value": 411
+        },
+        {
+          "label": "Black or African American",
+          "value": 2869
+        },
+        {
+          "label": "Hispanic",
+          "value": 1855
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 14
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1855
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 61290
+        }
+      ]
+    },
+    "Walton County, Georgia": {
+      "label": "Walton County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 50
+        },
+        {
+          "label": "Asian",
+          "value": 1391
+        },
+        {
+          "label": "Black or African American",
+          "value": 19709
+        },
+        {
+          "label": "Hispanic",
+          "value": 6110
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 55
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2678
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 69999
+        }
+      ]
+    },
+    "Ware County, Georgia": {
+      "label": "Ware County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 74
+        },
+        {
+          "label": "Asian",
+          "value": 430
+        },
+        {
+          "label": "Black or African American",
+          "value": 10679
+        },
+        {
+          "label": "Hispanic",
+          "value": 1711
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 19
+        },
+        {
+          "label": "Two or More Races",
+          "value": 717
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22174
+        }
+      ]
+    },
+    "Warren County, Georgia": {
+      "label": "Warren County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 17
+        },
+        {
+          "label": "Black or African American",
+          "value": 2960
+        },
+        {
+          "label": "Hispanic",
+          "value": 57
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 131
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2010
+        }
+      ]
+    },
+    "Washington County, Georgia": {
+      "label": "Washington County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 108
+        },
+        {
+          "label": "Black or African American",
+          "value": 10246
+        },
+        {
+          "label": "Hispanic",
+          "value": 393
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 763
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8300
+        }
+      ]
+    },
+    "Wayne County, Georgia": {
+      "label": "Wayne County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 320
+        },
+        {
+          "label": "Black or African American",
+          "value": 6027
+        },
+        {
+          "label": "Hispanic",
+          "value": 1857
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 659
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21604
+        }
+      ]
+    },
+    "Webster County, Georgia": {
+      "label": "Webster County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 1151
+        },
+        {
+          "label": "Hispanic",
+          "value": 166
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 55
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 976
+        }
+      ]
+    },
+    "Wheeler County, Georgia": {
+      "label": "Wheeler County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 2833
+        },
+        {
+          "label": "Hispanic",
+          "value": 315
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 76
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4200
+        }
+      ]
+    },
+    "White County, Georgia": {
+      "label": "White County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 188
+        },
+        {
+          "label": "Black or African American",
+          "value": 583
+        },
+        {
+          "label": "Hispanic",
+          "value": 992
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 862
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25561
+        }
+      ]
+    },
+    "Whitfield County, Georgia": {
+      "label": "Whitfield County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 46
+        },
+        {
+          "label": "Asian",
+          "value": 1525
+        },
+        {
+          "label": "Black or African American",
+          "value": 3365
+        },
+        {
+          "label": "Hispanic",
+          "value": 37703
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2088
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 58273
+        }
+      ]
+    },
+    "Wilcox County, Georgia": {
+      "label": "Wilcox County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 2937
+        },
+        {
+          "label": "Hispanic",
+          "value": 322
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 285
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5221
+        }
+      ]
+    },
+    "Wilkes County, Georgia": {
+      "label": "Wilkes County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 21
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 3911
+        },
+        {
+          "label": "Hispanic",
+          "value": 443
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 222
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4944
+        }
+      ]
+    },
+    "Wilkinson County, Georgia": {
+      "label": "Wilkinson County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 3361
+        },
+        {
+          "label": "Hispanic",
+          "value": 277
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 162
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4862
+        }
+      ]
+    },
+    "Worth County, Georgia": {
+      "label": "Worth County, Georgia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 105
+        },
+        {
+          "label": "Asian",
+          "value": 153
+        },
+        {
+          "label": "Black or African American",
+          "value": 4961
+        },
+        {
+          "label": "Hispanic",
+          "value": 463
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1103
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13732
+        }
+      ]
+    }
+  }
+}

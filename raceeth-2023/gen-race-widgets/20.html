@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 20</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Allen County, Kansas">Allen County, Kansas</option>
+<option value="Anderson County, Kansas">Anderson County, Kansas</option>
+<option value="Atchison County, Kansas">Atchison County, Kansas</option>
+<option value="Barber County, Kansas">Barber County, Kansas</option>
+<option value="Barton County, Kansas">Barton County, Kansas</option>
+<option value="Bourbon County, Kansas">Bourbon County, Kansas</option>
+<option value="Brown County, Kansas">Brown County, Kansas</option>
+<option value="Butler County, Kansas">Butler County, Kansas</option>
+<option value="Chase County, Kansas">Chase County, Kansas</option>
+<option value="Chautauqua County, Kansas">Chautauqua County, Kansas</option>
+<option value="Cherokee County, Kansas">Cherokee County, Kansas</option>
+<option value="Cheyenne County, Kansas">Cheyenne County, Kansas</option>
+<option value="Clark County, Kansas">Clark County, Kansas</option>
+<option value="Clay County, Kansas">Clay County, Kansas</option>
+<option value="Cloud County, Kansas">Cloud County, Kansas</option>
+<option value="Coffey County, Kansas">Coffey County, Kansas</option>
+<option value="Comanche County, Kansas">Comanche County, Kansas</option>
+<option value="Cowley County, Kansas">Cowley County, Kansas</option>
+<option value="Crawford County, Kansas">Crawford County, Kansas</option>
+<option value="Decatur County, Kansas">Decatur County, Kansas</option>
+<option value="Dickinson County, Kansas">Dickinson County, Kansas</option>
+<option value="Doniphan County, Kansas">Doniphan County, Kansas</option>
+<option value="Douglas County, Kansas">Douglas County, Kansas</option>
+<option value="Edwards County, Kansas">Edwards County, Kansas</option>
+<option value="Elk County, Kansas">Elk County, Kansas</option>
+<option value="Ellis County, Kansas">Ellis County, Kansas</option>
+<option value="Ellsworth County, Kansas">Ellsworth County, Kansas</option>
+<option value="Finney County, Kansas">Finney County, Kansas</option>
+<option value="Ford County, Kansas">Ford County, Kansas</option>
+<option value="Franklin County, Kansas">Franklin County, Kansas</option>
+<option value="Geary County, Kansas">Geary County, Kansas</option>
+<option value="Gove County, Kansas">Gove County, Kansas</option>
+<option value="Graham County, Kansas">Graham County, Kansas</option>
+<option value="Grant County, Kansas">Grant County, Kansas</option>
+<option value="Gray County, Kansas">Gray County, Kansas</option>
+<option value="Greeley County, Kansas">Greeley County, Kansas</option>
+<option value="Greenwood County, Kansas">Greenwood County, Kansas</option>
+<option value="Hamilton County, Kansas">Hamilton County, Kansas</option>
+<option value="Harper County, Kansas">Harper County, Kansas</option>
+<option value="Harvey County, Kansas">Harvey County, Kansas</option>
+<option value="Haskell County, Kansas">Haskell County, Kansas</option>
+<option value="Hodgeman County, Kansas">Hodgeman County, Kansas</option>
+<option value="Jackson County, Kansas">Jackson County, Kansas</option>
+<option value="Jefferson County, Kansas">Jefferson County, Kansas</option>
+<option value="Jewell County, Kansas">Jewell County, Kansas</option>
+<option value="Johnson County, Kansas">Johnson County, Kansas</option>
+<option value="Kearny County, Kansas">Kearny County, Kansas</option>
+<option value="Kingman County, Kansas">Kingman County, Kansas</option>
+<option value="Kiowa County, Kansas">Kiowa County, Kansas</option>
+<option value="Labette County, Kansas">Labette County, Kansas</option>
+<option value="Lane County, Kansas">Lane County, Kansas</option>
+<option value="Leavenworth County, Kansas">Leavenworth County, Kansas</option>
+<option value="Lincoln County, Kansas">Lincoln County, Kansas</option>
+<option value="Linn County, Kansas">Linn County, Kansas</option>
+<option value="Logan County, Kansas">Logan County, Kansas</option>
+<option value="Lyon County, Kansas">Lyon County, Kansas</option>
+<option value="Marion County, Kansas">Marion County, Kansas</option>
+<option value="Marshall County, Kansas">Marshall County, Kansas</option>
+<option value="McPherson County, Kansas">McPherson County, Kansas</option>
+<option value="Meade County, Kansas">Meade County, Kansas</option>
+<option value="Miami County, Kansas">Miami County, Kansas</option>
+<option value="Mitchell County, Kansas">Mitchell County, Kansas</option>
+<option value="Montgomery County, Kansas">Montgomery County, Kansas</option>
+<option value="Morris County, Kansas">Morris County, Kansas</option>
+<option value="Morton County, Kansas">Morton County, Kansas</option>
+<option value="Nemaha County, Kansas">Nemaha County, Kansas</option>
+<option value="Neosho County, Kansas">Neosho County, Kansas</option>
+<option value="Ness County, Kansas">Ness County, Kansas</option>
+<option value="Norton County, Kansas">Norton County, Kansas</option>
+<option value="Osage County, Kansas">Osage County, Kansas</option>
+<option value="Osborne County, Kansas">Osborne County, Kansas</option>
+<option value="Ottawa County, Kansas">Ottawa County, Kansas</option>
+<option value="Pawnee County, Kansas">Pawnee County, Kansas</option>
+<option value="Phillips County, Kansas">Phillips County, Kansas</option>
+<option value="Pottawatomie County, Kansas">Pottawatomie County, Kansas</option>
+<option value="Pratt County, Kansas">Pratt County, Kansas</option>
+<option value="Rawlins County, Kansas">Rawlins County, Kansas</option>
+<option value="Reno County, Kansas">Reno County, Kansas</option>
+<option value="Republic County, Kansas">Republic County, Kansas</option>
+<option value="Rice County, Kansas">Rice County, Kansas</option>
+<option value="Riley County, Kansas">Riley County, Kansas</option>
+<option value="Rooks County, Kansas">Rooks County, Kansas</option>
+<option value="Rush County, Kansas">Rush County, Kansas</option>
+<option value="Russell County, Kansas">Russell County, Kansas</option>
+<option value="Saline County, Kansas">Saline County, Kansas</option>
+<option value="Scott County, Kansas">Scott County, Kansas</option>
+<option value="Sedgwick County, Kansas">Sedgwick County, Kansas</option>
+<option value="Seward County, Kansas">Seward County, Kansas</option>
+<option value="Shawnee County, Kansas">Shawnee County, Kansas</option>
+<option value="Sheridan County, Kansas">Sheridan County, Kansas</option>
+<option value="Sherman County, Kansas">Sherman County, Kansas</option>
+<option value="Smith County, Kansas">Smith County, Kansas</option>
+<option value="Stafford County, Kansas">Stafford County, Kansas</option>
+<option value="Stanton County, Kansas">Stanton County, Kansas</option>
+<option value="Stevens County, Kansas">Stevens County, Kansas</option>
+<option value="Sumner County, Kansas">Sumner County, Kansas</option>
+<option value="Thomas County, Kansas">Thomas County, Kansas</option>
+<option value="Trego County, Kansas">Trego County, Kansas</option>
+<option value="Wabaunsee County, Kansas">Wabaunsee County, Kansas</option>
+<option value="Wallace County, Kansas">Wallace County, Kansas</option>
+<option value="Washington County, Kansas">Washington County, Kansas</option>
+<option value="Wichita County, Kansas">Wichita County, Kansas</option>
+<option value="Wilson County, Kansas">Wilson County, Kansas</option>
+<option value="Woodson County, Kansas">Woodson County, Kansas</option>
+<option value="Wyandotte County, Kansas">Wyandotte County, Kansas</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.43,"Asian":2.88,"Black or African American":5.27,"Hispanic":13.26,"Pacific Islander":0.08,"Two or More Races":4.34,"White (non-Hispanic)":73.37},"Allen County, Kansas":{"American Indian / Alaska Native":0.73,"Asian":0.74,"Black or African American":1.89,"Hispanic":4.1,"Pacific Islander":0.86,"Two or More Races":2.65,"White (non-Hispanic)":89.02},"Anderson County, Kansas":{"American Indian / Alaska Native":0.24,"Asian":0,"Black or African American":0.88,"Hispanic":1.62,"Pacific Islander":0,"Two or More Races":6.19,"White (non-Hispanic)":91.06},"Atchison County, Kansas":{"American Indian / Alaska Native":0.11,"Asian":0.67,"Black or African American":4.19,"Hispanic":3.59,"Pacific Islander":0,"Two or More Races":4.42,"White (non-Hispanic)":86.35},"Barber County, Kansas":{"American Indian / Alaska Native":2.05,"Asian":0.51,"Black or African American":0.17,"Hispanic":6.12,"Pacific Islander":0,"Two or More Races":2.14,"White (non-Hispanic)":88.78},"Barton County, Kansas":{"American Indian / Alaska Native":0.16,"Asian":0.36,"Black or African American":0.65,"Hispanic":16.42,"Pacific Islander":0,"Two or More Races":2.9,"White (non-Hispanic)":79.41},"Bourbon County, Kansas":{"American Indian / Alaska Native":0.04,"Asian":0.63,"Black or African American":2.18,"Hispanic":3,"Pacific Islander":0,"Two or More Races":5.01,"White (non-Hispanic)":88.8},"Brown County, Kansas":{"American Indian / Alaska Native":6.68,"Asian":0.25,"Black or African American":1.39,"Hispanic":4.42,"Pacific Islander":0,"Two or More Races":4.44,"White (non-Hispanic)":81.85},"Butler County, Kansas":{"American Indian / Alaska Native":0.59,"Asian":1.58,"Black or African American":2.05,"Hispanic":5.61,"Pacific Islander":0.13,"Two or More Races":3.54,"White (non-Hispanic)":86.3},"Chase County, Kansas":{"American Indian / Alaska Native":0,"Asian":0.27,"Black or African American":1.24,"Hispanic":8.07,"Pacific Islander":0,"Two or More Races":3.37,"White (non-Hispanic)":87.05},"Chautauqua County, Kansas":{"American Indian / Alaska Native":2.49,"Asian":0.45,"Black or African American":0.95,"Hispanic":4.78,"Pacific Islander":0,"Two or More Races":8.04,"White (non-Hispanic)":82.73},"Cherokee County, Kansas":{"American Indian / Alaska Native":1.91,"Asian":0.58,"Black or African American":0.82,"Hispanic":2.85,"Pacific Islander":0.3,"Two or More Races":7.03,"White (non-Hispanic)":85.96},"Cheyenne County, Kansas":{"American Indian / Alaska Native":0.46,"Asian":0,"Black or African American":0.04,"Hispanic":9.09,"Pacific Islander":0.11,"Two or More Races":2.51,"White (non-Hispanic)":87.79},"Clark County, Kansas":{"American Indian / Alaska Native":1.86,"Asian":1.91,"Black or African American":0,"Hispanic":6.39,"Pacific Islander":0,"Two or More Races":5.33,"White (non-Hispanic)":84.2},"Clay County, Kansas":{"American Indian / Alaska Native":0.57,"Asian":0.59,"Black or African American":2.34,"Hispanic":3.27,"Pacific Islander":0,"Two or More Races":1.8,"White (non-Hispanic)":91.43},"Cloud County, Kansas":{"American Indian / Alaska Native":0.48,"Asian":0.12,"Black or African American":0.6,"Hispanic":3.7,"Pacific Islander":1.6,"Two or More Races":3.78,"White (non-Hispanic)":89.57},"Coffey County, Kansas":{"American Indian / Alaska Native":0.08,"Asian":0.95,"Black or African American":0.49,"Hispanic":3.36,"Pacific Islander":0,"Two or More Races":2.75,"White (non-Hispanic)":92.16},"Comanche County, Kansas":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":0.24,"Hispanic":1.84,"Pacific Islander":0,"Two or More Races":2.61,"White (non-Hispanic)":95.31},"Cowley County, Kansas":{"American Indian / Alaska Native":1.19,"Asian":1.86,"Black or African American":2.21,"Hispanic":11.88,"Pacific Islander":0.2,"Two or More Races":5.26,"White (non-Hispanic)":77.24},"Crawford County, Kansas":{"American Indian / Alaska Native":0.47,"Asian":1.74,"Black or African American":1.84,"Hispanic":7.11,"Pacific Islander":0.14,"Two or More Races":4.18,"White (non-Hispanic)":84.28},"Decatur County, Kansas":{"American Indian / Alaska Native":0.47,"Asian":0.33,"Black or African American":1.71,"Hispanic":4.08,"Pacific Islander":0,"Two or More Races":1.6,"White (non-Hispanic)":91.08},"Dickinson County, Kansas":{"American Indian / Alaska Native":0.14,"Asian":0.33,"Black or African American":0.28,"Hispanic":5.42,"Pacific Islander":0,"Two or More Races":4.53,"White (non-Hispanic)":89},"Doniphan County, Kansas":{"American Indian / Alaska Native":0.32,"Asian":0.09,"Black or African American":3.06,"Hispanic":3.16,"Pacific Islander":0.03,"Two or More Races":4.68,"White (non-Hispanic)":88.61},"Douglas County, Kansas":{"American Indian / Alaska Native":1.03,"Asian":4.52,"Black or African American":3.98,"Hispanic":7.06,"Pacific Islander":0,"Two or More Races":6.34,"White (non-Hispanic)":76.55},"Edwards County, Kansas":{"American Indian / Alaska Native":0.57,"Asian":0.39,"Black or African American":0.14,"Hispanic":22.04,"Pacific Islander":0,"Two or More Races":3.27,"White (non-Hispanic)":73.59},"Elk County, Kansas":{"American Indian / Alaska Native":1.26,"Asian":0.45,"Black or African American":0.12,"Hispanic":4.46,"Pacific Islander":0,"Two or More Races":4.75,"White (non-Hispanic)":88.15},"Ellis County, Kansas":{"American Indian / Alaska Native":0.11,"Asian":1.45,"Black or African American":1.18,"Hispanic":7.06,"Pacific Islander":0.12,"Two or More Races":2.45,"White (non-Hispanic)":87.52},"Ellsworth County, Kansas":{"American Indian / Alaska Native":0.31,"Asian":0.58,"Black or African American":3.09,"Hispanic":6.05,"Pacific Islander":0,"Two or More Races":5.51,"White (non-Hispanic)":84.32},"Finney County, Kansas":{"American Indian / Alaska Native":0.11,"Asian":3.9,"Black or African American":4.22,"Hispanic":52.41,"Pacific Islander":0.07,"Two or More Races":1.3,"White (non-Hispanic)":37.95},"Ford County, Kansas":{"American Indian / Alaska Native":0.1,"Asian":0.41,"Black or African American":2.25,"Hispanic":58.18,"Pacific Islander":0,"Two or More Races":2.41,"White (non-Hispanic)":36.38},"Franklin County, Kansas":{"American Indian / Alaska Native":0.33,"Asian":0.62,"Black or African American":0.78,"Hispanic":4.67,"Pacific Islander":0.21,"Two or More Races":4.07,"White (non-Hispanic)":89.15},"Geary County, Kansas":{"American Indian / Alaska Native":0.22,"Asian":3.12,"Black or African American":16.04,"Hispanic":16.19,"Pacific Islander":0.1,"Two or More Races":8.12,"White (non-Hispanic)":55.59},"Gove County, Kansas":{"American Indian / Alaska Native":0,"Asian":0.29,"Black or African American":0.21,"Hispanic":1.32,"Pacific Islander":0,"Two or More Races":2.79,"White (non-Hispanic)":95.14},"Graham County, Kansas":{"American Indian / Alaska Native":0,"Asian":1.16,"Black or African American":3.74,"Hispanic":3.74,"Pacific Islander":0,"Two or More Races":3.74,"White (non-Hispanic)":87.61},"Grant County, Kansas":{"American Indian / Alaska Native":0.73,"Asian":0.23,"Black or African American":0.18,"Hispanic":52.86,"Pacific Islander":0,"Two or More Races":1.66,"White (non-Hispanic)":44.34},"Gray County, Kansas":{"American Indian / Alaska Native":0,"Asian":0.39,"Black or African American":0,"Hispanic":16.06,"Pacific Islander":0,"Two or More Races":2.84,"White (non-Hispanic)":80.64},"Greeley County, Kansas":{"American Indian / Alaska Native":0.39,"Asian":0,"Black or African American":0.15,"Hispanic":17.36,"Pacific Islander":0,"Two or More Races":1.08,"White (non-Hispanic)":81.02},"Greenwood County, Kansas":{"American Indian / Alaska Native":1.06,"Asian":0.08,"Black or African American":0.59,"Hispanic":3.95,"Pacific Islander":0,"Two or More Races":3.07,"White (non-Hispanic)":91.2},"Hamilton County, Kansas":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":0.04,"Hispanic":41.61,"Pacific Islander":0,"Two or More Races":1.05,"White (non-Hispanic)":57.3},"Harper County, Kansas":{"American Indian / Alaska Native":0.26,"Asian":0.2,"Black or African American":0.84,"Hispanic":7.73,"Pacific Islander":0.11,"Two or More Races":3.58,"White (non-Hispanic)":87.04},"Harvey County, Kansas":{"American Indian / Alaska Native":0.17,"Asian":0.75,"Black or African American":1.1,"Hispanic":12.13,"Pacific Islander":0,"Two or More Races":4.28,"White (non-Hispanic)":81.23},"Haskell County, Kansas":{"American Indian / Alaska Native":1.03,"Asian":0,"Black or African American":0.24,"Hispanic":30.09,"Pacific Islander":0,"Two or More Races":1.76,"White (non-Hispanic)":66.87},"Hodgeman County, Kansas":{"American Indian / Alaska Native":0.06,"Asian":0,"Black or African American":0.12,"Hispanic":5.73,"Pacific Islander":0,"Two or More Races":2.39,"White (non-Hispanic)":91.71},"Jackson County, Kansas":{"American Indian / Alaska Native":6.08,"Asian":0.36,"Black or African American":0.93,"Hispanic":5.31,"Pacific Islander":0,"Two or More Races":4.19,"White (non-Hispanic)":82.9},"Jefferson County, Kansas":{"American Indian / Alaska Native":0.46,"Asian":0.22,"Black or African American":0.64,"Hispanic":3.35,"Pacific Islander":0.02,"Two or More Races":3.52,"White (non-Hispanic)":91.6},"Jewell County, Kansas":{"American Indian / Alaska Native":0.31,"Asian":0.34,"Black or African American":0.79,"Hispanic":2.61,"Pacific Islander":0,"Two or More Races":3.58,"White (non-Hispanic)":92.3},"Johnson County, Kansas":{"American Indian / Alaska Native":0.11,"Asian":5.13,"Black or African American":4.73,"Hispanic":9.06,"Pacific Islander":0.02,"Two or More Races":3.68,"White (non-Hispanic)":76.91},"Kearny County, Kansas":{"American Indian / Alaska Native":0.08,"Asian":0.84,"Black or African American":1.18,"Hispanic":35.27,"Pacific Islander":0,"Two or More Races":2.97,"White (non-Hispanic)":58.57},"Kingman County, Kansas":{"American Indian / Alaska Native":0.12,"Asian":0.01,"Black or African American":0.26,"Hispanic":3.97,"Pacific Islander":0,"Two or More Races":3.76,"White (non-Hispanic)":90.62},"Kiowa County, Kansas":{"American Indian / Alaska Native":0.41,"Asian":2.19,"Black or African American":0.83,"Hispanic":4.29,"Pacific Islander":0,"Two or More Races":3.39,"White (non-Hispanic)":88.65},"Labette County, Kansas":{"American Indian / Alaska Native":0.71,"Asian":0.07,"Black or African American":3.44,"Hispanic":5,"Pacific Islander":0,"Two or More Races":6.28,"White (non-Hispanic)":83.38},"Lane County, Kansas":{"American Indian / Alaska Native":0.94,"Asian":1.14,"Black or African American":0.33,"Hispanic":15.43,"Pacific Islander":0,"Two or More Races":1.34,"White (non-Hispanic)":80.83},"Leavenworth County, Kansas":{"American Indian / Alaska Native":0.42,"Asian":1.27,"Black or African American":7.17,"Hispanic":7.31,"Pacific Islander":0.04,"Two or More Races":5.35,"White (non-Hispanic)":77.73},"Lincoln County, Kansas":{"American Indian / Alaska Native":0.07,"Asian":0.79,"Black or African American":0.21,"Hispanic":4.21,"Pacific Islander":0,"Two or More Races":2.63,"White (non-Hispanic)":92.1},"Linn County, Kansas":{"American Indian / Alaska Native":0.2,"Asian":0.34,"Black or African American":0.71,"Hispanic":2.92,"Pacific Islander":0.21,"Two or More Races":4.13,"White (non-Hispanic)":91.22},"Logan County, Kansas":{"American Indian / Alaska Native":1.14,"Asian":0.51,"Black or African American":0,"Hispanic":6.8,"Pacific Islander":0,"Two or More Races":3.01,"White (non-Hispanic)":88.53},"Lyon County, Kansas":{"American Indian / Alaska Native":0.14,"Asian":1.53,"Black or African American":1.58,"Hispanic":23.41,"Pacific Islander":0.01,"Two or More Races":4.09,"White (non-Hispanic)":69.17},"Marion County, Kansas":{"American Indian / Alaska Native":0.53,"Asian":0.34,"Black or African American":1.11,"Hispanic":4.07,"Pacific Islander":0,"Two or More Races":2.38,"White (non-Hispanic)":91.44},"Marshall County, Kansas":{"American Indian / Alaska Native":0.29,"Asian":0.31,"Black or African American":0.66,"Hispanic":2.62,"Pacific Islander":0,"Two or More Races":2.28,"White (non-Hispanic)":93.84},"McPherson County, Kansas":{"American Indian / Alaska Native":0.1,"Asian":0.72,"Black or African American":1.61,"Hispanic":5.43,"Pacific Islander":0,"Two or More Races":2.57,"White (non-Hispanic)":89.57},"Meade County, Kansas":{"American Indian / Alaska Native":0.13,"Asian":0,"Black or African American":1.29,"Hispanic":23.17,"Pacific Islander":0,"Two or More Races":2.46,"White (non-Hispanic)":72.85},"Miami County, Kansas":{"American Indian / Alaska Native":0.22,"Asian":0.56,"Black or African American":1.08,"Hispanic":3.85,"Pacific Islander":0,"Two or More Races":3.24,"White (non-Hispanic)":90.97},"Mitchell County, Kansas":{"American Indian / Alaska Native":0.47,"Asian":0.26,"Black or African American":0.19,"Hispanic":2.05,"Pacific Islander":0,"Two or More Races":3.5,"White (non-Hispanic)":93.53},"Montgomery County, Kansas":{"American Indian / Alaska Native":2.25,"Asian":0.24,"Black or African American":4.24,"Hispanic":7.8,"Pacific Islander":0.11,"Two or More Races":7.57,"White (non-Hispanic)":77.38},"Morris County, Kansas":{"American Indian / Alaska Native":0,"Asian":0.24,"Black or African American":0.22,"Hispanic":4.4,"Pacific Islander":0,"Two or More Races":4.75,"White (non-Hispanic)":90.33},"Morton County, Kansas":{"American Indian / Alaska Native":0.04,"Asian":1.4,"Black or African American":1.32,"Hispanic":23.16,"Pacific Islander":0,"Two or More Races":2.72,"White (non-Hispanic)":71.36},"Nemaha County, Kansas":{"American Indian / Alaska Native":0.48,"Asian":0.39,"Black or African American":0.64,"Hispanic":2.52,"Pacific Islander":0,"Two or More Races":2.03,"White (non-Hispanic)":93.67},"Neosho County, Kansas":{"American Indian / Alaska Native":0.06,"Asian":0.5,"Black or African American":1.39,"Hispanic":5.92,"Pacific Islander":0,"Two or More Races":3.84,"White (non-Hispanic)":88.2},"Ness County, Kansas":{"American Indian / Alaska Native":0,"Asian":0.26,"Black or African American":0.04,"Hispanic":15.16,"Pacific Islander":0,"Two or More Races":4.59,"White (non-Hispanic)":79.73},"Norton County, Kansas":{"American Indian / Alaska Native":1.19,"Asian":0.06,"Black or African American":2.71,"Hispanic":5.82,"Pacific Islander":0,"Two or More Races":4.12,"White (non-Hispanic)":85.61},"Osage County, Kansas":{"American Indian / Alaska Native":0.1,"Asian":0.13,"Black or African American":0.5,"Hispanic":3.24,"Pacific Islander":0.01,"Two or More Races":3.31,"White (non-Hispanic)":92.41},"Osborne County, Kansas":{"American Indian / Alaska Native":0.35,"Asian":0.26,"Black or African American":0.4,"Hispanic":2.68,"Pacific Islander":0,"Two or More Races":3.08,"White (non-Hispanic)":92.83},"Ottawa County, Kansas":{"American Indian / Alaska Native":0.47,"Asian":0.05,"Black or African American":0.69,"Hispanic":3.16,"Pacific Islander":0,"Two or More Races":2.54,"White (non-Hispanic)":93.08},"Pawnee County, Kansas":{"American Indian / Alaska Native":0.63,"Asian":0,"Black or African American":6.85,"Hispanic":8.68,"Pacific Islander":0,"Two or More Races":2.15,"White (non-Hispanic)":81.69},"Phillips County, Kansas":{"American Indian / Alaska Native":0.62,"Asian":0.41,"Black or African American":0.53,"Hispanic":3.28,"Pacific Islander":0,"Two or More Races":2.36,"White (non-Hispanic)":92.63},"Pottawatomie County, Kansas":{"American Indian / Alaska Native":0.28,"Asian":0.36,"Black or African American":1.72,"Hispanic":5.84,"Pacific Islander":0.1,"Two or More Races":3.19,"White (non-Hispanic)":87.91},"Pratt County, Kansas":{"American Indian / Alaska Native":0.19,"Asian":0.22,"Black or African American":2.07,"Hispanic":8.28,"Pacific Islander":0,"Two or More Races":3.44,"White (non-Hispanic)":85.23},"Rawlins County, Kansas":{"American Indian / Alaska Native":0.79,"Asian":0.51,"Black or African American":0,"Hispanic":7.34,"Pacific Islander":0,"Two or More Races":2.29,"White (non-Hispanic)":89.06},"Reno County, Kansas":{"American Indian / Alaska Native":0.38,"Asian":0.58,"Black or African American":2.25,"Hispanic":10.12,"Pacific Islander":0.42,"Two or More Races":3.3,"White (non-Hispanic)":82.67},"Republic County, Kansas":{"American Indian / Alaska Native":0,"Asian":0.54,"Black or African American":0.62,"Hispanic":2.49,"Pacific Islander":0,"Two or More Races":1.93,"White (non-Hispanic)":93.69},"Rice County, Kansas":{"American Indian / Alaska Native":0.5,"Asian":0.06,"Black or African American":1.87,"Hispanic":13.65,"Pacific Islander":0,"Two or More Races":4.81,"White (non-Hispanic)":78.24},"Riley County, Kansas":{"American Indian / Alaska Native":0.31,"Asian":3.95,"Black or African American":6.11,"Hispanic":9.93,"Pacific Islander":0.28,"Two or More Races":4.9,"White (non-Hispanic)":74.06},"Rooks County, Kansas":{"American Indian / Alaska Native":0.31,"Asian":0.21,"Black or African American":2.69,"Hispanic":2.96,"Pacific Islander":0,"Two or More Races":1.58,"White (non-Hispanic)":92.11},"Rush County, Kansas":{"American Indian / Alaska Native":0.41,"Asian":0.17,"Black or African American":0.44,"Hispanic":5.41,"Pacific Islander":0,"Two or More Races":5.21,"White (non-Hispanic)":88.37},"Russell County, Kansas":{"American Indian / Alaska Native":0.54,"Asian":0.36,"Black or African American":0,"Hispanic":4.03,"Pacific Islander":0,"Two or More Races":4.9,"White (non-Hispanic)":89.95},"Saline County, Kansas":{"American Indian / Alaska Native":0.06,"Asian":2.07,"Black or African American":3.47,"Hispanic":12.48,"Pacific Islander":0.03,"Two or More Races":3.11,"White (non-Hispanic)":78.73},"Scott County, Kansas":{"American Indian / Alaska Native":0,"Asian":1.3,"Black or African American":0,"Hispanic":20.19,"Pacific Islander":0.06,"Two or More Races":1.48,"White (non-Hispanic)":76.43},"Sedgwick County, Kansas":{"American Indian / Alaska Native":0.45,"Asian":4.15,"Black or African American":7.77,"Hispanic":16.13,"Pacific Islander":0.07,"Two or More Races":5.49,"White (non-Hispanic)":65.46},"Seward County, Kansas":{"American Indian / Alaska Native":0.21,"Asian":2.38,"Black or African American":2.52,"Hispanic":66.63,"Pacific Islander":0,"Two or More Races":2.33,"White (non-Hispanic)":25.89},"Shawnee County, Kansas":{"American Indian / Alaska Native":0.42,"Asian":1.36,"Black or African American":7.34,"Hispanic":13.6,"Pacific Islander":0.09,"Two or More Races":4.92,"White (non-Hispanic)":71.73},"Sheridan County, Kansas":{"American Indian / Alaska Native":0.25,"Asian":0,"Black or African American":0.12,"Hispanic":5.94,"Pacific Islander":0,"Two or More Races":2.09,"White (non-Hispanic)":91.61},"Sherman County, Kansas":{"American Indian / Alaska Native":0,"Asian":0.03,"Black or African American":2.06,"Hispanic":12.94,"Pacific Islander":0,"Two or More Races":4.75,"White (non-Hispanic)":80.22},"Smith County, Kansas":{"American Indian / Alaska Native":0.47,"Asian":0.7,"Black or African American":0.75,"Hispanic":1.12,"Pacific Islander":0,"Two or More Races":3.02,"White (non-Hispanic)":93.71},"Stafford County, Kansas":{"American Indian / Alaska Native":0.47,"Asian":0,"Black or African American":0.17,"Hispanic":13.34,"Pacific Islander":0,"Two or More Races":3.95,"White (non-Hispanic)":82.02},"Stanton County, Kansas":{"American Indian / Alaska Native":5.2,"Asian":0.2,"Black or African American":0,"Hispanic":45,"Pacific Islander":0,"Two or More Races":3.72,"White (non-Hispanic)":45.89},"Stevens County, Kansas":{"American Indian / Alaska Native":0.06,"Asian":0.29,"Black or African American":0.12,"Hispanic":38.68,"Pacific Islander":0,"Two or More Races":3.05,"White (non-Hispanic)":57.81},"Sumner County, Kansas":{"American Indian / Alaska Native":0.77,"Asian":0.43,"Black or African American":1.14,"Hispanic":5.9,"Pacific Islander":0,"Two or More Races":4.23,"White (non-Hispanic)":87.15},"Thomas County, Kansas":{"American Indian / Alaska Native":0.01,"Asian":0.24,"Black or African American":0.32,"Hispanic":8.08,"Pacific Islander":0,"Two or More Races":0.99,"White (non-Hispanic)":90.14},"Trego County, Kansas":{"American Indian / Alaska Native":0.11,"Asian":0.76,"Black or African American":0.07,"Hispanic":0.18,"Pacific Islander":0,"Two or More Races":1.91,"White (non-Hispanic)":96.08},"Wabaunsee County, Kansas":{"American Indian / Alaska Native":0.42,"Asian":0.37,"Black or African American":0.32,"Hispanic":4.63,"Pacific Islander":0.09,"Two or More Races":3.75,"White (non-Hispanic)":90},"Wallace County, Kansas":{"American Indian / Alaska Native":0.14,"Asian":1.1,"Black or African American":0.69,"Hispanic":6.24,"Pacific Islander":0,"Two or More Races":2.88,"White (non-Hispanic)":88.97},"Washington County, Kansas":{"American Indian / Alaska Native":0.22,"Asian":0.58,"Black or African American":0.2,"Hispanic":4.67,"Pacific Islander":0,"Two or More Races":1.99,"White (non-Hispanic)":91.38},"Wichita County, Kansas":{"American Indian / Alaska Native":0.28,"Asian":0,"Black or African American":0.19,"Hispanic":29.69,"Pacific Islander":0,"Two or More Races":2.03,"White (non-Hispanic)":67.66},"Wilson County, Kansas":{"American Indian / Alaska Native":0.58,"Asian":0.02,"Black or African American":0.15,"Hispanic":3.62,"Pacific Islander":0.04,"Two or More Races":4.43,"White (non-Hispanic)":90.97},"Woodson County, Kansas":{"American Indian / Alaska Native":0.99,"Asian":0,"Black or African American":0.1,"Hispanic":0.74,"Pacific Islander":0,"Two or More Races":6.09,"White (non-Hispanic)":91.98},"Wyandotte County, Kansas":{"American Indian / Alaska Native":0.29,"Asian":5.16,"Black or African American":18.83,"Hispanic":33.34,"Pacific Islander":0.17,"Two or More Races":4.45,"White (non-Hispanic)":37.17}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

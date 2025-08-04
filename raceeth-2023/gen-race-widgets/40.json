@@ -1,0 +1,2579 @@
+{
+  "state": "Adair County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 271284
+        },
+        {
+          "label": "Asian",
+          "value": 92345
+        },
+        {
+          "label": "Black or African American",
+          "value": 274899
+        },
+        {
+          "label": "Hispanic",
+          "value": 490797
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6313
+        },
+        {
+          "label": "Two or More Races",
+          "value": 338463
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2509923
+        }
+      ]
+    },
+    "Adair County, Oklahoma": {
+      "label": "Adair County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8051
+        },
+        {
+          "label": "Asian",
+          "value": 256
+        },
+        {
+          "label": "Black or African American",
+          "value": 62
+        },
+        {
+          "label": "Hispanic",
+          "value": 1328
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2197
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7691
+        }
+      ]
+    },
+    "Alfalfa County, Oklahoma": {
+      "label": "Alfalfa County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 164
+        },
+        {
+          "label": "Asian",
+          "value": 17
+        },
+        {
+          "label": "Black or African American",
+          "value": 182
+        },
+        {
+          "label": "Hispanic",
+          "value": 332
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 350
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4625
+        }
+      ]
+    },
+    "Atoka County, Oklahoma": {
+      "label": "Atoka County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1304
+        },
+        {
+          "label": "Asian",
+          "value": 107
+        },
+        {
+          "label": "Black or African American",
+          "value": 555
+        },
+        {
+          "label": "Hispanic",
+          "value": 605
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2051
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9620
+        }
+      ]
+    },
+    "Beaver County, Oklahoma": {
+      "label": "Beaver County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 48
+        },
+        {
+          "label": "Asian",
+          "value": 5
+        },
+        {
+          "label": "Black or African American",
+          "value": 14
+        },
+        {
+          "label": "Hispanic",
+          "value": 1381
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 241
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3335
+        }
+      ]
+    },
+    "Beckham County, Oklahoma": {
+      "label": "Beckham County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 387
+        },
+        {
+          "label": "Asian",
+          "value": 187
+        },
+        {
+          "label": "Black or African American",
+          "value": 1080
+        },
+        {
+          "label": "Hispanic",
+          "value": 2912
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 884
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16733
+        }
+      ]
+    },
+    "Blaine County, Oklahoma": {
+      "label": "Blaine County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 517
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 352
+        },
+        {
+          "label": "Hispanic",
+          "value": 1012
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 605
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6117
+        }
+      ]
+    },
+    "Bryan County, Oklahoma": {
+      "label": "Bryan County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5852
+        },
+        {
+          "label": "Asian",
+          "value": 304
+        },
+        {
+          "label": "Black or African American",
+          "value": 972
+        },
+        {
+          "label": "Hispanic",
+          "value": 3612
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 20
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4216
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32246
+        }
+      ]
+    },
+    "Caddo County, Oklahoma": {
+      "label": "Caddo County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4383
+        },
+        {
+          "label": "Asian",
+          "value": 26
+        },
+        {
+          "label": "Black or African American",
+          "value": 834
+        },
+        {
+          "label": "Hispanic",
+          "value": 4369
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2539
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14410
+        }
+      ]
+    },
+    "Canadian County, Oklahoma": {
+      "label": "Canadian County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4410
+        },
+        {
+          "label": "Asian",
+          "value": 5061
+        },
+        {
+          "label": "Black or African American",
+          "value": 5800
+        },
+        {
+          "label": "Hispanic",
+          "value": 18557
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 136
+        },
+        {
+          "label": "Two or More Races",
+          "value": 11244
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 116087
+        }
+      ]
+    },
+    "Carter County, Oklahoma": {
+      "label": "Carter County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3328
+        },
+        {
+          "label": "Asian",
+          "value": 563
+        },
+        {
+          "label": "Black or African American",
+          "value": 2806
+        },
+        {
+          "label": "Hispanic",
+          "value": 3950
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5032
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32515
+        }
+      ]
+    },
+    "Cherokee County, Oklahoma": {
+      "label": "Cherokee County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15139
+        },
+        {
+          "label": "Asian",
+          "value": 415
+        },
+        {
+          "label": "Black or African American",
+          "value": 656
+        },
+        {
+          "label": "Hispanic",
+          "value": 3665
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 31
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6124
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21538
+        }
+      ]
+    },
+    "Choctaw County, Oklahoma": {
+      "label": "Choctaw County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2113
+        },
+        {
+          "label": "Asian",
+          "value": 97
+        },
+        {
+          "label": "Black or African American",
+          "value": 1352
+        },
+        {
+          "label": "Hispanic",
+          "value": 681
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1615
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8351
+        }
+      ]
+    },
+    "Cimarron County, Oklahoma": {
+      "label": "Cimarron County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 557
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 174
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1509
+        }
+      ]
+    },
+    "Cleveland County, Oklahoma": {
+      "label": "Cleveland County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10214
+        },
+        {
+          "label": "Asian",
+          "value": 13690
+        },
+        {
+          "label": "Black or African American",
+          "value": 14113
+        },
+        {
+          "label": "Hispanic",
+          "value": 31631
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 21
+        },
+        {
+          "label": "Two or More Races",
+          "value": 24788
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 202169
+        }
+      ]
+    },
+    "Coal County, Oklahoma": {
+      "label": "Coal County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 476
+        },
+        {
+          "label": "Asian",
+          "value": 30
+        },
+        {
+          "label": "Black or African American",
+          "value": 13
+        },
+        {
+          "label": "Hispanic",
+          "value": 232
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1080
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3442
+        }
+      ]
+    },
+    "Comanche County, Oklahoma": {
+      "label": "Comanche County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4854
+        },
+        {
+          "label": "Asian",
+          "value": 3066
+        },
+        {
+          "label": "Black or African American",
+          "value": 17285
+        },
+        {
+          "label": "Hispanic",
+          "value": 17481
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 493
+        },
+        {
+          "label": "Two or More Races",
+          "value": 11722
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 66221
+        }
+      ]
+    },
+    "Cotton County, Oklahoma": {
+      "label": "Cotton County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 417
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 90
+        },
+        {
+          "label": "Hispanic",
+          "value": 407
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 445
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4102
+        }
+      ]
+    },
+    "Craig County, Oklahoma": {
+      "label": "Craig County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2806
+        },
+        {
+          "label": "Asian",
+          "value": 174
+        },
+        {
+          "label": "Black or African American",
+          "value": 494
+        },
+        {
+          "label": "Hispanic",
+          "value": 516
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 21
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1434
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8758
+        }
+      ]
+    },
+    "Creek County, Oklahoma": {
+      "label": "Creek County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8132
+        },
+        {
+          "label": "Asian",
+          "value": 432
+        },
+        {
+          "label": "Black or African American",
+          "value": 1537
+        },
+        {
+          "label": "Hispanic",
+          "value": 3706
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5186
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 53200
+        }
+      ]
+    },
+    "Custer County, Oklahoma": {
+      "label": "Custer County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1241
+        },
+        {
+          "label": "Asian",
+          "value": 267
+        },
+        {
+          "label": "Black or African American",
+          "value": 747
+        },
+        {
+          "label": "Hispanic",
+          "value": 5530
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 27
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1734
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18786
+        }
+      ]
+    },
+    "Delaware County, Oklahoma": {
+      "label": "Delaware County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8377
+        },
+        {
+          "label": "Asian",
+          "value": 619
+        },
+        {
+          "label": "Black or African American",
+          "value": 182
+        },
+        {
+          "label": "Hispanic",
+          "value": 1774
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 47
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4262
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25689
+        }
+      ]
+    },
+    "Dewey County, Oklahoma": {
+      "label": "Dewey County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 204
+        },
+        {
+          "label": "Asian",
+          "value": 2
+        },
+        {
+          "label": "Black or African American",
+          "value": 1
+        },
+        {
+          "label": "Hispanic",
+          "value": 267
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 362
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3597
+        }
+      ]
+    },
+    "Ellis County, Oklahoma": {
+      "label": "Ellis County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 71
+        },
+        {
+          "label": "Asian",
+          "value": 34
+        },
+        {
+          "label": "Black or African American",
+          "value": 9
+        },
+        {
+          "label": "Hispanic",
+          "value": 330
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 150
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3118
+        }
+      ]
+    },
+    "Garfield County, Oklahoma": {
+      "label": "Garfield County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 859
+        },
+        {
+          "label": "Asian",
+          "value": 780
+        },
+        {
+          "label": "Black or African American",
+          "value": 1176
+        },
+        {
+          "label": "Hispanic",
+          "value": 9234
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2433
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3686
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 44145
+        }
+      ]
+    },
+    "Garvin County, Oklahoma": {
+      "label": "Garvin County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 968
+        },
+        {
+          "label": "Asian",
+          "value": 122
+        },
+        {
+          "label": "Black or African American",
+          "value": 400
+        },
+        {
+          "label": "Hispanic",
+          "value": 2575
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2892
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18729
+        }
+      ]
+    },
+    "Grady County, Oklahoma": {
+      "label": "Grady County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2034
+        },
+        {
+          "label": "Asian",
+          "value": 273
+        },
+        {
+          "label": "Black or African American",
+          "value": 1200
+        },
+        {
+          "label": "Hispanic",
+          "value": 3785
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 16
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4171
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 44290
+        }
+      ]
+    },
+    "Grant County, Oklahoma": {
+      "label": "Grant County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 97
+        },
+        {
+          "label": "Asian",
+          "value": 8
+        },
+        {
+          "label": "Black or African American",
+          "value": 85
+        },
+        {
+          "label": "Hispanic",
+          "value": 191
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 189
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3560
+        }
+      ]
+    },
+    "Greer County, Oklahoma": {
+      "label": "Greer County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 72
+        },
+        {
+          "label": "Asian",
+          "value": 25
+        },
+        {
+          "label": "Black or African American",
+          "value": 346
+        },
+        {
+          "label": "Hispanic",
+          "value": 703
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 335
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4009
+        }
+      ]
+    },
+    "Harmon County, Oklahoma": {
+      "label": "Harmon County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 42
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 270
+        },
+        {
+          "label": "Hispanic",
+          "value": 773
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 59
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1304
+        }
+      ]
+    },
+    "Harper County, Oklahoma": {
+      "label": "Harper County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 2
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 753
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 138
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2335
+        }
+      ]
+    },
+    "Haskell County, Oklahoma": {
+      "label": "Haskell County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1586
+        },
+        {
+          "label": "Asian",
+          "value": 103
+        },
+        {
+          "label": "Black or African American",
+          "value": 32
+        },
+        {
+          "label": "Hispanic",
+          "value": 592
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1371
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7954
+        }
+      ]
+    },
+    "Hughes County, Oklahoma": {
+      "label": "Hughes County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2724
+        },
+        {
+          "label": "Asian",
+          "value": 55
+        },
+        {
+          "label": "Black or African American",
+          "value": 616
+        },
+        {
+          "label": "Hispanic",
+          "value": 817
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 815
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8162
+        }
+      ]
+    },
+    "Jackson County, Oklahoma": {
+      "label": "Jackson County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 281
+        },
+        {
+          "label": "Asian",
+          "value": 370
+        },
+        {
+          "label": "Black or African American",
+          "value": 1464
+        },
+        {
+          "label": "Hispanic",
+          "value": 6075
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 25
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1262
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15210
+        }
+      ]
+    },
+    "Jefferson County, Oklahoma": {
+      "label": "Jefferson County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 209
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 77
+        },
+        {
+          "label": "Hispanic",
+          "value": 579
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 420
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4089
+        }
+      ]
+    },
+    "Johnston County, Oklahoma": {
+      "label": "Johnston County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1144
+        },
+        {
+          "label": "Asian",
+          "value": 7
+        },
+        {
+          "label": "Black or African American",
+          "value": 248
+        },
+        {
+          "label": "Hispanic",
+          "value": 623
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1358
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6942
+        }
+      ]
+    },
+    "Kay County, Oklahoma": {
+      "label": "Kay County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3422
+        },
+        {
+          "label": "Asian",
+          "value": 234
+        },
+        {
+          "label": "Black or African American",
+          "value": 868
+        },
+        {
+          "label": "Hispanic",
+          "value": 3833
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 20
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4011
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 31195
+        }
+      ]
+    },
+    "Kingfisher County, Oklahoma": {
+      "label": "Kingfisher County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 395
+        },
+        {
+          "label": "Asian",
+          "value": 84
+        },
+        {
+          "label": "Black or African American",
+          "value": 174
+        },
+        {
+          "label": "Hispanic",
+          "value": 2746
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 25
+        },
+        {
+          "label": "Two or More Races",
+          "value": 667
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11197
+        }
+      ]
+    },
+    "Kiowa County, Oklahoma": {
+      "label": "Kiowa County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 336
+        },
+        {
+          "label": "Asian",
+          "value": 14
+        },
+        {
+          "label": "Black or African American",
+          "value": 284
+        },
+        {
+          "label": "Hispanic",
+          "value": 999
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 666
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6146
+        }
+      ]
+    },
+    "Latimer County, Oklahoma": {
+      "label": "Latimer County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2266
+        },
+        {
+          "label": "Asian",
+          "value": 100
+        },
+        {
+          "label": "Black or African American",
+          "value": 115
+        },
+        {
+          "label": "Hispanic",
+          "value": 375
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 798
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5840
+        }
+      ]
+    },
+    "Le Flore County, Oklahoma": {
+      "label": "Le Flore County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5512
+        },
+        {
+          "label": "Asian",
+          "value": 405
+        },
+        {
+          "label": "Black or African American",
+          "value": 894
+        },
+        {
+          "label": "Hispanic",
+          "value": 3782
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 13
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4497
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33575
+        }
+      ]
+    },
+    "Lincoln County, Oklahoma": {
+      "label": "Lincoln County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1894
+        },
+        {
+          "label": "Asian",
+          "value": 147
+        },
+        {
+          "label": "Black or African American",
+          "value": 576
+        },
+        {
+          "label": "Hispanic",
+          "value": 1278
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 19
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2707
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27194
+        }
+      ]
+    },
+    "Logan County, Oklahoma": {
+      "label": "Logan County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1407
+        },
+        {
+          "label": "Asian",
+          "value": 270
+        },
+        {
+          "label": "Black or African American",
+          "value": 3286
+        },
+        {
+          "label": "Hispanic",
+          "value": 4376
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3177
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 38278
+        }
+      ]
+    },
+    "Love County, Oklahoma": {
+      "label": "Love County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 423
+        },
+        {
+          "label": "Asian",
+          "value": 78
+        },
+        {
+          "label": "Black or African American",
+          "value": 213
+        },
+        {
+          "label": "Hispanic",
+          "value": 1785
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 731
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6966
+        }
+      ]
+    },
+    "Major County, Oklahoma": {
+      "label": "Major County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 58
+        },
+        {
+          "label": "Asian",
+          "value": 35
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 808
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 424
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6308
+        }
+      ]
+    },
+    "Marshall County, Oklahoma": {
+      "label": "Marshall County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 915
+        },
+        {
+          "label": "Asian",
+          "value": 39
+        },
+        {
+          "label": "Black or African American",
+          "value": 137
+        },
+        {
+          "label": "Hispanic",
+          "value": 2743
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 23
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1774
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9933
+        }
+      ]
+    },
+    "Mayes County, Oklahoma": {
+      "label": "Mayes County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7883
+        },
+        {
+          "label": "Asian",
+          "value": 218
+        },
+        {
+          "label": "Black or African American",
+          "value": 138
+        },
+        {
+          "label": "Hispanic",
+          "value": 1495
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 32
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4930
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24619
+        }
+      ]
+    },
+    "McClain County, Oklahoma": {
+      "label": "McClain County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2462
+        },
+        {
+          "label": "Asian",
+          "value": 185
+        },
+        {
+          "label": "Black or African American",
+          "value": 460
+        },
+        {
+          "label": "Hispanic",
+          "value": 4086
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3030
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33405
+        }
+      ]
+    },
+    "McCurtain County, Oklahoma": {
+      "label": "McCurtain County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4045
+        },
+        {
+          "label": "Asian",
+          "value": 326
+        },
+        {
+          "label": "Black or African American",
+          "value": 2343
+        },
+        {
+          "label": "Hispanic",
+          "value": 2046
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 463
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3225
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18338
+        }
+      ]
+    },
+    "McIntosh County, Oklahoma": {
+      "label": "McIntosh County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3040
+        },
+        {
+          "label": "Asian",
+          "value": 172
+        },
+        {
+          "label": "Black or African American",
+          "value": 534
+        },
+        {
+          "label": "Hispanic",
+          "value": 581
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 15
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2041
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12840
+        }
+      ]
+    },
+    "Murray County, Oklahoma": {
+      "label": "Murray County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1671
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 176
+        },
+        {
+          "label": "Hispanic",
+          "value": 965
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 35
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1354
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9606
+        }
+      ]
+    },
+    "Muskogee County, Oklahoma": {
+      "label": "Muskogee County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11321
+        },
+        {
+          "label": "Asian",
+          "value": 450
+        },
+        {
+          "label": "Black or African American",
+          "value": 6485
+        },
+        {
+          "label": "Hispanic",
+          "value": 4814
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7355
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 35921
+        }
+      ]
+    },
+    "Noble County, Oklahoma": {
+      "label": "Noble County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 611
+        },
+        {
+          "label": "Asian",
+          "value": 7
+        },
+        {
+          "label": "Black or African American",
+          "value": 133
+        },
+        {
+          "label": "Hispanic",
+          "value": 475
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 969
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8693
+        }
+      ]
+    },
+    "Nowata County, Oklahoma": {
+      "label": "Nowata County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1467
+        },
+        {
+          "label": "Asian",
+          "value": 50
+        },
+        {
+          "label": "Black or African American",
+          "value": 153
+        },
+        {
+          "label": "Hispanic",
+          "value": 282
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1318
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6101
+        }
+      ]
+    },
+    "Okfuskee County, Oklahoma": {
+      "label": "Okfuskee County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1917
+        },
+        {
+          "label": "Asian",
+          "value": 96
+        },
+        {
+          "label": "Black or African American",
+          "value": 740
+        },
+        {
+          "label": "Hispanic",
+          "value": 402
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1318
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6822
+        }
+      ]
+    },
+    "Oklahoma County, Oklahoma": {
+      "label": "Oklahoma County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18389
+        },
+        {
+          "label": "Asian",
+          "value": 26901
+        },
+        {
+          "label": "Black or African American",
+          "value": 113402
+        },
+        {
+          "label": "Hispanic",
+          "value": 157068
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 602
+        },
+        {
+          "label": "Two or More Races",
+          "value": 58301
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 423239
+        }
+      ]
+    },
+    "Okmulgee County, Oklahoma": {
+      "label": "Okmulgee County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5464
+        },
+        {
+          "label": "Asian",
+          "value": 192
+        },
+        {
+          "label": "Black or African American",
+          "value": 2586
+        },
+        {
+          "label": "Hispanic",
+          "value": 1838
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4254
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22568
+        }
+      ]
+    },
+    "Osage County, Oklahoma": {
+      "label": "Osage County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4881
+        },
+        {
+          "label": "Asian",
+          "value": 92
+        },
+        {
+          "label": "Black or African American",
+          "value": 4676
+        },
+        {
+          "label": "Hispanic",
+          "value": 2051
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5570
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28602
+        }
+      ]
+    },
+    "Ottawa County, Oklahoma": {
+      "label": "Ottawa County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5689
+        },
+        {
+          "label": "Asian",
+          "value": 219
+        },
+        {
+          "label": "Black or African American",
+          "value": 332
+        },
+        {
+          "label": "Hispanic",
+          "value": 1792
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 220
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2979
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19107
+        }
+      ]
+    },
+    "Pawnee County, Oklahoma": {
+      "label": "Pawnee County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1395
+        },
+        {
+          "label": "Asian",
+          "value": 54
+        },
+        {
+          "label": "Black or African American",
+          "value": 151
+        },
+        {
+          "label": "Hispanic",
+          "value": 558
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 42
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1685
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11755
+        }
+      ]
+    },
+    "Payne County, Oklahoma": {
+      "label": "Payne County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3165
+        },
+        {
+          "label": "Asian",
+          "value": 3296
+        },
+        {
+          "label": "Black or African American",
+          "value": 2989
+        },
+        {
+          "label": "Hispanic",
+          "value": 5287
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 61
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6241
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 61125
+        }
+      ]
+    },
+    "Pittsburg County, Oklahoma": {
+      "label": "Pittsburg County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3281
+        },
+        {
+          "label": "Asian",
+          "value": 225
+        },
+        {
+          "label": "Black or African American",
+          "value": 1008
+        },
+        {
+          "label": "Hispanic",
+          "value": 2431
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 51
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6881
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29639
+        }
+      ]
+    },
+    "Pontotoc County, Oklahoma": {
+      "label": "Pontotoc County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6868
+        },
+        {
+          "label": "Asian",
+          "value": 395
+        },
+        {
+          "label": "Black or African American",
+          "value": 918
+        },
+        {
+          "label": "Hispanic",
+          "value": 2401
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 51
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3348
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24158
+        }
+      ]
+    },
+    "Pottawatomie County, Oklahoma": {
+      "label": "Pottawatomie County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8373
+        },
+        {
+          "label": "Asian",
+          "value": 590
+        },
+        {
+          "label": "Black or African American",
+          "value": 2249
+        },
+        {
+          "label": "Hispanic",
+          "value": 4501
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 93
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5889
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 51198
+        }
+      ]
+    },
+    "Pushmataha County, Oklahoma": {
+      "label": "Pushmataha County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1738
+        },
+        {
+          "label": "Asian",
+          "value": 37
+        },
+        {
+          "label": "Black or African American",
+          "value": 133
+        },
+        {
+          "label": "Hispanic",
+          "value": 434
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 953
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7471
+        }
+      ]
+    },
+    "Roger Mills County, Oklahoma": {
+      "label": "Roger Mills County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 171
+        },
+        {
+          "label": "Asian",
+          "value": 10
+        },
+        {
+          "label": "Black or African American",
+          "value": 3
+        },
+        {
+          "label": "Hispanic",
+          "value": 282
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 157
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2730
+        }
+      ]
+    },
+    "Rogers County, Oklahoma": {
+      "label": "Rogers County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11720
+        },
+        {
+          "label": "Asian",
+          "value": 1638
+        },
+        {
+          "label": "Black or African American",
+          "value": 892
+        },
+        {
+          "label": "Hispanic",
+          "value": 5690
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 84
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9258
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 67604
+        }
+      ]
+    },
+    "Seminole County, Oklahoma": {
+      "label": "Seminole County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4430
+        },
+        {
+          "label": "Asian",
+          "value": 85
+        },
+        {
+          "label": "Black or African American",
+          "value": 1001
+        },
+        {
+          "label": "Hispanic",
+          "value": 1262
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1925
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14776
+        }
+      ]
+    },
+    "Sequoyah County, Oklahoma": {
+      "label": "Sequoyah County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7623
+        },
+        {
+          "label": "Asian",
+          "value": 273
+        },
+        {
+          "label": "Black or African American",
+          "value": 770
+        },
+        {
+          "label": "Hispanic",
+          "value": 1925
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 32
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4862
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24135
+        }
+      ]
+    },
+    "Stephens County, Oklahoma": {
+      "label": "Stephens County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1399
+        },
+        {
+          "label": "Asian",
+          "value": 196
+        },
+        {
+          "label": "Black or African American",
+          "value": 595
+        },
+        {
+          "label": "Hispanic",
+          "value": 3649
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 21
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3521
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33812
+        }
+      ]
+    },
+    "Texas County, Oklahoma": {
+      "label": "Texas County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 153
+        },
+        {
+          "label": "Asian",
+          "value": 513
+        },
+        {
+          "label": "Black or African American",
+          "value": 852
+        },
+        {
+          "label": "Hispanic",
+          "value": 10679
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 626
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8008
+        }
+      ]
+    },
+    "Tillman County, Oklahoma": {
+      "label": "Tillman County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 132
+        },
+        {
+          "label": "Asian",
+          "value": 35
+        },
+        {
+          "label": "Black or African American",
+          "value": 466
+        },
+        {
+          "label": "Hispanic",
+          "value": 1927
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 331
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4076
+        }
+      ]
+    },
+    "Tulsa County, Oklahoma": {
+      "label": "Tulsa County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 30852
+        },
+        {
+          "label": "Asian",
+          "value": 24625
+        },
+        {
+          "label": "Black or African American",
+          "value": 64195
+        },
+        {
+          "label": "Hispanic",
+          "value": 102464
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1006
+        },
+        {
+          "label": "Two or More Races",
+          "value": 56190
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 392277
+        }
+      ]
+    },
+    "Wagoner County, Oklahoma": {
+      "label": "Wagoner County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6838
+        },
+        {
+          "label": "Asian",
+          "value": 1758
+        },
+        {
+          "label": "Black or African American",
+          "value": 2874
+        },
+        {
+          "label": "Hispanic",
+          "value": 6937
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 14
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8563
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 56996
+        }
+      ]
+    },
+    "Washington County, Oklahoma": {
+      "label": "Washington County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4365
+        },
+        {
+          "label": "Asian",
+          "value": 1106
+        },
+        {
+          "label": "Black or African American",
+          "value": 1434
+        },
+        {
+          "label": "Hispanic",
+          "value": 3538
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4914
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 37488
+        }
+      ]
+    },
+    "Washita County, Oklahoma": {
+      "label": "Washita County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 215
+        },
+        {
+          "label": "Asian",
+          "value": 10
+        },
+        {
+          "label": "Black or African American",
+          "value": 149
+        },
+        {
+          "label": "Hispanic",
+          "value": 1021
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 477
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8973
+        }
+      ]
+    },
+    "Woods County, Oklahoma": {
+      "label": "Woods County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 212
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 211
+        },
+        {
+          "label": "Hispanic",
+          "value": 635
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 423
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7100
+        }
+      ]
+    },
+    "Woodward County, Oklahoma": {
+      "label": "Woodward County, Oklahoma",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 376
+        },
+        {
+          "label": "Asian",
+          "value": 78
+        },
+        {
+          "label": "Black or African American",
+          "value": 248
+        },
+        {
+          "label": "Hispanic",
+          "value": 3021
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 992
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15521
+        }
+      ]
+    }
+  }
+}

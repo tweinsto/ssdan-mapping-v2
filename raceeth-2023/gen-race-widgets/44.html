@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 44</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Bristol County, Rhode Island">Bristol County, Rhode Island</option>
+<option value="Kent County, Rhode Island">Kent County, Rhode Island</option>
+<option value="Newport County, Rhode Island">Newport County, Rhode Island</option>
+<option value="Providence County, Rhode Island">Providence County, Rhode Island</option>
+<option value="Washington County, Rhode Island">Washington County, Rhode Island</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.16,"Asian":3.42,"Black or African American":5.04,"Hispanic":17.12,"Pacific Islander":0.04,"Two or More Races":4.38,"White (non-Hispanic)":69.06},"Bristol County, Rhode Island":{"American Indian / Alaska Native":0.02,"Asian":2.29,"Black or African American":0.99,"Hispanic":4.04,"Pacific Islander":0.04,"Two or More Races":3.61,"White (non-Hispanic)":88.69},"Kent County, Rhode Island":{"American Indian / Alaska Native":0.06,"Asian":2.93,"Black or African American":1.77,"Hispanic":6.43,"Pacific Islander":0.04,"Two or More Races":3.64,"White (non-Hispanic)":84.7},"Newport County, Rhode Island":{"American Indian / Alaska Native":0.17,"Asian":1.72,"Black or African American":3.44,"Hispanic":6.56,"Pacific Islander":0.03,"Two or More Races":4.2,"White (non-Hispanic)":83.27},"Providence County, Rhode Island":{"American Indian / Alaska Native":0.18,"Asian":4.12,"Black or African American":7.17,"Hispanic":24.9,"Pacific Islander":0.06,"Two or More Races":4.89,"White (non-Hispanic)":57.61},"Washington County, Rhode Island":{"American Indian / Alaska Native":0.19,"Asian":2.07,"Black or African American":1.17,"Hispanic":3.7,"Pacific Islander":0,"Two or More Races":3.17,"White (non-Hispanic)":89.63}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

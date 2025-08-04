@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 10</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Kent County, Delaware">Kent County, Delaware</option>
+<option value="New Castle County, Delaware">New Castle County, Delaware</option>
+<option value="Sussex County, Delaware">Sussex County, Delaware</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.15,"Asian":4.08,"Black or African American":21.39,"Hispanic":10.72,"Pacific Islander":0.02,"Two or More Races":4.14,"White (non-Hispanic)":59.01},"Kent County, Delaware":{"American Indian / Alaska Native":0.33,"Asian":2.23,"Black or African American":26.39,"Hispanic":7.92,"Pacific Islander":0.04,"Two or More Races":5.07,"White (non-Hispanic)":57.61},"New Castle County, Delaware":{"American Indian / Alaska Native":0.06,"Asian":5.91,"Black or African American":24.61,"Hispanic":11.41,"Pacific Islander":0.03,"Two or More Races":3.99,"White (non-Hispanic)":53.48},"Sussex County, Delaware":{"American Indian / Alaska Native":0.22,"Asian":1.23,"Black or African American":10.22,"Hispanic":11.21,"Pacific Islander":0,"Two or More Races":3.79,"White (non-Hispanic)":72.84}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

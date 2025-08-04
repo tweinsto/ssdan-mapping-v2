@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Internet Access Over Time –  Alabama</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>body { font-family: sans-serif; margin: 1rem 2rem; text-align: center; }
+                      h2 { margin-bottom: 0.25rem; font-size: 1.6rem; }
+                      select { padding: 0.4rem; font-size: 1rem; margin: 1rem 0; border-radius: 5px; border: 1px solid #999; }
+                      canvas { width: 100%; max-width: 850px; height: 450px; margin-top: 1rem; }</style>
+</head>
+<html>
+  <body>
+    <h2>Internet Access in  Alabama (2013–2023)</h2>
+    <label>Select County: </label>
+    <select id="countySelect"><option value='Statewide'>Statewide</option>
+<option value='Baldwin County, Alabama'>Baldwin County, Alabama</option>
+<option value='Calhoun County, Alabama'>Calhoun County, Alabama</option>
+<option value='Cullman County, Alabama'>Cullman County, Alabama</option>
+<option value='DeKalb County, Alabama'>DeKalb County, Alabama</option>
+<option value='Elmore County, Alabama'>Elmore County, Alabama</option>
+<option value='Etowah County, Alabama'>Etowah County, Alabama</option>
+<option value='Houston County, Alabama'>Houston County, Alabama</option>
+<option value='Jefferson County, Alabama'>Jefferson County, Alabama</option>
+<option value='Lauderdale County, Alabama'>Lauderdale County, Alabama</option>
+<option value='Lee County, Alabama'>Lee County, Alabama</option>
+<option value='Limestone County, Alabama'>Limestone County, Alabama</option>
+<option value='Madison County, Alabama'>Madison County, Alabama</option>
+<option value='Marshall County, Alabama'>Marshall County, Alabama</option>
+<option value='Mobile County, Alabama'>Mobile County, Alabama</option>
+<option value='Montgomery County, Alabama'>Montgomery County, Alabama</option>
+<option value='Morgan County, Alabama'>Morgan County, Alabama</option>
+<option value='Shelby County, Alabama'>Shelby County, Alabama</option>
+<option value='St. Clair County, Alabama'>St. Clair County, Alabama</option>
+<option value='Talladega County, Alabama'>Talladega County, Alabama</option>
+<option value='Tuscaloosa County, Alabama'>Tuscaloosa County, Alabama</option>
+<option value='Walker County, Alabama'>Walker County, Alabama</option></select>
+    <canvas id="lineChart" width="850" height="450"></canvas>
+    <script>const internetData = {"Statewide":{"2013":68,"2014":69.4,"2015":71.9,"2016":78.1,"2017":81.2,"2018":82.7,"2019":84.4,"2021":88.2,"2022":89.5,"2023":91.2},"Baldwin County, Alabama":{"2013":68.6,"2014":68.7,"2015":74.2,"2016":77.6,"2017":85.6,"2018":85.1,"2019":86.9,"2021":92,"2022":89.5,"2023":91.3},"Calhoun County, Alabama":{"2013":67.5,"2014":68.8,"2015":68.6,"2016":72.3,"2017":77.4,"2018":77.6,"2019":79.2,"2021":84.6,"2022":87.8,"2023":87.2},"Cullman County, Alabama":{"2013":61.1,"2014":59.7,"2015":68,"2016":73.4,"2017":73.1,"2018":80.8,"2019":82.2,"2021":85.2,"2022":88.6,"2023":87.3},"DeKalb County, Alabama":{"2013":44.3,"2014":57.3,"2015":58,"2016":69.1,"2017":74.2,"2018":78,"2019":82.3,"2021":78.4,"2022":88.7,"2023":91.5},"Elmore County, Alabama":{"2013":75.1,"2014":77.5,"2015":79,"2016":82.2,"2017":80.5,"2018":82.1,"2019":84.8,"2021":89.1,"2022":93.4,"2023":93},"Etowah County, Alabama":{"2013":59.2,"2014":65,"2015":69.5,"2016":75.3,"2017":76.9,"2018":81.8,"2019":80.9,"2021":85.9,"2022":85.6,"2023":91.1},"Houston County, Alabama":{"2013":64.7,"2014":63.8,"2015":69.9,"2016":72.1,"2017":76.4,"2018":74.7,"2019":84.5,"2021":86.1,"2022":86.3,"2023":89.8},"Jefferson County, Alabama":{"2013":66.9,"2014":68.4,"2015":71.3,"2016":78.8,"2017":81.6,"2018":83.5,"2019":84.1,"2021":89.1,"2022":90.3,"2023":91.6},"Lauderdale County, Alabama":{"2013":64.6,"2014":58.1,"2015":57.4,"2016":72.1,"2017":76.4,"2018":76.1,"2019":74.8,"2021":79.7,"2022":86,"2023":86},"Lee County, Alabama":{"2013":73.9,"2014":74.9,"2015":78,"2016":82.6,"2017":84.8,"2018":82,"2019":84.9,"2021":87.3,"2022":87.4,"2023":88.5},"Limestone County, Alabama":{"2013":65.2,"2014":70.4,"2015":72.3,"2016":72.8,"2017":82.6,"2018":82,"2019":92.6,"2021":86,"2022":87.6,"2023":90},"Madison County, Alabama":{"2013":77,"2014":78.1,"2015":80.9,"2016":86,"2017":87,"2018":88.1,"2019":90,"2021":92,"2022":92.9,"2023":94.4},"Marshall County, Alabama":{"2013":60.1,"2014":59.1,"2015":71.1,"2016":79.4,"2017":80.5,"2018":83.2,"2019":85.3,"2021":87.9,"2022":89.1,"2023":91.5},"Mobile County, Alabama":{"2013":63.3,"2014":65.7,"2015":65.4,"2016":73.3,"2017":78.9,"2018":79.3,"2019":80.2,"2021":85.7,"2022":86,"2023":91.2},"Montgomery County, Alabama":{"2013":73,"2014":73.7,"2015":74.2,"2016":80,"2017":77.9,"2018":82.4,"2019":84.3,"2021":89.1,"2022":92.8,"2023":92.3},"Morgan County, Alabama":{"2013":67.7,"2014":67.4,"2015":69.2,"2016":72.7,"2017":78.9,"2018":80.6,"2019":77.8,"2021":80.8,"2022":87.6,"2023":89.8},"Shelby County, Alabama":{"2013":81.5,"2014":81.7,"2015":82.1,"2016":88.9,"2017":89.8,"2018":90.1,"2019":91,"2021":93.9,"2022":93.8,"2023":95.3},"St. Clair County, Alabama":{"2013":69.8,"2014":68.6,"2015":71.5,"2016":75.3,"2017":79,"2018":83.7,"2019":84.9,"2021":91.3,"2022":91.9,"2023":90.9},"Talladega County, Alabama":{"2013":61.3,"2014":61.8,"2015":60.2,"2016":75.1,"2017":74.4,"2018":81.6,"2019":82.5,"2021":87.8,"2022":86.7,"2023":90.8},"Tuscaloosa County, Alabama":{"2013":69.3,"2014":73.5,"2015":76,"2016":76.8,"2017":83,"2018":82.4,"2019":86.4,"2021":88.6,"2022":88.6,"2023":88.9},"Walker County, Alabama":{"2013":51.3,"2014":56.7,"2015":60.4,"2016":74.2,"2017":73.4,"2018":77.7,"2019":77.5}};
+const ctx = document.getElementById('lineChart').getContext('2d');
+let chart;
+
+function renderChart(data) {
+  const labels = Object.keys(data);
+  const values = Object.values(data);
+
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: '% With Internet',
+        data: values,
+        fill: false,
+        borderColor: 'teal',
+        backgroundColor: 'teal',
+        tension: 0.3,
+        pointRadius: 4
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100,
+          title: { display: true, text: '% With Internet' }
+        },
+        x: {
+          title: { display: true, text: 'Year' }
+        }
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function(ctx) {
+              return ctx.parsed.y.toFixed(1) + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  renderChart(internetData[this.value]);
+});
+renderChart(internetData['Statewide']);</script>
+  </body>
+</html>
+</html>

@@ -2,216 +2,124 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Rent Stress, Median Rent & Stats – Maine (2023)</title>
+  <title>Rent Stress, Median Rent & Stats – State 23 (2023)</title>
   <style>
     body {
       margin: 0;
-      padding: 1.5rem;
-      font-family: sans-serif;
-      background-color: #f9f9f9;
+      padding: 2rem;
+      font-family: system-ui, sans-serif;
+      background-color: #f4f6f8;
+      color: #222;
     }
+
     h1 {
-      font-size: 1.5rem;
-      margin-bottom: 1.5rem;
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      margin-top: -1rem;
+      color: #2a2a2a;
     }
-    .row {
-      display: flex;
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
       gap: 2rem;
-      align-items: flex-start;
+      align-items: start;
     }
-    .col-large {
-      flex: 2;
+
+    .section-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #333;
     }
-    .col-small {
-      flex: 1;
+
+    .map-frame, .table-frame {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      padding: 1rem;
+      margin-bottom: 2rem;
     }
-    .map-title {
-      font-size: 1.1rem;
-      font-weight: bold;
-      margin-bottom: 0.5rem;
-    }
-    .map-box {
-      border: 2px solid #ccc;
-      padding: 0.5rem;
-      background-color: white;
-      box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-    }
+
     iframe {
       width: 100%;
-      height: 550px;
+      height: 500px;
       border: none;
-      margin-bottom: 1.5rem;
+      border-radius: 6px;
     }
-    .table-title {
-      font-size: 1.1rem;
-      font-weight: bold;
-      margin: 2rem 0 0.5rem 0;
-    }
-    table {
-      font-size: 0.95rem;
-    }
+
     .description-box {
-      margin-top: 2rem;
-      padding: 1rem;
-      background-color: #eef0f4;
-      border-left: 4px solid #4a142e;
+      background-color: #f1f4fb;
+      border-left: 5px solid #3e49a8;
+      padding: 1rem 1.25rem;
+      border-radius: 6px;
       font-size: 0.95rem;
-      line-height: 1.5;
+      line-height: 1.6;
+      margin-top: 2rem;
+    }
+
+    .description-box strong {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+    }
+
+    .description-box ul {
+      margin: 0.5rem 0 0 1rem;
+      padding-left: 1rem;
+    }
+
+    .description-box li {
+      margin-bottom: 0.5rem;
+    }
+
+    @media (max-width: 900px) {
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+
+      iframe {
+        height: 400px;
+      }
     }
   </style>
 </head>
 <body>
 
-  <h1>Housing Stress Index, Median Rent, and County Statistics – Maine</h1>
+  <h1>Renter Housing Statistics – 23 (2023)</h1>
 
-  <div class="row">
-    <div class="col-large">
-      <div class="map-title">Housing Stress Index by County</div>
-      <iframe src="../stress-maps/23.html" title="Rent Stress Map"></iframe>
+  <div class="grid-container">
+    <!-- Left Column -->
+    <div>
+      <div class="map-frame">
+        <div class="section-title">% Rent Burdened (30%+) by County</div>
+        <iframe src="../stress-maps/23.html" title="Rent Burdened Map"></iframe>
+      </div>
 
-      <div class="table-title">County-Level Inputs to Housing Stress Index</div>
-      <table class="table table-striped table-hover table-condensed" style="margin-left: auto; margin-right: auto;">
- <thead>
-  <tr>
-   <th style="text-align:left;"> County </th>
-   <th style="text-align:right;"> Median Rent ($) </th>
-   <th style="text-align:right;"> % Rent-Burdened </th>
-   <th style="text-align:right;"> Vacancy Rate (%) </th>
-   <th style="text-align:right;"> Housing Stress Index </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> Androscoggin County, Maine </td>
-   <td style="text-align:right;"> 966 </td>
-   <td style="text-align:right;"> 9.05 </td>
-   <td style="text-align:right;"> 12.4 </td>
-   <td style="text-align:right;"> 0.45 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Aroostook County, Maine </td>
-   <td style="text-align:right;"> 736 </td>
-   <td style="text-align:right;"> 9.84 </td>
-   <td style="text-align:right;"> 14.3 </td>
-   <td style="text-align:right;"> 0.15 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Cumberland County, Maine </td>
-   <td style="text-align:right;"> 1492 </td>
-   <td style="text-align:right;"> 10.12 </td>
-   <td style="text-align:right;"> 15.9 </td>
-   <td style="text-align:right;"> 0.89 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Franklin County, Maine </td>
-   <td style="text-align:right;"> 759 </td>
-   <td style="text-align:right;"> 11.83 </td>
-   <td style="text-align:right;"> 12.5 </td>
-   <td style="text-align:right;"> 0.49 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Hancock County, Maine </td>
-   <td style="text-align:right;"> 1000 </td>
-   <td style="text-align:right;"> 9.39 </td>
-   <td style="text-align:right;"> 13.5 </td>
-   <td style="text-align:right;"> 0.45 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Kennebec County, Maine </td>
-   <td style="text-align:right;"> 952 </td>
-   <td style="text-align:right;"> 9.31 </td>
-   <td style="text-align:right;"> 14.7 </td>
-   <td style="text-align:right;"> 0.31 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Knox County, Maine </td>
-   <td style="text-align:right;"> 1079 </td>
-   <td style="text-align:right;"> 14.12 </td>
-   <td style="text-align:right;"> 14.5 </td>
-   <td style="text-align:right;"> 0.92 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Lincoln County, Maine </td>
-   <td style="text-align:right;"> 1003 </td>
-   <td style="text-align:right;"> 6.76 </td>
-   <td style="text-align:right;"> 13.6 </td>
-   <td style="text-align:right;"> 0.19 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Oxford County, Maine </td>
-   <td style="text-align:right;"> 807 </td>
-   <td style="text-align:right;"> 14.94 </td>
-   <td style="text-align:right;"> 11.9 </td>
-   <td style="text-align:right;"> 0.88 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Penobscot County, Maine </td>
-   <td style="text-align:right;"> 997 </td>
-   <td style="text-align:right;"> 8.85 </td>
-   <td style="text-align:right;"> 12.8 </td>
-   <td style="text-align:right;"> 0.44 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Piscataquis County, Maine </td>
-   <td style="text-align:right;"> 807 </td>
-   <td style="text-align:right;"> 3.47 </td>
-   <td style="text-align:right;"> 10.1 </td>
-   <td style="text-align:right;"> -0.10 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Sagadahoc County, Maine </td>
-   <td style="text-align:right;"> 1050 </td>
-   <td style="text-align:right;"> 10.18 </td>
-   <td style="text-align:right;"> 14.3 </td>
-   <td style="text-align:right;"> 0.52 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Somerset County, Maine </td>
-   <td style="text-align:right;"> 887 </td>
-   <td style="text-align:right;"> 7.62 </td>
-   <td style="text-align:right;"> 12.3 </td>
-   <td style="text-align:right;"> 0.24 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Waldo County, Maine </td>
-   <td style="text-align:right;"> 969 </td>
-   <td style="text-align:right;"> 7.11 </td>
-   <td style="text-align:right;"> 13.4 </td>
-   <td style="text-align:right;"> 0.20 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Washington County, Maine </td>
-   <td style="text-align:right;"> 768 </td>
-   <td style="text-align:right;"> 11.27 </td>
-   <td style="text-align:right;"> 12.6 </td>
-   <td style="text-align:right;"> 0.44 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> York County, Maine </td>
-   <td style="text-align:right;"> 1239 </td>
-   <td style="text-align:right;"> 10.01 </td>
-   <td style="text-align:right;"> 13.8 </td>
-   <td style="text-align:right;"> 0.75 </td>
-  </tr>
-</tbody>
-</table>
+      <div class="table-frame">
+        <div class="section-title">County-Level Housing Indicators</div>
+        <iframe src="../facts-table-stress/23.html" title="Rent Table"></iframe>
+      </div>
     </div>
 
-    <div class="col-small">
-      <div class="map-box">
-        <div class="map-title">Median Gross Monthly Rent by County</div>
+    <!-- Right Column -->
+    <div>
+      <div class="map-frame">
+        <div class="section-title">Median Gross Rent by County</div>
         <iframe src="../rent-maps/23.html" title="Median Rent Map"></iframe>
       </div>
 
       <div class="description-box">
-        <strong>What is the Housing Stress Index?</strong><br>
-The Housing Stress Index is a custom metric created to reflect renter vulnerability in each county. It combines:
-<ul style="margin-top: 0.5rem;">
-  <li>Median gross rent (higher rent = more stress)</li>
-  <li>Percent of renters spending over 30% of income on rent (also known as the rent-burdened rate — a measure of financial strain)</li>
-  <li>Rental vacancy rate (lower vacancy = more stress because renters have fewer housing options and less leverage)</li>
-</ul>
-Each of these is standardized (z-scored), and the Housing Stress Index is the average of the three. Higher values indicate more stress on renters.
+        <strong>What Do These Housing Indicators Show?</strong>
+        All values are based on renter-occupied households in each county.
+        <ul>
+          <li><strong>% Renters</strong>: Share of the population living in rented housing.</li>
+          <li><strong>% Rent Burdened (30%+)</strong>: Renters spending 30%+ of income on rent.</li>
+          <li><strong>Rental Vacancy Rate</strong>: Share of rental units that are currently vacant.</li>
+          <li><strong>Median Gross Rent</strong>: Monthly rent including utilities (if paid by tenant).</li>
+        </ul>
       </div>
     </div>
   </div>

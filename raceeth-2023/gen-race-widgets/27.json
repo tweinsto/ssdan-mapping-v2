@@ -1,0 +1,2909 @@
+{
+  "state": "Aitkin County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41765
+        },
+        {
+          "label": "Asian",
+          "value": 287321
+        },
+        {
+          "label": "Black or African American",
+          "value": 384286
+        },
+        {
+          "label": "Hispanic",
+          "value": 353608
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2118
+        },
+        {
+          "label": "Two or More Races",
+          "value": 235352
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4383717
+        }
+      ]
+    },
+    "Aitkin County, Minnesota": {
+      "label": "Aitkin County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 245
+        },
+        {
+          "label": "Asian",
+          "value": 23
+        },
+        {
+          "label": "Black or African American",
+          "value": 106
+        },
+        {
+          "label": "Hispanic",
+          "value": 233
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 452
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14778
+        }
+      ]
+    },
+    "Anoka County, Minnesota": {
+      "label": "Anoka County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1420
+        },
+        {
+          "label": "Asian",
+          "value": 19745
+        },
+        {
+          "label": "Black or African American",
+          "value": 30395
+        },
+        {
+          "label": "Hispanic",
+          "value": 20537
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 37
+        },
+        {
+          "label": "Two or More Races",
+          "value": 15166
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 278827
+        }
+      ]
+    },
+    "Becker County, Minnesota": {
+      "label": "Becker County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1690
+        },
+        {
+          "label": "Asian",
+          "value": 249
+        },
+        {
+          "label": "Black or African American",
+          "value": 282
+        },
+        {
+          "label": "Hispanic",
+          "value": 665
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2099
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30144
+        }
+      ]
+    },
+    "Beltrami County, Minnesota": {
+      "label": "Beltrami County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8780
+        },
+        {
+          "label": "Asian",
+          "value": 263
+        },
+        {
+          "label": "Black or African American",
+          "value": 413
+        },
+        {
+          "label": "Hispanic",
+          "value": 1170
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 36
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2816
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32660
+        }
+      ]
+    },
+    "Benton County, Minnesota": {
+      "label": "Benton County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 279
+        },
+        {
+          "label": "Asian",
+          "value": 412
+        },
+        {
+          "label": "Black or African American",
+          "value": 1617
+        },
+        {
+          "label": "Hispanic",
+          "value": 1346
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1758
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 35902
+        }
+      ]
+    },
+    "Big Stone County, Minnesota": {
+      "label": "Big Stone County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 39
+        },
+        {
+          "label": "Black or African American",
+          "value": 9
+        },
+        {
+          "label": "Hispanic",
+          "value": 130
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 97
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4859
+        }
+      ]
+    },
+    "Blue Earth County, Minnesota": {
+      "label": "Blue Earth County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 106
+        },
+        {
+          "label": "Asian",
+          "value": 1619
+        },
+        {
+          "label": "Black or African American",
+          "value": 3157
+        },
+        {
+          "label": "Hispanic",
+          "value": 3252
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2053
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 59101
+        }
+      ]
+    },
+    "Brown County, Minnesota": {
+      "label": "Brown County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 45
+        },
+        {
+          "label": "Asian",
+          "value": 156
+        },
+        {
+          "label": "Black or African American",
+          "value": 216
+        },
+        {
+          "label": "Hispanic",
+          "value": 1252
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 294
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23814
+        }
+      ]
+    },
+    "Carlton County, Minnesota": {
+      "label": "Carlton County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1246
+        },
+        {
+          "label": "Asian",
+          "value": 169
+        },
+        {
+          "label": "Black or African American",
+          "value": 762
+        },
+        {
+          "label": "Hispanic",
+          "value": 676
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1647
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 31818
+        }
+      ]
+    },
+    "Carver County, Minnesota": {
+      "label": "Carver County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 151
+        },
+        {
+          "label": "Asian",
+          "value": 3612
+        },
+        {
+          "label": "Black or African American",
+          "value": 1636
+        },
+        {
+          "label": "Hispanic",
+          "value": 5393
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3866
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 93566
+        }
+      ]
+    },
+    "Cass County, Minnesota": {
+      "label": "Cass County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2664
+        },
+        {
+          "label": "Asian",
+          "value": 151
+        },
+        {
+          "label": "Black or African American",
+          "value": 120
+        },
+        {
+          "label": "Hispanic",
+          "value": 530
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 26
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2139
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24902
+        }
+      ]
+    },
+    "Chippewa County, Minnesota": {
+      "label": "Chippewa County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 218
+        },
+        {
+          "label": "Asian",
+          "value": 157
+        },
+        {
+          "label": "Black or African American",
+          "value": 113
+        },
+        {
+          "label": "Hispanic",
+          "value": 1228
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 208
+        },
+        {
+          "label": "Two or More Races",
+          "value": 110
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10326
+        }
+      ]
+    },
+    "Chisago County, Minnesota": {
+      "label": "Chisago County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 219
+        },
+        {
+          "label": "Asian",
+          "value": 813
+        },
+        {
+          "label": "Black or African American",
+          "value": 688
+        },
+        {
+          "label": "Hispanic",
+          "value": 1565
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 17
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1896
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 51991
+        }
+      ]
+    },
+    "Clay County, Minnesota": {
+      "label": "Clay County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 522
+        },
+        {
+          "label": "Asian",
+          "value": 1088
+        },
+        {
+          "label": "Black or African American",
+          "value": 3014
+        },
+        {
+          "label": "Hispanic",
+          "value": 3186
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 167
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2242
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 55293
+        }
+      ]
+    },
+    "Clearwater County, Minnesota": {
+      "label": "Clearwater County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 604
+        },
+        {
+          "label": "Asian",
+          "value": 63
+        },
+        {
+          "label": "Black or African American",
+          "value": 14
+        },
+        {
+          "label": "Hispanic",
+          "value": 75
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 565
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7229
+        }
+      ]
+    },
+    "Cook County, Minnesota": {
+      "label": "Cook County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 353
+        },
+        {
+          "label": "Asian",
+          "value": 38
+        },
+        {
+          "label": "Black or African American",
+          "value": 26
+        },
+        {
+          "label": "Hispanic",
+          "value": 156
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 294
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4749
+        }
+      ]
+    },
+    "Cottonwood County, Minnesota": {
+      "label": "Cottonwood County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 45
+        },
+        {
+          "label": "Asian",
+          "value": 391
+        },
+        {
+          "label": "Black or African American",
+          "value": 201
+        },
+        {
+          "label": "Hispanic",
+          "value": 1203
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 97
+        },
+        {
+          "label": "Two or More Races",
+          "value": 182
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9339
+        }
+      ]
+    },
+    "Crow Wing County, Minnesota": {
+      "label": "Crow Wing County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 473
+        },
+        {
+          "label": "Asian",
+          "value": 292
+        },
+        {
+          "label": "Black or African American",
+          "value": 388
+        },
+        {
+          "label": "Hispanic",
+          "value": 1024
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1753
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 62788
+        }
+      ]
+    },
+    "Dakota County, Minnesota": {
+      "label": "Dakota County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 799
+        },
+        {
+          "label": "Asian",
+          "value": 22719
+        },
+        {
+          "label": "Black or African American",
+          "value": 31968
+        },
+        {
+          "label": "Hispanic",
+          "value": 37321
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 60
+        },
+        {
+          "label": "Two or More Races",
+          "value": 20332
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 326551
+        }
+      ]
+    },
+    "Dodge County, Minnesota": {
+      "label": "Dodge County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 32
+        },
+        {
+          "label": "Asian",
+          "value": 118
+        },
+        {
+          "label": "Black or African American",
+          "value": 205
+        },
+        {
+          "label": "Hispanic",
+          "value": 1084
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 560
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18864
+        }
+      ]
+    },
+    "Douglas County, Minnesota": {
+      "label": "Douglas County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 95
+        },
+        {
+          "label": "Asian",
+          "value": 159
+        },
+        {
+          "label": "Black or African American",
+          "value": 185
+        },
+        {
+          "label": "Hispanic",
+          "value": 848
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 69
+        },
+        {
+          "label": "Two or More Races",
+          "value": 790
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 37065
+        }
+      ]
+    },
+    "Faribault County, Minnesota": {
+      "label": "Faribault County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 30
+        },
+        {
+          "label": "Asian",
+          "value": 87
+        },
+        {
+          "label": "Black or African American",
+          "value": 78
+        },
+        {
+          "label": "Hispanic",
+          "value": 1086
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 242
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12326
+        }
+      ]
+    },
+    "Fillmore County, Minnesota": {
+      "label": "Fillmore County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 130
+        },
+        {
+          "label": "Black or African American",
+          "value": 130
+        },
+        {
+          "label": "Hispanic",
+          "value": 395
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 413
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20195
+        }
+      ]
+    },
+    "Freeborn County, Minnesota": {
+      "label": "Freeborn County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 943
+        },
+        {
+          "label": "Black or African American",
+          "value": 364
+        },
+        {
+          "label": "Hispanic",
+          "value": 3249
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 55
+        },
+        {
+          "label": "Two or More Races",
+          "value": 764
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25291
+        }
+      ]
+    },
+    "Goodhue County, Minnesota": {
+      "label": "Goodhue County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 409
+        },
+        {
+          "label": "Asian",
+          "value": 372
+        },
+        {
+          "label": "Black or African American",
+          "value": 764
+        },
+        {
+          "label": "Hispanic",
+          "value": 1879
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1211
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 42882
+        }
+      ]
+    },
+    "Grant County, Minnesota": {
+      "label": "Grant County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 27
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 29
+        },
+        {
+          "label": "Hispanic",
+          "value": 158
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 200
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5663
+        }
+      ]
+    },
+    "Hennepin County, Minnesota": {
+      "label": "Hennepin County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4951
+        },
+        {
+          "label": "Asian",
+          "value": 90018
+        },
+        {
+          "label": "Black or African American",
+          "value": 167455
+        },
+        {
+          "label": "Hispanic",
+          "value": 97813
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 255
+        },
+        {
+          "label": "Two or More Races",
+          "value": 62865
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 836929
+        }
+      ]
+    },
+    "Houston County, Minnesota": {
+      "label": "Houston County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 191
+        },
+        {
+          "label": "Black or African American",
+          "value": 66
+        },
+        {
+          "label": "Hispanic",
+          "value": 279
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 600
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17599
+        }
+      ]
+    },
+    "Hubbard County, Minnesota": {
+      "label": "Hubbard County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 393
+        },
+        {
+          "label": "Asian",
+          "value": 83
+        },
+        {
+          "label": "Black or African American",
+          "value": 105
+        },
+        {
+          "label": "Hispanic",
+          "value": 553
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 826
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19577
+        }
+      ]
+    },
+    "Isanti County, Minnesota": {
+      "label": "Isanti County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 133
+        },
+        {
+          "label": "Asian",
+          "value": 858
+        },
+        {
+          "label": "Black or African American",
+          "value": 432
+        },
+        {
+          "label": "Hispanic",
+          "value": 1009
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 974
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 38502
+        }
+      ]
+    },
+    "Itasca County, Minnesota": {
+      "label": "Itasca County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1153
+        },
+        {
+          "label": "Asian",
+          "value": 149
+        },
+        {
+          "label": "Black or African American",
+          "value": 301
+        },
+        {
+          "label": "Hispanic",
+          "value": 656
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 24
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2565
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 40135
+        }
+      ]
+    },
+    "Jackson County, Minnesota": {
+      "label": "Jackson County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 99
+        },
+        {
+          "label": "Black or African American",
+          "value": 54
+        },
+        {
+          "label": "Hispanic",
+          "value": 450
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 343
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9011
+        }
+      ]
+    },
+    "Kanabec County, Minnesota": {
+      "label": "Kanabec County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 65
+        },
+        {
+          "label": "Asian",
+          "value": 79
+        },
+        {
+          "label": "Black or African American",
+          "value": 83
+        },
+        {
+          "label": "Hispanic",
+          "value": 282
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 561
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15171
+        }
+      ]
+    },
+    "Kandiyohi County, Minnesota": {
+      "label": "Kandiyohi County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 200
+        },
+        {
+          "label": "Asian",
+          "value": 566
+        },
+        {
+          "label": "Black or African American",
+          "value": 2448
+        },
+        {
+          "label": "Hispanic",
+          "value": 6109
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 78
+        },
+        {
+          "label": "Two or More Races",
+          "value": 848
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33409
+        }
+      ]
+    },
+    "Kittson County, Minnesota": {
+      "label": "Kittson County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 16
+        },
+        {
+          "label": "Black or African American",
+          "value": 21
+        },
+        {
+          "label": "Hispanic",
+          "value": 104
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 112
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3894
+        }
+      ]
+    },
+    "Koochiching County, Minnesota": {
+      "label": "Koochiching County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 249
+        },
+        {
+          "label": "Asian",
+          "value": 108
+        },
+        {
+          "label": "Black or African American",
+          "value": 67
+        },
+        {
+          "label": "Hispanic",
+          "value": 175
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 605
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10739
+        }
+      ]
+    },
+    "Lac qui Parle County, Minnesota": {
+      "label": "Lac qui Parle County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 29
+        },
+        {
+          "label": "Black or African American",
+          "value": 37
+        },
+        {
+          "label": "Hispanic",
+          "value": 210
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 148
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6252
+        }
+      ]
+    },
+    "Lake County, Minnesota": {
+      "label": "Lake County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 27
+        },
+        {
+          "label": "Asian",
+          "value": 25
+        },
+        {
+          "label": "Black or African American",
+          "value": 43
+        },
+        {
+          "label": "Hispanic",
+          "value": 154
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 318
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10344
+        }
+      ]
+    },
+    "Lake of the Woods County, Minnesota": {
+      "label": "Lake of the Woods County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 80
+        },
+        {
+          "label": "Asian",
+          "value": 8
+        },
+        {
+          "label": "Black or African American",
+          "value": 10
+        },
+        {
+          "label": "Hispanic",
+          "value": 26
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 222
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3447
+        }
+      ]
+    },
+    "Le Sueur County, Minnesota": {
+      "label": "Le Sueur County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 72
+        },
+        {
+          "label": "Asian",
+          "value": 143
+        },
+        {
+          "label": "Black or African American",
+          "value": 255
+        },
+        {
+          "label": "Hispanic",
+          "value": 1922
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 560
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25941
+        }
+      ]
+    },
+    "Lincoln County, Minnesota": {
+      "label": "Lincoln County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 39
+        },
+        {
+          "label": "Black or African American",
+          "value": 9
+        },
+        {
+          "label": "Hispanic",
+          "value": 131
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 131
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5271
+        }
+      ]
+    },
+    "Lyon County, Minnesota": {
+      "label": "Lyon County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 81
+        },
+        {
+          "label": "Asian",
+          "value": 1202
+        },
+        {
+          "label": "Black or African American",
+          "value": 634
+        },
+        {
+          "label": "Hispanic",
+          "value": 1881
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 703
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20916
+        }
+      ]
+    },
+    "Mahnomen County, Minnesota": {
+      "label": "Mahnomen County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1850
+        },
+        {
+          "label": "Asian",
+          "value": 19
+        },
+        {
+          "label": "Black or African American",
+          "value": 3
+        },
+        {
+          "label": "Hispanic",
+          "value": 198
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 873
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2410
+        }
+      ]
+    },
+    "Marshall County, Minnesota": {
+      "label": "Marshall County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 30
+        },
+        {
+          "label": "Asian",
+          "value": 22
+        },
+        {
+          "label": "Black or African American",
+          "value": 31
+        },
+        {
+          "label": "Hispanic",
+          "value": 415
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 213
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8231
+        }
+      ]
+    },
+    "Martin County, Minnesota": {
+      "label": "Martin County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 112
+        },
+        {
+          "label": "Black or African American",
+          "value": 160
+        },
+        {
+          "label": "Hispanic",
+          "value": 1352
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 350
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17626
+        }
+      ]
+    },
+    "McLeod County, Minnesota": {
+      "label": "McLeod County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 237
+        },
+        {
+          "label": "Black or African American",
+          "value": 173
+        },
+        {
+          "label": "Hispanic",
+          "value": 2664
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 887
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32716
+        }
+      ]
+    },
+    "Meeker County, Minnesota": {
+      "label": "Meeker County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 68
+        },
+        {
+          "label": "Black or African American",
+          "value": 37
+        },
+        {
+          "label": "Hispanic",
+          "value": 1005
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 488
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21749
+        }
+      ]
+    },
+    "Mille Lacs County, Minnesota": {
+      "label": "Mille Lacs County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1057
+        },
+        {
+          "label": "Asian",
+          "value": 164
+        },
+        {
+          "label": "Black or African American",
+          "value": 79
+        },
+        {
+          "label": "Hispanic",
+          "value": 582
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 25
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1124
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23762
+        }
+      ]
+    },
+    "Morrison County, Minnesota": {
+      "label": "Morrison County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 37
+        },
+        {
+          "label": "Asian",
+          "value": 118
+        },
+        {
+          "label": "Black or African American",
+          "value": 108
+        },
+        {
+          "label": "Hispanic",
+          "value": 632
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 806
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32322
+        }
+      ]
+    },
+    "Mower County, Minnesota": {
+      "label": "Mower County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 2276
+        },
+        {
+          "label": "Black or African American",
+          "value": 1417
+        },
+        {
+          "label": "Hispanic",
+          "value": 5226
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 170
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1058
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29657
+        }
+      ]
+    },
+    "Murray County, Minnesota": {
+      "label": "Murray County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 90
+        },
+        {
+          "label": "Black or African American",
+          "value": 50
+        },
+        {
+          "label": "Hispanic",
+          "value": 397
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 202
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7275
+        }
+      ]
+    },
+    "Nicollet County, Minnesota": {
+      "label": "Nicollet County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 70
+        },
+        {
+          "label": "Asian",
+          "value": 511
+        },
+        {
+          "label": "Black or African American",
+          "value": 1193
+        },
+        {
+          "label": "Hispanic",
+          "value": 1825
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1140
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29514
+        }
+      ]
+    },
+    "Nobles County, Minnesota": {
+      "label": "Nobles County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 30
+        },
+        {
+          "label": "Asian",
+          "value": 1009
+        },
+        {
+          "label": "Black or African American",
+          "value": 1017
+        },
+        {
+          "label": "Hispanic",
+          "value": 7314
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 928
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11719
+        }
+      ]
+    },
+    "Norman County, Minnesota": {
+      "label": "Norman County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 88
+        },
+        {
+          "label": "Asian",
+          "value": 51
+        },
+        {
+          "label": "Black or African American",
+          "value": 69
+        },
+        {
+          "label": "Hispanic",
+          "value": 334
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 221
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5635
+        }
+      ]
+    },
+    "Olmsted County, Minnesota": {
+      "label": "Olmsted County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 216
+        },
+        {
+          "label": "Asian",
+          "value": 10303
+        },
+        {
+          "label": "Black or African American",
+          "value": 11768
+        },
+        {
+          "label": "Hispanic",
+          "value": 9448
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 116
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6333
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 124638
+        }
+      ]
+    },
+    "Otter Tail County, Minnesota": {
+      "label": "Otter Tail County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 110
+        },
+        {
+          "label": "Asian",
+          "value": 389
+        },
+        {
+          "label": "Black or African American",
+          "value": 589
+        },
+        {
+          "label": "Hispanic",
+          "value": 2260
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 19
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1874
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 54796
+        }
+      ]
+    },
+    "Pennington County, Minnesota": {
+      "label": "Pennington County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 64
+        },
+        {
+          "label": "Asian",
+          "value": 172
+        },
+        {
+          "label": "Black or African American",
+          "value": 161
+        },
+        {
+          "label": "Hispanic",
+          "value": 663
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 463
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12262
+        }
+      ]
+    },
+    "Pine County, Minnesota": {
+      "label": "Pine County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 623
+        },
+        {
+          "label": "Asian",
+          "value": 318
+        },
+        {
+          "label": "Black or African American",
+          "value": 654
+        },
+        {
+          "label": "Hispanic",
+          "value": 786
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1033
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25935
+        }
+      ]
+    },
+    "Pipestone County, Minnesota": {
+      "label": "Pipestone County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 68
+        },
+        {
+          "label": "Asian",
+          "value": 90
+        },
+        {
+          "label": "Black or African American",
+          "value": 90
+        },
+        {
+          "label": "Hispanic",
+          "value": 789
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 401
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7893
+        }
+      ]
+    },
+    "Polk County, Minnesota": {
+      "label": "Polk County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 323
+        },
+        {
+          "label": "Asian",
+          "value": 240
+        },
+        {
+          "label": "Black or African American",
+          "value": 676
+        },
+        {
+          "label": "Hispanic",
+          "value": 2074
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1169
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26175
+        }
+      ]
+    },
+    "Pope County, Minnesota": {
+      "label": "Pope County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 87
+        },
+        {
+          "label": "Black or African American",
+          "value": 69
+        },
+        {
+          "label": "Hispanic",
+          "value": 223
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 237
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10697
+        }
+      ]
+    },
+    "Ramsey County, Minnesota": {
+      "label": "Ramsey County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1843
+        },
+        {
+          "label": "Asian",
+          "value": 81117
+        },
+        {
+          "label": "Black or African American",
+          "value": 65391
+        },
+        {
+          "label": "Hispanic",
+          "value": 44888
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 119
+        },
+        {
+          "label": "Two or More Races",
+          "value": 29362
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 319340
+        }
+      ]
+    },
+    "Red Lake County, Minnesota": {
+      "label": "Red Lake County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 79
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 24
+        },
+        {
+          "label": "Hispanic",
+          "value": 133
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 98
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3575
+        }
+      ]
+    },
+    "Redwood County, Minnesota": {
+      "label": "Redwood County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 561
+        },
+        {
+          "label": "Asian",
+          "value": 396
+        },
+        {
+          "label": "Black or African American",
+          "value": 87
+        },
+        {
+          "label": "Hispanic",
+          "value": 613
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 531
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13146
+        }
+      ]
+    },
+    "Renville County, Minnesota": {
+      "label": "Renville County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 113
+        },
+        {
+          "label": "Asian",
+          "value": 106
+        },
+        {
+          "label": "Black or African American",
+          "value": 124
+        },
+        {
+          "label": "Hispanic",
+          "value": 1414
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 302
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12497
+        }
+      ]
+    },
+    "Rice County, Minnesota": {
+      "label": "Rice County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 165
+        },
+        {
+          "label": "Asian",
+          "value": 1422
+        },
+        {
+          "label": "Black or African American",
+          "value": 4350
+        },
+        {
+          "label": "Hispanic",
+          "value": 6885
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 23
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1735
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 52705
+        }
+      ]
+    },
+    "Rock County, Minnesota": {
+      "label": "Rock County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 51
+        },
+        {
+          "label": "Asian",
+          "value": 59
+        },
+        {
+          "label": "Black or African American",
+          "value": 17
+        },
+        {
+          "label": "Hispanic",
+          "value": 362
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 286
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8853
+        }
+      ]
+    },
+    "Roseau County, Minnesota": {
+      "label": "Roseau County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 175
+        },
+        {
+          "label": "Asian",
+          "value": 418
+        },
+        {
+          "label": "Black or African American",
+          "value": 143
+        },
+        {
+          "label": "Hispanic",
+          "value": 268
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 633
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13628
+        }
+      ]
+    },
+    "Scott County, Minnesota": {
+      "label": "Scott County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 829
+        },
+        {
+          "label": "Asian",
+          "value": 9299
+        },
+        {
+          "label": "Black or African American",
+          "value": 7991
+        },
+        {
+          "label": "Hispanic",
+          "value": 9435
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7642
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 117106
+        }
+      ]
+    },
+    "Sherburne County, Minnesota": {
+      "label": "Sherburne County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 242
+        },
+        {
+          "label": "Asian",
+          "value": 1427
+        },
+        {
+          "label": "Black or African American",
+          "value": 3601
+        },
+        {
+          "label": "Hispanic",
+          "value": 3167
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4079
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 86024
+        }
+      ]
+    },
+    "Sibley County, Minnesota": {
+      "label": "Sibley County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 54
+        },
+        {
+          "label": "Black or African American",
+          "value": 141
+        },
+        {
+          "label": "Hispanic",
+          "value": 1351
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 265
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13065
+        }
+      ]
+    },
+    "St. Louis County, Minnesota": {
+      "label": "St. Louis County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3102
+        },
+        {
+          "label": "Asian",
+          "value": 2080
+        },
+        {
+          "label": "Black or African American",
+          "value": 3173
+        },
+        {
+          "label": "Hispanic",
+          "value": 3767
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 23
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7401
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 179881
+        }
+      ]
+    },
+    "Stearns County, Minnesota": {
+      "label": "Stearns County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 135
+        },
+        {
+          "label": "Asian",
+          "value": 3039
+        },
+        {
+          "label": "Black or African American",
+          "value": 13295
+        },
+        {
+          "label": "Hispanic",
+          "value": 7190
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 58
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5567
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 129814
+        }
+      ]
+    },
+    "Steele County, Minnesota": {
+      "label": "Steele County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 36
+        },
+        {
+          "label": "Asian",
+          "value": 249
+        },
+        {
+          "label": "Black or African American",
+          "value": 1261
+        },
+        {
+          "label": "Hispanic",
+          "value": 3231
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1027
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 31524
+        }
+      ]
+    },
+    "Stevens County, Minnesota": {
+      "label": "Stevens County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 131
+        },
+        {
+          "label": "Asian",
+          "value": 133
+        },
+        {
+          "label": "Black or African American",
+          "value": 150
+        },
+        {
+          "label": "Hispanic",
+          "value": 1039
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 73
+        },
+        {
+          "label": "Two or More Races",
+          "value": 168
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7981
+        }
+      ]
+    },
+    "Swift County, Minnesota": {
+      "label": "Swift County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 34
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 67
+        },
+        {
+          "label": "Hispanic",
+          "value": 671
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 72
+        },
+        {
+          "label": "Two or More Races",
+          "value": 451
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8481
+        }
+      ]
+    },
+    "Todd County, Minnesota": {
+      "label": "Todd County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 58
+        },
+        {
+          "label": "Asian",
+          "value": 113
+        },
+        {
+          "label": "Black or African American",
+          "value": 129
+        },
+        {
+          "label": "Hispanic",
+          "value": 2335
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 55
+        },
+        {
+          "label": "Two or More Races",
+          "value": 954
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21684
+        }
+      ]
+    },
+    "Traverse County, Minnesota": {
+      "label": "Traverse County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 147
+        },
+        {
+          "label": "Asian",
+          "value": 5
+        },
+        {
+          "label": "Black or African American",
+          "value": 16
+        },
+        {
+          "label": "Hispanic",
+          "value": 184
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 128
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2783
+        }
+      ]
+    },
+    "Wabasha County, Minnesota": {
+      "label": "Wabasha County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 42
+        },
+        {
+          "label": "Asian",
+          "value": 125
+        },
+        {
+          "label": "Black or African American",
+          "value": 70
+        },
+        {
+          "label": "Hispanic",
+          "value": 712
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 32
+        },
+        {
+          "label": "Two or More Races",
+          "value": 367
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20149
+        }
+      ]
+    },
+    "Wadena County, Minnesota": {
+      "label": "Wadena County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 24
+        },
+        {
+          "label": "Asian",
+          "value": 67
+        },
+        {
+          "label": "Black or African American",
+          "value": 102
+        },
+        {
+          "label": "Hispanic",
+          "value": 324
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 791
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12825
+        }
+      ]
+    },
+    "Waseca County, Minnesota": {
+      "label": "Waseca County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 157
+        },
+        {
+          "label": "Asian",
+          "value": 166
+        },
+        {
+          "label": "Black or African American",
+          "value": 206
+        },
+        {
+          "label": "Hispanic",
+          "value": 1322
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 464
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16613
+        }
+      ]
+    },
+    "Washington County, Minnesota": {
+      "label": "Washington County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 526
+        },
+        {
+          "label": "Asian",
+          "value": 19835
+        },
+        {
+          "label": "Black or African American",
+          "value": 13088
+        },
+        {
+          "label": "Hispanic",
+          "value": 13798
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 108
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10065
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 213364
+        }
+      ]
+    },
+    "Watonwan County, Minnesota": {
+      "label": "Watonwan County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 38
+        },
+        {
+          "label": "Black or African American",
+          "value": 1
+        },
+        {
+          "label": "Hispanic",
+          "value": 3253
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 101
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7756
+        }
+      ]
+    },
+    "Wilkin County, Minnesota": {
+      "label": "Wilkin County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 13
+        },
+        {
+          "label": "Hispanic",
+          "value": 238
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 195
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5849
+        }
+      ]
+    },
+    "Winona County, Minnesota": {
+      "label": "Winona County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 80
+        },
+        {
+          "label": "Asian",
+          "value": 1188
+        },
+        {
+          "label": "Black or African American",
+          "value": 847
+        },
+        {
+          "label": "Hispanic",
+          "value": 1876
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1160
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 44505
+        }
+      ]
+    },
+    "Wright County, Minnesota": {
+      "label": "Wright County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 271
+        },
+        {
+          "label": "Asian",
+          "value": 2245
+        },
+        {
+          "label": "Black or African American",
+          "value": 2684
+        },
+        {
+          "label": "Hispanic",
+          "value": 5077
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5172
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 129108
+        }
+      ]
+    },
+    "Yellow Medicine County, Minnesota": {
+      "label": "Yellow Medicine County, Minnesota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 234
+        },
+        {
+          "label": "Asian",
+          "value": 22
+        },
+        {
+          "label": "Black or African American",
+          "value": 71
+        },
+        {
+          "label": "Hispanic",
+          "value": 493
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 286
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8389
+        }
+      ]
+    }
+  }
+}

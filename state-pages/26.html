@@ -2,60 +2,78 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Michigan Population Overview</title>
+  <title>State Page</title>
   <style>
     body {
       margin: 2rem;
       font-family: sans-serif;
+      background-color: #f1e7e7;
     }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+      color: #333;
+    }
+
     #wrapper {
       display: flex;
-      gap: 1rem;
+      gap: 1.5rem;
       align-items: flex-start;
     }
+
     iframe {
       border: none;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     }
+
     .map-column {
       width: 60%;
     }
+
     .chart-column {
       width: 40%;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    @media (max-width: 800px) {
+      #wrapper {
+        flex-direction: column;
+      }
+      .map-column, .chart-column {
+        width: 100%;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Michigan – County Map and Population Growth 2000-2023</h1>
-
+  <h1>County Map and Population Growth Overview – 26</h1>
   <div id="wrapper">
     <div class="map-column">
       <iframe
         src="../maps/26_county_map.html"
         title="County Map"
-        style="width: 100%; height: 500px;">
+        style="width: 100%; height: 600px;">
       </iframe>
     </div>
 
     <div class="chart-column">
-      <iframe
-        src="../pop-charts/26_chart.html"
-        title="Population Chart"
-        style="width: 100%; height: 300px;">
-      </iframe>
-
-      <div style="padding-top: 1rem;">
-        <h3>State Notes</h3>
-        <p>Michigan was part of the Northwest Territory established in 1787.  When Indiana Territory was created in 1800 it included the west half of lower Michigan and nearly all of the Upper Peninsula, leaving the remainder of the present State in the Northwest Territory until 1802, when the eastern portion also became part of Indiana Territory.  Michigan Territory was established in 1805, but nearly all the Upper Peninsula remained in Indiana or Illinois Territories. In 1818 Michigan Territory's boundaries were extended to include the rest of the Upper Peninsula and all of present-day Wisconsin and northeastern Minnesota. In 1834 the Territory was expanded still further to stretch to the Missouri River, including the rest of Minnesota, Iowa, and the eastern Dakotas.  Michigan Territory included a northern strip of Indiana until 1816, and it also governed a narrow strip of what is now northwestern Ohio which was claimed by that State. This was ceded to Ohio in 1836, and Michigan was admitted as a State on January 26, 1837 with essentially its present boundaries.</p>
-      </div>
-
-      <div style="padding-top: 1rem;">
-        <h3>Population Rankings by County</h3>
+      <div style="padding: 1rem; background: white;">
         <iframe
-          src="../county_rankings/26_counties.html"
-          title="County Table"
-          style="width: 100%; height: 300px;">
+          src="../pop-charts-new/26_chart.html"
+          title="Population Growth"
+          style="width: 100%; height: 400px; border: none;">
         </iframe>
       </div>
+
+      <iframe
+        src="../maps/growth-rankings2000/rankings26_counties.html"
+        title="County Table"
+        style="width: 100%; height: 400px;">
+      </iframe>
     </div>
   </div>
 </body>

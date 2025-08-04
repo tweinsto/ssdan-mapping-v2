@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 22</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Acadia Parish, Louisiana">Acadia Parish, Louisiana</option>
+<option value="Allen Parish, Louisiana">Allen Parish, Louisiana</option>
+<option value="Ascension Parish, Louisiana">Ascension Parish, Louisiana</option>
+<option value="Assumption Parish, Louisiana">Assumption Parish, Louisiana</option>
+<option value="Avoyelles Parish, Louisiana">Avoyelles Parish, Louisiana</option>
+<option value="Beauregard Parish, Louisiana">Beauregard Parish, Louisiana</option>
+<option value="Bienville Parish, Louisiana">Bienville Parish, Louisiana</option>
+<option value="Bossier Parish, Louisiana">Bossier Parish, Louisiana</option>
+<option value="Caddo Parish, Louisiana">Caddo Parish, Louisiana</option>
+<option value="Calcasieu Parish, Louisiana">Calcasieu Parish, Louisiana</option>
+<option value="Caldwell Parish, Louisiana">Caldwell Parish, Louisiana</option>
+<option value="Cameron Parish, Louisiana">Cameron Parish, Louisiana</option>
+<option value="Catahoula Parish, Louisiana">Catahoula Parish, Louisiana</option>
+<option value="Claiborne Parish, Louisiana">Claiborne Parish, Louisiana</option>
+<option value="Concordia Parish, Louisiana">Concordia Parish, Louisiana</option>
+<option value="De Soto Parish, Louisiana">De Soto Parish, Louisiana</option>
+<option value="East Baton Rouge Parish, Louisiana">East Baton Rouge Parish, Louisiana</option>
+<option value="East Carroll Parish, Louisiana">East Carroll Parish, Louisiana</option>
+<option value="East Feliciana Parish, Louisiana">East Feliciana Parish, Louisiana</option>
+<option value="Evangeline Parish, Louisiana">Evangeline Parish, Louisiana</option>
+<option value="Franklin Parish, Louisiana">Franklin Parish, Louisiana</option>
+<option value="Grant Parish, Louisiana">Grant Parish, Louisiana</option>
+<option value="Iberia Parish, Louisiana">Iberia Parish, Louisiana</option>
+<option value="Iberville Parish, Louisiana">Iberville Parish, Louisiana</option>
+<option value="Jackson Parish, Louisiana">Jackson Parish, Louisiana</option>
+<option value="Jefferson Davis Parish, Louisiana">Jefferson Davis Parish, Louisiana</option>
+<option value="Jefferson Parish, Louisiana">Jefferson Parish, Louisiana</option>
+<option value="Lafayette Parish, Louisiana">Lafayette Parish, Louisiana</option>
+<option value="Lafourche Parish, Louisiana">Lafourche Parish, Louisiana</option>
+<option value="LaSalle Parish, Louisiana">LaSalle Parish, Louisiana</option>
+<option value="Lincoln Parish, Louisiana">Lincoln Parish, Louisiana</option>
+<option value="Livingston Parish, Louisiana">Livingston Parish, Louisiana</option>
+<option value="Madison Parish, Louisiana">Madison Parish, Louisiana</option>
+<option value="Morehouse Parish, Louisiana">Morehouse Parish, Louisiana</option>
+<option value="Natchitoches Parish, Louisiana">Natchitoches Parish, Louisiana</option>
+<option value="Orleans Parish, Louisiana">Orleans Parish, Louisiana</option>
+<option value="Ouachita Parish, Louisiana">Ouachita Parish, Louisiana</option>
+<option value="Plaquemines Parish, Louisiana">Plaquemines Parish, Louisiana</option>
+<option value="Pointe Coupee Parish, Louisiana">Pointe Coupee Parish, Louisiana</option>
+<option value="Rapides Parish, Louisiana">Rapides Parish, Louisiana</option>
+<option value="Red River Parish, Louisiana">Red River Parish, Louisiana</option>
+<option value="Richland Parish, Louisiana">Richland Parish, Louisiana</option>
+<option value="Sabine Parish, Louisiana">Sabine Parish, Louisiana</option>
+<option value="St. Bernard Parish, Louisiana">St. Bernard Parish, Louisiana</option>
+<option value="St. Charles Parish, Louisiana">St. Charles Parish, Louisiana</option>
+<option value="St. Helena Parish, Louisiana">St. Helena Parish, Louisiana</option>
+<option value="St. James Parish, Louisiana">St. James Parish, Louisiana</option>
+<option value="St. John the Baptist Parish, Louisiana">St. John the Baptist Parish, Louisiana</option>
+<option value="St. Landry Parish, Louisiana">St. Landry Parish, Louisiana</option>
+<option value="St. Martin Parish, Louisiana">St. Martin Parish, Louisiana</option>
+<option value="St. Mary Parish, Louisiana">St. Mary Parish, Louisiana</option>
+<option value="St. Tammany Parish, Louisiana">St. Tammany Parish, Louisiana</option>
+<option value="Tangipahoa Parish, Louisiana">Tangipahoa Parish, Louisiana</option>
+<option value="Tensas Parish, Louisiana">Tensas Parish, Louisiana</option>
+<option value="Terrebonne Parish, Louisiana">Terrebonne Parish, Louisiana</option>
+<option value="Union Parish, Louisiana">Union Parish, Louisiana</option>
+<option value="Vermilion Parish, Louisiana">Vermilion Parish, Louisiana</option>
+<option value="Vernon Parish, Louisiana">Vernon Parish, Louisiana</option>
+<option value="Washington Parish, Louisiana">Washington Parish, Louisiana</option>
+<option value="Webster Parish, Louisiana">Webster Parish, Louisiana</option>
+<option value="West Baton Rouge Parish, Louisiana">West Baton Rouge Parish, Louisiana</option>
+<option value="West Carroll Parish, Louisiana">West Carroll Parish, Louisiana</option>
+<option value="West Feliciana Parish, Louisiana">West Feliciana Parish, Louisiana</option>
+<option value="Winn Parish, Louisiana">Winn Parish, Louisiana</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.41,"Asian":1.71,"Black or African American":30.83,"Hispanic":6.95,"Pacific Islander":0.06,"Two or More Races":3.35,"White (non-Hispanic)":56.24},"Acadia Parish, Louisiana":{"American Indian / Alaska Native":0.08,"Asian":0.19,"Black or African American":15.7,"Hispanic":3.15,"Pacific Islander":0,"Two or More Races":4.01,"White (non-Hispanic)":76.8},"Allen Parish, Louisiana":{"American Indian / Alaska Native":1.35,"Asian":0.74,"Black or African American":18.97,"Hispanic":7.99,"Pacific Islander":0,"Two or More Races":6.12,"White (non-Hispanic)":64.6},"Ascension Parish, Louisiana":{"American Indian / Alaska Native":0.14,"Asian":1.02,"Black or African American":22.7,"Hispanic":8.15,"Pacific Islander":0,"Two or More Races":3.31,"White (non-Hispanic)":64.27},"Assumption Parish, Louisiana":{"American Indian / Alaska Native":0.6,"Asian":0.82,"Black or African American":28.61,"Hispanic":4.15,"Pacific Islander":0,"Two or More Races":1.39,"White (non-Hispanic)":64.31},"Avoyelles Parish, Louisiana":{"American Indian / Alaska Native":0.71,"Asian":0.64,"Black or African American":26.54,"Hispanic":3.81,"Pacific Islander":0,"Two or More Races":5.21,"White (non-Hispanic)":63.02},"Beauregard Parish, Louisiana":{"American Indian / Alaska Native":0.16,"Asian":0.67,"Black or African American":10.59,"Hispanic":3.81,"Pacific Islander":0.06,"Two or More Races":4.96,"White (non-Hispanic)":79.12},"Bienville Parish, Louisiana":{"American Indian / Alaska Native":0.22,"Asian":0.03,"Black or African American":41.39,"Hispanic":2,"Pacific Islander":0,"Two or More Races":2.34,"White (non-Hispanic)":53.39},"Bossier Parish, Louisiana":{"American Indian / Alaska Native":0.24,"Asian":1.86,"Black or African American":23.57,"Hispanic":8,"Pacific Islander":0.01,"Two or More Races":3.53,"White (non-Hispanic)":62.52},"Caddo Parish, Louisiana":{"American Indian / Alaska Native":0.22,"Asian":1.18,"Black or African American":48.99,"Hispanic":3.66,"Pacific Islander":0.05,"Two or More Races":3.01,"White (non-Hispanic)":42.66},"Calcasieu Parish, Louisiana":{"American Indian / Alaska Native":0.11,"Asian":1.46,"Black or African American":23.66,"Hispanic":5.18,"Pacific Islander":0.03,"Two or More Races":3.72,"White (non-Hispanic)":65.29},"Caldwell Parish, Louisiana":{"American Indian / Alaska Native":0.02,"Asian":0.1,"Black or African American":18.16,"Hispanic":2.65,"Pacific Islander":0,"Two or More Races":1.45,"White (non-Hispanic)":77.44},"Cameron Parish, Louisiana":{"American Indian / Alaska Native":1.78,"Asian":1.55,"Black or African American":1.21,"Hispanic":0.19,"Pacific Islander":0,"Two or More Races":9.54,"White (non-Hispanic)":85.66},"Catahoula Parish, Louisiana":{"American Indian / Alaska Native":0.11,"Asian":0.14,"Black or African American":34.55,"Hispanic":1.08,"Pacific Islander":0,"Two or More Races":1.27,"White (non-Hispanic)":62.85},"Claiborne Parish, Louisiana":{"American Indian / Alaska Native":0.01,"Asian":0.14,"Black or African American":48.5,"Hispanic":3.36,"Pacific Islander":0.05,"Two or More Races":3.2,"White (non-Hispanic)":44.74},"Concordia Parish, Louisiana":{"American Indian / Alaska Native":0.32,"Asian":0.34,"Black or African American":38.82,"Hispanic":2.54,"Pacific Islander":0,"Two or More Races":1.64,"White (non-Hispanic)":56.31},"De Soto Parish, Louisiana":{"American Indian / Alaska Native":0.57,"Asian":0.23,"Black or African American":34.67,"Hispanic":3.08,"Pacific Islander":0,"Two or More Races":2.13,"White (non-Hispanic)":59.19},"East Baton Rouge Parish, Louisiana":{"American Indian / Alaska Native":0.11,"Asian":3.14,"Black or African American":44.07,"Hispanic":6.59,"Pacific Islander":0.02,"Two or More Races":3.52,"White (non-Hispanic)":42},"East Carroll Parish, Louisiana":{"American Indian / Alaska Native":0.69,"Asian":0,"Black or African American":64.09,"Hispanic":2,"Pacific Islander":0,"Two or More Races":3.84,"White (non-Hispanic)":29.03},"East Feliciana Parish, Louisiana":{"American Indian / Alaska Native":0.66,"Asian":0.23,"Black or African American":39.91,"Hispanic":1.96,"Pacific Islander":0,"Two or More Races":3.04,"White (non-Hispanic)":54.2},"Evangeline Parish, Louisiana":{"American Indian / Alaska Native":0.18,"Asian":0.38,"Black or African American":25.67,"Hispanic":4.44,"Pacific Islander":0.07,"Two or More Races":3.29,"White (non-Hispanic)":64.46},"Franklin Parish, Louisiana":{"American Indian / Alaska Native":0.03,"Asian":0.37,"Black or African American":28.68,"Hispanic":1.63,"Pacific Islander":0,"Two or More Races":3.89,"White (non-Hispanic)":65.4},"Grant Parish, Louisiana":{"American Indian / Alaska Native":0.86,"Asian":0.65,"Black or African American":14.46,"Hispanic":6.04,"Pacific Islander":0,"Two or More Races":3.56,"White (non-Hispanic)":74.31},"Iberia Parish, Louisiana":{"American Indian / Alaska Native":0.3,"Asian":2.62,"Black or African American":30.46,"Hispanic":5.51,"Pacific Islander":0,"Two or More Races":3.94,"White (non-Hispanic)":56.72},"Iberville Parish, Louisiana":{"American Indian / Alaska Native":0.18,"Asian":0.04,"Black or African American":45.17,"Hispanic":4.81,"Pacific Islander":0.1,"Two or More Races":2.74,"White (non-Hispanic)":46.17},"Jackson Parish, Louisiana":{"American Indian / Alaska Native":0.48,"Asian":0.11,"Black or African American":25.52,"Hispanic":3.25,"Pacific Islander":0.07,"Two or More Races":3.13,"White (non-Hispanic)":66.34},"Jefferson Davis Parish, Louisiana":{"American Indian / Alaska Native":0.21,"Asian":0.21,"Black or African American":14.68,"Hispanic":2.44,"Pacific Islander":0,"Two or More Races":5.17,"White (non-Hispanic)":77.01},"Jefferson Parish, Louisiana":{"American Indian / Alaska Native":0.14,"Asian":4.15,"Black or African American":25.56,"Hispanic":18.17,"Pacific Islander":0.02,"Two or More Races":3.19,"White (non-Hispanic)":48.14},"Lafayette Parish, Louisiana":{"American Indian / Alaska Native":0.1,"Asian":1.87,"Black or African American":25.3,"Hispanic":6.47,"Pacific Islander":0.05,"Two or More Races":3.33,"White (non-Hispanic)":62.45},"Lafourche Parish, Louisiana":{"American Indian / Alaska Native":2.18,"Asian":0.69,"Black or African American":13.06,"Hispanic":5.75,"Pacific Islander":0,"Two or More Races":3.28,"White (non-Hispanic)":74.84},"LaSalle Parish, Louisiana":{"American Indian / Alaska Native":0,"Asian":1.19,"Black or African American":11.35,"Hispanic":8.88,"Pacific Islander":0.41,"Two or More Races":3.13,"White (non-Hispanic)":75.03},"Lincoln Parish, Louisiana":{"American Indian / Alaska Native":0.77,"Asian":1.3,"Black or African American":36.93,"Hispanic":3.64,"Pacific Islander":0.09,"Two or More Races":3.89,"White (non-Hispanic)":52.46},"Livingston Parish, Louisiana":{"American Indian / Alaska Native":0.11,"Asian":0.73,"Black or African American":8.21,"Hispanic":6.25,"Pacific Islander":0,"Two or More Races":2.54,"White (non-Hispanic)":81.91},"Madison Parish, Louisiana":{"American Indian / Alaska Native":0.26,"Asian":0,"Black or African American":62.64,"Hispanic":2.45,"Pacific Islander":0,"Two or More Races":1.24,"White (non-Hispanic)":33.41},"Morehouse Parish, Louisiana":{"American Indian / Alaska Native":0.06,"Asian":0.53,"Black or African American":48.1,"Hispanic":1.62,"Pacific Islander":0.18,"Two or More Races":1.7,"White (non-Hispanic)":47.5},"Natchitoches Parish, Louisiana":{"American Indian / Alaska Native":0.91,"Asian":0.62,"Black or African American":39.53,"Hispanic":3.87,"Pacific Islander":0,"Two or More Races":3.6,"White (non-Hispanic)":50.29},"Orleans Parish, Louisiana":{"American Indian / Alaska Native":0.13,"Asian":2.77,"Black or African American":54.7,"Hispanic":7.94,"Pacific Islander":0.01,"Two or More Races":3.53,"White (non-Hispanic)":30.09},"Ouachita Parish, Louisiana":{"American Indian / Alaska Native":0.11,"Asian":1.04,"Black or African American":37.01,"Hispanic":3.57,"Pacific Islander":0.01,"Two or More Races":2.26,"White (non-Hispanic)":55.63},"Plaquemines Parish, Louisiana":{"American Indian / Alaska Native":1.1,"Asian":4.02,"Black or African American":20.9,"Hispanic":9.51,"Pacific Islander":0,"Two or More Races":4.09,"White (non-Hispanic)":60.23},"Pointe Coupee Parish, Louisiana":{"American Indian / Alaska Native":0.2,"Asian":0.24,"Black or African American":32.31,"Hispanic":3.31,"Pacific Islander":0,"Two or More Races":4.27,"White (non-Hispanic)":59.65},"Rapides Parish, Louisiana":{"American Indian / Alaska Native":0.43,"Asian":1.3,"Black or African American":30.99,"Hispanic":4.03,"Pacific Islander":0.01,"Two or More Races":3.2,"White (non-Hispanic)":59.74},"Red River Parish, Louisiana":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":40.2,"Hispanic":1.77,"Pacific Islander":0,"Two or More Races":2.4,"White (non-Hispanic)":55.6},"Richland Parish, Louisiana":{"American Indian / Alaska Native":0.08,"Asian":0,"Black or African American":36.02,"Hispanic":2.18,"Pacific Islander":0,"Two or More Races":1.48,"White (non-Hispanic)":60.25},"Sabine Parish, Louisiana":{"American Indian / Alaska Native":6.12,"Asian":0.4,"Black or African American":14.29,"Hispanic":3.45,"Pacific Islander":0,"Two or More Races":8.47,"White (non-Hispanic)":66.65},"St. Bernard Parish, Louisiana":{"American Indian / Alaska Native":0.57,"Asian":2.13,"Black or African American":23.53,"Hispanic":13.56,"Pacific Islander":0.05,"Two or More Races":3.44,"White (non-Hispanic)":56.71},"St. Charles Parish, Louisiana":{"American Indian / Alaska Native":1.06,"Asian":0.83,"Black or African American":22.81,"Hispanic":7.97,"Pacific Islander":0.01,"Two or More Races":3.75,"White (non-Hispanic)":62.83},"St. Helena Parish, Louisiana":{"American Indian / Alaska Native":0.72,"Asian":0.4,"Black or African American":50.16,"Hispanic":2.26,"Pacific Islander":0,"Two or More Races":2.06,"White (non-Hispanic)":44.4},"St. James Parish, Louisiana":{"American Indian / Alaska Native":0,"Asian":0.03,"Black or African American":48.35,"Hispanic":1.88,"Pacific Islander":0,"Two or More Races":0.62,"White (non-Hispanic)":49.12},"St. John the Baptist Parish, Louisiana":{"American Indian / Alaska Native":0.12,"Asian":1.14,"Black or African American":55.94,"Hispanic":8.34,"Pacific Islander":0,"Two or More Races":2.97,"White (non-Hispanic)":30.27},"St. Landry Parish, Louisiana":{"American Indian / Alaska Native":0.13,"Asian":0.56,"Black or African American":39.95,"Hispanic":2.85,"Pacific Islander":0.26,"Two or More Races":2.96,"White (non-Hispanic)":53.06},"St. Martin Parish, Louisiana":{"American Indian / Alaska Native":0.17,"Asian":0.92,"Black or African American":28.57,"Hispanic":3.39,"Pacific Islander":0.1,"Two or More Races":2.96,"White (non-Hispanic)":63.71},"St. Mary Parish, Louisiana":{"American Indian / Alaska Native":1.55,"Asian":1.31,"Black or African American":28.88,"Hispanic":9.36,"Pacific Islander":0.02,"Two or More Races":4.67,"White (non-Hispanic)":53.94},"St. Tammany Parish, Louisiana":{"American Indian / Alaska Native":0.22,"Asian":1.26,"Black or African American":12.01,"Hispanic":7.93,"Pacific Islander":0.32,"Two or More Races":4.11,"White (non-Hispanic)":73.34},"Tangipahoa Parish, Louisiana":{"American Indian / Alaska Native":0.06,"Asian":0.75,"Black or African American":29.61,"Hispanic":5.55,"Pacific Islander":0.04,"Two or More Races":2.84,"White (non-Hispanic)":60.88},"Tensas Parish, Louisiana":{"American Indian / Alaska Native":0,"Asian":0.65,"Black or African American":53.31,"Hispanic":2.76,"Pacific Islander":0,"Two or More Races":1.93,"White (non-Hispanic)":41.36},"Terrebonne Parish, Louisiana":{"American Indian / Alaska Native":4.73,"Asian":1.18,"Black or African American":18.98,"Hispanic":6.86,"Pacific Islander":0.01,"Two or More Races":3.74,"White (non-Hispanic)":64.22},"Union Parish, Louisiana":{"American Indian / Alaska Native":0.08,"Asian":0.03,"Black or African American":23.56,"Hispanic":5.6,"Pacific Islander":0.02,"Two or More Races":1.61,"White (non-Hispanic)":69.09},"Vermilion Parish, Louisiana":{"American Indian / Alaska Native":0.16,"Asian":1.99,"Black or African American":12.96,"Hispanic":4.17,"Pacific Islander":0.46,"Two or More Races":3.23,"White (non-Hispanic)":76.82},"Vernon Parish, Louisiana":{"American Indian / Alaska Native":0.77,"Asian":1.66,"Black or African American":13.01,"Hispanic":9.17,"Pacific Islander":0.38,"Two or More Races":4.6,"White (non-Hispanic)":70.14},"Washington Parish, Louisiana":{"American Indian / Alaska Native":0.16,"Asian":0.08,"Black or African American":29.65,"Hispanic":3.15,"Pacific Islander":0,"Two or More Races":3.01,"White (non-Hispanic)":63.58},"Webster Parish, Louisiana":{"American Indian / Alaska Native":0.32,"Asian":0.31,"Black or African American":33.35,"Hispanic":2.16,"Pacific Islander":0.09,"Two or More Races":2.03,"White (non-Hispanic)":61.68},"West Baton Rouge Parish, Louisiana":{"American Indian / Alaska Native":0,"Asian":0.45,"Black or African American":40.43,"Hispanic":4.46,"Pacific Islander":0,"Two or More Races":1.6,"White (non-Hispanic)":53},"West Carroll Parish, Louisiana":{"American Indian / Alaska Native":0.1,"Asian":0.01,"Black or African American":15.4,"Hispanic":3.63,"Pacific Islander":0.12,"Two or More Races":0.81,"White (non-Hispanic)":79.71},"West Feliciana Parish, Louisiana":{"American Indian / Alaska Native":0.5,"Asian":0.36,"Black or African American":45.43,"Hispanic":1.44,"Pacific Islander":0,"Two or More Races":1.51,"White (non-Hispanic)":50.35},"Winn Parish, Louisiana":{"American Indian / Alaska Native":0.22,"Asian":1.16,"Black or African American":28.47,"Hispanic":7.25,"Pacific Islander":0,"Two or More Races":1.45,"White (non-Hispanic)":61.24}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

@@ -1,0 +1,731 @@
+{
+  "state": "Atlantic County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6790
+        },
+        {
+          "label": "Asian",
+          "value": 910968
+        },
+        {
+          "label": "Black or African American",
+          "value": 1138893
+        },
+        {
+          "label": "Hispanic",
+          "value": 2032968
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1955
+        },
+        {
+          "label": "Two or More Races",
+          "value": 292539
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4813341
+        }
+      ]
+    },
+    "Atlantic County, New Jersey": {
+      "label": "Atlantic County, New Jersey",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 244
+        },
+        {
+          "label": "Asian",
+          "value": 21268
+        },
+        {
+          "label": "Black or African American",
+          "value": 36256
+        },
+        {
+          "label": "Hispanic",
+          "value": 54686
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 137
+        },
+        {
+          "label": "Two or More Races",
+          "value": 11044
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 149802
+        }
+      ]
+    },
+    "Bergen County, New Jersey": {
+      "label": "Bergen County, New Jersey",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 868
+        },
+        {
+          "label": "Asian",
+          "value": 158311
+        },
+        {
+          "label": "Black or African American",
+          "value": 50548
+        },
+        {
+          "label": "Hispanic",
+          "value": 211044
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 206
+        },
+        {
+          "label": "Two or More Races",
+          "value": 25853
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 501031
+        }
+      ]
+    },
+    "Burlington County, New Jersey": {
+      "label": "Burlington County, New Jersey",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 122
+        },
+        {
+          "label": "Asian",
+          "value": 25819
+        },
+        {
+          "label": "Black or African American",
+          "value": 73455
+        },
+        {
+          "label": "Hispanic",
+          "value": 42820
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 25
+        },
+        {
+          "label": "Two or More Races",
+          "value": 23175
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 295500
+        }
+      ]
+    },
+    "Camden County, New Jersey": {
+      "label": "Camden County, New Jersey",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 183
+        },
+        {
+          "label": "Asian",
+          "value": 30309
+        },
+        {
+          "label": "Black or African American",
+          "value": 92876
+        },
+        {
+          "label": "Hispanic",
+          "value": 97957
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 92
+        },
+        {
+          "label": "Two or More Races",
+          "value": 18926
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 280083
+        }
+      ]
+    },
+    "Cape May County, New Jersey": {
+      "label": "Cape May County, New Jersey",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 25
+        },
+        {
+          "label": "Asian",
+          "value": 623
+        },
+        {
+          "label": "Black or African American",
+          "value": 2951
+        },
+        {
+          "label": "Hispanic",
+          "value": 7676
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3309
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 80399
+        }
+      ]
+    },
+    "Cumberland County, New Jersey": {
+      "label": "Cumberland County, New Jersey",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 801
+        },
+        {
+          "label": "Asian",
+          "value": 2054
+        },
+        {
+          "label": "Black or African American",
+          "value": 26092
+        },
+        {
+          "label": "Hispanic",
+          "value": 53457
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 15
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5177
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 64068
+        }
+      ]
+    },
+    "Essex County, New Jersey": {
+      "label": "Essex County, New Jersey",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1224
+        },
+        {
+          "label": "Asian",
+          "value": 48998
+        },
+        {
+          "label": "Black or African American",
+          "value": 307823
+        },
+        {
+          "label": "Hispanic",
+          "value": 210724
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 192
+        },
+        {
+          "label": "Two or More Races",
+          "value": 34568
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 238415
+        }
+      ]
+    },
+    "Gloucester County, New Jersey": {
+      "label": "Gloucester County, New Jersey",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 88
+        },
+        {
+          "label": "Asian",
+          "value": 9249
+        },
+        {
+          "label": "Black or African American",
+          "value": 30792
+        },
+        {
+          "label": "Hispanic",
+          "value": 23885
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 142
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10037
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 228951
+        }
+      ]
+    },
+    "Hudson County, New Jersey": {
+      "label": "Hudson County, New Jersey",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 975
+        },
+        {
+          "label": "Asian",
+          "value": 115819
+        },
+        {
+          "label": "Black or African American",
+          "value": 76501
+        },
+        {
+          "label": "Hispanic",
+          "value": 289220
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 129
+        },
+        {
+          "label": "Two or More Races",
+          "value": 22116
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 199498
+        }
+      ]
+    },
+    "Hunterdon County, New Jersey": {
+      "label": "Hunterdon County, New Jersey",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 24
+        },
+        {
+          "label": "Asian",
+          "value": 5750
+        },
+        {
+          "label": "Black or African American",
+          "value": 3083
+        },
+        {
+          "label": "Hispanic",
+          "value": 11451
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 38
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3595
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 104980
+        }
+      ]
+    },
+    "Mercer County, New Jersey": {
+      "label": "Mercer County, New Jersey",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 308
+        },
+        {
+          "label": "Asian",
+          "value": 45914
+        },
+        {
+          "label": "Black or African American",
+          "value": 70288
+        },
+        {
+          "label": "Hispanic",
+          "value": 85269
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 65
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10807
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 169549
+        }
+      ]
+    },
+    "Middlesex County, New Jersey": {
+      "label": "Middlesex County, New Jersey",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 596
+        },
+        {
+          "label": "Asian",
+          "value": 215014
+        },
+        {
+          "label": "Black or African American",
+          "value": 82833
+        },
+        {
+          "label": "Hispanic",
+          "value": 198174
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 249
+        },
+        {
+          "label": "Two or More Races",
+          "value": 24645
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 333972
+        }
+      ]
+    },
+    "Monmouth County, New Jersey": {
+      "label": "Monmouth County, New Jersey",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 110
+        },
+        {
+          "label": "Asian",
+          "value": 33844
+        },
+        {
+          "label": "Black or African American",
+          "value": 37706
+        },
+        {
+          "label": "Hispanic",
+          "value": 81564
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 249
+        },
+        {
+          "label": "Two or More Races",
+          "value": 21178
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 464290
+        }
+      ]
+    },
+    "Morris County, New Jersey": {
+      "label": "Morris County, New Jersey",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 177
+        },
+        {
+          "label": "Asian",
+          "value": 54003
+        },
+        {
+          "label": "Black or African American",
+          "value": 15264
+        },
+        {
+          "label": "Hispanic",
+          "value": 78992
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 16969
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 341684
+        }
+      ]
+    },
+    "Ocean County, New Jersey": {
+      "label": "Ocean County, New Jersey",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 123
+        },
+        {
+          "label": "Asian",
+          "value": 11926
+        },
+        {
+          "label": "Black or African American",
+          "value": 18551
+        },
+        {
+          "label": "Hispanic",
+          "value": 68729
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 122
+        },
+        {
+          "label": "Two or More Races",
+          "value": 14842
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 528799
+        }
+      ]
+    },
+    "Passaic County, New Jersey": {
+      "label": "Passaic County, New Jersey",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 316
+        },
+        {
+          "label": "Asian",
+          "value": 27940
+        },
+        {
+          "label": "Black or African American",
+          "value": 51612
+        },
+        {
+          "label": "Hispanic",
+          "value": 225149
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 114
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9142
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 201527
+        }
+      ]
+    },
+    "Salem County, New Jersey": {
+      "label": "Salem County, New Jersey",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 35
+        },
+        {
+          "label": "Asian",
+          "value": 588
+        },
+        {
+          "label": "Black or African American",
+          "value": 8628
+        },
+        {
+          "label": "Hispanic",
+          "value": 6975
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 89
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2308
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 46141
+        }
+      ]
+    },
+    "Somerset County, New Jersey": {
+      "label": "Somerset County, New Jersey",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 203
+        },
+        {
+          "label": "Asian",
+          "value": 66017
+        },
+        {
+          "label": "Black or African American",
+          "value": 32114
+        },
+        {
+          "label": "Hispanic",
+          "value": 59019
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 33
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10844
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 175148
+        }
+      ]
+    },
+    "Sussex County, New Jersey": {
+      "label": "Sussex County, New Jersey",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 2704
+        },
+        {
+          "label": "Black or African American",
+          "value": 3292
+        },
+        {
+          "label": "Hispanic",
+          "value": 16039
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4805
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 117519
+        }
+      ]
+    },
+    "Union County, New Jersey": {
+      "label": "Union County, New Jersey",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 256
+        },
+        {
+          "label": "Asian",
+          "value": 31556
+        },
+        {
+          "label": "Black or African American",
+          "value": 112379
+        },
+        {
+          "label": "Hispanic",
+          "value": 196795
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 29
+        },
+        {
+          "label": "Two or More Races",
+          "value": 15978
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 207815
+        }
+      ]
+    },
+    "Warren County, New Jersey": {
+      "label": "Warren County, New Jersey",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 89
+        },
+        {
+          "label": "Asian",
+          "value": 3262
+        },
+        {
+          "label": "Black or African American",
+          "value": 5849
+        },
+        {
+          "label": "Hispanic",
+          "value": 13343
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 21
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3221
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 84170
+        }
+      ]
+    }
+  }
+}

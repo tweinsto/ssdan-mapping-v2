@@ -1,0 +1,2249 @@
+{
+  "state": "Autauga County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12974
+        },
+        {
+          "label": "Asian",
+          "value": 71020
+        },
+        {
+          "label": "Black or African American",
+          "value": 1310256
+        },
+        {
+          "label": "Hispanic",
+          "value": 271640
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1727
+        },
+        {
+          "label": "Two or More Races",
+          "value": 145451
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3225652
+        }
+      ]
+    },
+    "Autauga County, Alabama": {
+      "label": "Autauga County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 42
+        },
+        {
+          "label": "Asian",
+          "value": 599
+        },
+        {
+          "label": "Black or African American",
+          "value": 11829
+        },
+        {
+          "label": "Hispanic",
+          "value": 2188
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1912
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 42497
+        }
+      ]
+    },
+    "Baldwin County, Alabama": {
+      "label": "Baldwin County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 608
+        },
+        {
+          "label": "Asian",
+          "value": 2259
+        },
+        {
+          "label": "Black or African American",
+          "value": 19051
+        },
+        {
+          "label": "Hispanic",
+          "value": 13393
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 78
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8248
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 195347
+        }
+      ]
+    },
+    "Barbour County, Alabama": {
+      "label": "Barbour County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 34
+        },
+        {
+          "label": "Asian",
+          "value": 136
+        },
+        {
+          "label": "Black or African American",
+          "value": 11611
+        },
+        {
+          "label": "Hispanic",
+          "value": 1490
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 381
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10807
+        }
+      ]
+    },
+    "Bibb County, Alabama": {
+      "label": "Bibb County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 24
+        },
+        {
+          "label": "Asian",
+          "value": 51
+        },
+        {
+          "label": "Black or African American",
+          "value": 4585
+        },
+        {
+          "label": "Hispanic",
+          "value": 744
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 395
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16333
+        }
+      ]
+    },
+    "Blount County, Alabama": {
+      "label": "Blount County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 60
+        },
+        {
+          "label": "Asian",
+          "value": 51
+        },
+        {
+          "label": "Black or African American",
+          "value": 747
+        },
+        {
+          "label": "Hispanic",
+          "value": 5962
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 88
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1876
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 50374
+        }
+      ]
+    },
+    "Bullock County, Alabama": {
+      "label": "Bullock County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 47
+        },
+        {
+          "label": "Black or African American",
+          "value": 7234
+        },
+        {
+          "label": "Hispanic",
+          "value": 577
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 156
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2143
+        }
+      ]
+    },
+    "Butler County, Alabama": {
+      "label": "Butler County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 69
+        },
+        {
+          "label": "Asian",
+          "value": 249
+        },
+        {
+          "label": "Black or African American",
+          "value": 8411
+        },
+        {
+          "label": "Hispanic",
+          "value": 300
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 239
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9531
+        }
+      ]
+    },
+    "Calhoun County, Alabama": {
+      "label": "Calhoun County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 188
+        },
+        {
+          "label": "Asian",
+          "value": 858
+        },
+        {
+          "label": "Black or African American",
+          "value": 25029
+        },
+        {
+          "label": "Hispanic",
+          "value": 5150
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 198
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3176
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 81098
+        }
+      ]
+    },
+    "Chambers County, Alabama": {
+      "label": "Chambers County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 201
+        },
+        {
+          "label": "Black or African American",
+          "value": 13684
+        },
+        {
+          "label": "Hispanic",
+          "value": 1270
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 616
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18575
+        }
+      ]
+    },
+    "Cherokee County, Alabama": {
+      "label": "Cherokee County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 95
+        },
+        {
+          "label": "Asian",
+          "value": 33
+        },
+        {
+          "label": "Black or African American",
+          "value": 942
+        },
+        {
+          "label": "Hispanic",
+          "value": 437
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 816
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22884
+        }
+      ]
+    },
+    "Chilton County, Alabama": {
+      "label": "Chilton County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 222
+        },
+        {
+          "label": "Black or African American",
+          "value": 4165
+        },
+        {
+          "label": "Hispanic",
+          "value": 4489
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 16
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1065
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 35082
+        }
+      ]
+    },
+    "Choctaw County, Alabama": {
+      "label": "Choctaw County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 22
+        },
+        {
+          "label": "Black or African American",
+          "value": 4777
+        },
+        {
+          "label": "Hispanic",
+          "value": 136
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 491
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7084
+        }
+      ]
+    },
+    "Clarke County, Alabama": {
+      "label": "Clarke County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 71
+        },
+        {
+          "label": "Black or African American",
+          "value": 10340
+        },
+        {
+          "label": "Hispanic",
+          "value": 261
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 285
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11674
+        }
+      ]
+    },
+    "Clay County, Alabama": {
+      "label": "Clay County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 47
+        },
+        {
+          "label": "Black or African American",
+          "value": 1840
+        },
+        {
+          "label": "Hispanic",
+          "value": 451
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 548
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11256
+        }
+      ]
+    },
+    "Cleburne County, Alabama": {
+      "label": "Cleburne County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 27
+        },
+        {
+          "label": "Asian",
+          "value": 16
+        },
+        {
+          "label": "Black or African American",
+          "value": 598
+        },
+        {
+          "label": "Hispanic",
+          "value": 306
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 148
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14117
+        }
+      ]
+    },
+    "Coffee County, Alabama": {
+      "label": "Coffee County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 223
+        },
+        {
+          "label": "Asian",
+          "value": 504
+        },
+        {
+          "label": "Black or African American",
+          "value": 8623
+        },
+        {
+          "label": "Hispanic",
+          "value": 5096
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 49
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2813
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 36827
+        }
+      ]
+    },
+    "Colbert County, Alabama": {
+      "label": "Colbert County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 85
+        },
+        {
+          "label": "Asian",
+          "value": 229
+        },
+        {
+          "label": "Black or African American",
+          "value": 9103
+        },
+        {
+          "label": "Hispanic",
+          "value": 1890
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 19
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1573
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 44648
+        }
+      ]
+    },
+    "Conecuh County, Alabama": {
+      "label": "Conecuh County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 27
+        },
+        {
+          "label": "Black or African American",
+          "value": 5182
+        },
+        {
+          "label": "Hispanic",
+          "value": 101
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 358
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5713
+        }
+      ]
+    },
+    "Coosa County, Alabama": {
+      "label": "Coosa County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 3065
+        },
+        {
+          "label": "Hispanic",
+          "value": 245
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 270
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6640
+        }
+      ]
+    },
+    "Covington County, Alabama": {
+      "label": "Covington County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 70
+        },
+        {
+          "label": "Asian",
+          "value": 151
+        },
+        {
+          "label": "Black or African American",
+          "value": 4413
+        },
+        {
+          "label": "Hispanic",
+          "value": 727
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1144
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 31061
+        }
+      ]
+    },
+    "Crenshaw County, Alabama": {
+      "label": "Crenshaw County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 133
+        },
+        {
+          "label": "Black or African American",
+          "value": 3061
+        },
+        {
+          "label": "Hispanic",
+          "value": 236
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 458
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9218
+        }
+      ]
+    },
+    "Cullman County, Alabama": {
+      "label": "Cullman County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 189
+        },
+        {
+          "label": "Asian",
+          "value": 499
+        },
+        {
+          "label": "Black or African American",
+          "value": 957
+        },
+        {
+          "label": "Hispanic",
+          "value": 4346
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 19
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2681
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 80673
+        }
+      ]
+    },
+    "Dale County, Alabama": {
+      "label": "Dale County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 140
+        },
+        {
+          "label": "Asian",
+          "value": 642
+        },
+        {
+          "label": "Black or African American",
+          "value": 10266
+        },
+        {
+          "label": "Hispanic",
+          "value": 3431
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1939
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32948
+        }
+      ]
+    },
+    "Dallas County, Alabama": {
+      "label": "Dallas County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 93
+        },
+        {
+          "label": "Asian",
+          "value": 226
+        },
+        {
+          "label": "Black or African American",
+          "value": 26389
+        },
+        {
+          "label": "Hispanic",
+          "value": 340
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 393
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10073
+        }
+      ]
+    },
+    "DeKalb County, Alabama": {
+      "label": "DeKalb County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 258
+        },
+        {
+          "label": "Asian",
+          "value": 139
+        },
+        {
+          "label": "Black or African American",
+          "value": 923
+        },
+        {
+          "label": "Hispanic",
+          "value": 11987
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 45
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2341
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 55856
+        }
+      ]
+    },
+    "Elmore County, Alabama": {
+      "label": "Elmore County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 174
+        },
+        {
+          "label": "Asian",
+          "value": 604
+        },
+        {
+          "label": "Black or African American",
+          "value": 18627
+        },
+        {
+          "label": "Hispanic",
+          "value": 2917
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2353
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 63908
+        }
+      ]
+    },
+    "Escambia County, Alabama": {
+      "label": "Escambia County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1085
+        },
+        {
+          "label": "Asian",
+          "value": 108
+        },
+        {
+          "label": "Black or African American",
+          "value": 11198
+        },
+        {
+          "label": "Hispanic",
+          "value": 835
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1270
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22109
+        }
+      ]
+    },
+    "Etowah County, Alabama": {
+      "label": "Etowah County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 115
+        },
+        {
+          "label": "Asian",
+          "value": 702
+        },
+        {
+          "label": "Black or African American",
+          "value": 15487
+        },
+        {
+          "label": "Hispanic",
+          "value": 5134
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 14
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2543
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 78922
+        }
+      ]
+    },
+    "Fayette County, Alabama": {
+      "label": "Fayette County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 1983
+        },
+        {
+          "label": "Hispanic",
+          "value": 184
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 24
+        },
+        {
+          "label": "Two or More Races",
+          "value": 424
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13478
+        }
+      ]
+    },
+    "Franklin County, Alabama": {
+      "label": "Franklin County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 37
+        },
+        {
+          "label": "Black or African American",
+          "value": 1287
+        },
+        {
+          "label": "Hispanic",
+          "value": 6341
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 772
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23424
+        }
+      ]
+    },
+    "Geneva County, Alabama": {
+      "label": "Geneva County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 51
+        },
+        {
+          "label": "Asian",
+          "value": 166
+        },
+        {
+          "label": "Black or African American",
+          "value": 2252
+        },
+        {
+          "label": "Hispanic",
+          "value": 1353
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 951
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21605
+        }
+      ]
+    },
+    "Greene County, Alabama": {
+      "label": "Greene County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 6183
+        },
+        {
+          "label": "Hispanic",
+          "value": 57
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1338
+        }
+      ]
+    },
+    "Hale County, Alabama": {
+      "label": "Hale County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 39
+        },
+        {
+          "label": "Asian",
+          "value": 8
+        },
+        {
+          "label": "Black or African American",
+          "value": 8225
+        },
+        {
+          "label": "Hispanic",
+          "value": 129
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 682
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5666
+        }
+      ]
+    },
+    "Henry County, Alabama": {
+      "label": "Henry County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 64
+        },
+        {
+          "label": "Asian",
+          "value": 102
+        },
+        {
+          "label": "Black or African American",
+          "value": 4369
+        },
+        {
+          "label": "Hispanic",
+          "value": 374
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 296
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12236
+        }
+      ]
+    },
+    "Houston County, Alabama": {
+      "label": "Houston County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 210
+        },
+        {
+          "label": "Asian",
+          "value": 1057
+        },
+        {
+          "label": "Black or African American",
+          "value": 29163
+        },
+        {
+          "label": "Hispanic",
+          "value": 4680
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 26
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3226
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 68699
+        }
+      ]
+    },
+    "Jackson County, Alabama": {
+      "label": "Jackson County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 302
+        },
+        {
+          "label": "Asian",
+          "value": 173
+        },
+        {
+          "label": "Black or African American",
+          "value": 1589
+        },
+        {
+          "label": "Hispanic",
+          "value": 1777
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 25
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2105
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 46787
+        }
+      ]
+    },
+    "Jefferson County, Alabama": {
+      "label": "Jefferson County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 469
+        },
+        {
+          "label": "Asian",
+          "value": 12148
+        },
+        {
+          "label": "Black or African American",
+          "value": 283468
+        },
+        {
+          "label": "Hispanic",
+          "value": 35103
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 144
+        },
+        {
+          "label": "Two or More Races",
+          "value": 14428
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 321127
+        }
+      ]
+    },
+    "Lamar County, Alabama": {
+      "label": "Lamar County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 51
+        },
+        {
+          "label": "Asian",
+          "value": 20
+        },
+        {
+          "label": "Black or African American",
+          "value": 1275
+        },
+        {
+          "label": "Hispanic",
+          "value": 255
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 331
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11857
+        }
+      ]
+    },
+    "Lauderdale County, Alabama": {
+      "label": "Lauderdale County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 168
+        },
+        {
+          "label": "Asian",
+          "value": 577
+        },
+        {
+          "label": "Black or African American",
+          "value": 9058
+        },
+        {
+          "label": "Hispanic",
+          "value": 3163
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 15
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3155
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 78618
+        }
+      ]
+    },
+    "Lawrence County, Alabama": {
+      "label": "Lawrence County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1339
+        },
+        {
+          "label": "Asian",
+          "value": 145
+        },
+        {
+          "label": "Black or African American",
+          "value": 3292
+        },
+        {
+          "label": "Hispanic",
+          "value": 953
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2348
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25064
+        }
+      ]
+    },
+    "Lee County, Alabama": {
+      "label": "Lee County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 130
+        },
+        {
+          "label": "Asian",
+          "value": 7495
+        },
+        {
+          "label": "Black or African American",
+          "value": 38972
+        },
+        {
+          "label": "Hispanic",
+          "value": 9335
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 64
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3948
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 117016
+        }
+      ]
+    },
+    "Limestone County, Alabama": {
+      "label": "Limestone County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 340
+        },
+        {
+          "label": "Asian",
+          "value": 1919
+        },
+        {
+          "label": "Black or African American",
+          "value": 13543
+        },
+        {
+          "label": "Hispanic",
+          "value": 7785
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 44
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4715
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 79087
+        }
+      ]
+    },
+    "Lowndes County, Alabama": {
+      "label": "Lowndes County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 7447
+        },
+        {
+          "label": "Hispanic",
+          "value": 27
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 85
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2449
+        }
+      ]
+    },
+    "Macon County, Alabama": {
+      "label": "Macon County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 50
+        },
+        {
+          "label": "Black or African American",
+          "value": 14812
+        },
+        {
+          "label": "Hispanic",
+          "value": 372
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 525
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3164
+        }
+      ]
+    },
+    "Madison County, Alabama": {
+      "label": "Madison County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1635
+        },
+        {
+          "label": "Asian",
+          "value": 10097
+        },
+        {
+          "label": "Black or African American",
+          "value": 95160
+        },
+        {
+          "label": "Hispanic",
+          "value": 25948
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 201
+        },
+        {
+          "label": "Two or More Races",
+          "value": 15465
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 247502
+        }
+      ]
+    },
+    "Marengo County, Alabama": {
+      "label": "Marengo County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 46
+        },
+        {
+          "label": "Asian",
+          "value": 64
+        },
+        {
+          "label": "Black or African American",
+          "value": 9767
+        },
+        {
+          "label": "Hispanic",
+          "value": 452
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 223
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8475
+        }
+      ]
+    },
+    "Marion County, Alabama": {
+      "label": "Marion County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 35
+        },
+        {
+          "label": "Asian",
+          "value": 91
+        },
+        {
+          "label": "Black or African American",
+          "value": 1043
+        },
+        {
+          "label": "Hispanic",
+          "value": 879
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 750
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26358
+        }
+      ]
+    },
+    "Marshall County, Alabama": {
+      "label": "Marshall County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 118
+        },
+        {
+          "label": "Asian",
+          "value": 628
+        },
+        {
+          "label": "Black or African American",
+          "value": 2480
+        },
+        {
+          "label": "Hispanic",
+          "value": 16360
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 73
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2549
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 76318
+        }
+      ]
+    },
+    "Mobile County, Alabama": {
+      "label": "Mobile County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1364
+        },
+        {
+          "label": "Asian",
+          "value": 8501
+        },
+        {
+          "label": "Black or African American",
+          "value": 148205
+        },
+        {
+          "label": "Hispanic",
+          "value": 13778
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 160
+        },
+        {
+          "label": "Two or More Races",
+          "value": 11585
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 228398
+        }
+      ]
+    },
+    "Monroe County, Alabama": {
+      "label": "Monroe County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 198
+        },
+        {
+          "label": "Asian",
+          "value": 65
+        },
+        {
+          "label": "Black or African American",
+          "value": 8260
+        },
+        {
+          "label": "Hispanic",
+          "value": 29
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 46
+        },
+        {
+          "label": "Two or More Races",
+          "value": 479
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10503
+        }
+      ]
+    },
+    "Montgomery County, Alabama": {
+      "label": "Montgomery County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 183
+        },
+        {
+          "label": "Asian",
+          "value": 7411
+        },
+        {
+          "label": "Black or African American",
+          "value": 133110
+        },
+        {
+          "label": "Hispanic",
+          "value": 10796
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 15
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5975
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 69425
+        }
+      ]
+    },
+    "Morgan County, Alabama": {
+      "label": "Morgan County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 197
+        },
+        {
+          "label": "Asian",
+          "value": 642
+        },
+        {
+          "label": "Black or African American",
+          "value": 15484
+        },
+        {
+          "label": "Hispanic",
+          "value": 12626
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 21
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4175
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 90086
+        }
+      ]
+    },
+    "Perry County, Alabama": {
+      "label": "Perry County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 5843
+        },
+        {
+          "label": "Hispanic",
+          "value": 18
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 64
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2306
+        }
+      ]
+    },
+    "Pickens County, Alabama": {
+      "label": "Pickens County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 46
+        },
+        {
+          "label": "Asian",
+          "value": 10
+        },
+        {
+          "label": "Black or African American",
+          "value": 7377
+        },
+        {
+          "label": "Hispanic",
+          "value": 1088
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 280
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10020
+        }
+      ]
+    },
+    "Pike County, Alabama": {
+      "label": "Pike County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 92
+        },
+        {
+          "label": "Asian",
+          "value": 672
+        },
+        {
+          "label": "Black or African American",
+          "value": 12275
+        },
+        {
+          "label": "Hispanic",
+          "value": 889
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 28
+        },
+        {
+          "label": "Two or More Races",
+          "value": 904
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18014
+        }
+      ]
+    },
+    "Randolph County, Alabama": {
+      "label": "Randolph County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 22
+        },
+        {
+          "label": "Asian",
+          "value": 60
+        },
+        {
+          "label": "Black or African American",
+          "value": 3677
+        },
+        {
+          "label": "Hispanic",
+          "value": 635
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1204
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16579
+        }
+      ]
+    },
+    "Russell County, Alabama": {
+      "label": "Russell County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 65
+        },
+        {
+          "label": "Asian",
+          "value": 351
+        },
+        {
+          "label": "Black or African American",
+          "value": 26551
+        },
+        {
+          "label": "Hispanic",
+          "value": 3382
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 51
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2095
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25901
+        }
+      ]
+    },
+    "Shelby County, Alabama": {
+      "label": "Shelby County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 368
+        },
+        {
+          "label": "Asian",
+          "value": 4633
+        },
+        {
+          "label": "Black or African American",
+          "value": 29721
+        },
+        {
+          "label": "Hispanic",
+          "value": 16709
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 25
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6542
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 167841
+        }
+      ]
+    },
+    "St. Clair County, Alabama": {
+      "label": "St. Clair County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 249
+        },
+        {
+          "label": "Asian",
+          "value": 432
+        },
+        {
+          "label": "Black or African American",
+          "value": 8942
+        },
+        {
+          "label": "Hispanic",
+          "value": 2670
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 122
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2545
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 77684
+        }
+      ]
+    },
+    "Sumter County, Alabama": {
+      "label": "Sumter County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 43
+        },
+        {
+          "label": "Black or African American",
+          "value": 8548
+        },
+        {
+          "label": "Hispanic",
+          "value": 100
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 264
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3051
+        }
+      ]
+    },
+    "Talladega County, Alabama": {
+      "label": "Talladega County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 77
+        },
+        {
+          "label": "Asian",
+          "value": 334
+        },
+        {
+          "label": "Black or African American",
+          "value": 25670
+        },
+        {
+          "label": "Hispanic",
+          "value": 1879
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 21
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2711
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 50450
+        }
+      ]
+    },
+    "Tallapoosa County, Alabama": {
+      "label": "Tallapoosa County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 117
+        },
+        {
+          "label": "Asian",
+          "value": 201
+        },
+        {
+          "label": "Black or African American",
+          "value": 9582
+        },
+        {
+          "label": "Hispanic",
+          "value": 1137
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1934
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27992
+        }
+      ]
+    },
+    "Tuscaloosa County, Alabama": {
+      "label": "Tuscaloosa County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 124
+        },
+        {
+          "label": "Asian",
+          "value": 3661
+        },
+        {
+          "label": "Black or African American",
+          "value": 74490
+        },
+        {
+          "label": "Hispanic",
+          "value": 12593
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 45
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4176
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 138682
+        }
+      ]
+    },
+    "Walker County, Alabama": {
+      "label": "Walker County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 86
+        },
+        {
+          "label": "Asian",
+          "value": 280
+        },
+        {
+          "label": "Black or African American",
+          "value": 3952
+        },
+        {
+          "label": "Hispanic",
+          "value": 2253
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1680
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 56448
+        }
+      ]
+    },
+    "Washington County, Alabama": {
+      "label": "Washington County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 983
+        },
+        {
+          "label": "Asian",
+          "value": 43
+        },
+        {
+          "label": "Black or African American",
+          "value": 3462
+        },
+        {
+          "label": "Hispanic",
+          "value": 255
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 500
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10013
+        }
+      ]
+    },
+    "Wilcox County, Alabama": {
+      "label": "Wilcox County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 7
+        },
+        {
+          "label": "Black or African American",
+          "value": 7318
+        },
+        {
+          "label": "Hispanic",
+          "value": 11
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 170
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2841
+        }
+      ]
+    },
+    "Winston County, Alabama": {
+      "label": "Winston County, Alabama",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 62
+        },
+        {
+          "label": "Black or African American",
+          "value": 284
+        },
+        {
+          "label": "Hispanic",
+          "value": 826
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 700
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21752
+        }
+      ]
+    }
+  }
+}

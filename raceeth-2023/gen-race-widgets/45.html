@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 45</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Abbeville County, South Carolina">Abbeville County, South Carolina</option>
+<option value="Aiken County, South Carolina">Aiken County, South Carolina</option>
+<option value="Allendale County, South Carolina">Allendale County, South Carolina</option>
+<option value="Anderson County, South Carolina">Anderson County, South Carolina</option>
+<option value="Bamberg County, South Carolina">Bamberg County, South Carolina</option>
+<option value="Barnwell County, South Carolina">Barnwell County, South Carolina</option>
+<option value="Beaufort County, South Carolina">Beaufort County, South Carolina</option>
+<option value="Berkeley County, South Carolina">Berkeley County, South Carolina</option>
+<option value="Calhoun County, South Carolina">Calhoun County, South Carolina</option>
+<option value="Charleston County, South Carolina">Charleston County, South Carolina</option>
+<option value="Cherokee County, South Carolina">Cherokee County, South Carolina</option>
+<option value="Chester County, South Carolina">Chester County, South Carolina</option>
+<option value="Chesterfield County, South Carolina">Chesterfield County, South Carolina</option>
+<option value="Clarendon County, South Carolina">Clarendon County, South Carolina</option>
+<option value="Colleton County, South Carolina">Colleton County, South Carolina</option>
+<option value="Darlington County, South Carolina">Darlington County, South Carolina</option>
+<option value="Dillon County, South Carolina">Dillon County, South Carolina</option>
+<option value="Dorchester County, South Carolina">Dorchester County, South Carolina</option>
+<option value="Edgefield County, South Carolina">Edgefield County, South Carolina</option>
+<option value="Fairfield County, South Carolina">Fairfield County, South Carolina</option>
+<option value="Florence County, South Carolina">Florence County, South Carolina</option>
+<option value="Georgetown County, South Carolina">Georgetown County, South Carolina</option>
+<option value="Greenville County, South Carolina">Greenville County, South Carolina</option>
+<option value="Greenwood County, South Carolina">Greenwood County, South Carolina</option>
+<option value="Hampton County, South Carolina">Hampton County, South Carolina</option>
+<option value="Horry County, South Carolina">Horry County, South Carolina</option>
+<option value="Jasper County, South Carolina">Jasper County, South Carolina</option>
+<option value="Kershaw County, South Carolina">Kershaw County, South Carolina</option>
+<option value="Lancaster County, South Carolina">Lancaster County, South Carolina</option>
+<option value="Laurens County, South Carolina">Laurens County, South Carolina</option>
+<option value="Lee County, South Carolina">Lee County, South Carolina</option>
+<option value="Lexington County, South Carolina">Lexington County, South Carolina</option>
+<option value="Marion County, South Carolina">Marion County, South Carolina</option>
+<option value="Marlboro County, South Carolina">Marlboro County, South Carolina</option>
+<option value="McCormick County, South Carolina">McCormick County, South Carolina</option>
+<option value="Newberry County, South Carolina">Newberry County, South Carolina</option>
+<option value="Oconee County, South Carolina">Oconee County, South Carolina</option>
+<option value="Orangeburg County, South Carolina">Orangeburg County, South Carolina</option>
+<option value="Pickens County, South Carolina">Pickens County, South Carolina</option>
+<option value="Richland County, South Carolina">Richland County, South Carolina</option>
+<option value="Saluda County, South Carolina">Saluda County, South Carolina</option>
+<option value="Spartanburg County, South Carolina">Spartanburg County, South Carolina</option>
+<option value="Sumter County, South Carolina">Sumter County, South Carolina</option>
+<option value="Union County, South Carolina">Union County, South Carolina</option>
+<option value="Williamsburg County, South Carolina">Williamsburg County, South Carolina</option>
+<option value="York County, South Carolina">York County, South Carolina</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.18,"Asian":1.69,"Black or African American":25.09,"Hispanic":7.08,"Pacific Islander":0.06,"Two or More Races":3.24,"White (non-Hispanic)":62.23},"Abbeville County, South Carolina":{"American Indian / Alaska Native":0.13,"Asian":0.21,"Black or African American":25.82,"Hispanic":1.95,"Pacific Islander":0,"Two or More Races":2.93,"White (non-Hispanic)":68.4},"Aiken County, South Carolina":{"American Indian / Alaska Native":0.1,"Asian":0.99,"Black or African American":24.19,"Hispanic":6.96,"Pacific Islander":0.01,"Two or More Races":3.22,"White (non-Hispanic)":64.17},"Allendale County, South Carolina":{"American Indian / Alaska Native":1.05,"Asian":0.28,"Black or African American":63.98,"Hispanic":10.33,"Pacific Islander":0.1,"Two or More Races":1.71,"White (non-Hispanic)":22.55},"Anderson County, South Carolina":{"American Indian / Alaska Native":0.43,"Asian":1.03,"Black or African American":13.55,"Hispanic":4.92,"Pacific Islander":0.02,"Two or More Races":4.29,"White (non-Hispanic)":75.49},"Bamberg County, South Carolina":{"American Indian / Alaska Native":0.19,"Asian":0.46,"Black or African American":59.61,"Hispanic":1.69,"Pacific Islander":0,"Two or More Races":0.92,"White (non-Hispanic)":37.06},"Barnwell County, South Carolina":{"American Indian / Alaska Native":0.15,"Asian":0.52,"Black or African American":43.09,"Hispanic":2.8,"Pacific Islander":0,"Two or More Races":2.59,"White (non-Hispanic)":50.41},"Beaufort County, South Carolina":{"American Indian / Alaska Native":0.06,"Asian":1.04,"Black or African American":15.65,"Hispanic":12.25,"Pacific Islander":0,"Two or More Races":3.04,"White (non-Hispanic)":67.4},"Berkeley County, South Carolina":{"American Indian / Alaska Native":0.24,"Asian":2.3,"Black or African American":22.86,"Hispanic":8.86,"Pacific Islander":0.08,"Two or More Races":4.43,"White (non-Hispanic)":60.68},"Calhoun County, South Carolina":{"American Indian / Alaska Native":0.35,"Asian":0.18,"Black or African American":38.59,"Hispanic":3.81,"Pacific Islander":0.45,"Two or More Races":1.78,"White (non-Hispanic)":54.84},"Charleston County, South Carolina":{"American Indian / Alaska Native":0.07,"Asian":1.75,"Black or African American":23.48,"Hispanic":7,"Pacific Islander":0.06,"Two or More Races":2.92,"White (non-Hispanic)":64.31},"Cherokee County, South Carolina":{"American Indian / Alaska Native":0.23,"Asian":0.44,"Black or African American":18.78,"Hispanic":5.23,"Pacific Islander":0,"Two or More Races":3.99,"White (non-Hispanic)":70.04},"Chester County, South Carolina":{"American Indian / Alaska Native":0.17,"Asian":0.53,"Black or African American":35.82,"Hispanic":2.73,"Pacific Islander":0.03,"Two or More Races":2.78,"White (non-Hispanic)":57.55},"Chesterfield County, South Carolina":{"American Indian / Alaska Native":0.22,"Asian":0.38,"Black or African American":30.45,"Hispanic":5.34,"Pacific Islander":0,"Two or More Races":4.39,"White (non-Hispanic)":58.85},"Clarendon County, South Carolina":{"American Indian / Alaska Native":0.12,"Asian":0.75,"Black or African American":45.17,"Hispanic":3.04,"Pacific Islander":0,"Two or More Races":1.94,"White (non-Hispanic)":48.89},"Colleton County, South Carolina":{"American Indian / Alaska Native":0.33,"Asian":0.46,"Black or African American":34.56,"Hispanic":4.04,"Pacific Islander":0,"Two or More Races":3.73,"White (non-Hispanic)":56.56},"Darlington County, South Carolina":{"American Indian / Alaska Native":0.17,"Asian":0.35,"Black or African American":40.87,"Hispanic":2.37,"Pacific Islander":0.01,"Two or More Races":2.54,"White (non-Hispanic)":53.5},"Dillon County, South Carolina":{"American Indian / Alaska Native":2.04,"Asian":0,"Black or African American":45.69,"Hispanic":3.32,"Pacific Islander":0,"Two or More Races":4.19,"White (non-Hispanic)":44.72},"Dorchester County, South Carolina":{"American Indian / Alaska Native":0.25,"Asian":2.16,"Black or African American":24.77,"Hispanic":6.89,"Pacific Islander":0.53,"Two or More Races":3.43,"White (non-Hispanic)":61.35},"Edgefield County, South Carolina":{"American Indian / Alaska Native":0.14,"Asian":0.34,"Black or African American":31.38,"Hispanic":6.22,"Pacific Islander":0.17,"Two or More Races":3.33,"White (non-Hispanic)":57.7},"Fairfield County, South Carolina":{"American Indian / Alaska Native":0.01,"Asian":0.19,"Black or African American":55.15,"Hispanic":2.34,"Pacific Islander":0,"Two or More Races":3.28,"White (non-Hispanic)":38.68},"Florence County, South Carolina":{"American Indian / Alaska Native":0.1,"Asian":1.56,"Black or African American":42.86,"Hispanic":3.21,"Pacific Islander":0.01,"Two or More Races":2.18,"White (non-Hispanic)":49.86},"Georgetown County, South Carolina":{"American Indian / Alaska Native":0.13,"Asian":0.4,"Black or African American":28.74,"Hispanic":3.52,"Pacific Islander":0.02,"Two or More Races":1.45,"White (non-Hispanic)":65.67},"Greenville County, South Carolina":{"American Indian / Alaska Native":0.08,"Asian":2.45,"Black or African American":16.38,"Hispanic":11.2,"Pacific Islander":0.04,"Two or More Races":3.55,"White (non-Hispanic)":65.79},"Greenwood County, South Carolina":{"American Indian / Alaska Native":0.05,"Asian":0.99,"Black or African American":31.22,"Hispanic":6.99,"Pacific Islander":0,"Two or More Races":2.01,"White (non-Hispanic)":58},"Hampton County, South Carolina":{"American Indian / Alaska Native":0.13,"Asian":0.87,"Black or African American":52.35,"Hispanic":4.04,"Pacific Islander":0,"Two or More Races":1.79,"White (non-Hispanic)":40.25},"Horry County, South Carolina":{"American Indian / Alaska Native":0.12,"Asian":1.32,"Black or African American":11.75,"Hispanic":7.04,"Pacific Islander":0.08,"Two or More Races":3.38,"White (non-Hispanic)":75.91},"Jasper County, South Carolina":{"American Indian / Alaska Native":0.08,"Asian":0.2,"Black or African American":34.38,"Hispanic":17.15,"Pacific Islander":0,"Two or More Races":3.22,"White (non-Hispanic)":44.95},"Kershaw County, South Carolina":{"American Indian / Alaska Native":0.13,"Asian":0.47,"Black or African American":23.4,"Hispanic":5.59,"Pacific Islander":0.1,"Two or More Races":3.51,"White (non-Hispanic)":66.74},"Lancaster County, South Carolina":{"American Indian / Alaska Native":0.12,"Asian":2.46,"Black or African American":19.38,"Hispanic":7,"Pacific Islander":0,"Two or More Races":2.68,"White (non-Hispanic)":68.2},"Laurens County, South Carolina":{"American Indian / Alaska Native":0.05,"Asian":0.51,"Black or African American":22.96,"Hispanic":6.34,"Pacific Islander":0.09,"Two or More Races":4.08,"White (non-Hispanic)":65.78},"Lee County, South Carolina":{"American Indian / Alaska Native":0.07,"Asian":0.15,"Black or African American":62.21,"Hispanic":2.32,"Pacific Islander":0,"Two or More Races":2.01,"White (non-Hispanic)":33.2},"Lexington County, South Carolina":{"American Indian / Alaska Native":0.12,"Asian":2.1,"Black or African American":14.85,"Hispanic":7.6,"Pacific Islander":0.07,"Two or More Races":3.55,"White (non-Hispanic)":71.22},"Marion County, South Carolina":{"American Indian / Alaska Native":0.34,"Asian":0.15,"Black or African American":55.71,"Hispanic":2.61,"Pacific Islander":0,"Two or More Races":2.74,"White (non-Hispanic)":38.39},"Marlboro County, South Carolina":{"American Indian / Alaska Native":3.4,"Asian":0.38,"Black or African American":49.1,"Hispanic":2.67,"Pacific Islander":0,"Two or More Races":5.54,"White (non-Hispanic)":37.93},"McCormick County, South Carolina":{"American Indian / Alaska Native":0,"Asian":0.19,"Black or African American":41.11,"Hispanic":0.67,"Pacific Islander":0.1,"Two or More Races":2.78,"White (non-Hispanic)":54.53},"Newberry County, South Carolina":{"American Indian / Alaska Native":0.15,"Asian":0.47,"Black or African American":29.09,"Hispanic":8.93,"Pacific Islander":0,"Two or More Races":1.52,"White (non-Hispanic)":59.42},"Oconee County, South Carolina":{"American Indian / Alaska Native":0.08,"Asian":0.8,"Black or African American":6.72,"Hispanic":5.83,"Pacific Islander":0.02,"Two or More Races":2.84,"White (non-Hispanic)":83.53},"Orangeburg County, South Carolina":{"American Indian / Alaska Native":0.32,"Asian":0.8,"Black or African American":61.5,"Hispanic":2.51,"Pacific Islander":0.01,"Two or More Races":1.61,"White (non-Hispanic)":33.13},"Pickens County, South Carolina":{"American Indian / Alaska Native":0.08,"Asian":1.69,"Black or African American":6.1,"Hispanic":5.13,"Pacific Islander":0.03,"Two or More Races":3.26,"White (non-Hispanic)":83.39},"Richland County, South Carolina":{"American Indian / Alaska Native":0.1,"Asian":2.86,"Black or African American":46.85,"Hispanic":6.29,"Pacific Islander":0.09,"Two or More Races":3.37,"White (non-Hispanic)":39.85},"Saluda County, South Carolina":{"American Indian / Alaska Native":0.19,"Asian":0.27,"Black or African American":22.12,"Hispanic":16.58,"Pacific Islander":0.02,"Two or More Races":2.46,"White (non-Hispanic)":57.51},"Spartanburg County, South Carolina":{"American Indian / Alaska Native":0.1,"Asian":2.33,"Black or African American":19.73,"Hispanic":8.84,"Pacific Islander":0.02,"Two or More Races":2.82,"White (non-Hispanic)":65.72},"Sumter County, South Carolina":{"American Indian / Alaska Native":0.08,"Asian":1.47,"Black or African American":45.97,"Hispanic":4.29,"Pacific Islander":0.07,"Two or More Races":3.63,"White (non-Hispanic)":43.98},"Union County, South Carolina":{"American Indian / Alaska Native":0.25,"Asian":0.2,"Black or African American":28.86,"Hispanic":1.93,"Pacific Islander":0.01,"Two or More Races":4.44,"White (non-Hispanic)":64.15},"Williamsburg County, South Carolina":{"American Indian / Alaska Native":0.32,"Asian":0.67,"Black or African American":63.89,"Hispanic":2.35,"Pacific Islander":0,"Two or More Races":0.66,"White (non-Hispanic)":31.95},"York County, South Carolina":{"American Indian / Alaska Native":0.42,"Asian":2.78,"Black or African American":18.52,"Hispanic":7.05,"Pacific Islander":0.01,"Two or More Races":3.49,"White (non-Hispanic)":67.12}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

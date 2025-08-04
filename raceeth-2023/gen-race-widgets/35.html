@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 35</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Bernalillo County, New Mexico">Bernalillo County, New Mexico</option>
+<option value="Catron County, New Mexico">Catron County, New Mexico</option>
+<option value="Chaves County, New Mexico">Chaves County, New Mexico</option>
+<option value="Cibola County, New Mexico">Cibola County, New Mexico</option>
+<option value="Colfax County, New Mexico">Colfax County, New Mexico</option>
+<option value="Curry County, New Mexico">Curry County, New Mexico</option>
+<option value="De Baca County, New Mexico">De Baca County, New Mexico</option>
+<option value="Doña Ana County, New Mexico">Doña Ana County, New Mexico</option>
+<option value="Eddy County, New Mexico">Eddy County, New Mexico</option>
+<option value="Grant County, New Mexico">Grant County, New Mexico</option>
+<option value="Guadalupe County, New Mexico">Guadalupe County, New Mexico</option>
+<option value="Harding County, New Mexico">Harding County, New Mexico</option>
+<option value="Hidalgo County, New Mexico">Hidalgo County, New Mexico</option>
+<option value="Lea County, New Mexico">Lea County, New Mexico</option>
+<option value="Lincoln County, New Mexico">Lincoln County, New Mexico</option>
+<option value="Los Alamos County, New Mexico">Los Alamos County, New Mexico</option>
+<option value="Luna County, New Mexico">Luna County, New Mexico</option>
+<option value="McKinley County, New Mexico">McKinley County, New Mexico</option>
+<option value="Mora County, New Mexico">Mora County, New Mexico</option>
+<option value="Otero County, New Mexico">Otero County, New Mexico</option>
+<option value="Quay County, New Mexico">Quay County, New Mexico</option>
+<option value="Rio Arriba County, New Mexico">Rio Arriba County, New Mexico</option>
+<option value="Roosevelt County, New Mexico">Roosevelt County, New Mexico</option>
+<option value="San Juan County, New Mexico">San Juan County, New Mexico</option>
+<option value="San Miguel County, New Mexico">San Miguel County, New Mexico</option>
+<option value="Sandoval County, New Mexico">Sandoval County, New Mexico</option>
+<option value="Santa Fe County, New Mexico">Santa Fe County, New Mexico</option>
+<option value="Sierra County, New Mexico">Sierra County, New Mexico</option>
+<option value="Socorro County, New Mexico">Socorro County, New Mexico</option>
+<option value="Taos County, New Mexico">Taos County, New Mexico</option>
+<option value="Torrance County, New Mexico">Torrance County, New Mexico</option>
+<option value="Union County, New Mexico">Union County, New Mexico</option>
+<option value="Valencia County, New Mexico">Valencia County, New Mexico</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":8.6,"Asian":1.59,"Black or African American":1.81,"Hispanic":48.15,"Pacific Islander":0.06,"Two or More Races":2.82,"White (non-Hispanic)":36.53},"Bernalillo County, New Mexico":{"American Indian / Alaska Native":3.97,"Asian":2.72,"Black or African American":2.55,"Hispanic":48.93,"Pacific Islander":0.05,"Two or More Races":3.38,"White (non-Hispanic)":37.75},"Catron County, New Mexico":{"American Indian / Alaska Native":2.2,"Asian":0.35,"Black or African American":0.38,"Hispanic":15.17,"Pacific Islander":0,"Two or More Races":2.96,"White (non-Hispanic)":78.94},"Chaves County, New Mexico":{"American Indian / Alaska Native":0.52,"Asian":1.13,"Black or African American":1.42,"Hispanic":57.92,"Pacific Islander":0.08,"Two or More Races":1.58,"White (non-Hispanic)":37.06},"Cibola County, New Mexico":{"American Indian / Alaska Native":42.51,"Asian":0.64,"Black or African American":1.93,"Hispanic":32.98,"Pacific Islander":0.02,"Two or More Races":2.16,"White (non-Hispanic)":19.7},"Colfax County, New Mexico":{"American Indian / Alaska Native":1.08,"Asian":0.21,"Black or African American":0.54,"Hispanic":47.41,"Pacific Islander":0,"Two or More Races":2.91,"White (non-Hispanic)":47.78},"Curry County, New Mexico":{"American Indian / Alaska Native":0.38,"Asian":1.51,"Black or African American":4.81,"Hispanic":45.44,"Pacific Islander":0.09,"Two or More Races":3.92,"White (non-Hispanic)":43.78},"De Baca County, New Mexico":{"American Indian / Alaska Native":0.06,"Asian":0,"Black or African American":0.06,"Hispanic":63.54,"Pacific Islander":0,"Two or More Races":2.22,"White (non-Hispanic)":34.11},"Doña Ana County, New Mexico":{"American Indian / Alaska Native":0.54,"Asian":1.16,"Black or African American":1.41,"Hispanic":67.62,"Pacific Islander":0.08,"Two or More Races":1.79,"White (non-Hispanic)":27.12},"Eddy County, New Mexico":{"American Indian / Alaska Native":0.93,"Asian":0.62,"Black or African American":1.18,"Hispanic":50.9,"Pacific Islander":0,"Two or More Races":1.98,"White (non-Hispanic)":43.68},"Grant County, New Mexico":{"American Indian / Alaska Native":0.99,"Asian":0.87,"Black or African American":0.67,"Hispanic":48.01,"Pacific Islander":0,"Two or More Races":1.88,"White (non-Hispanic)":47.46},"Guadalupe County, New Mexico":{"American Indian / Alaska Native":5.16,"Asian":0.23,"Black or African American":1.71,"Hispanic":74.51,"Pacific Islander":0,"Two or More Races":1.51,"White (non-Hispanic)":16.88},"Harding County, New Mexico":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":1.74,"Hispanic":40.64,"Pacific Islander":0,"Two or More Races":2.67,"White (non-Hispanic)":46.26},"Hidalgo County, New Mexico":{"American Indian / Alaska Native":0.44,"Asian":0.83,"Black or African American":0,"Hispanic":57.19,"Pacific Islander":0,"Two or More Races":2.68,"White (non-Hispanic)":38.27},"Lea County, New Mexico":{"American Indian / Alaska Native":0.47,"Asian":0.63,"Black or African American":3.43,"Hispanic":61.64,"Pacific Islander":0.02,"Two or More Races":1.52,"White (non-Hispanic)":32.09},"Lincoln County, New Mexico":{"American Indian / Alaska Native":3.07,"Asian":0.52,"Black or African American":0.62,"Hispanic":32.59,"Pacific Islander":0,"Two or More Races":2.41,"White (non-Hispanic)":60.62},"Los Alamos County, New Mexico":{"American Indian / Alaska Native":0.74,"Asian":4.98,"Black or African American":1.2,"Hispanic":17.88,"Pacific Islander":0,"Two or More Races":4.5,"White (non-Hispanic)":70.27},"Luna County, New Mexico":{"American Indian / Alaska Native":0.33,"Asian":0.92,"Black or African American":1.51,"Hispanic":66.55,"Pacific Islander":0.06,"Two or More Races":1.35,"White (non-Hispanic)":29.08},"McKinley County, New Mexico":{"American Indian / Alaska Native":75.07,"Asian":1.3,"Black or African American":0.44,"Hispanic":12.15,"Pacific Islander":0.08,"Two or More Races":2.83,"White (non-Hispanic)":8.01},"Mora County, New Mexico":{"American Indian / Alaska Native":1.75,"Asian":0,"Black or African American":0,"Hispanic":76.1,"Pacific Islander":0,"Two or More Races":0.1,"White (non-Hispanic)":21.96},"Otero County, New Mexico":{"American Indian / Alaska Native":5.84,"Asian":1.43,"Black or African American":3.43,"Hispanic":39.1,"Pacific Islander":0.12,"Two or More Races":3.11,"White (non-Hispanic)":46.58},"Quay County, New Mexico":{"American Indian / Alaska Native":0.39,"Asian":0,"Black or African American":1.11,"Hispanic":44.59,"Pacific Islander":0.21,"Two or More Races":4.45,"White (non-Hispanic)":48.34},"Rio Arriba County, New Mexico":{"American Indian / Alaska Native":15.6,"Asian":0.59,"Black or African American":0.66,"Hispanic":67.32,"Pacific Islander":0.16,"Two or More Races":1.12,"White (non-Hispanic)":14.1},"Roosevelt County, New Mexico":{"American Indian / Alaska Native":0.83,"Asian":0.44,"Black or African American":0.93,"Hispanic":44.42,"Pacific Islander":0.17,"Two or More Races":4.27,"White (non-Hispanic)":48.85},"San Juan County, New Mexico":{"American Indian / Alaska Native":38.54,"Asian":0.68,"Black or African American":0.61,"Hispanic":19.71,"Pacific Islander":0.02,"Two or More Races":3.48,"White (non-Hispanic)":36.69},"San Miguel County, New Mexico":{"American Indian / Alaska Native":1.78,"Asian":0.4,"Black or African American":1.21,"Hispanic":75.33,"Pacific Islander":0,"Two or More Races":2.91,"White (non-Hispanic)":17.38},"Sandoval County, New Mexico":{"American Indian / Alaska Native":11.15,"Asian":1.48,"Black or African American":2.04,"Hispanic":39.54,"Pacific Islander":0.12,"Two or More Races":3.47,"White (non-Hispanic)":41.87},"Santa Fe County, New Mexico":{"American Indian / Alaska Native":2.57,"Asian":1.42,"Black or African American":0.81,"Hispanic":48,"Pacific Islander":0.05,"Two or More Races":2.62,"White (non-Hispanic)":44.06},"Sierra County, New Mexico":{"American Indian / Alaska Native":2.43,"Asian":0.24,"Black or African American":0.17,"Hispanic":29.42,"Pacific Islander":0,"Two or More Races":3.89,"White (non-Hispanic)":63.84},"Socorro County, New Mexico":{"American Indian / Alaska Native":12.06,"Asian":1.85,"Black or African American":0.23,"Hispanic":50.26,"Pacific Islander":0,"Two or More Races":2.43,"White (non-Hispanic)":32.94},"Taos County, New Mexico":{"American Indian / Alaska Native":5.03,"Asian":0.74,"Black or African American":0.26,"Hispanic":50.79,"Pacific Islander":0.02,"Two or More Races":2.59,"White (non-Hispanic)":40.45},"Torrance County, New Mexico":{"American Indian / Alaska Native":2.17,"Asian":0.6,"Black or African American":1.72,"Hispanic":42.5,"Pacific Islander":0,"Two or More Races":3.08,"White (non-Hispanic)":48.89},"Union County, New Mexico":{"American Indian / Alaska Native":2.01,"Asian":0,"Black or African American":0.82,"Hispanic":39.69,"Pacific Islander":0,"Two or More Races":2.7,"White (non-Hispanic)":53.97},"Valencia County, New Mexico":{"American Indian / Alaska Native":3.72,"Asian":0.63,"Black or African American":1.21,"Hispanic":60.57,"Pacific Islander":0.08,"Two or More Races":2.13,"White (non-Hispanic)":31.13}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

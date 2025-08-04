@@ -1,0 +1,1886 @@
+{
+  "state": "Beaverhead County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 60745
+        },
+        {
+          "label": "Asian",
+          "value": 8944
+        },
+        {
+          "label": "Black or African American",
+          "value": 5243
+        },
+        {
+          "label": "Hispanic",
+          "value": 48519
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 481
+        },
+        {
+          "label": "Two or More Races",
+          "value": 47220
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 929206
+        }
+      ]
+    },
+    "Beaverhead County, Montana": {
+      "label": "Beaverhead County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 159
+        },
+        {
+          "label": "Asian",
+          "value": 25
+        },
+        {
+          "label": "Black or African American",
+          "value": 54
+        },
+        {
+          "label": "Hispanic",
+          "value": 472
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 275
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8598
+        }
+      ]
+    },
+    "Big Horn County, Montana": {
+      "label": "Big Horn County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8470
+        },
+        {
+          "label": "Asian",
+          "value": 26
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 592
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 370
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3505
+        }
+      ]
+    },
+    "Blaine County, Montana": {
+      "label": "Blaine County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3427
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 31
+        },
+        {
+          "label": "Hispanic",
+          "value": 192
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 257
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3090
+        }
+      ]
+    },
+    "Broadwater County, Montana": {
+      "label": "Broadwater County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 76
+        },
+        {
+          "label": "Asian",
+          "value": 31
+        },
+        {
+          "label": "Black or African American",
+          "value": 27
+        },
+        {
+          "label": "Hispanic",
+          "value": 131
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 481
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6564
+        }
+      ]
+    },
+    "Carbon County, Montana": {
+      "label": "Carbon County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 38
+        },
+        {
+          "label": "Asian",
+          "value": 51
+        },
+        {
+          "label": "Black or African American",
+          "value": 50
+        },
+        {
+          "label": "Hispanic",
+          "value": 311
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 355
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9962
+        }
+      ]
+    },
+    "Carter County, Montana": {
+      "label": "Carter County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 1
+        },
+        {
+          "label": "Hispanic",
+          "value": 32
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 65
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1252
+        }
+      ]
+    },
+    "Cascade County, Montana": {
+      "label": "Cascade County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2867
+        },
+        {
+          "label": "Asian",
+          "value": 958
+        },
+        {
+          "label": "Black or African American",
+          "value": 1223
+        },
+        {
+          "label": "Hispanic",
+          "value": 4283
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4517
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 70402
+        }
+      ]
+    },
+    "Chouteau County, Montana": {
+      "label": "Chouteau County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 971
+        },
+        {
+          "label": "Asian",
+          "value": 7
+        },
+        {
+          "label": "Black or African American",
+          "value": 8
+        },
+        {
+          "label": "Hispanic",
+          "value": 178
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 257
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4465
+        }
+      ]
+    },
+    "Custer County, Montana": {
+      "label": "Custer County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 149
+        },
+        {
+          "label": "Asian",
+          "value": 48
+        },
+        {
+          "label": "Black or African American",
+          "value": 42
+        },
+        {
+          "label": "Hispanic",
+          "value": 395
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 586
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10682
+        }
+      ]
+    },
+    "Daniels County, Montana": {
+      "label": "Daniels County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 47
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 4
+        },
+        {
+          "label": "Hispanic",
+          "value": 24
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 53
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1365
+        }
+      ]
+    },
+    "Dawson County, Montana": {
+      "label": "Dawson County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 115
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 4
+        },
+        {
+          "label": "Hispanic",
+          "value": 300
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 29
+        },
+        {
+          "label": "Two or More Races",
+          "value": 297
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8065
+        }
+      ]
+    },
+    "Deer Lodge County, Montana": {
+      "label": "Deer Lodge County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 162
+        },
+        {
+          "label": "Asian",
+          "value": 66
+        },
+        {
+          "label": "Black or African American",
+          "value": 30
+        },
+        {
+          "label": "Hispanic",
+          "value": 320
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 356
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8550
+        }
+      ]
+    },
+    "Fallon County, Montana": {
+      "label": "Fallon County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 68
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 1
+        },
+        {
+          "label": "Hispanic",
+          "value": 16
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 119
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2613
+        }
+      ]
+    },
+    "Fergus County, Montana": {
+      "label": "Fergus County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 219
+        },
+        {
+          "label": "Asian",
+          "value": 102
+        },
+        {
+          "label": "Black or African American",
+          "value": 74
+        },
+        {
+          "label": "Hispanic",
+          "value": 256
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 189
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10741
+        }
+      ]
+    },
+    "Flathead County, Montana": {
+      "label": "Flathead County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 971
+        },
+        {
+          "label": "Asian",
+          "value": 924
+        },
+        {
+          "label": "Black or African American",
+          "value": 251
+        },
+        {
+          "label": "Hispanic",
+          "value": 3800
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3799
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 98324
+        }
+      ]
+    },
+    "Gallatin County, Montana": {
+      "label": "Gallatin County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 756
+        },
+        {
+          "label": "Asian",
+          "value": 1541
+        },
+        {
+          "label": "Black or African American",
+          "value": 593
+        },
+        {
+          "label": "Hispanic",
+          "value": 6272
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4314
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 107856
+        }
+      ]
+    },
+    "Garfield County, Montana": {
+      "label": "Garfield County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 9
+        },
+        {
+          "label": "Hispanic",
+          "value": 0
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 917
+        }
+      ]
+    },
+    "Glacier County, Montana": {
+      "label": "Glacier County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8658
+        },
+        {
+          "label": "Asian",
+          "value": 80
+        },
+        {
+          "label": "Black or African American",
+          "value": 23
+        },
+        {
+          "label": "Hispanic",
+          "value": 378
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 27
+        },
+        {
+          "label": "Two or More Races",
+          "value": 386
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4021
+        }
+      ]
+    },
+    "Golden Valley County, Montana": {
+      "label": "Golden Valley County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 6
+        },
+        {
+          "label": "Hispanic",
+          "value": 55
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 26
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 747
+        }
+      ]
+    },
+    "Granite County, Montana": {
+      "label": "Granite County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 76
+        },
+        {
+          "label": "Asian",
+          "value": 22
+        },
+        {
+          "label": "Black or African American",
+          "value": 25
+        },
+        {
+          "label": "Hispanic",
+          "value": 66
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 44
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3163
+        }
+      ]
+    },
+    "Hill County, Montana": {
+      "label": "Hill County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3689
+        },
+        {
+          "label": "Asian",
+          "value": 33
+        },
+        {
+          "label": "Black or African American",
+          "value": 34
+        },
+        {
+          "label": "Hispanic",
+          "value": 551
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 781
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11016
+        }
+      ]
+    },
+    "Jefferson County, Montana": {
+      "label": "Jefferson County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 151
+        },
+        {
+          "label": "Asian",
+          "value": 51
+        },
+        {
+          "label": "Black or African American",
+          "value": 14
+        },
+        {
+          "label": "Hispanic",
+          "value": 339
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 520
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11414
+        }
+      ]
+    },
+    "Judith Basin County, Montana": {
+      "label": "Judith Basin County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 25
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 121
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 27
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1877
+        }
+      ]
+    },
+    "Lake County, Montana": {
+      "label": "Lake County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6460
+        },
+        {
+          "label": "Asian",
+          "value": 157
+        },
+        {
+          "label": "Black or African American",
+          "value": 67
+        },
+        {
+          "label": "Hispanic",
+          "value": 1338
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 27
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3262
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20684
+        }
+      ]
+    },
+    "Lewis and Clark County, Montana": {
+      "label": "Lewis and Clark County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 640
+        },
+        {
+          "label": "Asian",
+          "value": 466
+        },
+        {
+          "label": "Black or African American",
+          "value": 401
+        },
+        {
+          "label": "Hispanic",
+          "value": 2830
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3261
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 64745
+        }
+      ]
+    },
+    "Liberty County, Montana": {
+      "label": "Liberty County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 0
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 44
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1888
+        }
+      ]
+    },
+    "Lincoln County, Montana": {
+      "label": "Lincoln County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 271
+        },
+        {
+          "label": "Asian",
+          "value": 47
+        },
+        {
+          "label": "Black or African American",
+          "value": 15
+        },
+        {
+          "label": "Hispanic",
+          "value": 614
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 29
+        },
+        {
+          "label": "Two or More Races",
+          "value": 875
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18756
+        }
+      ]
+    },
+    "Madison County, Montana": {
+      "label": "Madison County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 72
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 317
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 256
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8216
+        }
+      ]
+    },
+    "McCone County, Montana": {
+      "label": "McCone County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 67
+        },
+        {
+          "label": "Asian",
+          "value": 48
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 0
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 44
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1659
+        }
+      ]
+    },
+    "Meagher County, Montana": {
+      "label": "Meagher County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 54
+        },
+        {
+          "label": "Asian",
+          "value": 6
+        },
+        {
+          "label": "Black or African American",
+          "value": 17
+        },
+        {
+          "label": "Hispanic",
+          "value": 63
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1829
+        }
+      ]
+    },
+    "Mineral County, Montana": {
+      "label": "Mineral County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 64
+        },
+        {
+          "label": "Asian",
+          "value": 18
+        },
+        {
+          "label": "Black or African American",
+          "value": 32
+        },
+        {
+          "label": "Hispanic",
+          "value": 167
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 208
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4299
+        }
+      ]
+    },
+    "Missoula County, Montana": {
+      "label": "Missoula County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2325
+        },
+        {
+          "label": "Asian",
+          "value": 1905
+        },
+        {
+          "label": "Black or African American",
+          "value": 712
+        },
+        {
+          "label": "Hispanic",
+          "value": 5902
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 83
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5563
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 102631
+        }
+      ]
+    },
+    "Musselshell County, Montana": {
+      "label": "Musselshell County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 121
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 187
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 220
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4445
+        }
+      ]
+    },
+    "Park County, Montana": {
+      "label": "Park County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 113
+        },
+        {
+          "label": "Asian",
+          "value": 53
+        },
+        {
+          "label": "Black or African American",
+          "value": 33
+        },
+        {
+          "label": "Hispanic",
+          "value": 587
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 662
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16036
+        }
+      ]
+    },
+    "Petroleum County, Montana": {
+      "label": "Petroleum County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 0
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 0
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 398
+        }
+      ]
+    },
+    "Phillips County, Montana": {
+      "label": "Phillips County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 301
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 16
+        },
+        {
+          "label": "Hispanic",
+          "value": 58
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 17
+        },
+        {
+          "label": "Two or More Races",
+          "value": 371
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3461
+        }
+      ]
+    },
+    "Pondera County, Montana": {
+      "label": "Pondera County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 961
+        },
+        {
+          "label": "Asian",
+          "value": 16
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 137
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 148
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4748
+        }
+      ]
+    },
+    "Powder River County, Montana": {
+      "label": "Powder River County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 27
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 30
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 139
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1537
+        }
+      ]
+    },
+    "Powell County, Montana": {
+      "label": "Powell County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 291
+        },
+        {
+          "label": "Asian",
+          "value": 133
+        },
+        {
+          "label": "Black or African American",
+          "value": 87
+        },
+        {
+          "label": "Hispanic",
+          "value": 160
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 191
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6146
+        }
+      ]
+    },
+    "Prairie County, Montana": {
+      "label": "Prairie County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 49
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 10
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 17
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1118
+        }
+      ]
+    },
+    "Ravalli County, Montana": {
+      "label": "Ravalli County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 245
+        },
+        {
+          "label": "Asian",
+          "value": 249
+        },
+        {
+          "label": "Black or African American",
+          "value": 108
+        },
+        {
+          "label": "Hispanic",
+          "value": 1820
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2296
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 40873
+        }
+      ]
+    },
+    "Richland County, Montana": {
+      "label": "Richland County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 31
+        },
+        {
+          "label": "Black or African American",
+          "value": 28
+        },
+        {
+          "label": "Hispanic",
+          "value": 621
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 98
+        },
+        {
+          "label": "Two or More Races",
+          "value": 573
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9925
+        }
+      ]
+    },
+    "Roosevelt County, Montana": {
+      "label": "Roosevelt County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6102
+        },
+        {
+          "label": "Asian",
+          "value": 85
+        },
+        {
+          "label": "Black or African American",
+          "value": 13
+        },
+        {
+          "label": "Hispanic",
+          "value": 289
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 647
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3514
+        }
+      ]
+    },
+    "Rosebud County, Montana": {
+      "label": "Rosebud County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3166
+        },
+        {
+          "label": "Asian",
+          "value": 42
+        },
+        {
+          "label": "Black or African American",
+          "value": 14
+        },
+        {
+          "label": "Hispanic",
+          "value": 285
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 371
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4338
+        }
+      ]
+    },
+    "Sanders County, Montana": {
+      "label": "Sanders County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 307
+        },
+        {
+          "label": "Asian",
+          "value": 48
+        },
+        {
+          "label": "Black or African American",
+          "value": 68
+        },
+        {
+          "label": "Hispanic",
+          "value": 432
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 16
+        },
+        {
+          "label": "Two or More Races",
+          "value": 536
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11519
+        }
+      ]
+    },
+    "Sheridan County, Montana": {
+      "label": "Sheridan County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 61
+        },
+        {
+          "label": "Asian",
+          "value": 16
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 166
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 130
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3281
+        }
+      ]
+    },
+    "Silver Bow County, Montana": {
+      "label": "Silver Bow County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 503
+        },
+        {
+          "label": "Asian",
+          "value": 114
+        },
+        {
+          "label": "Black or African American",
+          "value": 43
+        },
+        {
+          "label": "Hispanic",
+          "value": 1639
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1462
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 31768
+        }
+      ]
+    },
+    "Stillwater County, Montana": {
+      "label": "Stillwater County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 32
+        },
+        {
+          "label": "Asian",
+          "value": 33
+        },
+        {
+          "label": "Black or African American",
+          "value": 9
+        },
+        {
+          "label": "Hispanic",
+          "value": 305
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 291
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8353
+        }
+      ]
+    },
+    "Sweet Grass County, Montana": {
+      "label": "Sweet Grass County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 61
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 50
+        },
+        {
+          "label": "Hispanic",
+          "value": 66
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 145
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3363
+        }
+      ]
+    },
+    "Teton County, Montana": {
+      "label": "Teton County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 122
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 24
+        },
+        {
+          "label": "Hispanic",
+          "value": 118
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 230
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5780
+        }
+      ]
+    },
+    "Toole County, Montana": {
+      "label": "Toole County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 286
+        },
+        {
+          "label": "Asian",
+          "value": 36
+        },
+        {
+          "label": "Black or African American",
+          "value": 93
+        },
+        {
+          "label": "Hispanic",
+          "value": 217
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 198
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4174
+        }
+      ]
+    },
+    "Treasure County, Montana": {
+      "label": "Treasure County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 10
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 43
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 0
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 707
+        }
+      ]
+    },
+    "Valley County, Montana": {
+      "label": "Valley County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 567
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 46
+        },
+        {
+          "label": "Hispanic",
+          "value": 193
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 314
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6392
+        }
+      ]
+    },
+    "Wheatland County, Montana": {
+      "label": "Wheatland County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 27
+        },
+        {
+          "label": "Hispanic",
+          "value": 55
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 18
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1939
+        }
+      ]
+    },
+    "Wibaux County, Montana": {
+      "label": "Wibaux County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 10
+        },
+        {
+          "label": "Hispanic",
+          "value": 69
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1039
+        }
+      ]
+    },
+    "Yellowstone County, Montana": {
+      "label": "Yellowstone County, Montana",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6385
+        },
+        {
+          "label": "Asian",
+          "value": 1294
+        },
+        {
+          "label": "Black or African American",
+          "value": 824
+        },
+        {
+          "label": "Hispanic",
+          "value": 10717
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 74
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6652
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 140456
+        }
+      ]
+    }
+  }
+}

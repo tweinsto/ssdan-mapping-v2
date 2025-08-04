@@ -1,0 +1,1490 @@
+{
+  "state": "Ada County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14776
+        },
+        {
+          "label": "Asian",
+          "value": 24200
+        },
+        {
+          "label": "Black or African American",
+          "value": 12995
+        },
+        {
+          "label": "Hispanic",
+          "value": 252466
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2767
+        },
+        {
+          "label": "Two or More Races",
+          "value": 73548
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1502167
+        }
+      ]
+    },
+    "Ada County, Idaho": {
+      "label": "Ada County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1583
+        },
+        {
+          "label": "Asian",
+          "value": 12730
+        },
+        {
+          "label": "Black or African American",
+          "value": 6210
+        },
+        {
+          "label": "Hispanic",
+          "value": 48291
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 872
+        },
+        {
+          "label": "Two or More Races",
+          "value": 20708
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 414759
+        }
+      ]
+    },
+    "Adams County, Idaho": {
+      "label": "Adams County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 48
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 11
+        },
+        {
+          "label": "Hispanic",
+          "value": 210
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 246
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4084
+        }
+      ]
+    },
+    "Bannock County, Idaho": {
+      "label": "Bannock County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1999
+        },
+        {
+          "label": "Asian",
+          "value": 1305
+        },
+        {
+          "label": "Black or African American",
+          "value": 726
+        },
+        {
+          "label": "Hispanic",
+          "value": 8481
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 266
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3172
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 71712
+        }
+      ]
+    },
+    "Bear Lake County, Idaho": {
+      "label": "Bear Lake County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 50
+        },
+        {
+          "label": "Asian",
+          "value": 17
+        },
+        {
+          "label": "Black or African American",
+          "value": 18
+        },
+        {
+          "label": "Hispanic",
+          "value": 244
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 96
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6101
+        }
+      ]
+    },
+    "Benewah County, Idaho": {
+      "label": "Benewah County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 738
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 73
+        },
+        {
+          "label": "Hispanic",
+          "value": 355
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 19
+        },
+        {
+          "label": "Two or More Races",
+          "value": 353
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8346
+        }
+      ]
+    },
+    "Bingham County, Idaho": {
+      "label": "Bingham County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2370
+        },
+        {
+          "label": "Asian",
+          "value": 201
+        },
+        {
+          "label": "Black or African American",
+          "value": 133
+        },
+        {
+          "label": "Hispanic",
+          "value": 8619
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1248
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 36318
+        }
+      ]
+    },
+    "Blaine County, Idaho": {
+      "label": "Blaine County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 231
+        },
+        {
+          "label": "Asian",
+          "value": 127
+        },
+        {
+          "label": "Black or African American",
+          "value": 104
+        },
+        {
+          "label": "Hispanic",
+          "value": 5221
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 959
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17876
+        }
+      ]
+    },
+    "Boise County, Idaho": {
+      "label": "Boise County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 76
+        },
+        {
+          "label": "Asian",
+          "value": 123
+        },
+        {
+          "label": "Black or African American",
+          "value": 17
+        },
+        {
+          "label": "Hispanic",
+          "value": 383
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 484
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6848
+        }
+      ]
+    },
+    "Bonner County, Idaho": {
+      "label": "Bonner County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 239
+        },
+        {
+          "label": "Asian",
+          "value": 305
+        },
+        {
+          "label": "Black or African American",
+          "value": 129
+        },
+        {
+          "label": "Hispanic",
+          "value": 1804
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2071
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 44580
+        }
+      ]
+    },
+    "Bonneville County, Idaho": {
+      "label": "Bonneville County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 475
+        },
+        {
+          "label": "Asian",
+          "value": 1061
+        },
+        {
+          "label": "Black or African American",
+          "value": 420
+        },
+        {
+          "label": "Hispanic",
+          "value": 17992
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 195
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3844
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 102599
+        }
+      ]
+    },
+    "Boundary County, Idaho": {
+      "label": "Boundary County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 197
+        },
+        {
+          "label": "Asian",
+          "value": 201
+        },
+        {
+          "label": "Black or African American",
+          "value": 94
+        },
+        {
+          "label": "Hispanic",
+          "value": 706
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 430
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11040
+        }
+      ]
+    },
+    "Butte County, Idaho": {
+      "label": "Butte County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 206
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 95
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2344
+        }
+      ]
+    },
+    "Camas County, Idaho": {
+      "label": "Camas County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 164
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 47
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 880
+        }
+      ]
+    },
+    "Canyon County, Idaho": {
+      "label": "Canyon County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 654
+        },
+        {
+          "label": "Asian",
+          "value": 1927
+        },
+        {
+          "label": "Black or African American",
+          "value": 1488
+        },
+        {
+          "label": "Hispanic",
+          "value": 62458
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 414
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9492
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 164019
+        }
+      ]
+    },
+    "Caribou County, Idaho": {
+      "label": "Caribou County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 399
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 242
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6462
+        }
+      ]
+    },
+    "Cassia County, Idaho": {
+      "label": "Cassia County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 47
+        },
+        {
+          "label": "Asian",
+          "value": 74
+        },
+        {
+          "label": "Black or African American",
+          "value": 21
+        },
+        {
+          "label": "Hispanic",
+          "value": 7408
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 894
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16420
+        }
+      ]
+    },
+    "Clark County, Idaho": {
+      "label": "Clark County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 238
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 460
+        }
+      ]
+    },
+    "Clearwater County, Idaho": {
+      "label": "Clearwater County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 113
+        },
+        {
+          "label": "Asian",
+          "value": 87
+        },
+        {
+          "label": "Black or African American",
+          "value": 18
+        },
+        {
+          "label": "Hispanic",
+          "value": 379
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 390
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7890
+        }
+      ]
+    },
+    "Custer County, Idaho": {
+      "label": "Custer County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 117
+        },
+        {
+          "label": "Black or African American",
+          "value": 12
+        },
+        {
+          "label": "Hispanic",
+          "value": 131
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 168
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3944
+        }
+      ]
+    },
+    "Elmore County, Idaho": {
+      "label": "Elmore County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 176
+        },
+        {
+          "label": "Asian",
+          "value": 783
+        },
+        {
+          "label": "Black or African American",
+          "value": 793
+        },
+        {
+          "label": "Hispanic",
+          "value": 5223
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 103
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1328
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20492
+        }
+      ]
+    },
+    "Franklin County, Idaho": {
+      "label": "Franklin County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 21
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 1073
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 17
+        },
+        {
+          "label": "Two or More Races",
+          "value": 329
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13208
+        }
+      ]
+    },
+    "Fremont County, Idaho": {
+      "label": "Fremont County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 117
+        },
+        {
+          "label": "Asian",
+          "value": 7
+        },
+        {
+          "label": "Black or African American",
+          "value": 39
+        },
+        {
+          "label": "Hispanic",
+          "value": 1656
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 221
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11440
+        }
+      ]
+    },
+    "Gem County, Idaho": {
+      "label": "Gem County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 77
+        },
+        {
+          "label": "Asian",
+          "value": 46
+        },
+        {
+          "label": "Black or African American",
+          "value": 37
+        },
+        {
+          "label": "Hispanic",
+          "value": 1852
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 987
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16679
+        }
+      ]
+    },
+    "Gooding County, Idaho": {
+      "label": "Gooding County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 244
+        },
+        {
+          "label": "Asian",
+          "value": 116
+        },
+        {
+          "label": "Black or African American",
+          "value": 10
+        },
+        {
+          "label": "Hispanic",
+          "value": 4876
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 388
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10084
+        }
+      ]
+    },
+    "Idaho County, Idaho": {
+      "label": "Idaho County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 389
+        },
+        {
+          "label": "Asian",
+          "value": 85
+        },
+        {
+          "label": "Black or African American",
+          "value": 16
+        },
+        {
+          "label": "Hispanic",
+          "value": 649
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 589
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15385
+        }
+      ]
+    },
+    "Jefferson County, Idaho": {
+      "label": "Jefferson County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 180
+        },
+        {
+          "label": "Asian",
+          "value": 21
+        },
+        {
+          "label": "Black or African American",
+          "value": 19
+        },
+        {
+          "label": "Hispanic",
+          "value": 3485
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 719
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27745
+        }
+      ]
+    },
+    "Jerome County, Idaho": {
+      "label": "Jerome County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 27
+        },
+        {
+          "label": "Black or African American",
+          "value": 23
+        },
+        {
+          "label": "Hispanic",
+          "value": 9532
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 25
+        },
+        {
+          "label": "Two or More Races",
+          "value": 852
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14261
+        }
+      ]
+    },
+    "Kootenai County, Idaho": {
+      "label": "Kootenai County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1278
+        },
+        {
+          "label": "Asian",
+          "value": 1337
+        },
+        {
+          "label": "Black or African American",
+          "value": 533
+        },
+        {
+          "label": "Hispanic",
+          "value": 9663
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 52
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10400
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 153384
+        }
+      ]
+    },
+    "Latah County, Idaho": {
+      "label": "Latah County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 219
+        },
+        {
+          "label": "Asian",
+          "value": 833
+        },
+        {
+          "label": "Black or African American",
+          "value": 420
+        },
+        {
+          "label": "Hispanic",
+          "value": 2057
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 86
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2005
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 34506
+        }
+      ]
+    },
+    "Lemhi County, Idaho": {
+      "label": "Lemhi County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 63
+        },
+        {
+          "label": "Asian",
+          "value": 6
+        },
+        {
+          "label": "Black or African American",
+          "value": 1
+        },
+        {
+          "label": "Hispanic",
+          "value": 148
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 27
+        },
+        {
+          "label": "Two or More Races",
+          "value": 381
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7488
+        }
+      ]
+    },
+    "Lewis County, Idaho": {
+      "label": "Lewis County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 53
+        },
+        {
+          "label": "Asian",
+          "value": 33
+        },
+        {
+          "label": "Black or African American",
+          "value": 62
+        },
+        {
+          "label": "Hispanic",
+          "value": 148
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 322
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3000
+        }
+      ]
+    },
+    "Lincoln County, Idaho": {
+      "label": "Lincoln County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 23
+        },
+        {
+          "label": "Black or African American",
+          "value": 34
+        },
+        {
+          "label": "Hispanic",
+          "value": 1689
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 149
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3339
+        }
+      ]
+    },
+    "Madison County, Idaho": {
+      "label": "Madison County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 163
+        },
+        {
+          "label": "Asian",
+          "value": 772
+        },
+        {
+          "label": "Black or African American",
+          "value": 492
+        },
+        {
+          "label": "Hispanic",
+          "value": 5203
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 186
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1304
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 45271
+        }
+      ]
+    },
+    "Minidoka County, Idaho": {
+      "label": "Minidoka County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 133
+        },
+        {
+          "label": "Asian",
+          "value": 48
+        },
+        {
+          "label": "Black or African American",
+          "value": 67
+        },
+        {
+          "label": "Hispanic",
+          "value": 8042
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 520
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13084
+        }
+      ]
+    },
+    "Nez Perce County, Idaho": {
+      "label": "Nez Perce County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1832
+        },
+        {
+          "label": "Asian",
+          "value": 353
+        },
+        {
+          "label": "Black or African American",
+          "value": 31
+        },
+        {
+          "label": "Hispanic",
+          "value": 1813
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 92
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1641
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 36579
+        }
+      ]
+    },
+    "Oneida County, Idaho": {
+      "label": "Oneida County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 17
+        },
+        {
+          "label": "Hispanic",
+          "value": 204
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 100
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4318
+        }
+      ]
+    },
+    "Owyhee County, Idaho": {
+      "label": "Owyhee County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 327
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 59
+        },
+        {
+          "label": "Hispanic",
+          "value": 3049
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 319
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8461
+        }
+      ]
+    },
+    "Payette County, Idaho": {
+      "label": "Payette County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 83
+        },
+        {
+          "label": "Asian",
+          "value": 140
+        },
+        {
+          "label": "Black or African American",
+          "value": 22
+        },
+        {
+          "label": "Hispanic",
+          "value": 4589
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1120
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19990
+        }
+      ]
+    },
+    "Power County, Idaho": {
+      "label": "Power County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 76
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 72
+        },
+        {
+          "label": "Hispanic",
+          "value": 2710
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 270
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4886
+        }
+      ]
+    },
+    "Shoshone County, Idaho": {
+      "label": "Shoshone County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 132
+        },
+        {
+          "label": "Asian",
+          "value": 40
+        },
+        {
+          "label": "Black or African American",
+          "value": 127
+        },
+        {
+          "label": "Hispanic",
+          "value": 537
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 31
+        },
+        {
+          "label": "Two or More Races",
+          "value": 575
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12126
+        }
+      ]
+    },
+    "Teton County, Idaho": {
+      "label": "Teton County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 73
+        },
+        {
+          "label": "Asian",
+          "value": 6
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 2069
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 301
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9652
+        }
+      ]
+    },
+    "Twin Falls County, Idaho": {
+      "label": "Twin Falls County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 195
+        },
+        {
+          "label": "Asian",
+          "value": 1194
+        },
+        {
+          "label": "Black or African American",
+          "value": 629
+        },
+        {
+          "label": "Hispanic",
+          "value": 16150
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 265
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3213
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 70169
+        }
+      ]
+    },
+    "Valley County, Idaho": {
+      "label": "Valley County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 7
+        },
+        {
+          "label": "Black or African American",
+          "value": 6
+        },
+        {
+          "label": "Hispanic",
+          "value": 619
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 80
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11403
+        }
+      ]
+    },
+    "Washington County, Idaho": {
+      "label": "Washington County, Idaho",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 24
+        },
+        {
+          "label": "Black or African American",
+          "value": 12
+        },
+        {
+          "label": "Hispanic",
+          "value": 1741
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 25
+        },
+        {
+          "label": "Two or More Races",
+          "value": 489
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8535
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2942 @@
+{
+  "state": "Adams County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7359
+        },
+        {
+          "label": "Asian",
+          "value": 286098
+        },
+        {
+          "label": "Black or African American",
+          "value": 1428392
+        },
+        {
+          "label": "Hispanic",
+          "value": 537559
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3655
+        },
+        {
+          "label": "Two or More Races",
+          "value": 461069
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9011101
+        }
+      ]
+    },
+    "Adams County, Ohio": {
+      "label": "Adams County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 35
+        },
+        {
+          "label": "Asian",
+          "value": 111
+        },
+        {
+          "label": "Black or African American",
+          "value": 91
+        },
+        {
+          "label": "Hispanic",
+          "value": 245
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 596
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26387
+        }
+      ]
+    },
+    "Allen County, Ohio": {
+      "label": "Allen County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 80
+        },
+        {
+          "label": "Asian",
+          "value": 906
+        },
+        {
+          "label": "Black or African American",
+          "value": 10765
+        },
+        {
+          "label": "Hispanic",
+          "value": 3501
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5110
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 80958
+        }
+      ]
+    },
+    "Ashland County, Ohio": {
+      "label": "Ashland County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 34
+        },
+        {
+          "label": "Asian",
+          "value": 291
+        },
+        {
+          "label": "Black or African American",
+          "value": 598
+        },
+        {
+          "label": "Hispanic",
+          "value": 886
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1054
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 49291
+        }
+      ]
+    },
+    "Ashtabula County, Ohio": {
+      "label": "Ashtabula County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 46
+        },
+        {
+          "label": "Asian",
+          "value": 358
+        },
+        {
+          "label": "Black or African American",
+          "value": 3621
+        },
+        {
+          "label": "Hispanic",
+          "value": 4673
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 40
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3500
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 84865
+        }
+      ]
+    },
+    "Athens County, Ohio": {
+      "label": "Athens County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 38
+        },
+        {
+          "label": "Asian",
+          "value": 1293
+        },
+        {
+          "label": "Black or African American",
+          "value": 1526
+        },
+        {
+          "label": "Hispanic",
+          "value": 1380
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2365
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 54895
+        }
+      ]
+    },
+    "Auglaize County, Ohio": {
+      "label": "Auglaize County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 150
+        },
+        {
+          "label": "Black or African American",
+          "value": 410
+        },
+        {
+          "label": "Hispanic",
+          "value": 828
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 989
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 43789
+        }
+      ]
+    },
+    "Belmont County, Ohio": {
+      "label": "Belmont County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 35
+        },
+        {
+          "label": "Asian",
+          "value": 381
+        },
+        {
+          "label": "Black or African American",
+          "value": 2031
+        },
+        {
+          "label": "Hispanic",
+          "value": 837
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 31
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2519
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 60091
+        }
+      ]
+    },
+    "Brown County, Ohio": {
+      "label": "Brown County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 84
+        },
+        {
+          "label": "Black or African American",
+          "value": 338
+        },
+        {
+          "label": "Hispanic",
+          "value": 529
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1131
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 41592
+        }
+      ]
+    },
+    "Butler County, Ohio": {
+      "label": "Butler County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 109
+        },
+        {
+          "label": "Asian",
+          "value": 15906
+        },
+        {
+          "label": "Black or African American",
+          "value": 32017
+        },
+        {
+          "label": "Hispanic",
+          "value": 25823
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 192
+        },
+        {
+          "label": "Two or More Races",
+          "value": 18660
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 295873
+        }
+      ]
+    },
+    "Carroll County, Ohio": {
+      "label": "Carroll County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 195
+        },
+        {
+          "label": "Hispanic",
+          "value": 337
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 752
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25360
+        }
+      ]
+    },
+    "Champaign County, Ohio": {
+      "label": "Champaign County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 71
+        },
+        {
+          "label": "Asian",
+          "value": 152
+        },
+        {
+          "label": "Black or African American",
+          "value": 661
+        },
+        {
+          "label": "Hispanic",
+          "value": 683
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1297
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 35696
+        }
+      ]
+    },
+    "Clark County, Ohio": {
+      "label": "Clark County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 48
+        },
+        {
+          "label": "Asian",
+          "value": 843
+        },
+        {
+          "label": "Black or African American",
+          "value": 11087
+        },
+        {
+          "label": "Hispanic",
+          "value": 5481
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 100
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5976
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 111574
+        }
+      ]
+    },
+    "Clermont County, Ohio": {
+      "label": "Clermont County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 73
+        },
+        {
+          "label": "Asian",
+          "value": 2207
+        },
+        {
+          "label": "Black or African American",
+          "value": 3116
+        },
+        {
+          "label": "Hispanic",
+          "value": 5131
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6801
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 191667
+        }
+      ]
+    },
+    "Clinton County, Ohio": {
+      "label": "Clinton County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 298
+        },
+        {
+          "label": "Black or African American",
+          "value": 750
+        },
+        {
+          "label": "Hispanic",
+          "value": 869
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1258
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 38701
+        }
+      ]
+    },
+    "Columbiana County, Ohio": {
+      "label": "Columbiana County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 36
+        },
+        {
+          "label": "Asian",
+          "value": 363
+        },
+        {
+          "label": "Black or African American",
+          "value": 1864
+        },
+        {
+          "label": "Hispanic",
+          "value": 1871
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 90
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2980
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 93633
+        }
+      ]
+    },
+    "Coshocton County, Ohio": {
+      "label": "Coshocton County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 40
+        },
+        {
+          "label": "Asian",
+          "value": 155
+        },
+        {
+          "label": "Black or African American",
+          "value": 257
+        },
+        {
+          "label": "Hispanic",
+          "value": 94
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1339
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 34708
+        }
+      ]
+    },
+    "Crawford County, Ohio": {
+      "label": "Crawford County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 312
+        },
+        {
+          "label": "Black or African American",
+          "value": 354
+        },
+        {
+          "label": "Hispanic",
+          "value": 724
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 923
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 39425
+        }
+      ]
+    },
+    "Cuyahoga County, Ohio": {
+      "label": "Cuyahoga County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 944
+        },
+        {
+          "label": "Asian",
+          "value": 40272
+        },
+        {
+          "label": "Black or African American",
+          "value": 357473
+        },
+        {
+          "label": "Hispanic",
+          "value": 84864
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 250
+        },
+        {
+          "label": "Two or More Races",
+          "value": 46880
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 712578
+        }
+      ]
+    },
+    "Darke County, Ohio": {
+      "label": "Darke County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 22
+        },
+        {
+          "label": "Asian",
+          "value": 228
+        },
+        {
+          "label": "Black or African American",
+          "value": 283
+        },
+        {
+          "label": "Hispanic",
+          "value": 924
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1038
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 49111
+        }
+      ]
+    },
+    "Defiance County, Ohio": {
+      "label": "Defiance County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 40
+        },
+        {
+          "label": "Asian",
+          "value": 96
+        },
+        {
+          "label": "Black or African American",
+          "value": 553
+        },
+        {
+          "label": "Hispanic",
+          "value": 4096
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 841
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32612
+        }
+      ]
+    },
+    "Delaware County, Ohio": {
+      "label": "Delaware County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 80
+        },
+        {
+          "label": "Asian",
+          "value": 17424
+        },
+        {
+          "label": "Black or African American",
+          "value": 9067
+        },
+        {
+          "label": "Hispanic",
+          "value": 7373
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 73
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8465
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 177829
+        }
+      ]
+    },
+    "Erie County, Ohio": {
+      "label": "Erie County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 85
+        },
+        {
+          "label": "Asian",
+          "value": 513
+        },
+        {
+          "label": "Black or African American",
+          "value": 6218
+        },
+        {
+          "label": "Hispanic",
+          "value": 3299
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 14
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3639
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 60555
+        }
+      ]
+    },
+    "Fairfield County, Ohio": {
+      "label": "Fairfield County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 80
+        },
+        {
+          "label": "Asian",
+          "value": 4119
+        },
+        {
+          "label": "Black or African American",
+          "value": 14297
+        },
+        {
+          "label": "Hispanic",
+          "value": 4294
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 147
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5790
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 132227
+        }
+      ]
+    },
+    "Fayette County, Ohio": {
+      "label": "Fayette County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 108
+        },
+        {
+          "label": "Black or African American",
+          "value": 712
+        },
+        {
+          "label": "Hispanic",
+          "value": 699
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 17
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1028
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26264
+        }
+      ]
+    },
+    "Franklin County, Ohio": {
+      "label": "Franklin County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 732
+        },
+        {
+          "label": "Asian",
+          "value": 71045
+        },
+        {
+          "label": "Black or African American",
+          "value": 301697
+        },
+        {
+          "label": "Hispanic",
+          "value": 93630
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 487
+        },
+        {
+          "label": "Two or More Races",
+          "value": 67163
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 780620
+        }
+      ]
+    },
+    "Fulton County, Ohio": {
+      "label": "Fulton County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 138
+        },
+        {
+          "label": "Black or African American",
+          "value": 158
+        },
+        {
+          "label": "Hispanic",
+          "value": 3873
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 906
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 37203
+        }
+      ]
+    },
+    "Gallia County, Ohio": {
+      "label": "Gallia County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 241
+        },
+        {
+          "label": "Black or African American",
+          "value": 569
+        },
+        {
+          "label": "Hispanic",
+          "value": 300
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 776
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26873
+        }
+      ]
+    },
+    "Geauga County, Ohio": {
+      "label": "Geauga County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 32
+        },
+        {
+          "label": "Asian",
+          "value": 502
+        },
+        {
+          "label": "Black or African American",
+          "value": 897
+        },
+        {
+          "label": "Hispanic",
+          "value": 1775
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2941
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 88951
+        }
+      ]
+    },
+    "Greene County, Ohio": {
+      "label": "Greene County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 126
+        },
+        {
+          "label": "Asian",
+          "value": 4782
+        },
+        {
+          "label": "Black or African American",
+          "value": 9719
+        },
+        {
+          "label": "Hispanic",
+          "value": 5418
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 118
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9474
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 137754
+        }
+      ]
+    },
+    "Guernsey County, Ohio": {
+      "label": "Guernsey County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 189
+        },
+        {
+          "label": "Black or African American",
+          "value": 617
+        },
+        {
+          "label": "Hispanic",
+          "value": 491
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1053
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 35755
+        }
+      ]
+    },
+    "Hamilton County, Ohio": {
+      "label": "Hamilton County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 368
+        },
+        {
+          "label": "Asian",
+          "value": 22355
+        },
+        {
+          "label": "Black or African American",
+          "value": 206456
+        },
+        {
+          "label": "Hispanic",
+          "value": 37415
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 500
+        },
+        {
+          "label": "Two or More Races",
+          "value": 35166
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 521063
+        }
+      ]
+    },
+    "Hancock County, Ohio": {
+      "label": "Hancock County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 53
+        },
+        {
+          "label": "Asian",
+          "value": 1436
+        },
+        {
+          "label": "Black or African American",
+          "value": 1347
+        },
+        {
+          "label": "Hispanic",
+          "value": 4389
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 15
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1962
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 65545
+        }
+      ]
+    },
+    "Hardin County, Ohio": {
+      "label": "Hardin County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 245
+        },
+        {
+          "label": "Black or African American",
+          "value": 344
+        },
+        {
+          "label": "Hispanic",
+          "value": 701
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 735
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28378
+        }
+      ]
+    },
+    "Harrison County, Ohio": {
+      "label": "Harrison County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 411
+        },
+        {
+          "label": "Hispanic",
+          "value": 162
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 270
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13549
+        }
+      ]
+    },
+    "Henry County, Ohio": {
+      "label": "Henry County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 34
+        },
+        {
+          "label": "Asian",
+          "value": 32
+        },
+        {
+          "label": "Black or African American",
+          "value": 169
+        },
+        {
+          "label": "Hispanic",
+          "value": 2232
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 32
+        },
+        {
+          "label": "Two or More Races",
+          "value": 558
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24190
+        }
+      ]
+    },
+    "Highland County, Ohio": {
+      "label": "Highland County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 36
+        },
+        {
+          "label": "Black or African American",
+          "value": 509
+        },
+        {
+          "label": "Hispanic",
+          "value": 492
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1253
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 41055
+        }
+      ]
+    },
+    "Hocking County, Ohio": {
+      "label": "Hocking County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 90
+        },
+        {
+          "label": "Black or African American",
+          "value": 102
+        },
+        {
+          "label": "Hispanic",
+          "value": 260
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 904
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26306
+        }
+      ]
+    },
+    "Holmes County, Ohio": {
+      "label": "Holmes County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 46
+        },
+        {
+          "label": "Asian",
+          "value": 79
+        },
+        {
+          "label": "Black or African American",
+          "value": 70
+        },
+        {
+          "label": "Hispanic",
+          "value": 469
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 408
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 43163
+        }
+      ]
+    },
+    "Huron County, Ohio": {
+      "label": "Huron County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 205
+        },
+        {
+          "label": "Black or African American",
+          "value": 368
+        },
+        {
+          "label": "Hispanic",
+          "value": 4177
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1961
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 51392
+        }
+      ]
+    },
+    "Jackson County, Ohio": {
+      "label": "Jackson County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 118
+        },
+        {
+          "label": "Asian",
+          "value": 187
+        },
+        {
+          "label": "Black or African American",
+          "value": 324
+        },
+        {
+          "label": "Hispanic",
+          "value": 318
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 493
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 31146
+        }
+      ]
+    },
+    "Jefferson County, Ohio": {
+      "label": "Jefferson County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 27
+        },
+        {
+          "label": "Asian",
+          "value": 360
+        },
+        {
+          "label": "Black or African American",
+          "value": 3484
+        },
+        {
+          "label": "Hispanic",
+          "value": 1180
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1966
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 57636
+        }
+      ]
+    },
+    "Knox County, Ohio": {
+      "label": "Knox County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 432
+        },
+        {
+          "label": "Black or African American",
+          "value": 581
+        },
+        {
+          "label": "Hispanic",
+          "value": 1233
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1725
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 58623
+        }
+      ]
+    },
+    "Lake County, Ohio": {
+      "label": "Lake County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 175
+        },
+        {
+          "label": "Asian",
+          "value": 3314
+        },
+        {
+          "label": "Black or African American",
+          "value": 10665
+        },
+        {
+          "label": "Hispanic",
+          "value": 11833
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 87
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8075
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 197296
+        }
+      ]
+    },
+    "Lawrence County, Ohio": {
+      "label": "Lawrence County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 339
+        },
+        {
+          "label": "Black or African American",
+          "value": 959
+        },
+        {
+          "label": "Hispanic",
+          "value": 616
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 26
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1422
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 53816
+        }
+      ]
+    },
+    "Licking County, Ohio": {
+      "label": "Licking County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 39
+        },
+        {
+          "label": "Asian",
+          "value": 5664
+        },
+        {
+          "label": "Black or African American",
+          "value": 7194
+        },
+        {
+          "label": "Hispanic",
+          "value": 4223
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 52
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6727
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 155445
+        }
+      ]
+    },
+    "Logan County, Ohio": {
+      "label": "Logan County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 45
+        },
+        {
+          "label": "Asian",
+          "value": 278
+        },
+        {
+          "label": "Black or African American",
+          "value": 795
+        },
+        {
+          "label": "Hispanic",
+          "value": 1044
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 20
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1452
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 42420
+        }
+      ]
+    },
+    "Lorain County, Ohio": {
+      "label": "Lorain County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 242
+        },
+        {
+          "label": "Asian",
+          "value": 4043
+        },
+        {
+          "label": "Black or African American",
+          "value": 22629
+        },
+        {
+          "label": "Hispanic",
+          "value": 33992
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 13615
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 239348
+        }
+      ]
+    },
+    "Lucas County, Ohio": {
+      "label": "Lucas County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 241
+        },
+        {
+          "label": "Asian",
+          "value": 7386
+        },
+        {
+          "label": "Black or African American",
+          "value": 81967
+        },
+        {
+          "label": "Hispanic",
+          "value": 32860
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 168
+        },
+        {
+          "label": "Two or More Races",
+          "value": 18873
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 285836
+        }
+      ]
+    },
+    "Madison County, Ohio": {
+      "label": "Madison County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 80
+        },
+        {
+          "label": "Asian",
+          "value": 386
+        },
+        {
+          "label": "Black or African American",
+          "value": 2064
+        },
+        {
+          "label": "Hispanic",
+          "value": 1300
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1963
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 38171
+        }
+      ]
+    },
+    "Mahoning County, Ohio": {
+      "label": "Mahoning County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 129
+        },
+        {
+          "label": "Asian",
+          "value": 2087
+        },
+        {
+          "label": "Black or African American",
+          "value": 31396
+        },
+        {
+          "label": "Hispanic",
+          "value": 14765
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 47
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8895
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 168753
+        }
+      ]
+    },
+    "Marion County, Ohio": {
+      "label": "Marion County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 27
+        },
+        {
+          "label": "Asian",
+          "value": 385
+        },
+        {
+          "label": "Black or African American",
+          "value": 3187
+        },
+        {
+          "label": "Hispanic",
+          "value": 2034
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 13
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2762
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 56426
+        }
+      ]
+    },
+    "Medina County, Ohio": {
+      "label": "Medina County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 95
+        },
+        {
+          "label": "Asian",
+          "value": 1777
+        },
+        {
+          "label": "Black or African American",
+          "value": 2292
+        },
+        {
+          "label": "Hispanic",
+          "value": 4803
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 15
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5705
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 168080
+        }
+      ]
+    },
+    "Meigs County, Ohio": {
+      "label": "Meigs County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 53
+        },
+        {
+          "label": "Black or African American",
+          "value": 132
+        },
+        {
+          "label": "Hispanic",
+          "value": 199
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 472
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21199
+        }
+      ]
+    },
+    "Mercer County, Ohio": {
+      "label": "Mercer County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 213
+        },
+        {
+          "label": "Black or African American",
+          "value": 257
+        },
+        {
+          "label": "Hispanic",
+          "value": 922
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 17
+        },
+        {
+          "label": "Two or More Races",
+          "value": 964
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 40045
+        }
+      ]
+    },
+    "Miami County, Ohio": {
+      "label": "Miami County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 22
+        },
+        {
+          "label": "Asian",
+          "value": 1861
+        },
+        {
+          "label": "Black or African American",
+          "value": 2168
+        },
+        {
+          "label": "Hispanic",
+          "value": 2294
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3750
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 99167
+        }
+      ]
+    },
+    "Monroe County, Ohio": {
+      "label": "Monroe County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 70
+        },
+        {
+          "label": "Black or African American",
+          "value": 70
+        },
+        {
+          "label": "Hispanic",
+          "value": 24
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 396
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12700
+        }
+      ]
+    },
+    "Montgomery County, Ohio": {
+      "label": "Montgomery County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 406
+        },
+        {
+          "label": "Asian",
+          "value": 11570
+        },
+        {
+          "label": "Black or African American",
+          "value": 109243
+        },
+        {
+          "label": "Hispanic",
+          "value": 21691
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 97
+        },
+        {
+          "label": "Two or More Races",
+          "value": 25056
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 365542
+        }
+      ]
+    },
+    "Morgan County, Ohio": {
+      "label": "Morgan County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 23
+        },
+        {
+          "label": "Black or African American",
+          "value": 417
+        },
+        {
+          "label": "Hispanic",
+          "value": 146
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 579
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12482
+        }
+      ]
+    },
+    "Morrow County, Ohio": {
+      "label": "Morrow County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 32
+        },
+        {
+          "label": "Asian",
+          "value": 119
+        },
+        {
+          "label": "Black or African American",
+          "value": 188
+        },
+        {
+          "label": "Hispanic",
+          "value": 641
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 807
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33333
+        }
+      ]
+    },
+    "Muskingum County, Ohio": {
+      "label": "Muskingum County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 54
+        },
+        {
+          "label": "Asian",
+          "value": 461
+        },
+        {
+          "label": "Black or African American",
+          "value": 2707
+        },
+        {
+          "label": "Hispanic",
+          "value": 1111
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3430
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 78276
+        }
+      ]
+    },
+    "Noble County, Ohio": {
+      "label": "Noble County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 571
+        },
+        {
+          "label": "Hispanic",
+          "value": 181
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 146
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13329
+        }
+      ]
+    },
+    "Ottawa County, Ohio": {
+      "label": "Ottawa County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 39
+        },
+        {
+          "label": "Asian",
+          "value": 133
+        },
+        {
+          "label": "Black or African American",
+          "value": 425
+        },
+        {
+          "label": "Hispanic",
+          "value": 2093
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 895
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 36507
+        }
+      ]
+    },
+    "Paulding County, Ohio": {
+      "label": "Paulding County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 48
+        },
+        {
+          "label": "Black or African American",
+          "value": 149
+        },
+        {
+          "label": "Hispanic",
+          "value": 1043
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 478
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17054
+        }
+      ]
+    },
+    "Perry County, Ohio": {
+      "label": "Perry County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 24
+        },
+        {
+          "label": "Asian",
+          "value": 41
+        },
+        {
+          "label": "Black or African American",
+          "value": 80
+        },
+        {
+          "label": "Hispanic",
+          "value": 288
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1008
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33977
+        }
+      ]
+    },
+    "Pickaway County, Ohio": {
+      "label": "Pickaway County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 67
+        },
+        {
+          "label": "Asian",
+          "value": 166
+        },
+        {
+          "label": "Black or African American",
+          "value": 1717
+        },
+        {
+          "label": "Hispanic",
+          "value": 1046
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2114
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 54277
+        }
+      ]
+    },
+    "Pike County, Ohio": {
+      "label": "Pike County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 90
+        },
+        {
+          "label": "Black or African American",
+          "value": 289
+        },
+        {
+          "label": "Hispanic",
+          "value": 164
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 128
+        },
+        {
+          "label": "Two or More Races",
+          "value": 762
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25624
+        }
+      ]
+    },
+    "Portage County, Ohio": {
+      "label": "Portage County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 77
+        },
+        {
+          "label": "Asian",
+          "value": 2788
+        },
+        {
+          "label": "Black or African American",
+          "value": 7478
+        },
+        {
+          "label": "Hispanic",
+          "value": 3591
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 13
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6737
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 140163
+        }
+      ]
+    },
+    "Preble County, Ohio": {
+      "label": "Preble County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 60
+        },
+        {
+          "label": "Black or African American",
+          "value": 321
+        },
+        {
+          "label": "Hispanic",
+          "value": 441
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 997
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 38882
+        }
+      ]
+    },
+    "Putnam County, Ohio": {
+      "label": "Putnam County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 22
+        },
+        {
+          "label": "Asian",
+          "value": 62
+        },
+        {
+          "label": "Black or African American",
+          "value": 184
+        },
+        {
+          "label": "Hispanic",
+          "value": 2264
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 18
+        },
+        {
+          "label": "Two or More Races",
+          "value": 385
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 31251
+        }
+      ]
+    },
+    "Richland County, Ohio": {
+      "label": "Richland County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 96
+        },
+        {
+          "label": "Asian",
+          "value": 1072
+        },
+        {
+          "label": "Black or African American",
+          "value": 9197
+        },
+        {
+          "label": "Hispanic",
+          "value": 2757
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 147
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5687
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 105310
+        }
+      ]
+    },
+    "Ross County, Ohio": {
+      "label": "Ross County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 113
+        },
+        {
+          "label": "Asian",
+          "value": 414
+        },
+        {
+          "label": "Black or African American",
+          "value": 4094
+        },
+        {
+          "label": "Hispanic",
+          "value": 1070
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 36
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2820
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 68063
+        }
+      ]
+    },
+    "Sandusky County, Ohio": {
+      "label": "Sandusky County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 86
+        },
+        {
+          "label": "Asian",
+          "value": 236
+        },
+        {
+          "label": "Black or African American",
+          "value": 1760
+        },
+        {
+          "label": "Hispanic",
+          "value": 6247
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1756
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 48458
+        }
+      ]
+    },
+    "Scioto County, Ohio": {
+      "label": "Scioto County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 58
+        },
+        {
+          "label": "Asian",
+          "value": 356
+        },
+        {
+          "label": "Black or African American",
+          "value": 1759
+        },
+        {
+          "label": "Hispanic",
+          "value": 1093
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 18
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2204
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 67520
+        }
+      ]
+    },
+    "Seneca County, Ohio": {
+      "label": "Seneca County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 58
+        },
+        {
+          "label": "Asian",
+          "value": 303
+        },
+        {
+          "label": "Black or African American",
+          "value": 1446
+        },
+        {
+          "label": "Hispanic",
+          "value": 3031
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1385
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 48467
+        }
+      ]
+    },
+    "Shelby County, Ohio": {
+      "label": "Shelby County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 374
+        },
+        {
+          "label": "Black or African American",
+          "value": 1006
+        },
+        {
+          "label": "Hispanic",
+          "value": 807
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1537
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 44076
+        }
+      ]
+    },
+    "Stark County, Ohio": {
+      "label": "Stark County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 180
+        },
+        {
+          "label": "Asian",
+          "value": 3254
+        },
+        {
+          "label": "Black or African American",
+          "value": 27765
+        },
+        {
+          "label": "Hispanic",
+          "value": 10887
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 123
+        },
+        {
+          "label": "Two or More Races",
+          "value": 15345
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 315230
+        }
+      ]
+    },
+    "Summit County, Ohio": {
+      "label": "Summit County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 306
+        },
+        {
+          "label": "Asian",
+          "value": 21725
+        },
+        {
+          "label": "Black or African American",
+          "value": 74467
+        },
+        {
+          "label": "Hispanic",
+          "value": 13884
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 59
+        },
+        {
+          "label": "Two or More Races",
+          "value": 26354
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 399092
+        }
+      ]
+    },
+    "Trumbull County, Ohio": {
+      "label": "Trumbull County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 132
+        },
+        {
+          "label": "Asian",
+          "value": 1108
+        },
+        {
+          "label": "Black or African American",
+          "value": 15788
+        },
+        {
+          "label": "Hispanic",
+          "value": 4382
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 135
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8212
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 171353
+        }
+      ]
+    },
+    "Tuscarawas County, Ohio": {
+      "label": "Tuscarawas County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 34
+        },
+        {
+          "label": "Asian",
+          "value": 335
+        },
+        {
+          "label": "Black or African American",
+          "value": 641
+        },
+        {
+          "label": "Hispanic",
+          "value": 4070
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1755
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 85624
+        }
+      ]
+    },
+    "Union County, Ohio": {
+      "label": "Union County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 82
+        },
+        {
+          "label": "Asian",
+          "value": 3152
+        },
+        {
+          "label": "Black or African American",
+          "value": 1560
+        },
+        {
+          "label": "Hispanic",
+          "value": 1905
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2278
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 56079
+        }
+      ]
+    },
+    "Van Wert County, Ohio": {
+      "label": "Van Wert County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 115
+        },
+        {
+          "label": "Black or African American",
+          "value": 199
+        },
+        {
+          "label": "Hispanic",
+          "value": 1138
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 714
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26619
+        }
+      ]
+    },
+    "Vinton County, Ohio": {
+      "label": "Vinton County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 76
+        },
+        {
+          "label": "Hispanic",
+          "value": 11
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 408
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12191
+        }
+      ]
+    },
+    "Warren County, Ohio": {
+      "label": "Warren County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 161
+        },
+        {
+          "label": "Asian",
+          "value": 16805
+        },
+        {
+          "label": "Black or African American",
+          "value": 8088
+        },
+        {
+          "label": "Hispanic",
+          "value": 8187
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7663
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 203767
+        }
+      ]
+    },
+    "Washington County, Ohio": {
+      "label": "Washington County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 114
+        },
+        {
+          "label": "Asian",
+          "value": 390
+        },
+        {
+          "label": "Black or African American",
+          "value": 598
+        },
+        {
+          "label": "Hispanic",
+          "value": 720
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1607
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 55624
+        }
+      ]
+    },
+    "Wayne County, Ohio": {
+      "label": "Wayne County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 71
+        },
+        {
+          "label": "Asian",
+          "value": 1338
+        },
+        {
+          "label": "Black or African American",
+          "value": 1303
+        },
+        {
+          "label": "Hispanic",
+          "value": 2781
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2919
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 107875
+        }
+      ]
+    },
+    "Williams County, Ohio": {
+      "label": "Williams County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 43
+        },
+        {
+          "label": "Asian",
+          "value": 220
+        },
+        {
+          "label": "Black or African American",
+          "value": 419
+        },
+        {
+          "label": "Hispanic",
+          "value": 1934
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 13
+        },
+        {
+          "label": "Two or More Races",
+          "value": 572
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33557
+        }
+      ]
+    },
+    "Wood County, Ohio": {
+      "label": "Wood County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 196
+        },
+        {
+          "label": "Asian",
+          "value": 2543
+        },
+        {
+          "label": "Black or African American",
+          "value": 2530
+        },
+        {
+          "label": "Hispanic",
+          "value": 8425
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 169
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4243
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 113449
+        }
+      ]
+    },
+    "Wyandot County, Ohio": {
+      "label": "Wyandot County, Ohio",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 46
+        },
+        {
+          "label": "Hispanic",
+          "value": 665
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 500
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20465
+        }
+      ]
+    }
+  }
+}

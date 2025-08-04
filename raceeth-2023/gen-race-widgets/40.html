@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 40</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Adair County, Oklahoma">Adair County, Oklahoma</option>
+<option value="Alfalfa County, Oklahoma">Alfalfa County, Oklahoma</option>
+<option value="Atoka County, Oklahoma">Atoka County, Oklahoma</option>
+<option value="Beaver County, Oklahoma">Beaver County, Oklahoma</option>
+<option value="Beckham County, Oklahoma">Beckham County, Oklahoma</option>
+<option value="Blaine County, Oklahoma">Blaine County, Oklahoma</option>
+<option value="Bryan County, Oklahoma">Bryan County, Oklahoma</option>
+<option value="Caddo County, Oklahoma">Caddo County, Oklahoma</option>
+<option value="Canadian County, Oklahoma">Canadian County, Oklahoma</option>
+<option value="Carter County, Oklahoma">Carter County, Oklahoma</option>
+<option value="Cherokee County, Oklahoma">Cherokee County, Oklahoma</option>
+<option value="Choctaw County, Oklahoma">Choctaw County, Oklahoma</option>
+<option value="Cimarron County, Oklahoma">Cimarron County, Oklahoma</option>
+<option value="Cleveland County, Oklahoma">Cleveland County, Oklahoma</option>
+<option value="Coal County, Oklahoma">Coal County, Oklahoma</option>
+<option value="Comanche County, Oklahoma">Comanche County, Oklahoma</option>
+<option value="Cotton County, Oklahoma">Cotton County, Oklahoma</option>
+<option value="Craig County, Oklahoma">Craig County, Oklahoma</option>
+<option value="Creek County, Oklahoma">Creek County, Oklahoma</option>
+<option value="Custer County, Oklahoma">Custer County, Oklahoma</option>
+<option value="Delaware County, Oklahoma">Delaware County, Oklahoma</option>
+<option value="Dewey County, Oklahoma">Dewey County, Oklahoma</option>
+<option value="Ellis County, Oklahoma">Ellis County, Oklahoma</option>
+<option value="Garfield County, Oklahoma">Garfield County, Oklahoma</option>
+<option value="Garvin County, Oklahoma">Garvin County, Oklahoma</option>
+<option value="Grady County, Oklahoma">Grady County, Oklahoma</option>
+<option value="Grant County, Oklahoma">Grant County, Oklahoma</option>
+<option value="Greer County, Oklahoma">Greer County, Oklahoma</option>
+<option value="Harmon County, Oklahoma">Harmon County, Oklahoma</option>
+<option value="Harper County, Oklahoma">Harper County, Oklahoma</option>
+<option value="Haskell County, Oklahoma">Haskell County, Oklahoma</option>
+<option value="Hughes County, Oklahoma">Hughes County, Oklahoma</option>
+<option value="Jackson County, Oklahoma">Jackson County, Oklahoma</option>
+<option value="Jefferson County, Oklahoma">Jefferson County, Oklahoma</option>
+<option value="Johnston County, Oklahoma">Johnston County, Oklahoma</option>
+<option value="Kay County, Oklahoma">Kay County, Oklahoma</option>
+<option value="Kingfisher County, Oklahoma">Kingfisher County, Oklahoma</option>
+<option value="Kiowa County, Oklahoma">Kiowa County, Oklahoma</option>
+<option value="Latimer County, Oklahoma">Latimer County, Oklahoma</option>
+<option value="Le Flore County, Oklahoma">Le Flore County, Oklahoma</option>
+<option value="Lincoln County, Oklahoma">Lincoln County, Oklahoma</option>
+<option value="Logan County, Oklahoma">Logan County, Oklahoma</option>
+<option value="Love County, Oklahoma">Love County, Oklahoma</option>
+<option value="Major County, Oklahoma">Major County, Oklahoma</option>
+<option value="Marshall County, Oklahoma">Marshall County, Oklahoma</option>
+<option value="Mayes County, Oklahoma">Mayes County, Oklahoma</option>
+<option value="McClain County, Oklahoma">McClain County, Oklahoma</option>
+<option value="McCurtain County, Oklahoma">McCurtain County, Oklahoma</option>
+<option value="McIntosh County, Oklahoma">McIntosh County, Oklahoma</option>
+<option value="Murray County, Oklahoma">Murray County, Oklahoma</option>
+<option value="Muskogee County, Oklahoma">Muskogee County, Oklahoma</option>
+<option value="Noble County, Oklahoma">Noble County, Oklahoma</option>
+<option value="Nowata County, Oklahoma">Nowata County, Oklahoma</option>
+<option value="Okfuskee County, Oklahoma">Okfuskee County, Oklahoma</option>
+<option value="Oklahoma County, Oklahoma">Oklahoma County, Oklahoma</option>
+<option value="Okmulgee County, Oklahoma">Okmulgee County, Oklahoma</option>
+<option value="Osage County, Oklahoma">Osage County, Oklahoma</option>
+<option value="Ottawa County, Oklahoma">Ottawa County, Oklahoma</option>
+<option value="Pawnee County, Oklahoma">Pawnee County, Oklahoma</option>
+<option value="Payne County, Oklahoma">Payne County, Oklahoma</option>
+<option value="Pittsburg County, Oklahoma">Pittsburg County, Oklahoma</option>
+<option value="Pontotoc County, Oklahoma">Pontotoc County, Oklahoma</option>
+<option value="Pottawatomie County, Oklahoma">Pottawatomie County, Oklahoma</option>
+<option value="Pushmataha County, Oklahoma">Pushmataha County, Oklahoma</option>
+<option value="Roger Mills County, Oklahoma">Roger Mills County, Oklahoma</option>
+<option value="Rogers County, Oklahoma">Rogers County, Oklahoma</option>
+<option value="Seminole County, Oklahoma">Seminole County, Oklahoma</option>
+<option value="Sequoyah County, Oklahoma">Sequoyah County, Oklahoma</option>
+<option value="Stephens County, Oklahoma">Stephens County, Oklahoma</option>
+<option value="Texas County, Oklahoma">Texas County, Oklahoma</option>
+<option value="Tillman County, Oklahoma">Tillman County, Oklahoma</option>
+<option value="Tulsa County, Oklahoma">Tulsa County, Oklahoma</option>
+<option value="Wagoner County, Oklahoma">Wagoner County, Oklahoma</option>
+<option value="Washington County, Oklahoma">Washington County, Oklahoma</option>
+<option value="Washita County, Oklahoma">Washita County, Oklahoma</option>
+<option value="Woods County, Oklahoma">Woods County, Oklahoma</option>
+<option value="Woodward County, Oklahoma">Woodward County, Oklahoma</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":6.79,"Asian":2.31,"Black or African American":6.88,"Hispanic":12.28,"Pacific Islander":0.16,"Two or More Races":8.47,"White (non-Hispanic)":62.82},"Adair County, Oklahoma":{"American Indian / Alaska Native":41.09,"Asian":1.31,"Black or African American":0.32,"Hispanic":6.78,"Pacific Islander":0.02,"Two or More Races":11.21,"White (non-Hispanic)":39.25},"Alfalfa County, Oklahoma":{"American Indian / Alaska Native":2.88,"Asian":0.3,"Black or African American":3.2,"Hispanic":5.84,"Pacific Islander":0.11,"Two or More Races":6.16,"White (non-Hispanic)":81.35},"Atoka County, Oklahoma":{"American Indian / Alaska Native":9.15,"Asian":0.75,"Black or African American":3.89,"Hispanic":4.24,"Pacific Islander":0.01,"Two or More Races":14.39,"White (non-Hispanic)":67.49},"Beaver County, Oklahoma":{"American Indian / Alaska Native":0.95,"Asian":0.1,"Black or African American":0.28,"Hispanic":27.4,"Pacific Islander":0,"Two or More Races":4.78,"White (non-Hispanic)":66.16},"Beckham County, Oklahoma":{"American Indian / Alaska Native":1.74,"Asian":0.84,"Black or African American":4.86,"Hispanic":13.12,"Pacific Islander":0,"Two or More Races":3.98,"White (non-Hispanic)":75.37},"Blaine County, Oklahoma":{"American Indian / Alaska Native":6.01,"Asian":0,"Black or African American":4.09,"Hispanic":11.76,"Pacific Islander":0,"Two or More Races":7.03,"White (non-Hispanic)":71.1},"Bryan County, Oklahoma":{"American Indian / Alaska Native":12.39,"Asian":0.64,"Black or African American":2.06,"Hispanic":7.65,"Pacific Islander":0.04,"Two or More Races":8.93,"White (non-Hispanic)":68.26},"Caddo County, Oklahoma":{"American Indian / Alaska Native":16.46,"Asian":0.1,"Black or African American":3.13,"Hispanic":16.41,"Pacific Islander":0,"Two or More Races":9.54,"White (non-Hispanic)":54.12},"Canadian County, Oklahoma":{"American Indian / Alaska Native":2.71,"Asian":3.11,"Black or African American":3.57,"Hispanic":11.41,"Pacific Islander":0.08,"Two or More Races":6.91,"White (non-Hispanic)":71.38},"Carter County, Oklahoma":{"American Indian / Alaska Native":6.9,"Asian":1.17,"Black or African American":5.81,"Hispanic":8.19,"Pacific Islander":0.02,"Two or More Races":10.43,"White (non-Hispanic)":67.38},"Cherokee County, Oklahoma":{"American Indian / Alaska Native":31.79,"Asian":0.87,"Black or African American":1.38,"Hispanic":7.7,"Pacific Islander":0.07,"Two or More Races":12.86,"White (non-Hispanic)":45.23},"Choctaw County, Oklahoma":{"American Indian / Alaska Native":14.78,"Asian":0.68,"Black or African American":9.46,"Hispanic":4.76,"Pacific Islander":0.08,"Two or More Races":11.29,"White (non-Hispanic)":58.4},"Cimarron County, Oklahoma":{"American Indian / Alaska Native":0.22,"Asian":0,"Black or African American":0.09,"Hispanic":24.79,"Pacific Islander":0,"Two or More Races":7.74,"White (non-Hispanic)":67.16},"Cleveland County, Oklahoma":{"American Indian / Alaska Native":3.43,"Asian":4.6,"Black or African American":4.74,"Hispanic":10.63,"Pacific Islander":0.01,"Two or More Races":8.33,"White (non-Hispanic)":67.95},"Coal County, Oklahoma":{"American Indian / Alaska Native":9.02,"Asian":0.57,"Black or African American":0.25,"Hispanic":4.4,"Pacific Islander":0.04,"Two or More Races":20.47,"White (non-Hispanic)":65.25},"Comanche County, Oklahoma":{"American Indian / Alaska Native":3.99,"Asian":2.52,"Black or African American":14.2,"Hispanic":14.36,"Pacific Islander":0.41,"Two or More Races":9.63,"White (non-Hispanic)":54.41},"Cotton County, Oklahoma":{"American Indian / Alaska Native":7.62,"Asian":0.05,"Black or African American":1.64,"Hispanic":7.43,"Pacific Islander":0,"Two or More Races":8.13,"White (non-Hispanic)":74.92},"Craig County, Oklahoma":{"American Indian / Alaska Native":19.74,"Asian":1.22,"Black or African American":3.48,"Hispanic":3.63,"Pacific Islander":0.15,"Two or More Races":10.09,"White (non-Hispanic)":61.61},"Creek County, Oklahoma":{"American Indian / Alaska Native":11.24,"Asian":0.6,"Black or African American":2.12,"Hispanic":5.12,"Pacific Islander":0,"Two or More Races":7.17,"White (non-Hispanic)":73.53},"Custer County, Oklahoma":{"American Indian / Alaska Native":4.38,"Asian":0.94,"Black or African American":2.64,"Hispanic":19.52,"Pacific Islander":0.1,"Two or More Races":6.12,"White (non-Hispanic)":66.31},"Delaware County, Oklahoma":{"American Indian / Alaska Native":20.42,"Asian":1.51,"Black or African American":0.44,"Hispanic":4.33,"Pacific Islander":0.11,"Two or More Races":10.39,"White (non-Hispanic)":62.63},"Dewey County, Oklahoma":{"American Indian / Alaska Native":4.6,"Asian":0.05,"Black or African American":0.02,"Hispanic":6.02,"Pacific Islander":0,"Two or More Races":8.17,"White (non-Hispanic)":81.14},"Ellis County, Oklahoma":{"American Indian / Alaska Native":1.91,"Asian":0.91,"Black or African American":0.24,"Hispanic":8.88,"Pacific Islander":0,"Two or More Races":4.04,"White (non-Hispanic)":83.88},"Garfield County, Oklahoma":{"American Indian / Alaska Native":1.38,"Asian":1.25,"Black or African American":1.89,"Hispanic":14.82,"Pacific Islander":3.9,"Two or More Races":5.91,"White (non-Hispanic)":70.83},"Garvin County, Oklahoma":{"American Indian / Alaska Native":3.75,"Asian":0.47,"Black or African American":1.55,"Hispanic":9.99,"Pacific Islander":0,"Two or More Races":11.22,"White (non-Hispanic)":72.65},"Grady County, Oklahoma":{"American Indian / Alaska Native":3.64,"Asian":0.49,"Black or African American":2.15,"Hispanic":6.77,"Pacific Islander":0.03,"Two or More Races":7.47,"White (non-Hispanic)":79.28},"Grant County, Oklahoma":{"American Indian / Alaska Native":2.34,"Asian":0.19,"Black or African American":2.05,"Hispanic":4.62,"Pacific Islander":0,"Two or More Races":4.57,"White (non-Hispanic)":86.05},"Greer County, Oklahoma":{"American Indian / Alaska Native":1.31,"Asian":0.45,"Black or African American":6.29,"Hispanic":12.79,"Pacific Islander":0,"Two or More Races":6.09,"White (non-Hispanic)":72.92},"Harmon County, Oklahoma":{"American Indian / Alaska Native":1.71,"Asian":0,"Black or African American":11.01,"Hispanic":31.53,"Pacific Islander":0,"Two or More Races":2.41,"White (non-Hispanic)":53.18},"Harper County, Oklahoma":{"American Indian / Alaska Native":0.03,"Asian":0.06,"Black or African American":0.06,"Hispanic":23.31,"Pacific Islander":0,"Two or More Races":4.27,"White (non-Hispanic)":72.27},"Haskell County, Oklahoma":{"American Indian / Alaska Native":13.59,"Asian":0.88,"Black or African American":0.27,"Hispanic":5.07,"Pacific Islander":0,"Two or More Races":11.75,"White (non-Hispanic)":68.18},"Hughes County, Oklahoma":{"American Indian / Alaska Native":20.31,"Asian":0.41,"Black or African American":4.59,"Hispanic":6.09,"Pacific Islander":0.05,"Two or More Races":6.08,"White (non-Hispanic)":60.86},"Jackson County, Oklahoma":{"American Indian / Alaska Native":1.14,"Asian":1.5,"Black or African American":5.92,"Hispanic":24.57,"Pacific Islander":0.1,"Two or More Races":5.1,"White (non-Hispanic)":61.5},"Jefferson County, Oklahoma":{"American Indian / Alaska Native":3.89,"Asian":0.06,"Black or African American":1.43,"Hispanic":10.77,"Pacific Islander":0,"Two or More Races":7.81,"White (non-Hispanic)":76.05},"Johnston County, Oklahoma":{"American Indian / Alaska Native":11.07,"Asian":0.07,"Black or African American":2.4,"Hispanic":6.03,"Pacific Islander":0.03,"Two or More Races":13.14,"White (non-Hispanic)":67.18},"Kay County, Oklahoma":{"American Indian / Alaska Native":7.83,"Asian":0.54,"Black or African American":1.98,"Hispanic":8.76,"Pacific Islander":0.05,"Two or More Races":9.17,"White (non-Hispanic)":71.33},"Kingfisher County, Oklahoma":{"American Indian / Alaska Native":2.58,"Asian":0.55,"Black or African American":1.14,"Hispanic":17.96,"Pacific Islander":0.16,"Two or More Races":4.36,"White (non-Hispanic)":73.24},"Kiowa County, Oklahoma":{"American Indian / Alaska Native":3.97,"Asian":0.17,"Black or African American":3.36,"Hispanic":11.81,"Pacific Islander":0,"Two or More Races":7.87,"White (non-Hispanic)":72.66},"Latimer County, Oklahoma":{"American Indian / Alaska Native":23.87,"Asian":1.05,"Black or African American":1.21,"Hispanic":3.95,"Pacific Islander":0,"Two or More Races":8.4,"White (non-Hispanic)":61.51},"Le Flore County, Oklahoma":{"American Indian / Alaska Native":11.31,"Asian":0.83,"Black or African American":1.83,"Hispanic":7.76,"Pacific Islander":0.03,"Two or More Races":9.23,"White (non-Hispanic)":68.9},"Lincoln County, Oklahoma":{"American Indian / Alaska Native":5.58,"Asian":0.43,"Black or African American":1.7,"Hispanic":3.77,"Pacific Islander":0.06,"Two or More Races":7.98,"White (non-Hispanic)":80.18},"Logan County, Oklahoma":{"American Indian / Alaska Native":2.76,"Asian":0.53,"Black or African American":6.46,"Hispanic":8.6,"Pacific Islander":0,"Two or More Races":6.24,"White (non-Hispanic)":75.19},"Love County, Oklahoma":{"American Indian / Alaska Native":4.15,"Asian":0.77,"Black or African American":2.09,"Hispanic":17.51,"Pacific Islander":0,"Two or More Races":7.17,"White (non-Hispanic)":68.32},"Major County, Oklahoma":{"American Indian / Alaska Native":0.76,"Asian":0.46,"Black or African American":0.03,"Hispanic":10.55,"Pacific Islander":0,"Two or More Races":5.54,"White (non-Hispanic)":82.39},"Marshall County, Oklahoma":{"American Indian / Alaska Native":5.85,"Asian":0.25,"Black or African American":0.88,"Hispanic":17.55,"Pacific Islander":0.15,"Two or More Races":11.35,"White (non-Hispanic)":63.56},"Mayes County, Oklahoma":{"American Indian / Alaska Native":20,"Asian":0.55,"Black or African American":0.35,"Hispanic":3.79,"Pacific Islander":0.08,"Two or More Races":12.51,"White (non-Hispanic)":62.48},"McClain County, Oklahoma":{"American Indian / Alaska Native":5.62,"Asian":0.42,"Black or African American":1.05,"Hispanic":9.33,"Pacific Islander":0,"Two or More Races":6.92,"White (non-Hispanic)":76.3},"McCurtain County, Oklahoma":{"American Indian / Alaska Native":13.12,"Asian":1.06,"Black or African American":7.6,"Hispanic":6.64,"Pacific Islander":1.5,"Two or More Races":10.46,"White (non-Hispanic)":59.49},"McIntosh County, Oklahoma":{"American Indian / Alaska Native":15.8,"Asian":0.89,"Black or African American":2.78,"Hispanic":3.02,"Pacific Islander":0.08,"Two or More Races":10.61,"White (non-Hispanic)":66.75},"Murray County, Oklahoma":{"American Indian / Alaska Native":12.1,"Asian":0,"Black or African American":1.27,"Hispanic":6.99,"Pacific Islander":0.25,"Two or More Races":9.81,"White (non-Hispanic)":69.57},"Muskogee County, Oklahoma":{"American Indian / Alaska Native":17.03,"Asian":0.68,"Black or African American":9.76,"Hispanic":7.24,"Pacific Islander":0.02,"Two or More Races":11.06,"White (non-Hispanic)":54.04},"Noble County, Oklahoma":{"American Indian / Alaska Native":5.6,"Asian":0.06,"Black or African American":1.22,"Hispanic":4.35,"Pacific Islander":0.03,"Two or More Races":8.88,"White (non-Hispanic)":79.69},"Nowata County, Oklahoma":{"American Indian / Alaska Native":15.62,"Asian":0.53,"Black or African American":1.63,"Hispanic":3,"Pacific Islander":0,"Two or More Races":14.03,"White (non-Hispanic)":64.96},"Okfuskee County, Oklahoma":{"American Indian / Alaska Native":16.96,"Asian":0.85,"Black or African American":6.55,"Hispanic":3.56,"Pacific Islander":0,"Two or More Races":11.66,"White (non-Hispanic)":60.35},"Oklahoma County, Oklahoma":{"American Indian / Alaska Native":2.3,"Asian":3.36,"Black or African American":14.17,"Hispanic":19.62,"Pacific Islander":0.08,"Two or More Races":7.28,"White (non-Hispanic)":52.87},"Okmulgee County, Oklahoma":{"American Indian / Alaska Native":14.8,"Asian":0.52,"Black or African American":7,"Hispanic":4.98,"Pacific Islander":0,"Two or More Races":11.52,"White (non-Hispanic)":61.12},"Osage County, Oklahoma":{"American Indian / Alaska Native":10.62,"Asian":0.2,"Black or African American":10.17,"Hispanic":4.46,"Pacific Islander":0.02,"Two or More Races":12.12,"White (non-Hispanic)":62.23},"Ottawa County, Oklahoma":{"American Indian / Alaska Native":18.74,"Asian":0.72,"Black or African American":1.09,"Hispanic":5.9,"Pacific Islander":0.72,"Two or More Races":9.81,"White (non-Hispanic)":62.93},"Pawnee County, Oklahoma":{"American Indian / Alaska Native":8.89,"Asian":0.34,"Black or African American":0.96,"Hispanic":3.56,"Pacific Islander":0.27,"Two or More Races":10.74,"White (non-Hispanic)":74.93},"Payne County, Oklahoma":{"American Indian / Alaska Native":3.85,"Asian":4.01,"Black or African American":3.63,"Hispanic":6.42,"Pacific Islander":0.07,"Two or More Races":7.58,"White (non-Hispanic)":74.28},"Pittsburg County, Oklahoma":{"American Indian / Alaska Native":7.52,"Asian":0.52,"Black or African American":2.31,"Hispanic":5.57,"Pacific Islander":0.12,"Two or More Races":15.77,"White (non-Hispanic)":67.93},"Pontotoc County, Oklahoma":{"American Indian / Alaska Native":18,"Asian":1.04,"Black or African American":2.41,"Hispanic":6.29,"Pacific Islander":0.13,"Two or More Races":8.77,"White (non-Hispanic)":63.31},"Pottawatomie County, Oklahoma":{"American Indian / Alaska Native":11.47,"Asian":0.81,"Black or African American":3.08,"Hispanic":6.16,"Pacific Islander":0.13,"Two or More Races":8.07,"White (non-Hispanic)":70.12},"Pushmataha County, Oklahoma":{"American Indian / Alaska Native":16.11,"Asian":0.34,"Black or African American":1.23,"Hispanic":4.02,"Pacific Islander":0,"Two or More Races":8.83,"White (non-Hispanic)":69.26},"Roger Mills County, Oklahoma":{"American Indian / Alaska Native":5.06,"Asian":0.3,"Black or African American":0.09,"Hispanic":8.35,"Pacific Islander":0.65,"Two or More Races":4.65,"White (non-Hispanic)":80.82},"Rogers County, Oklahoma":{"American Indian / Alaska Native":12.05,"Asian":1.68,"Black or African American":0.92,"Hispanic":5.85,"Pacific Islander":0.09,"Two or More Races":9.52,"White (non-Hispanic)":69.53},"Seminole County, Oklahoma":{"American Indian / Alaska Native":18.81,"Asian":0.36,"Black or African American":4.25,"Hispanic":5.36,"Pacific Islander":0.04,"Two or More Races":8.17,"White (non-Hispanic)":62.74},"Sequoyah County, Oklahoma":{"American Indian / Alaska Native":19.21,"Asian":0.69,"Black or African American":1.94,"Hispanic":4.85,"Pacific Islander":0.08,"Two or More Races":12.25,"White (non-Hispanic)":60.83},"Stephens County, Oklahoma":{"American Indian / Alaska Native":3.23,"Asian":0.45,"Black or African American":1.37,"Hispanic":8.42,"Pacific Islander":0.05,"Two or More Races":8.13,"White (non-Hispanic)":78.06},"Texas County, Oklahoma":{"American Indian / Alaska Native":0.73,"Asian":2.46,"Black or African American":4.08,"Hispanic":51.14,"Pacific Islander":0,"Two or More Races":3,"White (non-Hispanic)":38.35},"Tillman County, Oklahoma":{"American Indian / Alaska Native":1.89,"Asian":0.5,"Black or African American":6.69,"Hispanic":27.66,"Pacific Islander":0,"Two or More Races":4.75,"White (non-Hispanic)":58.5},"Tulsa County, Oklahoma":{"American Indian / Alaska Native":4.58,"Asian":3.66,"Black or African American":9.53,"Hispanic":15.21,"Pacific Islander":0.15,"Two or More Races":8.34,"White (non-Hispanic)":58.23},"Wagoner County, Oklahoma":{"American Indian / Alaska Native":8.11,"Asian":2.08,"Black or African American":3.41,"Hispanic":8.23,"Pacific Islander":0.02,"Two or More Races":10.15,"White (non-Hispanic)":67.58},"Washington County, Oklahoma":{"American Indian / Alaska Native":8.25,"Asian":2.09,"Black or African American":2.71,"Hispanic":6.69,"Pacific Islander":0.02,"Two or More Races":9.29,"White (non-Hispanic)":70.87},"Washita County, Oklahoma":{"American Indian / Alaska Native":1.98,"Asian":0.09,"Black or African American":1.37,"Hispanic":9.4,"Pacific Islander":0.02,"Two or More Races":4.39,"White (non-Hispanic)":82.65},"Woods County, Oklahoma":{"American Indian / Alaska Native":2.46,"Asian":0.05,"Black or African American":2.45,"Hispanic":7.37,"Pacific Islander":0,"Two or More Races":4.91,"White (non-Hispanic)":82.38},"Woodward County, Oklahoma":{"American Indian / Alaska Native":1.86,"Asian":0.38,"Black or African American":1.22,"Hispanic":14.91,"Pacific Islander":0.01,"Two or More Races":4.9,"White (non-Hispanic)":76.61}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

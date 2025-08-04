@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 13</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Appling County, Georgia">Appling County, Georgia</option>
+<option value="Atkinson County, Georgia">Atkinson County, Georgia</option>
+<option value="Bacon County, Georgia">Bacon County, Georgia</option>
+<option value="Baker County, Georgia">Baker County, Georgia</option>
+<option value="Baldwin County, Georgia">Baldwin County, Georgia</option>
+<option value="Banks County, Georgia">Banks County, Georgia</option>
+<option value="Barrow County, Georgia">Barrow County, Georgia</option>
+<option value="Bartow County, Georgia">Bartow County, Georgia</option>
+<option value="Ben Hill County, Georgia">Ben Hill County, Georgia</option>
+<option value="Berrien County, Georgia">Berrien County, Georgia</option>
+<option value="Bibb County, Georgia">Bibb County, Georgia</option>
+<option value="Bleckley County, Georgia">Bleckley County, Georgia</option>
+<option value="Brantley County, Georgia">Brantley County, Georgia</option>
+<option value="Brooks County, Georgia">Brooks County, Georgia</option>
+<option value="Bryan County, Georgia">Bryan County, Georgia</option>
+<option value="Bulloch County, Georgia">Bulloch County, Georgia</option>
+<option value="Burke County, Georgia">Burke County, Georgia</option>
+<option value="Butts County, Georgia">Butts County, Georgia</option>
+<option value="Calhoun County, Georgia">Calhoun County, Georgia</option>
+<option value="Camden County, Georgia">Camden County, Georgia</option>
+<option value="Candler County, Georgia">Candler County, Georgia</option>
+<option value="Carroll County, Georgia">Carroll County, Georgia</option>
+<option value="Catoosa County, Georgia">Catoosa County, Georgia</option>
+<option value="Charlton County, Georgia">Charlton County, Georgia</option>
+<option value="Chatham County, Georgia">Chatham County, Georgia</option>
+<option value="Chattahoochee County, Georgia">Chattahoochee County, Georgia</option>
+<option value="Chattooga County, Georgia">Chattooga County, Georgia</option>
+<option value="Cherokee County, Georgia">Cherokee County, Georgia</option>
+<option value="Clarke County, Georgia">Clarke County, Georgia</option>
+<option value="Clay County, Georgia">Clay County, Georgia</option>
+<option value="Clayton County, Georgia">Clayton County, Georgia</option>
+<option value="Clinch County, Georgia">Clinch County, Georgia</option>
+<option value="Cobb County, Georgia">Cobb County, Georgia</option>
+<option value="Coffee County, Georgia">Coffee County, Georgia</option>
+<option value="Colquitt County, Georgia">Colquitt County, Georgia</option>
+<option value="Columbia County, Georgia">Columbia County, Georgia</option>
+<option value="Cook County, Georgia">Cook County, Georgia</option>
+<option value="Coweta County, Georgia">Coweta County, Georgia</option>
+<option value="Crawford County, Georgia">Crawford County, Georgia</option>
+<option value="Crisp County, Georgia">Crisp County, Georgia</option>
+<option value="Dade County, Georgia">Dade County, Georgia</option>
+<option value="Dawson County, Georgia">Dawson County, Georgia</option>
+<option value="Decatur County, Georgia">Decatur County, Georgia</option>
+<option value="DeKalb County, Georgia">DeKalb County, Georgia</option>
+<option value="Dodge County, Georgia">Dodge County, Georgia</option>
+<option value="Dooly County, Georgia">Dooly County, Georgia</option>
+<option value="Dougherty County, Georgia">Dougherty County, Georgia</option>
+<option value="Douglas County, Georgia">Douglas County, Georgia</option>
+<option value="Early County, Georgia">Early County, Georgia</option>
+<option value="Echols County, Georgia">Echols County, Georgia</option>
+<option value="Effingham County, Georgia">Effingham County, Georgia</option>
+<option value="Elbert County, Georgia">Elbert County, Georgia</option>
+<option value="Emanuel County, Georgia">Emanuel County, Georgia</option>
+<option value="Evans County, Georgia">Evans County, Georgia</option>
+<option value="Fannin County, Georgia">Fannin County, Georgia</option>
+<option value="Fayette County, Georgia">Fayette County, Georgia</option>
+<option value="Floyd County, Georgia">Floyd County, Georgia</option>
+<option value="Forsyth County, Georgia">Forsyth County, Georgia</option>
+<option value="Franklin County, Georgia">Franklin County, Georgia</option>
+<option value="Fulton County, Georgia">Fulton County, Georgia</option>
+<option value="Gilmer County, Georgia">Gilmer County, Georgia</option>
+<option value="Glascock County, Georgia">Glascock County, Georgia</option>
+<option value="Glynn County, Georgia">Glynn County, Georgia</option>
+<option value="Gordon County, Georgia">Gordon County, Georgia</option>
+<option value="Grady County, Georgia">Grady County, Georgia</option>
+<option value="Greene County, Georgia">Greene County, Georgia</option>
+<option value="Gwinnett County, Georgia">Gwinnett County, Georgia</option>
+<option value="Habersham County, Georgia">Habersham County, Georgia</option>
+<option value="Hall County, Georgia">Hall County, Georgia</option>
+<option value="Hancock County, Georgia">Hancock County, Georgia</option>
+<option value="Haralson County, Georgia">Haralson County, Georgia</option>
+<option value="Harris County, Georgia">Harris County, Georgia</option>
+<option value="Hart County, Georgia">Hart County, Georgia</option>
+<option value="Heard County, Georgia">Heard County, Georgia</option>
+<option value="Henry County, Georgia">Henry County, Georgia</option>
+<option value="Houston County, Georgia">Houston County, Georgia</option>
+<option value="Irwin County, Georgia">Irwin County, Georgia</option>
+<option value="Jackson County, Georgia">Jackson County, Georgia</option>
+<option value="Jasper County, Georgia">Jasper County, Georgia</option>
+<option value="Jeff Davis County, Georgia">Jeff Davis County, Georgia</option>
+<option value="Jefferson County, Georgia">Jefferson County, Georgia</option>
+<option value="Jenkins County, Georgia">Jenkins County, Georgia</option>
+<option value="Johnson County, Georgia">Johnson County, Georgia</option>
+<option value="Jones County, Georgia">Jones County, Georgia</option>
+<option value="Lamar County, Georgia">Lamar County, Georgia</option>
+<option value="Lanier County, Georgia">Lanier County, Georgia</option>
+<option value="Laurens County, Georgia">Laurens County, Georgia</option>
+<option value="Lee County, Georgia">Lee County, Georgia</option>
+<option value="Liberty County, Georgia">Liberty County, Georgia</option>
+<option value="Lincoln County, Georgia">Lincoln County, Georgia</option>
+<option value="Long County, Georgia">Long County, Georgia</option>
+<option value="Lowndes County, Georgia">Lowndes County, Georgia</option>
+<option value="Lumpkin County, Georgia">Lumpkin County, Georgia</option>
+<option value="Macon County, Georgia">Macon County, Georgia</option>
+<option value="Madison County, Georgia">Madison County, Georgia</option>
+<option value="Marion County, Georgia">Marion County, Georgia</option>
+<option value="McDuffie County, Georgia">McDuffie County, Georgia</option>
+<option value="McIntosh County, Georgia">McIntosh County, Georgia</option>
+<option value="Meriwether County, Georgia">Meriwether County, Georgia</option>
+<option value="Miller County, Georgia">Miller County, Georgia</option>
+<option value="Mitchell County, Georgia">Mitchell County, Georgia</option>
+<option value="Monroe County, Georgia">Monroe County, Georgia</option>
+<option value="Montgomery County, Georgia">Montgomery County, Georgia</option>
+<option value="Morgan County, Georgia">Morgan County, Georgia</option>
+<option value="Murray County, Georgia">Murray County, Georgia</option>
+<option value="Muscogee County, Georgia">Muscogee County, Georgia</option>
+<option value="Newton County, Georgia">Newton County, Georgia</option>
+<option value="Oconee County, Georgia">Oconee County, Georgia</option>
+<option value="Oglethorpe County, Georgia">Oglethorpe County, Georgia</option>
+<option value="Paulding County, Georgia">Paulding County, Georgia</option>
+<option value="Peach County, Georgia">Peach County, Georgia</option>
+<option value="Pickens County, Georgia">Pickens County, Georgia</option>
+<option value="Pierce County, Georgia">Pierce County, Georgia</option>
+<option value="Pike County, Georgia">Pike County, Georgia</option>
+<option value="Polk County, Georgia">Polk County, Georgia</option>
+<option value="Pulaski County, Georgia">Pulaski County, Georgia</option>
+<option value="Putnam County, Georgia">Putnam County, Georgia</option>
+<option value="Quitman County, Georgia">Quitman County, Georgia</option>
+<option value="Rabun County, Georgia">Rabun County, Georgia</option>
+<option value="Randolph County, Georgia">Randolph County, Georgia</option>
+<option value="Richmond County, Georgia">Richmond County, Georgia</option>
+<option value="Rockdale County, Georgia">Rockdale County, Georgia</option>
+<option value="Schley County, Georgia">Schley County, Georgia</option>
+<option value="Screven County, Georgia">Screven County, Georgia</option>
+<option value="Seminole County, Georgia">Seminole County, Georgia</option>
+<option value="Spalding County, Georgia">Spalding County, Georgia</option>
+<option value="Stephens County, Georgia">Stephens County, Georgia</option>
+<option value="Stewart County, Georgia">Stewart County, Georgia</option>
+<option value="Sumter County, Georgia">Sumter County, Georgia</option>
+<option value="Talbot County, Georgia">Talbot County, Georgia</option>
+<option value="Taliaferro County, Georgia">Taliaferro County, Georgia</option>
+<option value="Tattnall County, Georgia">Tattnall County, Georgia</option>
+<option value="Taylor County, Georgia">Taylor County, Georgia</option>
+<option value="Telfair County, Georgia">Telfair County, Georgia</option>
+<option value="Terrell County, Georgia">Terrell County, Georgia</option>
+<option value="Thomas County, Georgia">Thomas County, Georgia</option>
+<option value="Tift County, Georgia">Tift County, Georgia</option>
+<option value="Toombs County, Georgia">Toombs County, Georgia</option>
+<option value="Towns County, Georgia">Towns County, Georgia</option>
+<option value="Treutlen County, Georgia">Treutlen County, Georgia</option>
+<option value="Troup County, Georgia">Troup County, Georgia</option>
+<option value="Turner County, Georgia">Turner County, Georgia</option>
+<option value="Twiggs County, Georgia">Twiggs County, Georgia</option>
+<option value="Union County, Georgia">Union County, Georgia</option>
+<option value="Upson County, Georgia">Upson County, Georgia</option>
+<option value="Walker County, Georgia">Walker County, Georgia</option>
+<option value="Walton County, Georgia">Walton County, Georgia</option>
+<option value="Ware County, Georgia">Ware County, Georgia</option>
+<option value="Warren County, Georgia">Warren County, Georgia</option>
+<option value="Washington County, Georgia">Washington County, Georgia</option>
+<option value="Wayne County, Georgia">Wayne County, Georgia</option>
+<option value="Webster County, Georgia">Webster County, Georgia</option>
+<option value="Wheeler County, Georgia">Wheeler County, Georgia</option>
+<option value="White County, Georgia">White County, Georgia</option>
+<option value="Whitfield County, Georgia">Whitfield County, Georgia</option>
+<option value="Wilcox County, Georgia">Wilcox County, Georgia</option>
+<option value="Wilkes County, Georgia">Wilkes County, Georgia</option>
+<option value="Wilkinson County, Georgia">Wilkinson County, Georgia</option>
+<option value="Worth County, Georgia">Worth County, Georgia</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.09,"Asian":4.33,"Black or African American":30.96,"Hispanic":10.7,"Pacific Islander":0.05,"Two or More Races":3.5,"White (non-Hispanic)":49.84},"Appling County, Georgia":{"American Indian / Alaska Native":0.22,"Asian":0.47,"Black or African American":17.69,"Hispanic":10.36,"Pacific Islander":0,"Two or More Races":3.26,"White (non-Hispanic)":67.74},"Atkinson County, Georgia":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":15.19,"Hispanic":26.35,"Pacific Islander":0,"Two or More Races":3.66,"White (non-Hispanic)":54.8},"Bacon County, Georgia":{"American Indian / Alaska Native":0,"Asian":0.69,"Black or African American":15.01,"Hispanic":8.35,"Pacific Islander":0,"Two or More Races":3.15,"White (non-Hispanic)":72.79},"Baker County, Georgia":{"American Indian / Alaska Native":0,"Asian":5.69,"Black or African American":40.57,"Hispanic":2.58,"Pacific Islander":0,"Two or More Races":2.4,"White (non-Hispanic)":48.76},"Baldwin County, Georgia":{"American Indian / Alaska Native":0.06,"Asian":1.68,"Black or African American":41.65,"Hispanic":2.76,"Pacific Islander":0.25,"Two or More Races":1.87,"White (non-Hispanic)":51.67},"Banks County, Georgia":{"American Indian / Alaska Native":0.09,"Asian":1.39,"Black or African American":1.66,"Hispanic":6.93,"Pacific Islander":0,"Two or More Races":3.34,"White (non-Hispanic)":86.6},"Barrow County, Georgia":{"American Indian / Alaska Native":0.05,"Asian":4.08,"Black or African American":13.08,"Hispanic":14.19,"Pacific Islander":0,"Two or More Races":3.42,"White (non-Hispanic)":65.01},"Bartow County, Georgia":{"American Indian / Alaska Native":0.03,"Asian":0.82,"Black or African American":10.59,"Hispanic":10.26,"Pacific Islander":0.12,"Two or More Races":3.22,"White (non-Hispanic)":74.1},"Ben Hill County, Georgia":{"American Indian / Alaska Native":0.26,"Asian":0.36,"Black or African American":37.74,"Hispanic":6.47,"Pacific Islander":0,"Two or More Races":1.32,"White (non-Hispanic)":53.79},"Berrien County, Georgia":{"American Indian / Alaska Native":0,"Asian":1.05,"Black or African American":10.57,"Hispanic":5.91,"Pacific Islander":0.13,"Two or More Races":2.91,"White (non-Hispanic)":79.39},"Bibb County, Georgia":{"American Indian / Alaska Native":0.05,"Asian":2.2,"Black or African American":54.3,"Hispanic":4.45,"Pacific Islander":0.07,"Two or More Races":3.11,"White (non-Hispanic)":34.9},"Bleckley County, Georgia":{"American Indian / Alaska Native":0.17,"Asian":0.72,"Black or African American":25.98,"Hispanic":3.74,"Pacific Islander":0,"Two or More Races":1.43,"White (non-Hispanic)":67.97},"Brantley County, Georgia":{"American Indian / Alaska Native":0,"Asian":0.66,"Black or African American":2.94,"Hispanic":2.08,"Pacific Islander":0,"Two or More Races":3.06,"White (non-Hispanic)":91.26},"Brooks County, Georgia":{"American Indian / Alaska Native":0.06,"Asian":0.88,"Black or African American":34.03,"Hispanic":6.44,"Pacific Islander":0,"Two or More Races":3.04,"White (non-Hispanic)":54.2},"Bryan County, Georgia":{"American Indian / Alaska Native":0.09,"Asian":2.14,"Black or African American":13.96,"Hispanic":7.87,"Pacific Islander":0.04,"Two or More Races":5.25,"White (non-Hispanic)":70.3},"Bulloch County, Georgia":{"American Indian / Alaska Native":0.13,"Asian":1.4,"Black or African American":28.17,"Hispanic":5.04,"Pacific Islander":0.02,"Two or More Races":3.22,"White (non-Hispanic)":61.78},"Burke County, Georgia":{"American Indian / Alaska Native":0.1,"Asian":0.52,"Black or African American":44.98,"Hispanic":3.44,"Pacific Islander":0,"Two or More Races":3,"White (non-Hispanic)":47.96},"Butts County, Georgia":{"American Indian / Alaska Native":0.07,"Asian":0.13,"Black or African American":27.53,"Hispanic":3.61,"Pacific Islander":0,"Two or More Races":3.28,"White (non-Hispanic)":64.85},"Calhoun County, Georgia":{"American Indian / Alaska Native":0,"Asian":0.29,"Black or African American":59.57,"Hispanic":4.83,"Pacific Islander":0,"Two or More Races":2.33,"White (non-Hispanic)":32.94},"Camden County, Georgia":{"American Indian / Alaska Native":0.1,"Asian":1.57,"Black or African American":17.63,"Hispanic":7.33,"Pacific Islander":0.09,"Two or More Races":4.28,"White (non-Hispanic)":68.66},"Candler County, Georgia":{"American Indian / Alaska Native":0.2,"Asian":0.6,"Black or African American":22.65,"Hispanic":12.74,"Pacific Islander":0,"Two or More Races":3.8,"White (non-Hispanic)":59.93},"Carroll County, Georgia":{"American Indian / Alaska Native":0.11,"Asian":0.87,"Black or African American":20.27,"Hispanic":8.28,"Pacific Islander":0,"Two or More Races":2,"White (non-Hispanic)":67.34},"Catoosa County, Georgia":{"American Indian / Alaska Native":0.03,"Asian":1.57,"Black or African American":2.23,"Hispanic":3.8,"Pacific Islander":0.05,"Two or More Races":3.34,"White (non-Hispanic)":88.39},"Charlton County, Georgia":{"American Indian / Alaska Native":0.59,"Asian":0.85,"Black or African American":24.95,"Hispanic":15.47,"Pacific Islander":0,"Two or More Races":3.77,"White (non-Hispanic)":54.37},"Chatham County, Georgia":{"American Indian / Alaska Native":0.06,"Asian":2.8,"Black or African American":38.77,"Hispanic":8.03,"Pacific Islander":0.13,"Two or More Races":3.56,"White (non-Hispanic)":45.69},"Chattahoochee County, Georgia":{"American Indian / Alaska Native":0.4,"Asian":2.97,"Black or African American":17.97,"Hispanic":17.43,"Pacific Islander":0.65,"Two or More Races":4.64,"White (non-Hispanic)":54.08},"Chattooga County, Georgia":{"American Indian / Alaska Native":0.05,"Asian":0.08,"Black or African American":9.43,"Hispanic":5.45,"Pacific Islander":0,"Two or More Races":3.52,"White (non-Hispanic)":81.46},"Cherokee County, Georgia":{"American Indian / Alaska Native":0.04,"Asian":2.1,"Black or African American":7.01,"Hispanic":12.14,"Pacific Islander":0.03,"Two or More Races":3.38,"White (non-Hispanic)":74.64},"Clarke County, Georgia":{"American Indian / Alaska Native":0.15,"Asian":4.17,"Black or African American":26.17,"Hispanic":11.41,"Pacific Islander":0,"Two or More Races":3.32,"White (non-Hispanic)":54.43},"Clay County, Georgia":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":59.52,"Hispanic":0.14,"Pacific Islander":0,"Two or More Races":0.7,"White (non-Hispanic)":39.64},"Clayton County, Georgia":{"American Indian / Alaska Native":0.11,"Asian":4.91,"Black or African American":68.74,"Hispanic":14.3,"Pacific Islander":0.08,"Two or More Races":3.03,"White (non-Hispanic)":8.23},"Clinch County, Georgia":{"American Indian / Alaska Native":1.19,"Asian":0.21,"Black or African American":25.56,"Hispanic":5.61,"Pacific Islander":0,"Two or More Races":3.29,"White (non-Hispanic)":64.15},"Cobb County, Georgia":{"American Indian / Alaska Native":0.06,"Asian":5.39,"Black or African American":26.46,"Hispanic":14.68,"Pacific Islander":0.03,"Two or More Races":4.61,"White (non-Hispanic)":47.82},"Coffee County, Georgia":{"American Indian / Alaska Native":0.1,"Asian":0.68,"Black or African American":28.03,"Hispanic":12.92,"Pacific Islander":0,"Two or More Races":1.76,"White (non-Hispanic)":56.27},"Colquitt County, Georgia":{"American Indian / Alaska Native":0.06,"Asian":0.84,"Black or African American":22.76,"Hispanic":19.75,"Pacific Islander":0,"Two or More Races":2.19,"White (non-Hispanic)":54.32},"Columbia County, Georgia":{"American Indian / Alaska Native":0.04,"Asian":4.38,"Black or African American":17.79,"Hispanic":7.81,"Pacific Islander":0,"Two or More Races":4.92,"White (non-Hispanic)":64.32},"Cook County, Georgia":{"American Indian / Alaska Native":0,"Asian":0.25,"Black or African American":27.88,"Hispanic":7,"Pacific Islander":0,"Two or More Races":2.81,"White (non-Hispanic)":61.78},"Coweta County, Georgia":{"American Indian / Alaska Native":0.04,"Asian":2.06,"Black or African American":18.22,"Hispanic":7.9,"Pacific Islander":0,"Two or More Races":3.25,"White (non-Hispanic)":68.25},"Crawford County, Georgia":{"American Indian / Alaska Native":0.59,"Asian":0,"Black or African American":21.51,"Hispanic":3.83,"Pacific Islander":0,"Two or More Races":1.82,"White (non-Hispanic)":72.26},"Crisp County, Georgia":{"American Indian / Alaska Native":0.03,"Asian":1.04,"Black or African American":45.01,"Hispanic":3.45,"Pacific Islander":0,"Two or More Races":1.69,"White (non-Hispanic)":48.45},"Dade County, Georgia":{"American Indian / Alaska Native":0.01,"Asian":1.07,"Black or African American":1.61,"Hispanic":2.31,"Pacific Islander":0,"Two or More Races":2.99,"White (non-Hispanic)":91.8},"Dawson County, Georgia":{"American Indian / Alaska Native":0.05,"Asian":0.9,"Black or African American":1.61,"Hispanic":6.71,"Pacific Islander":0,"Two or More Races":3.14,"White (non-Hispanic)":87.21},"Decatur County, Georgia":{"American Indian / Alaska Native":0.06,"Asian":0.71,"Black or African American":41.74,"Hispanic":6.77,"Pacific Islander":0,"Two or More Races":1.66,"White (non-Hispanic)":49},"DeKalb County, Georgia":{"American Indian / Alaska Native":0.11,"Asian":6.07,"Black or African American":51.06,"Hispanic":10.41,"Pacific Islander":0.06,"Two or More Races":3.65,"White (non-Hispanic)":28.1},"Dodge County, Georgia":{"American Indian / Alaska Native":0.17,"Asian":0.02,"Black or African American":30.75,"Hispanic":3.42,"Pacific Islander":0,"Two or More Races":1.34,"White (non-Hispanic)":63.74},"Dooly County, Georgia":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":47.72,"Hispanic":7.66,"Pacific Islander":0,"Two or More Races":3.23,"White (non-Hispanic)":40.91},"Dougherty County, Georgia":{"American Indian / Alaska Native":0.06,"Asian":0.75,"Black or African American":70.15,"Hispanic":3.05,"Pacific Islander":0,"Two or More Races":2.27,"White (non-Hispanic)":23.34},"Douglas County, Georgia":{"American Indian / Alaska Native":0.12,"Asian":1.87,"Black or African American":48.49,"Hispanic":11.68,"Pacific Islander":0.01,"Two or More Races":3.93,"White (non-Hispanic)":32.84},"Early County, Georgia":{"American Indian / Alaska Native":0.06,"Asian":0.29,"Black or African American":51.57,"Hispanic":2.11,"Pacific Islander":0,"Two or More Races":2.63,"White (non-Hispanic)":43.32},"Echols County, Georgia":{"American Indian / Alaska Native":0.08,"Asian":6.29,"Black or African American":4.24,"Hispanic":27.31,"Pacific Islander":0,"Two or More Races":4.51,"White (non-Hispanic)":57.57},"Effingham County, Georgia":{"American Indian / Alaska Native":0.11,"Asian":0.7,"Black or African American":14.2,"Hispanic":6.14,"Pacific Islander":0.12,"Two or More Races":4.19,"White (non-Hispanic)":74.12},"Elbert County, Georgia":{"American Indian / Alaska Native":0.7,"Asian":1.21,"Black or African American":25.55,"Hispanic":5.63,"Pacific Islander":0,"Two or More Races":3.87,"White (non-Hispanic)":62.81},"Emanuel County, Georgia":{"American Indian / Alaska Native":0.22,"Asian":0.81,"Black or African American":32.19,"Hispanic":4.65,"Pacific Islander":0,"Two or More Races":3.88,"White (non-Hispanic)":58.21},"Evans County, Georgia":{"American Indian / Alaska Native":0.16,"Asian":0.99,"Black or African American":27.3,"Hispanic":12.07,"Pacific Islander":0,"Two or More Races":4.26,"White (non-Hispanic)":55.23},"Fannin County, Georgia":{"American Indian / Alaska Native":0,"Asian":0.34,"Black or African American":0.71,"Hispanic":3.1,"Pacific Islander":0,"Two or More Races":3.31,"White (non-Hispanic)":91.99},"Fayette County, Georgia":{"American Indian / Alaska Native":0.11,"Asian":4.66,"Black or African American":25.21,"Hispanic":8.27,"Pacific Islander":0.1,"Two or More Races":3.25,"White (non-Hispanic)":56.89},"Floyd County, Georgia":{"American Indian / Alaska Native":0.04,"Asian":1.29,"Black or African American":13.52,"Hispanic":12,"Pacific Islander":0.1,"Two or More Races":3.46,"White (non-Hispanic)":69.38},"Forsyth County, Georgia":{"American Indian / Alaska Native":0.06,"Asian":17.94,"Black or African American":4.01,"Hispanic":10.02,"Pacific Islander":0,"Two or More Races":3.55,"White (non-Hispanic)":63.82},"Franklin County, Georgia":{"American Indian / Alaska Native":0.12,"Asian":1.56,"Black or African American":8.37,"Hispanic":5.22,"Pacific Islander":0,"Two or More Races":2.89,"White (non-Hispanic)":81.51},"Fulton County, Georgia":{"American Indian / Alaska Native":0.1,"Asian":7.53,"Black or African American":42.64,"Hispanic":8.06,"Pacific Islander":0.02,"Two or More Races":3.51,"White (non-Hispanic)":37.37},"Gilmer County, Georgia":{"American Indian / Alaska Native":0.27,"Asian":0.44,"Black or African American":0.43,"Hispanic":12.01,"Pacific Islander":0,"Two or More Races":2.11,"White (non-Hispanic)":84.55},"Glascock County, Georgia":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":11.77,"Hispanic":0.72,"Pacific Islander":0,"Two or More Races":0.65,"White (non-Hispanic)":86.85},"Glynn County, Georgia":{"American Indian / Alaska Native":0.16,"Asian":1.23,"Black or African American":24.46,"Hispanic":7.53,"Pacific Islander":0.08,"Two or More Races":4.29,"White (non-Hispanic)":62.14},"Gordon County, Georgia":{"American Indian / Alaska Native":0.08,"Asian":1.09,"Black or African American":3.4,"Hispanic":16.06,"Pacific Islander":0.1,"Two or More Races":2.7,"White (non-Hispanic)":76.3},"Grady County, Georgia":{"American Indian / Alaska Native":0.14,"Asian":0.02,"Black or African American":29.27,"Hispanic":12.92,"Pacific Islander":0,"Two or More Races":1.14,"White (non-Hispanic)":56.42},"Greene County, Georgia":{"American Indian / Alaska Native":0,"Asian":1.22,"Black or African American":30.37,"Hispanic":6.94,"Pacific Islander":0,"Two or More Races":1.98,"White (non-Hispanic)":58.98},"Gwinnett County, Georgia":{"American Indian / Alaska Native":0.13,"Asian":12.83,"Black or African American":27.8,"Hispanic":23.25,"Pacific Islander":0.02,"Two or More Races":3.6,"White (non-Hispanic)":31.98},"Habersham County, Georgia":{"American Indian / Alaska Native":0.11,"Asian":2.14,"Black or African American":3.4,"Hispanic":15.58,"Pacific Islander":0.01,"Two or More Races":2.59,"White (non-Hispanic)":76.02},"Hall County, Georgia":{"American Indian / Alaska Native":0.05,"Asian":2.08,"Black or African American":6.64,"Hispanic":28.59,"Pacific Islander":0,"Two or More Races":3.18,"White (non-Hispanic)":58.94},"Hancock County, Georgia":{"American Indian / Alaska Native":0,"Asian":0.54,"Black or African American":71.39,"Hispanic":0.64,"Pacific Islander":0,"Two or More Races":1.01,"White (non-Hispanic)":26.42},"Haralson County, Georgia":{"American Indian / Alaska Native":0.03,"Asian":0.56,"Black or African American":4.75,"Hispanic":1.92,"Pacific Islander":0,"Two or More Races":2.42,"White (non-Hispanic)":89.77},"Harris County, Georgia":{"American Indian / Alaska Native":0.05,"Asian":0.55,"Black or African American":15.75,"Hispanic":4.67,"Pacific Islander":0,"Two or More Races":3.84,"White (non-Hispanic)":74.91},"Hart County, Georgia":{"American Indian / Alaska Native":0.24,"Asian":1.35,"Black or African American":17.01,"Hispanic":3.96,"Pacific Islander":0,"Two or More Races":3.42,"White (non-Hispanic)":73.94},"Heard County, Georgia":{"American Indian / Alaska Native":0,"Asian":0.76,"Black or African American":7.91,"Hispanic":2.6,"Pacific Islander":0.02,"Two or More Races":4.12,"White (non-Hispanic)":84.46},"Henry County, Georgia":{"American Indian / Alaska Native":0.09,"Asian":3.22,"Black or African American":49.84,"Hispanic":7.99,"Pacific Islander":0.04,"Two or More Races":3.68,"White (non-Hispanic)":34.58},"Houston County, Georgia":{"American Indian / Alaska Native":0.09,"Asian":2.95,"Black or African American":31.31,"Hispanic":7.33,"Pacific Islander":0.15,"Two or More Races":5.25,"White (non-Hispanic)":52.6},"Irwin County, Georgia":{"American Indian / Alaska Native":0,"Asian":0.18,"Black or African American":25.31,"Hispanic":7.01,"Pacific Islander":0,"Two or More Races":1.27,"White (non-Hispanic)":65.95},"Jackson County, Georgia":{"American Indian / Alaska Native":0.01,"Asian":2.08,"Black or African American":7.69,"Hispanic":9.91,"Pacific Islander":0.04,"Two or More Races":2.66,"White (non-Hispanic)":77.14},"Jasper County, Georgia":{"American Indian / Alaska Native":0.01,"Asian":0.23,"Black or African American":17.05,"Hispanic":4.82,"Pacific Islander":0,"Two or More Races":3.08,"White (non-Hispanic)":74.14},"Jeff Davis County, Georgia":{"American Indian / Alaska Native":0.1,"Asian":0.13,"Black or African American":13.86,"Hispanic":13.7,"Pacific Islander":0.47,"Two or More Races":2.95,"White (non-Hispanic)":68.8},"Jefferson County, Georgia":{"American Indian / Alaska Native":0.03,"Asian":0.47,"Black or African American":52.31,"Hispanic":3.37,"Pacific Islander":0,"Two or More Races":1.38,"White (non-Hispanic)":41.96},"Jenkins County, Georgia":{"American Indian / Alaska Native":0.02,"Asian":0.02,"Black or African American":37.98,"Hispanic":4.21,"Pacific Islander":0,"Two or More Races":1.05,"White (non-Hispanic)":56.72},"Johnson County, Georgia":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":33.4,"Hispanic":2.11,"Pacific Islander":0,"Two or More Races":2.56,"White (non-Hispanic)":61.8},"Jones County, Georgia":{"American Indian / Alaska Native":0.05,"Asian":0.33,"Black or African American":25.08,"Hispanic":2,"Pacific Islander":0,"Two or More Races":2.29,"White (non-Hispanic)":69.8},"Lamar County, Georgia":{"American Indian / Alaska Native":0.06,"Asian":0.68,"Black or African American":28.46,"Hispanic":0.83,"Pacific Islander":0,"Two or More Races":3.7,"White (non-Hispanic)":66.17},"Lanier County, Georgia":{"American Indian / Alaska Native":0,"Asian":1.03,"Black or African American":24.43,"Hispanic":6.73,"Pacific Islander":0,"Two or More Races":1.11,"White (non-Hispanic)":65.84},"Laurens County, Georgia":{"American Indian / Alaska Native":0.24,"Asian":0.91,"Black or African American":37.47,"Hispanic":3.08,"Pacific Islander":0.28,"Two or More Races":1.25,"White (non-Hispanic)":56.54},"Lee County, Georgia":{"American Indian / Alaska Native":0,"Asian":2.34,"Black or African American":23.19,"Hispanic":3.23,"Pacific Islander":0.11,"Two or More Races":3.17,"White (non-Hispanic)":67.74},"Liberty County, Georgia":{"American Indian / Alaska Native":0.2,"Asian":1.75,"Black or African American":41.38,"Hispanic":12.42,"Pacific Islander":0.44,"Two or More Races":6.09,"White (non-Hispanic)":37.36},"Lincoln County, Georgia":{"American Indian / Alaska Native":0,"Asian":0.1,"Black or African American":27.29,"Hispanic":1.33,"Pacific Islander":0,"Two or More Races":3.25,"White (non-Hispanic)":67.91},"Long County, Georgia":{"American Indian / Alaska Native":0.09,"Asian":0.15,"Black or African American":24.61,"Hispanic":12.75,"Pacific Islander":0.46,"Two or More Races":6.69,"White (non-Hispanic)":54.12},"Lowndes County, Georgia":{"American Indian / Alaska Native":0.1,"Asian":1.71,"Black or African American":36.98,"Hispanic":6.86,"Pacific Islander":0.05,"Two or More Races":3.14,"White (non-Hispanic)":50.96},"Lumpkin County, Georgia":{"American Indian / Alaska Native":0.29,"Asian":0.9,"Black or African American":1.59,"Hispanic":5.65,"Pacific Islander":0.15,"Two or More Races":2.3,"White (non-Hispanic)":89.02},"Macon County, Georgia":{"American Indian / Alaska Native":0.18,"Asian":1.57,"Black or African American":59.08,"Hispanic":4.38,"Pacific Islander":0,"Two or More Races":1.46,"White (non-Hispanic)":32.76},"Madison County, Georgia":{"American Indian / Alaska Native":0.06,"Asian":1.94,"Black or African American":9.23,"Hispanic":6.88,"Pacific Islander":0,"Two or More Races":2.79,"White (non-Hispanic)":78.52},"Marion County, Georgia":{"American Indian / Alaska Native":0.21,"Asian":0.8,"Black or African American":28.54,"Hispanic":7.87,"Pacific Islander":0,"Two or More Races":4.62,"White (non-Hispanic)":57.83},"McDuffie County, Georgia":{"American Indian / Alaska Native":0,"Asian":0.44,"Black or African American":41.04,"Hispanic":3.58,"Pacific Islander":0,"Two or More Races":1.91,"White (non-Hispanic)":53.02},"McIntosh County, Georgia":{"American Indian / Alaska Native":0.13,"Asian":0.32,"Black or African American":29.73,"Hispanic":2.52,"Pacific Islander":0,"Two or More Races":4.52,"White (non-Hispanic)":62.77},"Meriwether County, Georgia":{"American Indian / Alaska Native":0.08,"Asian":0.3,"Black or African American":38.18,"Hispanic":2.74,"Pacific Islander":0.05,"Two or More Races":1.83,"White (non-Hispanic)":56.64},"Miller County, Georgia":{"American Indian / Alaska Native":0.73,"Asian":0.66,"Black or African American":27.31,"Hispanic":3.12,"Pacific Islander":0.73,"Two or More Races":1.29,"White (non-Hispanic)":65.62},"Mitchell County, Georgia":{"American Indian / Alaska Native":0.32,"Asian":0.02,"Black or African American":45.71,"Hispanic":5,"Pacific Islander":0,"Two or More Races":2.34,"White (non-Hispanic)":45.7},"Monroe County, Georgia":{"American Indian / Alaska Native":0.17,"Asian":1.08,"Black or African American":21.61,"Hispanic":2.7,"Pacific Islander":0,"Two or More Races":2.21,"White (non-Hispanic)":72.09},"Montgomery County, Georgia":{"American Indian / Alaska Native":0.16,"Asian":0.61,"Black or African American":22.81,"Hispanic":7.12,"Pacific Islander":0,"Two or More Races":3.82,"White (non-Hispanic)":65.42},"Morgan County, Georgia":{"American Indian / Alaska Native":0,"Asian":0.51,"Black or African American":21.1,"Hispanic":3.58,"Pacific Islander":0,"Two or More Races":1.6,"White (non-Hispanic)":73.21},"Murray County, Georgia":{"American Indian / Alaska Native":0.03,"Asian":0.37,"Black or African American":0.48,"Hispanic":15.61,"Pacific Islander":0.34,"Two or More Races":2.55,"White (non-Hispanic)":80.31},"Muscogee County, Georgia":{"American Indian / Alaska Native":0.07,"Asian":2.5,"Black or African American":45.87,"Hispanic":8.26,"Pacific Islander":0.15,"Two or More Races":5.21,"White (non-Hispanic)":37.43},"Newton County, Georgia":{"American Indian / Alaska Native":0.08,"Asian":1.41,"Black or African American":47.06,"Hispanic":6.76,"Pacific Islander":0,"Two or More Races":4.16,"White (non-Hispanic)":40.36},"Oconee County, Georgia":{"American Indian / Alaska Native":0.26,"Asian":4.23,"Black or African American":3.14,"Hispanic":5.76,"Pacific Islander":0.09,"Two or More Races":3.84,"White (non-Hispanic)":82.58},"Oglethorpe County, Georgia":{"American Indian / Alaska Native":0,"Asian":0.79,"Black or African American":15.91,"Hispanic":6.35,"Pacific Islander":0.07,"Two or More Races":3.15,"White (non-Hispanic)":73.64},"Paulding County, Georgia":{"American Indian / Alaska Native":0.05,"Asian":1.37,"Black or African American":21.7,"Hispanic":8.18,"Pacific Islander":0.09,"Two or More Races":4.9,"White (non-Hispanic)":63.55},"Peach County, Georgia":{"American Indian / Alaska Native":0.06,"Asian":0.33,"Black or African American":42.89,"Hispanic":9.14,"Pacific Islander":0.26,"Two or More Races":3.84,"White (non-Hispanic)":43.42},"Pickens County, Georgia":{"American Indian / Alaska Native":0.16,"Asian":0.46,"Black or African American":0.49,"Hispanic":3.78,"Pacific Islander":0.06,"Two or More Races":2.8,"White (non-Hispanic)":92.13},"Pierce County, Georgia":{"American Indian / Alaska Native":0.24,"Asian":0,"Black or African American":9.83,"Hispanic":5.18,"Pacific Islander":0,"Two or More Races":2.67,"White (non-Hispanic)":82.06},"Pike County, Georgia":{"American Indian / Alaska Native":0.02,"Asian":0.44,"Black or African American":8.52,"Hispanic":2.11,"Pacific Islander":0,"Two or More Races":2.05,"White (non-Hispanic)":86.41},"Polk County, Georgia":{"American Indian / Alaska Native":0.03,"Asian":1.02,"Black or African American":11.86,"Hispanic":13.47,"Pacific Islander":0,"Two or More Races":2.06,"White (non-Hispanic)":70.79},"Pulaski County, Georgia":{"American Indian / Alaska Native":0.07,"Asian":1.28,"Black or African American":32.96,"Hispanic":6.48,"Pacific Islander":0,"Two or More Races":1.81,"White (non-Hispanic)":57.39},"Putnam County, Georgia":{"American Indian / Alaska Native":0,"Asian":0.47,"Black or African American":25.56,"Hispanic":6.96,"Pacific Islander":0.34,"Two or More Races":1.63,"White (non-Hispanic)":64.73},"Quitman County, Georgia":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":49.9,"Hispanic":1.2,"Pacific Islander":0,"Two or More Races":1.05,"White (non-Hispanic)":47.85},"Rabun County, Georgia":{"American Indian / Alaska Native":0,"Asian":0.79,"Black or African American":0.87,"Hispanic":8.66,"Pacific Islander":0,"Two or More Races":2.48,"White (non-Hispanic)":87.19},"Randolph County, Georgia":{"American Indian / Alaska Native":0,"Asian":0.14,"Black or African American":67.72,"Hispanic":3.56,"Pacific Islander":0,"Two or More Races":1.15,"White (non-Hispanic)":27.26},"Richmond County, Georgia":{"American Indian / Alaska Native":0.07,"Asian":1.62,"Black or African American":55.33,"Hispanic":5.64,"Pacific Islander":0.15,"Two or More Races":4.42,"White (non-Hispanic)":31.92},"Rockdale County, Georgia":{"American Indian / Alaska Native":0.08,"Asian":1.76,"Black or African American":57.07,"Hispanic":10.6,"Pacific Islander":0.12,"Two or More Races":4.27,"White (non-Hispanic)":25.39},"Schley County, Georgia":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":17.16,"Hispanic":2.12,"Pacific Islander":0,"Two or More Races":2.82,"White (non-Hispanic)":77.9},"Screven County, Georgia":{"American Indian / Alaska Native":0.02,"Asian":0,"Black or African American":39.45,"Hispanic":2.48,"Pacific Islander":0,"Two or More Races":2.9,"White (non-Hispanic)":55.15},"Seminole County, Georgia":{"American Indian / Alaska Native":0.08,"Asian":0.42,"Black or African American":33.48,"Hispanic":2.93,"Pacific Islander":0,"Two or More Races":1.22,"White (non-Hispanic)":61.88},"Spalding County, Georgia":{"American Indian / Alaska Native":0.09,"Asian":0.71,"Black or African American":35.35,"Hispanic":5.78,"Pacific Islander":0.05,"Two or More Races":2.95,"White (non-Hispanic)":54.65},"Stephens County, Georgia":{"American Indian / Alaska Native":0.02,"Asian":1.04,"Black or African American":10.64,"Hispanic":3.68,"Pacific Islander":0.18,"Two or More Races":3.46,"White (non-Hispanic)":80.98},"Stewart County, Georgia":{"American Indian / Alaska Native":0.36,"Asian":1.71,"Black or African American":59.7,"Hispanic":10.81,"Pacific Islander":0,"Two or More Races":2.41,"White (non-Hispanic)":24.57},"Sumter County, Georgia":{"American Indian / Alaska Native":0.17,"Asian":1.35,"Black or African American":49.81,"Hispanic":6.17,"Pacific Islander":0.01,"Two or More Races":3.74,"White (non-Hispanic)":38.63},"Talbot County, Georgia":{"American Indian / Alaska Native":0.03,"Asian":0,"Black or African American":55.21,"Hispanic":1.13,"Pacific Islander":0,"Two or More Races":2.8,"White (non-Hispanic)":40.15},"Taliaferro County, Georgia":{"American Indian / Alaska Native":0,"Asian":0.06,"Black or African American":44.66,"Hispanic":5.8,"Pacific Islander":0.23,"Two or More Races":5.57,"White (non-Hispanic)":40.11},"Tattnall County, Georgia":{"American Indian / Alaska Native":0.22,"Asian":0.46,"Black or African American":27.35,"Hispanic":10.54,"Pacific Islander":0,"Two or More Races":3.24,"White (non-Hispanic)":57.34},"Taylor County, Georgia":{"American Indian / Alaska Native":0.08,"Asian":0.69,"Black or African American":38.71,"Hispanic":0.78,"Pacific Islander":0,"Two or More Races":1.36,"White (non-Hispanic)":58.37},"Telfair County, Georgia":{"American Indian / Alaska Native":0.02,"Asian":0.16,"Black or African American":35.71,"Hispanic":15.48,"Pacific Islander":0,"Two or More Races":1,"White (non-Hispanic)":47.52},"Terrell County, Georgia":{"American Indian / Alaska Native":0,"Asian":1.21,"Black or African American":59.57,"Hispanic":2.45,"Pacific Islander":0.01,"Two or More Races":0.35,"White (non-Hispanic)":36.37},"Thomas County, Georgia":{"American Indian / Alaska Native":0.24,"Asian":0.86,"Black or African American":35.7,"Hispanic":3.79,"Pacific Islander":0.04,"Two or More Races":2.02,"White (non-Hispanic)":57.17},"Tift County, Georgia":{"American Indian / Alaska Native":0.12,"Asian":1.12,"Black or African American":28.83,"Hispanic":12.91,"Pacific Islander":0,"Two or More Races":3.42,"White (non-Hispanic)":53.48},"Toombs County, Georgia":{"American Indian / Alaska Native":0.39,"Asian":0.85,"Black or African American":23.69,"Hispanic":11.71,"Pacific Islander":0,"Two or More Races":5.11,"White (non-Hispanic)":58.13},"Towns County, Georgia":{"American Indian / Alaska Native":0.09,"Asian":0.04,"Black or African American":1.49,"Hispanic":3.29,"Pacific Islander":0.04,"Two or More Races":1.95,"White (non-Hispanic)":93},"Treutlen County, Georgia":{"American Indian / Alaska Native":0.08,"Asian":0,"Black or African American":31.27,"Hispanic":0.61,"Pacific Islander":0,"Two or More Races":3.95,"White (non-Hispanic)":64.1},"Troup County, Georgia":{"American Indian / Alaska Native":0.11,"Asian":2.4,"Black or African American":36.46,"Hispanic":4.41,"Pacific Islander":0.01,"Two or More Races":2.1,"White (non-Hispanic)":54.21},"Turner County, Georgia":{"American Indian / Alaska Native":0.15,"Asian":0,"Black or African American":37.64,"Hispanic":4.66,"Pacific Islander":0,"Two or More Races":3.14,"White (non-Hispanic)":54.22},"Twiggs County, Georgia":{"American Indian / Alaska Native":0.34,"Asian":0.7,"Black or African American":40.6,"Hispanic":0.78,"Pacific Islander":0,"Two or More Races":2.1,"White (non-Hispanic)":54.96},"Union County, Georgia":{"American Indian / Alaska Native":0.06,"Asian":0.17,"Black or African American":0.73,"Hispanic":3.59,"Pacific Islander":0,"Two or More Races":2.65,"White (non-Hispanic)":92.8},"Upson County, Georgia":{"American Indian / Alaska Native":0.26,"Asian":0.38,"Black or African American":26.5,"Hispanic":2.52,"Pacific Islander":0.06,"Two or More Races":3.85,"White (non-Hispanic)":66.35},"Walker County, Georgia":{"American Indian / Alaska Native":0.12,"Asian":0.6,"Black or African American":4.19,"Hispanic":2.71,"Pacific Islander":0.02,"Two or More Races":2.71,"White (non-Hispanic)":89.54},"Walton County, Georgia":{"American Indian / Alaska Native":0.05,"Asian":1.39,"Black or African American":19.64,"Hispanic":6.09,"Pacific Islander":0.05,"Two or More Races":2.67,"White (non-Hispanic)":69.75},"Ware County, Georgia":{"American Indian / Alaska Native":0.21,"Asian":1.2,"Black or African American":29.7,"Hispanic":4.76,"Pacific Islander":0.05,"Two or More Races":1.99,"White (non-Hispanic)":61.67},"Warren County, Georgia":{"American Indian / Alaska Native":0,"Asian":0.33,"Black or African American":57.2,"Hispanic":1.1,"Pacific Islander":0,"Two or More Races":2.53,"White (non-Hispanic)":38.84},"Washington County, Georgia":{"American Indian / Alaska Native":0.04,"Asian":0.54,"Black or African American":51.51,"Hispanic":1.98,"Pacific Islander":0,"Two or More Races":3.84,"White (non-Hispanic)":41.72},"Wayne County, Georgia":{"American Indian / Alaska Native":0.08,"Asian":1.05,"Black or African American":19.75,"Hispanic":6.08,"Pacific Islander":0.04,"Two or More Races":2.16,"White (non-Hispanic)":70.79},"Webster County, Georgia":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":49.02,"Hispanic":7.07,"Pacific Islander":0,"Two or More Races":2.34,"White (non-Hispanic)":41.57},"Wheeler County, Georgia":{"American Indian / Alaska Native":0.12,"Asian":0,"Black or African American":38.11,"Hispanic":4.24,"Pacific Islander":0,"Two or More Races":1.02,"White (non-Hispanic)":56.5},"White County, Georgia":{"American Indian / Alaska Native":0.07,"Asian":0.66,"Black or African American":2.05,"Hispanic":3.49,"Pacific Islander":0,"Two or More Races":3.03,"White (non-Hispanic)":89.83},"Whitfield County, Georgia":{"American Indian / Alaska Native":0.04,"Asian":1.48,"Black or African American":3.26,"Hispanic":36.56,"Pacific Islander":0.01,"Two or More Races":2.02,"White (non-Hispanic)":56.51},"Wilcox County, Georgia":{"American Indian / Alaska Native":0.05,"Asian":0,"Black or African American":33.44,"Hispanic":3.67,"Pacific Islander":0.01,"Two or More Races":3.24,"White (non-Hispanic)":59.44},"Wilkes County, Georgia":{"American Indian / Alaska Native":0.22,"Asian":0,"Black or African American":40.94,"Hispanic":4.64,"Pacific Islander":0,"Two or More Races":2.32,"White (non-Hispanic)":51.75},"Wilkinson County, Georgia":{"American Indian / Alaska Native":0,"Asian":0.01,"Black or African American":38.21,"Hispanic":3.15,"Pacific Islander":0,"Two or More Races":1.84,"White (non-Hispanic)":55.28},"Worth County, Georgia":{"American Indian / Alaska Native":0.51,"Asian":0.74,"Black or African American":24.11,"Hispanic":2.25,"Pacific Islander":0.01,"Two or More Races":5.36,"White (non-Hispanic)":66.74}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

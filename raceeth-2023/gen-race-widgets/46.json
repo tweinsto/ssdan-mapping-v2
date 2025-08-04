@@ -1,0 +1,2216 @@
+{
+  "state": "Aurora County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 66352
+        },
+        {
+          "label": "Asian",
+          "value": 12515
+        },
+        {
+          "label": "Black or African American",
+          "value": 19457
+        },
+        {
+          "label": "Hispanic",
+          "value": 41281
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 599
+        },
+        {
+          "label": "Two or More Races",
+          "value": 34647
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 721732
+        }
+      ]
+    },
+    "Aurora County, South Dakota": {
+      "label": "Aurora County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 27
+        },
+        {
+          "label": "Hispanic",
+          "value": 164
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 45
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2310
+        }
+      ]
+    },
+    "Beadle County, South Dakota": {
+      "label": "Beadle County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 196
+        },
+        {
+          "label": "Asian",
+          "value": 1726
+        },
+        {
+          "label": "Black or African American",
+          "value": 207
+        },
+        {
+          "label": "Hispanic",
+          "value": 2772
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 242
+        },
+        {
+          "label": "Two or More Races",
+          "value": 792
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13277
+        }
+      ]
+    },
+    "Bennett County, South Dakota": {
+      "label": "Bennett County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1868
+        },
+        {
+          "label": "Asian",
+          "value": 54
+        },
+        {
+          "label": "Black or African American",
+          "value": 6
+        },
+        {
+          "label": "Hispanic",
+          "value": 156
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 79
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1191
+        }
+      ]
+    },
+    "Bon Homme County, South Dakota": {
+      "label": "Bon Homme County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 456
+        },
+        {
+          "label": "Asian",
+          "value": 8
+        },
+        {
+          "label": "Black or African American",
+          "value": 132
+        },
+        {
+          "label": "Hispanic",
+          "value": 162
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 173
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6075
+        }
+      ]
+    },
+    "Brookings County, South Dakota": {
+      "label": "Brookings County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 257
+        },
+        {
+          "label": "Asian",
+          "value": 1190
+        },
+        {
+          "label": "Black or African American",
+          "value": 393
+        },
+        {
+          "label": "Hispanic",
+          "value": 1504
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 890
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30723
+        }
+      ]
+    },
+    "Brown County, South Dakota": {
+      "label": "Brown County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1603
+        },
+        {
+          "label": "Asian",
+          "value": 1150
+        },
+        {
+          "label": "Black or African American",
+          "value": 81
+        },
+        {
+          "label": "Hispanic",
+          "value": 1687
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 29
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1186
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32309
+        }
+      ]
+    },
+    "Brule County, South Dakota": {
+      "label": "Brule County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 585
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 76
+        },
+        {
+          "label": "Hispanic",
+          "value": 81
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 226
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4293
+        }
+      ]
+    },
+    "Buffalo County, South Dakota": {
+      "label": "Buffalo County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1290
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 58
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 20
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 372
+        }
+      ]
+    },
+    "Butte County, South Dakota": {
+      "label": "Butte County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 176
+        },
+        {
+          "label": "Asian",
+          "value": 43
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 442
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 539
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9276
+        }
+      ]
+    },
+    "Campbell County, South Dakota": {
+      "label": "Campbell County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 87
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 29
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1358
+        }
+      ]
+    },
+    "Charles Mix County, South Dakota": {
+      "label": "Charles Mix County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2518
+        },
+        {
+          "label": "Asian",
+          "value": 48
+        },
+        {
+          "label": "Black or African American",
+          "value": 12
+        },
+        {
+          "label": "Hispanic",
+          "value": 250
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 508
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5922
+        }
+      ]
+    },
+    "Clark County, South Dakota": {
+      "label": "Clark County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 28
+        },
+        {
+          "label": "Black or African American",
+          "value": 21
+        },
+        {
+          "label": "Hispanic",
+          "value": 178
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 63
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3557
+        }
+      ]
+    },
+    "Clay County, South Dakota": {
+      "label": "Clay County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 387
+        },
+        {
+          "label": "Asian",
+          "value": 457
+        },
+        {
+          "label": "Black or African American",
+          "value": 304
+        },
+        {
+          "label": "Hispanic",
+          "value": 488
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 407
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13077
+        }
+      ]
+    },
+    "Codington County, South Dakota": {
+      "label": "Codington County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 548
+        },
+        {
+          "label": "Asian",
+          "value": 167
+        },
+        {
+          "label": "Black or African American",
+          "value": 210
+        },
+        {
+          "label": "Hispanic",
+          "value": 854
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 688
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25959
+        }
+      ]
+    },
+    "Corson County, South Dakota": {
+      "label": "Corson County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2575
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 4
+        },
+        {
+          "label": "Hispanic",
+          "value": 14
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 104
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1162
+        }
+      ]
+    },
+    "Custer County, South Dakota": {
+      "label": "Custer County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 159
+        },
+        {
+          "label": "Asian",
+          "value": 31
+        },
+        {
+          "label": "Black or African American",
+          "value": 32
+        },
+        {
+          "label": "Hispanic",
+          "value": 251
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 394
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7811
+        }
+      ]
+    },
+    "Davison County, South Dakota": {
+      "label": "Davison County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 594
+        },
+        {
+          "label": "Asian",
+          "value": 103
+        },
+        {
+          "label": "Black or African American",
+          "value": 111
+        },
+        {
+          "label": "Hispanic",
+          "value": 941
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 387
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17696
+        }
+      ]
+    },
+    "Day County, South Dakota": {
+      "label": "Day County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 520
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 3
+        },
+        {
+          "label": "Hispanic",
+          "value": 145
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 201
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4579
+        }
+      ]
+    },
+    "Deuel County, South Dakota": {
+      "label": "Deuel County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 7
+        },
+        {
+          "label": "Black or African American",
+          "value": 15
+        },
+        {
+          "label": "Hispanic",
+          "value": 139
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 101
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4052
+        }
+      ]
+    },
+    "Dewey County, South Dakota": {
+      "label": "Dewey County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3898
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 21
+        },
+        {
+          "label": "Hispanic",
+          "value": 79
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 31
+        },
+        {
+          "label": "Two or More Races",
+          "value": 142
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1056
+        }
+      ]
+    },
+    "Douglas County, South Dakota": {
+      "label": "Douglas County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 42
+        },
+        {
+          "label": "Hispanic",
+          "value": 68
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 59
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2620
+        }
+      ]
+    },
+    "Edmunds County, South Dakota": {
+      "label": "Edmunds County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 33
+        },
+        {
+          "label": "Hispanic",
+          "value": 82
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 85
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3802
+        }
+      ]
+    },
+    "Fall River County, South Dakota": {
+      "label": "Fall River County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 513
+        },
+        {
+          "label": "Asian",
+          "value": 41
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 237
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 56
+        },
+        {
+          "label": "Two or More Races",
+          "value": 272
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6059
+        }
+      ]
+    },
+    "Faulk County, South Dakota": {
+      "label": "Faulk County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 51
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 45
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2037
+        }
+      ]
+    },
+    "Grant County, South Dakota": {
+      "label": "Grant County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 46
+        },
+        {
+          "label": "Black or African American",
+          "value": 44
+        },
+        {
+          "label": "Hispanic",
+          "value": 506
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 128
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6789
+        }
+      ]
+    },
+    "Gregory County, South Dakota": {
+      "label": "Gregory County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 224
+        },
+        {
+          "label": "Asian",
+          "value": 5
+        },
+        {
+          "label": "Black or African American",
+          "value": 40
+        },
+        {
+          "label": "Hispanic",
+          "value": 43
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 13
+        },
+        {
+          "label": "Two or More Races",
+          "value": 206
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3462
+        }
+      ]
+    },
+    "Haakon County, South Dakota": {
+      "label": "Haakon County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 123
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 24
+        },
+        {
+          "label": "Hispanic",
+          "value": 1
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 38
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1508
+        }
+      ]
+    },
+    "Hamlin County, South Dakota": {
+      "label": "Hamlin County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 14
+        },
+        {
+          "label": "Black or African American",
+          "value": 19
+        },
+        {
+          "label": "Hispanic",
+          "value": 341
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 120
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5771
+        }
+      ]
+    },
+    "Hand County, South Dakota": {
+      "label": "Hand County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 32
+        },
+        {
+          "label": "Asian",
+          "value": 16
+        },
+        {
+          "label": "Black or African American",
+          "value": 11
+        },
+        {
+          "label": "Hispanic",
+          "value": 57
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 33
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2838
+        }
+      ]
+    },
+    "Hanson County, South Dakota": {
+      "label": "Hanson County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 13
+        },
+        {
+          "label": "Hispanic",
+          "value": 43
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 184
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3233
+        }
+      ]
+    },
+    "Harding County, South Dakota": {
+      "label": "Harding County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 18
+        },
+        {
+          "label": "Hispanic",
+          "value": 21
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 75
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 954
+        }
+      ]
+    },
+    "Hughes County, South Dakota": {
+      "label": "Hughes County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1961
+        },
+        {
+          "label": "Asian",
+          "value": 137
+        },
+        {
+          "label": "Black or African American",
+          "value": 4
+        },
+        {
+          "label": "Hispanic",
+          "value": 543
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 779
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14308
+        }
+      ]
+    },
+    "Hutchinson County, South Dakota": {
+      "label": "Hutchinson County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 54
+        },
+        {
+          "label": "Asian",
+          "value": 28
+        },
+        {
+          "label": "Black or African American",
+          "value": 5
+        },
+        {
+          "label": "Hispanic",
+          "value": 193
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 369
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6739
+        }
+      ]
+    },
+    "Hyde County, South Dakota": {
+      "label": "Hyde County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 19
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 146
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1132
+        }
+      ]
+    },
+    "Jackson County, South Dakota": {
+      "label": "Jackson County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1760
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 5
+        },
+        {
+          "label": "Hispanic",
+          "value": 12
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 26
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1023
+        }
+      ]
+    },
+    "Jerauld County, South Dakota": {
+      "label": "Jerauld County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 140
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 100
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1590
+        }
+      ]
+    },
+    "Jones County, South Dakota": {
+      "label": "Jones County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 143
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 8
+        },
+        {
+          "label": "Hispanic",
+          "value": 11
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 11
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 854
+        }
+      ]
+    },
+    "Kingsbury County, South Dakota": {
+      "label": "Kingsbury County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 36
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 142
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 160
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4851
+        }
+      ]
+    },
+    "Lake County, South Dakota": {
+      "label": "Lake County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 259
+        },
+        {
+          "label": "Asian",
+          "value": 65
+        },
+        {
+          "label": "Black or African American",
+          "value": 55
+        },
+        {
+          "label": "Hispanic",
+          "value": 560
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 182
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9915
+        }
+      ]
+    },
+    "Lawrence County, South Dakota": {
+      "label": "Lawrence County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 607
+        },
+        {
+          "label": "Asian",
+          "value": 140
+        },
+        {
+          "label": "Black or African American",
+          "value": 101
+        },
+        {
+          "label": "Hispanic",
+          "value": 974
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 900
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23741
+        }
+      ]
+    },
+    "Lincoln County, South Dakota": {
+      "label": "Lincoln County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 147
+        },
+        {
+          "label": "Asian",
+          "value": 1089
+        },
+        {
+          "label": "Black or African American",
+          "value": 1465
+        },
+        {
+          "label": "Hispanic",
+          "value": 1970
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1956
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 61291
+        }
+      ]
+    },
+    "Lyman County, South Dakota": {
+      "label": "Lyman County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1497
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 28
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 57
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2133
+        }
+      ]
+    },
+    "Marshall County, South Dakota": {
+      "label": "Marshall County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 281
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 6
+        },
+        {
+          "label": "Hispanic",
+          "value": 266
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 127
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3671
+        }
+      ]
+    },
+    "McCook County, South Dakota": {
+      "label": "McCook County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 16
+        },
+        {
+          "label": "Hispanic",
+          "value": 196
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 143
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5348
+        }
+      ]
+    },
+    "McPherson County, South Dakota": {
+      "label": "McPherson County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 38
+        },
+        {
+          "label": "Hispanic",
+          "value": 28
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 32
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2174
+        }
+      ]
+    },
+    "Meade County, South Dakota": {
+      "label": "Meade County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 483
+        },
+        {
+          "label": "Asian",
+          "value": 237
+        },
+        {
+          "label": "Black or African American",
+          "value": 502
+        },
+        {
+          "label": "Hispanic",
+          "value": 1418
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 44
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1510
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25964
+        }
+      ]
+    },
+    "Mellette County, South Dakota": {
+      "label": "Mellette County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1261
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 5
+        },
+        {
+          "label": "Hispanic",
+          "value": 7
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 113
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 645
+        }
+      ]
+    },
+    "Miner County, South Dakota": {
+      "label": "Miner County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 23
+        },
+        {
+          "label": "Hispanic",
+          "value": 41
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 22
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2168
+        }
+      ]
+    },
+    "Minnehaha County, South Dakota": {
+      "label": "Minnehaha County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3622
+        },
+        {
+          "label": "Asian",
+          "value": 3549
+        },
+        {
+          "label": "Black or African American",
+          "value": 12988
+        },
+        {
+          "label": "Hispanic",
+          "value": 12757
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 62
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8558
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 158701
+        }
+      ]
+    },
+    "Moody County, South Dakota": {
+      "label": "Moody County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 743
+        },
+        {
+          "label": "Asian",
+          "value": 108
+        },
+        {
+          "label": "Black or African American",
+          "value": 70
+        },
+        {
+          "label": "Hispanic",
+          "value": 343
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 334
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4770
+        }
+      ]
+    },
+    "Oglala Lakota County, South Dakota": {
+      "label": "Oglala Lakota County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12412
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 8
+        },
+        {
+          "label": "Hispanic",
+          "value": 232
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 34
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 901
+        }
+      ]
+    },
+    "Pennington County, South Dakota": {
+      "label": "Pennington County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7079
+        },
+        {
+          "label": "Asian",
+          "value": 1231
+        },
+        {
+          "label": "Black or African American",
+          "value": 1397
+        },
+        {
+          "label": "Hispanic",
+          "value": 6165
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 25
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7626
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 87778
+        }
+      ]
+    },
+    "Perkins County, South Dakota": {
+      "label": "Perkins County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 76
+        },
+        {
+          "label": "Asian",
+          "value": 18
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 26
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 53
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2875
+        }
+      ]
+    },
+    "Potter County, South Dakota": {
+      "label": "Potter County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 25
+        },
+        {
+          "label": "Asian",
+          "value": 22
+        },
+        {
+          "label": "Black or African American",
+          "value": 47
+        },
+        {
+          "label": "Hispanic",
+          "value": 0
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 112
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2196
+        }
+      ]
+    },
+    "Roberts County, South Dakota": {
+      "label": "Roberts County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3673
+        },
+        {
+          "label": "Asian",
+          "value": 19
+        },
+        {
+          "label": "Black or African American",
+          "value": 34
+        },
+        {
+          "label": "Hispanic",
+          "value": 243
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 413
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5816
+        }
+      ]
+    },
+    "Sanborn County, South Dakota": {
+      "label": "Sanborn County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 100
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 63
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2207
+        }
+      ]
+    },
+    "Spink County, South Dakota": {
+      "label": "Spink County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 57
+        },
+        {
+          "label": "Hispanic",
+          "value": 165
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 113
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5929
+        }
+      ]
+    },
+    "Stanley County, South Dakota": {
+      "label": "Stanley County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 76
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 61
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 144
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2710
+        }
+      ]
+    },
+    "Sully County, South Dakota": {
+      "label": "Sully County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 74
+        },
+        {
+          "label": "Hispanic",
+          "value": 0
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 29
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1370
+        }
+      ]
+    },
+    "Todd County, South Dakota": {
+      "label": "Todd County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7726
+        },
+        {
+          "label": "Asian",
+          "value": 296
+        },
+        {
+          "label": "Black or African American",
+          "value": 28
+        },
+        {
+          "label": "Hispanic",
+          "value": 212
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 257
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 755
+        }
+      ]
+    },
+    "Tripp County, South Dakota": {
+      "label": "Tripp County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 696
+        },
+        {
+          "label": "Asian",
+          "value": 52
+        },
+        {
+          "label": "Black or African American",
+          "value": 36
+        },
+        {
+          "label": "Hispanic",
+          "value": 92
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 199
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4523
+        }
+      ]
+    },
+    "Turner County, South Dakota": {
+      "label": "Turner County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 44
+        },
+        {
+          "label": "Asian",
+          "value": 35
+        },
+        {
+          "label": "Black or African American",
+          "value": 68
+        },
+        {
+          "label": "Hispanic",
+          "value": 285
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 109
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8220
+        }
+      ]
+    },
+    "Union County, South Dakota": {
+      "label": "Union County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 148
+        },
+        {
+          "label": "Asian",
+          "value": 238
+        },
+        {
+          "label": "Black or African American",
+          "value": 142
+        },
+        {
+          "label": "Hispanic",
+          "value": 748
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 534
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15057
+        }
+      ]
+    },
+    "Walworth County, South Dakota": {
+      "label": "Walworth County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 538
+        },
+        {
+          "label": "Asian",
+          "value": 6
+        },
+        {
+          "label": "Black or African American",
+          "value": 16
+        },
+        {
+          "label": "Hispanic",
+          "value": 63
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 488
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4179
+        }
+      ]
+    },
+    "Yankton County, South Dakota": {
+      "label": "Yankton County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 523
+        },
+        {
+          "label": "Asian",
+          "value": 67
+        },
+        {
+          "label": "Black or African American",
+          "value": 360
+        },
+        {
+          "label": "Hispanic",
+          "value": 1309
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 701
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20417
+        }
+      ]
+    },
+    "Ziebach County, South Dakota": {
+      "label": "Ziebach County, South Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1691
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 30
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 28
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 653
+        }
+      ]
+    }
+  }
+}

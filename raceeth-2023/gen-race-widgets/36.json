@@ -1,0 +1,2084 @@
+{
+  "state": "Albany County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 37212
+        },
+        {
+          "label": "Asian",
+          "value": 1754957
+        },
+        {
+          "label": "Black or African American",
+          "value": 2708094
+        },
+        {
+          "label": "Hispanic",
+          "value": 3898652
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6220
+        },
+        {
+          "label": "Two or More Races",
+          "value": 679386
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10608842
+        }
+      ]
+    },
+    "Albany County, New York": {
+      "label": "Albany County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 104
+        },
+        {
+          "label": "Asian",
+          "value": 22793
+        },
+        {
+          "label": "Black or African American",
+          "value": 35940
+        },
+        {
+          "label": "Hispanic",
+          "value": 22163
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 153
+        },
+        {
+          "label": "Two or More Races",
+          "value": 15248
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 217580
+        }
+      ]
+    },
+    "Allegany County, New York": {
+      "label": "Allegany County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 63
+        },
+        {
+          "label": "Asian",
+          "value": 626
+        },
+        {
+          "label": "Black or African American",
+          "value": 711
+        },
+        {
+          "label": "Hispanic",
+          "value": 1002
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 26
+        },
+        {
+          "label": "Two or More Races",
+          "value": 806
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 43745
+        }
+      ]
+    },
+    "Bronx County, New York": {
+      "label": "Bronx County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3533
+        },
+        {
+          "label": "Asian",
+          "value": 56102
+        },
+        {
+          "label": "Black or African American",
+          "value": 412484
+        },
+        {
+          "label": "Hispanic",
+          "value": 779093
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 627
+        },
+        {
+          "label": "Two or More Races",
+          "value": 28169
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 125116
+        }
+      ]
+    },
+    "Broome County, New York": {
+      "label": "Broome County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 148
+        },
+        {
+          "label": "Asian",
+          "value": 9831
+        },
+        {
+          "label": "Black or African American",
+          "value": 10061
+        },
+        {
+          "label": "Hispanic",
+          "value": 10648
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 92
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7832
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 158397
+        }
+      ]
+    },
+    "Cattaraugus County, New York": {
+      "label": "Cattaraugus County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1944
+        },
+        {
+          "label": "Asian",
+          "value": 550
+        },
+        {
+          "label": "Black or African American",
+          "value": 1058
+        },
+        {
+          "label": "Hispanic",
+          "value": 1740
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3353
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 67590
+        }
+      ]
+    },
+    "Cayuga County, New York": {
+      "label": "Cayuga County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 85
+        },
+        {
+          "label": "Asian",
+          "value": 472
+        },
+        {
+          "label": "Black or African American",
+          "value": 2252
+        },
+        {
+          "label": "Hispanic",
+          "value": 2633
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3575
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 66119
+        }
+      ]
+    },
+    "Chautauqua County, New York": {
+      "label": "Chautauqua County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 161
+        },
+        {
+          "label": "Asian",
+          "value": 815
+        },
+        {
+          "label": "Black or African American",
+          "value": 2680
+        },
+        {
+          "label": "Hispanic",
+          "value": 11792
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 57
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4025
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 106535
+        }
+      ]
+    },
+    "Chemung County, New York": {
+      "label": "Chemung County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 96
+        },
+        {
+          "label": "Asian",
+          "value": 1263
+        },
+        {
+          "label": "Black or African American",
+          "value": 4826
+        },
+        {
+          "label": "Hispanic",
+          "value": 2982
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3431
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 69933
+        }
+      ]
+    },
+    "Chenango County, New York": {
+      "label": "Chenango County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 222
+        },
+        {
+          "label": "Black or African American",
+          "value": 240
+        },
+        {
+          "label": "Hispanic",
+          "value": 1138
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1513
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 43349
+        }
+      ]
+    },
+    "Clinton County, New York": {
+      "label": "Clinton County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 207
+        },
+        {
+          "label": "Asian",
+          "value": 1127
+        },
+        {
+          "label": "Black or African American",
+          "value": 2281
+        },
+        {
+          "label": "Hispanic",
+          "value": 2714
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 28
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1933
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 70375
+        }
+      ]
+    },
+    "Columbia County, New York": {
+      "label": "Columbia County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 1359
+        },
+        {
+          "label": "Black or African American",
+          "value": 1930
+        },
+        {
+          "label": "Hispanic",
+          "value": 3658
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2753
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 51016
+        }
+      ]
+    },
+    "Cortland County, New York": {
+      "label": "Cortland County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 644
+        },
+        {
+          "label": "Black or African American",
+          "value": 944
+        },
+        {
+          "label": "Hispanic",
+          "value": 1627
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1332
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 41622
+        }
+      ]
+    },
+    "Delaware County, New York": {
+      "label": "Delaware County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 371
+        },
+        {
+          "label": "Black or African American",
+          "value": 683
+        },
+        {
+          "label": "Hispanic",
+          "value": 2100
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1263
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 39984
+        }
+      ]
+    },
+    "Dutchess County, New York": {
+      "label": "Dutchess County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 222
+        },
+        {
+          "label": "Asian",
+          "value": 10044
+        },
+        {
+          "label": "Black or African American",
+          "value": 28024
+        },
+        {
+          "label": "Hispanic",
+          "value": 44153
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 117
+        },
+        {
+          "label": "Two or More Races",
+          "value": 12708
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 199670
+        }
+      ]
+    },
+    "Erie County, New York": {
+      "label": "Erie County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3029
+        },
+        {
+          "label": "Asian",
+          "value": 42884
+        },
+        {
+          "label": "Black or African American",
+          "value": 116872
+        },
+        {
+          "label": "Hispanic",
+          "value": 59892
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 211
+        },
+        {
+          "label": "Two or More Races",
+          "value": 30153
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 693650
+        }
+      ]
+    },
+    "Essex County, New York": {
+      "label": "Essex County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 80
+        },
+        {
+          "label": "Asian",
+          "value": 128
+        },
+        {
+          "label": "Black or African American",
+          "value": 791
+        },
+        {
+          "label": "Hispanic",
+          "value": 1026
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 785
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33993
+        }
+      ]
+    },
+    "Franklin County, New York": {
+      "label": "Franklin County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3248
+        },
+        {
+          "label": "Asian",
+          "value": 315
+        },
+        {
+          "label": "Black or African American",
+          "value": 1548
+        },
+        {
+          "label": "Hispanic",
+          "value": 1328
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 941
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 39434
+        }
+      ]
+    },
+    "Fulton County, New York": {
+      "label": "Fulton County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 467
+        },
+        {
+          "label": "Black or African American",
+          "value": 746
+        },
+        {
+          "label": "Hispanic",
+          "value": 2190
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 28
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2366
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 46866
+        }
+      ]
+    },
+    "Genesee County, New York": {
+      "label": "Genesee County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 223
+        },
+        {
+          "label": "Asian",
+          "value": 408
+        },
+        {
+          "label": "Black or African American",
+          "value": 1043
+        },
+        {
+          "label": "Hispanic",
+          "value": 2743
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2166
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 51209
+        }
+      ]
+    },
+    "Greene County, New York": {
+      "label": "Greene County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 522
+        },
+        {
+          "label": "Black or African American",
+          "value": 1988
+        },
+        {
+          "label": "Hispanic",
+          "value": 3135
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2032
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 39730
+        }
+      ]
+    },
+    "Hamilton County, New York": {
+      "label": "Hamilton County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 20
+        },
+        {
+          "label": "Black or African American",
+          "value": 45
+        },
+        {
+          "label": "Hispanic",
+          "value": 101
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 243
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4666
+        }
+      ]
+    },
+    "Herkimer County, New York": {
+      "label": "Herkimer County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 46
+        },
+        {
+          "label": "Asian",
+          "value": 392
+        },
+        {
+          "label": "Black or African American",
+          "value": 571
+        },
+        {
+          "label": "Hispanic",
+          "value": 1614
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 85
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2108
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 54920
+        }
+      ]
+    },
+    "Jefferson County, New York": {
+      "label": "Jefferson County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 149
+        },
+        {
+          "label": "Asian",
+          "value": 2113
+        },
+        {
+          "label": "Black or African American",
+          "value": 5311
+        },
+        {
+          "label": "Hispanic",
+          "value": 8481
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 273
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5646
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 93787
+        }
+      ]
+    },
+    "Kings County, New York": {
+      "label": "Kings County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3477
+        },
+        {
+          "label": "Asian",
+          "value": 316500
+        },
+        {
+          "label": "Black or African American",
+          "value": 727987
+        },
+        {
+          "label": "Hispanic",
+          "value": 499799
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 975
+        },
+        {
+          "label": "Two or More Races",
+          "value": 114091
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 957510
+        }
+      ]
+    },
+    "Lewis County, New York": {
+      "label": "Lewis County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 56
+        },
+        {
+          "label": "Black or African American",
+          "value": 193
+        },
+        {
+          "label": "Hispanic",
+          "value": 460
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 786
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25005
+        }
+      ]
+    },
+    "Livingston County, New York": {
+      "label": "Livingston County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 38
+        },
+        {
+          "label": "Asian",
+          "value": 584
+        },
+        {
+          "label": "Black or African American",
+          "value": 1079
+        },
+        {
+          "label": "Hispanic",
+          "value": 2759
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2159
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 54735
+        }
+      ]
+    },
+    "Madison County, New York": {
+      "label": "Madison County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 232
+        },
+        {
+          "label": "Asian",
+          "value": 703
+        },
+        {
+          "label": "Black or African American",
+          "value": 1075
+        },
+        {
+          "label": "Hispanic",
+          "value": 1718
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2443
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 61211
+        }
+      ]
+    },
+    "Monroe County, New York": {
+      "label": "Monroe County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 605
+        },
+        {
+          "label": "Asian",
+          "value": 28082
+        },
+        {
+          "label": "Black or African American",
+          "value": 104190
+        },
+        {
+          "label": "Hispanic",
+          "value": 73524
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 234
+        },
+        {
+          "label": "Two or More Races",
+          "value": 29284
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 515450
+        }
+      ]
+    },
+    "Montgomery County, New York": {
+      "label": "Montgomery County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 362
+        },
+        {
+          "label": "Black or African American",
+          "value": 1270
+        },
+        {
+          "label": "Hispanic",
+          "value": 7495
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1426
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 38786
+        }
+      ]
+    },
+    "Nassau County, New York": {
+      "label": "Nassau County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 813
+        },
+        {
+          "label": "Asian",
+          "value": 159307
+        },
+        {
+          "label": "Black or African American",
+          "value": 151100
+        },
+        {
+          "label": "Hispanic",
+          "value": 256452
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 193
+        },
+        {
+          "label": "Two or More Races",
+          "value": 38688
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 768433
+        }
+      ]
+    },
+    "New York County, New York": {
+      "label": "New York County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1679
+        },
+        {
+          "label": "Asian",
+          "value": 200758
+        },
+        {
+          "label": "Black or African American",
+          "value": 204185
+        },
+        {
+          "label": "Hispanic",
+          "value": 395429
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 638
+        },
+        {
+          "label": "Two or More Races",
+          "value": 58008
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 754045
+        }
+      ]
+    },
+    "Niagara County, New York": {
+      "label": "Niagara County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1017
+        },
+        {
+          "label": "Asian",
+          "value": 2525
+        },
+        {
+          "label": "Black or African American",
+          "value": 13291
+        },
+        {
+          "label": "Hispanic",
+          "value": 8151
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 38
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10434
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 175087
+        }
+      ]
+    },
+    "Oneida County, New York": {
+      "label": "Oneida County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 276
+        },
+        {
+          "label": "Asian",
+          "value": 9545
+        },
+        {
+          "label": "Black or African American",
+          "value": 11983
+        },
+        {
+          "label": "Hispanic",
+          "value": 15588
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 127
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8720
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 182637
+        }
+      ]
+    },
+    "Onondaga County, New York": {
+      "label": "Onondaga County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1875
+        },
+        {
+          "label": "Asian",
+          "value": 18677
+        },
+        {
+          "label": "Black or African American",
+          "value": 48019
+        },
+        {
+          "label": "Hispanic",
+          "value": 27105
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 65
+        },
+        {
+          "label": "Two or More Races",
+          "value": 22149
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 351786
+        }
+      ]
+    },
+    "Ontario County, New York": {
+      "label": "Ontario County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 50
+        },
+        {
+          "label": "Asian",
+          "value": 1514
+        },
+        {
+          "label": "Black or African American",
+          "value": 2302
+        },
+        {
+          "label": "Hispanic",
+          "value": 6260
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3658
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 98252
+        }
+      ]
+    },
+    "Orange County, New York": {
+      "label": "Orange County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 438
+        },
+        {
+          "label": "Asian",
+          "value": 11223
+        },
+        {
+          "label": "Black or African American",
+          "value": 42478
+        },
+        {
+          "label": "Hispanic",
+          "value": 93608
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 26
+        },
+        {
+          "label": "Two or More Races",
+          "value": 14318
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 239186
+        }
+      ]
+    },
+    "Orleans County, New York": {
+      "label": "Orleans County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 170
+        },
+        {
+          "label": "Asian",
+          "value": 266
+        },
+        {
+          "label": "Black or African American",
+          "value": 1808
+        },
+        {
+          "label": "Hispanic",
+          "value": 2078
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1282
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33977
+        }
+      ]
+    },
+    "Oswego County, New York": {
+      "label": "Oswego County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 125
+        },
+        {
+          "label": "Asian",
+          "value": 913
+        },
+        {
+          "label": "Black or African American",
+          "value": 1160
+        },
+        {
+          "label": "Hispanic",
+          "value": 3778
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 15
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3524
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 108049
+        }
+      ]
+    },
+    "Otsego County, New York": {
+      "label": "Otsego County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 59
+        },
+        {
+          "label": "Asian",
+          "value": 895
+        },
+        {
+          "label": "Black or African American",
+          "value": 1339
+        },
+        {
+          "label": "Hispanic",
+          "value": 2576
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 64
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1611
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 53012
+        }
+      ]
+    },
+    "Putnam County, New York": {
+      "label": "Putnam County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 81
+        },
+        {
+          "label": "Asian",
+          "value": 2255
+        },
+        {
+          "label": "Black or African American",
+          "value": 2894
+        },
+        {
+          "label": "Hispanic",
+          "value": 18676
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 24
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2322
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 70948
+        }
+      ]
+    },
+    "Queens County, New York": {
+      "label": "Queens County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6689
+        },
+        {
+          "label": "Asian",
+          "value": 603690
+        },
+        {
+          "label": "Black or African American",
+          "value": 384677
+        },
+        {
+          "label": "Hispanic",
+          "value": 650071
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1360
+        },
+        {
+          "label": "Two or More Races",
+          "value": 80531
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 550499
+        }
+      ]
+    },
+    "Rensselaer County, New York": {
+      "label": "Rensselaer County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 73
+        },
+        {
+          "label": "Asian",
+          "value": 4962
+        },
+        {
+          "label": "Black or African American",
+          "value": 10048
+        },
+        {
+          "label": "Hispanic",
+          "value": 9539
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7046
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 127997
+        }
+      ]
+    },
+    "Richmond County, New York": {
+      "label": "Richmond County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 765
+        },
+        {
+          "label": "Asian",
+          "value": 59191
+        },
+        {
+          "label": "Black or African American",
+          "value": 44439
+        },
+        {
+          "label": "Hispanic",
+          "value": 96147
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10729
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 278796
+        }
+      ]
+    },
+    "Rockland County, New York": {
+      "label": "Rockland County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 181
+        },
+        {
+          "label": "Asian",
+          "value": 19772
+        },
+        {
+          "label": "Black or African American",
+          "value": 35626
+        },
+        {
+          "label": "Hispanic",
+          "value": 67951
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 38
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7908
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 205539
+        }
+      ]
+    },
+    "Saratoga County, New York": {
+      "label": "Saratoga County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 209
+        },
+        {
+          "label": "Asian",
+          "value": 6935
+        },
+        {
+          "label": "Black or African American",
+          "value": 3803
+        },
+        {
+          "label": "Hispanic",
+          "value": 9059
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 122
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7742
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 208181
+        }
+      ]
+    },
+    "Schenectady County, New York": {
+      "label": "Schenectady County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 230
+        },
+        {
+          "label": "Asian",
+          "value": 7677
+        },
+        {
+          "label": "Black or African American",
+          "value": 16071
+        },
+        {
+          "label": "Hispanic",
+          "value": 12855
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 54
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10356
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 109664
+        }
+      ]
+    },
+    "Schoharie County, New York": {
+      "label": "Schoharie County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 277
+        },
+        {
+          "label": "Black or African American",
+          "value": 382
+        },
+        {
+          "label": "Hispanic",
+          "value": 1165
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 36
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1062
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26714
+        }
+      ]
+    },
+    "Schuyler County, New York": {
+      "label": "Schuyler County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 27
+        },
+        {
+          "label": "Asian",
+          "value": 119
+        },
+        {
+          "label": "Black or African American",
+          "value": 169
+        },
+        {
+          "label": "Hispanic",
+          "value": 350
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 598
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16469
+        }
+      ]
+    },
+    "Seneca County, New York": {
+      "label": "Seneca County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 227
+        },
+        {
+          "label": "Black or African American",
+          "value": 1194
+        },
+        {
+          "label": "Hispanic",
+          "value": 1360
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 965
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29172
+        }
+      ]
+    },
+    "St. Lawrence County, New York": {
+      "label": "St. Lawrence County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 456
+        },
+        {
+          "label": "Asian",
+          "value": 1095
+        },
+        {
+          "label": "Black or African American",
+          "value": 1982
+        },
+        {
+          "label": "Hispanic",
+          "value": 2718
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2695
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 98622
+        }
+      ]
+    },
+    "Steuben County, New York": {
+      "label": "Steuben County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 82
+        },
+        {
+          "label": "Asian",
+          "value": 1481
+        },
+        {
+          "label": "Black or African American",
+          "value": 1439
+        },
+        {
+          "label": "Hispanic",
+          "value": 1754
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2534
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 85435
+        }
+      ]
+    },
+    "Suffolk County, New York": {
+      "label": "Suffolk County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2320
+        },
+        {
+          "label": "Asian",
+          "value": 64434
+        },
+        {
+          "label": "Black or African American",
+          "value": 104372
+        },
+        {
+          "label": "Hispanic",
+          "value": 338930
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 215
+        },
+        {
+          "label": "Two or More Races",
+          "value": 40592
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 963469
+        }
+      ]
+    },
+    "Sullivan County, New York": {
+      "label": "Sullivan County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 120
+        },
+        {
+          "label": "Asian",
+          "value": 1584
+        },
+        {
+          "label": "Black or African American",
+          "value": 6263
+        },
+        {
+          "label": "Hispanic",
+          "value": 14544
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2947
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 53145
+        }
+      ]
+    },
+    "Tioga County, New York": {
+      "label": "Tioga County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 465
+        },
+        {
+          "label": "Black or African American",
+          "value": 527
+        },
+        {
+          "label": "Hispanic",
+          "value": 1117
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1180
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 44696
+        }
+      ]
+    },
+    "Tompkins County, New York": {
+      "label": "Tompkins County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 122
+        },
+        {
+          "label": "Asian",
+          "value": 9779
+        },
+        {
+          "label": "Black or African American",
+          "value": 3358
+        },
+        {
+          "label": "Hispanic",
+          "value": 6683
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 31
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4869
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 77169
+        }
+      ]
+    },
+    "Ulster County, New York": {
+      "label": "Ulster County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 66
+        },
+        {
+          "label": "Asian",
+          "value": 3675
+        },
+        {
+          "label": "Black or African American",
+          "value": 10347
+        },
+        {
+          "label": "Hispanic",
+          "value": 21562
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 40
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10303
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 133874
+        }
+      ]
+    },
+    "Warren County, New York": {
+      "label": "Warren County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 489
+        },
+        {
+          "label": "Black or African American",
+          "value": 695
+        },
+        {
+          "label": "Hispanic",
+          "value": 1865
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2027
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 60251
+        }
+      ]
+    },
+    "Washington County, New York": {
+      "label": "Washington County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 44
+        },
+        {
+          "label": "Asian",
+          "value": 376
+        },
+        {
+          "label": "Black or African American",
+          "value": 1415
+        },
+        {
+          "label": "Hispanic",
+          "value": 1790
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 20
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2104
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 54541
+        }
+      ]
+    },
+    "Wayne County, New York": {
+      "label": "Wayne County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 50
+        },
+        {
+          "label": "Asian",
+          "value": 765
+        },
+        {
+          "label": "Black or African American",
+          "value": 2030
+        },
+        {
+          "label": "Hispanic",
+          "value": 4625
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 24
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3499
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 79756
+        }
+      ]
+    },
+    "Westchester County, New York": {
+      "label": "Westchester County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1197
+        },
+        {
+          "label": "Asian",
+          "value": 59912
+        },
+        {
+          "label": "Black or African American",
+          "value": 128199
+        },
+        {
+          "label": "Hispanic",
+          "value": 269085
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 96
+        },
+        {
+          "label": "Two or More Races",
+          "value": 28906
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 498855
+        }
+      ]
+    },
+    "Wyoming County, New York": {
+      "label": "Wyoming County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 53
+        },
+        {
+          "label": "Asian",
+          "value": 252
+        },
+        {
+          "label": "Black or African American",
+          "value": 1513
+        },
+        {
+          "label": "Hispanic",
+          "value": 1441
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1027
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 35447
+        }
+      ]
+    },
+    "Yates County, New York": {
+      "label": "Yates County, New York",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 167
+        },
+        {
+          "label": "Black or African American",
+          "value": 163
+        },
+        {
+          "label": "Hispanic",
+          "value": 632
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 482
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23156
+        }
+      ]
+    }
+  }
+}

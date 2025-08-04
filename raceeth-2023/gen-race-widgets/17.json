@@ -1,0 +1,3404 @@
+{
+  "state": "Adams County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8843
+        },
+        {
+          "label": "Asian",
+          "value": 730106
+        },
+        {
+          "label": "Black or African American",
+          "value": 1719887
+        },
+        {
+          "label": "Hispanic",
+          "value": 2348118
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2966
+        },
+        {
+          "label": "Two or More Races",
+          "value": 383121
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7456575
+        }
+      ]
+    },
+    "Adams County, Illinois": {
+      "label": "Adams County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 437
+        },
+        {
+          "label": "Black or African American",
+          "value": 2310
+        },
+        {
+          "label": "Hispanic",
+          "value": 1312
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2117
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 58858
+        }
+      ]
+    },
+    "Alexander County, Illinois": {
+      "label": "Alexander County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 15
+        },
+        {
+          "label": "Black or African American",
+          "value": 1606
+        },
+        {
+          "label": "Hispanic",
+          "value": 67
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 170
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3184
+        }
+      ]
+    },
+    "Bond County, Illinois": {
+      "label": "Bond County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 136
+        },
+        {
+          "label": "Asian",
+          "value": 82
+        },
+        {
+          "label": "Black or African American",
+          "value": 1121
+        },
+        {
+          "label": "Hispanic",
+          "value": 629
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 284
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14365
+        }
+      ]
+    },
+    "Boone County, Illinois": {
+      "label": "Boone County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 534
+        },
+        {
+          "label": "Black or African American",
+          "value": 989
+        },
+        {
+          "label": "Hispanic",
+          "value": 13273
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1606
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 36748
+        }
+      ]
+    },
+    "Brown County, Illinois": {
+      "label": "Brown County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 45
+        },
+        {
+          "label": "Asian",
+          "value": 2
+        },
+        {
+          "label": "Black or African American",
+          "value": 1082
+        },
+        {
+          "label": "Hispanic",
+          "value": 321
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 131
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4739
+        }
+      ]
+    },
+    "Bureau County, Illinois": {
+      "label": "Bureau County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 283
+        },
+        {
+          "label": "Black or African American",
+          "value": 212
+        },
+        {
+          "label": "Hispanic",
+          "value": 3251
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 978
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28194
+        }
+      ]
+    },
+    "Calhoun County, Illinois": {
+      "label": "Calhoun County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 45
+        },
+        {
+          "label": "Hispanic",
+          "value": 42
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 131
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4179
+        }
+      ]
+    },
+    "Carroll County, Illinois": {
+      "label": "Carroll County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 42
+        },
+        {
+          "label": "Asian",
+          "value": 106
+        },
+        {
+          "label": "Black or African American",
+          "value": 584
+        },
+        {
+          "label": "Hispanic",
+          "value": 794
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 274
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13813
+        }
+      ]
+    },
+    "Cass County, Illinois": {
+      "label": "Cass County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 102
+        },
+        {
+          "label": "Black or African American",
+          "value": 478
+        },
+        {
+          "label": "Hispanic",
+          "value": 2808
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 75
+        },
+        {
+          "label": "Two or More Races",
+          "value": 170
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9127
+        }
+      ]
+    },
+    "Champaign County, Illinois": {
+      "label": "Champaign County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 112
+        },
+        {
+          "label": "Asian",
+          "value": 21968
+        },
+        {
+          "label": "Black or African American",
+          "value": 27001
+        },
+        {
+          "label": "Hispanic",
+          "value": 16628
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 48
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8429
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 131146
+        }
+      ]
+    },
+    "Christian County, Illinois": {
+      "label": "Christian County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 242
+        },
+        {
+          "label": "Black or African American",
+          "value": 876
+        },
+        {
+          "label": "Hispanic",
+          "value": 1093
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 548
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30797
+        }
+      ]
+    },
+    "Clark County, Illinois": {
+      "label": "Clark County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 25
+        },
+        {
+          "label": "Black or African American",
+          "value": 106
+        },
+        {
+          "label": "Hispanic",
+          "value": 274
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 269
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14649
+        }
+      ]
+    },
+    "Clay County, Illinois": {
+      "label": "Clay County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 27
+        },
+        {
+          "label": "Asian",
+          "value": 40
+        },
+        {
+          "label": "Black or African American",
+          "value": 93
+        },
+        {
+          "label": "Hispanic",
+          "value": 88
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 381
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12520
+        }
+      ]
+    },
+    "Clinton County, Illinois": {
+      "label": "Clinton County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 38
+        },
+        {
+          "label": "Asian",
+          "value": 206
+        },
+        {
+          "label": "Black or African American",
+          "value": 1147
+        },
+        {
+          "label": "Hispanic",
+          "value": 1430
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 687
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33380
+        }
+      ]
+    },
+    "Coles County, Illinois": {
+      "label": "Coles County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 22
+        },
+        {
+          "label": "Asian",
+          "value": 547
+        },
+        {
+          "label": "Black or African American",
+          "value": 1746
+        },
+        {
+          "label": "Hispanic",
+          "value": 1721
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1153
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 41355
+        }
+      ]
+    },
+    "Cook County, Illinois": {
+      "label": "Cook County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3593
+        },
+        {
+          "label": "Asian",
+          "value": 397936
+        },
+        {
+          "label": "Black or African American",
+          "value": 1148288
+        },
+        {
+          "label": "Hispanic",
+          "value": 1374034
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1288
+        },
+        {
+          "label": "Two or More Races",
+          "value": 139173
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2102352
+        }
+      ]
+    },
+    "Crawford County, Illinois": {
+      "label": "Crawford County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 82
+        },
+        {
+          "label": "Asian",
+          "value": 36
+        },
+        {
+          "label": "Black or African American",
+          "value": 656
+        },
+        {
+          "label": "Hispanic",
+          "value": 470
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 499
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16823
+        }
+      ]
+    },
+    "Cumberland County, Illinois": {
+      "label": "Cumberland County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 10
+        },
+        {
+          "label": "Black or African American",
+          "value": 15
+        },
+        {
+          "label": "Hispanic",
+          "value": 33
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 362
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9958
+        }
+      ]
+    },
+    "De Witt County, Illinois": {
+      "label": "De Witt County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 31
+        },
+        {
+          "label": "Black or African American",
+          "value": 149
+        },
+        {
+          "label": "Hispanic",
+          "value": 520
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 319
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14414
+        }
+      ]
+    },
+    "DeKalb County, Illinois": {
+      "label": "DeKalb County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 70
+        },
+        {
+          "label": "Asian",
+          "value": 2070
+        },
+        {
+          "label": "Black or African American",
+          "value": 7691
+        },
+        {
+          "label": "Hispanic",
+          "value": 14075
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3608
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 72768
+        }
+      ]
+    },
+    "Douglas County, Illinois": {
+      "label": "Douglas County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 89
+        },
+        {
+          "label": "Black or African American",
+          "value": 240
+        },
+        {
+          "label": "Hispanic",
+          "value": 1603
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 351
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17313
+        }
+      ]
+    },
+    "DuPage County, Illinois": {
+      "label": "DuPage County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 384
+        },
+        {
+          "label": "Asian",
+          "value": 116584
+        },
+        {
+          "label": "Black or African American",
+          "value": 45002
+        },
+        {
+          "label": "Hispanic",
+          "value": 145993
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 201
+        },
+        {
+          "label": "Two or More Races",
+          "value": 29883
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 585489
+        }
+      ]
+    },
+    "Edgar County, Illinois": {
+      "label": "Edgar County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 34
+        },
+        {
+          "label": "Black or African American",
+          "value": 84
+        },
+        {
+          "label": "Hispanic",
+          "value": 238
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 279
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15991
+        }
+      ]
+    },
+    "Edwards County, Illinois": {
+      "label": "Edwards County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 18
+        },
+        {
+          "label": "Black or African American",
+          "value": 11
+        },
+        {
+          "label": "Hispanic",
+          "value": 82
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 188
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5812
+        }
+      ]
+    },
+    "Effingham County, Illinois": {
+      "label": "Effingham County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 251
+        },
+        {
+          "label": "Black or African American",
+          "value": 226
+        },
+        {
+          "label": "Hispanic",
+          "value": 905
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 464
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32634
+        }
+      ]
+    },
+    "Fayette County, Illinois": {
+      "label": "Fayette County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 95
+        },
+        {
+          "label": "Asian",
+          "value": 32
+        },
+        {
+          "label": "Black or African American",
+          "value": 805
+        },
+        {
+          "label": "Hispanic",
+          "value": 620
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 42
+        },
+        {
+          "label": "Two or More Races",
+          "value": 839
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18947
+        }
+      ]
+    },
+    "Ford County, Illinois": {
+      "label": "Ford County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 100
+        },
+        {
+          "label": "Black or African American",
+          "value": 86
+        },
+        {
+          "label": "Hispanic",
+          "value": 621
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 416
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12129
+        }
+      ]
+    },
+    "Franklin County, Illinois": {
+      "label": "Franklin County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 139
+        },
+        {
+          "label": "Black or African American",
+          "value": 152
+        },
+        {
+          "label": "Hispanic",
+          "value": 709
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 948
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 35470
+        }
+      ]
+    },
+    "Fulton County, Illinois": {
+      "label": "Fulton County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 123
+        },
+        {
+          "label": "Asian",
+          "value": 91
+        },
+        {
+          "label": "Black or African American",
+          "value": 819
+        },
+        {
+          "label": "Hispanic",
+          "value": 808
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 736
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30643
+        }
+      ]
+    },
+    "Gallatin County, Illinois": {
+      "label": "Gallatin County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 33
+        },
+        {
+          "label": "Hispanic",
+          "value": 38
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 127
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4629
+        }
+      ]
+    },
+    "Greene County, Illinois": {
+      "label": "Greene County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 40
+        },
+        {
+          "label": "Black or African American",
+          "value": 81
+        },
+        {
+          "label": "Hispanic",
+          "value": 119
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 215
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11362
+        }
+      ]
+    },
+    "Grundy County, Illinois": {
+      "label": "Grundy County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 37
+        },
+        {
+          "label": "Asian",
+          "value": 231
+        },
+        {
+          "label": "Black or African American",
+          "value": 1123
+        },
+        {
+          "label": "Hispanic",
+          "value": 6081
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1304
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 44096
+        }
+      ]
+    },
+    "Hamilton County, Illinois": {
+      "label": "Hamilton County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 69
+        },
+        {
+          "label": "Black or African American",
+          "value": 4
+        },
+        {
+          "label": "Hispanic",
+          "value": 107
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 37
+        },
+        {
+          "label": "Two or More Races",
+          "value": 165
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7566
+        }
+      ]
+    },
+    "Hancock County, Illinois": {
+      "label": "Hancock County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 57
+        },
+        {
+          "label": "Black or African American",
+          "value": 132
+        },
+        {
+          "label": "Hispanic",
+          "value": 352
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 382
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16485
+        }
+      ]
+    },
+    "Hardin County, Illinois": {
+      "label": "Hardin County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 43
+        },
+        {
+          "label": "Hispanic",
+          "value": 42
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 67
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3463
+        }
+      ]
+    },
+    "Henderson County, Illinois": {
+      "label": "Henderson County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 2
+        },
+        {
+          "label": "Black or African American",
+          "value": 16
+        },
+        {
+          "label": "Hispanic",
+          "value": 122
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 187
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5913
+        }
+      ]
+    },
+    "Henry County, Illinois": {
+      "label": "Henry County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 192
+        },
+        {
+          "label": "Black or African American",
+          "value": 1001
+        },
+        {
+          "label": "Hispanic",
+          "value": 3284
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1488
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 42722
+        }
+      ]
+    },
+    "Iroquois County, Illinois": {
+      "label": "Iroquois County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 99
+        },
+        {
+          "label": "Black or African American",
+          "value": 182
+        },
+        {
+          "label": "Hispanic",
+          "value": 2132
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 764
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23491
+        }
+      ]
+    },
+    "Jackson County, Illinois": {
+      "label": "Jackson County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 89
+        },
+        {
+          "label": "Asian",
+          "value": 1895
+        },
+        {
+          "label": "Black or African American",
+          "value": 7557
+        },
+        {
+          "label": "Hispanic",
+          "value": 2772
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 31
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1908
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 38046
+        }
+      ]
+    },
+    "Jasper County, Illinois": {
+      "label": "Jasper County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 14
+        },
+        {
+          "label": "Black or African American",
+          "value": 10
+        },
+        {
+          "label": "Hispanic",
+          "value": 106
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 141
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8959
+        }
+      ]
+    },
+    "Jefferson County, Illinois": {
+      "label": "Jefferson County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 60
+        },
+        {
+          "label": "Asian",
+          "value": 343
+        },
+        {
+          "label": "Black or African American",
+          "value": 2274
+        },
+        {
+          "label": "Hispanic",
+          "value": 1003
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2028
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 31012
+        }
+      ]
+    },
+    "Jersey County, Illinois": {
+      "label": "Jersey County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 107
+        },
+        {
+          "label": "Black or African American",
+          "value": 124
+        },
+        {
+          "label": "Hispanic",
+          "value": 330
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 24
+        },
+        {
+          "label": "Two or More Races",
+          "value": 468
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20265
+        }
+      ]
+    },
+    "Jo Daviess County, Illinois": {
+      "label": "Jo Daviess County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 40
+        },
+        {
+          "label": "Asian",
+          "value": 109
+        },
+        {
+          "label": "Black or African American",
+          "value": 181
+        },
+        {
+          "label": "Hispanic",
+          "value": 879
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 13
+        },
+        {
+          "label": "Two or More Races",
+          "value": 415
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20210
+        }
+      ]
+    },
+    "Johnson County, Illinois": {
+      "label": "Johnson County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 33
+        },
+        {
+          "label": "Black or African American",
+          "value": 1006
+        },
+        {
+          "label": "Hispanic",
+          "value": 567
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 931
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10813
+        }
+      ]
+    },
+    "Kane County, Illinois": {
+      "label": "Kane County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 271
+        },
+        {
+          "label": "Asian",
+          "value": 20168
+        },
+        {
+          "label": "Black or African American",
+          "value": 25051
+        },
+        {
+          "label": "Hispanic",
+          "value": 170629
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 244
+        },
+        {
+          "label": "Two or More Races",
+          "value": 15151
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 282290
+        }
+      ]
+    },
+    "Kankakee County, Illinois": {
+      "label": "Kankakee County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 56
+        },
+        {
+          "label": "Asian",
+          "value": 1017
+        },
+        {
+          "label": "Black or African American",
+          "value": 15571
+        },
+        {
+          "label": "Hispanic",
+          "value": 12948
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3364
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 73563
+        }
+      ]
+    },
+    "Kendall County, Illinois": {
+      "label": "Kendall County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 52
+        },
+        {
+          "label": "Asian",
+          "value": 4159
+        },
+        {
+          "label": "Black or African American",
+          "value": 11111
+        },
+        {
+          "label": "Hispanic",
+          "value": 29273
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4341
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 85601
+        }
+      ]
+    },
+    "Knox County, Illinois": {
+      "label": "Knox County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 501
+        },
+        {
+          "label": "Black or African American",
+          "value": 3810
+        },
+        {
+          "label": "Hispanic",
+          "value": 3090
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1874
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 39853
+        }
+      ]
+    },
+    "Lake County, Illinois": {
+      "label": "Lake County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 450
+        },
+        {
+          "label": "Asian",
+          "value": 59534
+        },
+        {
+          "label": "Black or African American",
+          "value": 45108
+        },
+        {
+          "label": "Hispanic",
+          "value": 173796
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 232
+        },
+        {
+          "label": "Two or More Races",
+          "value": 21937
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 406806
+        }
+      ]
+    },
+    "LaSalle County, Illinois": {
+      "label": "LaSalle County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 929
+        },
+        {
+          "label": "Black or African American",
+          "value": 2880
+        },
+        {
+          "label": "Hispanic",
+          "value": 11806
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2660
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 90539
+        }
+      ]
+    },
+    "Lawrence County, Illinois": {
+      "label": "Lawrence County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 34
+        },
+        {
+          "label": "Asian",
+          "value": 74
+        },
+        {
+          "label": "Black or African American",
+          "value": 1020
+        },
+        {
+          "label": "Hispanic",
+          "value": 352
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 867
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12780
+        }
+      ]
+    },
+    "Lee County, Illinois": {
+      "label": "Lee County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 181
+        },
+        {
+          "label": "Black or African American",
+          "value": 1824
+        },
+        {
+          "label": "Hispanic",
+          "value": 2443
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 847
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28727
+        }
+      ]
+    },
+    "Livingston County, Illinois": {
+      "label": "Livingston County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 164
+        },
+        {
+          "label": "Black or African American",
+          "value": 1241
+        },
+        {
+          "label": "Hispanic",
+          "value": 1975
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 796
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 31467
+        }
+      ]
+    },
+    "Logan County, Illinois": {
+      "label": "Logan County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 115
+        },
+        {
+          "label": "Black or African American",
+          "value": 1652
+        },
+        {
+          "label": "Hispanic",
+          "value": 924
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1046
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24101
+        }
+      ]
+    },
+    "Macon County, Illinois": {
+      "label": "Macon County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 1427
+        },
+        {
+          "label": "Black or African American",
+          "value": 17460
+        },
+        {
+          "label": "Hispanic",
+          "value": 2821
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 65
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4615
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 75859
+        }
+      ]
+    },
+    "Macoupin County, Illinois": {
+      "label": "Macoupin County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 26
+        },
+        {
+          "label": "Asian",
+          "value": 159
+        },
+        {
+          "label": "Black or African American",
+          "value": 534
+        },
+        {
+          "label": "Hispanic",
+          "value": 587
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1157
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 42016
+        }
+      ]
+    },
+    "Madison County, Illinois": {
+      "label": "Madison County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 113
+        },
+        {
+          "label": "Asian",
+          "value": 2665
+        },
+        {
+          "label": "Black or African American",
+          "value": 22617
+        },
+        {
+          "label": "Hispanic",
+          "value": 11039
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 63
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9695
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 218003
+        }
+      ]
+    },
+    "Marion County, Illinois": {
+      "label": "Marion County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 251
+        },
+        {
+          "label": "Black or African American",
+          "value": 1551
+        },
+        {
+          "label": "Hispanic",
+          "value": 798
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1033
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33408
+        }
+      ]
+    },
+    "Marshall County, Illinois": {
+      "label": "Marshall County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 49
+        },
+        {
+          "label": "Hispanic",
+          "value": 379
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 416
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10821
+        }
+      ]
+    },
+    "Mason County, Illinois": {
+      "label": "Mason County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 25
+        },
+        {
+          "label": "Asian",
+          "value": 15
+        },
+        {
+          "label": "Black or African American",
+          "value": 71
+        },
+        {
+          "label": "Hispanic",
+          "value": 189
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 279
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12299
+        }
+      ]
+    },
+    "Massac County, Illinois": {
+      "label": "Massac County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 53
+        },
+        {
+          "label": "Black or African American",
+          "value": 860
+        },
+        {
+          "label": "Hispanic",
+          "value": 388
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 535
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12103
+        }
+      ]
+    },
+    "McDonough County, Illinois": {
+      "label": "McDonough County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 530
+        },
+        {
+          "label": "Black or African American",
+          "value": 1552
+        },
+        {
+          "label": "Hispanic",
+          "value": 935
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 724
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23245
+        }
+      ]
+    },
+    "McHenry County, Illinois": {
+      "label": "McHenry County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 145
+        },
+        {
+          "label": "Asian",
+          "value": 8824
+        },
+        {
+          "label": "Black or African American",
+          "value": 4512
+        },
+        {
+          "label": "Hispanic",
+          "value": 48557
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 14
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8965
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 239568
+        }
+      ]
+    },
+    "McLean County, Illinois": {
+      "label": "McLean County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 114
+        },
+        {
+          "label": "Asian",
+          "value": 8352
+        },
+        {
+          "label": "Black or African American",
+          "value": 14159
+        },
+        {
+          "label": "Hispanic",
+          "value": 10700
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 15
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5415
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 131654
+        }
+      ]
+    },
+    "Menard County, Illinois": {
+      "label": "Menard County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 47
+        },
+        {
+          "label": "Black or African American",
+          "value": 56
+        },
+        {
+          "label": "Hispanic",
+          "value": 188
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 310
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11567
+        }
+      ]
+    },
+    "Mercer County, Illinois": {
+      "label": "Mercer County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 52
+        },
+        {
+          "label": "Black or African American",
+          "value": 88
+        },
+        {
+          "label": "Hispanic",
+          "value": 514
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 341
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14606
+        }
+      ]
+    },
+    "Monroe County, Illinois": {
+      "label": "Monroe County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 166
+        },
+        {
+          "label": "Black or African American",
+          "value": 208
+        },
+        {
+          "label": "Hispanic",
+          "value": 656
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 508
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33313
+        }
+      ]
+    },
+    "Montgomery County, Illinois": {
+      "label": "Montgomery County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 37
+        },
+        {
+          "label": "Asian",
+          "value": 153
+        },
+        {
+          "label": "Black or African American",
+          "value": 756
+        },
+        {
+          "label": "Hispanic",
+          "value": 597
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 644
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25835
+        }
+      ]
+    },
+    "Morgan County, Illinois": {
+      "label": "Morgan County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 35
+        },
+        {
+          "label": "Asian",
+          "value": 242
+        },
+        {
+          "label": "Black or African American",
+          "value": 1724
+        },
+        {
+          "label": "Hispanic",
+          "value": 906
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1116
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28576
+        }
+      ]
+    },
+    "Moultrie County, Illinois": {
+      "label": "Moultrie County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 19
+        },
+        {
+          "label": "Black or African American",
+          "value": 153
+        },
+        {
+          "label": "Hispanic",
+          "value": 228
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 217
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13843
+        }
+      ]
+    },
+    "Ogle County, Illinois": {
+      "label": "Ogle County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 30
+        },
+        {
+          "label": "Asian",
+          "value": 228
+        },
+        {
+          "label": "Black or African American",
+          "value": 627
+        },
+        {
+          "label": "Hispanic",
+          "value": 5927
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1376
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 43162
+        }
+      ]
+    },
+    "Peoria County, Illinois": {
+      "label": "Peoria County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 132
+        },
+        {
+          "label": "Asian",
+          "value": 8030
+        },
+        {
+          "label": "Black or African American",
+          "value": 31409
+        },
+        {
+          "label": "Hispanic",
+          "value": 10348
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 26
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8805
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 120556
+        }
+      ]
+    },
+    "Perry County, Illinois": {
+      "label": "Perry County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 135
+        },
+        {
+          "label": "Black or African American",
+          "value": 1661
+        },
+        {
+          "label": "Hispanic",
+          "value": 731
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 466
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17785
+        }
+      ]
+    },
+    "Piatt County, Illinois": {
+      "label": "Piatt County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 32
+        },
+        {
+          "label": "Black or African American",
+          "value": 250
+        },
+        {
+          "label": "Hispanic",
+          "value": 261
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 244
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15881
+        }
+      ]
+    },
+    "Pike County, Illinois": {
+      "label": "Pike County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 48
+        },
+        {
+          "label": "Black or African American",
+          "value": 74
+        },
+        {
+          "label": "Hispanic",
+          "value": 283
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 97
+        },
+        {
+          "label": "Two or More Races",
+          "value": 225
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13887
+        }
+      ]
+    },
+    "Pope County, Illinois": {
+      "label": "Pope County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 25
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 189
+        },
+        {
+          "label": "Hispanic",
+          "value": 96
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 96
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3350
+        }
+      ]
+    },
+    "Pulaski County, Illinois": {
+      "label": "Pulaski County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 5
+        },
+        {
+          "label": "Black or African American",
+          "value": 1637
+        },
+        {
+          "label": "Hispanic",
+          "value": 98
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 196
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3130
+        }
+      ]
+    },
+    "Putnam County, Illinois": {
+      "label": "Putnam County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 36
+        },
+        {
+          "label": "Black or African American",
+          "value": 13
+        },
+        {
+          "label": "Hispanic",
+          "value": 359
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 96
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5060
+        }
+      ]
+    },
+    "Randolph County, Illinois": {
+      "label": "Randolph County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 25
+        },
+        {
+          "label": "Asian",
+          "value": 192
+        },
+        {
+          "label": "Black or African American",
+          "value": 2373
+        },
+        {
+          "label": "Hispanic",
+          "value": 1094
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 14
+        },
+        {
+          "label": "Two or More Races",
+          "value": 530
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25871
+        }
+      ]
+    },
+    "Richland County, Illinois": {
+      "label": "Richland County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 43
+        },
+        {
+          "label": "Black or African American",
+          "value": 46
+        },
+        {
+          "label": "Hispanic",
+          "value": 298
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 464
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14680
+        }
+      ]
+    },
+    "Rock Island County, Illinois": {
+      "label": "Rock Island County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 111
+        },
+        {
+          "label": "Asian",
+          "value": 3611
+        },
+        {
+          "label": "Black or African American",
+          "value": 14883
+        },
+        {
+          "label": "Hispanic",
+          "value": 20013
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 50
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6034
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 97940
+        }
+      ]
+    },
+    "Saline County, Illinois": {
+      "label": "Saline County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 174
+        },
+        {
+          "label": "Black or African American",
+          "value": 654
+        },
+        {
+          "label": "Hispanic",
+          "value": 486
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 591
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21436
+        }
+      ]
+    },
+    "Sangamon County, Illinois": {
+      "label": "Sangamon County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 103
+        },
+        {
+          "label": "Asian",
+          "value": 4117
+        },
+        {
+          "label": "Black or African American",
+          "value": 24341
+        },
+        {
+          "label": "Hispanic",
+          "value": 5451
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 32
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7814
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 152464
+        }
+      ]
+    },
+    "Schuyler County, Illinois": {
+      "label": "Schuyler County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 45
+        },
+        {
+          "label": "Black or African American",
+          "value": 303
+        },
+        {
+          "label": "Hispanic",
+          "value": 169
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 121
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6188
+        }
+      ]
+    },
+    "Scott County, Illinois": {
+      "label": "Scott County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 21
+        },
+        {
+          "label": "Black or African American",
+          "value": 51
+        },
+        {
+          "label": "Hispanic",
+          "value": 71
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 63
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4637
+        }
+      ]
+    },
+    "Shelby County, Illinois": {
+      "label": "Shelby County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 85
+        },
+        {
+          "label": "Asian",
+          "value": 60
+        },
+        {
+          "label": "Black or African American",
+          "value": 24
+        },
+        {
+          "label": "Hispanic",
+          "value": 241
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 327
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20095
+        }
+      ]
+    },
+    "St. Clair County, Illinois": {
+      "label": "St. Clair County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 571
+        },
+        {
+          "label": "Asian",
+          "value": 3931
+        },
+        {
+          "label": "Black or African American",
+          "value": 70841
+        },
+        {
+          "label": "Hispanic",
+          "value": 12600
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 51
+        },
+        {
+          "label": "Two or More Races",
+          "value": 13994
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 151513
+        }
+      ]
+    },
+    "Stark County, Illinois": {
+      "label": "Stark County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 36
+        },
+        {
+          "label": "Black or African American",
+          "value": 55
+        },
+        {
+          "label": "Hispanic",
+          "value": 134
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 183
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4912
+        }
+      ]
+    },
+    "Stephenson County, Illinois": {
+      "label": "Stephenson County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 355
+        },
+        {
+          "label": "Black or African American",
+          "value": 3714
+        },
+        {
+          "label": "Hispanic",
+          "value": 2335
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2345
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 35218
+        }
+      ]
+    },
+    "Tazewell County, Illinois": {
+      "label": "Tazewell County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 130
+        },
+        {
+          "label": "Asian",
+          "value": 1333
+        },
+        {
+          "label": "Black or African American",
+          "value": 1813
+        },
+        {
+          "label": "Hispanic",
+          "value": 3355
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 18
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2881
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 120850
+        }
+      ]
+    },
+    "Union County, Illinois": {
+      "label": "Union County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 75
+        },
+        {
+          "label": "Black or African American",
+          "value": 132
+        },
+        {
+          "label": "Hispanic",
+          "value": 882
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 556
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15297
+        }
+      ]
+    },
+    "Vermilion County, Illinois": {
+      "label": "Vermilion County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 52
+        },
+        {
+          "label": "Asian",
+          "value": 632
+        },
+        {
+          "label": "Black or African American",
+          "value": 10794
+        },
+        {
+          "label": "Hispanic",
+          "value": 3968
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1197
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 56451
+        }
+      ]
+    },
+    "Wabash County, Illinois": {
+      "label": "Wabash County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 140
+        },
+        {
+          "label": "Black or African American",
+          "value": 108
+        },
+        {
+          "label": "Hispanic",
+          "value": 208
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 239
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10499
+        }
+      ]
+    },
+    "Warren County, Illinois": {
+      "label": "Warren County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 400
+        },
+        {
+          "label": "Black or African American",
+          "value": 462
+        },
+        {
+          "label": "Hispanic",
+          "value": 1791
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 18
+        },
+        {
+          "label": "Two or More Races",
+          "value": 315
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13544
+        }
+      ]
+    },
+    "Washington County, Illinois": {
+      "label": "Washington County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 25
+        },
+        {
+          "label": "Black or African American",
+          "value": 66
+        },
+        {
+          "label": "Hispanic",
+          "value": 216
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 355
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13005
+        }
+      ]
+    },
+    "Wayne County, Illinois": {
+      "label": "Wayne County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 86
+        },
+        {
+          "label": "Black or African American",
+          "value": 35
+        },
+        {
+          "label": "Hispanic",
+          "value": 259
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 298
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15311
+        }
+      ]
+    },
+    "White County, Illinois": {
+      "label": "White County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 30
+        },
+        {
+          "label": "Black or African American",
+          "value": 90
+        },
+        {
+          "label": "Hispanic",
+          "value": 205
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 235
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13130
+        }
+      ]
+    },
+    "Whiteside County, Illinois": {
+      "label": "Whiteside County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 35
+        },
+        {
+          "label": "Asian",
+          "value": 267
+        },
+        {
+          "label": "Black or African American",
+          "value": 564
+        },
+        {
+          "label": "Hispanic",
+          "value": 7212
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1686
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 45340
+        }
+      ]
+    },
+    "Will County, Illinois": {
+      "label": "Will County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 328
+        },
+        {
+          "label": "Asian",
+          "value": 41812
+        },
+        {
+          "label": "Black or African American",
+          "value": 80482
+        },
+        {
+          "label": "Hispanic",
+          "value": 134835
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 47
+        },
+        {
+          "label": "Two or More Races",
+          "value": 21420
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 417514
+        }
+      ]
+    },
+    "Williamson County, Illinois": {
+      "label": "Williamson County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 189
+        },
+        {
+          "label": "Asian",
+          "value": 982
+        },
+        {
+          "label": "Black or African American",
+          "value": 2316
+        },
+        {
+          "label": "Hispanic",
+          "value": 1881
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2410
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 59028
+        }
+      ]
+    },
+    "Winnebago County, Illinois": {
+      "label": "Winnebago County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 116
+        },
+        {
+          "label": "Asian",
+          "value": 8016
+        },
+        {
+          "label": "Black or African American",
+          "value": 36633
+        },
+        {
+          "label": "Hispanic",
+          "value": 42452
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 81
+        },
+        {
+          "label": "Two or More Races",
+          "value": 11713
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 183505
+        }
+      ]
+    },
+    "Woodford County, Illinois": {
+      "label": "Woodford County, Illinois",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 183
+        },
+        {
+          "label": "Black or African American",
+          "value": 242
+        },
+        {
+          "label": "Hispanic",
+          "value": 765
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1010
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 36064
+        }
+      ]
+    }
+  }
+}

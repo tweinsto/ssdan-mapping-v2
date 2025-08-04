@@ -1,0 +1,1226 @@
+{
+  "state": "Baker County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28235
+        },
+        {
+          "label": "Asian",
+          "value": 185768
+        },
+        {
+          "label": "Black or African American",
+          "value": 77800
+        },
+        {
+          "label": "Hispanic",
+          "value": 605467
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 16000
+        },
+        {
+          "label": "Two or More Races",
+          "value": 239029
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3065611
+        }
+      ]
+    },
+    "Baker County, Oregon": {
+      "label": "Baker County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 153
+        },
+        {
+          "label": "Asian",
+          "value": 29
+        },
+        {
+          "label": "Black or African American",
+          "value": 205
+        },
+        {
+          "label": "Hispanic",
+          "value": 842
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 55
+        },
+        {
+          "label": "Two or More Races",
+          "value": 575
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14898
+        }
+      ]
+    },
+    "Benton County, Oregon": {
+      "label": "Benton County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 428
+        },
+        {
+          "label": "Asian",
+          "value": 6308
+        },
+        {
+          "label": "Black or African American",
+          "value": 1163
+        },
+        {
+          "label": "Hispanic",
+          "value": 8751
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 172
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4732
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 74344
+        }
+      ]
+    },
+    "Clackamas County, Oregon": {
+      "label": "Clackamas County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1493
+        },
+        {
+          "label": "Asian",
+          "value": 20764
+        },
+        {
+          "label": "Black or African American",
+          "value": 4270
+        },
+        {
+          "label": "Hispanic",
+          "value": 41314
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 804
+        },
+        {
+          "label": "Two or More Races",
+          "value": 23529
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 327968
+        }
+      ]
+    },
+    "Clatsop County, Oregon": {
+      "label": "Clatsop County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 126
+        },
+        {
+          "label": "Asian",
+          "value": 480
+        },
+        {
+          "label": "Black or African American",
+          "value": 390
+        },
+        {
+          "label": "Hispanic",
+          "value": 4020
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 39
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2662
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33580
+        }
+      ]
+    },
+    "Columbia County, Oregon": {
+      "label": "Columbia County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 450
+        },
+        {
+          "label": "Asian",
+          "value": 341
+        },
+        {
+          "label": "Black or African American",
+          "value": 301
+        },
+        {
+          "label": "Hispanic",
+          "value": 3388
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 205
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3137
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 45192
+        }
+      ]
+    },
+    "Coos County, Oregon": {
+      "label": "Coos County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1079
+        },
+        {
+          "label": "Asian",
+          "value": 740
+        },
+        {
+          "label": "Black or African American",
+          "value": 253
+        },
+        {
+          "label": "Hispanic",
+          "value": 4540
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4229
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 53793
+        }
+      ]
+    },
+    "Crook County, Oregon": {
+      "label": "Crook County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 268
+        },
+        {
+          "label": "Asian",
+          "value": 62
+        },
+        {
+          "label": "Black or African American",
+          "value": 65
+        },
+        {
+          "label": "Hispanic",
+          "value": 1961
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1001
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22270
+        }
+      ]
+    },
+    "Curry County, Oregon": {
+      "label": "Curry County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 300
+        },
+        {
+          "label": "Asian",
+          "value": 166
+        },
+        {
+          "label": "Black or African American",
+          "value": 60
+        },
+        {
+          "label": "Hispanic",
+          "value": 1769
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 78
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1477
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19505
+        }
+      ]
+    },
+    "Deschutes County, Oregon": {
+      "label": "Deschutes County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 834
+        },
+        {
+          "label": "Asian",
+          "value": 2170
+        },
+        {
+          "label": "Black or African American",
+          "value": 697
+        },
+        {
+          "label": "Hispanic",
+          "value": 18140
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 273
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8955
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 171079
+        }
+      ]
+    },
+    "Douglas County, Oregon": {
+      "label": "Douglas County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 876
+        },
+        {
+          "label": "Asian",
+          "value": 1002
+        },
+        {
+          "label": "Black or African American",
+          "value": 385
+        },
+        {
+          "label": "Hispanic",
+          "value": 7133
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 141
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6408
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 95095
+        }
+      ]
+    },
+    "Gilliam County, Oregon": {
+      "label": "Gilliam County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 8
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 174
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 135
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1643
+        }
+      ]
+    },
+    "Grant County, Oregon": {
+      "label": "Grant County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 39
+        },
+        {
+          "label": "Asian",
+          "value": 53
+        },
+        {
+          "label": "Black or African American",
+          "value": 8
+        },
+        {
+          "label": "Hispanic",
+          "value": 306
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 15
+        },
+        {
+          "label": "Two or More Races",
+          "value": 406
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6370
+        }
+      ]
+    },
+    "Harney County, Oregon": {
+      "label": "Harney County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 125
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 16
+        },
+        {
+          "label": "Hispanic",
+          "value": 412
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 27
+        },
+        {
+          "label": "Two or More Races",
+          "value": 518
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6413
+        }
+      ]
+    },
+    "Hood River County, Oregon": {
+      "label": "Hood River County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 52
+        },
+        {
+          "label": "Asian",
+          "value": 253
+        },
+        {
+          "label": "Black or African American",
+          "value": 197
+        },
+        {
+          "label": "Hispanic",
+          "value": 7260
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 996
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14965
+        }
+      ]
+    },
+    "Jackson County, Oregon": {
+      "label": "Jackson County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 876
+        },
+        {
+          "label": "Asian",
+          "value": 2450
+        },
+        {
+          "label": "Black or African American",
+          "value": 1415
+        },
+        {
+          "label": "Hispanic",
+          "value": 31625
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 456
+        },
+        {
+          "label": "Two or More Races",
+          "value": 12146
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 172575
+        }
+      ]
+    },
+    "Jefferson County, Oregon": {
+      "label": "Jefferson County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2782
+        },
+        {
+          "label": "Asian",
+          "value": 145
+        },
+        {
+          "label": "Black or African American",
+          "value": 176
+        },
+        {
+          "label": "Hispanic",
+          "value": 5236
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 17
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2104
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14300
+        }
+      ]
+    },
+    "Josephine County, Oregon": {
+      "label": "Josephine County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 388
+        },
+        {
+          "label": "Asian",
+          "value": 707
+        },
+        {
+          "label": "Black or African American",
+          "value": 443
+        },
+        {
+          "label": "Hispanic",
+          "value": 7434
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 119
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4526
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 73788
+        }
+      ]
+    },
+    "Klamath County, Oregon": {
+      "label": "Klamath County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1902
+        },
+        {
+          "label": "Asian",
+          "value": 535
+        },
+        {
+          "label": "Black or African American",
+          "value": 459
+        },
+        {
+          "label": "Hispanic",
+          "value": 9387
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 162
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4450
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 52628
+        }
+      ]
+    },
+    "Lake County, Oregon": {
+      "label": "Lake County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 166
+        },
+        {
+          "label": "Asian",
+          "value": 27
+        },
+        {
+          "label": "Black or African American",
+          "value": 43
+        },
+        {
+          "label": "Hispanic",
+          "value": 853
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 429
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6656
+        }
+      ]
+    },
+    "Lane County, Oregon": {
+      "label": "Lane County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2532
+        },
+        {
+          "label": "Asian",
+          "value": 9762
+        },
+        {
+          "label": "Black or African American",
+          "value": 4060
+        },
+        {
+          "label": "Hispanic",
+          "value": 39044
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 792
+        },
+        {
+          "label": "Two or More Races",
+          "value": 22947
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 301961
+        }
+      ]
+    },
+    "Lincoln County, Oregon": {
+      "label": "Lincoln County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1025
+        },
+        {
+          "label": "Asian",
+          "value": 634
+        },
+        {
+          "label": "Black or African American",
+          "value": 154
+        },
+        {
+          "label": "Hispanic",
+          "value": 5036
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 50
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3247
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 40208
+        }
+      ]
+    },
+    "Linn County, Oregon": {
+      "label": "Linn County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 507
+        },
+        {
+          "label": "Asian",
+          "value": 1232
+        },
+        {
+          "label": "Black or African American",
+          "value": 426
+        },
+        {
+          "label": "Hispanic",
+          "value": 13343
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 205
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6964
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 106750
+        }
+      ]
+    },
+    "Malheur County, Oregon": {
+      "label": "Malheur County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 195
+        },
+        {
+          "label": "Asian",
+          "value": 427
+        },
+        {
+          "label": "Black or African American",
+          "value": 305
+        },
+        {
+          "label": "Hispanic",
+          "value": 10628
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 60
+        },
+        {
+          "label": "Two or More Races",
+          "value": 738
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19291
+        }
+      ]
+    },
+    "Marion County, Oregon": {
+      "label": "Marion County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1862
+        },
+        {
+          "label": "Asian",
+          "value": 7131
+        },
+        {
+          "label": "Black or African American",
+          "value": 3758
+        },
+        {
+          "label": "Hispanic",
+          "value": 98133
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3731
+        },
+        {
+          "label": "Two or More Races",
+          "value": 16107
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 214018
+        }
+      ]
+    },
+    "Morrow County, Oregon": {
+      "label": "Morrow County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 123
+        },
+        {
+          "label": "Hispanic",
+          "value": 5050
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 32
+        },
+        {
+          "label": "Two or More Races",
+          "value": 420
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6572
+        }
+      ]
+    },
+    "Multnomah County, Oregon": {
+      "label": "Multnomah County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3736
+        },
+        {
+          "label": "Asian",
+          "value": 59221
+        },
+        {
+          "label": "Black or African American",
+          "value": 43024
+        },
+        {
+          "label": "Hispanic",
+          "value": 105204
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4710
+        },
+        {
+          "label": "Two or More Races",
+          "value": 51670
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 532075
+        }
+      ]
+    },
+    "Polk County, Oregon": {
+      "label": "Polk County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 966
+        },
+        {
+          "label": "Asian",
+          "value": 1567
+        },
+        {
+          "label": "Black or African American",
+          "value": 461
+        },
+        {
+          "label": "Hispanic",
+          "value": 13459
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 366
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4947
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 66358
+        }
+      ]
+    },
+    "Sherman County, Oregon": {
+      "label": "Sherman County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 6
+        },
+        {
+          "label": "Black or African American",
+          "value": 7
+        },
+        {
+          "label": "Hispanic",
+          "value": 92
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 138
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1645
+        }
+      ]
+    },
+    "Tillamook County, Oregon": {
+      "label": "Tillamook County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 168
+        },
+        {
+          "label": "Asian",
+          "value": 172
+        },
+        {
+          "label": "Black or African American",
+          "value": 163
+        },
+        {
+          "label": "Hispanic",
+          "value": 3024
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 19
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1277
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22547
+        }
+      ]
+    },
+    "Umatilla County, Oregon": {
+      "label": "Umatilla County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1738
+        },
+        {
+          "label": "Asian",
+          "value": 468
+        },
+        {
+          "label": "Black or African American",
+          "value": 594
+        },
+        {
+          "label": "Hispanic",
+          "value": 23185
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 106
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3761
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 49656
+        }
+      ]
+    },
+    "Union County, Oregon": {
+      "label": "Union County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 177
+        },
+        {
+          "label": "Asian",
+          "value": 342
+        },
+        {
+          "label": "Black or African American",
+          "value": 206
+        },
+        {
+          "label": "Hispanic",
+          "value": 1400
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 277
+        },
+        {
+          "label": "Two or More Races",
+          "value": 975
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22623
+        }
+      ]
+    },
+    "Wallowa County, Oregon": {
+      "label": "Wallowa County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 24
+        },
+        {
+          "label": "Black or African American",
+          "value": 92
+        },
+        {
+          "label": "Hispanic",
+          "value": 298
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 276
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6751
+        }
+      ]
+    },
+    "Wasco County, Oregon": {
+      "label": "Wasco County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 477
+        },
+        {
+          "label": "Asian",
+          "value": 226
+        },
+        {
+          "label": "Black or African American",
+          "value": 112
+        },
+        {
+          "label": "Hispanic",
+          "value": 5260
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 135
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1131
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19223
+        }
+      ]
+    },
+    "Washington County, Oregon": {
+      "label": "Washington County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1709
+        },
+        {
+          "label": "Asian",
+          "value": 66365
+        },
+        {
+          "label": "Black or African American",
+          "value": 13009
+        },
+        {
+          "label": "Hispanic",
+          "value": 109211
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2696
+        },
+        {
+          "label": "Two or More Races",
+          "value": 36268
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 367788
+        }
+      ]
+    },
+    "Wheeler County, Oregon": {
+      "label": "Wheeler County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 7
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 65
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 128
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1215
+        }
+      ]
+    },
+    "Yamhill County, Oregon": {
+      "label": "Yamhill County, Oregon",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 759
+        },
+        {
+          "label": "Asian",
+          "value": 1931
+        },
+        {
+          "label": "Black or African American",
+          "value": 760
+        },
+        {
+          "label": "Hispanic",
+          "value": 18490
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 225
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5620
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 79868
+        }
+      ]
+    }
+  }
+}

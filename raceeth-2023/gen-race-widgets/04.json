@@ -1,0 +1,533 @@
+{
+  "state": "Apache County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 246825
+        },
+        {
+          "label": "Asian",
+          "value": 242881
+        },
+        {
+          "label": "Black or African American",
+          "value": 318894
+        },
+        {
+          "label": "Hispanic",
+          "value": 2255770
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 13016
+        },
+        {
+          "label": "Two or More Races",
+          "value": 283393
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3878932
+        }
+      ]
+    },
+    "Apache County, Arizona": {
+      "label": "Apache County, Arizona",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 46913
+        },
+        {
+          "label": "Asian",
+          "value": 396
+        },
+        {
+          "label": "Black or African American",
+          "value": 622
+        },
+        {
+          "label": "Hispanic",
+          "value": 4092
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 74
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1324
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12207
+        }
+      ]
+    },
+    "Cochise County, Arizona": {
+      "label": "Cochise County, Arizona",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 601
+        },
+        {
+          "label": "Asian",
+          "value": 2365
+        },
+        {
+          "label": "Black or African American",
+          "value": 4055
+        },
+        {
+          "label": "Hispanic",
+          "value": 43077
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 298
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6028
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 68464
+        }
+      ]
+    },
+    "Coconino County, Arizona": {
+      "label": "Coconino County, Arizona",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 35078
+        },
+        {
+          "label": "Asian",
+          "value": 2464
+        },
+        {
+          "label": "Black or African American",
+          "value": 2130
+        },
+        {
+          "label": "Hispanic",
+          "value": 22034
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 149
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6269
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 75884
+        }
+      ]
+    },
+    "Gila County, Arizona": {
+      "label": "Gila County, Arizona",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6808
+        },
+        {
+          "label": "Asian",
+          "value": 413
+        },
+        {
+          "label": "Black or African American",
+          "value": 318
+        },
+        {
+          "label": "Hispanic",
+          "value": 9529
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 33
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3218
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33240
+        }
+      ]
+    },
+    "Graham County, Arizona": {
+      "label": "Graham County, Arizona",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4201
+        },
+        {
+          "label": "Asian",
+          "value": 217
+        },
+        {
+          "label": "Black or African American",
+          "value": 497
+        },
+        {
+          "label": "Hispanic",
+          "value": 11769
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 25
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1417
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20617
+        }
+      ]
+    },
+    "Greenlee County, Arizona": {
+      "label": "Greenlee County, Arizona",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 339
+        },
+        {
+          "label": "Asian",
+          "value": 64
+        },
+        {
+          "label": "Black or African American",
+          "value": 139
+        },
+        {
+          "label": "Hispanic",
+          "value": 4396
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 169
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4340
+        }
+      ]
+    },
+    "La Paz County, Arizona": {
+      "label": "La Paz County, Arizona",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2007
+        },
+        {
+          "label": "Asian",
+          "value": 188
+        },
+        {
+          "label": "Black or African American",
+          "value": 50
+        },
+        {
+          "label": "Hispanic",
+          "value": 4230
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 512
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9601
+        }
+      ]
+    },
+    "Maricopa County, Arizona": {
+      "label": "Maricopa County, Arizona",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 60061
+        },
+        {
+          "label": "Asian",
+          "value": 192107
+        },
+        {
+          "label": "Black or African American",
+          "value": 246536
+        },
+        {
+          "label": "Hispanic",
+          "value": 1387720
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8409
+        },
+        {
+          "label": "Two or More Races",
+          "value": 180768
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2397465
+        }
+      ]
+    },
+    "Mohave County, Arizona": {
+      "label": "Mohave County, Arizona",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2873
+        },
+        {
+          "label": "Asian",
+          "value": 2436
+        },
+        {
+          "label": "Black or African American",
+          "value": 2403
+        },
+        {
+          "label": "Hispanic",
+          "value": 36295
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 373
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8098
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 164363
+        }
+      ]
+    },
+    "Navajo County, Arizona": {
+      "label": "Navajo County, Arizona",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 45130
+        },
+        {
+          "label": "Asian",
+          "value": 420
+        },
+        {
+          "label": "Black or African American",
+          "value": 1147
+        },
+        {
+          "label": "Hispanic",
+          "value": 11466
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 179
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3323
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 45710
+        }
+      ]
+    },
+    "Pima County, Arizona": {
+      "label": "Pima County, Arizona",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 21245
+        },
+        {
+          "label": "Asian",
+          "value": 30038
+        },
+        {
+          "label": "Black or African American",
+          "value": 34497
+        },
+        {
+          "label": "Hispanic",
+          "value": 379548
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1504
+        },
+        {
+          "label": "Two or More Races",
+          "value": 41276
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 537936
+        }
+      ]
+    },
+    "Pinal County, Arizona": {
+      "label": "Pinal County, Arizona",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16900
+        },
+        {
+          "label": "Asian",
+          "value": 7037
+        },
+        {
+          "label": "Black or African American",
+          "value": 21823
+        },
+        {
+          "label": "Hispanic",
+          "value": 131771
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1572
+        },
+        {
+          "label": "Two or More Races",
+          "value": 17405
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 251010
+        }
+      ]
+    },
+    "Santa Cruz County, Arizona": {
+      "label": "Santa Cruz County, Arizona",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 110
+        },
+        {
+          "label": "Asian",
+          "value": 72
+        },
+        {
+          "label": "Black or African American",
+          "value": 97
+        },
+        {
+          "label": "Hispanic",
+          "value": 39875
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 91
+        },
+        {
+          "label": "Two or More Races",
+          "value": 550
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7357
+        }
+      ]
+    },
+    "Yavapai County, Arizona": {
+      "label": "Yavapai County, Arizona",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2690
+        },
+        {
+          "label": "Asian",
+          "value": 2426
+        },
+        {
+          "label": "Black or African American",
+          "value": 1347
+        },
+        {
+          "label": "Hispanic",
+          "value": 36225
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 189
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8632
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 189248
+        }
+      ]
+    },
+    "Yuma County, Arizona": {
+      "label": "Yuma County, Arizona",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1869
+        },
+        {
+          "label": "Asian",
+          "value": 2238
+        },
+        {
+          "label": "Black or African American",
+          "value": 3233
+        },
+        {
+          "label": "Hispanic",
+          "value": 133743
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 118
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4404
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 61490
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 53</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Adams County, Washington">Adams County, Washington</option>
+<option value="Asotin County, Washington">Asotin County, Washington</option>
+<option value="Benton County, Washington">Benton County, Washington</option>
+<option value="Chelan County, Washington">Chelan County, Washington</option>
+<option value="Clallam County, Washington">Clallam County, Washington</option>
+<option value="Clark County, Washington">Clark County, Washington</option>
+<option value="Columbia County, Washington">Columbia County, Washington</option>
+<option value="Cowlitz County, Washington">Cowlitz County, Washington</option>
+<option value="Douglas County, Washington">Douglas County, Washington</option>
+<option value="Ferry County, Washington">Ferry County, Washington</option>
+<option value="Franklin County, Washington">Franklin County, Washington</option>
+<option value="Garfield County, Washington">Garfield County, Washington</option>
+<option value="Grant County, Washington">Grant County, Washington</option>
+<option value="Grays Harbor County, Washington">Grays Harbor County, Washington</option>
+<option value="Island County, Washington">Island County, Washington</option>
+<option value="Jefferson County, Washington">Jefferson County, Washington</option>
+<option value="King County, Washington">King County, Washington</option>
+<option value="Kitsap County, Washington">Kitsap County, Washington</option>
+<option value="Kittitas County, Washington">Kittitas County, Washington</option>
+<option value="Klickitat County, Washington">Klickitat County, Washington</option>
+<option value="Lewis County, Washington">Lewis County, Washington</option>
+<option value="Lincoln County, Washington">Lincoln County, Washington</option>
+<option value="Mason County, Washington">Mason County, Washington</option>
+<option value="Okanogan County, Washington">Okanogan County, Washington</option>
+<option value="Pacific County, Washington">Pacific County, Washington</option>
+<option value="Pend Oreille County, Washington">Pend Oreille County, Washington</option>
+<option value="Pierce County, Washington">Pierce County, Washington</option>
+<option value="San Juan County, Washington">San Juan County, Washington</option>
+<option value="Skagit County, Washington">Skagit County, Washington</option>
+<option value="Skamania County, Washington">Skamania County, Washington</option>
+<option value="Snohomish County, Washington">Snohomish County, Washington</option>
+<option value="Spokane County, Washington">Spokane County, Washington</option>
+<option value="Stevens County, Washington">Stevens County, Washington</option>
+<option value="Thurston County, Washington">Thurston County, Washington</option>
+<option value="Wahkiakum County, Washington">Wahkiakum County, Washington</option>
+<option value="Walla Walla County, Washington">Walla Walla County, Washington</option>
+<option value="Whatcom County, Washington">Whatcom County, Washington</option>
+<option value="Whitman County, Washington">Whitman County, Washington</option>
+<option value="Yakima County, Washington">Yakima County, Washington</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.82,"Asian":9.31,"Black or African American":3.82,"Hispanic":14.08,"Pacific Islander":0.68,"Two or More Races":6.47,"White (non-Hispanic)":64.28},"Adams County, Washington":{"American Indian / Alaska Native":0.23,"Asian":0.62,"Black or African American":0.37,"Hispanic":64.06,"Pacific Islander":0.27,"Two or More Races":2.04,"White (non-Hispanic)":32.09},"Asotin County, Washington":{"American Indian / Alaska Native":0.9,"Asian":0.96,"Black or African American":0.84,"Hispanic":4.44,"Pacific Islander":0,"Two or More Races":4.36,"White (non-Hispanic)":87.63},"Benton County, Washington":{"American Indian / Alaska Native":0.44,"Asian":2.87,"Black or African American":1.51,"Hispanic":24.79,"Pacific Islander":0.2,"Two or More Races":3.77,"White (non-Hispanic)":65.74},"Chelan County, Washington":{"American Indian / Alaska Native":0.68,"Asian":0.79,"Black or African American":0.51,"Hispanic":28.43,"Pacific Islander":0.08,"Two or More Races":2.92,"White (non-Hispanic)":66.24},"Clallam County, Washington":{"American Indian / Alaska Native":3.39,"Asian":1.61,"Black or African American":0.84,"Hispanic":6.57,"Pacific Islander":0.04,"Two or More Races":6.36,"White (non-Hispanic)":80.77},"Clark County, Washington":{"American Indian / Alaska Native":0.3,"Asian":4.69,"Black or African American":2.03,"Hispanic":11.99,"Pacific Islander":0.8,"Two or More Races":6.09,"White (non-Hispanic)":73.55},"Columbia County, Washington":{"American Indian / Alaska Native":0.4,"Asian":0.03,"Black or African American":0.7,"Hispanic":8.18,"Pacific Islander":0,"Two or More Races":9.03,"White (non-Hispanic)":81.48},"Cowlitz County, Washington":{"American Indian / Alaska Native":0.71,"Asian":1.15,"Black or African American":0.68,"Hispanic":10.19,"Pacific Islander":0.29,"Two or More Races":5.87,"White (non-Hispanic)":80.6},"Douglas County, Washington":{"American Indian / Alaska Native":0.57,"Asian":0.85,"Black or African American":0.46,"Hispanic":34.67,"Pacific Islander":0.29,"Two or More Races":3.65,"White (non-Hispanic)":59.2},"Ferry County, Washington":{"American Indian / Alaska Native":13.02,"Asian":0.26,"Black or African American":0.15,"Hispanic":3.28,"Pacific Islander":1.8,"Two or More Races":8.46,"White (non-Hispanic)":72.6},"Franklin County, Washington":{"American Indian / Alaska Native":0.2,"Asian":1.53,"Black or African American":1.85,"Hispanic":54.76,"Pacific Islander":0.15,"Two or More Races":3.14,"White (non-Hispanic)":37.72},"Garfield County, Washington":{"American Indian / Alaska Native":0,"Asian":1.07,"Black or African American":1.29,"Hispanic":3.57,"Pacific Islander":0,"Two or More Races":4.56,"White (non-Hispanic)":89.51},"Grant County, Washington":{"American Indian / Alaska Native":0.71,"Asian":0.87,"Black or African American":1.19,"Hispanic":43.33,"Pacific Islander":0.02,"Two or More Races":3.75,"White (non-Hispanic)":49.97},"Grays Harbor County, Washington":{"American Indian / Alaska Native":3.74,"Asian":1.23,"Black or African American":1.62,"Hispanic":10.81,"Pacific Islander":0.41,"Two or More Races":4.74,"White (non-Hispanic)":77.27},"Island County, Washington":{"American Indian / Alaska Native":0.67,"Asian":4.83,"Black or African American":2.63,"Hispanic":8.51,"Pacific Islander":0.36,"Two or More Races":6.21,"White (non-Hispanic)":76.6},"Jefferson County, Washington":{"American Indian / Alaska Native":1.13,"Asian":1.33,"Black or African American":0.34,"Hispanic":4.25,"Pacific Islander":0.12,"Two or More Races":6.22,"White (non-Hispanic)":85.29},"King County, Washington":{"American Indian / Alaska Native":0.41,"Asian":19.76,"Black or African American":6.4,"Hispanic":10.84,"Pacific Islander":0.74,"Two or More Races":6.93,"White (non-Hispanic)":54.34},"Kitsap County, Washington":{"American Indian / Alaska Native":0.82,"Asian":4.7,"Black or African American":2.42,"Hispanic":9.05,"Pacific Islander":0.89,"Two or More Races":8,"White (non-Hispanic)":73.63},"Kittitas County, Washington":{"American Indian / Alaska Native":0.37,"Asian":1.77,"Black or African American":0.98,"Hispanic":10.34,"Pacific Islander":0.09,"Two or More Races":5.68,"White (non-Hispanic)":79.77},"Klickitat County, Washington":{"American Indian / Alaska Native":1.2,"Asian":0.91,"Black or African American":0.72,"Hispanic":12.91,"Pacific Islander":0.36,"Two or More Races":4.19,"White (non-Hispanic)":78.99},"Lewis County, Washington":{"American Indian / Alaska Native":0.8,"Asian":1.05,"Black or African American":0.6,"Hispanic":11.21,"Pacific Islander":0.22,"Two or More Races":4.94,"White (non-Hispanic)":80.6},"Lincoln County, Washington":{"American Indian / Alaska Native":1.7,"Asian":0.69,"Black or African American":0.37,"Hispanic":3.97,"Pacific Islander":0.19,"Two or More Races":3.6,"White (non-Hispanic)":89.21},"Mason County, Washington":{"American Indian / Alaska Native":1.37,"Asian":1,"Black or African American":1,"Hispanic":12.14,"Pacific Islander":0.26,"Two or More Races":7.41,"White (non-Hispanic)":75.76},"Okanogan County, Washington":{"American Indian / Alaska Native":7.8,"Asian":0.49,"Black or African American":1.63,"Hispanic":20.27,"Pacific Islander":0.13,"Two or More Races":5.83,"White (non-Hispanic)":63.51},"Pacific County, Washington":{"American Indian / Alaska Native":1.81,"Asian":1.7,"Black or African American":0.51,"Hispanic":9.74,"Pacific Islander":0.05,"Two or More Races":5.26,"White (non-Hispanic)":79.95},"Pend Oreille County, Washington":{"American Indian / Alaska Native":1.85,"Asian":0.39,"Black or African American":0.3,"Hispanic":3.77,"Pacific Islander":0.18,"Two or More Races":7.1,"White (non-Hispanic)":85.49},"Pierce County, Washington":{"American Indian / Alaska Native":0.66,"Asian":6.45,"Black or African American":6.78,"Hispanic":12.51,"Pacific Islander":1.49,"Two or More Races":9.09,"White (non-Hispanic)":62.48},"San Juan County, Washington":{"American Indian / Alaska Native":0.37,"Asian":1.14,"Black or African American":0.26,"Hispanic":7.47,"Pacific Islander":0.24,"Two or More Races":4.12,"White (non-Hispanic)":86.09},"Skagit County, Washington":{"American Indian / Alaska Native":1.06,"Asian":2.01,"Black or African American":0.74,"Hispanic":18.9,"Pacific Islander":0.19,"Two or More Races":4.76,"White (non-Hispanic)":71.71},"Skamania County, Washington":{"American Indian / Alaska Native":1.46,"Asian":1.25,"Black or African American":0.28,"Hispanic":6.57,"Pacific Islander":0.23,"Two or More Races":5.23,"White (non-Hispanic)":83.93},"Snohomish County, Washington":{"American Indian / Alaska Native":0.71,"Asian":12.75,"Black or African American":3.53,"Hispanic":11.84,"Pacific Islander":0.51,"Two or More Races":6.45,"White (non-Hispanic)":63.63},"Spokane County, Washington":{"American Indian / Alaska Native":0.77,"Asian":2.23,"Black or African American":1.91,"Hispanic":6.86,"Pacific Islander":0.65,"Two or More Races":5.63,"White (non-Hispanic)":81.57},"Stevens County, Washington":{"American Indian / Alaska Native":3.83,"Asian":0.78,"Black or African American":0.27,"Hispanic":4.01,"Pacific Islander":0.23,"Two or More Races":5.19,"White (non-Hispanic)":84.92},"Thurston County, Washington":{"American Indian / Alaska Native":0.86,"Asian":5.73,"Black or African American":3.17,"Hispanic":10.29,"Pacific Islander":1,"Two or More Races":7.66,"White (non-Hispanic)":70.64},"Wahkiakum County, Washington":{"American Indian / Alaska Native":0.2,"Asian":2.36,"Black or African American":1.09,"Hispanic":6.14,"Pacific Islander":0,"Two or More Races":6.19,"White (non-Hispanic)":84.01},"Walla Walla County, Washington":{"American Indian / Alaska Native":0.33,"Asian":1.86,"Black or African American":1.72,"Hispanic":23.41,"Pacific Islander":0.16,"Two or More Races":3.75,"White (non-Hispanic)":68.44},"Whatcom County, Washington":{"American Indian / Alaska Native":1.68,"Asian":4.22,"Black or African American":0.84,"Hispanic":10.36,"Pacific Islander":0.26,"Two or More Races":6.11,"White (non-Hispanic)":76.11},"Whitman County, Washington":{"American Indian / Alaska Native":0.4,"Asian":7.4,"Black or African American":1.56,"Hispanic":8.04,"Pacific Islander":0.18,"Two or More Races":7.68,"White (non-Hispanic)":73.76},"Yakima County, Washington":{"American Indian / Alaska Native":2.54,"Asian":1.08,"Black or African American":0.75,"Hispanic":51.6,"Pacific Islander":0.43,"Two or More Races":3.06,"White (non-Hispanic)":40.13}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

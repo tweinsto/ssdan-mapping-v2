@@ -2,53 +2,67 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>% Median Earnings Map – State 72</title>
+  <title>Per Capita Earnings – State 72</title>
   <style>
     body {
       margin: 0;
-      padding: 1.5rem;
+      padding: 2rem;
       font-family: sans-serif;
-      background-color: #f2f2f2;
+      background-color: #f9f9f9;
     }
     h1 {
-      font-size: 1.3rem;
-      margin-bottom: 1rem;
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
     }
     .container {
       display: flex;
       gap: 2rem;
     }
-    .map-column {
+    .map {
       flex: 1;
     }
-    .sidebar {
+    .table-box {
       flex: 1;
+      background-color: white;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      overflow-x: auto;
     }
     iframe {
       width: 100%;
-      height: 600px;
+      height: 550px;
       border: none;
     }
-    a#back-link {
-      display: inline-block;
-      margin-bottom: 1rem;
+    table {
       font-size: 0.95rem;
-      color: #003366;
-      text-decoration: none;
-      font-weight: bold;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      padding: 6px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    th {
+      background-color: #f0f0f0;
     }
   </style>
 </head>
 <body>
-  <a id="back-link" href="../../index.html#earnings_poverty.html">← Back</a>
-  <h1>Median Earnings by County – State 72</h1>
+
+  <h1>County-Level Per Capita Earnings – 72 (2023)</h1>
+    <h5>Click a County to explore further! </h5>
+
   <div class="container">
-    <div class="map-column">
-      <iframe src="../earnings-maps/72.html" title="Map of State 72"></iframe>
+    <div class="map">
+      <iframe src="../earnings-maps/72.html" title="Median Earnings Map – 72"></iframe>
     </div>
-    <div class="sidebar">
-      <!-- You can add text, links, charts, etc. here later -->
+    <div class="table-box">
+      <div><strong>Statistics by County Table</strong></div>
+      <iframe src="../facts-tables/72.html" title=" Earnings Table – 72"></iframe>
     </div>
   </div>
+
 </body>
 </html>

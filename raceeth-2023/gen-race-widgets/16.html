@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 16</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Ada County, Idaho">Ada County, Idaho</option>
+<option value="Adams County, Idaho">Adams County, Idaho</option>
+<option value="Bannock County, Idaho">Bannock County, Idaho</option>
+<option value="Bear Lake County, Idaho">Bear Lake County, Idaho</option>
+<option value="Benewah County, Idaho">Benewah County, Idaho</option>
+<option value="Bingham County, Idaho">Bingham County, Idaho</option>
+<option value="Blaine County, Idaho">Blaine County, Idaho</option>
+<option value="Boise County, Idaho">Boise County, Idaho</option>
+<option value="Bonner County, Idaho">Bonner County, Idaho</option>
+<option value="Bonneville County, Idaho">Bonneville County, Idaho</option>
+<option value="Boundary County, Idaho">Boundary County, Idaho</option>
+<option value="Butte County, Idaho">Butte County, Idaho</option>
+<option value="Camas County, Idaho">Camas County, Idaho</option>
+<option value="Canyon County, Idaho">Canyon County, Idaho</option>
+<option value="Caribou County, Idaho">Caribou County, Idaho</option>
+<option value="Cassia County, Idaho">Cassia County, Idaho</option>
+<option value="Clark County, Idaho">Clark County, Idaho</option>
+<option value="Clearwater County, Idaho">Clearwater County, Idaho</option>
+<option value="Custer County, Idaho">Custer County, Idaho</option>
+<option value="Elmore County, Idaho">Elmore County, Idaho</option>
+<option value="Franklin County, Idaho">Franklin County, Idaho</option>
+<option value="Fremont County, Idaho">Fremont County, Idaho</option>
+<option value="Gem County, Idaho">Gem County, Idaho</option>
+<option value="Gooding County, Idaho">Gooding County, Idaho</option>
+<option value="Idaho County, Idaho">Idaho County, Idaho</option>
+<option value="Jefferson County, Idaho">Jefferson County, Idaho</option>
+<option value="Jerome County, Idaho">Jerome County, Idaho</option>
+<option value="Kootenai County, Idaho">Kootenai County, Idaho</option>
+<option value="Latah County, Idaho">Latah County, Idaho</option>
+<option value="Lemhi County, Idaho">Lemhi County, Idaho</option>
+<option value="Lewis County, Idaho">Lewis County, Idaho</option>
+<option value="Lincoln County, Idaho">Lincoln County, Idaho</option>
+<option value="Madison County, Idaho">Madison County, Idaho</option>
+<option value="Minidoka County, Idaho">Minidoka County, Idaho</option>
+<option value="Nez Perce County, Idaho">Nez Perce County, Idaho</option>
+<option value="Oneida County, Idaho">Oneida County, Idaho</option>
+<option value="Owyhee County, Idaho">Owyhee County, Idaho</option>
+<option value="Payette County, Idaho">Payette County, Idaho</option>
+<option value="Power County, Idaho">Power County, Idaho</option>
+<option value="Shoshone County, Idaho">Shoshone County, Idaho</option>
+<option value="Teton County, Idaho">Teton County, Idaho</option>
+<option value="Twin Falls County, Idaho">Twin Falls County, Idaho</option>
+<option value="Valley County, Idaho">Valley County, Idaho</option>
+<option value="Washington County, Idaho">Washington County, Idaho</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.78,"Asian":1.28,"Black or African American":0.69,"Hispanic":13.33,"Pacific Islander":0.15,"Two or More Races":3.88,"White (non-Hispanic)":79.34},"Ada County, Idaho":{"American Indian / Alaska Native":0.31,"Asian":2.51,"Black or African American":1.22,"Hispanic":9.51,"Pacific Islander":0.17,"Two or More Races":4.08,"White (non-Hispanic)":81.64},"Adams County, Idaho":{"American Indian / Alaska Native":1.04,"Asian":0,"Black or African American":0.24,"Hispanic":4.57,"Pacific Islander":0,"Two or More Races":5.35,"White (non-Hispanic)":88.8},"Bannock County, Idaho":{"American Indian / Alaska Native":2.26,"Asian":1.48,"Black or African American":0.82,"Hispanic":9.59,"Pacific Islander":0.3,"Two or More Races":3.59,"White (non-Hispanic)":81.07},"Bear Lake County, Idaho":{"American Indian / Alaska Native":0.76,"Asian":0.26,"Black or African American":0.27,"Hispanic":3.72,"Pacific Islander":0,"Two or More Races":1.47,"White (non-Hispanic)":93.12},"Benewah County, Idaho":{"American Indian / Alaska Native":7.44,"Asian":0.04,"Black or African American":0.74,"Hispanic":3.58,"Pacific Islander":0.19,"Two or More Races":3.56,"White (non-Hispanic)":84.19},"Bingham County, Idaho":{"American Indian / Alaska Native":4.84,"Asian":0.41,"Black or African American":0.27,"Hispanic":17.59,"Pacific Islander":0.04,"Two or More Races":2.55,"White (non-Hispanic)":74.13},"Blaine County, Idaho":{"American Indian / Alaska Native":0.94,"Asian":0.52,"Black or African American":0.42,"Hispanic":21.24,"Pacific Islander":0,"Two or More Races":3.9,"White (non-Hispanic)":72.73},"Boise County, Idaho":{"American Indian / Alaska Native":0.94,"Asian":1.53,"Black or African American":0.21,"Hispanic":4.76,"Pacific Islander":0,"Two or More Races":6.02,"White (non-Hispanic)":85.12},"Bonner County, Idaho":{"American Indian / Alaska Native":0.48,"Asian":0.62,"Black or African American":0.26,"Hispanic":3.65,"Pacific Islander":0.04,"Two or More Races":4.19,"White (non-Hispanic)":90.14},"Bonneville County, Idaho":{"American Indian / Alaska Native":0.37,"Asian":0.84,"Black or African American":0.33,"Hispanic":14.16,"Pacific Islander":0.15,"Two or More Races":3.03,"White (non-Hispanic)":80.75},"Boundary County, Idaho":{"American Indian / Alaska Native":1.55,"Asian":1.58,"Black or African American":0.74,"Hispanic":5.56,"Pacific Islander":0.06,"Two or More Races":3.39,"White (non-Hispanic)":86.96},"Butte County, Idaho":{"American Indian / Alaska Native":0.04,"Asian":0,"Black or African American":0,"Hispanic":7.76,"Pacific Islander":0.3,"Two or More Races":3.58,"White (non-Hispanic)":88.32},"Camas County, Idaho":{"American Indian / Alaska Native":0.69,"Asian":0,"Black or African American":0,"Hispanic":14.2,"Pacific Islander":0,"Two or More Races":4.07,"White (non-Hispanic)":76.19},"Canyon County, Idaho":{"American Indian / Alaska Native":0.27,"Asian":0.79,"Black or African American":0.61,"Hispanic":25.77,"Pacific Islander":0.17,"Two or More Races":3.92,"White (non-Hispanic)":67.66},"Caribou County, Idaho":{"American Indian / Alaska Native":0.17,"Asian":0.04,"Black or African American":0,"Hispanic":5.61,"Pacific Islander":0,"Two or More Races":3.4,"White (non-Hispanic)":90.78},"Cassia County, Idaho":{"American Indian / Alaska Native":0.19,"Asian":0.29,"Black or African American":0.08,"Hispanic":29.44,"Pacific Islander":0.02,"Two or More Races":3.55,"White (non-Hispanic)":65.25},"Clark County, Idaho":{"American Indian / Alaska Native":0.13,"Asian":0,"Black or African American":0,"Hispanic":30.67,"Pacific Islander":0,"Two or More Races":0.9,"White (non-Hispanic)":59.28},"Clearwater County, Idaho":{"American Indian / Alaska Native":1.27,"Asian":0.98,"Black or African American":0.2,"Hispanic":4.25,"Pacific Islander":0.01,"Two or More Races":4.37,"White (non-Hispanic)":88.44},"Custer County, Idaho":{"American Indian / Alaska Native":0.41,"Asian":2.65,"Black or African American":0.27,"Hispanic":2.97,"Pacific Islander":0,"Two or More Races":3.81,"White (non-Hispanic)":89.41},"Elmore County, Idaho":{"American Indian / Alaska Native":0.61,"Asian":2.7,"Black or African American":2.73,"Hispanic":17.98,"Pacific Islander":0.35,"Two or More Races":4.57,"White (non-Hispanic)":70.55},"Franklin County, Idaho":{"American Indian / Alaska Native":0.14,"Asian":0.03,"Black or African American":0,"Hispanic":7.29,"Pacific Islander":0.12,"Two or More Races":2.24,"White (non-Hispanic)":89.76},"Fremont County, Idaho":{"American Indian / Alaska Native":0.85,"Asian":0.05,"Black or African American":0.28,"Hispanic":12.09,"Pacific Islander":0.08,"Two or More Races":1.61,"White (non-Hispanic)":83.5},"Gem County, Idaho":{"American Indian / Alaska Native":0.39,"Asian":0.23,"Black or African American":0.19,"Hispanic":9.33,"Pacific Islander":0,"Two or More Races":4.97,"White (non-Hispanic)":84.01},"Gooding County, Idaho":{"American Indian / Alaska Native":1.55,"Asian":0.74,"Black or African American":0.06,"Hispanic":30.98,"Pacific Islander":0,"Two or More Races":2.47,"White (non-Hispanic)":64.07},"Idaho County, Idaho":{"American Indian / Alaska Native":2.27,"Asian":0.5,"Black or African American":0.09,"Hispanic":3.79,"Pacific Islander":0,"Two or More Races":3.44,"White (non-Hispanic)":89.87},"Jefferson County, Idaho":{"American Indian / Alaska Native":0.56,"Asian":0.07,"Black or African American":0.06,"Hispanic":10.81,"Pacific Islander":0.02,"Two or More Races":2.23,"White (non-Hispanic)":86.07},"Jerome County, Idaho":{"American Indian / Alaska Native":0.11,"Asian":0.11,"Black or African American":0.09,"Hispanic":38.45,"Pacific Islander":0.1,"Two or More Races":3.44,"White (non-Hispanic)":57.53},"Kootenai County, Idaho":{"American Indian / Alaska Native":0.72,"Asian":0.75,"Black or African American":0.3,"Hispanic":5.44,"Pacific Islander":0.03,"Two or More Races":5.85,"White (non-Hispanic)":86.3},"Latah County, Idaho":{"American Indian / Alaska Native":0.54,"Asian":2.07,"Black or African American":1.04,"Hispanic":5.1,"Pacific Islander":0.21,"Two or More Races":4.97,"White (non-Hispanic)":85.59},"Lemhi County, Idaho":{"American Indian / Alaska Native":0.77,"Asian":0.07,"Black or African American":0.01,"Hispanic":1.81,"Pacific Islander":0.33,"Two or More Races":4.67,"White (non-Hispanic)":91.7},"Lewis County, Idaho":{"American Indian / Alaska Native":1.45,"Asian":0.9,"Black or African American":1.7,"Hispanic":4.06,"Pacific Islander":0,"Two or More Races":8.82,"White (non-Hispanic)":82.21},"Lincoln County, Idaho":{"American Indian / Alaska Native":0.59,"Asian":0.44,"Black or African American":0.64,"Hispanic":32.01,"Pacific Islander":0,"Two or More Races":2.82,"White (non-Hispanic)":63.29},"Madison County, Idaho":{"American Indian / Alaska Native":0.3,"Asian":1.44,"Black or African American":0.92,"Hispanic":9.71,"Pacific Islander":0.35,"Two or More Races":2.43,"White (non-Hispanic)":84.5},"Minidoka County, Idaho":{"American Indian / Alaska Native":0.61,"Asian":0.22,"Black or African American":0.31,"Hispanic":36.68,"Pacific Islander":0,"Two or More Races":2.37,"White (non-Hispanic)":59.68},"Nez Perce County, Idaho":{"American Indian / Alaska Native":4.31,"Asian":0.83,"Black or African American":0.07,"Hispanic":4.27,"Pacific Islander":0.22,"Two or More Races":3.86,"White (non-Hispanic)":86.11},"Oneida County, Idaho":{"American Indian / Alaska Native":0.26,"Asian":0,"Black or African American":0.36,"Hispanic":4.36,"Pacific Islander":0,"Two or More Races":2.14,"White (non-Hispanic)":92.25},"Owyhee County, Idaho":{"American Indian / Alaska Native":2.66,"Asian":0.11,"Black or African American":0.48,"Hispanic":24.82,"Pacific Islander":0,"Two or More Races":2.6,"White (non-Hispanic)":68.88},"Payette County, Idaho":{"American Indian / Alaska Native":0.32,"Asian":0.53,"Black or African American":0.08,"Hispanic":17.52,"Pacific Islander":0.02,"Two or More Races":4.28,"White (non-Hispanic)":76.33},"Power County, Idaho":{"American Indian / Alaska Native":0.95,"Asian":0,"Black or African American":0.9,"Hispanic":33.8,"Pacific Islander":0,"Two or More Races":3.37,"White (non-Hispanic)":60.94},"Shoshone County, Idaho":{"American Indian / Alaska Native":0.97,"Asian":0.29,"Black or African American":0.94,"Hispanic":3.95,"Pacific Islander":0.23,"Two or More Races":4.23,"White (non-Hispanic)":89.29},"Teton County, Idaho":{"American Indian / Alaska Native":0.6,"Asian":0.05,"Black or African American":0,"Hispanic":17.1,"Pacific Islander":0,"Two or More Races":2.49,"White (non-Hispanic)":79.76},"Twin Falls County, Idaho":{"American Indian / Alaska Native":0.21,"Asian":1.3,"Black or African American":0.68,"Hispanic":17.53,"Pacific Islander":0.29,"Two or More Races":3.49,"White (non-Hispanic)":76.17},"Valley County, Idaho":{"American Indian / Alaska Native":0.01,"Asian":0.06,"Black or African American":0.05,"Hispanic":5.1,"Pacific Islander":0.06,"Two or More Races":0.66,"White (non-Hispanic)":93.96},"Washington County, Idaho":{"American Indian / Alaska Native":0.12,"Asian":0.22,"Black or African American":0.11,"Hispanic":16.02,"Pacific Islander":0.23,"Two or More Races":4.5,"White (non-Hispanic)":78.55}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

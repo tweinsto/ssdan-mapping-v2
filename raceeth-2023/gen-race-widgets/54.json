@@ -1,0 +1,1853 @@
+{
+  "state": "Barbour County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1154
+        },
+        {
+          "label": "Asian",
+          "value": 13328
+        },
+        {
+          "label": "Black or African American",
+          "value": 57299
+        },
+        {
+          "label": "Hispanic",
+          "value": 36125
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 493
+        },
+        {
+          "label": "Two or More Races",
+          "value": 61504
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1609499
+        }
+      ]
+    },
+    "Barbour County, West Virginia": {
+      "label": "Barbour County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 72
+        },
+        {
+          "label": "Black or African American",
+          "value": 270
+        },
+        {
+          "label": "Hispanic",
+          "value": 184
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 804
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14084
+        }
+      ]
+    },
+    "Berkeley County, West Virginia": {
+      "label": "Berkeley County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 71
+        },
+        {
+          "label": "Asian",
+          "value": 1159
+        },
+        {
+          "label": "Black or African American",
+          "value": 8711
+        },
+        {
+          "label": "Hispanic",
+          "value": 7619
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 15
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5830
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 101901
+        }
+      ]
+    },
+    "Boone County, West Virginia": {
+      "label": "Boone County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 38
+        },
+        {
+          "label": "Black or African American",
+          "value": 91
+        },
+        {
+          "label": "Hispanic",
+          "value": 97
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 367
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20719
+        }
+      ]
+    },
+    "Braxton County, West Virginia": {
+      "label": "Braxton County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 38
+        },
+        {
+          "label": "Asian",
+          "value": 14
+        },
+        {
+          "label": "Black or African American",
+          "value": 108
+        },
+        {
+          "label": "Hispanic",
+          "value": 102
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1346
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10737
+        }
+      ]
+    },
+    "Brooke County, West Virginia": {
+      "label": "Brooke County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 123
+        },
+        {
+          "label": "Black or African American",
+          "value": 316
+        },
+        {
+          "label": "Hispanic",
+          "value": 296
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 773
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20529
+        }
+      ]
+    },
+    "Cabell County, West Virginia": {
+      "label": "Cabell County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 76
+        },
+        {
+          "label": "Asian",
+          "value": 1135
+        },
+        {
+          "label": "Black or African American",
+          "value": 3835
+        },
+        {
+          "label": "Hispanic",
+          "value": 1582
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3389
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 83089
+        }
+      ]
+    },
+    "Calhoun County, West Virginia": {
+      "label": "Calhoun County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 2
+        },
+        {
+          "label": "Black or African American",
+          "value": 3
+        },
+        {
+          "label": "Hispanic",
+          "value": 28
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 199
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5896
+        }
+      ]
+    },
+    "Clay County, West Virginia": {
+      "label": "Clay County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 15
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 214
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7710
+        }
+      ]
+    },
+    "Doddridge County, West Virginia": {
+      "label": "Doddridge County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 190
+        },
+        {
+          "label": "Hispanic",
+          "value": 111
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 231
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7180
+        }
+      ]
+    },
+    "Fayette County, West Virginia": {
+      "label": "Fayette County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 14
+        },
+        {
+          "label": "Black or African American",
+          "value": 1802
+        },
+        {
+          "label": "Hispanic",
+          "value": 538
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 871
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 36673
+        }
+      ]
+    },
+    "Gilmer County, West Virginia": {
+      "label": "Gilmer County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 14
+        },
+        {
+          "label": "Black or African American",
+          "value": 1053
+        },
+        {
+          "label": "Hispanic",
+          "value": 266
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 138
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5837
+        }
+      ]
+    },
+    "Grant County, West Virginia": {
+      "label": "Grant County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 150
+        },
+        {
+          "label": "Hispanic",
+          "value": 53
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 201
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10547
+        }
+      ]
+    },
+    "Greenbrier County, West Virginia": {
+      "label": "Greenbrier County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 36
+        },
+        {
+          "label": "Asian",
+          "value": 173
+        },
+        {
+          "label": "Black or African American",
+          "value": 718
+        },
+        {
+          "label": "Hispanic",
+          "value": 599
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 17
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1112
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30006
+        }
+      ]
+    },
+    "Hampshire County, West Virginia": {
+      "label": "Hampshire County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 16
+        },
+        {
+          "label": "Black or African American",
+          "value": 144
+        },
+        {
+          "label": "Hispanic",
+          "value": 382
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 813
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21908
+        }
+      ]
+    },
+    "Hancock County, West Virginia": {
+      "label": "Hancock County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 117
+        },
+        {
+          "label": "Black or African American",
+          "value": 563
+        },
+        {
+          "label": "Hispanic",
+          "value": 473
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 72
+        },
+        {
+          "label": "Two or More Races",
+          "value": 907
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26482
+        }
+      ]
+    },
+    "Hardy County, West Virginia": {
+      "label": "Hardy County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 649
+        },
+        {
+          "label": "Hispanic",
+          "value": 643
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 183
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12713
+        }
+      ]
+    },
+    "Harrison County, West Virginia": {
+      "label": "Harrison County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 491
+        },
+        {
+          "label": "Black or African American",
+          "value": 843
+        },
+        {
+          "label": "Hispanic",
+          "value": 1413
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2226
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 60376
+        }
+      ]
+    },
+    "Jackson County, West Virginia": {
+      "label": "Jackson County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 115
+        },
+        {
+          "label": "Black or African American",
+          "value": 56
+        },
+        {
+          "label": "Hispanic",
+          "value": 263
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 551
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26657
+        }
+      ]
+    },
+    "Jefferson County, West Virginia": {
+      "label": "Jefferson County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 836
+        },
+        {
+          "label": "Black or African American",
+          "value": 3094
+        },
+        {
+          "label": "Hispanic",
+          "value": 4362
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2792
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 47080
+        }
+      ]
+    },
+    "Kanawha County, West Virginia": {
+      "label": "Kanawha County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 91
+        },
+        {
+          "label": "Asian",
+          "value": 2139
+        },
+        {
+          "label": "Black or African American",
+          "value": 10931
+        },
+        {
+          "label": "Hispanic",
+          "value": 2668
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 178
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8131
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 153684
+        }
+      ]
+    },
+    "Lewis County, West Virginia": {
+      "label": "Lewis County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 32
+        },
+        {
+          "label": "Asian",
+          "value": 63
+        },
+        {
+          "label": "Black or African American",
+          "value": 55
+        },
+        {
+          "label": "Hispanic",
+          "value": 253
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1047
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15333
+        }
+      ]
+    },
+    "Lincoln County, West Virginia": {
+      "label": "Lincoln County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 45
+        },
+        {
+          "label": "Asian",
+          "value": 45
+        },
+        {
+          "label": "Black or African American",
+          "value": 1
+        },
+        {
+          "label": "Hispanic",
+          "value": 145
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 484
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19450
+        }
+      ]
+    },
+    "Logan County, West Virginia": {
+      "label": "Logan County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 107
+        },
+        {
+          "label": "Black or African American",
+          "value": 591
+        },
+        {
+          "label": "Hispanic",
+          "value": 255
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 398
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30473
+        }
+      ]
+    },
+    "Marion County, West Virginia": {
+      "label": "Marion County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 239
+        },
+        {
+          "label": "Black or African American",
+          "value": 1453
+        },
+        {
+          "label": "Hispanic",
+          "value": 878
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2006
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 51266
+        }
+      ]
+    },
+    "Marshall County, West Virginia": {
+      "label": "Marshall County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 112
+        },
+        {
+          "label": "Black or African American",
+          "value": 80
+        },
+        {
+          "label": "Hispanic",
+          "value": 335
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 35
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1014
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28295
+        }
+      ]
+    },
+    "Mason County, West Virginia": {
+      "label": "Mason County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 99
+        },
+        {
+          "label": "Black or African American",
+          "value": 221
+        },
+        {
+          "label": "Hispanic",
+          "value": 203
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 455
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24129
+        }
+      ]
+    },
+    "McDowell County, West Virginia": {
+      "label": "McDowell County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 19
+        },
+        {
+          "label": "Black or African American",
+          "value": 1660
+        },
+        {
+          "label": "Hispanic",
+          "value": 357
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 370
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15971
+        }
+      ]
+    },
+    "Mercer County, West Virginia": {
+      "label": "Mercer County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 169
+        },
+        {
+          "label": "Asian",
+          "value": 176
+        },
+        {
+          "label": "Black or African American",
+          "value": 2455
+        },
+        {
+          "label": "Hispanic",
+          "value": 771
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2790
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 52508
+        }
+      ]
+    },
+    "Mineral County, West Virginia": {
+      "label": "Mineral County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 19
+        },
+        {
+          "label": "Black or African American",
+          "value": 473
+        },
+        {
+          "label": "Hispanic",
+          "value": 316
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 30
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1027
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24902
+        }
+      ]
+    },
+    "Mingo County, West Virginia": {
+      "label": "Mingo County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 454
+        },
+        {
+          "label": "Hispanic",
+          "value": 111
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 498
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21891
+        }
+      ]
+    },
+    "Monongalia County, West Virginia": {
+      "label": "Monongalia County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 46
+        },
+        {
+          "label": "Asian",
+          "value": 3745
+        },
+        {
+          "label": "Black or African American",
+          "value": 3735
+        },
+        {
+          "label": "Hispanic",
+          "value": 3298
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3143
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 91776
+        }
+      ]
+    },
+    "Monroe County, West Virginia": {
+      "label": "Monroe County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 161
+        },
+        {
+          "label": "Hispanic",
+          "value": 100
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 283
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11857
+        }
+      ]
+    },
+    "Morgan County, West Virginia": {
+      "label": "Morgan County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 97
+        },
+        {
+          "label": "Black or African American",
+          "value": 44
+        },
+        {
+          "label": "Hispanic",
+          "value": 284
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 534
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16263
+        }
+      ]
+    },
+    "Nicholas County, West Virginia": {
+      "label": "Nicholas County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 134
+        },
+        {
+          "label": "Black or African American",
+          "value": 74
+        },
+        {
+          "label": "Hispanic",
+          "value": 130
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 499
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23588
+        }
+      ]
+    },
+    "Ohio County, West Virginia": {
+      "label": "Ohio County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 41
+        },
+        {
+          "label": "Asian",
+          "value": 181
+        },
+        {
+          "label": "Black or African American",
+          "value": 1356
+        },
+        {
+          "label": "Hispanic",
+          "value": 664
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1790
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 37802
+        }
+      ]
+    },
+    "Pendleton County, West Virginia": {
+      "label": "Pendleton County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 12
+        },
+        {
+          "label": "Black or African American",
+          "value": 131
+        },
+        {
+          "label": "Hispanic",
+          "value": 115
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 47
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5792
+        }
+      ]
+    },
+    "Pleasants County, West Virginia": {
+      "label": "Pleasants County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 35
+        },
+        {
+          "label": "Hispanic",
+          "value": 234
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 115
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7168
+        }
+      ]
+    },
+    "Pocahontas County, West Virginia": {
+      "label": "Pocahontas County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 28
+        },
+        {
+          "label": "Black or African American",
+          "value": 29
+        },
+        {
+          "label": "Hispanic",
+          "value": 68
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 297
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7425
+        }
+      ]
+    },
+    "Preston County, West Virginia": {
+      "label": "Preston County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 79
+        },
+        {
+          "label": "Asian",
+          "value": 84
+        },
+        {
+          "label": "Black or African American",
+          "value": 2206
+        },
+        {
+          "label": "Hispanic",
+          "value": 657
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 617
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30546
+        }
+      ]
+    },
+    "Putnam County, West Virginia": {
+      "label": "Putnam County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 450
+        },
+        {
+          "label": "Black or African American",
+          "value": 418
+        },
+        {
+          "label": "Hispanic",
+          "value": 852
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1503
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 53837
+        }
+      ]
+    },
+    "Raleigh County, West Virginia": {
+      "label": "Raleigh County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 590
+        },
+        {
+          "label": "Black or African American",
+          "value": 4963
+        },
+        {
+          "label": "Hispanic",
+          "value": 1252
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2471
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 64199
+        }
+      ]
+    },
+    "Randolph County, West Virginia": {
+      "label": "Randolph County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 2
+        },
+        {
+          "label": "Black or African American",
+          "value": 401
+        },
+        {
+          "label": "Hispanic",
+          "value": 301
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1912
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25138
+        }
+      ]
+    },
+    "Ritchie County, West Virginia": {
+      "label": "Ritchie County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 75
+        },
+        {
+          "label": "Black or African American",
+          "value": 10
+        },
+        {
+          "label": "Hispanic",
+          "value": 38
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 157
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8091
+        }
+      ]
+    },
+    "Roane County, West Virginia": {
+      "label": "Roane County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 72
+        },
+        {
+          "label": "Black or African American",
+          "value": 3
+        },
+        {
+          "label": "Hispanic",
+          "value": 164
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 404
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13242
+        }
+      ]
+    },
+    "Summers County, West Virginia": {
+      "label": "Summers County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 21
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 677
+        },
+        {
+          "label": "Hispanic",
+          "value": 142
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 211
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10773
+        }
+      ]
+    },
+    "Taylor County, West Virginia": {
+      "label": "Taylor County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 16
+        },
+        {
+          "label": "Black or African American",
+          "value": 200
+        },
+        {
+          "label": "Hispanic",
+          "value": 167
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 425
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15712
+        }
+      ]
+    },
+    "Tucker County, West Virginia": {
+      "label": "Tucker County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 6
+        },
+        {
+          "label": "Black or African American",
+          "value": 1
+        },
+        {
+          "label": "Hispanic",
+          "value": 30
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 162
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6499
+        }
+      ]
+    },
+    "Tyler County, West Virginia": {
+      "label": "Tyler County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 58
+        },
+        {
+          "label": "Hispanic",
+          "value": 83
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 206
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7833
+        }
+      ]
+    },
+    "Upshur County, West Virginia": {
+      "label": "Upshur County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 68
+        },
+        {
+          "label": "Black or African American",
+          "value": 308
+        },
+        {
+          "label": "Hispanic",
+          "value": 333
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 903
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21893
+        }
+      ]
+    },
+    "Wayne County, West Virginia": {
+      "label": "Wayne County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 17
+        },
+        {
+          "label": "Black or African American",
+          "value": 326
+        },
+        {
+          "label": "Hispanic",
+          "value": 328
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 873
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 36933
+        }
+      ]
+    },
+    "Webster County, West Virginia": {
+      "label": "Webster County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 16
+        },
+        {
+          "label": "Hispanic",
+          "value": 32
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 546
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7650
+        }
+      ]
+    },
+    "Wetzel County, West Virginia": {
+      "label": "Wetzel County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 18
+        },
+        {
+          "label": "Black or African American",
+          "value": 66
+        },
+        {
+          "label": "Hispanic",
+          "value": 255
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 444
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13391
+        }
+      ]
+    },
+    "Wirt County, West Virginia": {
+      "label": "Wirt County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 8
+        },
+        {
+          "label": "Black or African American",
+          "value": 11
+        },
+        {
+          "label": "Hispanic",
+          "value": 0
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 142
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4970
+        }
+      ]
+    },
+    "Wood County, West Virginia": {
+      "label": "Wood County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 82
+        },
+        {
+          "label": "Asian",
+          "value": 373
+        },
+        {
+          "label": "Black or African American",
+          "value": 959
+        },
+        {
+          "label": "Hispanic",
+          "value": 1188
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 84
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2238
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 78808
+        }
+      ]
+    },
+    "Wyoming County, West Virginia": {
+      "label": "Wyoming County, West Virginia",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 139
+        },
+        {
+          "label": "Hispanic",
+          "value": 92
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 415
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20287
+        }
+      ]
+    }
+  }
+}

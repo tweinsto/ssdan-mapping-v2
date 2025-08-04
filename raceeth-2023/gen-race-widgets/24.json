@@ -1,0 +1,830 @@
+{
+  "state": "Allegany County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7494
+        },
+        {
+          "label": "Asian",
+          "value": 395663
+        },
+        {
+          "label": "Black or African American",
+          "value": 1799355
+        },
+        {
+          "label": "Hispanic",
+          "value": 744272
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1944
+        },
+        {
+          "label": "Two or More Races",
+          "value": 262103
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2923706
+        }
+      ]
+    },
+    "Allegany County, Maryland": {
+      "label": "Allegany County, Maryland",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 43
+        },
+        {
+          "label": "Asian",
+          "value": 637
+        },
+        {
+          "label": "Black or African American",
+          "value": 4773
+        },
+        {
+          "label": "Hispanic",
+          "value": 1260
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2185
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 58571
+        }
+      ]
+    },
+    "Anne Arundel County, Maryland": {
+      "label": "Anne Arundel County, Maryland",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 602
+        },
+        {
+          "label": "Asian",
+          "value": 23896
+        },
+        {
+          "label": "Black or African American",
+          "value": 102913
+        },
+        {
+          "label": "Hispanic",
+          "value": 59213
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 240
+        },
+        {
+          "label": "Two or More Races",
+          "value": 30691
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 370531
+        }
+      ]
+    },
+    "Baltimore city, Maryland": {
+      "label": "Baltimore city, Maryland",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 980
+        },
+        {
+          "label": "Asian",
+          "value": 14383
+        },
+        {
+          "label": "Black or African American",
+          "value": 342194
+        },
+        {
+          "label": "Hispanic",
+          "value": 45420
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 159
+        },
+        {
+          "label": "Two or More Races",
+          "value": 19602
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 151037
+        }
+      ]
+    },
+    "Baltimore County, Maryland": {
+      "label": "Baltimore County, Maryland",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1011
+        },
+        {
+          "label": "Asian",
+          "value": 50898
+        },
+        {
+          "label": "Black or African American",
+          "value": 253564
+        },
+        {
+          "label": "Hispanic",
+          "value": 63048
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 231
+        },
+        {
+          "label": "Two or More Races",
+          "value": 32049
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 444583
+        }
+      ]
+    },
+    "Calvert County, Maryland": {
+      "label": "Calvert County, Maryland",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 131
+        },
+        {
+          "label": "Asian",
+          "value": 1703
+        },
+        {
+          "label": "Black or African American",
+          "value": 11410
+        },
+        {
+          "label": "Hispanic",
+          "value": 4620
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 57
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5608
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 69683
+        }
+      ]
+    },
+    "Caroline County, Maryland": {
+      "label": "Caroline County, Maryland",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 255
+        },
+        {
+          "label": "Black or African American",
+          "value": 4424
+        },
+        {
+          "label": "Hispanic",
+          "value": 2930
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1267
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24318
+        }
+      ]
+    },
+    "Carroll County, Maryland": {
+      "label": "Carroll County, Maryland",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 146
+        },
+        {
+          "label": "Asian",
+          "value": 4036
+        },
+        {
+          "label": "Black or African American",
+          "value": 6772
+        },
+        {
+          "label": "Hispanic",
+          "value": 8333
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 17
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4825
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 149221
+        }
+      ]
+    },
+    "Cecil County, Maryland": {
+      "label": "Cecil County, Maryland",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 92
+        },
+        {
+          "label": "Asian",
+          "value": 1338
+        },
+        {
+          "label": "Black or African American",
+          "value": 7167
+        },
+        {
+          "label": "Hispanic",
+          "value": 5617
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 33
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4723
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 84928
+        }
+      ]
+    },
+    "Charles County, Maryland": {
+      "label": "Charles County, Maryland",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 465
+        },
+        {
+          "label": "Asian",
+          "value": 5408
+        },
+        {
+          "label": "Black or African American",
+          "value": 81750
+        },
+        {
+          "label": "Hispanic",
+          "value": 12648
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 72
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10952
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 56486
+        }
+      ]
+    },
+    "Dorchester County, Maryland": {
+      "label": "Dorchester County, Maryland",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 441
+        },
+        {
+          "label": "Black or African American",
+          "value": 8254
+        },
+        {
+          "label": "Hispanic",
+          "value": 1909
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1917
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19896
+        }
+      ]
+    },
+    "Frederick County, Maryland": {
+      "label": "Frederick County, Maryland",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 300
+        },
+        {
+          "label": "Asian",
+          "value": 15090
+        },
+        {
+          "label": "Black or African American",
+          "value": 27838
+        },
+        {
+          "label": "Hispanic",
+          "value": 34570
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 103
+        },
+        {
+          "label": "Two or More Races",
+          "value": 12925
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 188600
+        }
+      ]
+    },
+    "Garrett County, Maryland": {
+      "label": "Garrett County, Maryland",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 50
+        },
+        {
+          "label": "Asian",
+          "value": 144
+        },
+        {
+          "label": "Black or African American",
+          "value": 217
+        },
+        {
+          "label": "Hispanic",
+          "value": 377
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 486
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27313
+        }
+      ]
+    },
+    "Harford County, Maryland": {
+      "label": "Harford County, Maryland",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 61
+        },
+        {
+          "label": "Asian",
+          "value": 7626
+        },
+        {
+          "label": "Black or African American",
+          "value": 37600
+        },
+        {
+          "label": "Hispanic",
+          "value": 14585
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 111
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10577
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 190219
+        }
+      ]
+    },
+    "Howard County, Maryland": {
+      "label": "Howard County, Maryland",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 351
+        },
+        {
+          "label": "Asian",
+          "value": 62823
+        },
+        {
+          "label": "Black or African American",
+          "value": 65587
+        },
+        {
+          "label": "Hispanic",
+          "value": 28121
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 122
+        },
+        {
+          "label": "Two or More Races",
+          "value": 18062
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 156832
+        }
+      ]
+    },
+    "Kent County, Maryland": {
+      "label": "Kent County, Maryland",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 190
+        },
+        {
+          "label": "Black or African American",
+          "value": 2735
+        },
+        {
+          "label": "Hispanic",
+          "value": 1074
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 522
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14669
+        }
+      ]
+    },
+    "Montgomery County, Maryland": {
+      "label": "Montgomery County, Maryland",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1216
+        },
+        {
+          "label": "Asian",
+          "value": 159535
+        },
+        {
+          "label": "Black or African American",
+          "value": 193539
+        },
+        {
+          "label": "Hispanic",
+          "value": 218219
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 410
+        },
+        {
+          "label": "Two or More Races",
+          "value": 47503
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 427787
+        }
+      ]
+    },
+    "Prince George's County, Maryland": {
+      "label": "Prince George's County, Maryland",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1667
+        },
+        {
+          "label": "Asian",
+          "value": 37228
+        },
+        {
+          "label": "Black or African American",
+          "value": 563799
+        },
+        {
+          "label": "Hispanic",
+          "value": 207694
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 254
+        },
+        {
+          "label": "Two or More Races",
+          "value": 32945
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 106025
+        }
+      ]
+    },
+    "Queen Anne's County, Maryland": {
+      "label": "Queen Anne's County, Maryland",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 525
+        },
+        {
+          "label": "Black or African American",
+          "value": 3041
+        },
+        {
+          "label": "Hispanic",
+          "value": 2678
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2063
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 42351
+        }
+      ]
+    },
+    "Somerset County, Maryland": {
+      "label": "Somerset County, Maryland",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 26
+        },
+        {
+          "label": "Asian",
+          "value": 143
+        },
+        {
+          "label": "Black or African American",
+          "value": 9344
+        },
+        {
+          "label": "Hispanic",
+          "value": 1099
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1335
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12637
+        }
+      ]
+    },
+    "St. Mary's County, Maryland": {
+      "label": "St. Mary's County, Maryland",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 69
+        },
+        {
+          "label": "Asian",
+          "value": 2908
+        },
+        {
+          "label": "Black or African American",
+          "value": 16744
+        },
+        {
+          "label": "Hispanic",
+          "value": 6805
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6348
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 81155
+        }
+      ]
+    },
+    "Talbot County, Maryland": {
+      "label": "Talbot County, Maryland",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 63
+        },
+        {
+          "label": "Asian",
+          "value": 474
+        },
+        {
+          "label": "Black or African American",
+          "value": 4521
+        },
+        {
+          "label": "Hispanic",
+          "value": 3432
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1060
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27960
+        }
+      ]
+    },
+    "Washington County, Maryland": {
+      "label": "Washington County, Maryland",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 118
+        },
+        {
+          "label": "Asian",
+          "value": 2551
+        },
+        {
+          "label": "Black or African American",
+          "value": 17483
+        },
+        {
+          "label": "Hispanic",
+          "value": 11320
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 101
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7487
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 115547
+        }
+      ]
+    },
+    "Wicomico County, Maryland": {
+      "label": "Wicomico County, Maryland",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 66
+        },
+        {
+          "label": "Asian",
+          "value": 2709
+        },
+        {
+          "label": "Black or African American",
+          "value": 27287
+        },
+        {
+          "label": "Hispanic",
+          "value": 7210
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 27
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5049
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 61541
+        }
+      ]
+    },
+    "Worcester County, Maryland": {
+      "label": "Worcester County, Maryland",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 24
+        },
+        {
+          "label": "Asian",
+          "value": 722
+        },
+        {
+          "label": "Black or African American",
+          "value": 6399
+        },
+        {
+          "label": "Hispanic",
+          "value": 2090
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1922
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 41816
+        }
+      ]
+    }
+  }
+}

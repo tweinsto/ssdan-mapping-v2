@@ -1,0 +1,3833 @@
+{
+  "state": "Adair County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10720
+        },
+        {
+          "label": "Asian",
+          "value": 126461
+        },
+        {
+          "label": "Black or African American",
+          "value": 680587
+        },
+        {
+          "label": "Hispanic",
+          "value": 311924
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9010
+        },
+        {
+          "label": "Two or More Races",
+          "value": 269468
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4737581
+        }
+      ]
+    },
+    "Adair County, Missouri": {
+      "label": "Adair County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 77
+        },
+        {
+          "label": "Asian",
+          "value": 475
+        },
+        {
+          "label": "Black or African American",
+          "value": 1059
+        },
+        {
+          "label": "Hispanic",
+          "value": 721
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 773
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22108
+        }
+      ]
+    },
+    "Andrew County, Missouri": {
+      "label": "Andrew County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 131
+        },
+        {
+          "label": "Black or African American",
+          "value": 163
+        },
+        {
+          "label": "Hispanic",
+          "value": 448
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 521
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16804
+        }
+      ]
+    },
+    "Atchison County, Missouri": {
+      "label": "Atchison County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 17
+        },
+        {
+          "label": "Hispanic",
+          "value": 94
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 183
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4876
+        }
+      ]
+    },
+    "Audrain County, Missouri": {
+      "label": "Audrain County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 47
+        },
+        {
+          "label": "Asian",
+          "value": 110
+        },
+        {
+          "label": "Black or African American",
+          "value": 1149
+        },
+        {
+          "label": "Hispanic",
+          "value": 767
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 989
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21543
+        }
+      ]
+    },
+    "Barry County, Missouri": {
+      "label": "Barry County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 59
+        },
+        {
+          "label": "Asian",
+          "value": 652
+        },
+        {
+          "label": "Black or African American",
+          "value": 92
+        },
+        {
+          "label": "Hispanic",
+          "value": 3473
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 280
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2227
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28017
+        }
+      ]
+    },
+    "Barton County, Missouri": {
+      "label": "Barton County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 141
+        },
+        {
+          "label": "Asian",
+          "value": 2
+        },
+        {
+          "label": "Black or African American",
+          "value": 25
+        },
+        {
+          "label": "Hispanic",
+          "value": 322
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 534
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10619
+        }
+      ]
+    },
+    "Bates County, Missouri": {
+      "label": "Bates County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 55
+        },
+        {
+          "label": "Asian",
+          "value": 64
+        },
+        {
+          "label": "Black or African American",
+          "value": 344
+        },
+        {
+          "label": "Hispanic",
+          "value": 386
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 14
+        },
+        {
+          "label": "Two or More Races",
+          "value": 393
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14865
+        }
+      ]
+    },
+    "Benton County, Missouri": {
+      "label": "Benton County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 131
+        },
+        {
+          "label": "Asian",
+          "value": 29
+        },
+        {
+          "label": "Black or African American",
+          "value": 178
+        },
+        {
+          "label": "Hispanic",
+          "value": 377
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 674
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18380
+        }
+      ]
+    },
+    "Bollinger County, Missouri": {
+      "label": "Bollinger County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 6
+        },
+        {
+          "label": "Black or African American",
+          "value": 65
+        },
+        {
+          "label": "Hispanic",
+          "value": 166
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 392
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9905
+        }
+      ]
+    },
+    "Boone County, Missouri": {
+      "label": "Boone County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 222
+        },
+        {
+          "label": "Asian",
+          "value": 8609
+        },
+        {
+          "label": "Black or African American",
+          "value": 17346
+        },
+        {
+          "label": "Hispanic",
+          "value": 8134
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 139
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8584
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 142019
+        }
+      ]
+    },
+    "Buchanan County, Missouri": {
+      "label": "Buchanan County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 205
+        },
+        {
+          "label": "Asian",
+          "value": 1010
+        },
+        {
+          "label": "Black or African American",
+          "value": 4726
+        },
+        {
+          "label": "Hispanic",
+          "value": 5901
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 358
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3890
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 67651
+        }
+      ]
+    },
+    "Butler County, Missouri": {
+      "label": "Butler County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 89
+        },
+        {
+          "label": "Asian",
+          "value": 295
+        },
+        {
+          "label": "Black or African American",
+          "value": 1943
+        },
+        {
+          "label": "Hispanic",
+          "value": 994
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 31
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2049
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 36446
+        }
+      ]
+    },
+    "Caldwell County, Missouri": {
+      "label": "Caldwell County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 30
+        },
+        {
+          "label": "Black or African American",
+          "value": 105
+        },
+        {
+          "label": "Hispanic",
+          "value": 192
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 259
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8244
+        }
+      ]
+    },
+    "Callaway County, Missouri": {
+      "label": "Callaway County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 195
+        },
+        {
+          "label": "Asian",
+          "value": 128
+        },
+        {
+          "label": "Black or African American",
+          "value": 1512
+        },
+        {
+          "label": "Hispanic",
+          "value": 1044
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2073
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 39443
+        }
+      ]
+    },
+    "Camden County, Missouri": {
+      "label": "Camden County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 60
+        },
+        {
+          "label": "Asian",
+          "value": 178
+        },
+        {
+          "label": "Black or African American",
+          "value": 380
+        },
+        {
+          "label": "Hispanic",
+          "value": 1453
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1138
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 40179
+        }
+      ]
+    },
+    "Cape Girardeau County, Missouri": {
+      "label": "Cape Girardeau County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 54
+        },
+        {
+          "label": "Asian",
+          "value": 1181
+        },
+        {
+          "label": "Black or African American",
+          "value": 6650
+        },
+        {
+          "label": "Hispanic",
+          "value": 2339
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 97
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2528
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 69088
+        }
+      ]
+    },
+    "Carroll County, Missouri": {
+      "label": "Carroll County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 16
+        },
+        {
+          "label": "Black or African American",
+          "value": 109
+        },
+        {
+          "label": "Hispanic",
+          "value": 174
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 232
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7926
+        }
+      ]
+    },
+    "Carter County, Missouri": {
+      "label": "Carter County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 33
+        },
+        {
+          "label": "Hispanic",
+          "value": 108
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 226
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4899
+        }
+      ]
+    },
+    "Cass County, Missouri": {
+      "label": "Cass County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 196
+        },
+        {
+          "label": "Asian",
+          "value": 773
+        },
+        {
+          "label": "Black or African American",
+          "value": 4858
+        },
+        {
+          "label": "Hispanic",
+          "value": 5828
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 116
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4504
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 92350
+        }
+      ]
+    },
+    "Cedar County, Missouri": {
+      "label": "Cedar County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 44
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 63
+        },
+        {
+          "label": "Hispanic",
+          "value": 297
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 584
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13375
+        }
+      ]
+    },
+    "Chariton County, Missouri": {
+      "label": "Chariton County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 195
+        },
+        {
+          "label": "Hispanic",
+          "value": 67
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 198
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6892
+        }
+      ]
+    },
+    "Christian County, Missouri": {
+      "label": "Christian County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 178
+        },
+        {
+          "label": "Asian",
+          "value": 759
+        },
+        {
+          "label": "Black or African American",
+          "value": 714
+        },
+        {
+          "label": "Hispanic",
+          "value": 3264
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 77
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2851
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 83080
+        }
+      ]
+    },
+    "Clark County, Missouri": {
+      "label": "Clark County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 29
+        },
+        {
+          "label": "Black or African American",
+          "value": 26
+        },
+        {
+          "label": "Hispanic",
+          "value": 61
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 146
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6390
+        }
+      ]
+    },
+    "Clay County, Missouri": {
+      "label": "Clay County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 498
+        },
+        {
+          "label": "Asian",
+          "value": 6209
+        },
+        {
+          "label": "Black or African American",
+          "value": 16894
+        },
+        {
+          "label": "Hispanic",
+          "value": 19687
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 903
+        },
+        {
+          "label": "Two or More Races",
+          "value": 11793
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 198802
+        }
+      ]
+    },
+    "Clinton County, Missouri": {
+      "label": "Clinton County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 90
+        },
+        {
+          "label": "Black or African American",
+          "value": 157
+        },
+        {
+          "label": "Hispanic",
+          "value": 543
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 13
+        },
+        {
+          "label": "Two or More Races",
+          "value": 794
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19603
+        }
+      ]
+    },
+    "Cole County, Missouri": {
+      "label": "Cole County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 62
+        },
+        {
+          "label": "Asian",
+          "value": 1213
+        },
+        {
+          "label": "Black or African American",
+          "value": 8609
+        },
+        {
+          "label": "Hispanic",
+          "value": 2721
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2597
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 61315
+        }
+      ]
+    },
+    "Cooper County, Missouri": {
+      "label": "Cooper County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 67
+        },
+        {
+          "label": "Black or African American",
+          "value": 928
+        },
+        {
+          "label": "Hispanic",
+          "value": 346
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 599
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14839
+        }
+      ]
+    },
+    "Crawford County, Missouri": {
+      "label": "Crawford County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 34
+        },
+        {
+          "label": "Asian",
+          "value": 27
+        },
+        {
+          "label": "Black or African American",
+          "value": 137
+        },
+        {
+          "label": "Hispanic",
+          "value": 526
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 52
+        },
+        {
+          "label": "Two or More Races",
+          "value": 796
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21256
+        }
+      ]
+    },
+    "Dade County, Missouri": {
+      "label": "Dade County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 28
+        },
+        {
+          "label": "Black or African American",
+          "value": 29
+        },
+        {
+          "label": "Hispanic",
+          "value": 162
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 299
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7075
+        }
+      ]
+    },
+    "Dallas County, Missouri": {
+      "label": "Dallas County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 32
+        },
+        {
+          "label": "Hispanic",
+          "value": 374
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 704
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16198
+        }
+      ]
+    },
+    "Daviess County, Missouri": {
+      "label": "Daviess County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 25
+        },
+        {
+          "label": "Black or African American",
+          "value": 76
+        },
+        {
+          "label": "Hispanic",
+          "value": 144
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 135
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8054
+        }
+      ]
+    },
+    "DeKalb County, Missouri": {
+      "label": "DeKalb County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 38
+        },
+        {
+          "label": "Asian",
+          "value": 77
+        },
+        {
+          "label": "Black or African American",
+          "value": 736
+        },
+        {
+          "label": "Hispanic",
+          "value": 262
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 331
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9721
+        }
+      ]
+    },
+    "Dent County, Missouri": {
+      "label": "Dent County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 63
+        },
+        {
+          "label": "Asian",
+          "value": 129
+        },
+        {
+          "label": "Black or African American",
+          "value": 69
+        },
+        {
+          "label": "Hispanic",
+          "value": 308
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 618
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13299
+        }
+      ]
+    },
+    "Douglas County, Missouri": {
+      "label": "Douglas County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 134
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 112
+        },
+        {
+          "label": "Hispanic",
+          "value": 112
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 469
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10990
+        }
+      ]
+    },
+    "Dunklin County, Missouri": {
+      "label": "Dunklin County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 77
+        },
+        {
+          "label": "Black or African American",
+          "value": 2167
+        },
+        {
+          "label": "Hispanic",
+          "value": 2055
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2387
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21058
+        }
+      ]
+    },
+    "Franklin County, Missouri": {
+      "label": "Franklin County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 82
+        },
+        {
+          "label": "Asian",
+          "value": 438
+        },
+        {
+          "label": "Black or African American",
+          "value": 855
+        },
+        {
+          "label": "Hispanic",
+          "value": 2343
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 44
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7394
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 93937
+        }
+      ]
+    },
+    "Gasconade County, Missouri": {
+      "label": "Gasconade County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 34
+        },
+        {
+          "label": "Asian",
+          "value": 15
+        },
+        {
+          "label": "Black or African American",
+          "value": 136
+        },
+        {
+          "label": "Hispanic",
+          "value": 224
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 29
+        },
+        {
+          "label": "Two or More Races",
+          "value": 371
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13965
+        }
+      ]
+    },
+    "Gentry County, Missouri": {
+      "label": "Gentry County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 75
+        },
+        {
+          "label": "Black or African American",
+          "value": 23
+        },
+        {
+          "label": "Hispanic",
+          "value": 112
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 99
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5904
+        }
+      ]
+    },
+    "Greene County, Missouri": {
+      "label": "Greene County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 617
+        },
+        {
+          "label": "Asian",
+          "value": 5730
+        },
+        {
+          "label": "Black or African American",
+          "value": 8610
+        },
+        {
+          "label": "Hispanic",
+          "value": 14950
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 408
+        },
+        {
+          "label": "Two or More Races",
+          "value": 14127
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 255038
+        }
+      ]
+    },
+    "Grundy County, Missouri": {
+      "label": "Grundy County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 87
+        },
+        {
+          "label": "Black or African American",
+          "value": 46
+        },
+        {
+          "label": "Hispanic",
+          "value": 260
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 291
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9095
+        }
+      ]
+    },
+    "Harrison County, Missouri": {
+      "label": "Harrison County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 32
+        },
+        {
+          "label": "Asian",
+          "value": 20
+        },
+        {
+          "label": "Black or African American",
+          "value": 62
+        },
+        {
+          "label": "Hispanic",
+          "value": 191
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 153
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7739
+        }
+      ]
+    },
+    "Henry County, Missouri": {
+      "label": "Henry County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 48
+        },
+        {
+          "label": "Asian",
+          "value": 52
+        },
+        {
+          "label": "Black or African American",
+          "value": 160
+        },
+        {
+          "label": "Hispanic",
+          "value": 650
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 863
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 20405
+        }
+      ]
+    },
+    "Hickory County, Missouri": {
+      "label": "Hickory County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 45
+        },
+        {
+          "label": "Black or African American",
+          "value": 7
+        },
+        {
+          "label": "Hispanic",
+          "value": 144
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 341
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7963
+        }
+      ]
+    },
+    "Holt County, Missouri": {
+      "label": "Holt County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 15
+        },
+        {
+          "label": "Black or African American",
+          "value": 33
+        },
+        {
+          "label": "Hispanic",
+          "value": 71
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 118
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4008
+        }
+      ]
+    },
+    "Howard County, Missouri": {
+      "label": "Howard County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 37
+        },
+        {
+          "label": "Asian",
+          "value": 46
+        },
+        {
+          "label": "Black or African American",
+          "value": 530
+        },
+        {
+          "label": "Hispanic",
+          "value": 216
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 433
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8818
+        }
+      ]
+    },
+    "Howell County, Missouri": {
+      "label": "Howell County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 97
+        },
+        {
+          "label": "Asian",
+          "value": 204
+        },
+        {
+          "label": "Black or African American",
+          "value": 151
+        },
+        {
+          "label": "Hispanic",
+          "value": 975
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1323
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 37117
+        }
+      ]
+    },
+    "Iron County, Missouri": {
+      "label": "Iron County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 30
+        },
+        {
+          "label": "Black or African American",
+          "value": 75
+        },
+        {
+          "label": "Hispanic",
+          "value": 199
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 396
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8751
+        }
+      ]
+    },
+    "Jackson County, Missouri": {
+      "label": "Jackson County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1048
+        },
+        {
+          "label": "Asian",
+          "value": 12511
+        },
+        {
+          "label": "Black or African American",
+          "value": 160230
+        },
+        {
+          "label": "Hispanic",
+          "value": 79383
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1976
+        },
+        {
+          "label": "Two or More Races",
+          "value": 29648
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 428371
+        }
+      ]
+    },
+    "Jasper County, Missouri": {
+      "label": "Jasper County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 831
+        },
+        {
+          "label": "Asian",
+          "value": 1683
+        },
+        {
+          "label": "Black or African American",
+          "value": 2059
+        },
+        {
+          "label": "Hispanic",
+          "value": 11775
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 424
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6063
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 100272
+        }
+      ]
+    },
+    "Jefferson County, Missouri": {
+      "label": "Jefferson County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 191
+        },
+        {
+          "label": "Asian",
+          "value": 2297
+        },
+        {
+          "label": "Black or African American",
+          "value": 2431
+        },
+        {
+          "label": "Hispanic",
+          "value": 5793
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 60
+        },
+        {
+          "label": "Two or More Races",
+          "value": 13749
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 203032
+        }
+      ]
+    },
+    "Johnson County, Missouri": {
+      "label": "Johnson County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 79
+        },
+        {
+          "label": "Asian",
+          "value": 878
+        },
+        {
+          "label": "Black or African American",
+          "value": 2016
+        },
+        {
+          "label": "Hispanic",
+          "value": 2742
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 159
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2317
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 45820
+        }
+      ]
+    },
+    "Knox County, Missouri": {
+      "label": "Knox County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 8
+        },
+        {
+          "label": "Black or African American",
+          "value": 34
+        },
+        {
+          "label": "Hispanic",
+          "value": 14
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 72
+        },
+        {
+          "label": "Two or More Races",
+          "value": 48
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3583
+        }
+      ]
+    },
+    "Laclede County, Missouri": {
+      "label": "Laclede County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 136
+        },
+        {
+          "label": "Asian",
+          "value": 248
+        },
+        {
+          "label": "Black or African American",
+          "value": 260
+        },
+        {
+          "label": "Hispanic",
+          "value": 1033
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 42
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1487
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32925
+        }
+      ]
+    },
+    "Lafayette County, Missouri": {
+      "label": "Lafayette County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 81
+        },
+        {
+          "label": "Asian",
+          "value": 206
+        },
+        {
+          "label": "Black or African American",
+          "value": 574
+        },
+        {
+          "label": "Hispanic",
+          "value": 1096
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1002
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29941
+        }
+      ]
+    },
+    "Lawrence County, Missouri": {
+      "label": "Lawrence County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 131
+        },
+        {
+          "label": "Asian",
+          "value": 179
+        },
+        {
+          "label": "Black or African American",
+          "value": 97
+        },
+        {
+          "label": "Hispanic",
+          "value": 3161
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 18
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1328
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33313
+        }
+      ]
+    },
+    "Lewis County, Missouri": {
+      "label": "Lewis County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 46
+        },
+        {
+          "label": "Black or African American",
+          "value": 302
+        },
+        {
+          "label": "Hispanic",
+          "value": 120
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 16
+        },
+        {
+          "label": "Two or More Races",
+          "value": 300
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9150
+        }
+      ]
+    },
+    "Lincoln County, Missouri": {
+      "label": "Lincoln County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 27
+        },
+        {
+          "label": "Asian",
+          "value": 212
+        },
+        {
+          "label": "Black or African American",
+          "value": 1057
+        },
+        {
+          "label": "Hispanic",
+          "value": 1708
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 76
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1739
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 56777
+        }
+      ]
+    },
+    "Linn County, Missouri": {
+      "label": "Linn County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 38
+        },
+        {
+          "label": "Asian",
+          "value": 51
+        },
+        {
+          "label": "Black or African American",
+          "value": 81
+        },
+        {
+          "label": "Hispanic",
+          "value": 340
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 202
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11127
+        }
+      ]
+    },
+    "Livingston County, Missouri": {
+      "label": "Livingston County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 49
+        },
+        {
+          "label": "Asian",
+          "value": 93
+        },
+        {
+          "label": "Black or African American",
+          "value": 423
+        },
+        {
+          "label": "Hispanic",
+          "value": 273
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 301
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13158
+        }
+      ]
+    },
+    "Macon County, Missouri": {
+      "label": "Macon County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 102
+        },
+        {
+          "label": "Black or African American",
+          "value": 311
+        },
+        {
+          "label": "Hispanic",
+          "value": 276
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 451
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13975
+        }
+      ]
+    },
+    "Madison County, Missouri": {
+      "label": "Madison County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 36
+        },
+        {
+          "label": "Asian",
+          "value": 46
+        },
+        {
+          "label": "Black or African American",
+          "value": 49
+        },
+        {
+          "label": "Hispanic",
+          "value": 335
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 443
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11742
+        }
+      ]
+    },
+    "Maries County, Missouri": {
+      "label": "Maries County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 55
+        },
+        {
+          "label": "Asian",
+          "value": 8
+        },
+        {
+          "label": "Black or African American",
+          "value": 14
+        },
+        {
+          "label": "Hispanic",
+          "value": 160
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 420
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7760
+        }
+      ]
+    },
+    "Marion County, Missouri": {
+      "label": "Marion County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 60
+        },
+        {
+          "label": "Asian",
+          "value": 98
+        },
+        {
+          "label": "Black or African American",
+          "value": 1481
+        },
+        {
+          "label": "Hispanic",
+          "value": 560
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 782
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 25473
+        }
+      ]
+    },
+    "McDonald County, Missouri": {
+      "label": "McDonald County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 281
+        },
+        {
+          "label": "Asian",
+          "value": 289
+        },
+        {
+          "label": "Black or African American",
+          "value": 458
+        },
+        {
+          "label": "Hispanic",
+          "value": 2880
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 762
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2473
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16146
+        }
+      ]
+    },
+    "Mercer County, Missouri": {
+      "label": "Mercer County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 36
+        },
+        {
+          "label": "Black or African American",
+          "value": 9
+        },
+        {
+          "label": "Hispanic",
+          "value": 155
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 84
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3203
+        }
+      ]
+    },
+    "Miller County, Missouri": {
+      "label": "Miller County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 96
+        },
+        {
+          "label": "Black or African American",
+          "value": 299
+        },
+        {
+          "label": "Hispanic",
+          "value": 516
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 538
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 23510
+        }
+      ]
+    },
+    "Mississippi County, Missouri": {
+      "label": "Mississippi County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 44
+        },
+        {
+          "label": "Black or African American",
+          "value": 2743
+        },
+        {
+          "label": "Hispanic",
+          "value": 184
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 568
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8540
+        }
+      ]
+    },
+    "Moniteau County, Missouri": {
+      "label": "Moniteau County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 70
+        },
+        {
+          "label": "Black or African American",
+          "value": 367
+        },
+        {
+          "label": "Hispanic",
+          "value": 877
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 319
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13583
+        }
+      ]
+    },
+    "Monroe County, Missouri": {
+      "label": "Monroe County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 43
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 350
+        },
+        {
+          "label": "Hispanic",
+          "value": 151
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 123
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7967
+        }
+      ]
+    },
+    "Montgomery County, Missouri": {
+      "label": "Montgomery County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 20
+        },
+        {
+          "label": "Black or African American",
+          "value": 214
+        },
+        {
+          "label": "Hispanic",
+          "value": 252
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 347
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10570
+        }
+      ]
+    },
+    "Morgan County, Missouri": {
+      "label": "Morgan County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 24
+        },
+        {
+          "label": "Asian",
+          "value": 85
+        },
+        {
+          "label": "Black or African American",
+          "value": 46
+        },
+        {
+          "label": "Hispanic",
+          "value": 536
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 918
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19791
+        }
+      ]
+    },
+    "New Madrid County, Missouri": {
+      "label": "New Madrid County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 46
+        },
+        {
+          "label": "Black or African American",
+          "value": 2027
+        },
+        {
+          "label": "Hispanic",
+          "value": 286
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1514
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12134
+        }
+      ]
+    },
+    "Newton County, Missouri": {
+      "label": "Newton County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 636
+        },
+        {
+          "label": "Asian",
+          "value": 943
+        },
+        {
+          "label": "Black or African American",
+          "value": 555
+        },
+        {
+          "label": "Hispanic",
+          "value": 3833
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 759
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4284
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 48351
+        }
+      ]
+    },
+    "Nodaway County, Missouri": {
+      "label": "Nodaway County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 51
+        },
+        {
+          "label": "Asian",
+          "value": 316
+        },
+        {
+          "label": "Black or African American",
+          "value": 422
+        },
+        {
+          "label": "Hispanic",
+          "value": 441
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 347
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19320
+        }
+      ]
+    },
+    "Oregon County, Missouri": {
+      "label": "Oregon County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 38
+        },
+        {
+          "label": "Asian",
+          "value": 28
+        },
+        {
+          "label": "Black or African American",
+          "value": 7
+        },
+        {
+          "label": "Hispanic",
+          "value": 114
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 401
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8108
+        }
+      ]
+    },
+    "Osage County, Missouri": {
+      "label": "Osage County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 40
+        },
+        {
+          "label": "Asian",
+          "value": 1
+        },
+        {
+          "label": "Black or African American",
+          "value": 21
+        },
+        {
+          "label": "Hispanic",
+          "value": 141
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 204
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12972
+        }
+      ]
+    },
+    "Ozark County, Missouri": {
+      "label": "Ozark County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 25
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 39
+        },
+        {
+          "label": "Hispanic",
+          "value": 167
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 291
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8242
+        }
+      ]
+    },
+    "Pemiscot County, Missouri": {
+      "label": "Pemiscot County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 24
+        },
+        {
+          "label": "Asian",
+          "value": 30
+        },
+        {
+          "label": "Black or African American",
+          "value": 3793
+        },
+        {
+          "label": "Hispanic",
+          "value": 457
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 897
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10031
+        }
+      ]
+    },
+    "Perry County, Missouri": {
+      "label": "Perry County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 145
+        },
+        {
+          "label": "Black or African American",
+          "value": 151
+        },
+        {
+          "label": "Hispanic",
+          "value": 437
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 434
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17777
+        }
+      ]
+    },
+    "Pettis County, Missouri": {
+      "label": "Pettis County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 295
+        },
+        {
+          "label": "Black or African American",
+          "value": 1069
+        },
+        {
+          "label": "Hispanic",
+          "value": 4135
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 160
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1730
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 35707
+        }
+      ]
+    },
+    "Phelps County, Missouri": {
+      "label": "Phelps County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 132
+        },
+        {
+          "label": "Asian",
+          "value": 1506
+        },
+        {
+          "label": "Black or African American",
+          "value": 920
+        },
+        {
+          "label": "Hispanic",
+          "value": 1328
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2358
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 38509
+        }
+      ]
+    },
+    "Pike County, Missouri": {
+      "label": "Pike County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 102
+        },
+        {
+          "label": "Asian",
+          "value": 51
+        },
+        {
+          "label": "Black or African American",
+          "value": 844
+        },
+        {
+          "label": "Hispanic",
+          "value": 225
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 57
+        },
+        {
+          "label": "Two or More Races",
+          "value": 623
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15715
+        }
+      ]
+    },
+    "Platte County, Missouri": {
+      "label": "Platte County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 133
+        },
+        {
+          "label": "Asian",
+          "value": 2707
+        },
+        {
+          "label": "Black or African American",
+          "value": 7879
+        },
+        {
+          "label": "Hispanic",
+          "value": 7535
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 578
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5055
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 84300
+        }
+      ]
+    },
+    "Polk County, Missouri": {
+      "label": "Polk County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 103
+        },
+        {
+          "label": "Asian",
+          "value": 230
+        },
+        {
+          "label": "Black or African American",
+          "value": 262
+        },
+        {
+          "label": "Hispanic",
+          "value": 898
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8
+        },
+        {
+          "label": "Two or More Races",
+          "value": 939
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29591
+        }
+      ]
+    },
+    "Pulaski County, Missouri": {
+      "label": "Pulaski County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 244
+        },
+        {
+          "label": "Asian",
+          "value": 1109
+        },
+        {
+          "label": "Black or African American",
+          "value": 5365
+        },
+        {
+          "label": "Hispanic",
+          "value": 6190
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 303
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3326
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 37050
+        }
+      ]
+    },
+    "Putnam County, Missouri": {
+      "label": "Putnam County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 7
+        },
+        {
+          "label": "Hispanic",
+          "value": 133
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 63
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4453
+        }
+      ]
+    },
+    "Ralls County, Missouri": {
+      "label": "Ralls County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 26
+        },
+        {
+          "label": "Black or African American",
+          "value": 194
+        },
+        {
+          "label": "Hispanic",
+          "value": 123
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 322
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9698
+        }
+      ]
+    },
+    "Randolph County, Missouri": {
+      "label": "Randolph County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 81
+        },
+        {
+          "label": "Black or African American",
+          "value": 1220
+        },
+        {
+          "label": "Hispanic",
+          "value": 596
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1063
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21453
+        }
+      ]
+    },
+    "Ray County, Missouri": {
+      "label": "Ray County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 75
+        },
+        {
+          "label": "Asian",
+          "value": 67
+        },
+        {
+          "label": "Black or African American",
+          "value": 268
+        },
+        {
+          "label": "Hispanic",
+          "value": 643
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 564
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21420
+        }
+      ]
+    },
+    "Reynolds County, Missouri": {
+      "label": "Reynolds County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 12
+        },
+        {
+          "label": "Black or African American",
+          "value": 90
+        },
+        {
+          "label": "Hispanic",
+          "value": 102
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 318
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5524
+        }
+      ]
+    },
+    "Ripley County, Missouri": {
+      "label": "Ripley County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 55
+        },
+        {
+          "label": "Black or African American",
+          "value": 25
+        },
+        {
+          "label": "Hispanic",
+          "value": 134
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 458
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10033
+        }
+      ]
+    },
+    "Saline County, Missouri": {
+      "label": "Saline County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 195
+        },
+        {
+          "label": "Black or African American",
+          "value": 1065
+        },
+        {
+          "label": "Hispanic",
+          "value": 2827
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 170
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1049
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17680
+        }
+      ]
+    },
+    "Schuyler County, Missouri": {
+      "label": "Schuyler County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 20
+        },
+        {
+          "label": "Black or African American",
+          "value": 4
+        },
+        {
+          "label": "Hispanic",
+          "value": 67
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 128
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3814
+        }
+      ]
+    },
+    "Scotland County, Missouri": {
+      "label": "Scotland County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 4
+        },
+        {
+          "label": "Hispanic",
+          "value": 4
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 25
+        },
+        {
+          "label": "Two or More Races",
+          "value": 110
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4542
+        }
+      ]
+    },
+    "Scott County, Missouri": {
+      "label": "Scott County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 80
+        },
+        {
+          "label": "Black or African American",
+          "value": 4233
+        },
+        {
+          "label": "Hispanic",
+          "value": 966
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 32
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1707
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30904
+        }
+      ]
+    },
+    "Shannon County, Missouri": {
+      "label": "Shannon County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 26
+        },
+        {
+          "label": "Black or African American",
+          "value": 17
+        },
+        {
+          "label": "Hispanic",
+          "value": 37
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 415
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6609
+        }
+      ]
+    },
+    "Shelby County, Missouri": {
+      "label": "Shelby County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 70
+        },
+        {
+          "label": "Black or African American",
+          "value": 36
+        },
+        {
+          "label": "Hispanic",
+          "value": 134
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 102
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5664
+        }
+      ]
+    },
+    "St. Charles County, Missouri": {
+      "label": "St. Charles County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 161
+        },
+        {
+          "label": "Asian",
+          "value": 11579
+        },
+        {
+          "label": "Black or African American",
+          "value": 20228
+        },
+        {
+          "label": "Hispanic",
+          "value": 16546
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 157
+        },
+        {
+          "label": "Two or More Races",
+          "value": 16134
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 343815
+        }
+      ]
+    },
+    "St. Clair County, Missouri": {
+      "label": "St. Clair County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 23
+        },
+        {
+          "label": "Black or African American",
+          "value": 74
+        },
+        {
+          "label": "Hispanic",
+          "value": 203
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 358
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8782
+        }
+      ]
+    },
+    "St. Francois County, Missouri": {
+      "label": "St. Francois County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 208
+        },
+        {
+          "label": "Asian",
+          "value": 288
+        },
+        {
+          "label": "Black or African American",
+          "value": 1999
+        },
+        {
+          "label": "Hispanic",
+          "value": 1196
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 21
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2247
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 60615
+        }
+      ]
+    },
+    "St. Louis city, Missouri": {
+      "label": "St. Louis city, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 433
+        },
+        {
+          "label": "Asian",
+          "value": 9932
+        },
+        {
+          "label": "Black or African American",
+          "value": 125617
+        },
+        {
+          "label": "Hispanic",
+          "value": 15005
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 97
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10725
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 130110
+        }
+      ]
+    },
+    "St. Louis County, Missouri": {
+      "label": "St. Louis County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 558
+        },
+        {
+          "label": "Asian",
+          "value": 46635
+        },
+        {
+          "label": "Black or African American",
+          "value": 239810
+        },
+        {
+          "label": "Hispanic",
+          "value": 37209
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 173
+        },
+        {
+          "label": "Two or More Races",
+          "value": 50492
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 617588
+        }
+      ]
+    },
+    "Ste. Genevieve County, Missouri": {
+      "label": "Ste. Genevieve County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 10
+        },
+        {
+          "label": "Black or African American",
+          "value": 302
+        },
+        {
+          "label": "Hispanic",
+          "value": 265
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 518
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17434
+        }
+      ]
+    },
+    "Stoddard County, Missouri": {
+      "label": "Stoddard County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 99
+        },
+        {
+          "label": "Black or African American",
+          "value": 275
+        },
+        {
+          "label": "Hispanic",
+          "value": 597
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 37
+        },
+        {
+          "label": "Two or More Races",
+          "value": 924
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26586
+        }
+      ]
+    },
+    "Stone County, Missouri": {
+      "label": "Stone County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 51
+        },
+        {
+          "label": "Asian",
+          "value": 138
+        },
+        {
+          "label": "Black or African American",
+          "value": 104
+        },
+        {
+          "label": "Hispanic",
+          "value": 866
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 873
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29633
+        }
+      ]
+    },
+    "Sullivan County, Missouri": {
+      "label": "Sullivan County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 13
+        },
+        {
+          "label": "Asian",
+          "value": 44
+        },
+        {
+          "label": "Black or African American",
+          "value": 145
+        },
+        {
+          "label": "Hispanic",
+          "value": 1051
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 91
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4559
+        }
+      ]
+    },
+    "Taney County, Missouri": {
+      "label": "Taney County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 158
+        },
+        {
+          "label": "Asian",
+          "value": 557
+        },
+        {
+          "label": "Black or African American",
+          "value": 796
+        },
+        {
+          "label": "Hispanic",
+          "value": 4250
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2301
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 48248
+        }
+      ]
+    },
+    "Texas County, Missouri": {
+      "label": "Texas County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 99
+        },
+        {
+          "label": "Asian",
+          "value": 72
+        },
+        {
+          "label": "Black or African American",
+          "value": 520
+        },
+        {
+          "label": "Hispanic",
+          "value": 589
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1259
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 22364
+        }
+      ]
+    },
+    "Vernon County, Missouri": {
+      "label": "Vernon County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 139
+        },
+        {
+          "label": "Black or African American",
+          "value": 151
+        },
+        {
+          "label": "Hispanic",
+          "value": 493
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 560
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18345
+        }
+      ]
+    },
+    "Warren County, Missouri": {
+      "label": "Warren County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 25
+        },
+        {
+          "label": "Asian",
+          "value": 184
+        },
+        {
+          "label": "Black or African American",
+          "value": 773
+        },
+        {
+          "label": "Hispanic",
+          "value": 1460
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1231
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32737
+        }
+      ]
+    },
+    "Washington County, Missouri": {
+      "label": "Washington County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 35
+        },
+        {
+          "label": "Black or African American",
+          "value": 451
+        },
+        {
+          "label": "Hispanic",
+          "value": 244
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 32
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1142
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21558
+        }
+      ]
+    },
+    "Wayne County, Missouri": {
+      "label": "Wayne County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 27
+        },
+        {
+          "label": "Black or African American",
+          "value": 42
+        },
+        {
+          "label": "Hispanic",
+          "value": 113
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 503
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10153
+        }
+      ]
+    },
+    "Webster County, Missouri": {
+      "label": "Webster County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 119
+        },
+        {
+          "label": "Asian",
+          "value": 61
+        },
+        {
+          "label": "Black or African American",
+          "value": 455
+        },
+        {
+          "label": "Hispanic",
+          "value": 882
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 84
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1586
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 36470
+        }
+      ]
+    },
+    "Worth County, Missouri": {
+      "label": "Worth County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 37
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 44
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1869
+        }
+      ]
+    },
+    "Wright County, Missouri": {
+      "label": "Wright County, Missouri",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 26
+        },
+        {
+          "label": "Asian",
+          "value": 81
+        },
+        {
+          "label": "Black or African American",
+          "value": 35
+        },
+        {
+          "label": "Hispanic",
+          "value": 460
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 16
+        },
+        {
+          "label": "Two or More Races",
+          "value": 749
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17336
+        }
+      ]
+    }
+  }
+}

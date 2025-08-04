@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 17</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Adams County, Illinois">Adams County, Illinois</option>
+<option value="Alexander County, Illinois">Alexander County, Illinois</option>
+<option value="Bond County, Illinois">Bond County, Illinois</option>
+<option value="Boone County, Illinois">Boone County, Illinois</option>
+<option value="Brown County, Illinois">Brown County, Illinois</option>
+<option value="Bureau County, Illinois">Bureau County, Illinois</option>
+<option value="Calhoun County, Illinois">Calhoun County, Illinois</option>
+<option value="Carroll County, Illinois">Carroll County, Illinois</option>
+<option value="Cass County, Illinois">Cass County, Illinois</option>
+<option value="Champaign County, Illinois">Champaign County, Illinois</option>
+<option value="Christian County, Illinois">Christian County, Illinois</option>
+<option value="Clark County, Illinois">Clark County, Illinois</option>
+<option value="Clay County, Illinois">Clay County, Illinois</option>
+<option value="Clinton County, Illinois">Clinton County, Illinois</option>
+<option value="Coles County, Illinois">Coles County, Illinois</option>
+<option value="Cook County, Illinois">Cook County, Illinois</option>
+<option value="Crawford County, Illinois">Crawford County, Illinois</option>
+<option value="Cumberland County, Illinois">Cumberland County, Illinois</option>
+<option value="De Witt County, Illinois">De Witt County, Illinois</option>
+<option value="DeKalb County, Illinois">DeKalb County, Illinois</option>
+<option value="Douglas County, Illinois">Douglas County, Illinois</option>
+<option value="DuPage County, Illinois">DuPage County, Illinois</option>
+<option value="Edgar County, Illinois">Edgar County, Illinois</option>
+<option value="Edwards County, Illinois">Edwards County, Illinois</option>
+<option value="Effingham County, Illinois">Effingham County, Illinois</option>
+<option value="Fayette County, Illinois">Fayette County, Illinois</option>
+<option value="Ford County, Illinois">Ford County, Illinois</option>
+<option value="Franklin County, Illinois">Franklin County, Illinois</option>
+<option value="Fulton County, Illinois">Fulton County, Illinois</option>
+<option value="Gallatin County, Illinois">Gallatin County, Illinois</option>
+<option value="Greene County, Illinois">Greene County, Illinois</option>
+<option value="Grundy County, Illinois">Grundy County, Illinois</option>
+<option value="Hamilton County, Illinois">Hamilton County, Illinois</option>
+<option value="Hancock County, Illinois">Hancock County, Illinois</option>
+<option value="Hardin County, Illinois">Hardin County, Illinois</option>
+<option value="Henderson County, Illinois">Henderson County, Illinois</option>
+<option value="Henry County, Illinois">Henry County, Illinois</option>
+<option value="Iroquois County, Illinois">Iroquois County, Illinois</option>
+<option value="Jackson County, Illinois">Jackson County, Illinois</option>
+<option value="Jasper County, Illinois">Jasper County, Illinois</option>
+<option value="Jefferson County, Illinois">Jefferson County, Illinois</option>
+<option value="Jersey County, Illinois">Jersey County, Illinois</option>
+<option value="Jo Daviess County, Illinois">Jo Daviess County, Illinois</option>
+<option value="Johnson County, Illinois">Johnson County, Illinois</option>
+<option value="Kane County, Illinois">Kane County, Illinois</option>
+<option value="Kankakee County, Illinois">Kankakee County, Illinois</option>
+<option value="Kendall County, Illinois">Kendall County, Illinois</option>
+<option value="Knox County, Illinois">Knox County, Illinois</option>
+<option value="Lake County, Illinois">Lake County, Illinois</option>
+<option value="LaSalle County, Illinois">LaSalle County, Illinois</option>
+<option value="Lawrence County, Illinois">Lawrence County, Illinois</option>
+<option value="Lee County, Illinois">Lee County, Illinois</option>
+<option value="Livingston County, Illinois">Livingston County, Illinois</option>
+<option value="Logan County, Illinois">Logan County, Illinois</option>
+<option value="Macon County, Illinois">Macon County, Illinois</option>
+<option value="Macoupin County, Illinois">Macoupin County, Illinois</option>
+<option value="Madison County, Illinois">Madison County, Illinois</option>
+<option value="Marion County, Illinois">Marion County, Illinois</option>
+<option value="Marshall County, Illinois">Marshall County, Illinois</option>
+<option value="Mason County, Illinois">Mason County, Illinois</option>
+<option value="Massac County, Illinois">Massac County, Illinois</option>
+<option value="McDonough County, Illinois">McDonough County, Illinois</option>
+<option value="McHenry County, Illinois">McHenry County, Illinois</option>
+<option value="McLean County, Illinois">McLean County, Illinois</option>
+<option value="Menard County, Illinois">Menard County, Illinois</option>
+<option value="Mercer County, Illinois">Mercer County, Illinois</option>
+<option value="Monroe County, Illinois">Monroe County, Illinois</option>
+<option value="Montgomery County, Illinois">Montgomery County, Illinois</option>
+<option value="Morgan County, Illinois">Morgan County, Illinois</option>
+<option value="Moultrie County, Illinois">Moultrie County, Illinois</option>
+<option value="Ogle County, Illinois">Ogle County, Illinois</option>
+<option value="Peoria County, Illinois">Peoria County, Illinois</option>
+<option value="Perry County, Illinois">Perry County, Illinois</option>
+<option value="Piatt County, Illinois">Piatt County, Illinois</option>
+<option value="Pike County, Illinois">Pike County, Illinois</option>
+<option value="Pope County, Illinois">Pope County, Illinois</option>
+<option value="Pulaski County, Illinois">Pulaski County, Illinois</option>
+<option value="Putnam County, Illinois">Putnam County, Illinois</option>
+<option value="Randolph County, Illinois">Randolph County, Illinois</option>
+<option value="Richland County, Illinois">Richland County, Illinois</option>
+<option value="Rock Island County, Illinois">Rock Island County, Illinois</option>
+<option value="Saline County, Illinois">Saline County, Illinois</option>
+<option value="Sangamon County, Illinois">Sangamon County, Illinois</option>
+<option value="Schuyler County, Illinois">Schuyler County, Illinois</option>
+<option value="Scott County, Illinois">Scott County, Illinois</option>
+<option value="Shelby County, Illinois">Shelby County, Illinois</option>
+<option value="St. Clair County, Illinois">St. Clair County, Illinois</option>
+<option value="Stark County, Illinois">Stark County, Illinois</option>
+<option value="Stephenson County, Illinois">Stephenson County, Illinois</option>
+<option value="Tazewell County, Illinois">Tazewell County, Illinois</option>
+<option value="Union County, Illinois">Union County, Illinois</option>
+<option value="Vermilion County, Illinois">Vermilion County, Illinois</option>
+<option value="Wabash County, Illinois">Wabash County, Illinois</option>
+<option value="Warren County, Illinois">Warren County, Illinois</option>
+<option value="Washington County, Illinois">Washington County, Illinois</option>
+<option value="Wayne County, Illinois">Wayne County, Illinois</option>
+<option value="White County, Illinois">White County, Illinois</option>
+<option value="Whiteside County, Illinois">Whiteside County, Illinois</option>
+<option value="Will County, Illinois">Will County, Illinois</option>
+<option value="Williamson County, Illinois">Williamson County, Illinois</option>
+<option value="Winnebago County, Illinois">Winnebago County, Illinois</option>
+<option value="Woodford County, Illinois">Woodford County, Illinois</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.07,"Asian":5.75,"Black or African American":13.55,"Hispanic":18.5,"Pacific Islander":0.02,"Two or More Races":3.02,"White (non-Hispanic)":58.75},"Adams County, Illinois":{"American Indian / Alaska Native":0.04,"Asian":0.67,"Black or African American":3.54,"Hispanic":2.01,"Pacific Islander":0.02,"Two or More Races":3.25,"White (non-Hispanic)":90.32},"Alexander County, Illinois":{"American Indian / Alaska Native":0,"Asian":0.3,"Black or African American":31.85,"Hispanic":1.33,"Pacific Islander":0,"Two or More Races":3.37,"White (non-Hispanic)":63.15},"Bond County, Illinois":{"American Indian / Alaska Native":0.82,"Asian":0.49,"Black or African American":6.74,"Hispanic":3.78,"Pacific Islander":0,"Two or More Races":1.71,"White (non-Hispanic)":86.4},"Boone County, Illinois":{"American Indian / Alaska Native":0.02,"Asian":1,"Black or African American":1.85,"Hispanic":24.89,"Pacific Islander":0,"Two or More Races":3.01,"White (non-Hispanic)":68.92},"Brown County, Illinois":{"American Indian / Alaska Native":0.71,"Asian":0.03,"Black or African American":17.12,"Hispanic":5.08,"Pacific Islander":0,"Two or More Races":2.07,"White (non-Hispanic)":74.98},"Bureau County, Illinois":{"American Indian / Alaska Native":0.06,"Asian":0.86,"Black or African American":0.64,"Hispanic":9.84,"Pacific Islander":0,"Two or More Races":2.96,"White (non-Hispanic)":85.37},"Calhoun County, Illinois":{"American Indian / Alaska Native":0.07,"Asian":0.02,"Black or African American":1.02,"Hispanic":0.95,"Pacific Islander":0,"Two or More Races":2.97,"White (non-Hispanic)":94.85},"Carroll County, Illinois":{"American Indian / Alaska Native":0.27,"Asian":0.68,"Black or African American":3.74,"Hispanic":5.08,"Pacific Islander":0,"Two or More Races":1.75,"White (non-Hispanic)":88.43},"Cass County, Illinois":{"American Indian / Alaska Native":0.07,"Asian":0.8,"Black or African American":3.73,"Hispanic":21.89,"Pacific Islander":0.58,"Two or More Races":1.33,"White (non-Hispanic)":71.16},"Champaign County, Illinois":{"American Indian / Alaska Native":0.05,"Asian":10.66,"Black or African American":13.1,"Hispanic":8.07,"Pacific Islander":0.02,"Two or More Races":4.09,"White (non-Hispanic)":63.63},"Christian County, Illinois":{"American Indian / Alaska Native":0.05,"Asian":0.72,"Black or African American":2.6,"Hispanic":3.24,"Pacific Islander":0.02,"Two or More Races":1.63,"White (non-Hispanic)":91.43},"Clark County, Illinois":{"American Indian / Alaska Native":0.03,"Asian":0.16,"Black or African American":0.69,"Hispanic":1.79,"Pacific Islander":0,"Two or More Races":1.75,"White (non-Hispanic)":95.57},"Clay County, Illinois":{"American Indian / Alaska Native":0.2,"Asian":0.3,"Black or African American":0.71,"Hispanic":0.67,"Pacific Islander":0,"Two or More Races":2.89,"White (non-Hispanic)":95.04},"Clinton County, Illinois":{"American Indian / Alaska Native":0.1,"Asian":0.56,"Black or African American":3.11,"Hispanic":3.88,"Pacific Islander":0,"Two or More Races":1.86,"White (non-Hispanic)":90.46},"Coles County, Illinois":{"American Indian / Alaska Native":0.05,"Asian":1.17,"Black or African American":3.74,"Hispanic":3.69,"Pacific Islander":0,"Two or More Races":2.47,"White (non-Hispanic)":88.58},"Cook County, Illinois":{"American Indian / Alaska Native":0.07,"Asian":7.67,"Black or African American":22.14,"Hispanic":26.5,"Pacific Islander":0.02,"Two or More Races":2.68,"White (non-Hispanic)":40.54},"Crawford County, Illinois":{"American Indian / Alaska Native":0.44,"Asian":0.19,"Black or African American":3.53,"Hispanic":2.53,"Pacific Islander":0,"Two or More Races":2.68,"White (non-Hispanic)":90.5},"Cumberland County, Illinois":{"American Indian / Alaska Native":0,"Asian":0.1,"Black or African American":0.14,"Hispanic":0.32,"Pacific Islander":0,"Two or More Races":3.49,"White (non-Hispanic)":95.95},"De Witt County, Illinois":{"American Indian / Alaska Native":0.18,"Asian":0.2,"Black or African American":0.96,"Hispanic":3.36,"Pacific Islander":0,"Two or More Races":2.06,"White (non-Hispanic)":93.23},"DeKalb County, Illinois":{"American Indian / Alaska Native":0.07,"Asian":2.06,"Black or African American":7.65,"Hispanic":14,"Pacific Islander":0,"Two or More Races":3.59,"White (non-Hispanic)":72.4},"Douglas County, Illinois":{"American Indian / Alaska Native":0.15,"Asian":0.45,"Black or African American":1.22,"Hispanic":8.14,"Pacific Islander":0,"Two or More Races":1.78,"White (non-Hispanic)":87.95},"DuPage County, Illinois":{"American Indian / Alaska Native":0.04,"Asian":12.57,"Black or African American":4.85,"Hispanic":15.74,"Pacific Islander":0.02,"Two or More Races":3.22,"White (non-Hispanic)":63.14},"Edgar County, Illinois":{"American Indian / Alaska Native":0.04,"Asian":0.2,"Black or African American":0.5,"Hispanic":1.43,"Pacific Islander":0.03,"Two or More Races":1.68,"White (non-Hispanic)":96.12},"Edwards County, Illinois":{"American Indian / Alaska Native":0.02,"Asian":0.29,"Black or African American":0.18,"Hispanic":1.34,"Pacific Islander":0,"Two or More Races":3.07,"White (non-Hispanic)":95},"Effingham County, Illinois":{"American Indian / Alaska Native":0.02,"Asian":0.73,"Black or African American":0.65,"Hispanic":2.62,"Pacific Islander":0,"Two or More Races":1.34,"White (non-Hispanic)":94.58},"Fayette County, Illinois":{"American Indian / Alaska Native":0.44,"Asian":0.15,"Black or African American":3.77,"Hispanic":2.9,"Pacific Islander":0.2,"Two or More Races":3.92,"White (non-Hispanic)":88.62},"Ford County, Illinois":{"American Indian / Alaska Native":0.03,"Asian":0.75,"Black or African American":0.64,"Hispanic":4.64,"Pacific Islander":0,"Two or More Races":3.11,"White (non-Hispanic)":90.54},"Franklin County, Illinois":{"American Indian / Alaska Native":0.08,"Asian":0.37,"Black or African American":0.4,"Hispanic":1.89,"Pacific Islander":0,"Two or More Races":2.53,"White (non-Hispanic)":94.48},"Fulton County, Illinois":{"American Indian / Alaska Native":0.37,"Asian":0.27,"Black or African American":2.46,"Hispanic":2.43,"Pacific Islander":0,"Two or More Races":2.21,"White (non-Hispanic)":92.13},"Gallatin County, Illinois":{"American Indian / Alaska Native":0.35,"Asian":0.27,"Black or African American":0.68,"Hispanic":0.78,"Pacific Islander":0,"Two or More Races":2.61,"White (non-Hispanic)":95.31},"Greene County, Illinois":{"American Indian / Alaska Native":0.06,"Asian":0.34,"Black or African American":0.68,"Hispanic":1.01,"Pacific Islander":0.02,"Two or More Races":1.82,"White (non-Hispanic)":95.99},"Grundy County, Illinois":{"American Indian / Alaska Native":0.07,"Asian":0.44,"Black or African American":2.12,"Hispanic":11.49,"Pacific Islander":0,"Two or More Races":2.46,"White (non-Hispanic)":83.33},"Hamilton County, Illinois":{"American Indian / Alaska Native":0.05,"Asian":0.87,"Black or African American":0.05,"Hispanic":1.34,"Pacific Islander":0.46,"Two or More Races":2.07,"White (non-Hispanic)":94.91},"Hancock County, Illinois":{"American Indian / Alaska Native":0.06,"Asian":0.33,"Black or African American":0.76,"Hispanic":2.02,"Pacific Islander":0.02,"Two or More Races":2.19,"White (non-Hispanic)":94.56},"Hardin County, Illinois":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":1.19,"Hispanic":1.16,"Pacific Islander":0,"Two or More Races":1.85,"White (non-Hispanic)":95.58},"Henderson County, Illinois":{"American Indian / Alaska Native":0.19,"Asian":0.03,"Black or African American":0.25,"Hispanic":1.94,"Pacific Islander":0,"Two or More Races":2.98,"White (non-Hispanic)":94.1},"Henry County, Illinois":{"American Indian / Alaska Native":0.01,"Asian":0.39,"Black or African American":2.05,"Hispanic":6.71,"Pacific Islander":0.02,"Two or More Races":3.04,"White (non-Hispanic)":87.28},"Iroquois County, Illinois":{"American Indian / Alaska Native":0.07,"Asian":0.37,"Black or African American":0.68,"Hispanic":7.97,"Pacific Islander":0,"Two or More Races":2.86,"White (non-Hispanic)":87.83},"Jackson County, Illinois":{"American Indian / Alaska Native":0.17,"Asian":3.6,"Black or African American":14.34,"Hispanic":5.26,"Pacific Islander":0.06,"Two or More Races":3.62,"White (non-Hispanic)":72.19},"Jasper County, Illinois":{"American Indian / Alaska Native":0,"Asian":0.15,"Black or African American":0.11,"Hispanic":1.15,"Pacific Islander":0.03,"Two or More Races":1.53,"White (non-Hispanic)":97.03},"Jefferson County, Illinois":{"American Indian / Alaska Native":0.16,"Asian":0.93,"Black or African American":6.18,"Hispanic":2.72,"Pacific Islander":0.02,"Two or More Races":5.51,"White (non-Hispanic)":84.25},"Jersey County, Illinois":{"American Indian / Alaska Native":0.03,"Asian":0.5,"Black or African American":0.58,"Hispanic":1.55,"Pacific Islander":0.11,"Two or More Races":2.19,"White (non-Hispanic)":94.98},"Jo Daviess County, Illinois":{"American Indian / Alaska Native":0.18,"Asian":0.5,"Black or African American":0.83,"Hispanic":4.01,"Pacific Islander":0.06,"Two or More Races":1.89,"White (non-Hispanic)":92.21},"Johnson County, Illinois":{"American Indian / Alaska Native":0,"Asian":0.25,"Black or African American":7.54,"Hispanic":4.25,"Pacific Islander":0,"Two or More Races":6.97,"White (non-Hispanic)":81},"Kane County, Illinois":{"American Indian / Alaska Native":0.05,"Asian":3.91,"Black or African American":4.85,"Hispanic":33.06,"Pacific Islander":0.05,"Two or More Races":2.94,"White (non-Hispanic)":54.7},"Kankakee County, Illinois":{"American Indian / Alaska Native":0.05,"Asian":0.95,"Black or African American":14.58,"Hispanic":12.12,"Pacific Islander":0,"Two or More Races":3.15,"White (non-Hispanic)":68.86},"Kendall County, Illinois":{"American Indian / Alaska Native":0.04,"Asian":3.08,"Black or African American":8.23,"Hispanic":21.68,"Pacific Islander":0,"Two or More Races":3.21,"White (non-Hispanic)":63.38},"Knox County, Illinois":{"American Indian / Alaska Native":0.06,"Asian":1.02,"Black or African American":7.73,"Hispanic":6.27,"Pacific Islander":0,"Two or More Races":3.8,"White (non-Hispanic)":80.85},"Lake County, Illinois":{"American Indian / Alaska Native":0.06,"Asian":8.36,"Black or African American":6.34,"Hispanic":24.41,"Pacific Islander":0.03,"Two or More Races":3.08,"White (non-Hispanic)":57.14},"LaSalle County, Illinois":{"American Indian / Alaska Native":0.01,"Asian":0.85,"Black or African American":2.64,"Hispanic":10.83,"Pacific Islander":0,"Two or More Races":2.44,"White (non-Hispanic)":83.03},"Lawrence County, Illinois":{"American Indian / Alaska Native":0.22,"Asian":0.49,"Black or African American":6.74,"Hispanic":2.33,"Pacific Islander":0,"Two or More Races":5.73,"White (non-Hispanic)":84.43},"Lee County, Illinois":{"American Indian / Alaska Native":0.03,"Asian":0.53,"Black or African American":5.36,"Hispanic":7.17,"Pacific Islander":0,"Two or More Races":2.49,"White (non-Hispanic)":84.35},"Livingston County, Illinois":{"American Indian / Alaska Native":0.01,"Asian":0.46,"Black or African American":3.48,"Hispanic":5.54,"Pacific Islander":0,"Two or More Races":2.23,"White (non-Hispanic)":88.24},"Logan County, Illinois":{"American Indian / Alaska Native":0.06,"Asian":0.41,"Black or African American":5.93,"Hispanic":3.32,"Pacific Islander":0,"Two or More Races":3.75,"White (non-Hispanic)":86.48},"Macon County, Illinois":{"American Indian / Alaska Native":0.01,"Asian":1.39,"Black or African American":17.02,"Hispanic":2.75,"Pacific Islander":0.06,"Two or More Races":4.5,"White (non-Hispanic)":73.94},"Macoupin County, Illinois":{"American Indian / Alaska Native":0.06,"Asian":0.36,"Black or African American":1.2,"Hispanic":1.32,"Pacific Islander":0.01,"Two or More Races":2.6,"White (non-Hispanic)":94.28},"Madison County, Illinois":{"American Indian / Alaska Native":0.04,"Asian":1.01,"Black or African American":8.55,"Hispanic":4.17,"Pacific Islander":0.02,"Two or More Races":3.66,"White (non-Hispanic)":82.38},"Marion County, Illinois":{"American Indian / Alaska Native":0.02,"Asian":0.67,"Black or African American":4.16,"Hispanic":2.14,"Pacific Islander":0.02,"Two or More Races":2.77,"White (non-Hispanic)":89.58},"Marshall County, Illinois":{"American Indian / Alaska Native":0.01,"Asian":0.11,"Black or African American":0.42,"Hispanic":3.24,"Pacific Islander":0.05,"Two or More Races":3.55,"White (non-Hispanic)":92.37},"Mason County, Illinois":{"American Indian / Alaska Native":0.19,"Asian":0.12,"Black or African American":0.55,"Hispanic":1.47,"Pacific Islander":0,"Two or More Races":2.17,"White (non-Hispanic)":95.5},"Massac County, Illinois":{"American Indian / Alaska Native":0,"Asian":0.38,"Black or African American":6.16,"Hispanic":2.78,"Pacific Islander":0,"Two or More Races":3.83,"White (non-Hispanic)":86.71},"McDonough County, Illinois":{"American Indian / Alaska Native":0.02,"Asian":1.96,"Black or African American":5.73,"Hispanic":3.45,"Pacific Islander":0.03,"Two or More Races":2.67,"White (non-Hispanic)":85.77},"McHenry County, Illinois":{"American Indian / Alaska Native":0.05,"Asian":2.83,"Black or African American":1.45,"Hispanic":15.59,"Pacific Islander":0,"Two or More Races":2.88,"White (non-Hispanic)":76.94},"McLean County, Illinois":{"American Indian / Alaska Native":0.07,"Asian":4.89,"Black or African American":8.29,"Hispanic":6.26,"Pacific Islander":0.01,"Two or More Races":3.17,"White (non-Hispanic)":77.04},"Menard County, Illinois":{"American Indian / Alaska Native":0,"Asian":0.39,"Black or African American":0.46,"Hispanic":1.54,"Pacific Islander":0,"Two or More Races":2.55,"White (non-Hispanic)":95.05},"Mercer County, Illinois":{"American Indian / Alaska Native":0.09,"Asian":0.33,"Black or African American":0.56,"Hispanic":3.29,"Pacific Islander":0,"Two or More Races":2.18,"White (non-Hispanic)":93.51},"Monroe County, Illinois":{"American Indian / Alaska Native":0.05,"Asian":0.47,"Black or African American":0.59,"Hispanic":1.88,"Pacific Islander":0,"Two or More Races":1.45,"White (non-Hispanic)":95.26},"Montgomery County, Illinois":{"American Indian / Alaska Native":0.13,"Asian":0.54,"Black or African American":2.69,"Hispanic":2.13,"Pacific Islander":0.02,"Two or More Races":2.29,"White (non-Hispanic)":92.01},"Morgan County, Illinois":{"American Indian / Alaska Native":0.11,"Asian":0.74,"Black or African American":5.28,"Hispanic":2.78,"Pacific Islander":0,"Two or More Races":3.42,"White (non-Hispanic)":87.6},"Moultrie County, Illinois":{"American Indian / Alaska Native":0,"Asian":0.13,"Black or African American":1.06,"Hispanic":1.58,"Pacific Islander":0,"Two or More Races":1.5,"White (non-Hispanic)":95.67},"Ogle County, Illinois":{"American Indian / Alaska Native":0.06,"Asian":0.44,"Black or African American":1.22,"Hispanic":11.5,"Pacific Islander":0.01,"Two or More Races":2.67,"White (non-Hispanic)":83.75},"Peoria County, Illinois":{"American Indian / Alaska Native":0.07,"Asian":4.47,"Black or African American":17.47,"Hispanic":5.75,"Pacific Islander":0.01,"Two or More Races":4.9,"White (non-Hispanic)":67.04},"Perry County, Illinois":{"American Indian / Alaska Native":0.07,"Asian":0.65,"Black or African American":7.98,"Hispanic":3.51,"Pacific Islander":0,"Two or More Races":2.24,"White (non-Hispanic)":85.46},"Piatt County, Illinois":{"American Indian / Alaska Native":0.01,"Asian":0.19,"Black or African American":1.5,"Hispanic":1.56,"Pacific Islander":0,"Two or More Races":1.46,"White (non-Hispanic)":95.08},"Pike County, Illinois":{"American Indian / Alaska Native":0.03,"Asian":0.33,"Black or African American":0.51,"Hispanic":1.94,"Pacific Islander":0.66,"Two or More Races":1.54,"White (non-Hispanic)":94.95},"Pope County, Illinois":{"American Indian / Alaska Native":0.67,"Asian":0.03,"Black or African American":5.03,"Hispanic":2.56,"Pacific Islander":0,"Two or More Races":2.56,"White (non-Hispanic)":89.17},"Pulaski County, Illinois":{"American Indian / Alaska Native":0,"Asian":0.1,"Black or African American":32.26,"Hispanic":1.93,"Pacific Islander":0,"Two or More Races":3.86,"White (non-Hispanic)":61.69},"Putnam County, Illinois":{"American Indian / Alaska Native":0.02,"Asian":0.64,"Black or African American":0.23,"Hispanic":6.41,"Pacific Islander":0,"Two or More Races":1.71,"White (non-Hispanic)":90.36},"Randolph County, Illinois":{"American Indian / Alaska Native":0.08,"Asian":0.64,"Black or African American":7.87,"Hispanic":3.63,"Pacific Islander":0.05,"Two or More Races":1.76,"White (non-Hispanic)":85.83},"Richland County, Illinois":{"American Indian / Alaska Native":0.05,"Asian":0.27,"Black or African American":0.29,"Hispanic":1.9,"Pacific Islander":0.03,"Two or More Races":2.96,"White (non-Hispanic)":93.65},"Rock Island County, Illinois":{"American Indian / Alaska Native":0.08,"Asian":2.53,"Black or African American":10.41,"Hispanic":14,"Pacific Islander":0.03,"Two or More Races":4.22,"White (non-Hispanic)":68.49},"Saline County, Illinois":{"American Indian / Alaska Native":0.09,"Asian":0.74,"Black or African American":2.8,"Hispanic":2.08,"Pacific Islander":0.05,"Two or More Races":2.53,"White (non-Hispanic)":91.66},"Sangamon County, Illinois":{"American Indian / Alaska Native":0.05,"Asian":2.11,"Black or African American":12.47,"Hispanic":2.79,"Pacific Islander":0.02,"Two or More Races":4,"White (non-Hispanic)":78.1},"Schuyler County, Illinois":{"American Indian / Alaska Native":0,"Asian":0.66,"Black or African American":4.44,"Hispanic":2.48,"Pacific Islander":0,"Two or More Races":1.77,"White (non-Hispanic)":90.65},"Scott County, Illinois":{"American Indian / Alaska Native":0.08,"Asian":0.43,"Black or African American":1.05,"Hispanic":1.46,"Pacific Islander":0,"Two or More Races":1.3,"White (non-Hispanic)":95.67},"Shelby County, Illinois":{"American Indian / Alaska Native":0.41,"Asian":0.29,"Black or African American":0.12,"Hispanic":1.15,"Pacific Islander":0.05,"Two or More Races":1.57,"White (non-Hispanic)":96.3},"St. Clair County, Illinois":{"American Indian / Alaska Native":0.22,"Asian":1.54,"Black or African American":27.81,"Hispanic":4.95,"Pacific Islander":0.02,"Two or More Races":5.49,"White (non-Hispanic)":59.47},"Stark County, Illinois":{"American Indian / Alaska Native":0.08,"Asian":0.68,"Black or African American":1.03,"Hispanic":2.52,"Pacific Islander":0,"Two or More Races":3.44,"White (non-Hispanic)":92.26},"Stephenson County, Illinois":{"American Indian / Alaska Native":0.05,"Asian":0.81,"Black or African American":8.43,"Hispanic":5.3,"Pacific Islander":0,"Two or More Races":5.32,"White (non-Hispanic)":79.96},"Tazewell County, Illinois":{"American Indian / Alaska Native":0.1,"Asian":1.02,"Black or African American":1.39,"Hispanic":2.57,"Pacific Islander":0.01,"Two or More Races":2.21,"White (non-Hispanic)":92.57},"Union County, Illinois":{"American Indian / Alaska Native":0.1,"Asian":0.44,"Black or African American":0.78,"Hispanic":5.2,"Pacific Islander":0.07,"Two or More Races":3.28,"White (non-Hispanic)":90.13},"Vermilion County, Illinois":{"American Indian / Alaska Native":0.07,"Asian":0.86,"Black or African American":14.75,"Hispanic":5.42,"Pacific Islander":0,"Two or More Races":1.64,"White (non-Hispanic)":77.14},"Wabash County, Illinois":{"American Indian / Alaska Native":0.04,"Asian":1.25,"Black or African American":0.96,"Hispanic":1.86,"Pacific Islander":0,"Two or More Races":2.13,"White (non-Hispanic)":93.75},"Warren County, Illinois":{"American Indian / Alaska Native":0.14,"Asian":2.41,"Black or African American":2.79,"Hispanic":10.8,"Pacific Islander":0.11,"Two or More Races":1.9,"White (non-Hispanic)":81.71},"Washington County, Illinois":{"American Indian / Alaska Native":0.1,"Asian":0.18,"Black or African American":0.48,"Hispanic":1.58,"Pacific Islander":0,"Two or More Races":2.59,"White (non-Hispanic)":95.05},"Wayne County, Illinois":{"American Indian / Alaska Native":0,"Asian":0.54,"Black or African American":0.22,"Hispanic":1.62,"Pacific Islander":0,"Two or More Races":1.86,"White (non-Hispanic)":95.73},"White County, Illinois":{"American Indian / Alaska Native":0.02,"Asian":0.22,"Black or African American":0.66,"Hispanic":1.5,"Pacific Islander":0.02,"Two or More Races":1.71,"White (non-Hispanic)":95.78},"Whiteside County, Illinois":{"American Indian / Alaska Native":0.06,"Asian":0.48,"Black or African American":1.02,"Hispanic":13.07,"Pacific Islander":0.01,"Two or More Races":3.05,"White (non-Hispanic)":82.15},"Will County, Illinois":{"American Indian / Alaska Native":0.05,"Asian":5.99,"Black or African American":11.52,"Hispanic":19.3,"Pacific Islander":0.01,"Two or More Races":3.07,"White (non-Hispanic)":59.78},"Williamson County, Illinois":{"American Indian / Alaska Native":0.28,"Asian":1.47,"Black or African American":3.46,"Hispanic":2.81,"Pacific Islander":0,"Two or More Races":3.6,"White (non-Hispanic)":88.23},"Winnebago County, Illinois":{"American Indian / Alaska Native":0.04,"Asian":2.83,"Black or African American":12.93,"Hispanic":14.99,"Pacific Islander":0.03,"Two or More Races":4.13,"White (non-Hispanic)":64.78},"Woodford County, Illinois":{"American Indian / Alaska Native":0.03,"Asian":0.48,"Black or African American":0.63,"Hispanic":1.99,"Pacific Islander":0,"Two or More Races":2.63,"White (non-Hispanic)":94.04}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 37</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Alamance County, North Carolina">Alamance County, North Carolina</option>
+<option value="Alexander County, North Carolina">Alexander County, North Carolina</option>
+<option value="Alleghany County, North Carolina">Alleghany County, North Carolina</option>
+<option value="Anson County, North Carolina">Anson County, North Carolina</option>
+<option value="Ashe County, North Carolina">Ashe County, North Carolina</option>
+<option value="Avery County, North Carolina">Avery County, North Carolina</option>
+<option value="Beaufort County, North Carolina">Beaufort County, North Carolina</option>
+<option value="Bertie County, North Carolina">Bertie County, North Carolina</option>
+<option value="Bladen County, North Carolina">Bladen County, North Carolina</option>
+<option value="Brunswick County, North Carolina">Brunswick County, North Carolina</option>
+<option value="Buncombe County, North Carolina">Buncombe County, North Carolina</option>
+<option value="Burke County, North Carolina">Burke County, North Carolina</option>
+<option value="Cabarrus County, North Carolina">Cabarrus County, North Carolina</option>
+<option value="Caldwell County, North Carolina">Caldwell County, North Carolina</option>
+<option value="Camden County, North Carolina">Camden County, North Carolina</option>
+<option value="Carteret County, North Carolina">Carteret County, North Carolina</option>
+<option value="Caswell County, North Carolina">Caswell County, North Carolina</option>
+<option value="Catawba County, North Carolina">Catawba County, North Carolina</option>
+<option value="Chatham County, North Carolina">Chatham County, North Carolina</option>
+<option value="Cherokee County, North Carolina">Cherokee County, North Carolina</option>
+<option value="Chowan County, North Carolina">Chowan County, North Carolina</option>
+<option value="Clay County, North Carolina">Clay County, North Carolina</option>
+<option value="Cleveland County, North Carolina">Cleveland County, North Carolina</option>
+<option value="Columbus County, North Carolina">Columbus County, North Carolina</option>
+<option value="Craven County, North Carolina">Craven County, North Carolina</option>
+<option value="Cumberland County, North Carolina">Cumberland County, North Carolina</option>
+<option value="Currituck County, North Carolina">Currituck County, North Carolina</option>
+<option value="Dare County, North Carolina">Dare County, North Carolina</option>
+<option value="Davidson County, North Carolina">Davidson County, North Carolina</option>
+<option value="Davie County, North Carolina">Davie County, North Carolina</option>
+<option value="Duplin County, North Carolina">Duplin County, North Carolina</option>
+<option value="Durham County, North Carolina">Durham County, North Carolina</option>
+<option value="Edgecombe County, North Carolina">Edgecombe County, North Carolina</option>
+<option value="Forsyth County, North Carolina">Forsyth County, North Carolina</option>
+<option value="Franklin County, North Carolina">Franklin County, North Carolina</option>
+<option value="Gaston County, North Carolina">Gaston County, North Carolina</option>
+<option value="Gates County, North Carolina">Gates County, North Carolina</option>
+<option value="Graham County, North Carolina">Graham County, North Carolina</option>
+<option value="Granville County, North Carolina">Granville County, North Carolina</option>
+<option value="Greene County, North Carolina">Greene County, North Carolina</option>
+<option value="Guilford County, North Carolina">Guilford County, North Carolina</option>
+<option value="Halifax County, North Carolina">Halifax County, North Carolina</option>
+<option value="Harnett County, North Carolina">Harnett County, North Carolina</option>
+<option value="Haywood County, North Carolina">Haywood County, North Carolina</option>
+<option value="Henderson County, North Carolina">Henderson County, North Carolina</option>
+<option value="Hertford County, North Carolina">Hertford County, North Carolina</option>
+<option value="Hoke County, North Carolina">Hoke County, North Carolina</option>
+<option value="Hyde County, North Carolina">Hyde County, North Carolina</option>
+<option value="Iredell County, North Carolina">Iredell County, North Carolina</option>
+<option value="Jackson County, North Carolina">Jackson County, North Carolina</option>
+<option value="Johnston County, North Carolina">Johnston County, North Carolina</option>
+<option value="Jones County, North Carolina">Jones County, North Carolina</option>
+<option value="Lee County, North Carolina">Lee County, North Carolina</option>
+<option value="Lenoir County, North Carolina">Lenoir County, North Carolina</option>
+<option value="Lincoln County, North Carolina">Lincoln County, North Carolina</option>
+<option value="Macon County, North Carolina">Macon County, North Carolina</option>
+<option value="Madison County, North Carolina">Madison County, North Carolina</option>
+<option value="Martin County, North Carolina">Martin County, North Carolina</option>
+<option value="McDowell County, North Carolina">McDowell County, North Carolina</option>
+<option value="Mecklenburg County, North Carolina">Mecklenburg County, North Carolina</option>
+<option value="Mitchell County, North Carolina">Mitchell County, North Carolina</option>
+<option value="Montgomery County, North Carolina">Montgomery County, North Carolina</option>
+<option value="Moore County, North Carolina">Moore County, North Carolina</option>
+<option value="Nash County, North Carolina">Nash County, North Carolina</option>
+<option value="New Hanover County, North Carolina">New Hanover County, North Carolina</option>
+<option value="Northampton County, North Carolina">Northampton County, North Carolina</option>
+<option value="Onslow County, North Carolina">Onslow County, North Carolina</option>
+<option value="Orange County, North Carolina">Orange County, North Carolina</option>
+<option value="Pamlico County, North Carolina">Pamlico County, North Carolina</option>
+<option value="Pasquotank County, North Carolina">Pasquotank County, North Carolina</option>
+<option value="Pender County, North Carolina">Pender County, North Carolina</option>
+<option value="Perquimans County, North Carolina">Perquimans County, North Carolina</option>
+<option value="Person County, North Carolina">Person County, North Carolina</option>
+<option value="Pitt County, North Carolina">Pitt County, North Carolina</option>
+<option value="Polk County, North Carolina">Polk County, North Carolina</option>
+<option value="Randolph County, North Carolina">Randolph County, North Carolina</option>
+<option value="Richmond County, North Carolina">Richmond County, North Carolina</option>
+<option value="Robeson County, North Carolina">Robeson County, North Carolina</option>
+<option value="Rockingham County, North Carolina">Rockingham County, North Carolina</option>
+<option value="Rowan County, North Carolina">Rowan County, North Carolina</option>
+<option value="Rutherford County, North Carolina">Rutherford County, North Carolina</option>
+<option value="Sampson County, North Carolina">Sampson County, North Carolina</option>
+<option value="Scotland County, North Carolina">Scotland County, North Carolina</option>
+<option value="Stanly County, North Carolina">Stanly County, North Carolina</option>
+<option value="Stokes County, North Carolina">Stokes County, North Carolina</option>
+<option value="Surry County, North Carolina">Surry County, North Carolina</option>
+<option value="Swain County, North Carolina">Swain County, North Carolina</option>
+<option value="Transylvania County, North Carolina">Transylvania County, North Carolina</option>
+<option value="Tyrrell County, North Carolina">Tyrrell County, North Carolina</option>
+<option value="Union County, North Carolina">Union County, North Carolina</option>
+<option value="Vance County, North Carolina">Vance County, North Carolina</option>
+<option value="Wake County, North Carolina">Wake County, North Carolina</option>
+<option value="Warren County, North Carolina">Warren County, North Carolina</option>
+<option value="Washington County, North Carolina">Washington County, North Carolina</option>
+<option value="Watauga County, North Carolina">Watauga County, North Carolina</option>
+<option value="Wayne County, North Carolina">Wayne County, North Carolina</option>
+<option value="Wilkes County, North Carolina">Wilkes County, North Carolina</option>
+<option value="Wilson County, North Carolina">Wilson County, North Carolina</option>
+<option value="Yadkin County, North Carolina">Yadkin County, North Carolina</option>
+<option value="Yancey County, North Carolina">Yancey County, North Carolina</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.85,"Asian":3.12,"Black or African American":20.29,"Hispanic":10.95,"Pacific Islander":0.05,"Two or More Races":3.66,"White (non-Hispanic)":60.65},"Alamance County, North Carolina":{"American Indian / Alaska Native":0.15,"Asian":1.66,"Black or African American":19.65,"Hispanic":14.76,"Pacific Islander":0.03,"Two or More Races":3.67,"White (non-Hispanic)":59.52},"Alexander County, North Carolina":{"American Indian / Alaska Native":0.01,"Asian":1.08,"Black or African American":4.03,"Hispanic":5.35,"Pacific Islander":0,"Two or More Races":3.67,"White (non-Hispanic)":85.79},"Alleghany County, North Carolina":{"American Indian / Alaska Native":0.19,"Asian":0.77,"Black or African American":1.36,"Hispanic":11.46,"Pacific Islander":0,"Two or More Races":2.28,"White (non-Hispanic)":83.95},"Anson County, North Carolina":{"American Indian / Alaska Native":0.2,"Asian":1.55,"Black or African American":46.67,"Hispanic":3.65,"Pacific Islander":0.01,"Two or More Races":3.33,"White (non-Hispanic)":44.44},"Ashe County, North Carolina":{"American Indian / Alaska Native":0.23,"Asian":0.37,"Black or African American":0.99,"Hispanic":5.85,"Pacific Islander":0,"Two or More Races":1.22,"White (non-Hispanic)":91.2},"Avery County, North Carolina":{"American Indian / Alaska Native":0.24,"Asian":0.43,"Black or African American":4.21,"Hispanic":5.7,"Pacific Islander":0.12,"Two or More Races":2.22,"White (non-Hispanic)":87.03},"Beaufort County, North Carolina":{"American Indian / Alaska Native":0.09,"Asian":0.23,"Black or African American":22.74,"Hispanic":7.81,"Pacific Islander":0.02,"Two or More Races":2.71,"White (non-Hispanic)":66.21},"Bertie County, North Carolina":{"American Indian / Alaska Native":0.32,"Asian":0.78,"Black or African American":60,"Hispanic":2.17,"Pacific Islander":0.01,"Two or More Races":2.31,"White (non-Hispanic)":34.29},"Bladen County, North Carolina":{"American Indian / Alaska Native":2.5,"Asian":0.21,"Black or African American":33.05,"Hispanic":8.96,"Pacific Islander":0,"Two or More Races":1.33,"White (non-Hispanic)":53.76},"Brunswick County, North Carolina":{"American Indian / Alaska Native":0.24,"Asian":0.62,"Black or African American":8.02,"Hispanic":5.51,"Pacific Islander":0.03,"Two or More Races":4.24,"White (non-Hispanic)":81.11},"Buncombe County, North Carolina":{"American Indian / Alaska Native":0.11,"Asian":1.15,"Black or African American":5.39,"Hispanic":8.26,"Pacific Islander":0.03,"Two or More Races":3.45,"White (non-Hispanic)":81.23},"Burke County, North Carolina":{"American Indian / Alaska Native":0.09,"Asian":3.35,"Black or African American":5.94,"Hispanic":8.23,"Pacific Islander":0.04,"Two or More Races":2.55,"White (non-Hispanic)":79.35},"Cabarrus County, North Carolina":{"American Indian / Alaska Native":0.03,"Asian":5.37,"Black or African American":18.48,"Hispanic":12.37,"Pacific Islander":0.03,"Two or More Races":4.25,"White (non-Hispanic)":58.74},"Caldwell County, North Carolina":{"American Indian / Alaska Native":0.09,"Asian":0.5,"Black or African American":4.09,"Hispanic":6.4,"Pacific Islander":0.1,"Two or More Races":3.1,"White (non-Hispanic)":85.67},"Camden County, North Carolina":{"American Indian / Alaska Native":0.27,"Asian":0.72,"Black or African American":8.29,"Hispanic":3.9,"Pacific Islander":0.23,"Two or More Races":7.07,"White (non-Hispanic)":78.73},"Carteret County, North Carolina":{"American Indian / Alaska Native":0.25,"Asian":0.88,"Black or African American":4.19,"Hispanic":4.7,"Pacific Islander":0.02,"Two or More Races":4.14,"White (non-Hispanic)":85.48},"Caswell County, North Carolina":{"American Indian / Alaska Native":0.08,"Asian":0.43,"Black or African American":31.46,"Hispanic":4.86,"Pacific Islander":0,"Two or More Races":3.43,"White (non-Hispanic)":59.69},"Catawba County, North Carolina":{"American Indian / Alaska Native":0.08,"Asian":4.12,"Black or African American":7.93,"Hispanic":11.08,"Pacific Islander":0.02,"Two or More Races":3.95,"White (non-Hispanic)":72.56},"Chatham County, North Carolina":{"American Indian / Alaska Native":0.11,"Asian":2.03,"Black or African American":10.29,"Hispanic":13.43,"Pacific Islander":0,"Two or More Races":3.74,"White (non-Hispanic)":69.8},"Cherokee County, North Carolina":{"American Indian / Alaska Native":1.56,"Asian":0.53,"Black or African American":1.54,"Hispanic":3.49,"Pacific Islander":0,"Two or More Races":2.57,"White (non-Hispanic)":90.1},"Chowan County, North Carolina":{"American Indian / Alaska Native":0.1,"Asian":0.07,"Black or African American":32.91,"Hispanic":3.87,"Pacific Islander":0,"Two or More Races":2.87,"White (non-Hispanic)":60.03},"Clay County, North Carolina":{"American Indian / Alaska Native":0.9,"Asian":0.77,"Black or African American":1.77,"Hispanic":3.94,"Pacific Islander":0,"Two or More Races":1.2,"White (non-Hispanic)":90.82},"Cleveland County, North Carolina":{"American Indian / Alaska Native":0.22,"Asian":0.91,"Black or African American":18.35,"Hispanic":4.42,"Pacific Islander":0.07,"Two or More Races":4.78,"White (non-Hispanic)":71.01},"Columbus County, North Carolina":{"American Indian / Alaska Native":2.96,"Asian":0.42,"Black or African American":28.6,"Hispanic":5.48,"Pacific Islander":0.04,"Two or More Races":3.36,"White (non-Hispanic)":58.99},"Craven County, North Carolina":{"American Indian / Alaska Native":0.18,"Asian":2.74,"Black or African American":20.14,"Hispanic":7.44,"Pacific Islander":0.18,"Two or More Races":3.77,"White (non-Hispanic)":64.7},"Cumberland County, North Carolina":{"American Indian / Alaska Native":0.99,"Asian":2.56,"Black or African American":36.4,"Hispanic":12.37,"Pacific Islander":0.34,"Two or More Races":5.81,"White (non-Hispanic)":40.59},"Currituck County, North Carolina":{"American Indian / Alaska Native":0.17,"Asian":0.96,"Black or African American":5.1,"Hispanic":4.88,"Pacific Islander":0,"Two or More Races":3.34,"White (non-Hispanic)":84.4},"Dare County, North Carolina":{"American Indian / Alaska Native":0.12,"Asian":0.46,"Black or African American":2.8,"Hispanic":7.1,"Pacific Islander":0.06,"Two or More Races":2.77,"White (non-Hispanic)":86.04},"Davidson County, North Carolina":{"American Indian / Alaska Native":0.12,"Asian":1.52,"Black or African American":9.16,"Hispanic":8.55,"Pacific Islander":0.01,"Two or More Races":3.54,"White (non-Hispanic)":76.82},"Davie County, North Carolina":{"American Indian / Alaska Native":0.34,"Asian":0.71,"Black or African American":3.98,"Hispanic":8.03,"Pacific Islander":0,"Two or More Races":4.17,"White (non-Hispanic)":82.47},"Duplin County, North Carolina":{"American Indian / Alaska Native":0.12,"Asian":0.61,"Black or African American":22.7,"Hispanic":22.7,"Pacific Islander":0.05,"Two or More Races":2.87,"White (non-Hispanic)":50.77},"Durham County, North Carolina":{"American Indian / Alaska Native":0.22,"Asian":5.15,"Black or African American":32.82,"Hispanic":15.27,"Pacific Islander":0.04,"Two or More Races":4.21,"White (non-Hispanic)":41.93},"Edgecombe County, North Carolina":{"American Indian / Alaska Native":0.3,"Asian":0.22,"Black or African American":55.8,"Hispanic":5.82,"Pacific Islander":0.11,"Two or More Races":2.47,"White (non-Hispanic)":35.17},"Forsyth County, North Carolina":{"American Indian / Alaska Native":0.16,"Asian":2.32,"Black or African American":24.94,"Hispanic":14.62,"Pacific Islander":0.06,"Two or More Races":3.23,"White (non-Hispanic)":54.18},"Franklin County, North Carolina":{"American Indian / Alaska Native":0.22,"Asian":0.81,"Black or African American":22.86,"Hispanic":10.61,"Pacific Islander":0,"Two or More Races":4.05,"White (non-Hispanic)":61.12},"Gaston County, North Carolina":{"American Indian / Alaska Native":0.17,"Asian":1.59,"Black or African American":17.34,"Hispanic":9.3,"Pacific Islander":0.04,"Two or More Races":3.42,"White (non-Hispanic)":67.79},"Gates County, North Carolina":{"American Indian / Alaska Native":0.45,"Asian":0,"Black or African American":31.11,"Hispanic":2.1,"Pacific Islander":0,"Two or More Races":2.96,"White (non-Hispanic)":63.38},"Graham County, North Carolina":{"American Indian / Alaska Native":8.36,"Asian":1.12,"Black or African American":0.7,"Hispanic":2.93,"Pacific Islander":0,"Two or More Races":1.33,"White (non-Hispanic)":85.15},"Granville County, North Carolina":{"American Indian / Alaska Native":0.28,"Asian":0.59,"Black or African American":29.08,"Hispanic":10.65,"Pacific Islander":0.34,"Two or More Races":3.24,"White (non-Hispanic)":55.29},"Greene County, North Carolina":{"American Indian / Alaska Native":0.48,"Asian":0.02,"Black or African American":31.73,"Hispanic":15.07,"Pacific Islander":0.05,"Two or More Races":6.64,"White (non-Hispanic)":45.91},"Guilford County, North Carolina":{"American Indian / Alaska Native":0.18,"Asian":5.16,"Black or African American":33.54,"Hispanic":9.8,"Pacific Islander":0.01,"Two or More Races":3.82,"White (non-Hispanic)":46.84},"Halifax County, North Carolina":{"American Indian / Alaska Native":2.88,"Asian":0.92,"Black or African American":51.71,"Hispanic":3.23,"Pacific Islander":0.02,"Two or More Races":4.37,"White (non-Hispanic)":36.71},"Harnett County, North Carolina":{"American Indian / Alaska Native":0.57,"Asian":0.94,"Black or African American":20.32,"Hispanic":14.63,"Pacific Islander":0.17,"Two or More Races":3.93,"White (non-Hispanic)":58.95},"Haywood County, North Carolina":{"American Indian / Alaska Native":0.46,"Asian":0.38,"Black or African American":0.97,"Hispanic":4.73,"Pacific Islander":0,"Two or More Races":2.44,"White (non-Hispanic)":90.9},"Henderson County, North Carolina":{"American Indian / Alaska Native":0.26,"Asian":1.24,"Black or African American":2.9,"Hispanic":12.81,"Pacific Islander":0.12,"Two or More Races":2.34,"White (non-Hispanic)":79.85},"Hertford County, North Carolina":{"American Indian / Alaska Native":1.04,"Asian":1.03,"Black or African American":56.43,"Hispanic":6.48,"Pacific Islander":0.11,"Two or More Races":2.37,"White (non-Hispanic)":32.32},"Hoke County, North Carolina":{"American Indian / Alaska Native":6.81,"Asian":1.4,"Black or African American":32.49,"Hispanic":15.26,"Pacific Islander":0.01,"Two or More Races":6.35,"White (non-Hispanic)":36.6},"Hyde County, North Carolina":{"American Indian / Alaska Native":1.15,"Asian":0,"Black or African American":24.84,"Hispanic":7.74,"Pacific Islander":0,"Two or More Races":5.71,"White (non-Hispanic)":60.56},"Iredell County, North Carolina":{"American Indian / Alaska Native":0.1,"Asian":2.52,"Black or African American":11.31,"Hispanic":8.86,"Pacific Islander":0.01,"Two or More Races":3.14,"White (non-Hispanic)":73.51},"Jackson County, North Carolina":{"American Indian / Alaska Native":7.04,"Asian":1.18,"Black or African American":2.23,"Hispanic":7.68,"Pacific Islander":0.01,"Two or More Races":2.99,"White (non-Hispanic)":78.6},"Johnston County, North Carolina":{"American Indian / Alaska Native":0.27,"Asian":0.79,"Black or African American":16.51,"Hispanic":16.24,"Pacific Islander":0.03,"Two or More Races":3.04,"White (non-Hispanic)":62.69},"Jones County, North Carolina":{"American Indian / Alaska Native":0.59,"Asian":0.72,"Black or African American":27.26,"Hispanic":4.77,"Pacific Islander":0,"Two or More Races":3.55,"White (non-Hispanic)":63.1},"Lee County, North Carolina":{"American Indian / Alaska Native":0.09,"Asian":1.07,"Black or African American":17.48,"Hispanic":21.05,"Pacific Islander":0,"Two or More Races":3.85,"White (non-Hispanic)":56.37},"Lenoir County, North Carolina":{"American Indian / Alaska Native":0.13,"Asian":0.78,"Black or African American":39.37,"Hispanic":8.41,"Pacific Islander":0.09,"Two or More Races":2.92,"White (non-Hispanic)":48.01},"Lincoln County, North Carolina":{"American Indian / Alaska Native":0.17,"Asian":0.78,"Black or African American":5.79,"Hispanic":7.82,"Pacific Islander":0.01,"Two or More Races":2.37,"White (non-Hispanic)":82.84},"Macon County, North Carolina":{"American Indian / Alaska Native":0.22,"Asian":0.84,"Black or African American":1.15,"Hispanic":9.68,"Pacific Islander":0,"Two or More Races":2.24,"White (non-Hispanic)":85.71},"Madison County, North Carolina":{"American Indian / Alaska Native":0.07,"Asian":0.43,"Black or African American":0.99,"Hispanic":3.51,"Pacific Islander":0.09,"Two or More Races":2.56,"White (non-Hispanic)":91.58},"Martin County, North Carolina":{"American Indian / Alaska Native":0.07,"Asian":0.57,"Black or African American":40.94,"Hispanic":4.31,"Pacific Islander":0.11,"Two or More Races":2.71,"White (non-Hispanic)":51.3},"McDowell County, North Carolina":{"American Indian / Alaska Native":0.35,"Asian":1.08,"Black or African American":3.86,"Hispanic":6.78,"Pacific Islander":0,"Two or More Races":1.6,"White (non-Hispanic)":86.33},"Mecklenburg County, North Carolina":{"American Indian / Alaska Native":0.15,"Asian":6.09,"Black or African American":30.12,"Hispanic":15.44,"Pacific Islander":0.04,"Two or More Races":3.83,"White (non-Hispanic)":43.88},"Mitchell County, North Carolina":{"American Indian / Alaska Native":0.35,"Asian":0.42,"Black or African American":0.79,"Hispanic":5.28,"Pacific Islander":0,"Two or More Races":1.51,"White (non-Hispanic)":91.5},"Montgomery County, North Carolina":{"American Indian / Alaska Native":0.41,"Asian":1.56,"Black or African American":16.36,"Hispanic":15.46,"Pacific Islander":0,"Two or More Races":3.01,"White (non-Hispanic)":62.85},"Moore County, North Carolina":{"American Indian / Alaska Native":0.42,"Asian":1.24,"Black or African American":9.57,"Hispanic":7.58,"Pacific Islander":0.15,"Two or More Races":4.72,"White (non-Hispanic)":75.91},"Nash County, North Carolina":{"American Indian / Alaska Native":0.48,"Asian":0.81,"Black or African American":40.51,"Hispanic":7.94,"Pacific Islander":0.01,"Two or More Races":2.78,"White (non-Hispanic)":46.89},"New Hanover County, North Carolina":{"American Indian / Alaska Native":0.16,"Asian":1.37,"Black or African American":11.11,"Hispanic":7.64,"Pacific Islander":0.02,"Two or More Races":4.02,"White (non-Hispanic)":75.1},"Northampton County, North Carolina":{"American Indian / Alaska Native":0.2,"Asian":0.12,"Black or African American":54.18,"Hispanic":2.31,"Pacific Islander":0,"Two or More Races":3.88,"White (non-Hispanic)":38.97},"Onslow County, North Carolina":{"American Indian / Alaska Native":0.61,"Asian":1.75,"Black or African American":11.93,"Hispanic":13.78,"Pacific Islander":0.12,"Two or More Races":6.87,"White (non-Hispanic)":64.81},"Orange County, North Carolina":{"American Indian / Alaska Native":0.25,"Asian":7.85,"Black or African American":10.22,"Hispanic":10.55,"Pacific Islander":0.03,"Two or More Races":3.87,"White (non-Hispanic)":66.8},"Pamlico County, North Carolina":{"American Indian / Alaska Native":0.15,"Asian":0.6,"Black or African American":18.46,"Hispanic":4.6,"Pacific Islander":0,"Two or More Races":2.17,"White (non-Hispanic)":73.99},"Pasquotank County, North Carolina":{"American Indian / Alaska Native":0.16,"Asian":1.23,"Black or African American":34.64,"Hispanic":5.88,"Pacific Islander":0.08,"Two or More Races":3.78,"White (non-Hispanic)":53.72},"Pender County, North Carolina":{"American Indian / Alaska Native":0.22,"Asian":0.6,"Black or African American":12.35,"Hispanic":8.51,"Pacific Islander":0.05,"Two or More Races":3.88,"White (non-Hispanic)":73.85},"Perquimans County, North Carolina":{"American Indian / Alaska Native":0.01,"Asian":0.81,"Black or African American":21.76,"Hispanic":2.97,"Pacific Islander":0.02,"Two or More Races":4.54,"White (non-Hispanic)":69.83},"Person County, North Carolina":{"American Indian / Alaska Native":0.12,"Asian":0.43,"Black or African American":25.46,"Hispanic":5.86,"Pacific Islander":0.01,"Two or More Races":3.3,"White (non-Hispanic)":64.76},"Pitt County, North Carolina":{"American Indian / Alaska Native":0.12,"Asian":1.77,"Black or African American":34.9,"Hispanic":7.7,"Pacific Islander":0.04,"Two or More Races":3.23,"White (non-Hispanic)":51.95},"Polk County, North Carolina":{"American Indian / Alaska Native":0.17,"Asian":0.1,"Black or African American":5.09,"Hispanic":5.46,"Pacific Islander":0,"Two or More Races":1.78,"White (non-Hispanic)":87.15},"Randolph County, North Carolina":{"American Indian / Alaska Native":0.11,"Asian":1.1,"Black or African American":5.91,"Hispanic":13.57,"Pacific Islander":0.01,"Two or More Races":3.23,"White (non-Hispanic)":75.89},"Richmond County, North Carolina":{"American Indian / Alaska Native":2.06,"Asian":0.8,"Black or African American":31.68,"Hispanic":7.52,"Pacific Islander":0,"Two or More Races":2.56,"White (non-Hispanic)":55.12},"Robeson County, North Carolina":{"American Indian / Alaska Native":39.09,"Asian":0.77,"Black or African American":23.2,"Hispanic":10.45,"Pacific Islander":0.04,"Two or More Races":2.56,"White (non-Hispanic)":23.6},"Rockingham County, North Carolina":{"American Indian / Alaska Native":0.16,"Asian":0.19,"Black or African American":17.45,"Hispanic":6.89,"Pacific Islander":0.15,"Two or More Races":4.11,"White (non-Hispanic)":70.51},"Rowan County, North Carolina":{"American Indian / Alaska Native":0.1,"Asian":0.97,"Black or African American":15.42,"Hispanic":11.3,"Pacific Islander":0.08,"Two or More Races":3.38,"White (non-Hispanic)":68.48},"Rutherford County, North Carolina":{"American Indian / Alaska Native":0.16,"Asian":0.53,"Black or African American":8.08,"Hispanic":5.45,"Pacific Islander":0.05,"Two or More Races":3.88,"White (non-Hispanic)":81.15},"Sampson County, North Carolina":{"American Indian / Alaska Native":1.75,"Asian":0.49,"Black or African American":24.8,"Hispanic":21.27,"Pacific Islander":0,"Two or More Races":1.75,"White (non-Hispanic)":49.6},"Scotland County, North Carolina":{"American Indian / Alaska Native":11.11,"Asian":1.01,"Black or African American":37.74,"Hispanic":3.7,"Pacific Islander":0,"Two or More Races":4.97,"White (non-Hispanic)":40.6},"Stanly County, North Carolina":{"American Indian / Alaska Native":0.02,"Asian":1.9,"Black or African American":10.97,"Hispanic":5.26,"Pacific Islander":0.31,"Two or More Races":2.5,"White (non-Hispanic)":79},"Stokes County, North Carolina":{"American Indian / Alaska Native":0.2,"Asian":0.04,"Black or African American":3.44,"Hispanic":3.61,"Pacific Islander":0,"Two or More Races":2.81,"White (non-Hispanic)":89.58},"Surry County, North Carolina":{"American Indian / Alaska Native":0.1,"Asian":0.64,"Black or African American":3.49,"Hispanic":12.15,"Pacific Islander":0.05,"Two or More Races":1.82,"White (non-Hispanic)":81.58},"Swain County, North Carolina":{"American Indian / Alaska Native":28.23,"Asian":0.4,"Black or African American":1.51,"Hispanic":5.1,"Pacific Islander":0,"Two or More Races":4.38,"White (non-Hispanic)":60.34},"Transylvania County, North Carolina":{"American Indian / Alaska Native":0.12,"Asian":0.54,"Black or African American":3.73,"Hispanic":4.92,"Pacific Islander":0,"Two or More Races":2.12,"White (non-Hispanic)":88.24},"Tyrrell County, North Carolina":{"American Indian / Alaska Native":0.18,"Asian":0.86,"Black or African American":32.49,"Hispanic":9.98,"Pacific Islander":0,"Two or More Races":1.81,"White (non-Hispanic)":54.32},"Union County, North Carolina":{"American Indian / Alaska Native":0.14,"Asian":4.08,"Black or African American":10.94,"Hispanic":12.93,"Pacific Islander":0.02,"Two or More Races":3.48,"White (non-Hispanic)":67.99},"Vance County, North Carolina":{"American Indian / Alaska Native":0.11,"Asian":0.64,"Black or African American":48.9,"Hispanic":9.1,"Pacific Islander":0,"Two or More Races":3.63,"White (non-Hispanic)":37.62},"Wake County, North Carolina":{"American Indian / Alaska Native":0.18,"Asian":8.08,"Black or African American":18.92,"Hispanic":11.39,"Pacific Islander":0.03,"Two or More Races":3.78,"White (non-Hispanic)":57.04},"Warren County, North Carolina":{"American Indian / Alaska Native":5,"Asian":0.66,"Black or African American":47.06,"Hispanic":4.43,"Pacific Islander":0.04,"Two or More Races":4.67,"White (non-Hispanic)":37.68},"Washington County, North Carolina":{"American Indian / Alaska Native":0.05,"Asian":0,"Black or African American":48.87,"Hispanic":3.91,"Pacific Islander":0,"Two or More Races":2.55,"White (non-Hispanic)":44.63},"Watauga County, North Carolina":{"American Indian / Alaska Native":0.21,"Asian":1.18,"Black or African American":1.63,"Hispanic":6.05,"Pacific Islander":0,"Two or More Races":1.96,"White (non-Hispanic)":88.9},"Wayne County, North Carolina":{"American Indian / Alaska Native":0.09,"Asian":1.14,"Black or African American":30.24,"Hispanic":13.18,"Pacific Islander":0.09,"Two or More Races":4.02,"White (non-Hispanic)":51.05},"Wilkes County, North Carolina":{"American Indian / Alaska Native":0.2,"Asian":0.58,"Black or African American":3.73,"Hispanic":7.25,"Pacific Islander":0.12,"Two or More Races":2.02,"White (non-Hispanic)":86.06},"Wilson County, North Carolina":{"American Indian / Alaska Native":0.2,"Asian":1.02,"Black or African American":39.09,"Hispanic":11.89,"Pacific Islander":0,"Two or More Races":2.44,"White (non-Hispanic)":44.77},"Yadkin County, North Carolina":{"American Indian / Alaska Native":0.07,"Asian":0.08,"Black or African American":2.77,"Hispanic":12.05,"Pacific Islander":0,"Two or More Races":2.22,"White (non-Hispanic)":82.11},"Yancey County, North Carolina":{"American Indian / Alaska Native":0.12,"Asian":0.41,"Black or African American":0.56,"Hispanic":5.63,"Pacific Islander":0,"Two or More Races":1.95,"White (non-Hispanic)":91.3}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

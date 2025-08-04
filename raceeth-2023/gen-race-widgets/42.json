@@ -1,0 +1,2249 @@
+{
+  "state": "Adams County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7187
+        },
+        {
+          "label": "Asian",
+          "value": 476888
+        },
+        {
+          "label": "Black or African American",
+          "value": 1339554
+        },
+        {
+          "label": "Hispanic",
+          "value": 1087732
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2816
+        },
+        {
+          "label": "Two or More Races",
+          "value": 429210
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9585453
+        }
+      ]
+    },
+    "Adams County, Pennsylvania": {
+      "label": "Adams County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 906
+        },
+        {
+          "label": "Black or African American",
+          "value": 1727
+        },
+        {
+          "label": "Hispanic",
+          "value": 7919
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2187
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 92050
+        }
+      ]
+    },
+    "Allegheny County, Pennsylvania": {
+      "label": "Allegheny County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 692
+        },
+        {
+          "label": "Asian",
+          "value": 51073
+        },
+        {
+          "label": "Black or African American",
+          "value": 153668
+        },
+        {
+          "label": "Hispanic",
+          "value": 34884
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 129
+        },
+        {
+          "label": "Two or More Races",
+          "value": 49466
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 944583
+        }
+      ]
+    },
+    "Armstrong County, Pennsylvania": {
+      "label": "Armstrong County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 251
+        },
+        {
+          "label": "Black or African American",
+          "value": 627
+        },
+        {
+          "label": "Hispanic",
+          "value": 580
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1414
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 62165
+        }
+      ]
+    },
+    "Beaver County, Pennsylvania": {
+      "label": "Beaver County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 78
+        },
+        {
+          "label": "Asian",
+          "value": 753
+        },
+        {
+          "label": "Black or African American",
+          "value": 10236
+        },
+        {
+          "label": "Hispanic",
+          "value": 3781
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6518
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 145311
+        }
+      ]
+    },
+    "Bedford County, Pennsylvania": {
+      "label": "Bedford County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 36
+        },
+        {
+          "label": "Asian",
+          "value": 198
+        },
+        {
+          "label": "Black or African American",
+          "value": 364
+        },
+        {
+          "label": "Hispanic",
+          "value": 567
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 725
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 45546
+        }
+      ]
+    },
+    "Berks County, Pennsylvania": {
+      "label": "Berks County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 284
+        },
+        {
+          "label": "Asian",
+          "value": 5531
+        },
+        {
+          "label": "Black or African American",
+          "value": 16986
+        },
+        {
+          "label": "Hispanic",
+          "value": 103077
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 77
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10810
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 291378
+        }
+      ]
+    },
+    "Blair County, Pennsylvania": {
+      "label": "Blair County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 80
+        },
+        {
+          "label": "Asian",
+          "value": 712
+        },
+        {
+          "label": "Black or African American",
+          "value": 2053
+        },
+        {
+          "label": "Hispanic",
+          "value": 1781
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4223
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 112799
+        }
+      ]
+    },
+    "Bradford County, Pennsylvania": {
+      "label": "Bradford County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 368
+        },
+        {
+          "label": "Black or African American",
+          "value": 549
+        },
+        {
+          "label": "Hispanic",
+          "value": 942
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 30
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1073
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 56707
+        }
+      ]
+    },
+    "Bucks County, Pennsylvania": {
+      "label": "Bucks County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 220
+        },
+        {
+          "label": "Asian",
+          "value": 31645
+        },
+        {
+          "label": "Black or African American",
+          "value": 23017
+        },
+        {
+          "label": "Hispanic",
+          "value": 40952
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 82
+        },
+        {
+          "label": "Two or More Races",
+          "value": 23504
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 522180
+        }
+      ]
+    },
+    "Butler County, Pennsylvania": {
+      "label": "Butler County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 38
+        },
+        {
+          "label": "Asian",
+          "value": 2664
+        },
+        {
+          "label": "Black or African American",
+          "value": 2006
+        },
+        {
+          "label": "Hispanic",
+          "value": 3799
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 19
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4605
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 182173
+        }
+      ]
+    },
+    "Cambria County, Pennsylvania": {
+      "label": "Cambria County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 65
+        },
+        {
+          "label": "Asian",
+          "value": 601
+        },
+        {
+          "label": "Black or African American",
+          "value": 3866
+        },
+        {
+          "label": "Hispanic",
+          "value": 2646
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4728
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 120233
+        }
+      ]
+    },
+    "Cameron County, Pennsylvania": {
+      "label": "Cameron County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 23
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 83
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 195
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4163
+        }
+      ]
+    },
+    "Carbon County, Pennsylvania": {
+      "label": "Carbon County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 52
+        },
+        {
+          "label": "Asian",
+          "value": 317
+        },
+        {
+          "label": "Black or African American",
+          "value": 1193
+        },
+        {
+          "label": "Hispanic",
+          "value": 4154
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1466
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 57866
+        }
+      ]
+    },
+    "Centre County, Pennsylvania": {
+      "label": "Centre County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 178
+        },
+        {
+          "label": "Asian",
+          "value": 9500
+        },
+        {
+          "label": "Black or African American",
+          "value": 5073
+        },
+        {
+          "label": "Hispanic",
+          "value": 5630
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 49
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5268
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 131999
+        }
+      ]
+    },
+    "Chester County, Pennsylvania": {
+      "label": "Chester County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 128
+        },
+        {
+          "label": "Asian",
+          "value": 34462
+        },
+        {
+          "label": "Black or African American",
+          "value": 26638
+        },
+        {
+          "label": "Hispanic",
+          "value": 44329
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 123
+        },
+        {
+          "label": "Two or More Races",
+          "value": 20741
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 412488
+        }
+      ]
+    },
+    "Clarion County, Pennsylvania": {
+      "label": "Clarion County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 168
+        },
+        {
+          "label": "Black or African American",
+          "value": 634
+        },
+        {
+          "label": "Hispanic",
+          "value": 414
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 766
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 35266
+        }
+      ]
+    },
+    "Clearfield County, Pennsylvania": {
+      "label": "Clearfield County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 436
+        },
+        {
+          "label": "Black or African American",
+          "value": 1571
+        },
+        {
+          "label": "Hispanic",
+          "value": 2271
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 13
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1503
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 72939
+        }
+      ]
+    },
+    "Clinton County, Pennsylvania": {
+      "label": "Clinton County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 262
+        },
+        {
+          "label": "Black or African American",
+          "value": 524
+        },
+        {
+          "label": "Hispanic",
+          "value": 690
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 745
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 35397
+        }
+      ]
+    },
+    "Columbia County, Pennsylvania": {
+      "label": "Columbia County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 32
+        },
+        {
+          "label": "Asian",
+          "value": 658
+        },
+        {
+          "label": "Black or African American",
+          "value": 1148
+        },
+        {
+          "label": "Hispanic",
+          "value": 2393
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 212
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1141
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 59223
+        }
+      ]
+    },
+    "Crawford County, Pennsylvania": {
+      "label": "Crawford County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 32
+        },
+        {
+          "label": "Asian",
+          "value": 455
+        },
+        {
+          "label": "Black or African American",
+          "value": 1308
+        },
+        {
+          "label": "Hispanic",
+          "value": 1269
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2059
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 77677
+        }
+      ]
+    },
+    "Cumberland County, Pennsylvania": {
+      "label": "Cumberland County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 56
+        },
+        {
+          "label": "Asian",
+          "value": 13770
+        },
+        {
+          "label": "Black or African American",
+          "value": 10792
+        },
+        {
+          "label": "Hispanic",
+          "value": 12913
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9241
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 216597
+        }
+      ]
+    },
+    "Dauphin County, Pennsylvania": {
+      "label": "Dauphin County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 241
+        },
+        {
+          "label": "Asian",
+          "value": 17588
+        },
+        {
+          "label": "Black or African American",
+          "value": 47982
+        },
+        {
+          "label": "Hispanic",
+          "value": 32425
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 40
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10385
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 177455
+        }
+      ]
+    },
+    "Delaware County, Pennsylvania": {
+      "label": "Delaware County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 271
+        },
+        {
+          "label": "Asian",
+          "value": 35324
+        },
+        {
+          "label": "Black or African American",
+          "value": 125246
+        },
+        {
+          "label": "Hispanic",
+          "value": 27733
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 170
+        },
+        {
+          "label": "Two or More Races",
+          "value": 19925
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 364839
+        }
+      ]
+    },
+    "Elk County, Pennsylvania": {
+      "label": "Elk County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6
+        },
+        {
+          "label": "Asian",
+          "value": 126
+        },
+        {
+          "label": "Black or African American",
+          "value": 257
+        },
+        {
+          "label": "Hispanic",
+          "value": 306
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 919
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29089
+        }
+      ]
+    },
+    "Erie County, Pennsylvania": {
+      "label": "Erie County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 228
+        },
+        {
+          "label": "Asian",
+          "value": 5295
+        },
+        {
+          "label": "Black or African American",
+          "value": 17848
+        },
+        {
+          "label": "Hispanic",
+          "value": 12487
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 49
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10672
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 221949
+        }
+      ]
+    },
+    "Fayette County, Pennsylvania": {
+      "label": "Fayette County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 42
+        },
+        {
+          "label": "Asian",
+          "value": 576
+        },
+        {
+          "label": "Black or African American",
+          "value": 5083
+        },
+        {
+          "label": "Hispanic",
+          "value": 1707
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 78
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5273
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 113795
+        }
+      ]
+    },
+    "Forest County, Pennsylvania": {
+      "label": "Forest County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 25
+        },
+        {
+          "label": "Asian",
+          "value": 42
+        },
+        {
+          "label": "Black or African American",
+          "value": 931
+        },
+        {
+          "label": "Hispanic",
+          "value": 338
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 132
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5313
+        }
+      ]
+    },
+    "Franklin County, Pennsylvania": {
+      "label": "Franklin County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 46
+        },
+        {
+          "label": "Asian",
+          "value": 1471
+        },
+        {
+          "label": "Black or African American",
+          "value": 4875
+        },
+        {
+          "label": "Hispanic",
+          "value": 11218
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5405
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 133129
+        }
+      ]
+    },
+    "Fulton County, Pennsylvania": {
+      "label": "Fulton County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 32
+        },
+        {
+          "label": "Black or African American",
+          "value": 198
+        },
+        {
+          "label": "Hispanic",
+          "value": 181
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 315
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13624
+        }
+      ]
+    },
+    "Greene County, Pennsylvania": {
+      "label": "Greene County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 71
+        },
+        {
+          "label": "Black or African American",
+          "value": 922
+        },
+        {
+          "label": "Hispanic",
+          "value": 546
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1327
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32320
+        }
+      ]
+    },
+    "Huntingdon County, Pennsylvania": {
+      "label": "Huntingdon County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 37
+        },
+        {
+          "label": "Asian",
+          "value": 216
+        },
+        {
+          "label": "Black or African American",
+          "value": 2098
+        },
+        {
+          "label": "Hispanic",
+          "value": 885
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1306
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 39252
+        }
+      ]
+    },
+    "Indiana County, Pennsylvania": {
+      "label": "Indiana County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 661
+        },
+        {
+          "label": "Black or African American",
+          "value": 1941
+        },
+        {
+          "label": "Hispanic",
+          "value": 1482
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2508
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 76494
+        }
+      ]
+    },
+    "Jefferson County, Pennsylvania": {
+      "label": "Jefferson County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 109
+        },
+        {
+          "label": "Black or African American",
+          "value": 189
+        },
+        {
+          "label": "Hispanic",
+          "value": 433
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 869
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 42358
+        }
+      ]
+    },
+    "Juniata County, Pennsylvania": {
+      "label": "Juniata County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2
+        },
+        {
+          "label": "Asian",
+          "value": 111
+        },
+        {
+          "label": "Black or African American",
+          "value": 246
+        },
+        {
+          "label": "Hispanic",
+          "value": 932
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 407
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 21655
+        }
+      ]
+    },
+    "Lackawanna County, Pennsylvania": {
+      "label": "Lackawanna County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 113
+        },
+        {
+          "label": "Asian",
+          "value": 6365
+        },
+        {
+          "label": "Black or African American",
+          "value": 6284
+        },
+        {
+          "label": "Hispanic",
+          "value": 19782
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 71
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7209
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 174964
+        }
+      ]
+    },
+    "Lancaster County, Pennsylvania": {
+      "label": "Lancaster County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 253
+        },
+        {
+          "label": "Asian",
+          "value": 13012
+        },
+        {
+          "label": "Black or African American",
+          "value": 18912
+        },
+        {
+          "label": "Hispanic",
+          "value": 62574
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 67
+        },
+        {
+          "label": "Two or More Races",
+          "value": 14781
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 442954
+        }
+      ]
+    },
+    "Lawrence County, Pennsylvania": {
+      "label": "Lawrence County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 231
+        },
+        {
+          "label": "Black or African American",
+          "value": 3107
+        },
+        {
+          "label": "Hispanic",
+          "value": 1756
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3364
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 76593
+        }
+      ]
+    },
+    "Lebanon County, Pennsylvania": {
+      "label": "Lebanon County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 37
+        },
+        {
+          "label": "Asian",
+          "value": 2192
+        },
+        {
+          "label": "Black or African American",
+          "value": 2594
+        },
+        {
+          "label": "Hispanic",
+          "value": 21113
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3249
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 113909
+        }
+      ]
+    },
+    "Lehigh County, Pennsylvania": {
+      "label": "Lehigh County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 208
+        },
+        {
+          "label": "Asian",
+          "value": 13035
+        },
+        {
+          "label": "Black or African American",
+          "value": 22525
+        },
+        {
+          "label": "Hispanic",
+          "value": 101194
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 133
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9657
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 226834
+        }
+      ]
+    },
+    "Luzerne County, Pennsylvania": {
+      "label": "Luzerne County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 74
+        },
+        {
+          "label": "Asian",
+          "value": 3580
+        },
+        {
+          "label": "Black or African American",
+          "value": 13279
+        },
+        {
+          "label": "Hispanic",
+          "value": 51917
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 349
+        },
+        {
+          "label": "Two or More Races",
+          "value": 8547
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 247469
+        }
+      ]
+    },
+    "Lycoming County, Pennsylvania": {
+      "label": "Lycoming County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 130
+        },
+        {
+          "label": "Asian",
+          "value": 988
+        },
+        {
+          "label": "Black or African American",
+          "value": 4764
+        },
+        {
+          "label": "Hispanic",
+          "value": 2562
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 35
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4323
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 100609
+        }
+      ]
+    },
+    "McKean County, Pennsylvania": {
+      "label": "McKean County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 194
+        },
+        {
+          "label": "Black or African American",
+          "value": 868
+        },
+        {
+          "label": "Hispanic",
+          "value": 731
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1060
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 37127
+        }
+      ]
+    },
+    "Mercer County, Pennsylvania": {
+      "label": "Mercer County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 76
+        },
+        {
+          "label": "Asian",
+          "value": 673
+        },
+        {
+          "label": "Black or African American",
+          "value": 6015
+        },
+        {
+          "label": "Hispanic",
+          "value": 1751
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 20
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3654
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 97305
+        }
+      ]
+    },
+    "Mifflin County, Pennsylvania": {
+      "label": "Mifflin County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 63
+        },
+        {
+          "label": "Asian",
+          "value": 128
+        },
+        {
+          "label": "Black or African American",
+          "value": 329
+        },
+        {
+          "label": "Hispanic",
+          "value": 1001
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 43
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1281
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 43173
+        }
+      ]
+    },
+    "Monroe County, Pennsylvania": {
+      "label": "Monroe County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 164
+        },
+        {
+          "label": "Asian",
+          "value": 4238
+        },
+        {
+          "label": "Black or African American",
+          "value": 21849
+        },
+        {
+          "label": "Hispanic",
+          "value": 29702
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6851
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 102633
+        }
+      ]
+    },
+    "Montgomery County, Pennsylvania": {
+      "label": "Montgomery County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 179
+        },
+        {
+          "label": "Asian",
+          "value": 67082
+        },
+        {
+          "label": "Black or African American",
+          "value": 78360
+        },
+        {
+          "label": "Hispanic",
+          "value": 55791
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 224
+        },
+        {
+          "label": "Two or More Races",
+          "value": 31962
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 623261
+        }
+      ]
+    },
+    "Montour County, Pennsylvania": {
+      "label": "Montour County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 631
+        },
+        {
+          "label": "Black or African American",
+          "value": 430
+        },
+        {
+          "label": "Hispanic",
+          "value": 531
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 233
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16194
+        }
+      ]
+    },
+    "Northampton County, Pennsylvania": {
+      "label": "Northampton County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 42
+        },
+        {
+          "label": "Asian",
+          "value": 9597
+        },
+        {
+          "label": "Black or African American",
+          "value": 16807
+        },
+        {
+          "label": "Hispanic",
+          "value": 47075
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9715
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 230785
+        }
+      ]
+    },
+    "Northumberland County, Pennsylvania": {
+      "label": "Northumberland County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 406
+        },
+        {
+          "label": "Black or African American",
+          "value": 2224
+        },
+        {
+          "label": "Hispanic",
+          "value": 4412
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2096
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 81353
+        }
+      ]
+    },
+    "Perry County, Pennsylvania": {
+      "label": "Perry County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 36
+        },
+        {
+          "label": "Asian",
+          "value": 117
+        },
+        {
+          "label": "Black or African American",
+          "value": 349
+        },
+        {
+          "label": "Hispanic",
+          "value": 1045
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 10
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1222
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 43173
+        }
+      ]
+    },
+    "Philadelphia County, Pennsylvania": {
+      "label": "Philadelphia County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2162
+        },
+        {
+          "label": "Asian",
+          "value": 122016
+        },
+        {
+          "label": "Black or African American",
+          "value": 614807
+        },
+        {
+          "label": "Hispanic",
+          "value": 240543
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 325
+        },
+        {
+          "label": "Two or More Races",
+          "value": 60340
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 531413
+        }
+      ]
+    },
+    "Pike County, Pennsylvania": {
+      "label": "Pike County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 25
+        },
+        {
+          "label": "Asian",
+          "value": 865
+        },
+        {
+          "label": "Black or African American",
+          "value": 3251
+        },
+        {
+          "label": "Hispanic",
+          "value": 7177
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1934
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 46342
+        }
+      ]
+    },
+    "Potter County, Pennsylvania": {
+      "label": "Potter County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 14
+        },
+        {
+          "label": "Asian",
+          "value": 75
+        },
+        {
+          "label": "Black or African American",
+          "value": 69
+        },
+        {
+          "label": "Hispanic",
+          "value": 272
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 380
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 15439
+        }
+      ]
+    },
+    "Schuylkill County, Pennsylvania": {
+      "label": "Schuylkill County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 30
+        },
+        {
+          "label": "Asian",
+          "value": 611
+        },
+        {
+          "label": "Black or African American",
+          "value": 3745
+        },
+        {
+          "label": "Hispanic",
+          "value": 9744
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3405
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 125559
+        }
+      ]
+    },
+    "Snyder County, Pennsylvania": {
+      "label": "Snyder County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 219
+        },
+        {
+          "label": "Black or African American",
+          "value": 307
+        },
+        {
+          "label": "Hispanic",
+          "value": 990
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 93
+        },
+        {
+          "label": "Two or More Races",
+          "value": 601
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 37431
+        }
+      ]
+    },
+    "Somerset County, Pennsylvania": {
+      "label": "Somerset County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 62
+        },
+        {
+          "label": "Asian",
+          "value": 349
+        },
+        {
+          "label": "Black or African American",
+          "value": 1387
+        },
+        {
+          "label": "Hispanic",
+          "value": 1096
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1536
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 68699
+        }
+      ]
+    },
+    "Sullivan County, Pennsylvania": {
+      "label": "Sullivan County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 127
+        },
+        {
+          "label": "Hispanic",
+          "value": 117
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 104
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5485
+        }
+      ]
+    },
+    "Susquehanna County, Pennsylvania": {
+      "label": "Susquehanna County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3
+        },
+        {
+          "label": "Asian",
+          "value": 184
+        },
+        {
+          "label": "Black or African American",
+          "value": 77
+        },
+        {
+          "label": "Hispanic",
+          "value": 875
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 893
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 36251
+        }
+      ]
+    },
+    "Tioga County, Pennsylvania": {
+      "label": "Tioga County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33
+        },
+        {
+          "label": "Asian",
+          "value": 155
+        },
+        {
+          "label": "Black or African American",
+          "value": 340
+        },
+        {
+          "label": "Hispanic",
+          "value": 670
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 699
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 39137
+        }
+      ]
+    },
+    "Union County, Pennsylvania": {
+      "label": "Union County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 51
+        },
+        {
+          "label": "Asian",
+          "value": 703
+        },
+        {
+          "label": "Black or African American",
+          "value": 2455
+        },
+        {
+          "label": "Hispanic",
+          "value": 2093
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 494
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 36667
+        }
+      ]
+    },
+    "Venango County, Pennsylvania": {
+      "label": "Venango County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 10
+        },
+        {
+          "label": "Asian",
+          "value": 170
+        },
+        {
+          "label": "Black or African American",
+          "value": 532
+        },
+        {
+          "label": "Hispanic",
+          "value": 587
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1352
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 47095
+        }
+      ]
+    },
+    "Warren County, Pennsylvania": {
+      "label": "Warren County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 162
+        },
+        {
+          "label": "Black or African American",
+          "value": 292
+        },
+        {
+          "label": "Hispanic",
+          "value": 453
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 16
+        },
+        {
+          "label": "Two or More Races",
+          "value": 976
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 36210
+        }
+      ]
+    },
+    "Washington County, Pennsylvania": {
+      "label": "Washington County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 2528
+        },
+        {
+          "label": "Black or African American",
+          "value": 6488
+        },
+        {
+          "label": "Hispanic",
+          "value": 4115
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 64
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6868
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 189092
+        }
+      ]
+    },
+    "Wayne County, Pennsylvania": {
+      "label": "Wayne County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 25
+        },
+        {
+          "label": "Asian",
+          "value": 347
+        },
+        {
+          "label": "Black or African American",
+          "value": 1473
+        },
+        {
+          "label": "Hispanic",
+          "value": 2528
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 27
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1438
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 45199
+        }
+      ]
+    },
+    "Westmoreland County, Pennsylvania": {
+      "label": "Westmoreland County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 67
+        },
+        {
+          "label": "Asian",
+          "value": 3229
+        },
+        {
+          "label": "Black or African American",
+          "value": 8578
+        },
+        {
+          "label": "Hispanic",
+          "value": 5402
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 51
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10282
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 325058
+        }
+      ]
+    },
+    "Wyoming County, Pennsylvania": {
+      "label": "Wyoming County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 64
+        },
+        {
+          "label": "Black or African American",
+          "value": 191
+        },
+        {
+          "label": "Hispanic",
+          "value": 612
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 772
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 24423
+        }
+      ]
+    },
+    "York County, Pennsylvania": {
+      "label": "York County, Pennsylvania",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 195
+        },
+        {
+          "label": "Asian",
+          "value": 6367
+        },
+        {
+          "label": "Black or African American",
+          "value": 24941
+        },
+        {
+          "label": "Hispanic",
+          "value": 41774
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 99
+        },
+        {
+          "label": "Two or More Races",
+          "value": 16111
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 367605
+        }
+      ]
+    }
+  }
+}

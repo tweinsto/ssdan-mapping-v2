@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 24</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Allegany County, Maryland">Allegany County, Maryland</option>
+<option value="Anne Arundel County, Maryland">Anne Arundel County, Maryland</option>
+<option value="Baltimore city, Maryland">Baltimore city, Maryland</option>
+<option value="Baltimore County, Maryland">Baltimore County, Maryland</option>
+<option value="Calvert County, Maryland">Calvert County, Maryland</option>
+<option value="Caroline County, Maryland">Caroline County, Maryland</option>
+<option value="Carroll County, Maryland">Carroll County, Maryland</option>
+<option value="Cecil County, Maryland">Cecil County, Maryland</option>
+<option value="Charles County, Maryland">Charles County, Maryland</option>
+<option value="Dorchester County, Maryland">Dorchester County, Maryland</option>
+<option value="Frederick County, Maryland">Frederick County, Maryland</option>
+<option value="Garrett County, Maryland">Garrett County, Maryland</option>
+<option value="Harford County, Maryland">Harford County, Maryland</option>
+<option value="Howard County, Maryland">Howard County, Maryland</option>
+<option value="Kent County, Maryland">Kent County, Maryland</option>
+<option value="Montgomery County, Maryland">Montgomery County, Maryland</option>
+<option value="Prince George's County, Maryland">Prince George's County, Maryland</option>
+<option value="Queen Anne's County, Maryland">Queen Anne's County, Maryland</option>
+<option value="Somerset County, Maryland">Somerset County, Maryland</option>
+<option value="St. Mary's County, Maryland">St. Mary's County, Maryland</option>
+<option value="Talbot County, Maryland">Talbot County, Maryland</option>
+<option value="Washington County, Maryland">Washington County, Maryland</option>
+<option value="Wicomico County, Maryland">Wicomico County, Maryland</option>
+<option value="Worcester County, Maryland">Worcester County, Maryland</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.12,"Asian":6.41,"Black or African American":29.16,"Hispanic":12.06,"Pacific Islander":0.03,"Two or More Races":4.25,"White (non-Hispanic)":47.38},"Allegany County, Maryland":{"American Indian / Alaska Native":0.06,"Asian":0.94,"Black or African American":7.04,"Hispanic":1.86,"Pacific Islander":0.01,"Two or More Races":3.22,"White (non-Hispanic)":86.44},"Anne Arundel County, Maryland":{"American Indian / Alaska Native":0.1,"Asian":4.04,"Black or African American":17.42,"Hispanic":10.02,"Pacific Islander":0.04,"Two or More Races":5.19,"White (non-Hispanic)":62.7},"Baltimore city, Maryland":{"American Indian / Alaska Native":0.17,"Asian":2.49,"Black or African American":59.29,"Hispanic":7.87,"Pacific Islander":0.03,"Two or More Races":3.4,"White (non-Hispanic)":26.17},"Baltimore County, Maryland":{"American Indian / Alaska Native":0.12,"Asian":5.99,"Black or African American":29.85,"Hispanic":7.42,"Pacific Islander":0.03,"Two or More Races":3.77,"White (non-Hispanic)":52.33},"Calvert County, Maryland":{"American Indian / Alaska Native":0.14,"Asian":1.82,"Black or African American":12.17,"Hispanic":4.93,"Pacific Islander":0.06,"Two or More Races":5.98,"White (non-Hispanic)":74.3},"Caroline County, Maryland":{"American Indian / Alaska Native":0.03,"Asian":0.76,"Black or African American":13.24,"Hispanic":8.77,"Pacific Islander":0,"Two or More Races":3.79,"White (non-Hispanic)":72.8},"Carroll County, Maryland":{"American Indian / Alaska Native":0.08,"Asian":2.32,"Black or African American":3.88,"Hispanic":4.78,"Pacific Islander":0.01,"Two or More Races":2.77,"White (non-Hispanic)":85.6},"Cecil County, Maryland":{"American Indian / Alaska Native":0.09,"Asian":1.28,"Black or African American":6.87,"Hispanic":5.38,"Pacific Islander":0.03,"Two or More Races":4.53,"White (non-Hispanic)":81.38},"Charles County, Maryland":{"American Indian / Alaska Native":0.28,"Asian":3.21,"Black or African American":48.46,"Hispanic":7.5,"Pacific Islander":0.04,"Two or More Races":6.49,"White (non-Hispanic)":33.48},"Dorchester County, Maryland":{"American Indian / Alaska Native":0,"Asian":1.35,"Black or African American":25.31,"Hispanic":5.85,"Pacific Islander":0,"Two or More Races":5.88,"White (non-Hispanic)":61.01},"Frederick County, Maryland":{"American Indian / Alaska Native":0.11,"Asian":5.38,"Black or African American":9.93,"Hispanic":12.33,"Pacific Islander":0.04,"Two or More Races":4.61,"White (non-Hispanic)":67.28},"Garrett County, Maryland":{"American Indian / Alaska Native":0.17,"Asian":0.5,"Black or African American":0.76,"Hispanic":1.31,"Pacific Islander":0,"Two or More Races":1.69,"White (non-Hispanic)":95.12},"Harford County, Maryland":{"American Indian / Alaska Native":0.02,"Asian":2.91,"Black or African American":14.32,"Hispanic":5.56,"Pacific Islander":0.04,"Two or More Races":4.03,"White (non-Hispanic)":72.46},"Howard County, Maryland":{"American Indian / Alaska Native":0.11,"Asian":18.81,"Black or African American":19.64,"Hispanic":8.42,"Pacific Islander":0.04,"Two or More Races":5.41,"White (non-Hispanic)":46.97},"Kent County, Maryland":{"American Indian / Alaska Native":0.02,"Asian":0.99,"Black or African American":14.2,"Hispanic":5.57,"Pacific Islander":0.01,"Two or More Races":2.71,"White (non-Hispanic)":76.14},"Montgomery County, Maryland":{"American Indian / Alaska Native":0.11,"Asian":15.08,"Black or African American":18.3,"Hispanic":20.63,"Pacific Islander":0.04,"Two or More Races":4.49,"White (non-Hispanic)":40.45},"Prince George's County, Maryland":{"American Indian / Alaska Native":0.17,"Asian":3.9,"Black or African American":59,"Hispanic":21.73,"Pacific Islander":0.03,"Two or More Races":3.45,"White (non-Hispanic)":11.1},"Queen Anne's County, Maryland":{"American Indian / Alaska Native":0,"Asian":1.03,"Black or African American":5.97,"Hispanic":5.26,"Pacific Islander":0,"Two or More Races":4.05,"White (non-Hispanic)":83.12},"Somerset County, Maryland":{"American Indian / Alaska Native":0.11,"Asian":0.58,"Black or African American":37.85,"Hispanic":4.45,"Pacific Islander":0,"Two or More Races":5.41,"White (non-Hispanic)":51.19},"St. Mary's County, Maryland":{"American Indian / Alaska Native":0.06,"Asian":2.54,"Black or African American":14.64,"Hispanic":5.95,"Pacific Islander":0,"Two or More Races":5.55,"White (non-Hispanic)":70.96},"Talbot County, Maryland":{"American Indian / Alaska Native":0.17,"Asian":1.26,"Black or African American":11.99,"Hispanic":9.1,"Pacific Islander":0,"Two or More Races":2.81,"White (non-Hispanic)":74.15},"Washington County, Maryland":{"American Indian / Alaska Native":0.08,"Asian":1.65,"Black or African American":11.28,"Hispanic":7.3,"Pacific Islander":0.07,"Two or More Races":4.83,"White (non-Hispanic)":74.53},"Wicomico County, Maryland":{"American Indian / Alaska Native":0.06,"Asian":2.6,"Black or African American":26.21,"Hispanic":6.92,"Pacific Islander":0.03,"Two or More Races":4.85,"White (non-Hispanic)":59.11},"Worcester County, Maryland":{"American Indian / Alaska Native":0.05,"Asian":1.36,"Black or African American":12.01,"Hispanic":3.92,"Pacific Islander":0,"Two or More Races":3.61,"White (non-Hispanic)":78.48}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

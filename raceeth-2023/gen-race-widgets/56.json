@@ -1,0 +1,797 @@
+{
+  "state": "Albany County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9809
+        },
+        {
+          "label": "Asian",
+          "value": 4626
+        },
+        {
+          "label": "Black or African American",
+          "value": 4723
+        },
+        {
+          "label": "Hispanic",
+          "value": 60581
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 379
+        },
+        {
+          "label": "Two or More Races",
+          "value": 20245
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 476179
+        }
+      ]
+    },
+    "Albany County, Wyoming": {
+      "label": "Albany County, Wyoming",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 117
+        },
+        {
+          "label": "Asian",
+          "value": 1396
+        },
+        {
+          "label": "Black or African American",
+          "value": 391
+        },
+        {
+          "label": "Hispanic",
+          "value": 3971
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 45
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1441
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30294
+        }
+      ]
+    },
+    "Big Horn County, Wyoming": {
+      "label": "Big Horn County, Wyoming",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 46
+        },
+        {
+          "label": "Asian",
+          "value": 90
+        },
+        {
+          "label": "Black or African American",
+          "value": 61
+        },
+        {
+          "label": "Hispanic",
+          "value": 1122
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 38
+        },
+        {
+          "label": "Two or More Races",
+          "value": 312
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10049
+        }
+      ]
+    },
+    "Campbell County, Wyoming": {
+      "label": "Campbell County, Wyoming",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 359
+        },
+        {
+          "label": "Asian",
+          "value": 79
+        },
+        {
+          "label": "Black or African American",
+          "value": 164
+        },
+        {
+          "label": "Hispanic",
+          "value": 4408
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1899
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 40041
+        }
+      ]
+    },
+    "Carbon County, Wyoming": {
+      "label": "Carbon County, Wyoming",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 114
+        },
+        {
+          "label": "Asian",
+          "value": 102
+        },
+        {
+          "label": "Black or African American",
+          "value": 193
+        },
+        {
+          "label": "Hispanic",
+          "value": 2620
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 398
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11104
+        }
+      ]
+    },
+    "Converse County, Wyoming": {
+      "label": "Converse County, Wyoming",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 32
+        },
+        {
+          "label": "Hispanic",
+          "value": 1111
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 465
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12135
+        }
+      ]
+    },
+    "Crook County, Wyoming": {
+      "label": "Crook County, Wyoming",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 40
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 145
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 287
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6844
+        }
+      ]
+    },
+    "Fremont County, Wyoming": {
+      "label": "Fremont County, Wyoming",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7027
+        },
+        {
+          "label": "Asian",
+          "value": 173
+        },
+        {
+          "label": "Black or African American",
+          "value": 210
+        },
+        {
+          "label": "Hispanic",
+          "value": 2659
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 34
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1799
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 27506
+        }
+      ]
+    },
+    "Goshen County, Wyoming": {
+      "label": "Goshen County, Wyoming",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 101
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 87
+        },
+        {
+          "label": "Hispanic",
+          "value": 1272
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 53
+        },
+        {
+          "label": "Two or More Races",
+          "value": 320
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10704
+        }
+      ]
+    },
+    "Hot Springs County, Wyoming": {
+      "label": "Hot Springs County, Wyoming",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 47
+        },
+        {
+          "label": "Asian",
+          "value": 11
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 181
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 240
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4107
+        }
+      ]
+    },
+    "Johnson County, Wyoming": {
+      "label": "Johnson County, Wyoming",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 143
+        },
+        {
+          "label": "Asian",
+          "value": 45
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 364
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 245
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7755
+        }
+      ]
+    },
+    "Laramie County, Wyoming": {
+      "label": "Laramie County, Wyoming",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 549
+        },
+        {
+          "label": "Asian",
+          "value": 1031
+        },
+        {
+          "label": "Black or African American",
+          "value": 2112
+        },
+        {
+          "label": "Hispanic",
+          "value": 15755
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 112
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3425
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 76436
+        }
+      ]
+    },
+    "Lincoln County, Wyoming": {
+      "label": "Lincoln County, Wyoming",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 47
+        },
+        {
+          "label": "Asian",
+          "value": 67
+        },
+        {
+          "label": "Black or African American",
+          "value": 6
+        },
+        {
+          "label": "Hispanic",
+          "value": 1054
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 559
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18376
+        }
+      ]
+    },
+    "Natrona County, Wyoming": {
+      "label": "Natrona County, Wyoming",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 310
+        },
+        {
+          "label": "Asian",
+          "value": 444
+        },
+        {
+          "label": "Black or African American",
+          "value": 476
+        },
+        {
+          "label": "Hispanic",
+          "value": 7381
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2916
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 67847
+        }
+      ]
+    },
+    "Niobrara County, Wyoming": {
+      "label": "Niobrara County, Wyoming",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 46
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 34
+        },
+        {
+          "label": "Hispanic",
+          "value": 124
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 17
+        },
+        {
+          "label": "Two or More Races",
+          "value": 43
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2151
+        }
+      ]
+    },
+    "Park County, Wyoming": {
+      "label": "Park County, Wyoming",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 54
+        },
+        {
+          "label": "Asian",
+          "value": 112
+        },
+        {
+          "label": "Black or African American",
+          "value": 104
+        },
+        {
+          "label": "Hispanic",
+          "value": 1782
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1023
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 26586
+        }
+      ]
+    },
+    "Platte County, Wyoming": {
+      "label": "Platte County, Wyoming",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 32
+        },
+        {
+          "label": "Hispanic",
+          "value": 732
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 29
+        },
+        {
+          "label": "Two or More Races",
+          "value": 406
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7368
+        }
+      ]
+    },
+    "Sheridan County, Wyoming": {
+      "label": "Sheridan County, Wyoming",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 348
+        },
+        {
+          "label": "Asian",
+          "value": 320
+        },
+        {
+          "label": "Black or African American",
+          "value": 132
+        },
+        {
+          "label": "Hispanic",
+          "value": 1523
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 759
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28346
+        }
+      ]
+    },
+    "Sublette County, Wyoming": {
+      "label": "Sublette County, Wyoming",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 641
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 197
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7925
+        }
+      ]
+    },
+    "Sweetwater County, Wyoming": {
+      "label": "Sweetwater County, Wyoming",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 269
+        },
+        {
+          "label": "Asian",
+          "value": 263
+        },
+        {
+          "label": "Black or African American",
+          "value": 478
+        },
+        {
+          "label": "Hispanic",
+          "value": 6924
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1269
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32257
+        }
+      ]
+    },
+    "Teton County, Wyoming": {
+      "label": "Teton County, Wyoming",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 42
+        },
+        {
+          "label": "Asian",
+          "value": 330
+        },
+        {
+          "label": "Black or African American",
+          "value": 136
+        },
+        {
+          "label": "Hispanic",
+          "value": 3445
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 772
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18421
+        }
+      ]
+    },
+    "Uinta County, Wyoming": {
+      "label": "Uinta County, Wyoming",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4
+        },
+        {
+          "label": "Asian",
+          "value": 46
+        },
+        {
+          "label": "Black or African American",
+          "value": 53
+        },
+        {
+          "label": "Hispanic",
+          "value": 2042
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 623
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 17837
+        }
+      ]
+    },
+    "Washakie County, Wyoming": {
+      "label": "Washakie County, Wyoming",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 25
+        },
+        {
+          "label": "Black or African American",
+          "value": 14
+        },
+        {
+          "label": "Hispanic",
+          "value": 1087
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 291
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6258
+        }
+      ]
+    },
+    "Weston County, Wyoming": {
+      "label": "Weston County, Wyoming",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 111
+        },
+        {
+          "label": "Asian",
+          "value": 49
+        },
+        {
+          "label": "Black or African American",
+          "value": 4
+        },
+        {
+          "label": "Hispanic",
+          "value": 238
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 39
+        },
+        {
+          "label": "Two or More Races",
+          "value": 556
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5832
+        }
+      ]
+    }
+  }
+}

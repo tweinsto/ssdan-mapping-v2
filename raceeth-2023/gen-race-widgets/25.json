@@ -1,0 +1,500 @@
+{
+  "state": "Barnstable County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5837
+        },
+        {
+          "label": "Asian",
+          "value": 491861
+        },
+        {
+          "label": "Black or African American",
+          "value": 455145
+        },
+        {
+          "label": "Hispanic",
+          "value": 904679
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1964
+        },
+        {
+          "label": "Two or More Races",
+          "value": 313927
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4738848
+        }
+      ]
+    },
+    "Barnstable County, Massachusetts": {
+      "label": "Barnstable County, Massachusetts",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 686
+        },
+        {
+          "label": "Asian",
+          "value": 3523
+        },
+        {
+          "label": "Black or African American",
+          "value": 6211
+        },
+        {
+          "label": "Hispanic",
+          "value": 8178
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 11061
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 197541
+        }
+      ]
+    },
+    "Berkshire County, Massachusetts": {
+      "label": "Berkshire County, Massachusetts",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 92
+        },
+        {
+          "label": "Asian",
+          "value": 2305
+        },
+        {
+          "label": "Black or African American",
+          "value": 2945
+        },
+        {
+          "label": "Hispanic",
+          "value": 7176
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5277
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 109751
+        }
+      ]
+    },
+    "Bristol County, Massachusetts": {
+      "label": "Bristol County, Massachusetts",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 505
+        },
+        {
+          "label": "Asian",
+          "value": 13645
+        },
+        {
+          "label": "Black or African American",
+          "value": 22894
+        },
+        {
+          "label": "Hispanic",
+          "value": 56800
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 43
+        },
+        {
+          "label": "Two or More Races",
+          "value": 31672
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 443459
+        }
+      ]
+    },
+    "Dukes County, Massachusetts": {
+      "label": "Dukes County, Massachusetts",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 229
+        },
+        {
+          "label": "Asian",
+          "value": 288
+        },
+        {
+          "label": "Black or African American",
+          "value": 691
+        },
+        {
+          "label": "Hispanic",
+          "value": 641
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1545
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16828
+        }
+      ]
+    },
+    "Essex County, Massachusetts": {
+      "label": "Essex County, Massachusetts",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 417
+        },
+        {
+          "label": "Asian",
+          "value": 27601
+        },
+        {
+          "label": "Black or African American",
+          "value": 28314
+        },
+        {
+          "label": "Hispanic",
+          "value": 187521
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 200
+        },
+        {
+          "label": "Two or More Races",
+          "value": 25686
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 531979
+        }
+      ]
+    },
+    "Franklin County, Massachusetts": {
+      "label": "Franklin County, Massachusetts",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 21
+        },
+        {
+          "label": "Asian",
+          "value": 1329
+        },
+        {
+          "label": "Black or African American",
+          "value": 933
+        },
+        {
+          "label": "Hispanic",
+          "value": 3691
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 9
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2195
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 62358
+        }
+      ]
+    },
+    "Hampden County, Massachusetts": {
+      "label": "Hampden County, Massachusetts",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 260
+        },
+        {
+          "label": "Asian",
+          "value": 11534
+        },
+        {
+          "label": "Black or African American",
+          "value": 35131
+        },
+        {
+          "label": "Hispanic",
+          "value": 123001
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 29
+        },
+        {
+          "label": "Two or More Races",
+          "value": 13071
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 278624
+        }
+      ]
+    },
+    "Hampshire County, Massachusetts": {
+      "label": "Hampshire County, Massachusetts",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 83
+        },
+        {
+          "label": "Asian",
+          "value": 7826
+        },
+        {
+          "label": "Black or African American",
+          "value": 3449
+        },
+        {
+          "label": "Hispanic",
+          "value": 11259
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 101
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6058
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 127318
+        }
+      ]
+    },
+    "Middlesex County, Massachusetts": {
+      "label": "Middlesex County, Massachusetts",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1127
+        },
+        {
+          "label": "Asian",
+          "value": 213224
+        },
+        {
+          "label": "Black or African American",
+          "value": 78074
+        },
+        {
+          "label": "Hispanic",
+          "value": 145868
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 571
+        },
+        {
+          "label": "Two or More Races",
+          "value": 80652
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1081878
+        }
+      ]
+    },
+    "Nantucket County, Massachusetts": {
+      "label": "Nantucket County, Massachusetts",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 255
+        },
+        {
+          "label": "Black or African American",
+          "value": 1307
+        },
+        {
+          "label": "Hispanic",
+          "value": 2347
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 395
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9884
+        }
+      ]
+    },
+    "Norfolk County, Massachusetts": {
+      "label": "Norfolk County, Massachusetts",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 417
+        },
+        {
+          "label": "Asian",
+          "value": 87086
+        },
+        {
+          "label": "Black or African American",
+          "value": 50218
+        },
+        {
+          "label": "Hispanic",
+          "value": 40130
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 180
+        },
+        {
+          "label": "Two or More Races",
+          "value": 32044
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 507345
+        }
+      ]
+    },
+    "Plymouth County, Massachusetts": {
+      "label": "Plymouth County, Massachusetts",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 360
+        },
+        {
+          "label": "Asian",
+          "value": 8801
+        },
+        {
+          "label": "Black or African American",
+          "value": 44817
+        },
+        {
+          "label": "Hispanic",
+          "value": 25022
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 198
+        },
+        {
+          "label": "Two or More Races",
+          "value": 30880
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 408417
+        }
+      ]
+    },
+    "Suffolk County, Massachusetts": {
+      "label": "Suffolk County, Massachusetts",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 929
+        },
+        {
+          "label": "Asian",
+          "value": 69797
+        },
+        {
+          "label": "Black or African American",
+          "value": 140137
+        },
+        {
+          "label": "Hispanic",
+          "value": 178286
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 411
+        },
+        {
+          "label": "Two or More Races",
+          "value": 38911
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 345199
+        }
+      ]
+    },
+    "Worcester County, Massachusetts": {
+      "label": "Worcester County, Massachusetts",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 711
+        },
+        {
+          "label": "Asian",
+          "value": 44647
+        },
+        {
+          "label": "Black or African American",
+          "value": 40024
+        },
+        {
+          "label": "Hispanic",
+          "value": 114759
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 213
+        },
+        {
+          "label": "Two or More Races",
+          "value": 34480
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 618267
+        }
+      ]
+    }
+  }
+}

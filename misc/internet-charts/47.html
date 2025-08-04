@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Internet Access Over Time –  Tennessee</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>body { font-family: sans-serif; margin: 1rem 2rem; text-align: center; }
+                      h2 { margin-bottom: 0.25rem; font-size: 1.6rem; }
+                      select { padding: 0.4rem; font-size: 1rem; margin: 1rem 0; border-radius: 5px; border: 1px solid #999; }
+                      canvas { width: 100%; max-width: 850px; height: 450px; margin-top: 1rem; }</style>
+</head>
+<html>
+  <body>
+    <h2>Internet Access in  Tennessee (2013–2023)</h2>
+    <label>Select County: </label>
+    <select id="countySelect"><option value='Statewide'>Statewide</option>
+<option value='Anderson County, Tennessee'>Anderson County, Tennessee</option>
+<option value='Blount County, Tennessee'>Blount County, Tennessee</option>
+<option value='Bradley County, Tennessee'>Bradley County, Tennessee</option>
+<option value='Davidson County, Tennessee'>Davidson County, Tennessee</option>
+<option value='Greene County, Tennessee'>Greene County, Tennessee</option>
+<option value='Hamblen County, Tennessee'>Hamblen County, Tennessee</option>
+<option value='Hamilton County, Tennessee'>Hamilton County, Tennessee</option>
+<option value='Knox County, Tennessee'>Knox County, Tennessee</option>
+<option value='Madison County, Tennessee'>Madison County, Tennessee</option>
+<option value='Maury County, Tennessee'>Maury County, Tennessee</option>
+<option value='Montgomery County, Tennessee'>Montgomery County, Tennessee</option>
+<option value='Putnam County, Tennessee'>Putnam County, Tennessee</option>
+<option value='Robertson County, Tennessee'>Robertson County, Tennessee</option>
+<option value='Rutherford County, Tennessee'>Rutherford County, Tennessee</option>
+<option value='Sevier County, Tennessee'>Sevier County, Tennessee</option>
+<option value='Shelby County, Tennessee'>Shelby County, Tennessee</option>
+<option value='Sullivan County, Tennessee'>Sullivan County, Tennessee</option>
+<option value='Sumner County, Tennessee'>Sumner County, Tennessee</option>
+<option value='Washington County, Tennessee'>Washington County, Tennessee</option>
+<option value='Williamson County, Tennessee'>Williamson County, Tennessee</option>
+<option value='Wilson County, Tennessee'>Wilson County, Tennessee</option></select>
+    <canvas id="lineChart" width="850" height="450"></canvas>
+    <script>const internetData = {"Statewide":{"2013":71.5,"2014":73.1,"2015":75.2,"2016":80.4,"2017":82.6,"2018":84.9,"2019":85.7,"2021":90.5,"2022":91.4,"2023":92.6},"Anderson County, Tennessee":{"2013":59.1,"2014":68.8,"2015":67.9,"2016":82.3,"2017":82,"2018":85.5,"2019":88,"2021":89.2,"2022":91.7,"2023":88},"Blount County, Tennessee":{"2013":69.9,"2014":72.8,"2015":74.5,"2016":76.3,"2017":78.2,"2018":82.2,"2019":82.4,"2021":89.9,"2022":89.6,"2023":92.9},"Bradley County, Tennessee":{"2013":63.7,"2014":69.8,"2015":68.1,"2016":75.2,"2017":84.9,"2018":82.7,"2019":82.7,"2021":88.5,"2022":90,"2023":94.1},"Davidson County, Tennessee":{"2013":73.7,"2014":76.3,"2015":75.9,"2016":84.8,"2017":86.2,"2018":90.1,"2019":90.1,"2021":92.9,"2022":91.8,"2023":93.2},"Greene County, Tennessee":{"2013":59.4,"2014":60.9,"2015":67.2,"2016":71.4,"2017":71.6,"2018":78.4,"2019":74.2,"2021":80.6,"2022":80.8,"2023":81.4},"Hamblen County, Tennessee":{"2022":87.9,"2023":88.3},"Hamilton County, Tennessee":{"2013":73,"2014":73.1,"2015":75,"2016":77.9,"2017":78.3,"2018":85.8,"2019":87.5,"2021":90.7,"2022":91.6,"2023":93.7},"Knox County, Tennessee":{"2013":75.8,"2014":75.3,"2015":76.4,"2016":83.3,"2017":84.8,"2018":84.5,"2019":84.3,"2021":89.1,"2022":91,"2023":90.6},"Madison County, Tennessee":{"2013":65.1,"2014":64.8,"2015":69.1,"2016":76,"2017":75.8,"2018":85,"2019":84.7,"2021":86,"2022":88,"2023":91.8},"Maury County, Tennessee":{"2013":70.7,"2014":75.3,"2015":75,"2016":80.3,"2017":85.2,"2018":85.3,"2019":85.6,"2021":92.5,"2022":94.1,"2023":91.2},"Montgomery County, Tennessee":{"2013":77.8,"2014":77.8,"2015":82.2,"2016":81.3,"2017":88.1,"2018":91.5,"2019":89.3,"2021":91.7,"2022":95.3,"2023":95.4},"Putnam County, Tennessee":{"2013":56.4,"2014":68.4,"2015":69.3,"2016":74.2,"2017":78.2,"2018":81.7,"2019":82.2,"2021":84,"2022":91.8,"2023":89.8},"Robertson County, Tennessee":{"2013":74,"2014":71.7,"2015":78.5,"2016":76.4,"2017":85.5,"2018":86.7,"2019":88.5,"2021":86.4,"2022":87.4,"2023":91.9},"Rutherford County, Tennessee":{"2013":76.7,"2014":76.6,"2015":81.7,"2016":83.9,"2017":84.6,"2018":90.7,"2019":93.6,"2021":94.3,"2022":94.1,"2023":95.8},"Sevier County, Tennessee":{"2013":66.8,"2014":69.4,"2015":70.9,"2016":79.3,"2017":77.5,"2018":82.3,"2019":76.4,"2021":85,"2022":87.7,"2023":88.4},"Shelby County, Tennessee":{"2013":65.8,"2014":66.4,"2015":69.1,"2016":74.6,"2017":77.9,"2018":76.5,"2019":79,"2021":88.9,"2022":89.6,"2023":92.6},"Sullivan County, Tennessee":{"2013":65.8,"2014":69.8,"2015":73.2,"2016":77.8,"2017":79.6,"2018":81.3,"2019":85.1,"2021":86.1,"2022":90.6,"2023":88.7},"Sumner County, Tennessee":{"2013":77.4,"2014":80.7,"2015":78.9,"2016":81.1,"2017":86,"2018":89.3,"2019":90.2,"2021":92.7,"2022":92.5,"2023":94.3},"Washington County, Tennessee":{"2013":73.3,"2014":76.1,"2015":80.3,"2016":83.9,"2017":81,"2018":82.1,"2019":85.1,"2021":89.5,"2022":89.8,"2023":91.9},"Williamson County, Tennessee":{"2013":87,"2014":87.4,"2015":90.3,"2016":93.3,"2017":93.2,"2018":95.4,"2019":95.1,"2021":96.5,"2022":96,"2023":96.2},"Wilson County, Tennessee":{"2013":76.1,"2014":76.6,"2015":83.3,"2016":85.6,"2017":87.5,"2018":85.7,"2019":84.3,"2021":94.1,"2022":95,"2023":94.2}};
+const ctx = document.getElementById('lineChart').getContext('2d');
+let chart;
+
+function renderChart(data) {
+  const labels = Object.keys(data);
+  const values = Object.values(data);
+
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: '% With Internet',
+        data: values,
+        fill: false,
+        borderColor: 'teal',
+        backgroundColor: 'teal',
+        tension: 0.3,
+        pointRadius: 4
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100,
+          title: { display: true, text: '% With Internet' }
+        },
+        x: {
+          title: { display: true, text: 'Year' }
+        }
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function(ctx) {
+              return ctx.parsed.y.toFixed(1) + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  renderChart(internetData[this.value]);
+});
+renderChart(internetData['Statewide']);</script>
+  </body>
+</html>
+</html>

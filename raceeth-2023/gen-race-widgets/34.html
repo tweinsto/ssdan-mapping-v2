@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 34</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Atlantic County, New Jersey">Atlantic County, New Jersey</option>
+<option value="Bergen County, New Jersey">Bergen County, New Jersey</option>
+<option value="Burlington County, New Jersey">Burlington County, New Jersey</option>
+<option value="Camden County, New Jersey">Camden County, New Jersey</option>
+<option value="Cape May County, New Jersey">Cape May County, New Jersey</option>
+<option value="Cumberland County, New Jersey">Cumberland County, New Jersey</option>
+<option value="Essex County, New Jersey">Essex County, New Jersey</option>
+<option value="Gloucester County, New Jersey">Gloucester County, New Jersey</option>
+<option value="Hudson County, New Jersey">Hudson County, New Jersey</option>
+<option value="Hunterdon County, New Jersey">Hunterdon County, New Jersey</option>
+<option value="Mercer County, New Jersey">Mercer County, New Jersey</option>
+<option value="Middlesex County, New Jersey">Middlesex County, New Jersey</option>
+<option value="Monmouth County, New Jersey">Monmouth County, New Jersey</option>
+<option value="Morris County, New Jersey">Morris County, New Jersey</option>
+<option value="Ocean County, New Jersey">Ocean County, New Jersey</option>
+<option value="Passaic County, New Jersey">Passaic County, New Jersey</option>
+<option value="Salem County, New Jersey">Salem County, New Jersey</option>
+<option value="Somerset County, New Jersey">Somerset County, New Jersey</option>
+<option value="Sussex County, New Jersey">Sussex County, New Jersey</option>
+<option value="Union County, New Jersey">Union County, New Jersey</option>
+<option value="Warren County, New Jersey">Warren County, New Jersey</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.07,"Asian":9.83,"Black or African American":12.29,"Hispanic":21.94,"Pacific Islander":0.02,"Two or More Races":3.16,"White (non-Hispanic)":51.94},"Atlantic County, New Jersey":{"American Indian / Alaska Native":0.09,"Asian":7.74,"Black or African American":13.2,"Hispanic":19.91,"Pacific Islander":0.05,"Two or More Races":4.02,"White (non-Hispanic)":54.53},"Bergen County, New Jersey":{"American Indian / Alaska Native":0.09,"Asian":16.58,"Black or African American":5.29,"Hispanic":22.11,"Pacific Islander":0.02,"Two or More Races":2.71,"White (non-Hispanic)":52.48},"Burlington County, New Jersey":{"American Indian / Alaska Native":0.03,"Asian":5.56,"Black or African American":15.82,"Hispanic":9.22,"Pacific Islander":0.01,"Two or More Races":4.99,"White (non-Hispanic)":63.65},"Camden County, New Jersey":{"American Indian / Alaska Native":0.03,"Asian":5.78,"Black or African American":17.72,"Hispanic":18.69,"Pacific Islander":0.02,"Two or More Races":3.61,"White (non-Hispanic)":53.45},"Cape May County, New Jersey":{"American Indian / Alaska Native":0.03,"Asian":0.65,"Black or African American":3.1,"Hispanic":8.06,"Pacific Islander":0,"Two or More Races":3.47,"White (non-Hispanic)":84.42},"Cumberland County, New Jersey":{"American Indian / Alaska Native":0.52,"Asian":1.34,"Black or African American":17.06,"Hispanic":34.96,"Pacific Islander":0.01,"Two or More Races":3.39,"White (non-Hispanic)":41.9},"Essex County, New Jersey":{"American Indian / Alaska Native":0.14,"Asian":5.74,"Black or African American":36.04,"Hispanic":24.67,"Pacific Islander":0.02,"Two or More Races":4.05,"White (non-Hispanic)":27.91},"Gloucester County, New Jersey":{"American Indian / Alaska Native":0.03,"Asian":3.04,"Black or African American":10.11,"Hispanic":7.84,"Pacific Islander":0.05,"Two or More Races":3.3,"White (non-Hispanic)":75.19},"Hudson County, New Jersey":{"American Indian / Alaska Native":0.14,"Asian":16.3,"Black or African American":10.77,"Hispanic":40.71,"Pacific Islander":0.02,"Two or More Races":3.11,"White (non-Hispanic)":28.08},"Hunterdon County, New Jersey":{"American Indian / Alaska Native":0.02,"Asian":4.44,"Black or African American":2.38,"Hispanic":8.85,"Pacific Islander":0.03,"Two or More Races":2.78,"White (non-Hispanic)":81.1},"Mercer County, New Jersey":{"American Indian / Alaska Native":0.08,"Asian":11.98,"Black or African American":18.34,"Hispanic":22.25,"Pacific Islander":0.02,"Two or More Races":2.82,"White (non-Hispanic)":44.24},"Middlesex County, New Jersey":{"American Indian / Alaska Native":0.07,"Asian":24.96,"Black or African American":9.61,"Hispanic":23,"Pacific Islander":0.03,"Two or More Races":2.86,"White (non-Hispanic)":38.76},"Monmouth County, New Jersey":{"American Indian / Alaska Native":0.02,"Asian":5.26,"Black or African American":5.86,"Hispanic":12.67,"Pacific Islander":0.04,"Two or More Races":3.29,"White (non-Hispanic)":72.14},"Morris County, New Jersey":{"American Indian / Alaska Native":0.03,"Asian":10.58,"Black or African American":2.99,"Hispanic":15.48,"Pacific Islander":0,"Two or More Races":3.32,"White (non-Hispanic)":66.95},"Ocean County, New Jersey":{"American Indian / Alaska Native":0.02,"Asian":1.84,"Black or African American":2.87,"Hispanic":10.63,"Pacific Islander":0.02,"Two or More Races":2.3,"White (non-Hispanic)":81.8},"Passaic County, New Jersey":{"American Indian / Alaska Native":0.06,"Asian":5.39,"Black or African American":9.96,"Hispanic":43.44,"Pacific Islander":0.02,"Two or More Races":1.76,"White (non-Hispanic)":38.88},"Salem County, New Jersey":{"American Indian / Alaska Native":0.05,"Asian":0.9,"Black or African American":13.28,"Hispanic":10.74,"Pacific Islander":0.14,"Two or More Races":3.55,"White (non-Hispanic)":71.02},"Somerset County, New Jersey":{"American Indian / Alaska Native":0.06,"Asian":19.07,"Black or African American":9.28,"Hispanic":17.05,"Pacific Islander":0.01,"Two or More Races":3.13,"White (non-Hispanic)":50.59},"Sussex County, New Jersey":{"American Indian / Alaska Native":0.02,"Asian":1.86,"Black or African American":2.27,"Hispanic":11.05,"Pacific Islander":0,"Two or More Races":3.31,"White (non-Hispanic)":80.98},"Union County, New Jersey":{"American Indian / Alaska Native":0.04,"Asian":5.51,"Black or African American":19.63,"Hispanic":34.37,"Pacific Islander":0.01,"Two or More Races":2.79,"White (non-Hispanic)":36.3},"Warren County, New Jersey":{"American Indian / Alaska Native":0.08,"Asian":2.96,"Black or African American":5.31,"Hispanic":12.1,"Pacific Islander":0.02,"Two or More Races":2.92,"White (non-Hispanic)":76.35}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Internet Access Over Time –  Ohio</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>body { font-family: sans-serif; margin: 1rem 2rem; text-align: center; }
+                      h2 { margin-bottom: 0.25rem; font-size: 1.6rem; }
+                      select { padding: 0.4rem; font-size: 1rem; margin: 1rem 0; border-radius: 5px; border: 1px solid #999; }
+                      canvas { width: 100%; max-width: 850px; height: 450px; margin-top: 1rem; }</style>
+</head>
+<html>
+  <body>
+    <h2>Internet Access in  Ohio (2013–2023)</h2>
+    <label>Select County: </label>
+    <select id="countySelect"><option value='Statewide'>Statewide</option>
+<option value='Allen County, Ohio'>Allen County, Ohio</option>
+<option value='Ashtabula County, Ohio'>Ashtabula County, Ohio</option>
+<option value='Athens County, Ohio'>Athens County, Ohio</option>
+<option value='Belmont County, Ohio'>Belmont County, Ohio</option>
+<option value='Butler County, Ohio'>Butler County, Ohio</option>
+<option value='Clark County, Ohio'>Clark County, Ohio</option>
+<option value='Clermont County, Ohio'>Clermont County, Ohio</option>
+<option value='Columbiana County, Ohio'>Columbiana County, Ohio</option>
+<option value='Cuyahoga County, Ohio'>Cuyahoga County, Ohio</option>
+<option value='Delaware County, Ohio'>Delaware County, Ohio</option>
+<option value='Erie County, Ohio'>Erie County, Ohio</option>
+<option value='Fairfield County, Ohio'>Fairfield County, Ohio</option>
+<option value='Franklin County, Ohio'>Franklin County, Ohio</option>
+<option value='Geauga County, Ohio'>Geauga County, Ohio</option>
+<option value='Greene County, Ohio'>Greene County, Ohio</option>
+<option value='Hamilton County, Ohio'>Hamilton County, Ohio</option>
+<option value='Hancock County, Ohio'>Hancock County, Ohio</option>
+<option value='Jefferson County, Ohio'>Jefferson County, Ohio</option>
+<option value='Lake County, Ohio'>Lake County, Ohio</option>
+<option value='Licking County, Ohio'>Licking County, Ohio</option>
+<option value='Lorain County, Ohio'>Lorain County, Ohio</option>
+<option value='Lucas County, Ohio'>Lucas County, Ohio</option>
+<option value='Mahoning County, Ohio'>Mahoning County, Ohio</option>
+<option value='Marion County, Ohio'>Marion County, Ohio</option>
+<option value='Medina County, Ohio'>Medina County, Ohio</option>
+<option value='Miami County, Ohio'>Miami County, Ohio</option>
+<option value='Montgomery County, Ohio'>Montgomery County, Ohio</option>
+<option value='Muskingum County, Ohio'>Muskingum County, Ohio</option>
+<option value='Portage County, Ohio'>Portage County, Ohio</option>
+<option value='Richland County, Ohio'>Richland County, Ohio</option>
+<option value='Ross County, Ohio'>Ross County, Ohio</option>
+<option value='Scioto County, Ohio'>Scioto County, Ohio</option>
+<option value='Stark County, Ohio'>Stark County, Ohio</option>
+<option value='Summit County, Ohio'>Summit County, Ohio</option>
+<option value='Trumbull County, Ohio'>Trumbull County, Ohio</option>
+<option value='Tuscarawas County, Ohio'>Tuscarawas County, Ohio</option>
+<option value='Union County, Ohio'>Union County, Ohio</option>
+<option value='Warren County, Ohio'>Warren County, Ohio</option>
+<option value='Wayne County, Ohio'>Wayne County, Ohio</option>
+<option value='Wood County, Ohio'>Wood County, Ohio</option></select>
+    <canvas id="lineChart" width="850" height="450"></canvas>
+    <script>const internetData = {"Statewide":{"2013":73.4,"2014":75.7,"2015":77.6,"2016":82.3,"2017":84.4,"2018":85.5,"2019":86.2,"2021":89.8,"2022":91.2,"2023":92},"Allen County, Ohio":{"2013":68.7,"2014":70.1,"2015":76.3,"2016":78.2,"2017":82.5,"2018":85,"2019":88.1,"2021":88.7,"2022":90.9,"2023":90.1},"Ashtabula County, Ohio":{"2013":68.7,"2014":69.2,"2015":68.9,"2016":75.6,"2017":81.3,"2018":80.6,"2019":76,"2021":85.7,"2022":87.9,"2023":90.5},"Athens County, Ohio":{"2015":67.2,"2016":76.4,"2017":72.9,"2018":81.4,"2019":83.8},"Belmont County, Ohio":{"2013":67.2,"2014":66.3,"2015":72.9,"2016":73.9,"2017":71.5,"2018":74.7,"2019":79,"2021":84.5,"2022":84.9,"2023":89.5},"Butler County, Ohio":{"2013":77.2,"2014":79.9,"2015":81.2,"2016":86.4,"2017":88.6,"2018":87.6,"2019":90.3,"2021":91.3,"2022":91.5,"2023":92.9},"Clark County, Ohio":{"2013":70,"2014":71.4,"2015":75.8,"2016":80.5,"2017":85,"2018":86.9,"2019":87,"2021":90.1,"2022":89.8,"2023":89.8},"Clermont County, Ohio":{"2013":78.2,"2014":80.5,"2015":83,"2016":83.8,"2017":86,"2018":88.2,"2019":90.5,"2021":90.6,"2022":92.2,"2023":94.1},"Columbiana County, Ohio":{"2013":68.5,"2014":69.2,"2015":73.7,"2016":76.2,"2017":78.1,"2018":81.8,"2019":81.4,"2021":85.3,"2022":86.5,"2023":87.7},"Cuyahoga County, Ohio":{"2013":69.7,"2014":73.4,"2015":73.5,"2016":78.2,"2017":80.6,"2018":82.4,"2019":81.4,"2021":88.3,"2022":90.5,"2023":90.6},"Delaware County, Ohio":{"2013":87.8,"2014":89.5,"2015":88.8,"2016":93.3,"2017":94.2,"2018":96.5,"2019":94.5,"2021":97.4,"2022":96.3,"2023":95.5},"Erie County, Ohio":{"2013":69.8,"2014":75.4,"2015":80.3,"2016":81.9,"2017":80.5,"2018":78.9,"2019":85.1,"2021":83.4,"2022":91,"2023":91.1},"Fairfield County, Ohio":{"2013":79.4,"2014":81.7,"2015":81.5,"2016":86.2,"2017":84,"2018":84.9,"2019":88,"2021":91.5,"2022":93.1,"2023":95},"Franklin County, Ohio":{"2013":77.7,"2014":80.3,"2015":81.5,"2016":87,"2017":88.7,"2018":88.7,"2019":90.8,"2021":93.3,"2022":94.5,"2023":95},"Geauga County, Ohio":{"2013":79.2,"2014":75.4,"2015":77,"2016":80.6,"2017":85.3,"2018":83.7,"2019":79.8,"2021":89.6,"2022":89.2,"2023":88.1},"Greene County, Ohio":{"2013":78.7,"2014":80.4,"2015":79.8,"2016":86.4,"2017":88.9,"2018":88.7,"2019":92.3,"2021":91.6,"2022":92,"2023":93.8},"Hamilton County, Ohio":{"2013":71.5,"2014":74.9,"2015":79.4,"2016":82.4,"2017":85.2,"2018":87.1,"2019":88.5,"2021":91,"2022":90.8,"2023":91.9},"Hancock County, Ohio":{"2013":73.3,"2014":73.7,"2015":80,"2016":84.5,"2017":87.8,"2018":88.7,"2019":87.6,"2021":89.8,"2022":93.3,"2023":92.7},"Jefferson County, Ohio":{"2013":67.1,"2014":66,"2015":72.9,"2016":73.9,"2017":80.5,"2018":78.3,"2019":81.4},"Lake County, Ohio":{"2013":79.5,"2014":80.6,"2015":80.2,"2016":87,"2017":88.1,"2018":88.3,"2019":89.4,"2021":92.5,"2022":93.1,"2023":94.1},"Licking County, Ohio":{"2013":80.9,"2014":78.5,"2015":81.6,"2016":83.7,"2017":86,"2018":88.1,"2019":89.7,"2021":92.4,"2022":92.4,"2023":92.6},"Lorain County, Ohio":{"2013":76.8,"2014":73.2,"2015":78.2,"2016":83.8,"2017":80.1,"2018":81.3,"2019":79.4,"2021":87.5,"2022":91.2,"2023":92.3},"Lucas County, Ohio":{"2013":70.1,"2014":70.1,"2015":72.8,"2016":82.5,"2017":83.4,"2018":84.5,"2019":85,"2021":88.8,"2022":90,"2023":90.1},"Mahoning County, Ohio":{"2013":64.8,"2014":70.9,"2015":71.6,"2016":80.6,"2017":81.6,"2018":83.1,"2019":84.6,"2021":86,"2022":88.6,"2023":88.3},"Marion County, Ohio":{"2013":68.4,"2014":73.2,"2015":70.9,"2016":73.9,"2017":82.1,"2018":81.5,"2019":86.1,"2021":87.8,"2022":89.8,"2023":83.3},"Medina County, Ohio":{"2013":82.5,"2014":85.1,"2015":84.6,"2016":88.2,"2017":90.2,"2018":88.1,"2019":85.9,"2021":91.6,"2022":92.1,"2023":94.6},"Miami County, Ohio":{"2013":75.2,"2014":77.2,"2015":74.6,"2016":84.4,"2017":87.9,"2018":87.2,"2019":86.8,"2021":89.1,"2022":91.4,"2023":94.2},"Montgomery County, Ohio":{"2013":71,"2014":73.9,"2015":77.4,"2016":82.5,"2017":85.2,"2018":86.3,"2019":85.6,"2021":90.7,"2022":91,"2023":92},"Muskingum County, Ohio":{"2013":68,"2014":73.9,"2015":75,"2016":72.7,"2017":78.2,"2018":82.9,"2019":83.9,"2021":85.6,"2022":89.5,"2023":89.4},"Portage County, Ohio":{"2013":77.4,"2014":76.4,"2015":78.1,"2016":79,"2017":82,"2018":84.1,"2019":84.9,"2021":87.1,"2022":90.9,"2023":91},"Richland County, Ohio":{"2013":64.5,"2014":69,"2015":72.1,"2016":73.9,"2017":75.4,"2018":80.5,"2019":82.7,"2021":84.5,"2022":90.9,"2023":89.9},"Ross County, Ohio":{"2013":68.3,"2014":67.4,"2015":73.2,"2016":73.6,"2017":79.9,"2018":79.3,"2019":86.2,"2021":86.3,"2022":87.8,"2023":91.7},"Scioto County, Ohio":{"2013":66.4,"2014":65.4,"2015":70,"2016":71,"2017":74.9,"2018":81,"2019":82.1,"2021":87,"2022":87.3,"2023":88},"Stark County, Ohio":{"2013":72.9,"2014":76.9,"2015":78.1,"2016":83.4,"2017":84.7,"2018":84.2,"2019":84.6,"2021":85.3,"2022":86.9,"2023":90.8},"Summit County, Ohio":{"2013":73.9,"2014":75.4,"2015":76.4,"2016":80.1,"2017":84.8,"2018":86.9,"2019":87.4,"2021":91.1,"2022":92.4,"2023":92.2},"Trumbull County, Ohio":{"2013":64.1,"2014":67.2,"2015":69.6,"2016":76.8,"2017":79.3,"2018":81.2,"2019":79,"2021":83.9,"2022":87.1,"2023":88.6},"Tuscarawas County, Ohio":{"2013":70.2,"2014":69,"2015":71.7,"2016":75.4,"2017":72.9,"2018":80,"2019":79.6,"2021":85.6,"2022":85.6,"2023":84},"Union County, Ohio":{"2022":94.5,"2023":96.2},"Warren County, Ohio":{"2013":84.1,"2014":86.8,"2015":88.6,"2016":90.3,"2017":92.9,"2018":93.4,"2019":93.4,"2021":94.8,"2022":95.2,"2023":94.7},"Wayne County, Ohio":{"2013":68.4,"2014":72.7,"2015":73.6,"2016":81.7,"2017":81.3,"2018":81.7,"2019":80.5,"2021":82.2,"2022":86.5,"2023":87.9},"Wood County, Ohio":{"2013":76.1,"2014":79.3,"2015":82,"2016":85.3,"2017":89.4,"2018":85.9,"2019":88.1,"2021":92.6,"2022":92.2,"2023":93.6}};
+const ctx = document.getElementById('lineChart').getContext('2d');
+let chart;
+
+function renderChart(data) {
+  const labels = Object.keys(data);
+  const values = Object.values(data);
+
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: '% With Internet',
+        data: values,
+        fill: false,
+        borderColor: 'teal',
+        backgroundColor: 'teal',
+        tension: 0.3,
+        pointRadius: 4
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100,
+          title: { display: true, text: '% With Internet' }
+        },
+        x: {
+          title: { display: true, text: 'Year' }
+        }
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function(ctx) {
+              return ctx.parsed.y.toFixed(1) + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  renderChart(internetData[this.value]);
+});
+renderChart(internetData['Statewide']);</script>
+  </body>
+</html>
+</html>

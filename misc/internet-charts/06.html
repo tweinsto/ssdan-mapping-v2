@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Internet Access Over Time –  California</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>body { font-family: sans-serif; margin: 1rem 2rem; text-align: center; }
+                      h2 { margin-bottom: 0.25rem; font-size: 1.6rem; }
+                      select { padding: 0.4rem; font-size: 1rem; margin: 1rem 0; border-radius: 5px; border: 1px solid #999; }
+                      canvas { width: 100%; max-width: 850px; height: 450px; margin-top: 1rem; }</style>
+</head>
+<html>
+  <body>
+    <h2>Internet Access in  California (2013–2023)</h2>
+    <label>Select County: </label>
+    <select id="countySelect"><option value='Statewide'>Statewide</option>
+<option value='Alameda County, California'>Alameda County, California</option>
+<option value='Butte County, California'>Butte County, California</option>
+<option value='Contra Costa County, California'>Contra Costa County, California</option>
+<option value='El Dorado County, California'>El Dorado County, California</option>
+<option value='Fresno County, California'>Fresno County, California</option>
+<option value='Humboldt County, California'>Humboldt County, California</option>
+<option value='Imperial County, California'>Imperial County, California</option>
+<option value='Kern County, California'>Kern County, California</option>
+<option value='Kings County, California'>Kings County, California</option>
+<option value='Lake County, California'>Lake County, California</option>
+<option value='Los Angeles County, California'>Los Angeles County, California</option>
+<option value='Madera County, California'>Madera County, California</option>
+<option value='Marin County, California'>Marin County, California</option>
+<option value='Mendocino County, California'>Mendocino County, California</option>
+<option value='Merced County, California'>Merced County, California</option>
+<option value='Monterey County, California'>Monterey County, California</option>
+<option value='Napa County, California'>Napa County, California</option>
+<option value='Nevada County, California'>Nevada County, California</option>
+<option value='Orange County, California'>Orange County, California</option>
+<option value='Placer County, California'>Placer County, California</option>
+<option value='Riverside County, California'>Riverside County, California</option>
+<option value='Sacramento County, California'>Sacramento County, California</option>
+<option value='San Benito County, California'>San Benito County, California</option>
+<option value='San Bernardino County, California'>San Bernardino County, California</option>
+<option value='San Diego County, California'>San Diego County, California</option>
+<option value='San Francisco County, California'>San Francisco County, California</option>
+<option value='San Joaquin County, California'>San Joaquin County, California</option>
+<option value='San Luis Obispo County, California'>San Luis Obispo County, California</option>
+<option value='San Mateo County, California'>San Mateo County, California</option>
+<option value='Santa Barbara County, California'>Santa Barbara County, California</option>
+<option value='Santa Clara County, California'>Santa Clara County, California</option>
+<option value='Santa Cruz County, California'>Santa Cruz County, California</option>
+<option value='Shasta County, California'>Shasta County, California</option>
+<option value='Solano County, California'>Solano County, California</option>
+<option value='Sonoma County, California'>Sonoma County, California</option>
+<option value='Stanislaus County, California'>Stanislaus County, California</option>
+<option value='Sutter County, California'>Sutter County, California</option>
+<option value='Tehama County, California'>Tehama County, California</option>
+<option value='Tulare County, California'>Tulare County, California</option>
+<option value='Ventura County, California'>Ventura County, California</option>
+<option value='Yolo County, California'>Yolo County, California</option>
+<option value='Yuba County, California'>Yuba County, California</option></select>
+    <canvas id="lineChart" width="850" height="450"></canvas>
+    <script>const internetData = {"Statewide":{"2013":78.9,"2014":80.8,"2015":82,"2016":85.8,"2017":88,"2018":89,"2019":90,"2021":93.1,"2022":93.6,"2023":94.3},"Alameda County, California":{"2013":82.4,"2014":84.2,"2015":85.4,"2016":87.6,"2017":90.4,"2018":91.6,"2019":90.7,"2021":93.1,"2022":94.4,"2023":94.8},"Butte County, California":{"2013":76.6,"2014":80,"2015":79.4,"2016":83.2,"2017":88.6,"2018":87.4,"2019":89.7,"2021":90.8,"2022":90.2,"2023":92},"Contra Costa County, California":{"2013":83.9,"2014":86.6,"2015":88.7,"2016":91.3,"2017":92.3,"2018":92.8,"2019":94.6,"2021":95.1,"2022":95.9,"2023":96.3},"El Dorado County, California":{"2013":78.7,"2014":84,"2015":84,"2016":87,"2017":85.7,"2018":90.2,"2019":91.6,"2021":92.5,"2022":94.7,"2023":93.9},"Fresno County, California":{"2013":67.8,"2014":72.5,"2015":73.9,"2016":80.2,"2017":82.5,"2018":81.4,"2019":82.3,"2021":85.8,"2022":90.6,"2023":91},"Humboldt County, California":{"2013":75.5,"2014":79,"2015":77,"2016":81.4,"2017":85,"2018":87.2,"2019":88.9,"2021":91.6,"2022":90.9,"2023":93.3},"Imperial County, California":{"2013":64.8,"2014":67.5,"2015":69,"2016":74.9,"2017":78.9,"2018":86.2,"2019":84.3,"2021":90.9,"2022":88.7,"2023":89.9},"Kern County, California":{"2013":69.6,"2014":70.4,"2015":71.7,"2016":80.2,"2017":80,"2018":84.4,"2019":83.5,"2021":90.7,"2022":92.4,"2023":93},"Kings County, California":{"2013":66.6,"2014":69.5,"2015":75.4,"2016":79.8,"2017":81.3,"2018":84.1,"2019":84.9,"2021":90.1,"2022":89.1,"2023":90.1},"Lake County, California":{"2013":69.4,"2014":69,"2015":66.8,"2016":73,"2017":78.4,"2018":79.2,"2019":81.8,"2021":86,"2022":80.9,"2023":89.3},"Los Angeles County, California":{"2013":76.2,"2014":78,"2015":78.7,"2016":83,"2017":85.6,"2018":86.5,"2019":88.3,"2021":92.8,"2022":92.6,"2023":94.2},"Madera County, California":{"2013":66,"2014":70.2,"2015":71.3,"2016":76,"2017":80.4,"2018":87.6,"2019":86.7,"2021":88.1,"2022":89.8,"2023":91.5},"Marin County, California":{"2013":86.2,"2014":89.2,"2015":88.6,"2016":91.4,"2017":90.9,"2018":94.2,"2019":92.6,"2021":94.5,"2022":96.4,"2023":96.3},"Mendocino County, California":{"2013":69.5,"2014":70.2,"2015":75.1,"2016":81.2,"2017":81.5,"2018":85.3,"2019":83.2,"2021":89.5,"2022":91.1,"2023":92.2},"Merced County, California":{"2013":66.2,"2014":68.6,"2015":75.7,"2016":82.1,"2017":86.6,"2018":88,"2019":90.4,"2021":85.7,"2022":90,"2023":84.3},"Monterey County, California":{"2013":75.4,"2014":71.7,"2015":77.4,"2016":80.9,"2017":88,"2018":87.5,"2019":89.1,"2021":94,"2022":93.2,"2023":94.3},"Napa County, California":{"2013":84.7,"2014":83.4,"2015":86.4,"2016":86.6,"2017":90,"2018":91.9,"2019":90.6,"2021":94.3,"2022":94.4,"2023":94.1},"Nevada County, California":{"2013":80.5,"2014":82.5,"2015":79.7,"2016":85.2,"2017":86.4,"2018":88.3,"2019":89.3,"2021":91.2,"2022":95.3,"2023":96.2},"Orange County, California":{"2013":85.1,"2014":86.5,"2015":87.3,"2016":90.6,"2017":91.7,"2018":92.2,"2019":93.1,"2021":94.5,"2022":95.5,"2023":95.8},"Placer County, California":{"2013":85,"2014":85.8,"2015":87.1,"2016":89.8,"2017":89.3,"2018":90.8,"2019":92.1,"2021":93.8,"2022":94.4,"2023":95.1},"Riverside County, California":{"2013":79.1,"2014":80.4,"2015":81.7,"2016":85.6,"2017":88.2,"2018":89.1,"2019":90.6,"2021":92.8,"2022":93.1,"2023":93.9},"Sacramento County, California":{"2013":77,"2014":80.3,"2015":81.7,"2016":86.8,"2017":89.6,"2018":90.7,"2019":91.6,"2021":94.1,"2022":94,"2023":94.2},"San Benito County, California":{"2021":94.2,"2022":97.3,"2023":97.8},"San Bernardino County, California":{"2013":74.9,"2014":75.7,"2015":77.6,"2016":83.6,"2017":86.6,"2018":86.1,"2019":88.5,"2021":92.9,"2022":93.8,"2023":94.3},"San Diego County, California":{"2013":83.5,"2014":86.2,"2015":86.3,"2016":88.7,"2017":90.9,"2018":92.3,"2019":92.8,"2021":94.9,"2022":94.7,"2023":95.1},"San Francisco County, California":{"2013":82.3,"2014":82.7,"2015":84.1,"2016":87.5,"2017":88,"2018":89.3,"2019":89.8,"2021":92.8,"2022":93.8,"2023":93},"San Joaquin County, California":{"2013":73.3,"2014":75.2,"2015":76.8,"2016":81.5,"2017":84.3,"2018":85.4,"2019":87.5,"2021":91.3,"2022":93.3,"2023":93.5},"San Luis Obispo County, California":{"2013":83.6,"2014":84.3,"2015":85.4,"2016":86.3,"2017":89.2,"2018":89,"2019":91.9,"2021":92.2,"2022":94.5,"2023":95},"San Mateo County, California":{"2013":86.5,"2014":86.3,"2015":88.8,"2016":91,"2017":91.2,"2018":92.6,"2019":93.3,"2021":95.5,"2022":96.1,"2023":96.6},"Santa Barbara County, California":{"2013":75.7,"2014":79.2,"2015":84,"2016":87,"2017":88.6,"2018":90.6,"2019":91.4,"2021":91.9,"2022":92.7,"2023":92.9},"Santa Clara County, California":{"2013":87.3,"2014":88.7,"2015":88.9,"2016":91.1,"2017":92.5,"2018":93.7,"2019":93.5,"2021":95.9,"2022":95.5,"2023":96.1},"Santa Cruz County, California":{"2013":83.8,"2014":84.6,"2015":82.8,"2016":88.5,"2017":88.3,"2018":88.5,"2019":90.2,"2021":93.6,"2022":94.1,"2023":95.1},"Shasta County, California":{"2013":70.1,"2014":74.1,"2015":71.8,"2016":79.2,"2017":83.8,"2018":86.7,"2019":84.1,"2021":89.1,"2022":90.6,"2023":92.4},"Solano County, California":{"2013":81.3,"2014":83.7,"2015":85.7,"2016":89.9,"2017":91.8,"2018":93.3,"2019":92.4,"2021":93.5,"2022":92.8,"2023":94.3},"Sonoma County, California":{"2013":83,"2014":82.8,"2015":86.3,"2016":87.7,"2017":89.8,"2018":93,"2019":93.4,"2021":94.7,"2022":95.5,"2023":95},"Stanislaus County, California":{"2013":71.1,"2014":77.7,"2015":80.2,"2016":83.2,"2017":87,"2018":87.2,"2019":87.3,"2021":93,"2022":92.7,"2023":94.2},"Sutter County, California":{"2013":69.6,"2014":80,"2015":79.1,"2016":82,"2017":83.5,"2018":85.4,"2019":83.4,"2021":91.3,"2022":88.1,"2023":93},"Tehama County, California":{"2019":88.9,"2021":84.8,"2022":86.3,"2023":94.1},"Tulare County, California":{"2013":62.2,"2014":63.5,"2015":68.4,"2016":79.4,"2017":79.3,"2018":79.7,"2019":82.6,"2021":87.4,"2022":90,"2023":90.8},"Ventura County, California":{"2013":81,"2014":83.9,"2015":84.5,"2016":86.6,"2017":90,"2018":89.7,"2019":89.8,"2021":93.8,"2022":94.4,"2023":95.5},"Yolo County, California":{"2013":76,"2014":81,"2015":84.1,"2016":87.4,"2017":89,"2018":90.7,"2019":90.2,"2021":91.5,"2022":92.3,"2023":94.7},"Yuba County, California":{"2013":76.4,"2014":79.7,"2015":77.6,"2016":80.6,"2017":86.8,"2018":75.9,"2019":91.1,"2021":90.5,"2022":92,"2023":91.7}};
+const ctx = document.getElementById('lineChart').getContext('2d');
+let chart;
+
+function renderChart(data) {
+  const labels = Object.keys(data);
+  const values = Object.values(data);
+
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: '% With Internet',
+        data: values,
+        fill: false,
+        borderColor: 'teal',
+        backgroundColor: 'teal',
+        tension: 0.3,
+        pointRadius: 4
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100,
+          title: { display: true, text: '% With Internet' }
+        },
+        x: {
+          title: { display: true, text: 'Year' }
+        }
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function(ctx) {
+              return ctx.parsed.y.toFixed(1) + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  renderChart(internetData[this.value]);
+});
+renderChart(internetData['Statewide']);</script>
+  </body>
+</html>
+</html>

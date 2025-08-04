@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Internet Access Over Time –  Wisconsin</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>body { font-family: sans-serif; margin: 1rem 2rem; text-align: center; }
+                      h2 { margin-bottom: 0.25rem; font-size: 1.6rem; }
+                      select { padding: 0.4rem; font-size: 1rem; margin: 1rem 0; border-radius: 5px; border: 1px solid #999; }
+                      canvas { width: 100%; max-width: 850px; height: 450px; margin-top: 1rem; }</style>
+</head>
+<html>
+  <body>
+    <h2>Internet Access in  Wisconsin (2013–2023)</h2>
+    <label>Select County: </label>
+    <select id="countySelect"><option value='Statewide'>Statewide</option>
+<option value='Brown County, Wisconsin'>Brown County, Wisconsin</option>
+<option value='Chippewa County, Wisconsin'>Chippewa County, Wisconsin</option>
+<option value='Dane County, Wisconsin'>Dane County, Wisconsin</option>
+<option value='Dodge County, Wisconsin'>Dodge County, Wisconsin</option>
+<option value='Eau Claire County, Wisconsin'>Eau Claire County, Wisconsin</option>
+<option value='Fond du Lac County, Wisconsin'>Fond du Lac County, Wisconsin</option>
+<option value='Jefferson County, Wisconsin'>Jefferson County, Wisconsin</option>
+<option value='Kenosha County, Wisconsin'>Kenosha County, Wisconsin</option>
+<option value='La Crosse County, Wisconsin'>La Crosse County, Wisconsin</option>
+<option value='Manitowoc County, Wisconsin'>Manitowoc County, Wisconsin</option>
+<option value='Marathon County, Wisconsin'>Marathon County, Wisconsin</option>
+<option value='Milwaukee County, Wisconsin'>Milwaukee County, Wisconsin</option>
+<option value='Outagamie County, Wisconsin'>Outagamie County, Wisconsin</option>
+<option value='Ozaukee County, Wisconsin'>Ozaukee County, Wisconsin</option>
+<option value='Portage County, Wisconsin'>Portage County, Wisconsin</option>
+<option value='Racine County, Wisconsin'>Racine County, Wisconsin</option>
+<option value='Rock County, Wisconsin'>Rock County, Wisconsin</option>
+<option value='Sauk County, Wisconsin'>Sauk County, Wisconsin</option>
+<option value='Sheboygan County, Wisconsin'>Sheboygan County, Wisconsin</option>
+<option value='St. Croix County, Wisconsin'>St. Croix County, Wisconsin</option>
+<option value='Walworth County, Wisconsin'>Walworth County, Wisconsin</option>
+<option value='Washington County, Wisconsin'>Washington County, Wisconsin</option>
+<option value='Waukesha County, Wisconsin'>Waukesha County, Wisconsin</option>
+<option value='Winnebago County, Wisconsin'>Winnebago County, Wisconsin</option>
+<option value='Wood County, Wisconsin'>Wood County, Wisconsin</option></select>
+    <canvas id="lineChart" width="850" height="450"></canvas>
+    <script>const internetData = {"Statewide":{"2013":76,"2014":77.9,"2015":79.1,"2016":83.3,"2017":85.2,"2018":86.1,"2019":87.6,"2021":91,"2022":91.9,"2023":92.7},"Brown County, Wisconsin":{"2013":76.7,"2014":76.4,"2015":83.2,"2016":83.7,"2017":87.2,"2018":86.3,"2019":88.3,"2021":92.7,"2022":93.3,"2023":92.8},"Chippewa County, Wisconsin":{"2021":86.9,"2022":91,"2023":93.6},"Dane County, Wisconsin":{"2013":82.8,"2014":84.7,"2015":84.9,"2016":88.5,"2017":89,"2018":89.8,"2019":92.1,"2021":93.4,"2022":93.6,"2023":93.1},"Dodge County, Wisconsin":{"2013":70.3,"2014":72.1,"2015":74.9,"2016":80.6,"2017":84.4,"2018":85.9,"2019":88,"2021":90.4,"2022":89,"2023":91.1},"Eau Claire County, Wisconsin":{"2013":79.3,"2014":76.4,"2015":79.7,"2016":83.6,"2017":87.5,"2018":89.1,"2019":91.2,"2021":92.6,"2022":92.4,"2023":93.1},"Fond du Lac County, Wisconsin":{"2013":72.2,"2014":76.8,"2015":78.9,"2016":81.8,"2017":83.8,"2018":82.7,"2019":83.3,"2021":90.2,"2022":92.1,"2023":91.8},"Jefferson County, Wisconsin":{"2013":76,"2014":75.7,"2015":80.4,"2016":82.1,"2017":80.7,"2018":86,"2019":88.3,"2021":90.4,"2022":89.4,"2023":93.5},"Kenosha County, Wisconsin":{"2013":75,"2014":81.3,"2015":81.4,"2016":82,"2017":85.1,"2018":88.3,"2019":90.7,"2021":91.7,"2022":90.6,"2023":94.7},"La Crosse County, Wisconsin":{"2013":79.2,"2014":79.9,"2015":80.7,"2016":84.1,"2017":83.9,"2018":86.3,"2019":87.9,"2021":91.6,"2022":90.5,"2023":92.5},"Manitowoc County, Wisconsin":{"2013":70.9,"2014":73.7,"2015":72,"2016":77,"2017":81.3,"2018":84.4,"2019":85.2,"2021":86.1,"2022":89.7,"2023":90.7},"Marathon County, Wisconsin":{"2013":74,"2014":77.2,"2015":77.5,"2016":82.6,"2017":85.9,"2018":84.5,"2019":86.5,"2021":90.2,"2022":91.7,"2023":89.5},"Milwaukee County, Wisconsin":{"2013":68.7,"2014":71.9,"2015":73.5,"2016":79.1,"2017":77.9,"2018":80.1,"2019":82.5,"2021":87.8,"2022":90.5,"2023":91.7},"Outagamie County, Wisconsin":{"2013":77.9,"2014":82.4,"2015":82.9,"2016":85.6,"2017":88.9,"2018":88,"2019":89,"2021":92.3,"2022":93.3,"2023":93.4},"Ozaukee County, Wisconsin":{"2013":83.6,"2014":82.2,"2015":85.3,"2016":86.2,"2017":89.3,"2018":89.5,"2019":91.9,"2021":93.1,"2022":95,"2023":94.6},"Portage County, Wisconsin":{"2013":74.7,"2014":78.3,"2015":82.2,"2016":84.3,"2017":86.8,"2018":87,"2019":87.2,"2021":92.8,"2022":95,"2023":93},"Racine County, Wisconsin":{"2013":73.6,"2014":71.8,"2015":75.1,"2016":84,"2017":88.1,"2018":87.4,"2019":88,"2021":90,"2022":90.2,"2023":92.8},"Rock County, Wisconsin":{"2013":73.9,"2014":71.2,"2015":66.2,"2016":80.1,"2017":84,"2018":85.2,"2019":86,"2021":92,"2022":90.7,"2023":92.5},"Sauk County, Wisconsin":{"2021":87.8,"2022":88.7,"2023":89.2},"Sheboygan County, Wisconsin":{"2013":76,"2014":78.9,"2015":79.4,"2016":80.9,"2017":86.4,"2018":86.7,"2019":88.2,"2021":89.2,"2022":90.7,"2023":92.3},"St. Croix County, Wisconsin":{"2013":81.8,"2014":85.6,"2015":79.4,"2016":83.3,"2017":88.1,"2018":88.1,"2019":85.5,"2021":93.1,"2022":94.7,"2023":95.4},"Walworth County, Wisconsin":{"2013":78.5,"2014":78.1,"2015":79.2,"2016":80,"2017":84.9,"2018":86.8,"2019":84.9,"2021":87.8,"2022":89.7,"2023":91.4},"Washington County, Wisconsin":{"2013":80.9,"2014":83.1,"2015":82,"2016":85.4,"2017":88.5,"2018":89.3,"2019":90.8,"2021":93.4,"2022":93.1,"2023":94.5},"Waukesha County, Wisconsin":{"2013":85.7,"2014":86.8,"2015":87.4,"2016":88.7,"2017":90.8,"2018":92.1,"2019":92.1,"2021":94.3,"2022":94.7,"2023":94.4},"Winnebago County, Wisconsin":{"2013":72.3,"2014":74.7,"2015":77.6,"2016":84.8,"2017":87.3,"2018":86.2,"2019":86.1,"2021":92.7,"2022":89.6,"2023":92.9},"Wood County, Wisconsin":{"2013":70.9,"2014":74.2,"2015":76.2,"2016":79.9,"2017":83.9,"2018":84,"2019":86.8,"2021":88.2,"2022":90.9,"2023":91.6}};
+const ctx = document.getElementById('lineChart').getContext('2d');
+let chart;
+
+function renderChart(data) {
+  const labels = Object.keys(data);
+  const values = Object.values(data);
+
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: '% With Internet',
+        data: values,
+        fill: false,
+        borderColor: 'teal',
+        backgroundColor: 'teal',
+        tension: 0.3,
+        pointRadius: 4
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100,
+          title: { display: true, text: '% With Internet' }
+        },
+        x: {
+          title: { display: true, text: 'Year' }
+        }
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function(ctx) {
+              return ctx.parsed.y.toFixed(1) + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  renderChart(internetData[this.value]);
+});
+renderChart(internetData['Statewide']);</script>
+  </body>
+</html>
+</html>

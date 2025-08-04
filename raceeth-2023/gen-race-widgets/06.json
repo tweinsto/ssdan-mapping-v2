@@ -1,0 +1,1952 @@
+{
+  "state": "Alameda County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 107379
+        },
+        {
+          "label": "Asian",
+          "value": 5906995
+        },
+        {
+          "label": "Black or African American",
+          "value": 2076395
+        },
+        {
+          "label": "Hispanic",
+          "value": 15630830
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 132838
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1605204
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13573226
+        }
+      ]
+    },
+    "Alameda County, California": {
+      "label": "Alameda County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4002
+        },
+        {
+          "label": "Asian",
+          "value": 528377
+        },
+        {
+          "label": "Black or African American",
+          "value": 159042
+        },
+        {
+          "label": "Hispanic",
+          "value": 385245
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 11651
+        },
+        {
+          "label": "Two or More Races",
+          "value": 86873
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 466445
+        }
+      ]
+    },
+    "Alpine County, California": {
+      "label": "Alpine County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 417
+        },
+        {
+          "label": "Asian",
+          "value": 8
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 249
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 22
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 993
+        }
+      ]
+    },
+    "Amador County, California": {
+      "label": "Amador County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 398
+        },
+        {
+          "label": "Asian",
+          "value": 587
+        },
+        {
+          "label": "Black or African American",
+          "value": 781
+        },
+        {
+          "label": "Hispanic",
+          "value": 6361
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 26
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2153
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30234
+        }
+      ]
+    },
+    "Butte County, California": {
+      "label": "Butte County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1611
+        },
+        {
+          "label": "Asian",
+          "value": 11010
+        },
+        {
+          "label": "Black or African American",
+          "value": 3550
+        },
+        {
+          "label": "Hispanic",
+          "value": 40829
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 554
+        },
+        {
+          "label": "Two or More Races",
+          "value": 11317
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 139527
+        }
+      ]
+    },
+    "Calaveras County, California": {
+      "label": "Calaveras County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 424
+        },
+        {
+          "label": "Asian",
+          "value": 1066
+        },
+        {
+          "label": "Black or African American",
+          "value": 529
+        },
+        {
+          "label": "Hispanic",
+          "value": 6403
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 24
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1947
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 35599
+        }
+      ]
+    },
+    "Colusa County, California": {
+      "label": "Colusa County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 154
+        },
+        {
+          "label": "Asian",
+          "value": 101
+        },
+        {
+          "label": "Black or African American",
+          "value": 311
+        },
+        {
+          "label": "Hispanic",
+          "value": 13639
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 14
+        },
+        {
+          "label": "Two or More Races",
+          "value": 635
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6869
+        }
+      ]
+    },
+    "Contra Costa County, California": {
+      "label": "Contra Costa County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1806
+        },
+        {
+          "label": "Asian",
+          "value": 212373
+        },
+        {
+          "label": "Black or African American",
+          "value": 94864
+        },
+        {
+          "label": "Hispanic",
+          "value": 316799
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5158
+        },
+        {
+          "label": "Two or More Races",
+          "value": 66896
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 455961
+        }
+      ]
+    },
+    "Del Norte County, California": {
+      "label": "Del Norte County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1686
+        },
+        {
+          "label": "Asian",
+          "value": 821
+        },
+        {
+          "label": "Black or African American",
+          "value": 805
+        },
+        {
+          "label": "Hispanic",
+          "value": 5350
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 119
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1658
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16668
+        }
+      ]
+    },
+    "El Dorado County, California": {
+      "label": "El Dorado County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 824
+        },
+        {
+          "label": "Asian",
+          "value": 9640
+        },
+        {
+          "label": "Black or African American",
+          "value": 1522
+        },
+        {
+          "label": "Hispanic",
+          "value": 27230
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 218
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9391
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 142547
+        }
+      ]
+    },
+    "Fresno County, California": {
+      "label": "Fresno County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4074
+        },
+        {
+          "label": "Asian",
+          "value": 108809
+        },
+        {
+          "label": "Black or African American",
+          "value": 42060
+        },
+        {
+          "label": "Hispanic",
+          "value": 547669
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1511
+        },
+        {
+          "label": "Two or More Races",
+          "value": 30422
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 273299
+        }
+      ]
+    },
+    "Glenn County, California": {
+      "label": "Glenn County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 203
+        },
+        {
+          "label": "Asian",
+          "value": 777
+        },
+        {
+          "label": "Black or African American",
+          "value": 158
+        },
+        {
+          "label": "Hispanic",
+          "value": 12632
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 22
+        },
+        {
+          "label": "Two or More Races",
+          "value": 876
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13918
+        }
+      ]
+    },
+    "Humboldt County, California": {
+      "label": "Humboldt County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4120
+        },
+        {
+          "label": "Asian",
+          "value": 4101
+        },
+        {
+          "label": "Black or African American",
+          "value": 1523
+        },
+        {
+          "label": "Hispanic",
+          "value": 18744
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 310
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10609
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 95115
+        }
+      ]
+    },
+    "Imperial County, California": {
+      "label": "Imperial County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1197
+        },
+        {
+          "label": "Asian",
+          "value": 2287
+        },
+        {
+          "label": "Black or African American",
+          "value": 3935
+        },
+        {
+          "label": "Hispanic",
+          "value": 153460
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 18
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1429
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16894
+        }
+      ]
+    },
+    "Inyo County, California": {
+      "label": "Inyo County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1532
+        },
+        {
+          "label": "Asian",
+          "value": 297
+        },
+        {
+          "label": "Black or African American",
+          "value": 112
+        },
+        {
+          "label": "Hispanic",
+          "value": 4469
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 168
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1020
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11094
+        }
+      ]
+    },
+    "Kern County, California": {
+      "label": "Kern County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2829
+        },
+        {
+          "label": "Asian",
+          "value": 44565
+        },
+        {
+          "label": "Black or African American",
+          "value": 43962
+        },
+        {
+          "label": "Hispanic",
+          "value": 507456
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1057
+        },
+        {
+          "label": "Two or More Races",
+          "value": 27156
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 279058
+        }
+      ]
+    },
+    "Kings County, California": {
+      "label": "Kings County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1107
+        },
+        {
+          "label": "Asian",
+          "value": 5338
+        },
+        {
+          "label": "Black or African American",
+          "value": 9143
+        },
+        {
+          "label": "Hispanic",
+          "value": 87860
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 295
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4832
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 43991
+        }
+      ]
+    },
+    "Lake County, California": {
+      "label": "Lake County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1362
+        },
+        {
+          "label": "Asian",
+          "value": 710
+        },
+        {
+          "label": "Black or African American",
+          "value": 1314
+        },
+        {
+          "label": "Hispanic",
+          "value": 16184
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 233
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3751
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 44464
+        }
+      ]
+    },
+    "Lassen County, California": {
+      "label": "Lassen County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 671
+        },
+        {
+          "label": "Asian",
+          "value": 496
+        },
+        {
+          "label": "Black or African American",
+          "value": 2330
+        },
+        {
+          "label": "Hispanic",
+          "value": 7027
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 294
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1139
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19131
+        }
+      ]
+    },
+    "Los Angeles County, California": {
+      "label": "Los Angeles County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18057
+        },
+        {
+          "label": "Asian",
+          "value": 1458413
+        },
+        {
+          "label": "Black or African American",
+          "value": 742849
+        },
+        {
+          "label": "Hispanic",
+          "value": 4753369
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 19075
+        },
+        {
+          "label": "Two or More Races",
+          "value": 322151
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2477324
+        }
+      ]
+    },
+    "Madera County, California": {
+      "label": "Madera County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 833
+        },
+        {
+          "label": "Asian",
+          "value": 3773
+        },
+        {
+          "label": "Black or African American",
+          "value": 3846
+        },
+        {
+          "label": "Hispanic",
+          "value": 95835
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 159
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4898
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 48992
+        }
+      ]
+    },
+    "Marin County, California": {
+      "label": "Marin County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 189
+        },
+        {
+          "label": "Asian",
+          "value": 15755
+        },
+        {
+          "label": "Black or African American",
+          "value": 5544
+        },
+        {
+          "label": "Hispanic",
+          "value": 49128
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 417
+        },
+        {
+          "label": "Two or More Races",
+          "value": 13448
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 172256
+        }
+      ]
+    },
+    "Mariposa County, California": {
+      "label": "Mariposa County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 273
+        },
+        {
+          "label": "Asian",
+          "value": 271
+        },
+        {
+          "label": "Black or African American",
+          "value": 216
+        },
+        {
+          "label": "Hispanic",
+          "value": 2341
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 764
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 13030
+        }
+      ]
+    },
+    "Mendocino County, California": {
+      "label": "Mendocino County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2465
+        },
+        {
+          "label": "Asian",
+          "value": 1985
+        },
+        {
+          "label": "Black or African American",
+          "value": 749
+        },
+        {
+          "label": "Hispanic",
+          "value": 24440
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 81
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3989
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 56350
+        }
+      ]
+    },
+    "Merced County, California": {
+      "label": "Merced County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 660
+        },
+        {
+          "label": "Asian",
+          "value": 19976
+        },
+        {
+          "label": "Black or African American",
+          "value": 7773
+        },
+        {
+          "label": "Hispanic",
+          "value": 178961
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 704
+        },
+        {
+          "label": "Two or More Races",
+          "value": 7241
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 69294
+        }
+      ]
+    },
+    "Modoc County, California": {
+      "label": "Modoc County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 197
+        },
+        {
+          "label": "Asian",
+          "value": 103
+        },
+        {
+          "label": "Black or African American",
+          "value": 72
+        },
+        {
+          "label": "Hispanic",
+          "value": 1321
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 382
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6502
+        }
+      ]
+    },
+    "Mono County, California": {
+      "label": "Mono County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 210
+        },
+        {
+          "label": "Asian",
+          "value": 291
+        },
+        {
+          "label": "Black or African American",
+          "value": 12
+        },
+        {
+          "label": "Hispanic",
+          "value": 3513
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 471
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8631
+        }
+      ]
+    },
+    "Monterey County, California": {
+      "label": "Monterey County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 581
+        },
+        {
+          "label": "Asian",
+          "value": 24038
+        },
+        {
+          "label": "Black or African American",
+          "value": 8785
+        },
+        {
+          "label": "Hispanic",
+          "value": 265748
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1848
+        },
+        {
+          "label": "Two or More Races",
+          "value": 12834
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 120310
+        }
+      ]
+    },
+    "Napa County, California": {
+      "label": "Napa County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 254
+        },
+        {
+          "label": "Asian",
+          "value": 10570
+        },
+        {
+          "label": "Black or African American",
+          "value": 2440
+        },
+        {
+          "label": "Hispanic",
+          "value": 48801
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 388
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5782
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 67232
+        }
+      ]
+    },
+    "Nevada County, California": {
+      "label": "Nevada County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 378
+        },
+        {
+          "label": "Asian",
+          "value": 1545
+        },
+        {
+          "label": "Black or African American",
+          "value": 309
+        },
+        {
+          "label": "Hispanic",
+          "value": 10723
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 64
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5143
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 83696
+        }
+      ]
+    },
+    "Orange County, California": {
+      "label": "Orange County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3634
+        },
+        {
+          "label": "Asian",
+          "value": 687982
+        },
+        {
+          "label": "Black or African American",
+          "value": 48224
+        },
+        {
+          "label": "Hispanic",
+          "value": 1080480
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8779
+        },
+        {
+          "label": "Two or More Races",
+          "value": 129850
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1191304
+        }
+      ]
+    },
+    "Placer County, California": {
+      "label": "Placer County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 763
+        },
+        {
+          "label": "Asian",
+          "value": 36644
+        },
+        {
+          "label": "Black or African American",
+          "value": 6560
+        },
+        {
+          "label": "Hispanic",
+          "value": 63412
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 688
+        },
+        {
+          "label": "Two or More Races",
+          "value": 24558
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 277453
+        }
+      ]
+    },
+    "Plumas County, California": {
+      "label": "Plumas County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 228
+        },
+        {
+          "label": "Asian",
+          "value": 90
+        },
+        {
+          "label": "Black or African American",
+          "value": 132
+        },
+        {
+          "label": "Hispanic",
+          "value": 1965
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 56
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1066
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 16039
+        }
+      ]
+    },
+    "Riverside County, California": {
+      "label": "Riverside County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6809
+        },
+        {
+          "label": "Asian",
+          "value": 167441
+        },
+        {
+          "label": "Black or African American",
+          "value": 149836
+        },
+        {
+          "label": "Hispanic",
+          "value": 1239702
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7211
+        },
+        {
+          "label": "Two or More Races",
+          "value": 82105
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 784572
+        }
+      ]
+    },
+    "Sacramento County, California": {
+      "label": "Sacramento County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4186
+        },
+        {
+          "label": "Asian",
+          "value": 272583
+        },
+        {
+          "label": "Black or African American",
+          "value": 144563
+        },
+        {
+          "label": "Hispanic",
+          "value": 379734
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 17286
+        },
+        {
+          "label": "Two or More Races",
+          "value": 99137
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 657865
+        }
+      ]
+    },
+    "San Benito County, California": {
+      "label": "San Benito County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 168
+        },
+        {
+          "label": "Asian",
+          "value": 2102
+        },
+        {
+          "label": "Black or African American",
+          "value": 569
+        },
+        {
+          "label": "Hispanic",
+          "value": 40783
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 142
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2265
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19986
+        }
+      ]
+    },
+    "San Bernardino County, California": {
+      "label": "San Bernardino County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 6104
+        },
+        {
+          "label": "Asian",
+          "value": 172091
+        },
+        {
+          "label": "Black or African American",
+          "value": 166813
+        },
+        {
+          "label": "Hispanic",
+          "value": 1193691
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6509
+        },
+        {
+          "label": "Two or More Races",
+          "value": 71457
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 560649
+        }
+      ]
+    },
+    "San Diego County, California": {
+      "label": "San Diego County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8395
+        },
+        {
+          "label": "Asian",
+          "value": 390843
+        },
+        {
+          "label": "Black or African American",
+          "value": 145704
+        },
+        {
+          "label": "Hispanic",
+          "value": 1127221
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12216
+        },
+        {
+          "label": "Two or More Races",
+          "value": 163313
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1417346
+        }
+      ]
+    },
+    "San Francisco County, California": {
+      "label": "San Francisco County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1691
+        },
+        {
+          "label": "Asian",
+          "value": 290116
+        },
+        {
+          "label": "Black or African American",
+          "value": 40243
+        },
+        {
+          "label": "Hispanic",
+          "value": 133266
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2825
+        },
+        {
+          "label": "Two or More Races",
+          "value": 48160
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 313559
+        }
+      ]
+    },
+    "San Joaquin County, California": {
+      "label": "San Joaquin County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2086
+        },
+        {
+          "label": "Asian",
+          "value": 137718
+        },
+        {
+          "label": "Black or African American",
+          "value": 52610
+        },
+        {
+          "label": "Hispanic",
+          "value": 332543
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4388
+        },
+        {
+          "label": "Two or More Races",
+          "value": 34892
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 220011
+        }
+      ]
+    },
+    "San Luis Obispo County, California": {
+      "label": "San Luis Obispo County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 505
+        },
+        {
+          "label": "Asian",
+          "value": 9550
+        },
+        {
+          "label": "Black or African American",
+          "value": 3086
+        },
+        {
+          "label": "Hispanic",
+          "value": 68980
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 462
+        },
+        {
+          "label": "Two or More Races",
+          "value": 12978
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 184190
+        }
+      ]
+    },
+    "San Mateo County, California": {
+      "label": "San Mateo County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 898
+        },
+        {
+          "label": "Asian",
+          "value": 226967
+        },
+        {
+          "label": "Black or African American",
+          "value": 15321
+        },
+        {
+          "label": "Hispanic",
+          "value": 185378
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 8110
+        },
+        {
+          "label": "Two or More Races",
+          "value": 35716
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 266446
+        }
+      ]
+    },
+    "Santa Barbara County, California": {
+      "label": "Santa Barbara County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1020
+        },
+        {
+          "label": "Asian",
+          "value": 22846
+        },
+        {
+          "label": "Black or African American",
+          "value": 6832
+        },
+        {
+          "label": "Hispanic",
+          "value": 211412
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 382
+        },
+        {
+          "label": "Two or More Races",
+          "value": 15433
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 184336
+        }
+      ]
+    },
+    "Santa Clara County, California": {
+      "label": "Santa Clara County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2799
+        },
+        {
+          "label": "Asian",
+          "value": 748112
+        },
+        {
+          "label": "Black or African American",
+          "value": 42949
+        },
+        {
+          "label": "Hispanic",
+          "value": 477632
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6956
+        },
+        {
+          "label": "Two or More Races",
+          "value": 78744
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 537099
+        }
+      ]
+    },
+    "Santa Cruz County, California": {
+      "label": "Santa Cruz County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 222
+        },
+        {
+          "label": "Asian",
+          "value": 12004
+        },
+        {
+          "label": "Black or African American",
+          "value": 1990
+        },
+        {
+          "label": "Hispanic",
+          "value": 93116
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 380
+        },
+        {
+          "label": "Two or More Races",
+          "value": 11169
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 145237
+        }
+      ]
+    },
+    "Shasta County, California": {
+      "label": "Shasta County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2614
+        },
+        {
+          "label": "Asian",
+          "value": 6073
+        },
+        {
+          "label": "Black or African American",
+          "value": 1591
+        },
+        {
+          "label": "Hispanic",
+          "value": 20604
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 239
+        },
+        {
+          "label": "Two or More Races",
+          "value": 10949
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 138823
+        }
+      ]
+    },
+    "Sierra County, California": {
+      "label": "Sierra County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 8
+        },
+        {
+          "label": "Hispanic",
+          "value": 262
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 35
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2426
+        }
+      ]
+    },
+    "Siskiyou County, California": {
+      "label": "Siskiyou County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1234
+        },
+        {
+          "label": "Asian",
+          "value": 697
+        },
+        {
+          "label": "Black or African American",
+          "value": 722
+        },
+        {
+          "label": "Hispanic",
+          "value": 5757
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 170
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2626
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 32529
+        }
+      ]
+    },
+    "Solano County, California": {
+      "label": "Solano County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1252
+        },
+        {
+          "label": "Asian",
+          "value": 70209
+        },
+        {
+          "label": "Black or African American",
+          "value": 56789
+        },
+        {
+          "label": "Hispanic",
+          "value": 130628
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3673
+        },
+        {
+          "label": "Two or More Races",
+          "value": 29597
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 154748
+        }
+      ]
+    },
+    "Sonoma County, California": {
+      "label": "Sonoma County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1482
+        },
+        {
+          "label": "Asian",
+          "value": 20857
+        },
+        {
+          "label": "Black or African American",
+          "value": 7062
+        },
+        {
+          "label": "Hispanic",
+          "value": 142986
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1511
+        },
+        {
+          "label": "Two or More Races",
+          "value": 22223
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 287210
+        }
+      ]
+    },
+    "Stanislaus County, California": {
+      "label": "Stanislaus County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1549
+        },
+        {
+          "label": "Asian",
+          "value": 31630
+        },
+        {
+          "label": "Black or African American",
+          "value": 14636
+        },
+        {
+          "label": "Hispanic",
+          "value": 271787
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2878
+        },
+        {
+          "label": "Two or More Races",
+          "value": 20706
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 207182
+        }
+      ]
+    },
+    "Sutter County, California": {
+      "label": "Sutter County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 669
+        },
+        {
+          "label": "Asian",
+          "value": 16877
+        },
+        {
+          "label": "Black or African American",
+          "value": 1578
+        },
+        {
+          "label": "Hispanic",
+          "value": 32061
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 347
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4806
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 41558
+        }
+      ]
+    },
+    "Tehama County, California": {
+      "label": "Tehama County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 743
+        },
+        {
+          "label": "Asian",
+          "value": 1171
+        },
+        {
+          "label": "Black or African American",
+          "value": 541
+        },
+        {
+          "label": "Hispanic",
+          "value": 18458
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 63
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2848
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 41228
+        }
+      ]
+    },
+    "Trinity County, California": {
+      "label": "Trinity County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 331
+        },
+        {
+          "label": "Asian",
+          "value": 385
+        },
+        {
+          "label": "Black or African American",
+          "value": 146
+        },
+        {
+          "label": "Hispanic",
+          "value": 936
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 83
+        },
+        {
+          "label": "Two or More Races",
+          "value": 891
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 12595
+        }
+      ]
+    },
+    "Tulare County, California": {
+      "label": "Tulare County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2223
+        },
+        {
+          "label": "Asian",
+          "value": 16241
+        },
+        {
+          "label": "Black or African American",
+          "value": 6156
+        },
+        {
+          "label": "Hispanic",
+          "value": 314250
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 583
+        },
+        {
+          "label": "Two or More Races",
+          "value": 9407
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 125098
+        }
+      ]
+    },
+    "Tuolumne County, California": {
+      "label": "Tuolumne County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 539
+        },
+        {
+          "label": "Asian",
+          "value": 686
+        },
+        {
+          "label": "Black or African American",
+          "value": 881
+        },
+        {
+          "label": "Hispanic",
+          "value": 7250
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 162
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1913
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 43120
+        }
+      ]
+    },
+    "Ventura County, California": {
+      "label": "Ventura County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1324
+        },
+        {
+          "label": "Asian",
+          "value": 59234
+        },
+        {
+          "label": "Black or African American",
+          "value": 14033
+        },
+        {
+          "label": "Hispanic",
+          "value": 367516
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1258
+        },
+        {
+          "label": "Two or More Races",
+          "value": 31447
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 359342
+        }
+      ]
+    },
+    "Yolo County, California": {
+      "label": "Yolo County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 892
+        },
+        {
+          "label": "Asian",
+          "value": 31568
+        },
+        {
+          "label": "Black or African American",
+          "value": 5364
+        },
+        {
+          "label": "Hispanic",
+          "value": 72347
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 842
+        },
+        {
+          "label": "Two or More Races",
+          "value": 11860
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 93721
+        }
+      ]
+    },
+    "Yuba County, California": {
+      "label": "Yuba County, California",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 505
+        },
+        {
+          "label": "Asian",
+          "value": 6195
+        },
+        {
+          "label": "Black or African American",
+          "value": 2920
+        },
+        {
+          "label": "Hispanic",
+          "value": 24887
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 224
+        },
+        {
+          "label": "Two or More Races",
+          "value": 5824
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 42130
+        }
+      ]
+    }
+  }
+}

@@ -2,60 +2,78 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Montana Population Overview</title>
+  <title>State Page</title>
   <style>
     body {
       margin: 2rem;
       font-family: sans-serif;
+      background-color: #f1e7e7;
     }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+      color: #333;
+    }
+
     #wrapper {
       display: flex;
-      gap: 1rem;
+      gap: 1.5rem;
       align-items: flex-start;
     }
+
     iframe {
       border: none;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     }
+
     .map-column {
       width: 60%;
     }
+
     .chart-column {
       width: 40%;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    @media (max-width: 800px) {
+      #wrapper {
+        flex-direction: column;
+      }
+      .map-column, .chart-column {
+        width: 100%;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Montana – County Map and Population Growth 2000-2023</h1>
-
+  <h1>County Map and Population Growth Overview – 30</h1>
   <div id="wrapper">
     <div class="map-column">
       <iframe
         src="../maps/30_county_map.html"
         title="County Map"
-        style="width: 100%; height: 500px;">
+        style="width: 100%; height: 600px;">
       </iframe>
     </div>
 
     <div class="chart-column">
-      <iframe
-        src="../pop-charts/30_chart.html"
-        title="Population Chart"
-        style="width: 100%; height: 300px;">
-      </iframe>
-
-      <div style="padding-top: 1rem;">
-        <h3>State Notes</h3>
-        <p>The eastern and central parts of Montana were acquired as early as the Louisiana Purchase of 1803, but had no organized government until Nebraska Territory was established in 1854.  The northwestern part of Montana was included in the newly established Oregon Territory in 1848.  The whole of the present-day State was included in Idaho Territory in 1863, and was established as a separate territory in 1864 with essentially its present boundaries.  Montana was admitted as a State on November 8, 1889.</p>
-      </div>
-
-      <div style="padding-top: 1rem;">
-        <h3>Population Rankings by County</h3>
+      <div style="padding: 1rem; background: white;">
         <iframe
-          src="../county_rankings/30_counties.html"
-          title="County Table"
-          style="width: 100%; height: 300px;">
+          src="../pop-charts-new/30_chart.html"
+          title="Population Growth"
+          style="width: 100%; height: 400px; border: none;">
         </iframe>
       </div>
+
+      <iframe
+        src="../maps/growth-rankings2000/rankings30_counties.html"
+        title="County Table"
+        style="width: 100%; height: 400px;">
+      </iframe>
     </div>
   </div>
 </body>

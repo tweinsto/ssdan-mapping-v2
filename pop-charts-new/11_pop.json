@@ -1,0 +1,62 @@
+{
+  "District of Columbia, District of Columbia County": [
+    {
+      "year": 2000,
+      "population": 572059
+    },
+    {
+      "year": 2010,
+      "population": 601723
+    },
+    {
+      "year": 2018,
+      "population": 684498
+    },
+    {
+      "year": 2020,
+      "population": 689545
+    },
+    {
+      "year": 2021,
+      "population": 683154
+    },
+    {
+      "year": 2022,
+      "population": 670587
+    },
+    {
+      "year": 2023,
+      "population": 672079
+    }
+  ],
+  "Statewide": [
+    {
+      "year": 2000,
+      "population": 572059
+    },
+    {
+      "year": 2010,
+      "population": 601723
+    },
+    {
+      "year": 2018,
+      "population": 684498
+    },
+    {
+      "year": 2020,
+      "population": 689545
+    },
+    {
+      "year": 2021,
+      "population": 683154
+    },
+    {
+      "year": 2022,
+      "population": 670587
+    },
+    {
+      "year": 2023,
+      "population": 672079
+    }
+  ]
+}

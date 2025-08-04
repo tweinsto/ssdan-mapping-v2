@@ -1,0 +1,1787 @@
+{
+  "state": "Adams County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 33310
+        },
+        {
+          "label": "Asian",
+          "value": 12004
+        },
+        {
+          "label": "Black or African American",
+          "value": 24712
+        },
+        {
+          "label": "Hispanic",
+          "value": 34963
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1114
+        },
+        {
+          "label": "Two or More Races",
+          "value": 28195
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 643154
+        }
+      ]
+    },
+    "Adams County, North Dakota": {
+      "label": "Adams County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 28
+        },
+        {
+          "label": "Asian",
+          "value": 15
+        },
+        {
+          "label": "Black or African American",
+          "value": 15
+        },
+        {
+          "label": "Hispanic",
+          "value": 98
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 99
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1917
+        }
+      ]
+    },
+    "Barnes County, North Dakota": {
+      "label": "Barnes County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 207
+        },
+        {
+          "label": "Asian",
+          "value": 145
+        },
+        {
+          "label": "Black or African American",
+          "value": 137
+        },
+        {
+          "label": "Hispanic",
+          "value": 215
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 12
+        },
+        {
+          "label": "Two or More Races",
+          "value": 354
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9724
+        }
+      ]
+    },
+    "Benson County, North Dakota": {
+      "label": "Benson County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2976
+        },
+        {
+          "label": "Asian",
+          "value": 39
+        },
+        {
+          "label": "Black or African American",
+          "value": 32
+        },
+        {
+          "label": "Hispanic",
+          "value": 98
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 209
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2500
+        }
+      ]
+    },
+    "Billings County, North Dakota": {
+      "label": "Billings County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 35
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 0
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 913
+        }
+      ]
+    },
+    "Bottineau County, North Dakota": {
+      "label": "Bottineau County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 286
+        },
+        {
+          "label": "Asian",
+          "value": 40
+        },
+        {
+          "label": "Black or African American",
+          "value": 27
+        },
+        {
+          "label": "Hispanic",
+          "value": 156
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 144
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5729
+        }
+      ]
+    },
+    "Bowman County, North Dakota": {
+      "label": "Bowman County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 17
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 137
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 70
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2707
+        }
+      ]
+    },
+    "Burke County, North Dakota": {
+      "label": "Burke County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 22
+        },
+        {
+          "label": "Asian",
+          "value": 60
+        },
+        {
+          "label": "Black or African American",
+          "value": 16
+        },
+        {
+          "label": "Hispanic",
+          "value": 19
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 59
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1977
+        }
+      ]
+    },
+    "Burleigh County, North Dakota": {
+      "label": "Burleigh County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3635
+        },
+        {
+          "label": "Asian",
+          "value": 839
+        },
+        {
+          "label": "Black or African American",
+          "value": 1749
+        },
+        {
+          "label": "Hispanic",
+          "value": 3244
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 260
+        },
+        {
+          "label": "Two or More Races",
+          "value": 4259
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 84828
+        }
+      ]
+    },
+    "Cass County, North Dakota": {
+      "label": "Cass County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1541
+        },
+        {
+          "label": "Asian",
+          "value": 5837
+        },
+        {
+          "label": "Black or African American",
+          "value": 12248
+        },
+        {
+          "label": "Hispanic",
+          "value": 6576
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 4
+        },
+        {
+          "label": "Two or More Races",
+          "value": 6708
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 155875
+        }
+      ]
+    },
+    "Cavalier County, North Dakota": {
+      "label": "Cavalier County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 50
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 97
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 85
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3400
+        }
+      ]
+    },
+    "Dickey County, North Dakota": {
+      "label": "Dickey County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 58
+        },
+        {
+          "label": "Asian",
+          "value": 56
+        },
+        {
+          "label": "Black or African American",
+          "value": 14
+        },
+        {
+          "label": "Hispanic",
+          "value": 194
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 100
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4512
+        }
+      ]
+    },
+    "Divide County, North Dakota": {
+      "label": "Divide County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 16
+        },
+        {
+          "label": "Asian",
+          "value": 7
+        },
+        {
+          "label": "Black or African American",
+          "value": 77
+        },
+        {
+          "label": "Hispanic",
+          "value": 121
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 100
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1853
+        }
+      ]
+    },
+    "Dunn County, North Dakota": {
+      "label": "Dunn County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 414
+        },
+        {
+          "label": "Asian",
+          "value": 26
+        },
+        {
+          "label": "Black or African American",
+          "value": 22
+        },
+        {
+          "label": "Hispanic",
+          "value": 151
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 188
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3236
+        }
+      ]
+    },
+    "Eddy County, North Dakota": {
+      "label": "Eddy County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 87
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 91
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 1
+        },
+        {
+          "label": "Two or More Races",
+          "value": 75
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2065
+        }
+      ]
+    },
+    "Emmons County, North Dakota": {
+      "label": "Emmons County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 18
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 31
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 100
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3080
+        }
+      ]
+    },
+    "Foster County, North Dakota": {
+      "label": "Foster County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 8
+        },
+        {
+          "label": "Asian",
+          "value": 45
+        },
+        {
+          "label": "Black or African American",
+          "value": 12
+        },
+        {
+          "label": "Hispanic",
+          "value": 28
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 7
+        },
+        {
+          "label": "Two or More Races",
+          "value": 92
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3168
+        }
+      ]
+    },
+    "Golden Valley County, North Dakota": {
+      "label": "Golden Valley County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 1
+        },
+        {
+          "label": "Hispanic",
+          "value": 27
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 129
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1513
+        }
+      ]
+    },
+    "Grand Forks County, North Dakota": {
+      "label": "Grand Forks County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1251
+        },
+        {
+          "label": "Asian",
+          "value": 1958
+        },
+        {
+          "label": "Black or African American",
+          "value": 2481
+        },
+        {
+          "label": "Hispanic",
+          "value": 3783
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 362
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2951
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 59797
+        }
+      ]
+    },
+    "Grant County, North Dakota": {
+      "label": "Grant County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 31
+        },
+        {
+          "label": "Asian",
+          "value": 59
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 21
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 40
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2119
+        }
+      ]
+    },
+    "Griggs County, North Dakota": {
+      "label": "Griggs County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 27
+        },
+        {
+          "label": "Hispanic",
+          "value": 30
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 64
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2207
+        }
+      ]
+    },
+    "Hettinger County, North Dakota": {
+      "label": "Hettinger County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 56
+        },
+        {
+          "label": "Asian",
+          "value": 8
+        },
+        {
+          "label": "Black or African American",
+          "value": 8
+        },
+        {
+          "label": "Hispanic",
+          "value": 3
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 49
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2325
+        }
+      ]
+    },
+    "Kidder County, North Dakota": {
+      "label": "Kidder County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 23
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 5
+        },
+        {
+          "label": "Hispanic",
+          "value": 69
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 29
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2248
+        }
+      ]
+    },
+    "LaMoure County, North Dakota": {
+      "label": "LaMoure County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 4
+        },
+        {
+          "label": "Black or African American",
+          "value": 5
+        },
+        {
+          "label": "Hispanic",
+          "value": 82
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 68
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3930
+        }
+      ]
+    },
+    "Logan County, North Dakota": {
+      "label": "Logan County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 1
+        },
+        {
+          "label": "Hispanic",
+          "value": 58
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 75
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1713
+        }
+      ]
+    },
+    "McHenry County, North Dakota": {
+      "label": "McHenry County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 29
+        },
+        {
+          "label": "Asian",
+          "value": 26
+        },
+        {
+          "label": "Black or African American",
+          "value": 37
+        },
+        {
+          "label": "Hispanic",
+          "value": 115
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 81
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4971
+        }
+      ]
+    },
+    "McIntosh County, North Dakota": {
+      "label": "McIntosh County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 20
+        },
+        {
+          "label": "Asian",
+          "value": 37
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 74
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 32
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2322
+        }
+      ]
+    },
+    "McKenzie County, North Dakota": {
+      "label": "McKenzie County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1057
+        },
+        {
+          "label": "Asian",
+          "value": 132
+        },
+        {
+          "label": "Black or African American",
+          "value": 306
+        },
+        {
+          "label": "Hispanic",
+          "value": 1602
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 540
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 10643
+        }
+      ]
+    },
+    "McLean County, North Dakota": {
+      "label": "McLean County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 575
+        },
+        {
+          "label": "Asian",
+          "value": 37
+        },
+        {
+          "label": "Black or African American",
+          "value": 16
+        },
+        {
+          "label": "Hispanic",
+          "value": 194
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 25
+        },
+        {
+          "label": "Two or More Races",
+          "value": 281
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8674
+        }
+      ]
+    },
+    "Mercer County, North Dakota": {
+      "label": "Mercer County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 236
+        },
+        {
+          "label": "Asian",
+          "value": 35
+        },
+        {
+          "label": "Black or African American",
+          "value": 50
+        },
+        {
+          "label": "Hispanic",
+          "value": 225
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 152
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7548
+        }
+      ]
+    },
+    "Morton County, North Dakota": {
+      "label": "Morton County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1137
+        },
+        {
+          "label": "Asian",
+          "value": 72
+        },
+        {
+          "label": "Black or African American",
+          "value": 582
+        },
+        {
+          "label": "Hispanic",
+          "value": 1413
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 41
+        },
+        {
+          "label": "Two or More Races",
+          "value": 825
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 29273
+        }
+      ]
+    },
+    "Mountrail County, North Dakota": {
+      "label": "Mountrail County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2721
+        },
+        {
+          "label": "Asian",
+          "value": 70
+        },
+        {
+          "label": "Black or African American",
+          "value": 192
+        },
+        {
+          "label": "Hispanic",
+          "value": 788
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 15
+        },
+        {
+          "label": "Two or More Races",
+          "value": 253
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5528
+        }
+      ]
+    },
+    "Nelson County, North Dakota": {
+      "label": "Nelson County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 26
+        },
+        {
+          "label": "Asian",
+          "value": 31
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 86
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 79
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2792
+        }
+      ]
+    },
+    "Oliver County, North Dakota": {
+      "label": "Oliver County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 33
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 55
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 6
+        },
+        {
+          "label": "Two or More Races",
+          "value": 53
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1674
+        }
+      ]
+    },
+    "Pembina County, North Dakota": {
+      "label": "Pembina County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 79
+        },
+        {
+          "label": "Asian",
+          "value": 21
+        },
+        {
+          "label": "Black or African American",
+          "value": 65
+        },
+        {
+          "label": "Hispanic",
+          "value": 270
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 19
+        },
+        {
+          "label": "Two or More Races",
+          "value": 275
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6043
+        }
+      ]
+    },
+    "Pierce County, North Dakota": {
+      "label": "Pierce County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 136
+        },
+        {
+          "label": "Asian",
+          "value": 30
+        },
+        {
+          "label": "Black or African American",
+          "value": 11
+        },
+        {
+          "label": "Hispanic",
+          "value": 42
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 54
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3688
+        }
+      ]
+    },
+    "Ramsey County, North Dakota": {
+      "label": "Ramsey County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 1094
+        },
+        {
+          "label": "Asian",
+          "value": 101
+        },
+        {
+          "label": "Black or African American",
+          "value": 87
+        },
+        {
+          "label": "Hispanic",
+          "value": 320
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 13
+        },
+        {
+          "label": "Two or More Races",
+          "value": 498
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 9450
+        }
+      ]
+    },
+    "Ransom County, North Dakota": {
+      "label": "Ransom County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 12
+        },
+        {
+          "label": "Asian",
+          "value": 38
+        },
+        {
+          "label": "Black or African American",
+          "value": 49
+        },
+        {
+          "label": "Hispanic",
+          "value": 152
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 173
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 5235
+        }
+      ]
+    },
+    "Renville County, North Dakota": {
+      "label": "Renville County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 9
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 21
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 58
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2189
+        }
+      ]
+    },
+    "Richland County, North Dakota": {
+      "label": "Richland County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 362
+        },
+        {
+          "label": "Asian",
+          "value": 33
+        },
+        {
+          "label": "Black or African American",
+          "value": 152
+        },
+        {
+          "label": "Hispanic",
+          "value": 610
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 41
+        },
+        {
+          "label": "Two or More Races",
+          "value": 485
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 14742
+        }
+      ]
+    },
+    "Rolette County, North Dakota": {
+      "label": "Rolette County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9242
+        },
+        {
+          "label": "Asian",
+          "value": 57
+        },
+        {
+          "label": "Black or African American",
+          "value": 24
+        },
+        {
+          "label": "Hispanic",
+          "value": 128
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 381
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2219
+        }
+      ]
+    },
+    "Sargent County, North Dakota": {
+      "label": "Sargent County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7
+        },
+        {
+          "label": "Asian",
+          "value": 10
+        },
+        {
+          "label": "Black or African American",
+          "value": 94
+        },
+        {
+          "label": "Hispanic",
+          "value": 110
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 142
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3458
+        }
+      ]
+    },
+    "Sheridan County, North Dakota": {
+      "label": "Sheridan County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 11
+        },
+        {
+          "label": "Asian",
+          "value": 12
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 5
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 31
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1268
+        }
+      ]
+    },
+    "Sioux County, North Dakota": {
+      "label": "Sioux County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 3173
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 7
+        },
+        {
+          "label": "Hispanic",
+          "value": 38
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 85
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 461
+        }
+      ]
+    },
+    "Slope County, North Dakota": {
+      "label": "Slope County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 5
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 1
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 39
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 746
+        }
+      ]
+    },
+    "Stark County, North Dakota": {
+      "label": "Stark County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 351
+        },
+        {
+          "label": "Asian",
+          "value": 405
+        },
+        {
+          "label": "Black or African American",
+          "value": 777
+        },
+        {
+          "label": "Hispanic",
+          "value": 2304
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 174
+        },
+        {
+          "label": "Two or More Races",
+          "value": 793
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 28265
+        }
+      ]
+    },
+    "Steele County, North Dakota": {
+      "label": "Steele County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 9
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 5
+        },
+        {
+          "label": "Hispanic",
+          "value": 45
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 43
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1624
+        }
+      ]
+    },
+    "Stutsman County, North Dakota": {
+      "label": "Stutsman County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 253
+        },
+        {
+          "label": "Asian",
+          "value": 108
+        },
+        {
+          "label": "Black or African American",
+          "value": 447
+        },
+        {
+          "label": "Hispanic",
+          "value": 635
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 604
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 19456
+        }
+      ]
+    },
+    "Towner County, North Dakota": {
+      "label": "Towner County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 137
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 11
+        },
+        {
+          "label": "Hispanic",
+          "value": 79
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 104
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1782
+        }
+      ]
+    },
+    "Traill County, North Dakota": {
+      "label": "Traill County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 72
+        },
+        {
+          "label": "Asian",
+          "value": 34
+        },
+        {
+          "label": "Black or African American",
+          "value": 69
+        },
+        {
+          "label": "Hispanic",
+          "value": 299
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3
+        },
+        {
+          "label": "Two or More Races",
+          "value": 292
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 7201
+        }
+      ]
+    },
+    "Walsh County, North Dakota": {
+      "label": "Walsh County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 160
+        },
+        {
+          "label": "Asian",
+          "value": 72
+        },
+        {
+          "label": "Black or African American",
+          "value": 92
+        },
+        {
+          "label": "Hispanic",
+          "value": 1332
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 252
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 8580
+        }
+      ]
+    },
+    "Ward County, North Dakota": {
+      "label": "Ward County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 838
+        },
+        {
+          "label": "Asian",
+          "value": 962
+        },
+        {
+          "label": "Black or African American",
+          "value": 2697
+        },
+        {
+          "label": "Hispanic",
+          "value": 4800
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 61
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3596
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 56026
+        }
+      ]
+    },
+    "Wells County, North Dakota": {
+      "label": "Wells County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 18
+        },
+        {
+          "label": "Asian",
+          "value": 8
+        },
+        {
+          "label": "Black or African American",
+          "value": 0
+        },
+        {
+          "label": "Hispanic",
+          "value": 50
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 87
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3769
+        }
+      ]
+    },
+    "Williams County, North Dakota": {
+      "label": "Williams County, North Dakota",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 785
+        },
+        {
+          "label": "Asian",
+          "value": 460
+        },
+        {
+          "label": "Black or African American",
+          "value": 2059
+        },
+        {
+          "label": "Hispanic",
+          "value": 3806
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 49
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1860
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 30191
+        }
+      ]
+    }
+  }
+}

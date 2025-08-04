@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Race/Ethnicity in State 28</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 2rem;
+        }
+        canvas {
+          max-width: 500px;
+          margin: 1rem auto;
+        }
+        select {
+          font-size: 1rem;
+          padding: 0.4rem;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h2>Race &amp; Ethnicity Distribution</h2>
+    <label>Select County:</label>
+    <select id="countySelect"><option value="Statewide">Statewide</option>
+<option value="Adams County, Mississippi">Adams County, Mississippi</option>
+<option value="Alcorn County, Mississippi">Alcorn County, Mississippi</option>
+<option value="Amite County, Mississippi">Amite County, Mississippi</option>
+<option value="Attala County, Mississippi">Attala County, Mississippi</option>
+<option value="Benton County, Mississippi">Benton County, Mississippi</option>
+<option value="Bolivar County, Mississippi">Bolivar County, Mississippi</option>
+<option value="Calhoun County, Mississippi">Calhoun County, Mississippi</option>
+<option value="Carroll County, Mississippi">Carroll County, Mississippi</option>
+<option value="Chickasaw County, Mississippi">Chickasaw County, Mississippi</option>
+<option value="Choctaw County, Mississippi">Choctaw County, Mississippi</option>
+<option value="Claiborne County, Mississippi">Claiborne County, Mississippi</option>
+<option value="Clarke County, Mississippi">Clarke County, Mississippi</option>
+<option value="Clay County, Mississippi">Clay County, Mississippi</option>
+<option value="Coahoma County, Mississippi">Coahoma County, Mississippi</option>
+<option value="Copiah County, Mississippi">Copiah County, Mississippi</option>
+<option value="Covington County, Mississippi">Covington County, Mississippi</option>
+<option value="DeSoto County, Mississippi">DeSoto County, Mississippi</option>
+<option value="Forrest County, Mississippi">Forrest County, Mississippi</option>
+<option value="Franklin County, Mississippi">Franklin County, Mississippi</option>
+<option value="George County, Mississippi">George County, Mississippi</option>
+<option value="Greene County, Mississippi">Greene County, Mississippi</option>
+<option value="Grenada County, Mississippi">Grenada County, Mississippi</option>
+<option value="Hancock County, Mississippi">Hancock County, Mississippi</option>
+<option value="Harrison County, Mississippi">Harrison County, Mississippi</option>
+<option value="Hinds County, Mississippi">Hinds County, Mississippi</option>
+<option value="Holmes County, Mississippi">Holmes County, Mississippi</option>
+<option value="Humphreys County, Mississippi">Humphreys County, Mississippi</option>
+<option value="Issaquena County, Mississippi">Issaquena County, Mississippi</option>
+<option value="Itawamba County, Mississippi">Itawamba County, Mississippi</option>
+<option value="Jackson County, Mississippi">Jackson County, Mississippi</option>
+<option value="Jasper County, Mississippi">Jasper County, Mississippi</option>
+<option value="Jefferson County, Mississippi">Jefferson County, Mississippi</option>
+<option value="Jefferson Davis County, Mississippi">Jefferson Davis County, Mississippi</option>
+<option value="Jones County, Mississippi">Jones County, Mississippi</option>
+<option value="Kemper County, Mississippi">Kemper County, Mississippi</option>
+<option value="Lafayette County, Mississippi">Lafayette County, Mississippi</option>
+<option value="Lamar County, Mississippi">Lamar County, Mississippi</option>
+<option value="Lauderdale County, Mississippi">Lauderdale County, Mississippi</option>
+<option value="Lawrence County, Mississippi">Lawrence County, Mississippi</option>
+<option value="Leake County, Mississippi">Leake County, Mississippi</option>
+<option value="Lee County, Mississippi">Lee County, Mississippi</option>
+<option value="Leflore County, Mississippi">Leflore County, Mississippi</option>
+<option value="Lincoln County, Mississippi">Lincoln County, Mississippi</option>
+<option value="Lowndes County, Mississippi">Lowndes County, Mississippi</option>
+<option value="Madison County, Mississippi">Madison County, Mississippi</option>
+<option value="Marion County, Mississippi">Marion County, Mississippi</option>
+<option value="Marshall County, Mississippi">Marshall County, Mississippi</option>
+<option value="Monroe County, Mississippi">Monroe County, Mississippi</option>
+<option value="Montgomery County, Mississippi">Montgomery County, Mississippi</option>
+<option value="Neshoba County, Mississippi">Neshoba County, Mississippi</option>
+<option value="Newton County, Mississippi">Newton County, Mississippi</option>
+<option value="Noxubee County, Mississippi">Noxubee County, Mississippi</option>
+<option value="Oktibbeha County, Mississippi">Oktibbeha County, Mississippi</option>
+<option value="Panola County, Mississippi">Panola County, Mississippi</option>
+<option value="Pearl River County, Mississippi">Pearl River County, Mississippi</option>
+<option value="Perry County, Mississippi">Perry County, Mississippi</option>
+<option value="Pike County, Mississippi">Pike County, Mississippi</option>
+<option value="Pontotoc County, Mississippi">Pontotoc County, Mississippi</option>
+<option value="Prentiss County, Mississippi">Prentiss County, Mississippi</option>
+<option value="Quitman County, Mississippi">Quitman County, Mississippi</option>
+<option value="Rankin County, Mississippi">Rankin County, Mississippi</option>
+<option value="Scott County, Mississippi">Scott County, Mississippi</option>
+<option value="Sharkey County, Mississippi">Sharkey County, Mississippi</option>
+<option value="Simpson County, Mississippi">Simpson County, Mississippi</option>
+<option value="Smith County, Mississippi">Smith County, Mississippi</option>
+<option value="Stone County, Mississippi">Stone County, Mississippi</option>
+<option value="Sunflower County, Mississippi">Sunflower County, Mississippi</option>
+<option value="Tallahatchie County, Mississippi">Tallahatchie County, Mississippi</option>
+<option value="Tate County, Mississippi">Tate County, Mississippi</option>
+<option value="Tippah County, Mississippi">Tippah County, Mississippi</option>
+<option value="Tishomingo County, Mississippi">Tishomingo County, Mississippi</option>
+<option value="Tunica County, Mississippi">Tunica County, Mississippi</option>
+<option value="Union County, Mississippi">Union County, Mississippi</option>
+<option value="Walthall County, Mississippi">Walthall County, Mississippi</option>
+<option value="Warren County, Mississippi">Warren County, Mississippi</option>
+<option value="Washington County, Mississippi">Washington County, Mississippi</option>
+<option value="Wayne County, Mississippi">Wayne County, Mississippi</option>
+<option value="Webster County, Mississippi">Webster County, Mississippi</option>
+<option value="Wilkinson County, Mississippi">Wilkinson County, Mississippi</option>
+<option value="Winston County, Mississippi">Winston County, Mississippi</option>
+<option value="Yalobusha County, Mississippi">Yalobusha County, Mississippi</option>
+<option value="Yazoo County, Mississippi">Yazoo County, Mississippi</option></select>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+    <script>const raceData = {"Statewide":{"American Indian / Alaska Native":0.35,"Asian":0.96,"Black or African American":36.87,"Hispanic":3.6,"Pacific Islander":0.04,"Two or More Races":2.42,"White (non-Hispanic)":55.44},"Adams County, Mississippi":{"American Indian / Alaska Native":0.25,"Asian":0.27,"Black or African American":55.47,"Hispanic":4.09,"Pacific Islander":0,"Two or More Races":1.39,"White (non-Hispanic)":37.41},"Alcorn County, Mississippi":{"American Indian / Alaska Native":0.08,"Asian":0.05,"Black or African American":10.6,"Hispanic":3.69,"Pacific Islander":0.17,"Two or More Races":4.97,"White (non-Hispanic)":80.31},"Amite County, Mississippi":{"American Indian / Alaska Native":0.1,"Asian":0.03,"Black or African American":40.07,"Hispanic":0.06,"Pacific Islander":0,"Two or More Races":1.24,"White (non-Hispanic)":58.3},"Attala County, Mississippi":{"American Indian / Alaska Native":0.05,"Asian":0.26,"Black or African American":45.39,"Hispanic":0.49,"Pacific Islander":0,"Two or More Races":1.65,"White (non-Hispanic)":52.16},"Benton County, Mississippi":{"American Indian / Alaska Native":0.05,"Asian":0.41,"Black or African American":34.25,"Hispanic":2.23,"Pacific Islander":0.09,"Two or More Races":2.29,"White (non-Hispanic)":60.63},"Bolivar County, Mississippi":{"American Indian / Alaska Native":0,"Asian":0.95,"Black or African American":63.23,"Hispanic":2.54,"Pacific Islander":0,"Two or More Races":2.34,"White (non-Hispanic)":30.63},"Calhoun County, Mississippi":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":28.74,"Hispanic":5.93,"Pacific Islander":0,"Two or More Races":1.25,"White (non-Hispanic)":64.03},"Carroll County, Mississippi":{"American Indian / Alaska Native":0,"Asian":0.4,"Black or African American":34.47,"Hispanic":0.24,"Pacific Islander":0,"Two or More Races":1.78,"White (non-Hispanic)":62.98},"Chickasaw County, Mississippi":{"American Indian / Alaska Native":0.02,"Asian":0.52,"Black or African American":44.42,"Hispanic":4.05,"Pacific Islander":0,"Two or More Races":1.54,"White (non-Hispanic)":49.45},"Choctaw County, Mississippi":{"American Indian / Alaska Native":0.16,"Asian":0.54,"Black or African American":29.31,"Hispanic":1.76,"Pacific Islander":0,"Two or More Races":0.99,"White (non-Hispanic)":67.01},"Claiborne County, Mississippi":{"American Indian / Alaska Native":0,"Asian":0.15,"Black or African American":86.06,"Hispanic":0.22,"Pacific Islander":0,"Two or More Races":2.71,"White (non-Hispanic)":10.81},"Clarke County, Mississippi":{"American Indian / Alaska Native":0.05,"Asian":0.13,"Black or African American":34.36,"Hispanic":1,"Pacific Islander":0,"Two or More Races":1.56,"White (non-Hispanic)":62.9},"Clay County, Mississippi":{"American Indian / Alaska Native":0.02,"Asian":0.32,"Black or African American":60.1,"Hispanic":0.17,"Pacific Islander":0,"Two or More Races":1.53,"White (non-Hispanic)":37.87},"Coahoma County, Mississippi":{"American Indian / Alaska Native":0.45,"Asian":0.25,"Black or African American":75.86,"Hispanic":2.13,"Pacific Islander":0,"Two or More Races":1.9,"White (non-Hispanic)":19.33},"Copiah County, Mississippi":{"American Indian / Alaska Native":0.01,"Asian":0.22,"Black or African American":50.71,"Hispanic":4.11,"Pacific Islander":0,"Two or More Races":1.16,"White (non-Hispanic)":43.19},"Covington County, Mississippi":{"American Indian / Alaska Native":0.03,"Asian":0.33,"Black or African American":34.64,"Hispanic":2.55,"Pacific Islander":0.28,"Two or More Races":2.66,"White (non-Hispanic)":59.35},"DeSoto County, Mississippi":{"American Indian / Alaska Native":0.07,"Asian":1.35,"Black or African American":31.81,"Hispanic":5.63,"Pacific Islander":0,"Two or More Races":2.89,"White (non-Hispanic)":58.04},"Forrest County, Mississippi":{"American Indian / Alaska Native":0.08,"Asian":0.77,"Black or African American":35.72,"Hispanic":4.18,"Pacific Islander":0.21,"Two or More Races":2.89,"White (non-Hispanic)":55.97},"Franklin County, Mississippi":{"American Indian / Alaska Native":0.13,"Asian":0,"Black or African American":34.98,"Hispanic":0.91,"Pacific Islander":0,"Two or More Races":1.28,"White (non-Hispanic)":62.56},"George County, Mississippi":{"American Indian / Alaska Native":0.08,"Asian":0.27,"Black or African American":7.77,"Hispanic":3,"Pacific Islander":0,"Two or More Races":2.87,"White (non-Hispanic)":84.89},"Greene County, Mississippi":{"American Indian / Alaska Native":0.83,"Asian":0.01,"Black or African American":24.83,"Hispanic":1.33,"Pacific Islander":0,"Two or More Races":1.88,"White (non-Hispanic)":71.13},"Grenada County, Mississippi":{"American Indian / Alaska Native":0.04,"Asian":0.09,"Black or African American":44.79,"Hispanic":0.3,"Pacific Islander":0,"Two or More Races":2.98,"White (non-Hispanic)":51.08},"Hancock County, Mississippi":{"American Indian / Alaska Native":0.35,"Asian":0.62,"Black or African American":6.7,"Hispanic":4.18,"Pacific Islander":0,"Two or More Races":3.98,"White (non-Hispanic)":83.58},"Harrison County, Mississippi":{"American Indian / Alaska Native":0.13,"Asian":2.35,"Black or African American":23.94,"Hispanic":6.7,"Pacific Islander":0.04,"Two or More Races":5.15,"White (non-Hispanic)":61.37},"Hinds County, Mississippi":{"American Indian / Alaska Native":0.07,"Asian":0.8,"Black or African American":72.17,"Hispanic":2.02,"Pacific Islander":0.01,"Two or More Races":1.57,"White (non-Hispanic)":23.2},"Holmes County, Mississippi":{"American Indian / Alaska Native":0.11,"Asian":0.23,"Black or African American":82.41,"Hispanic":0.43,"Pacific Islander":0.02,"Two or More Races":2.55,"White (non-Hispanic)":14.24},"Humphreys County, Mississippi":{"American Indian / Alaska Native":0.09,"Asian":0.16,"Black or African American":78.81,"Hispanic":0.07,"Pacific Islander":0,"Two or More Races":0.55,"White (non-Hispanic)":20.32},"Issaquena County, Mississippi":{"American Indian / Alaska Native":0,"Asian":0.37,"Black or African American":70.14,"Hispanic":1.28,"Pacific Islander":0,"Two or More Races":1.64,"White (non-Hispanic)":26.58},"Itawamba County, Mississippi":{"American Indian / Alaska Native":0.06,"Asian":0.47,"Black or African American":7.8,"Hispanic":1.83,"Pacific Islander":0.03,"Two or More Races":1.05,"White (non-Hispanic)":88.61},"Jackson County, Mississippi":{"American Indian / Alaska Native":0.15,"Asian":2.11,"Black or African American":20.41,"Hispanic":7.31,"Pacific Islander":0.02,"Two or More Races":3.04,"White (non-Hispanic)":66.49},"Jasper County, Mississippi":{"American Indian / Alaska Native":0,"Asian":0.01,"Black or African American":53.24,"Hispanic":0.61,"Pacific Islander":0,"Two or More Races":1.49,"White (non-Hispanic)":44.65},"Jefferson County, Mississippi":{"American Indian / Alaska Native":0.08,"Asian":0.8,"Black or African American":81,"Hispanic":4.35,"Pacific Islander":0,"Two or More Races":0.55,"White (non-Hispanic)":13.22},"Jefferson Davis County, Mississippi":{"American Indian / Alaska Native":0.04,"Asian":0.04,"Black or African American":60.17,"Hispanic":0.17,"Pacific Islander":0,"Two or More Races":1.69,"White (non-Hispanic)":37.89},"Jones County, Mississippi":{"American Indian / Alaska Native":0.28,"Asian":0.38,"Black or African American":28.51,"Hispanic":6.09,"Pacific Islander":0,"Two or More Races":1.52,"White (non-Hispanic)":63.14},"Kemper County, Mississippi":{"American Indian / Alaska Native":3.53,"Asian":0.03,"Black or African American":60.44,"Hispanic":0.72,"Pacific Islander":0,"Two or More Races":1.85,"White (non-Hispanic)":33.42},"Lafayette County, Mississippi":{"American Indian / Alaska Native":0.12,"Asian":2.23,"Black or African American":23.05,"Hispanic":3.62,"Pacific Islander":0,"Two or More Races":2.11,"White (non-Hispanic)":68.69},"Lamar County, Mississippi":{"American Indian / Alaska Native":0.08,"Asian":0.95,"Black or African American":21.56,"Hispanic":3.64,"Pacific Islander":0,"Two or More Races":2.16,"White (non-Hispanic)":71.37},"Lauderdale County, Mississippi":{"American Indian / Alaska Native":0.2,"Asian":0.74,"Black or African American":41.9,"Hispanic":2.48,"Pacific Islander":0.02,"Two or More Races":3.29,"White (non-Hispanic)":50.73},"Lawrence County, Mississippi":{"American Indian / Alaska Native":0.37,"Asian":0.3,"Black or African American":31.77,"Hispanic":2.06,"Pacific Islander":0,"Two or More Races":1.46,"White (non-Hispanic)":64.01},"Leake County, Mississippi":{"American Indian / Alaska Native":5.93,"Asian":0.45,"Black or African American":39.05,"Hispanic":5.92,"Pacific Islander":0,"Two or More Races":1.87,"White (non-Hispanic)":46.68},"Lee County, Mississippi":{"American Indian / Alaska Native":0.02,"Asian":1.07,"Black or African American":29.86,"Hispanic":3.41,"Pacific Islander":0.26,"Two or More Races":2.21,"White (non-Hispanic)":62.93},"Leflore County, Mississippi":{"American Indian / Alaska Native":0.07,"Asian":0.52,"Black or African American":74.48,"Hispanic":3.05,"Pacific Islander":0,"Two or More Races":0.55,"White (non-Hispanic)":21.02},"Lincoln County, Mississippi":{"American Indian / Alaska Native":0.07,"Asian":0.53,"Black or African American":30.21,"Hispanic":1.27,"Pacific Islander":0.01,"Two or More Races":0.82,"White (non-Hispanic)":67.05},"Lowndes County, Mississippi":{"American Indian / Alaska Native":0.23,"Asian":1.03,"Black or African American":43.79,"Hispanic":2.24,"Pacific Islander":0,"Two or More Races":2.26,"White (non-Hispanic)":49.76},"Madison County, Mississippi":{"American Indian / Alaska Native":0.05,"Asian":2.77,"Black or African American":37.33,"Hispanic":3.75,"Pacific Islander":0.04,"Two or More Races":1.4,"White (non-Hispanic)":54.36},"Marion County, Mississippi":{"American Indian / Alaska Native":0.27,"Asian":0.09,"Black or African American":31.85,"Hispanic":1.77,"Pacific Islander":0,"Two or More Races":1.88,"White (non-Hispanic)":63.44},"Marshall County, Mississippi":{"American Indian / Alaska Native":0.17,"Asian":0.16,"Black or African American":43.61,"Hispanic":4.81,"Pacific Islander":0.05,"Two or More Races":3.59,"White (non-Hispanic)":46.94},"Monroe County, Mississippi":{"American Indian / Alaska Native":0.03,"Asian":0.26,"Black or African American":30.19,"Hispanic":1.51,"Pacific Islander":0.04,"Two or More Races":1.42,"White (non-Hispanic)":66.47},"Montgomery County, Mississippi":{"American Indian / Alaska Native":0,"Asian":0.03,"Black or African American":45.21,"Hispanic":0.28,"Pacific Islander":0,"Two or More Races":2.25,"White (non-Hispanic)":52.24},"Neshoba County, Mississippi":{"American Indian / Alaska Native":15.92,"Asian":0.6,"Black or African American":21.44,"Hispanic":0.88,"Pacific Islander":0,"Two or More Races":2.69,"White (non-Hispanic)":57.65},"Newton County, Mississippi":{"American Indian / Alaska Native":2.43,"Asian":0.43,"Black or African American":31.71,"Hispanic":1.82,"Pacific Islander":0,"Two or More Races":1.69,"White (non-Hispanic)":58.84},"Noxubee County, Mississippi":{"American Indian / Alaska Native":0.27,"Asian":0.03,"Black or African American":73.85,"Hispanic":0.19,"Pacific Islander":0,"Two or More Races":0.25,"White (non-Hispanic)":25.34},"Oktibbeha County, Mississippi":{"American Indian / Alaska Native":0.17,"Asian":2.87,"Black or African American":36.08,"Hispanic":2.37,"Pacific Islander":0.03,"Two or More Races":3.16,"White (non-Hispanic)":55.2},"Panola County, Mississippi":{"American Indian / Alaska Native":0.06,"Asian":0.35,"Black or African American":48.01,"Hispanic":2.04,"Pacific Islander":0.35,"Two or More Races":2.43,"White (non-Hispanic)":46.72},"Pearl River County, Mississippi":{"American Indian / Alaska Native":0.1,"Asian":0.39,"Black or African American":12.33,"Hispanic":4.11,"Pacific Islander":0,"Two or More Races":3.16,"White (non-Hispanic)":79.25},"Perry County, Mississippi":{"American Indian / Alaska Native":0.02,"Asian":2.31,"Black or African American":15.82,"Hispanic":1.75,"Pacific Islander":0.16,"Two or More Races":2.57,"White (non-Hispanic)":77.36},"Pike County, Mississippi":{"American Indian / Alaska Native":0.41,"Asian":0.56,"Black or African American":54.05,"Hispanic":1.64,"Pacific Islander":0,"Two or More Races":1.58,"White (non-Hispanic)":41.71},"Pontotoc County, Mississippi":{"American Indian / Alaska Native":0.06,"Asian":0,"Black or African American":14.74,"Hispanic":6.86,"Pacific Islander":0,"Two or More Races":3.2,"White (non-Hispanic)":74.79},"Prentiss County, Mississippi":{"American Indian / Alaska Native":0.16,"Asian":2.42,"Black or African American":11.42,"Hispanic":1.51,"Pacific Islander":0,"Two or More Races":3.63,"White (non-Hispanic)":79.87},"Quitman County, Mississippi":{"American Indian / Alaska Native":0.29,"Asian":0.15,"Black or African American":71.9,"Hispanic":0.44,"Pacific Islander":0,"Two or More Races":2.35,"White (non-Hispanic)":24.86},"Rankin County, Mississippi":{"American Indian / Alaska Native":0.11,"Asian":1.13,"Black or African American":21.62,"Hispanic":3.21,"Pacific Islander":0.11,"Two or More Races":1.89,"White (non-Hispanic)":71.55},"Scott County, Mississippi":{"American Indian / Alaska Native":0,"Asian":0.16,"Black or African American":33.48,"Hispanic":14.84,"Pacific Islander":0.37,"Two or More Races":3.93,"White (non-Hispanic)":46.76},"Sharkey County, Mississippi":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":73.67,"Hispanic":0.52,"Pacific Islander":0,"Two or More Races":0.23,"White (non-Hispanic)":25.57},"Simpson County, Mississippi":{"American Indian / Alaska Native":0.16,"Asian":0.46,"Black or African American":35.47,"Hispanic":1.69,"Pacific Islander":0,"Two or More Races":1.14,"White (non-Hispanic)":61.08},"Smith County, Mississippi":{"American Indian / Alaska Native":0,"Asian":0.18,"Black or African American":24.1,"Hispanic":0.66,"Pacific Islander":0,"Two or More Races":1.51,"White (non-Hispanic)":73.32},"Stone County, Mississippi":{"American Indian / Alaska Native":0.09,"Asian":0.41,"Black or African American":17.54,"Hispanic":2.46,"Pacific Islander":0,"Two or More Races":3.68,"White (non-Hispanic)":75.66},"Sunflower County, Mississippi":{"American Indian / Alaska Native":0.2,"Asian":0.17,"Black or African American":73,"Hispanic":2.55,"Pacific Islander":0,"Two or More Races":0.72,"White (non-Hispanic)":23.25},"Tallahatchie County, Mississippi":{"American Indian / Alaska Native":0.28,"Asian":0.04,"Black or African American":62.02,"Hispanic":0.52,"Pacific Islander":0,"Two or More Races":1.13,"White (non-Hispanic)":36.01},"Tate County, Mississippi":{"American Indian / Alaska Native":0.02,"Asian":0.07,"Black or African American":29.9,"Hispanic":3.08,"Pacific Islander":0.01,"Two or More Races":2.38,"White (non-Hispanic)":64.12},"Tippah County, Mississippi":{"American Indian / Alaska Native":0,"Asian":0.17,"Black or African American":14.72,"Hispanic":5.07,"Pacific Islander":0.06,"Two or More Races":3.66,"White (non-Hispanic)":75.95},"Tishomingo County, Mississippi":{"American Indian / Alaska Native":0.6,"Asian":0.3,"Black or African American":1.13,"Hispanic":3.08,"Pacific Islander":0,"Two or More Races":3.44,"White (non-Hispanic)":90.97},"Tunica County, Mississippi":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":79.3,"Hispanic":2.4,"Pacific Islander":0,"Two or More Races":0.08,"White (non-Hispanic)":18.21},"Union County, Mississippi":{"American Indian / Alaska Native":0.11,"Asian":0.11,"Black or African American":16.14,"Hispanic":4.79,"Pacific Islander":0,"Two or More Races":1.4,"White (non-Hispanic)":76.74},"Walthall County, Mississippi":{"American Indian / Alaska Native":0.23,"Asian":0.24,"Black or African American":40.84,"Hispanic":1.79,"Pacific Islander":0,"Two or More Races":3.86,"White (non-Hispanic)":53.04},"Warren County, Mississippi":{"American Indian / Alaska Native":0.04,"Asian":0.69,"Black or African American":48.84,"Hispanic":2.06,"Pacific Islander":0,"Two or More Races":1.65,"White (non-Hispanic)":46.49},"Washington County, Mississippi":{"American Indian / Alaska Native":0.07,"Asian":0.8,"Black or African American":72.03,"Hispanic":1.5,"Pacific Islander":0,"Two or More Races":1.36,"White (non-Hispanic)":24.09},"Wayne County, Mississippi":{"American Indian / Alaska Native":0.03,"Asian":0.1,"Black or African American":37.15,"Hispanic":3.79,"Pacific Islander":0,"Two or More Races":1.59,"White (non-Hispanic)":56.69},"Webster County, Mississippi":{"American Indian / Alaska Native":0.16,"Asian":0.52,"Black or African American":18.56,"Hispanic":1.79,"Pacific Islander":0,"Two or More Races":0.89,"White (non-Hispanic)":78.04},"Wilkinson County, Mississippi":{"American Indian / Alaska Native":0,"Asian":0,"Black or African American":67.19,"Hispanic":0.9,"Pacific Islander":0,"Two or More Races":2.17,"White (non-Hispanic)":27.78},"Winston County, Mississippi":{"American Indian / Alaska Native":1.13,"Asian":0.07,"Black or African American":47.24,"Hispanic":0.52,"Pacific Islander":0,"Two or More Races":1.54,"White (non-Hispanic)":49.5},"Yalobusha County, Mississippi":{"American Indian / Alaska Native":0.44,"Asian":0.14,"Black or African American":36.63,"Hispanic":1.62,"Pacific Islander":0,"Two or More Races":3.5,"White (non-Hispanic)":57.67},"Yazoo County, Mississippi":{"American Indian / Alaska Native":0.24,"Asian":0.05,"Black or African American":57.65,"Hispanic":5.35,"Pacific Islander":0,"Two or More Races":1.76,"White (non-Hispanic)":34.95}};
+const raceLabels = ["American Indian / Alaska Native","Asian","Black or African American","Hispanic","Pacific Islander","Two or More Races","White (non-Hispanic)"];
+
+const ctx = document.getElementById('pieChart').getContext('2d');
+let chart;
+
+function renderChart(values) {
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: raceLabels,
+      datasets: [{
+        data: values,
+        backgroundColor: ['#f94144','#f3722c','#f9c74f','#90be6d','#43aa8b','#577590','#d0cde1']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 14
+            },
+            boxWidth: 20,
+            padding: 15,
+            usePointStyle: true,
+            pointStyle: 'rectRounded'
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.parsed + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  const selected = this.value;
+  renderChart(Object.values(raceData[selected]));
+});
+
+renderChart(Object.values(raceData['Statewide']));</script>
+  </body>
+</html>
+</html>

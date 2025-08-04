@@ -1,0 +1,599 @@
+{
+  "state": "Churchill County",
+  "areas": {
+    "1": {
+      "label": "Entire State",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 19877
+        },
+        {
+          "label": "Asian",
+          "value": 268095
+        },
+        {
+          "label": "Black or African American",
+          "value": 284276
+        },
+        {
+          "label": "Hispanic",
+          "value": 917057
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 20812
+        },
+        {
+          "label": "Two or More Races",
+          "value": 170501
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1443407
+        }
+      ]
+    },
+    "Carson City, Nevada": {
+      "label": "Carson City, Nevada",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 847
+        },
+        {
+          "label": "Asian",
+          "value": 1511
+        },
+        {
+          "label": "Black or African American",
+          "value": 1124
+        },
+        {
+          "label": "Hispanic",
+          "value": 15105
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 26
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2834
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 36868
+        }
+      ]
+    },
+    "Churchill County, Nevada": {
+      "label": "Churchill County, Nevada",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 793
+        },
+        {
+          "label": "Asian",
+          "value": 543
+        },
+        {
+          "label": "Black or African American",
+          "value": 464
+        },
+        {
+          "label": "Hispanic",
+          "value": 3796
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 63
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1596
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 18313
+        }
+      ]
+    },
+    "Clark County, Nevada": {
+      "label": "Clark County, Nevada",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 7819
+        },
+        {
+          "label": "Asian",
+          "value": 235029
+        },
+        {
+          "label": "Black or African American",
+          "value": 267567
+        },
+        {
+          "label": "Hispanic",
+          "value": 721337
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 17068
+        },
+        {
+          "label": "Two or More Races",
+          "value": 128563
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 903460
+        }
+      ]
+    },
+    "Douglas County, Nevada": {
+      "label": "Douglas County, Nevada",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 546
+        },
+        {
+          "label": "Asian",
+          "value": 1309
+        },
+        {
+          "label": "Black or African American",
+          "value": 35
+        },
+        {
+          "label": "Hispanic",
+          "value": 6329
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 54
+        },
+        {
+          "label": "Two or More Races",
+          "value": 1964
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 38785
+        }
+      ]
+    },
+    "Elko County, Nevada": {
+      "label": "Elko County, Nevada",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 2057
+        },
+        {
+          "label": "Asian",
+          "value": 734
+        },
+        {
+          "label": "Black or African American",
+          "value": 456
+        },
+        {
+          "label": "Hispanic",
+          "value": 13821
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 80
+        },
+        {
+          "label": "Two or More Races",
+          "value": 2473
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 33773
+        }
+      ]
+    },
+    "Esmeralda County, Nevada": {
+      "label": "Esmeralda County, Nevada",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 15
+        },
+        {
+          "label": "Asian",
+          "value": 13
+        },
+        {
+          "label": "Black or African American",
+          "value": 3
+        },
+        {
+          "label": "Hispanic",
+          "value": 254
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 23
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 627
+        }
+      ]
+    },
+    "Eureka County, Nevada": {
+      "label": "Eureka County, Nevada",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 39
+        },
+        {
+          "label": "Asian",
+          "value": 55
+        },
+        {
+          "label": "Black or African American",
+          "value": 2
+        },
+        {
+          "label": "Hispanic",
+          "value": 49
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 133
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 1382
+        }
+      ]
+    },
+    "Humboldt County, Nevada": {
+      "label": "Humboldt County, Nevada",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 500
+        },
+        {
+          "label": "Asian",
+          "value": 233
+        },
+        {
+          "label": "Black or African American",
+          "value": 118
+        },
+        {
+          "label": "Hispanic",
+          "value": 4650
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 20
+        },
+        {
+          "label": "Two or More Races",
+          "value": 504
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 11195
+        }
+      ]
+    },
+    "Lander County, Nevada": {
+      "label": "Lander County, Nevada",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 128
+        },
+        {
+          "label": "Asian",
+          "value": 17
+        },
+        {
+          "label": "Black or African American",
+          "value": 8
+        },
+        {
+          "label": "Hispanic",
+          "value": 1266
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 316
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4010
+        }
+      ]
+    },
+    "Lincoln County, Nevada": {
+      "label": "Lincoln County, Nevada",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 159
+        },
+        {
+          "label": "Asian",
+          "value": 0
+        },
+        {
+          "label": "Black or African American",
+          "value": 186
+        },
+        {
+          "label": "Hispanic",
+          "value": 235
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 2
+        },
+        {
+          "label": "Two or More Races",
+          "value": 98
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3772
+        }
+      ]
+    },
+    "Lyon County, Nevada": {
+      "label": "Lyon County, Nevada",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 967
+        },
+        {
+          "label": "Asian",
+          "value": 830
+        },
+        {
+          "label": "Black or African American",
+          "value": 597
+        },
+        {
+          "label": "Hispanic",
+          "value": 11331
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 66
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3153
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 43483
+        }
+      ]
+    },
+    "Mineral County, Nevada": {
+      "label": "Mineral County, Nevada",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 725
+        },
+        {
+          "label": "Asian",
+          "value": 3
+        },
+        {
+          "label": "Black or African American",
+          "value": 132
+        },
+        {
+          "label": "Hispanic",
+          "value": 829
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 292
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 2574
+        }
+      ]
+    },
+    "Nye County, Nevada": {
+      "label": "Nye County, Nevada",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 527
+        },
+        {
+          "label": "Asian",
+          "value": 1044
+        },
+        {
+          "label": "Black or African American",
+          "value": 1347
+        },
+        {
+          "label": "Hispanic",
+          "value": 8731
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 265
+        },
+        {
+          "label": "Two or More Races",
+          "value": 3771
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 37402
+        }
+      ]
+    },
+    "Pershing County, Nevada": {
+      "label": "Pershing County, Nevada",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 175
+        },
+        {
+          "label": "Asian",
+          "value": 75
+        },
+        {
+          "label": "Black or African American",
+          "value": 270
+        },
+        {
+          "label": "Hispanic",
+          "value": 1514
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 5
+        },
+        {
+          "label": "Two or More Races",
+          "value": 228
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 4199
+        }
+      ]
+    },
+    "Storey County, Nevada": {
+      "label": "Storey County, Nevada",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 0
+        },
+        {
+          "label": "Asian",
+          "value": 42
+        },
+        {
+          "label": "Black or African American",
+          "value": 80
+        },
+        {
+          "label": "Hispanic",
+          "value": 291
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 219
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 3497
+        }
+      ]
+    },
+    "Washoe County, Nevada": {
+      "label": "Washoe County, Nevada",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 4280
+        },
+        {
+          "label": "Asian",
+          "value": 26603
+        },
+        {
+          "label": "Black or African American",
+          "value": 11285
+        },
+        {
+          "label": "Hispanic",
+          "value": 126068
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 3163
+        },
+        {
+          "label": "Two or More Races",
+          "value": 24242
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 293720
+        }
+      ]
+    },
+    "White Pine County, Nevada": {
+      "label": "White Pine County, Nevada",
+      "data": [
+        {
+          "label": "American Indian / Alaska Native",
+          "value": 300
+        },
+        {
+          "label": "Asian",
+          "value": 54
+        },
+        {
+          "label": "Black or African American",
+          "value": 602
+        },
+        {
+          "label": "Hispanic",
+          "value": 1451
+        },
+        {
+          "label": "Pacific Islander",
+          "value": 0
+        },
+        {
+          "label": "Two or More Races",
+          "value": 92
+        },
+        {
+          "label": "White (non-Hispanic)",
+          "value": 6347
+        }
+      ]
+    }
+  }
+}

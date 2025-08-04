@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <meta charset="UTF-8"/>
+  <title>Internet Access Over Time –  Texas</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>body { font-family: sans-serif; margin: 1rem 2rem; text-align: center; }
+                      h2 { margin-bottom: 0.25rem; font-size: 1.6rem; }
+                      select { padding: 0.4rem; font-size: 1rem; margin: 1rem 0; border-radius: 5px; border: 1px solid #999; }
+                      canvas { width: 100%; max-width: 850px; height: 450px; margin-top: 1rem; }</style>
+</head>
+<html>
+  <body>
+    <h2>Internet Access in  Texas (2013–2023)</h2>
+    <label>Select County: </label>
+    <select id="countySelect"><option value='Statewide'>Statewide</option>
+<option value='Angelina County, Texas'>Angelina County, Texas</option>
+<option value='Bastrop County, Texas'>Bastrop County, Texas</option>
+<option value='Bell County, Texas'>Bell County, Texas</option>
+<option value='Bexar County, Texas'>Bexar County, Texas</option>
+<option value='Bowie County, Texas'>Bowie County, Texas</option>
+<option value='Brazoria County, Texas'>Brazoria County, Texas</option>
+<option value='Brazos County, Texas'>Brazos County, Texas</option>
+<option value='Cameron County, Texas'>Cameron County, Texas</option>
+<option value='Collin County, Texas'>Collin County, Texas</option>
+<option value='Comal County, Texas'>Comal County, Texas</option>
+<option value='Coryell County, Texas'>Coryell County, Texas</option>
+<option value='Dallas County, Texas'>Dallas County, Texas</option>
+<option value='Denton County, Texas'>Denton County, Texas</option>
+<option value='Ector County, Texas'>Ector County, Texas</option>
+<option value='El Paso County, Texas'>El Paso County, Texas</option>
+<option value='Ellis County, Texas'>Ellis County, Texas</option>
+<option value='Fort Bend County, Texas'>Fort Bend County, Texas</option>
+<option value='Galveston County, Texas'>Galveston County, Texas</option>
+<option value='Grayson County, Texas'>Grayson County, Texas</option>
+<option value='Gregg County, Texas'>Gregg County, Texas</option>
+<option value='Guadalupe County, Texas'>Guadalupe County, Texas</option>
+<option value='Harris County, Texas'>Harris County, Texas</option>
+<option value='Harrison County, Texas'>Harrison County, Texas</option>
+<option value='Hays County, Texas'>Hays County, Texas</option>
+<option value='Henderson County, Texas'>Henderson County, Texas</option>
+<option value='Hidalgo County, Texas'>Hidalgo County, Texas</option>
+<option value='Hood County, Texas'>Hood County, Texas</option>
+<option value='Hunt County, Texas'>Hunt County, Texas</option>
+<option value='Jefferson County, Texas'>Jefferson County, Texas</option>
+<option value='Johnson County, Texas'>Johnson County, Texas</option>
+<option value='Kaufman County, Texas'>Kaufman County, Texas</option>
+<option value='Liberty County, Texas'>Liberty County, Texas</option>
+<option value='Lubbock County, Texas'>Lubbock County, Texas</option>
+<option value='McLennan County, Texas'>McLennan County, Texas</option>
+<option value='Midland County, Texas'>Midland County, Texas</option>
+<option value='Montgomery County, Texas'>Montgomery County, Texas</option>
+<option value='Nacogdoches County, Texas'>Nacogdoches County, Texas</option>
+<option value='Nueces County, Texas'>Nueces County, Texas</option>
+<option value='Orange County, Texas'>Orange County, Texas</option>
+<option value='Parker County, Texas'>Parker County, Texas</option>
+<option value='Potter County, Texas'>Potter County, Texas</option>
+<option value='Randall County, Texas'>Randall County, Texas</option>
+<option value='Rockwall County, Texas'>Rockwall County, Texas</option>
+<option value='San Patricio County, Texas'>San Patricio County, Texas</option>
+<option value='Smith County, Texas'>Smith County, Texas</option>
+<option value='Starr County, Texas'>Starr County, Texas</option>
+<option value='Tarrant County, Texas'>Tarrant County, Texas</option>
+<option value='Taylor County, Texas'>Taylor County, Texas</option>
+<option value='Tom Green County, Texas'>Tom Green County, Texas</option>
+<option value='Travis County, Texas'>Travis County, Texas</option>
+<option value='Victoria County, Texas'>Victoria County, Texas</option>
+<option value='Walker County, Texas'>Walker County, Texas</option>
+<option value='Webb County, Texas'>Webb County, Texas</option>
+<option value='Wichita County, Texas'>Wichita County, Texas</option>
+<option value='Williamson County, Texas'>Williamson County, Texas</option>
+<option value='Wise County, Texas'>Wise County, Texas</option></select>
+    <canvas id="lineChart" width="850" height="450"></canvas>
+    <script>const internetData = {"Statewide":{"2013":74.4,"2014":75.2,"2015":76.2,"2016":82.2,"2017":84.9,"2018":85.8,"2019":87.5,"2021":91.1,"2022":92.3,"2023":93.2},"Angelina County, Texas":{"2013":68.9,"2014":75.2,"2015":71.2,"2016":80.9,"2017":84.6,"2018":86.9,"2019":87.2,"2021":89.2,"2022":91.7,"2023":91.2},"Bastrop County, Texas":{"2013":64.2,"2014":78.5,"2015":79.5,"2016":79.4,"2017":80.3,"2018":83.4,"2019":75.8,"2021":91.3,"2022":85.6,"2023":91.9},"Bell County, Texas":{"2013":73,"2014":77.6,"2015":75.6,"2016":84.4,"2017":88,"2018":88.4,"2019":88,"2021":90,"2022":89,"2023":92.2},"Bexar County, Texas":{"2013":71.9,"2014":73.1,"2015":74.1,"2016":80.7,"2017":82.2,"2018":83.3,"2019":85.3,"2021":91.8,"2022":92.4,"2023":93.7},"Bowie County, Texas":{"2013":61.5,"2014":63.4,"2015":64.7,"2016":68.2,"2017":70.7,"2018":73.5,"2019":78.6,"2021":78.1,"2022":86.1,"2023":88.4},"Brazoria County, Texas":{"2013":74.9,"2014":79.1,"2015":78.1,"2016":87.4,"2017":88.5,"2018":90.4,"2019":90.7,"2021":93.7,"2022":92.7,"2023":96.3},"Brazos County, Texas":{"2013":70.8,"2014":77,"2015":80.1,"2016":82.1,"2017":82,"2018":83.9,"2019":82.7,"2021":83.8,"2022":86.7,"2023":87.6},"Cameron County, Texas":{"2013":53.7,"2014":52.5,"2015":52,"2016":54.8,"2017":49.9,"2018":56,"2019":71.8,"2021":81.1,"2022":83,"2023":89.1},"Collin County, Texas":{"2013":88,"2014":88.7,"2015":89.2,"2016":92,"2017":93.1,"2018":94.1,"2019":94.4,"2021":96.2,"2022":96.7,"2023":96.7},"Comal County, Texas":{"2013":81.9,"2014":85.3,"2015":86.2,"2016":87.5,"2017":88.3,"2018":90.3,"2019":94.2,"2021":95.6,"2022":94.8,"2023":94.6},"Coryell County, Texas":{"2013":79.8,"2014":80.8,"2015":82,"2016":85.7,"2017":88.7,"2018":85,"2019":86.9,"2021":90.6,"2022":90.6,"2023":91.2},"Dallas County, Texas":{"2013":72.9,"2014":71.8,"2015":73.4,"2016":80.8,"2017":84.1,"2018":82.8,"2019":84.9,"2021":90.8,"2022":92.3,"2023":93.4},"Denton County, Texas":{"2013":87.6,"2014":87,"2015":87,"2016":90.4,"2017":93.7,"2018":93.8,"2019":95.3,"2021":95.5,"2022":96.5,"2023":95.9},"Ector County, Texas":{"2013":75.5,"2014":77.6,"2015":80.7,"2016":82.4,"2017":86.2,"2018":83.2,"2019":78.8,"2021":88.7,"2022":88.5,"2023":85.1},"El Paso County, Texas":{"2013":65.2,"2014":65,"2015":67.9,"2016":79.8,"2017":81.2,"2018":79.9,"2019":84.6,"2021":89.4,"2022":89.6,"2023":89.8},"Ellis County, Texas":{"2013":77.4,"2014":73.4,"2015":74.3,"2016":90,"2017":92.4,"2018":92.5,"2019":90,"2021":92.7,"2022":94.5,"2023":94.8},"Fort Bend County, Texas":{"2013":87.8,"2014":89.2,"2015":90.6,"2016":91.4,"2017":94.2,"2018":93.3,"2019":93.5,"2021":94.8,"2022":95,"2023":96.2},"Galveston County, Texas":{"2013":78.8,"2014":76.7,"2015":79.2,"2016":84.1,"2017":86.9,"2018":88.3,"2019":92,"2021":94.3,"2022":90.4,"2023":94},"Grayson County, Texas":{"2013":68.2,"2014":70.5,"2015":71.4,"2016":76.3,"2017":82,"2018":71.1,"2019":80.5,"2021":90.2,"2022":90.4,"2023":90.9},"Gregg County, Texas":{"2013":69.2,"2014":70.4,"2015":67.3,"2016":80.2,"2017":81.5,"2018":83.1,"2019":87.1,"2021":89.8,"2022":86.1,"2023":88.5},"Guadalupe County, Texas":{"2013":70.3,"2014":76.4,"2015":81.4,"2016":86.2,"2017":87,"2018":88.6,"2019":89.5,"2021":92.4,"2022":95.9,"2023":94.3},"Harris County, Texas":{"2013":74.2,"2014":74.9,"2015":75.7,"2016":82,"2017":85.9,"2018":86.7,"2019":87.9,"2021":89.9,"2022":93.2,"2023":93.1},"Harrison County, Texas":{"2013":64.1,"2014":58.6,"2015":60.8,"2016":68.2,"2017":72.7,"2018":66.5,"2019":73,"2021":81.3,"2022":88,"2023":86.9},"Hays County, Texas":{"2013":77.8,"2014":79.8,"2015":77,"2016":83.8,"2017":84.7,"2018":88.5,"2019":91.5,"2021":93.7,"2022":93.7,"2023":94},"Henderson County, Texas":{"2013":52.8,"2014":63.7,"2015":69.4,"2016":74.4,"2017":78,"2018":80.2,"2019":75.8,"2021":79.1,"2022":89,"2023":85.4},"Hidalgo County, Texas":{"2013":55,"2014":58.6,"2015":60.3,"2016":68.3,"2017":69.8,"2018":69,"2019":73.3,"2021":86,"2022":89.9,"2023":90.2},"Hood County, Texas":{"2022":93.8,"2023":95.7},"Hunt County, Texas":{"2013":64.9,"2014":66,"2015":68.3,"2016":80.5,"2017":79.7,"2018":82.7,"2019":85,"2021":89.7,"2022":84.8,"2023":92},"Jefferson County, Texas":{"2013":66.1,"2014":62.2,"2015":63.2,"2016":65.6,"2017":74.3,"2018":78.8,"2019":86.3,"2021":90.8,"2022":90.3,"2023":90.4},"Johnson County, Texas":{"2013":75.8,"2014":77.2,"2015":77.8,"2016":84.3,"2017":87.3,"2018":90.4,"2019":89.7,"2021":92.3,"2022":91.2,"2023":94},"Kaufman County, Texas":{"2013":69.3,"2014":70.7,"2015":68.8,"2016":82.7,"2017":83.5,"2018":81.1,"2019":85.6,"2021":88.6,"2022":92.5,"2023":92.8},"Liberty County, Texas":{"2013":68.2,"2014":66.3,"2015":76,"2016":73.7,"2017":85,"2018":79,"2019":84,"2021":91.9,"2022":89.4,"2023":87.7},"Lubbock County, Texas":{"2013":73.3,"2014":70,"2015":72.5,"2016":79.6,"2017":80.3,"2018":81.7,"2019":84,"2021":88.3,"2022":88.8,"2023":90.6},"McLennan County, Texas":{"2013":63,"2014":67.2,"2015":68.7,"2016":75,"2017":81.1,"2018":81.2,"2019":84.2,"2021":89.2,"2022":87.2,"2023":90.5},"Midland County, Texas":{"2013":77.1,"2014":82.2,"2015":81.9,"2016":84.5,"2017":86.1,"2018":86.9,"2019":81.9,"2021":92.9,"2022":92.6,"2023":91.8},"Montgomery County, Texas":{"2013":80.1,"2014":80.6,"2015":84,"2016":88.2,"2017":91.6,"2018":91.9,"2019":92.9,"2021":93.4,"2022":95.2,"2023":95.5},"Nacogdoches County, Texas":{"2013":62.1,"2014":69.8,"2015":77.7,"2016":76.1,"2017":79.9,"2018":80.5,"2019":81,"2023":88.7},"Nueces County, Texas":{"2013":70.5,"2014":73.6,"2015":72.5,"2016":81.4,"2017":83.3,"2018":84.1,"2019":86.9,"2021":88.3,"2022":86.5,"2023":91.5},"Orange County, Texas":{"2013":70.5,"2014":68.2,"2015":70.5,"2016":79.6,"2017":82.7,"2018":85.4,"2019":88.9,"2021":92.4,"2022":87.6,"2023":87.3},"Parker County, Texas":{"2013":76.5,"2014":78.7,"2015":80.2,"2016":83.3,"2017":90.5,"2018":85.6,"2019":85.7,"2021":92.9,"2022":95.2,"2023":97.1},"Potter County, Texas":{"2013":63,"2014":62.2,"2015":65.4,"2016":69.5,"2017":76.1,"2018":78,"2019":85.5,"2021":82.9,"2022":87.1,"2023":88},"Randall County, Texas":{"2013":79.7,"2014":81.7,"2015":83,"2016":89.7,"2017":87.4,"2018":91.5,"2019":92.1,"2021":93.5,"2022":91.6,"2023":91.9},"Rockwall County, Texas":{"2013":86.9,"2014":89.4,"2015":90.4,"2016":89.8,"2017":92.4,"2018":96.1,"2019":97.4,"2021":95.6,"2022":97.4,"2023":95.9},"San Patricio County, Texas":{"2013":64.9,"2014":63.6,"2015":67.1,"2016":70.2,"2017":70.3,"2018":76,"2019":76.1,"2021":80.7,"2022":85.2,"2023":87},"Smith County, Texas":{"2013":73.6,"2014":77,"2015":75.4,"2016":76.1,"2017":86.4,"2018":85.1,"2019":82.3,"2021":89.9,"2022":90.9,"2023":92.1},"Starr County, Texas":{"2021":77,"2022":72.2,"2023":87.7},"Tarrant County, Texas":{"2013":78.1,"2014":78.4,"2015":78.8,"2016":86,"2017":88.4,"2018":90.9,"2019":91.1,"2021":92.8,"2022":93.1,"2023":94},"Taylor County, Texas":{"2013":67.3,"2014":74.2,"2015":66.8,"2016":74.7,"2017":75.8,"2018":82.9,"2019":84.8,"2021":89.7,"2022":92.3,"2023":94.2},"Tom Green County, Texas":{"2013":71.6,"2014":68.7,"2015":72,"2016":75.8,"2017":76.8,"2018":79.4,"2019":88.3,"2021":85.6,"2022":88.7,"2023":89.1},"Travis County, Texas":{"2013":82.3,"2014":82.5,"2015":82.7,"2016":86.8,"2017":90,"2018":91.8,"2019":90.5,"2021":94.3,"2022":94.4,"2023":95.3},"Victoria County, Texas":{"2013":67.1,"2014":66.1,"2015":71.1,"2016":70,"2017":71.9,"2018":70,"2019":75.1,"2021":76.8,"2022":83.6,"2023":89.1},"Walker County, Texas":{"2013":69.7,"2014":64.5,"2015":73.3,"2016":84.5,"2017":83.9,"2018":83.5,"2019":83.6,"2021":87.4,"2022":85.4,"2023":83.2},"Webb County, Texas":{"2013":51.8,"2014":56.7,"2015":57.6,"2016":59.5,"2017":63.7,"2018":72,"2019":80.5,"2021":83.5,"2022":86.2,"2023":90.3},"Wichita County, Texas":{"2013":73.3,"2014":66.3,"2015":67.9,"2016":77.1,"2017":76.8,"2018":82.3,"2019":81.9,"2021":87.3,"2022":89,"2023":89.1},"Williamson County, Texas":{"2013":87.7,"2014":87,"2015":89.3,"2016":92.8,"2017":92.1,"2018":93.7,"2019":95.3,"2021":95.4,"2022":95.9,"2023":95.8},"Wise County, Texas":{"2017":77.2,"2018":81.6,"2019":82.5,"2021":90.4,"2022":90.1,"2023":89.3}};
+const ctx = document.getElementById('lineChart').getContext('2d');
+let chart;
+
+function renderChart(data) {
+  const labels = Object.keys(data);
+  const values = Object.values(data);
+
+  if (chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: '% With Internet',
+        data: values,
+        fill: false,
+        borderColor: 'teal',
+        backgroundColor: 'teal',
+        tension: 0.3,
+        pointRadius: 4
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100,
+          title: { display: true, text: '% With Internet' }
+        },
+        x: {
+          title: { display: true, text: 'Year' }
+        }
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function(ctx) {
+              return ctx.parsed.y.toFixed(1) + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('countySelect').addEventListener('change', function() {
+  renderChart(internetData[this.value]);
+});
+renderChart(internetData['Statewide']);</script>
+  </body>
+</html>
+</html>
